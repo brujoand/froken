@@ -64,6 +64,15 @@ uv run pytest
 uv run pre-commit run --all-files
 ```
 
+Running it locally:
+
+```bash
+bin/run_local              # build the image and run it on :8000
+bin/run_local --native     # run from source with reload, no Docker
+bin/run_local --no-build   # reuse the image you already built
+bin/run_local --port 9000
+```
+
 ### Keeping the curriculum current
 
 Udir revises curricula on their own schedule, and a revision **renumbers every

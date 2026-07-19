@@ -1,6 +1,6 @@
 ---
 # Same repos and revs as the sibling repos in this workspace, so Renovate bumps
-# them by the same rules. No bash hooks here -- froken has no shell scripts.
+# them by the same rules.
 default_install_hook_types: [pre-commit, commit-msg]
 
 repos:
@@ -33,6 +33,18 @@ repos:
     rev: v8.28.0
     hooks:
       - id: gitleaks
+
+  - repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.11.0.1
+    hooks:
+      - id: shellcheck
+
+  - repo: https://github.com/scop/pre-commit-shfmt
+    rev: v3.12.0-1
+    hooks:
+      - id: shfmt
+        # -i 2: 2-space indent, -ci: indent case bodies, -s: simplify, -w: write
+        args: [-i, "2", -ci, -s, -w]
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.15.10
