@@ -1,0 +1,116 @@
+{
+  "code": "MOI01-02",
+  "goal_sets": [
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV313",
+      "goals": [
+        {
+          "basic_skills": [],
+          "code": "KM3247",
+          "core_elements": [
+            "KE360",
+            "KE361"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "planlegge, produsere og presentere sammensatte medietekster",
+              "nob": "planlegge, produsere og presentere sammensatte medietekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3248",
+          "core_elements": [
+            "KE360",
+            "KE361"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke ulike virkemidler i utforming av innhold og tilpasse kommunikasjonen til ulike målgrupper i ulike mediekanaler",
+              "nob": "bruke ulike virkemidler i utforming av innhold og tilpasse kommunikasjonen til ulike målgrupper i ulike mediekanaler"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3249",
+          "core_elements": [
+            "KE360",
+            "KE361"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "vise digital dømmekraft og følge regler for ytringsfrihet og personvern i egen medieproduksjon",
+              "nob": "vise digital dømmekraft og følge regler for ytringsfrihet og personvern i egen medieproduksjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3250",
+          "core_elements": [
+            "KE360",
+            "KE361"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "innhente, vurdere og bearbeide relevante kilder i eget arbeid",
+              "nob": "innhente, vurdere og bearbeide relevante kilder i eget arbeid"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3251",
+          "core_elements": [
+            "KE360",
+            "KE361"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "reflektere over hvordan individet og samfunnet påvirkes av kommunikasjon gjennom ulike medier",
+              "nob": "reflektere over hvordan individet og samfunnet påvirkes av kommunikasjon gjennom ulike medier"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering medier og kommunikasjon",
+          "nob": "Kompetansemål og vurdering medier og kommunikasjon"
+        }
+      }
+    }
+  ],
+  "last_modified": "2024-11-07T12:54:24.0042356",
+  "replaced_by": [],
+  "replaces": [
+    "MOI1-01"
+  ],
+  "short_title": {
+    "by_language": {
+      "default": "Medier og kommunikasjon",
+      "nob": "Medier og kommunikasjon"
+    }
+  },
+  "title": {
+    "by_language": {
+      "default": "Læreplan i valgfaget medier og kommunikasjon",
+      "nob": "Læreplan i valgfaget medier og kommunikasjon"
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

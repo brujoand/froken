@@ -1,0 +1,74 @@
+---
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/pre-commit
+          key: pre-commit-${{ hashFiles('.pre-commit-config.yaml') }}
+      # The local hooks shell out to `uv run`, so the project environment has
+      # to exist before pre-commit starts.
+      - run: uv sync --group dev
+      # pre-commit is a mise tool here, not a Python dependency, so `uv run`
+      # cannot find it. uvx fetches it at the version mise pins, keeping CI and
+      # a developer's machine on the same one.
+      - run: uvx pre-commit@4.6.0 run --all-files --show-diff-on-failure
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+      # The ingest group is not needed to run the suite. Network isolation is
+      # enforced by an autouse fixture in conftest.py rather than by dependency
+      # absence -- httpx arrives transitively via Starlette's TestClient either
+      # way, so omitting the group would guarantee nothing on its own.
+      - run: uv sync --group dev
+      - run: uv run pytest -q
+
+  image:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: docker/setup-buildx-action@v3
+      # Build only -- pushing happens on release. This exists so a broken
+      # Dockerfile fails the PR that broke it.
+      - uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: false
+          load: true
+          tags: froken:ci
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+      - name: The container must serve with no configuration at all
+        run: |
+          docker run -d --name froken -p 8000:8000 froken:ci
+          for i in $(seq 1 30); do
+            curl -sf http://localhost:8000/healthz && break
+            sleep 1
+          done
+          curl -sf http://localhost:8000/nb/ > /dev/null
+          curl -sf http://localhost:8000/nb/klasse/2/MAT01-06 > /dev/null
+          docker rm -f froken

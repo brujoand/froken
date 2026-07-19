@@ -1,0 +1,1065 @@
+{
+  "code": "NOR07-02",
+  "goal_sets": [
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "code": "KV99",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM1069",
+          "core_elements": [
+            "KE92"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke ord og uttrykk for å hilse, introdusere seg, be om noe, takke og uttrykke følelser og behov",
+              "nob": "bruke ord og uttrykk for å hilse, introdusere seg, be om noe, takke og uttrykke følelser og behov"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM1096",
+          "core_elements": [
+            "KE92"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke fraser om personlige og hverdagslige emner",
+              "nob": "bruke fraser om personlige og hverdagslige emner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM1097",
+          "core_elements": [
+            "KE92",
+            "KE95"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "forstå og bruke grunnleggende begreper og fagord",
+              "nob": "forstå og bruke grunnleggende begreper og fagord"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM1098",
+          "core_elements": [
+            "KE92"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "delta i enkle samtaler om kjente emner fra hverdagslivet og fra ulike fag med støtte fra kontekst og samtalepartner",
+              "nob": "delta i enkle samtaler om kjente emner fra hverdagslivet og fra ulike fag med støtte fra kontekst og samtalepartner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM1099",
+          "core_elements": [
+            "KE92",
+            "KE93"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "gjenkjenne og utforske norske språklyder og norsk stavelsesstruktur, trykk og intonasjon",
+              "nob": "gjenkjenne og utforske norske språklyder og norsk stavelsesstruktur, trykk og intonasjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM1102",
+          "core_elements": [
+            "KE93"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske grunnleggende mønstre for norsk rettskriving, formverk og setningsstruktur",
+              "nob": "utforske grunnleggende mønstre for norsk rettskriving, formverk og setningsstruktur"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1105",
+          "core_elements": [
+            "KE93"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og bruke strategier som støtter innlæring av språklig innhold, form og bruk i norsk",
+              "nob": "utforske og bruke strategier som støtter innlæring av språklig innhold, form og bruk i norsk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2"
+          ],
+          "code": "KM1100",
+          "core_elements": [
+            "KE95"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke store og små bokstaver",
+              "nob": "bruke store og små bokstaver"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM1101",
+          "core_elements": [
+            "KE94",
+            "KE95"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "knytte bokstaver til lyder og trekke lyder sammen til ord i lesing og skriving",
+              "nob": "knytte bokstaver til lyder og trekke lyder sammen til ord i lesing og skriving"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2"
+          ],
+          "code": "KM1109",
+          "core_elements": [
+            "KE95"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "skrive enkle setninger og tekster",
+              "nob": "skrive enkle setninger og tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM1103",
+          "core_elements": [
+            "KE94"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lese enkle alderstilpassede tekster om kjente temaer og med faglig innhold",
+              "nob": "lese enkle alderstilpassede tekster om kjente temaer og med faglig innhold"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1108",
+          "core_elements": [
+            "KE92",
+            "KE94",
+            "KE95"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "uttale, lese og bruke norske tall",
+              "nob": "uttale, lese og bruke norske tall"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM1104",
+          "core_elements": [
+            "KE93",
+            "KE96"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske ulike digitale ressurser og verktøy i kommunikasjon, og som støtte i språk- og faglæring",
+              "nob": "utforske ulike digitale ressurser og verktøy i kommunikasjon, og som støtte i språk- og faglæring"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1107",
+          "core_elements": [
+            "KE93",
+            "KE97"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "sammenligne ord og uttrykk på norsk med andre språk eleven kjenner",
+              "nob": "sammenligne ord og uttrykk på norsk med andre språk eleven kjenner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM1118",
+          "core_elements": [
+            "KE92",
+            "KE97"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om noen kunst- og kulturuttrykk fra ulike land og kulturer",
+              "nob": "samtale om noen kunst- og kulturuttrykk fra ulike land og kulturer"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering nivå 1",
+          "nob": "Kompetansemål og vurdering nivå 1"
+        }
+      }
+    },
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "code": "KV100",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM1110",
+          "core_elements": [
+            "KE92"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "delta i samtaler om hverdagslige og faglige kjente emner",
+              "nob": "delta i samtaler om hverdagslige og faglige kjente emner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM1111",
+          "core_elements": [
+            "KE92"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "forstå og samtale om hovedinnholdet i muntlige tekster",
+              "nob": "forstå og samtale om hovedinnholdet i muntlige tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM1112",
+          "core_elements": [
+            "KE92"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "uttale ord og setninger på en forståelig måte med funksjonell bruk av trykk og intonasjon",
+              "nob": "uttale ord og setninger på en forståelig måte med funksjonell bruk av trykk og intonasjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM1113",
+          "core_elements": [
+            "KE92",
+            "KE95"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke et egnet ordforråd for kjente faglige emner",
+              "nob": "bruke et egnet ordforråd for kjente faglige emner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM1114",
+          "core_elements": [
+            "KE92",
+            "KE95"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gi uttrykk for egne meninger skriftlig og muntlig",
+              "nob": "gi uttrykk for egne meninger skriftlig og muntlig"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM1116",
+          "core_elements": [
+            "KE93",
+            "KE95"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke grunnleggende regler for norsk rettskriving, formverk og setningsstruktur",
+              "nob": "bruke grunnleggende regler for norsk rettskriving, formverk og setningsstruktur"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1094",
+          "core_elements": [
+            "KE93"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke strategier som støtter innlæring av språklig innhold, form og bruk i norsk",
+              "nob": "bruke strategier som støtter innlæring av språklig innhold, form og bruk i norsk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM1072",
+          "core_elements": [
+            "KE93",
+            "KE97"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke hele sin samlede språkkompetanse i eget læringsarbeid",
+              "nob": "bruke hele sin samlede språkkompetanse i eget læringsarbeid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM1117",
+          "core_elements": [
+            "KE92",
+            "KE94",
+            "KE95"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lese og formidle innholdet i ulike skjønnlitterære og faglige tekster",
+              "nob": "lese og formidle innholdet i ulike skjønnlitterære og faglige tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM1095",
+          "core_elements": [
+            "KE94"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lese enkle tabeller og grafiske framstillinger",
+              "nob": "lese enkle tabeller og grafiske framstillinger"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1071",
+          "core_elements": [
+            "KE92",
+            "KE94",
+            "KE95"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "forstå og bruke tall og grunnleggende matematiske begreper",
+              "nob": "forstå og bruke tall og grunnleggende matematiske begreper"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2"
+          ],
+          "code": "KM1115",
+          "core_elements": [
+            "KE95"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "skrive og strukturere ulike tekster",
+              "nob": "skrive og strukturere ulike tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM1106",
+          "core_elements": [
+            "KE93",
+            "KE95",
+            "KE96"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke digitale ressurser og verktøy i kommunikasjon og læringsarbeid",
+              "nob": "bruke digitale ressurser og verktøy i kommunikasjon og læringsarbeid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM1080",
+          "core_elements": [
+            "KE92",
+            "KE97"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om hvordan språk kan uttrykke og skape holdninger",
+              "nob": "samtale om hvordan språk kan uttrykke og skape holdninger"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM1073",
+          "core_elements": [
+            "KE92",
+            "KE97"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om språklig variasjon og mangfold i Norge",
+              "nob": "samtale om språklig variasjon og mangfold i Norge"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM1070",
+          "core_elements": [
+            "KE95",
+            "KE97"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive kunst- og kulturuttrykk fra ulike land og kulturer og samtale om likheter og forskjeller",
+              "nob": "beskrive kunst- og kulturuttrykk fra ulike land og kulturer og samtale om likheter og forskjeller"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering nivå 2",
+          "nob": "Kompetansemål og vurdering nivå 2"
+        }
+      }
+    },
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "code": "KV101",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM1074",
+          "core_elements": [
+            "KE92"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "snakke norsk med funksjonell uttale",
+              "nob": "snakke norsk med funksjonell uttale"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM1091",
+          "core_elements": [
+            "KE92"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "gjenfortelle hovedinnholdet i muntlige tekster",
+              "nob": "gjenfortelle hovedinnholdet i muntlige tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM1075",
+          "core_elements": [
+            "KE92",
+            "KE95"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "uttrykke seg med sammenheng",
+              "nob": "uttrykke seg med sammenheng"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM1077",
+          "core_elements": [
+            "KE92"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "følge opp og bygge videre på andres samtalebidrag i hverdagslige og faglige samtaler",
+              "nob": "følge opp og bygge videre på andres samtalebidrag i hverdagslige og faglige samtaler"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM1078",
+          "core_elements": [
+            "KE92",
+            "KE95"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke et faglig ordforråd",
+              "nob": "bruke et faglig ordforråd"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM1076",
+          "core_elements": [
+            "KE92",
+            "KE95"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "begrunne og argumentere for egne meninger muntlig og skriftlig",
+              "nob": "begrunne og argumentere for egne meninger muntlig og skriftlig"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM1079",
+          "core_elements": [
+            "KE92",
+            "KE95"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjenkjenne virkemidler i ulike muntlige og skriftlige sjangre",
+              "nob": "gjenkjenne virkemidler i ulike muntlige og skriftlige sjangre"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM1081",
+          "core_elements": [
+            "KE92"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske vanlige former for tvetydig kommunikasjon i norsk",
+              "nob": "utforske vanlige former for tvetydig kommunikasjon i norsk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1092",
+          "core_elements": [
+            "KE93",
+            "KE95"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke sentrale regler for rettskriving, formverk og setningsstruktur",
+              "nob": "bruke sentrale regler for rettskriving, formverk og setningsstruktur"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1093",
+          "core_elements": [
+            "KE93",
+            "KE97"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "reflektere over egen flerspråklighet og dens betydning for egen læring av fag og språk",
+              "nob": "reflektere over egen flerspråklighet og dens betydning for egen læring av fag og språk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1085",
+          "core_elements": [
+            "KE93",
+            "KE95"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over innhold, form og formål i ulike tekster",
+              "nob": "reflektere over innhold, form og formål i ulike tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1087",
+          "core_elements": [
+            "KE93"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke strategier som støtter innlæring av språklig innhold, form og bruk i norsk",
+              "nob": "bruke strategier som støtter innlæring av språklig innhold, form og bruk i norsk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM1083",
+          "core_elements": [
+            "KE94"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "lese for å oppleve, få innsikt og lære",
+              "nob": "lese for å oppleve, få innsikt og lære"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM1084",
+          "core_elements": [
+            "KE94"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lese grafiske framstillinger",
+              "nob": "lese grafiske framstillinger"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2"
+          ],
+          "code": "KM1082",
+          "core_elements": [
+            "KE95"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "skrive tekster i ulike sjangre, med ulikt formål og med ulike uttrykksformer",
+              "nob": "skrive tekster i ulike sjangre, med ulikt formål og med ulike uttrykksformer"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM1086",
+          "core_elements": [
+            "KE93",
+            "KE95",
+            "KE96"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke og vurdere ulike digitale ressurser i kommunikasjon og læringsarbeid",
+              "nob": "bruke og vurdere ulike digitale ressurser i kommunikasjon og læringsarbeid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1088",
+          "core_elements": [
+            "KE97"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "sammenligne humor, ironi og metaforer i ulike språk og kulturer",
+              "nob": "sammenligne humor, ironi og metaforer i ulike språk og kulturer"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1089",
+          "core_elements": [
+            "KE97"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over hvordan språk kan uttrykke og skape holdninger til enkeltindivider og grupper",
+              "nob": "reflektere over hvordan språk kan uttrykke og skape holdninger til enkeltindivider og grupper"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1119",
+          "core_elements": [
+            "KE92"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "samtale om holdninger til ulike språk og talespråksvarianter i Norge",
+              "nob": "samtale om holdninger til ulike språk og talespråksvarianter i Norge"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1090",
+          "core_elements": [
+            "KE95",
+            "KE97"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske et utvalg kunst- og kulturuttrykk fra ulike land og kulturer",
+              "nob": "utforske et utvalg kunst- og kulturuttrykk fra ulike land og kulturer"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering nivå 3",
+          "nob": "Kompetansemål og vurdering nivå 3"
+        }
+      }
+    }
+  ],
+  "last_modified": "2023-06-14T09:17:59.2321121",
+  "replaced_by": [],
+  "replaces": [
+    "NOR7-01"
+  ],
+  "short_title": {
+    "by_language": {
+      "default": "Grunnleggende norsk",
+      "nob": "Grunnleggende norsk"
+    }
+  },
+  "title": {
+    "by_language": {
+      "default": "Læreplan i grunnleggende norsk for språklige minoriteter",
+      "nob": "Læreplan i grunnleggende norsk for språklige minoriteter"
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

@@ -1,0 +1,757 @@
+{
+  "code": "MUS01-03",
+  "goal_sets": [
+    {
+      "after_year": 2,
+      "applies_to_years": [
+        1,
+        2
+      ],
+      "code": "KV1063",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4"
+          ],
+          "code": "KM13712",
+          "core_elements": [
+            "KE1790",
+            "KE1792",
+            "KE1793"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utøve et repertoar av sangleker, sanger og danser hentet fra elevenes nære musikkultur og fra kulturarven",
+              "eng": "perform a repertoire of singing games, songs and dances from the pupils' local music culture and from cultural heritage",
+              "nno": "utøve eit repertoar av songleikar, songar og dansar henta frå den nære musikkulturen til elevane og frå kulturarven",
+              "nob": "utøve et repertoar av sangleker, sanger og danser hentet fra elevenes nære musikkultur og fra kulturarven"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4"
+          ],
+          "code": "KM13714",
+          "core_elements": [
+            "KE1790",
+            "KE1792"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og eksperimentere med puls, rytme, tempo, klang, melodi, dynamikk, harmoni og form i dans, med stemmen og i spill på instrumenter",
+              "eng": "explore and experiment with beat, rhythm, tempo, sound, melody, dynamics, harmony and form in dance, vocals and in playing instruments",
+              "nno": "utforske og eksperimentere med puls, rytme, tempo, klang, melodi, dynamikk, harmoni og form i dans, med stemmen og i spel på instrument",
+              "nob": "utforske og eksperimentere med puls, rytme, tempo, klang, melodi, dynamikk, harmoni og form i dans, med stemmen og i spill på instrumenter"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13713",
+          "core_elements": [
+            "KE1791",
+            "KE1792"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "leke med musikkens grunnelementer gjennom lyd og stemme, lage mønstre og sette sammen mønstrene til enkle improvisasjoner og komposisjoner, også med digitale verktøy",
+              "eng": "play with the basic elements of music through sound and voice, make patterns and combine the patterns into simple improvisations and compositions, also with digital tools",
+              "nno": "leike med grunnelementa i musikken gjennom lyd og stemme, lage mønster og setje saman mønstra til enkle improvisasjonar og komposisjonar, òg med digitale verktøy",
+              "nob": "leke med musikkens grunnelementer gjennom lyd og stemme, lage mønstre og sette sammen mønstrene til enkle improvisasjoner og komposisjoner, også med digitale verktøy"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13715",
+          "core_elements": [
+            "KE1790",
+            "KE1791",
+            "KE1792",
+            "KE1793"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "formidle opplevelser av ulike musikalske uttrykk gjennom samtale og kunstneriske uttrykksformer",
+              "eng": "present perceptions of different musical expressions through talking and through artistic expressions",
+              "nno": "formidle opplevingar av ulike musikalske uttrykk gjennom samtale og kunstnarlege uttrykksformer",
+              "nob": "formidle opplevelser av ulike musikalske uttrykk gjennom samtale og kunstneriske uttrykksformer"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 2. trinn",
+          "eng": "Competence aims and assessment Year 2",
+          "nno": "Kompetansemål og vurdering 2. trinn",
+          "nob": "Kompetansemål og vurdering 2. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 4,
+      "applies_to_years": [
+        3,
+        4
+      ],
+      "code": "KV1064",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13716",
+          "core_elements": [
+            "KE1790",
+            "KE1792",
+            "KE1793"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utøve og utforske et repertoar av sanger og danser fra ulike musikkulturer, inkludert samisk musikkultur",
+              "eng": "perform and explore a repertoire of songs and dances from different music cultures, including Saami music culture",
+              "nno": "utøve og utforske eit repertoar av songar og dansar frå ulike musikkulturar, inkludert samisk musikkultur",
+              "nob": "utøve og utforske et repertoar av sanger og danser fra ulike musikkulturer, inkludert samisk musikkultur"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13718",
+          "core_elements": [
+            "KE1790",
+            "KE1792"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "synge og spille på instrumenter alene og sammen med andre ved bruk av gehør og enkel notasjon",
+              "eng": "sing and play instruments alone and together with others by ear and using simple notation",
+              "nno": "synge og spele på instrument åleine og saman med andre ved bruk av gehør og enkel notasjon",
+              "nob": "synge og spille på instrumenter alene og sammen med andre ved bruk av gehør og enkel notasjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13717",
+          "core_elements": [
+            "KE1790",
+            "KE1791",
+            "KE1792"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "eksperimentere med rytmer, melodier og andre grunnelementer, sette sammen mønstre til komposisjoner, også ved bruk av digitale verktøy, og beskrive arbeidsprosesser og resultater",
+              "eng": "experiment with rhythms, melodies and other basic elements, assemble patterns into compositions, including using digital tools, and describe the work processes and results",
+              "nno": "eksperimenter med rytmar, melodiar og andre grunnelement, setje saman mønster til komposisjonar, òg ved bruk av digitale verktøy, og beskrive arbeidsprosessar og resultat",
+              "nob": "eksperimentere med rytmer, melodier og andre grunnelementer, sette sammen mønstre til komposisjoner, også ved bruk av digitale verktøy, og beskrive arbeidsprosesser og resultater"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13719",
+          "core_elements": [
+            "KE1790",
+            "KE1792",
+            "KE1793"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "formidle egne musikkopplevelser og beskrive bruk av musikalske virkemidler ved hjelp av enkle fagbegreper",
+              "eng": "present one’s own musical experiences and describe the use of musical techniques by means of simple subject-related terms",
+              "nno": "formidle eigne musikkopplevingar og beskriver bruk av musikalske verkemiddel ved hjelp av enkle fagomgrep",
+              "nob": "formidle egne musikkopplevelser og beskrive bruk av musikalske virkemidler ved hjelp av enkle fagbegreper"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13720",
+          "core_elements": [
+            "KE1792",
+            "KE1793"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om og reflektere over hvordan musikk skaper mening når den brukes i ulike sosiale sammenhenger",
+              "eng": "talk about and reflect on how music creates meaning when used in different contexts",
+              "nno": "samtale om og reflektere over korleis musikk skaper stemning når han blir brukt i ulike sosiale samanhengar",
+              "nob": "samtale om og reflektere over hvordan musikk skaper mening når den brukes i ulike sosiale sammenhenger"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 4. trinn",
+          "eng": "Competence aims and assessment Year 4",
+          "nno": "Kompetansemål og vurdering 4. trinn",
+          "nob": "Kompetansemål og vurdering 4. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 7,
+      "applies_to_years": [
+        5,
+        6,
+        7
+      ],
+      "code": "KV1065",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13721",
+          "core_elements": [
+            "KE1790",
+            "KE1792",
+            "KE1793"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utøve et repertoar av musikk, sang, andre vokale uttrykk og dans fra samtiden og historien",
+              "eng": "perform a repertoire of music, songs, other vocal expressions and dance from the contemporary period and from past times",
+              "nno": "utøve eit repertoar av musikk, song, andre vokale uttrykk og dans frå samtida og historia",
+              "nob": "utøve et repertoar av musikk, sang, andre vokale uttrykk og dans fra samtiden og historien"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13725",
+          "core_elements": [
+            "KE1790",
+            "KE1792",
+            "KE1793"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og drøfte hvordan musikk fra fortiden påvirker dagens musikk",
+              "eng": "explore and discuss how music from the past affects today's music",
+              "nno": "utforske og drøfte korleis musikk frå fortida påverkar musikken i dag",
+              "nob": "utforske og drøfte hvordan musikk fra fortiden påvirker dagens musikk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM13723",
+          "core_elements": [
+            "KE1790",
+            "KE1792"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "øve inn og framføre sang og musikk, i samspill eller individuelt, gehørbasert og ved bruk av enkle notasjonsteknikker",
+              "eng": "rehearse and perform songs and music, together or alone, by ear and using simple notation techniques",
+              "nno": "øve inn og framføre song og musikk, i samspel eller individuelt, gehørbasert og ved bruk av enkle notasjonsteknikkar",
+              "nob": "øve inn og framføre sang og musikk, i samspill eller individuelt, gehørbasert og ved bruk av enkle notasjonsteknikker"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13722",
+          "core_elements": [
+            "KE1790",
+            "KE1791",
+            "KE1792"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lytte, eksperimentere og skape nye uttrykk med instrumenter, kropp, stemme eller lyd fra andre kilder, og presentere resultatet",
+              "eng": "listen to, experiment and create new expressions with instruments, body, voice or sounds from other sources, and present the result",
+              "nno": "lytte, eksperimentere og skape nye uttrykk med instrument, kropp, stemme eller lyd frå andre kjelder, og presentere resultatet",
+              "nob": "lytte, eksperimentere og skape nye uttrykk med instrumenter, kropp, stemme eller lyd fra andre kilder, og presentere resultatet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13728",
+          "core_elements": [
+            "KE1790",
+            "KE1791",
+            "KE1792"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke teknologi og digitale verktøy til å skape, øve inn og bearbeide musikk",
+              "eng": "use technology and digital tools to create, rehearse and process music",
+              "nno": "bruke teknologi og digitale verktøy til å skape, øve inn og arbeide vidare med musikk",
+              "nob": "bruke teknologi og digitale verktøy til å skape, øve inn og bearbeide musikk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13729",
+          "core_elements": [
+            "KE1790",
+            "KE1791",
+            "KE1792",
+            "KE1793"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke fagbegreper i beskrivelse av og refleksjon over arbeidsprosesser, resultater, musikalske uttrykk og virkemidler",
+              "eng": "use subject-related terms in the description of and reflection on work processes, results, musical expressions and techniques",
+              "nno": "bruke fagomgrep i beskriving av og refleksjon over arbeidsprosessar, resultat, musikalske uttrykk og verkemiddel",
+              "nob": "bruke fagbegreper i beskrivelse av og refleksjon over arbeidsprosesser, resultater, musikalske uttrykk og virkemidler"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13726",
+          "core_elements": [
+            "KE1790",
+            "KE1792",
+            "KE1793"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og formidle musikalske opplevelser og erfaringer",
+              "eng": "explore and present musical experiences and perceptions",
+              "nno": "utforske og formidle musikalske opplevingar og erfaringar",
+              "nob": "utforske og formidle musikalske opplevelser og erfaringer"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13727",
+          "core_elements": [
+            "KE1790",
+            "KE1791",
+            "KE1792",
+            "KE1793"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "undersøke hvordan kjønn, kjønnsroller og seksualitet fremstilles i musikk og dans i det offentlige rom, og skape uttrykk som utfordrer stereotypier",
+              "eng": "investigate how gender, gender roles and sexuality are presented in music and dance in the public sphere, and create expressions that challenge stereotypes",
+              "nno": "undersøkje korleis kjønn, kjønnsroller og seksualitet blir framstilt i musikk og dans i det offentlege rommet, og skape uttrykk som utfordrar stereotypiar",
+              "nob": "undersøke hvordan kjønn, kjønnsroller og seksualitet fremstilles i musikk og dans i det offentlige rom, og skape uttrykk som utfordrer stereotypier"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM13724",
+          "core_elements": [
+            "KE1792",
+            "KE1793"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over hvordan musikk kan spille ulike roller for utvikling av individer og gruppers identitet",
+              "eng": "reflect on how music can play different roles in developing the identity of individuals and groups",
+              "nno": "reflektere over korleis musikk kan spele ulike roller for utvikling av identiteten til individ og grupper",
+              "nob": "reflektere over hvordan musikk kan spille ulike roller for utvikling av individer og gruppers identitet"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 7.trinn",
+          "eng": "Competence aims and assessment Year 7",
+          "nno": "Kompetansemål og vurdering 7. trinn",
+          "nob": "Kompetansemål og vurdering 7.trinn"
+        }
+      }
+    },
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV1066",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13730",
+          "core_elements": [
+            "KE1790",
+            "KE1792",
+            "KE1793"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utøve et variert repertoar av musikk, sang, andre vokale uttrykk og dans",
+              "eng": "perform a varied repertoire of music, singing and other vocal expressions and dance",
+              "nno": "utøve eit variert repertoar av musikk, song, andre vokale uttrykk og dans",
+              "nob": "utøve et variert repertoar av musikk, sang, andre vokale uttrykk og dans"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13735",
+          "core_elements": [
+            "KE1792",
+            "KE1793"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over hvordan musikalske tradisjoner, inkludert samiske musikktradisjoner, bevares og fornyes",
+              "eng": "reflect on how musical traditions, including Sami traditions, are preserved and renewed",
+              "nno": "reflektere over korleis musikalske tradisjonar, inkludert samiske musikktradisjonar, blir bevarte og fornya",
+              "nob": "reflektere over hvordan musikalske tradisjoner, inkludert samiske musikktradisjoner, bevares og fornyes"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13732",
+          "core_elements": [
+            "KE1790",
+            "KE1792"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samarbeide med andre om å planlegge og gjennomføre øvingsprosesser hvor det inngår selvvalgt sang, andre vokale uttrykk, spill på instrumenter eller dans, og formidle resultatet i gruppe eller individuelt",
+              "eng": "collaborate with others on planning and carrying out rehearsal processes, with self-chosen singing, other vocal expressions, playing instruments or dancing, and present the result in a group or individually",
+              "nno": "samarbeide med andre om å planleggje og gjennomføre øvingsprosessar kor det inngår sjølvvald song, andre vokale uttrykk, spel på instrument eller dans, og formidle resultatet i gruppe eller individuelt",
+              "nob": "samarbeide med andre om å planlegge og gjennomføre øvingsprosesser hvor det inngår selvvalgt sang, andre vokale uttrykk, spill på instrumenter eller dans, og formidle resultatet i gruppe eller individuelt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13731",
+          "core_elements": [
+            "KE1790",
+            "KE1791",
+            "KE1792"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "skape og programmere musikalske forløp ved å eksperimentere med lyd fra ulike kilder",
+              "eng": "create and programme musical sequences by experimenting with sound from different sources",
+              "nno": "skape og programmere musikalske forløp ved å eksperimentere med lyd frå ulike kjelder",
+              "nob": "skape og programmere musikalske forløp ved å eksperimentere med lyd fra ulike kilder"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13736",
+          "core_elements": [
+            "KE1790",
+            "KE1792",
+            "KE1793"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og formidle musikalske opplevelser og erfaringer, og reflektere over bruk av musikalske virkemidler",
+              "eng": "explore and present musical perceptions and experiences, and reflect on the use of musical techniques",
+              "nno": "utforske og formidle musikalske opplevingar og erfaringar, og reflektere over bruk av musikalske verkemiddel",
+              "nob": "utforske og formidle musikalske opplevelser og erfaringer, og reflektere over bruk av musikalske virkemidler"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13737",
+          "core_elements": [
+            "KE1790",
+            "KE1791",
+            "KE1792"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lytte og prøve ut ulike uttrykk og begrunne valg i skapende prosesser fra idé til ferdig resultat",
+              "eng": "listen to and experiment with different expressions and give grounds for choices in creative processes from idea to finished result",
+              "nno": "lytte og prøve ut ulike uttrykk og grunngi val i skapande prosessar frå idé til ferdig resultat",
+              "nob": "lytte og prøve ut ulike uttrykk og begrunne valg i skapende prosesser fra idé til ferdig resultat"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13738",
+          "core_elements": [
+            "KE1790",
+            "KE1791"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke gehør og notasjonsteknikker som støtte i skapende arbeid",
+              "eng": "use ear and notation techniques as support in creative work",
+              "nno": "bruke gehør og notasjonsteknikkar som støtte i skapande arbeid",
+              "nob": "bruke gehør og notasjonsteknikker som støtte i skapende arbeid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13734",
+          "core_elements": [
+            "KE1790",
+            "KE1791",
+            "KE1792"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke relevante fagbegreper i skapende arbeid og i refleksjon over prosesser og resultater",
+              "eng": "use subject-related terms in creative work and in reflection on processes and results",
+              "nno": "bruke relevante fagomgrep i skapande arbeid og i refleksjon over prosessar og resultat",
+              "nob": "bruke relevante fagbegreper i skapende arbeid og i refleksjon over prosesser og resultater"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13733",
+          "core_elements": [
+            "KE1790",
+            "KE1791",
+            "KE1792",
+            "KE1793"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og reflektere over hvordan musikk, sang og dans som estetiske uttrykk er påvirket av og uttrykk for historiske og samfunnsmessige forhold, og skape musikalske uttrykk som tar opp utfordringer i samtiden",
+              "eng": "explore and reflect on how music, singing and dance as aesthetic expressions are influenced by and are expressions of historical and social circumstances, and create musical expressions that address contemporary challenges",
+              "nno": "utforske og reflektere over korleis musikk, song og dans som estetiske uttrykk er påverka av og uttrykk for historiske og samfunnsmessige forhold, og skape musikalske uttrykk som tek opp utfordringar i samtida",
+              "nob": "utforske og reflektere over hvordan musikk, sang og dans som estetiske uttrykk er påvirket av og uttrykk for historiske og samfunnsmessige forhold, og skape musikalske uttrykk som tar opp utfordringer i samtiden"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM13739",
+          "core_elements": [
+            "KE1792",
+            "KE1793"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og drøfte musikkens og dansens betydning i samfunnet og etiske problemstillinger knyttet til musikalske ytringer og musikkulturer",
+              "eng": "explore and discuss the importance of music and dance in society and ethical issues relating to musical utterances and music cultures",
+              "nno": "utforske og drøfte kva betydning musikken og dansen har i samfunnet, og etiske problemstillingar knytte til musikalske ytringar og musikkulturar",
+              "nob": "utforske og drøfte musikkens og dansens betydning i samfunnet og etiske problemstillinger knyttet til musikalske ytringer og musikkulturer"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 10. trinn",
+          "eng": "Competence aims and assessment Year 10",
+          "nno": "Kompetansemål og vurdering 10. trinn",
+          "nob": "Kompetansemål og vurdering 10. trinn"
+        }
+      }
+    }
+  ],
+  "last_modified": "2026-07-09T12:17:38.7183098",
+  "replaced_by": [],
+  "replaces": [
+    "MUS01-02"
+  ],
+  "short_title": {
+    "by_language": {
+      "default": "Musikk",
+      "eng": "Music",
+      "nno": "Musikk",
+      "nob": "Musikk"
+    }
+  },
+  "title": {
+    "by_language": {
+      "default": "Læreplan i musikk",
+      "eng": "Curriculum for Music",
+      "nno": "Læreplan i musikk",
+      "nob": "Læreplan i musikk"
+    }
+  },
+  "valid_from": "2026-08-01",
+  "valid_to": null
+}

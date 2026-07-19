@@ -1,0 +1,85 @@
+# Mirrors nb.yaml key for key. The i18n-key-parity check enforces it.
+---
+site:
+  name: Frøken
+  tagline: What should you know in Norwegian school?
+  description: >-
+    Competence goals from the national curriculum, and quizzes to practise them.
+
+nav:
+  home: Home
+  language: Language
+  about: About Frøken
+
+home:
+  heading: Which year are you in?
+  intro: >-
+    Pick a year group to see what you should know, and try a quiz.
+  grade: "Year {grade}"
+
+grade:
+  heading: "Year {grade}"
+  subjects_heading: Subjects
+  goal_count: "{count} competence goals"
+  no_subjects: We have no content for this year group yet.
+
+subject:
+  mastery_now: What you should know by the end of year {year}
+  working_towards: What you are working towards by year {year}
+  working_towards_note: >-
+    You are in year {grade}, and the goals below apply through to the end of
+    year {year}. You are not expected to know all of it yet.
+  goals_heading: Competence goals
+  source_link: View this goal at Udir
+  quiz_cta: Take the quiz
+  quiz_unavailable: A quiz for this subject is coming soon.
+
+curriculum:
+  verbatim_note: >-
+    The text below is reproduced verbatim from the national curriculum.
+  attribution: >-
+    Contains data under NLOD, made available on data.udir.no.
+  nynorsk_notice: >-
+    This subject is established in nynorsk, and is shown in nynorsk.
+
+disclaimer:
+  short: Frøken is an unofficial study aid, not an assessment tool.
+  long: >-
+    Frøken is built for practice, not assessment. Passing a quiz here does not
+    mean you pass a year group, and getting answers wrong does not mean you
+    fail one. Frøken is not affiliated with Utdanningsdirektoratet.
+
+footer:
+  source: Source
+  licence: Licence
+  code: Source code
+
+quiz:
+  start: Take the quiz
+  intro: "{count} questions from this checkpoint. Each answer is explained as you go."
+  progress: Question {number} of {total}
+  check: Check answer
+  next: Next question
+  see_result: See the result
+  your_answer: You answered
+  correct_answer: Correct answer
+  correct: Correct!
+  incorrect: Not quite.
+  numeric_placeholder: Type a number
+  text_placeholder: Type your answer
+  authored_note: >-
+    These questions were written by Frøken; they are not taken from the
+    curriculum.
+
+result:
+  heading: How it went
+  score: You got {correct} out of {total} right.
+  passed: Well done! You have a good grip on this checkpoint.
+  not_passed: Good effort! There is a bit more to practise here.
+  not_a_verdict: >-
+    This is practice, not assessment. The result only says how these questions
+    went today.
+  strong_heading: You have got this
+  practice_heading: Worth practising more
+  try_again: Try again
+  back_to_subject: Back to the subject

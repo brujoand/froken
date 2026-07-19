@@ -1,0 +1,99 @@
+{
+  "code": "FIP01-02",
+  "goal_sets": [
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV302",
+      "goals": [
+        {
+          "basic_skills": [],
+          "code": "KM3195",
+          "core_elements": [
+            "KE336"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og drøfte egne og andres ideer og problemstillinger, og formulere spørsmål og hypoteser som grunnlag for videre undersøkelser",
+              "nob": "utforske og drøfte egne og andres ideer og problemstillinger, og formulere spørsmål og hypoteser som grunnlag for videre undersøkelser"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3196",
+          "core_elements": [
+            "KE335",
+            "KE336"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "planlegge, gjennomføre og presentere vitenskapelige undersøkelser basert på egne ideer eller interesser, og drøfte resultater fra undersøkelser",
+              "nob": "planlegge, gjennomføre og presentere vitenskapelige undersøkelser basert på egne ideer eller interesser, og drøfte resultater fra undersøkelser"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3198",
+          "core_elements": [
+            "KE335",
+            "KE336"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "velge og bruke relevante forskningsmetoder og verktøy i gjennomføring av eget utforskingsarbeid",
+              "nob": "velge og bruke relevante forskningsmetoder og verktøy i gjennomføring av eget utforskingsarbeid"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3197",
+          "core_elements": [
+            "KE335"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bearbeide, analysere og kritisk granske innhentede data alene og sammen med andre",
+              "nob": "bearbeide, analysere og kritisk granske innhentede data alene og sammen med andre"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering ideer og praktisk forskning",
+          "nob": "Kompetansemål og vurdering ideer og praktisk forskning"
+        }
+      }
+    }
+  ],
+  "last_modified": "2024-11-07T12:56:06.5674691",
+  "replaced_by": [],
+  "replaces": [
+    "FIP1-01"
+  ],
+  "short_title": {
+    "by_language": {
+      "default": "Ideer og praktisk forskning",
+      "nob": "Ideer og praktisk forskning"
+    }
+  },
+  "title": {
+    "by_language": {
+      "default": "Læreplan i valgfaget ideer og praktisk forskning",
+      "nob": "Læreplan i valgfaget ideer og praktisk forskning"
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

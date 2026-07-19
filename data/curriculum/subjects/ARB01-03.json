@@ -1,0 +1,196 @@
+{
+  "code": "ARB01-03",
+  "goal_sets": [
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV107",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM1170",
+          "core_elements": [
+            "KE103"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "undersøke behov for varer og tjenester på skolen og i lokalsamfunnet",
+              "nob": "undersøke behov for varer og tjenester på skolen og i lokalsamfunnet",
+              "sme": "suokkardit gálvo- ja bálvalusdárbbuid skuvllas ja báikegottis"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM1176",
+          "core_elements": [
+            "KE103"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "planlegge praktiske og yrkesrettede arbeidsoppdrag",
+              "nob": "planlegge praktiske og yrkesrettede arbeidsoppdrag",
+              "sme": "plánet praktihkalaš ja fidnolaš bargogohččumiid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1171",
+          "core_elements": [
+            "KE103"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "produsere og levere varer og tjenester etter kvalitetskrav",
+              "nob": "produsere og levere varer og tjenester etter kvalitetskrav",
+              "sme": "buvttadit ja lágidit gálvvuid ja bálvalusaid mat devdet kvalitehtagáibádusaid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF5"
+          ],
+          "code": "KM1174",
+          "core_elements": [
+            "KE103"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke fagbegreper, arbeidsmetoder, verktøy, materialer og teknologi tilpasset arbeidsoppdrag og begrunne valg",
+              "nob": "bruke fagbegreper, arbeidsmetoder, verktøy, materialer og teknologi tilpasset arbeidsoppdrag og begrunne valg",
+              "sme": "geavahit fágadoahpagiid, bargovugiid, neavvuid, ávdnasiid ja teknologiija mii lea heivehuvvon bargogohččumii ja vuođuštit válljejumiid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM1169",
+          "core_elements": [
+            "KE104"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "samarbeide, fremme forslag og delta i beslutninger i et arbeidsfellesskap",
+              "nob": "samarbeide, fremme forslag og delta i beslutninger i et arbeidsfellesskap",
+              "sme": "ovttasbargat, evttohit árvalusaid ja searvat mearrádusaide bargosearvevuođas"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1172",
+          "core_elements": [
+            "KE103"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "ivareta bærekraftige prinsipper i alle deler av arbeidsoppdraget",
+              "nob": "ivareta bærekraftige prinsipper i alle deler av arbeidsoppdraget",
+              "sme": "bearráigeahččat guoddevaš prinsihpaid buot osiin bargogohččumis"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM1173",
+          "core_elements": [
+            "KE104"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "beskrive og vurdere risiko, og følge etiske retningslinjer og arbeidslivets regler i arbeidsoppdraget",
+              "nob": "beskrive og vurdere risiko, og følge etiske retningslinjer og arbeidslivets regler i arbeidsoppdraget",
+              "sme": "válddahit ja árvvoštallat riskka, ja čuovvut ehtalaš njuolggadusaid ja bargoeallima njuolggadusaid bargogohččumis"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM1175",
+          "core_elements": [
+            "KE104"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "vurdere sin egen og gruppens arbeidsinnsats, arbeidsprosess og arbeidsoppdragets resultat",
+              "nob": "vurdere sin egen og gruppens arbeidsinnsats, arbeidsprosess og arbeidsoppdragets resultat",
+              "sme": "árvvoštallat iežas ja joavkku barggu, bargoproseassa ja bargogohččuma bohtosa"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Arbeidslivsfag",
+          "nob": "Arbeidslivsfag",
+          "sme": "Bargoeallinfága"
+        }
+      }
+    }
+  ],
+  "last_modified": "2022-04-22T13:29:37.422922",
+  "replaced_by": [],
+  "replaces": [
+    "ARB1-02"
+  ],
+  "short_title": {
+    "by_language": {
+      "default": "Arbeidslivsfag",
+      "nob": "Arbeidslivsfag",
+      "sme": "Bargoeallinfága"
+    }
+  },
+  "title": {
+    "by_language": {
+      "default": "Læreplan for arbeidslivsfag på ungdomstrinnet",
+      "nob": "Læreplan for arbeidslivsfag på ungdomstrinnet",
+      "sme": "Bargoeallinfága oahppoplána nuoraidceahkis"
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

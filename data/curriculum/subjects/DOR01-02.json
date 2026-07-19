@@ -1,0 +1,99 @@
+{
+  "code": "DOR01-02",
+  "goal_sets": [
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV308",
+      "goals": [
+        {
+          "basic_skills": [],
+          "code": "KM3227",
+          "core_elements": [
+            "KE349"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utarbeide ideer og løsningsalternativer og videreutvikle dem til egne produkter",
+              "nob": "utarbeide ideer og løsningsalternativer og videreutvikle dem til egne produkter"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3228",
+          "core_elements": [
+            "KE349"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og diskutere eksisterende produkters design og materialer i et livssyklusperspektiv",
+              "nob": "utforske og diskutere eksisterende produkters design og materialer i et livssyklusperspektiv"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3229",
+          "core_elements": [
+            "KE349",
+            "KE350"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "designe og redesigne i ulike materialer på en kostnadseffektiv og miljøbesparende måte",
+              "nob": "designe og redesigne i ulike materialer på en kostnadseffektiv og miljøbesparende måte"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3230",
+          "core_elements": [
+            "KE349",
+            "KE350"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke egnede design- og håndverksteknikker og verktøy til å utforme produkter i ulike materialer",
+              "nob": "bruke egnede design- og håndverksteknikker og verktøy til å utforme produkter i ulike materialer"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering design og redesign",
+          "nob": "Kompetansemål og vurdering design og redesign"
+        }
+      }
+    }
+  ],
+  "last_modified": "2024-11-07T12:56:52.9560243",
+  "replaced_by": [],
+  "replaces": [
+    "DOR1-01"
+  ],
+  "short_title": {
+    "by_language": {
+      "default": "Design og redesign",
+      "nob": "Design og redesign"
+    }
+  },
+  "title": {
+    "by_language": {
+      "default": "Læreplan i valgfaget design og redesign",
+      "nob": "Læreplan i valgfaget design og redesign"
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

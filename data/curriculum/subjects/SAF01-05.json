@@ -1,0 +1,1515 @@
+{
+  "code": "SAF01-05",
+  "goal_sets": [
+    {
+      "after_year": 2,
+      "applies_to_years": [
+        1,
+        2
+      ],
+      "code": "KV1152",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14717",
+          "core_elements": [
+            "KE1846",
+            "KE1847"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utvikle og presentere samfunnsfaglege spørsmål",
+              "eng": "develop and present social-studies issues",
+              "nno": "utvikle og presentere samfunnsfaglege spørsmål",
+              "nob": "utvikle og presentere samfunnsfaglige spørsmål"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM14718",
+          "core_elements": [
+            "KE1846",
+            "KE1847"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "samtale om korleis ulike kjelder, inkludert kart, kan gi informasjon om samfunnsfaglege spørsmål",
+              "eng": "talk about how different sources, including maps, can provide information about social-studies issues",
+              "nno": "samtale om korleis ulike kjelder, inkludert kart, kan gi informasjon om samfunnsfaglege spørsmål",
+              "nob": "samtale om hvordan ulike kilder, inkludert kart, kan gi informasjon om samfunnsfaglige spørsmål"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM14719",
+          "core_elements": [
+            "KE1847",
+            "KE1849"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og beskrive kulturminne og kultur- og naturlandskapet i nærmiljøet",
+              "eng": "explore and describe the cultural heritage and cultural and natural landscape of the local community",
+              "nno": "utforske og beskrive kulturminne og kultur- og naturlandskapet i nærmiljøet",
+              "nob": "utforske og beskrive kulturminner og kultur- og naturlandskapet i nærmiljøet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM14720",
+          "core_elements": [
+            "KE1847",
+            "KE1849",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og presentere korleis menneska levde for éin til to menneskealdrar sidan",
+              "eng": "explore and present the ways in which people lived one to two generations ago",
+              "nno": "utforske og presentere korleis menneska levde for éin til to menneskealdrar sidan",
+              "nob": "utforske og presentere hvordan mennesker levde for én til to menneskealdre siden"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14721",
+          "core_elements": [
+            "KE1847",
+            "KE1848",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over kvifor menneske har ulike meiningar og tek ulike val",
+              "eng": "reflect on why people have different opinions and make different choices",
+              "nno": "reflektere over kvifor menneske har ulike meiningar og tek ulike val",
+              "nob": "reflektere over hvorfor mennesker har ulike meninger og tar ulike valg"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14722",
+          "core_elements": [
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om vennskap og tilhøyrsle og kva som påverkar relasjonar",
+              "eng": "talk about friendship and belonging and what can have an impact on relations",
+              "nno": "samtale om vennskap og tilhøyrsle og kva som påverkar relasjonar",
+              "nob": "samtale om vennskap, tilhørighet og hva som påvirker relasjoner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14728",
+          "core_elements": [
+            "KE1848",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive og gi døme på mangfald i Noreg, med vekt på ulike familieformer og folkegrupper, inkludert det samiske urfolket",
+              "eng": "describe and give examples of diversity in Norway, with an emphasis on different types of families and communities, including the indigenous Sami people",
+              "nno": "beskrive og gi døme på mangfald i Noreg, med vekt på ulike familieformer og folkegrupper, inkludert det samiske urfolket",
+              "nob": "beskrive og gi eksempler på mangfold i Norge, med vekt på ulike familieformer og folkegrupper, inkludert det samiske urfolket"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14723",
+          "core_elements": [
+            "KE1846",
+            "KE1847",
+            "KE1849"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og gi døme på korleis menneska påverkar klimaet og miljøet, og dokumentere korleis påverknadene kjem til syne i nærmiljøet",
+              "eng": "explore and give examples of how people have impact on the climate and the environment, and document how this can be seen in the local community",
+              "nno": "utforske og gi døme på korleis menneska påverkar klimaet og miljøet, og dokumentere korleis påverknadene kjem til syne i nærmiljøet",
+              "nob": "utforske og gi eksempler på hvordan mennesker påvirker klima og miljø, og dokumentere hvordan påvirkningene kommer til syne i nærmiljøet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14724",
+          "core_elements": [
+            "KE1847",
+            "KE1848",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "presentere og gi døme på rettar barn har i Noreg og verda, og kva barn kan gjere ved brot på desse rettane",
+              "eng": "present and give examples of children’s rights in Norway and in the world, and what children can do when these rights are violated",
+              "nno": "presentere og gi døme på rettar barn har i Noreg og verda, og kva barn kan gjere ved brot på desse rettane",
+              "nob": "presentere og gi eksempler på rettigheter barn har i Norge og verden, og hva barn kan gjøre ved brudd på disse rettighetene"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4"
+          ],
+          "code": "KM14725",
+          "core_elements": [
+            "KE1846",
+            "KE1847",
+            "KE1848"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og gi døme på korleis barn kan påverke avgjerder og samarbeide om demokratiske prosessar",
+              "eng": "explore and give examples of how children can have an effect on decisions and collaborate on democratic processes",
+              "nno": "utforske og gi døme på korleis barn kan påverke avgjerder og samarbeide om demokratiske prosessar",
+              "nob": "utforske og gi eksempler på hvordan barn kan påvirke beslutninger og samarbeide om demokratiske prosesser"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF5"
+          ],
+          "code": "KM14726",
+          "core_elements": [
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om moglegheiter og utfordringar ved digital samhandling",
+              "eng": "talk about the opportunities and challenges involved in digital interaction",
+              "nno": "samtale om moglegheiter og utfordringar ved digital samhandling",
+              "nob": "samtale om muligheter og utfordringer ved digital samhandling"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14727",
+          "core_elements": [
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om kjensler, kropp, kjønn og seksualitet og korleis eigne og andre sine grenser kan uttrykkjast og respekterast",
+              "eng": "talk about emotions, bodies, gender and sexuality and how both one’s own and other peoples’ boundaries can be expressed and respected",
+              "nno": "samtale om kjensler, kropp, kjønn og seksualitet og korleis eigne og andre sine grenser kan uttrykkjast og respekterast",
+              "nob": "samtale om følelser, kropp, kjønn og seksualitet og hvordan egne og andres grenser kan uttrykkes og respekteres"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM14729",
+          "core_elements": [
+            "KE1848",
+            "KE1849",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og gi døme på korleis menneske i ulike delar av verda påverkar livet til kvarandre",
+              "eng": "explore and give examples of how people in different parts of the world can have an impact on each other’s lives",
+              "nno": "utforske og gi døme på korleis menneske i ulike delar av verda påverkar livet til kvarandre",
+              "nob": "utforske og gi eksempler på hvordan mennesker i ulike deler av verden påvirker hverandres liv"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 2. trinn",
+          "eng": "Competence aims and assessment year 2",
+          "nno": "Kompetansemål og vurdering 2. trinn",
+          "nob": "Kompetansemål og vurdering 2. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 4,
+      "applies_to_years": [
+        3,
+        4
+      ],
+      "code": "KV1149",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14673",
+          "core_elements": [
+            "KE1846",
+            "KE1847"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og presentere samfunnsfaglege spørsmål, søkje etter informasjon i ulike kjelder og vurdere kor nyttig informasjonen er til å belyse spørsmåla",
+              "eng": "explore and present social-studies-related topics, search for information in various sources and assess how useful the information that is to inform about the topics",
+              "nno": "utforske og presentere samfunnsfaglege spørsmål, søkje etter informasjon i ulike kjelder og vurdere kor nyttig informasjonen er til å belyse spørsmåla",
+              "nob": "utforske og presentere samfunnsfaglige spørsmål, søke etter informasjon i ulike kilder og vurdere hvor nyttig informasjonen er til å belyse spørsmålene"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM14669",
+          "core_elements": [
+            "KE1847",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske kulturminne og korleis menneska levde i den tida kulturminna er frå, og samanlikne med korleis vi lever i dag",
+              "eng": "explore cultural heritage and how people lived during the time the cultural heritage is from, and compare this with how we live today",
+              "nno": "utforske kulturminne og korleis menneska levde i den tida kulturminna er frå, og samanlikne med korleis vi lever i dag",
+              "nob": "utforske kulturminner og hvordan mennesker levde i den tiden kulturminnene er fra, og sammenligne med hvordan vi lever i dag"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM14672",
+          "core_elements": [
+            "KE1847",
+            "KE1849"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive kultur- og naturlandskap i Noreg og samtale om korleis historiske og geografiske kjelder, inkludert kart, kan gi informasjon om landskap",
+              "eng": "describe cultural and natural landscapes in Norway and talk about how historical and geographical sources, including maps, can provide information about these landscapes",
+              "nno": "beskrive kultur- og naturlandskap i Noreg og samtale om korleis historiske og geografiske kjelder, inkludert kart, kan gi informasjon om landskap",
+              "nob": "beskrive kultur- og naturlandskap i Norge og samtale om hvordan historiske og geografiske kilder, inkludert kart, kan gi informasjon om landskap"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4"
+          ],
+          "code": "KM14674",
+          "core_elements": [
+            "KE1848",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om kvifor det oppstår konfliktar i skule- og nærmiljøet, lytte til andre si meining og samarbeide med andre om å finne konstruktive løysingar",
+              "eng": "talk about why conflicts arise in the school and local environment, listen to others’ opinions, and collaborate with them to find constructive solutions",
+              "nno": "samtale om kvifor det oppstår konfliktar i skule- og nærmiljøet, lytte til andre si meining og samarbeide med andre om å finne konstruktive løysingar",
+              "nob": "samtale om hvorfor det oppstår konflikter i skole- og nærmiljøet, lytte til andres mening og samarbeide med andre om å finne konstruktive løsninger"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM14670",
+          "core_elements": [
+            "KE1848",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "presentere menneskerettar og rettar barn har, og reflektere over kvifor desse rettane finst",
+              "eng": "present human rights and children’s rights, and reflect on why we have these rights",
+              "nno": "presentere menneskerettar og rettar barn har, og reflektere over kvifor desse rettane finst",
+              "nob": "presentere menneskerettigheter og rettigheter som barn har, og reflektere over hvorfor disse rettighetene finnes"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM14671",
+          "core_elements": [
+            "KE1847",
+            "KE1848",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "presentere årsaker til at samane har urfolksstatus i Noreg, og beskrive forskjellige former for samisk kultur- og samfunnsliv før og no",
+              "eng": "present reasons as to why the Sami people have been given indigenous status in Norway, and describe the different forms of Sami cultural and community life, both from the past and today",
+              "nno": "presentere årsaker til at samane har urfolksstatus i Noreg, og beskrive forskjellige former for samisk kultur- og samfunnsliv før og no",
+              "nob": "presentere årsaker til at samene har urfolksstatus i Norge, og beskrive forskjellige former for samisk kultur- og samfunnsliv før og nå"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM14679",
+          "core_elements": [
+            "KE1846",
+            "KE1847",
+            "KE1849"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og gi døme på nokre sider ved berekraftig utvikling",
+              "eng": "explore and give examples of some aspects of sustainability",
+              "nno": "utforske og gi døme på nokre sider ved berekraftig utvikling",
+              "nob": "utforske og gi eksempler på noen sider ved bærekraftig utvikling"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4"
+          ],
+          "code": "KM14680",
+          "core_elements": [
+            "KE1847",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over samanhengen mellom personleg økonomi og forbruk hos den enkelte",
+              "eng": "reflect on the connections between personal finances and one’s own consumption",
+              "nno": "reflektere over samanhengen mellom personleg økonomi og forbruk hos den enkelte",
+              "nob": "reflektere over sammenhengen mellom personlig økonomi og forbruk hos den enkelte"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14668",
+          "core_elements": [
+            "KE1847",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om identitet, mangfald og fellesskap og reflektere over korleis det kan opplevast ikkje å vere ein del av fellesskapet",
+              "eng": "talk about identity, diversity and community, and reflect on what it might be like if one is not a part of the community",
+              "nno": "samtale om identitet, mangfald og fellesskap og reflektere over korleis det kan opplevast ikkje å vere ein del av fellesskapet",
+              "nob": "samtale om identitet, mangfold og fellesskap og reflektere over hvordan det kan oppleves ikke å være del av fellesskapet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF5"
+          ],
+          "code": "KM14675",
+          "core_elements": [
+            "KE1846",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om reglar og normer for personvern, deling og beskyttelse av informasjon og om kva det vil seie å bruke dømmekraft i digital samhandling",
+              "eng": "talk about the rules and norms for protection of privacy, the sharing and protection of information, and what it means to use one’s judgment in digital interaction",
+              "nno": "samtale om reglar og normer for personvern, deling og beskyttelse av informasjon og om kva det vil seie å bruke dømmekraft i digital samhandling",
+              "nob": "samtale om regler og normer for personvern, om deling og beskyttelse av informasjon og om hva det vil si å bruke dømmekraft i digital samhandling"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14676",
+          "core_elements": [
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om grenser knytte til kropp, kva vald og seksuelle overgrep er, og kvar ein kan få hjelp dersom ein blir utsett for vald og seksuelle overgrep",
+              "eng": "talk about the boundaries related to the body, what violence and sexual abuse is, and how to obtain help if one has been the victim of violence and sexual abuse",
+              "nno": "samtale om grenser knytte til kropp, kva vald og seksuelle overgrep er, og kvar ein kan få hjelp dersom ein blir utsett for vald og seksuelle overgrep",
+              "nob": "samtale om grenser knyttet til kropp, hva vold og seksuelle overgrep er, og hvor man kan få hjelp hvis man blir utsatt for vold og seksuelle overgrep"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14677",
+          "core_elements": [
+            "KE1846",
+            "KE1847",
+            "KE1848"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over kven som har makt, og kva eit demokrati er, og utvikle forslag til korleis ein kan vere med på å påverke avgjerder",
+              "eng": "reflect on which forces in society have power and what a democracy is, and develop proposals for how one can have an impact on decisions",
+              "nno": "reflektere over kven som har makt, og kva eit demokrati er, og utvikle forslag til korleis ein kan vere med på å påverke avgjerder",
+              "nob": "reflektere over hvem som har makt, og hva et demokrati er, og utvikle forslag til hvordan man kan være med på å påvirke beslutninger"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14678",
+          "core_elements": [
+            "KE1846",
+            "KE1848",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om nokre viktige offentlege institusjonar og verksemder i Noreg og reflektere over kva dei betyr i livet til menneska",
+              "eng": "talk about some important public institutions and their functions in Norway, and reflect on how they affect people’s lives",
+              "nno": "samtale om nokre viktige offentlege institusjonar og verksemder i Noreg og reflektere over kva dei betyr i livet til menneska",
+              "nob": "samtale om noen viktige offentlige institusjoner og virksomheter i Norge og reflektere over hva de betyr i livet til mennesker"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 4. trinn",
+          "eng": "Competence aims and assessment year 4",
+          "nno": "Kompetansemål og vurdering 4. trinn",
+          "nob": "Kompetansemål og vurdering 4. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 7,
+      "applies_to_years": [
+        5,
+        6,
+        7
+      ],
+      "code": "KV1150",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14681",
+          "core_elements": [
+            "KE1846",
+            "KE1847"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "gjennomføre ei samfunnsfagleg undersøking og presentere resultata ved hjelp av eigna digitale verktøy",
+              "eng": "conduct social-studies-related research and present the findings using one’s own digital tools",
+              "nno": "gjennomføre ei samfunnsfagleg undersøking og presentere resultata ved hjelp av eigna digitale verktøy",
+              "nob": "gjennomføre en samfunnsfaglig undersøkelse og presentere resultatene ved hjelp av egnede digitale verktøy"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14687",
+          "core_elements": [
+            "KE1846",
+            "KE1847"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "presentere ei aktuell nyheitssak og reflektere over forskjellar mellom fakta, meiningar og kommersiell bodskap i mediebiletet",
+              "eng": "present a news item on current affairs and reflect on the differences between facts, opinions and the commercial message in the media picture",
+              "nno": "presentere ei aktuell nyheitssak og reflektere over forskjellar mellom fakta, meiningar og kommersiell bodskap i mediebiletet",
+              "nob": "presentere en aktuell nyhetssak og reflektere over forskjeller mellom fakta, meninger og kommersielt budskap i mediebildet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14686",
+          "core_elements": [
+            "KE1846",
+            "KE1847"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "samanlikne korleis ulike kjelder kan gi ulik informasjon om same tema, og reflektere over korleis kjelder kan brukast til å påverke og fremje bestemte syn",
+              "eng": "compare how various sources can provide different information on the same topic, and reflect on how sources can be used to affect and promote particular views",
+              "nno": "samanlikne korleis ulike kjelder kan gi ulik informasjon om same tema, og reflektere over korleis kjelder kan brukast til å påverke og fremje bestemte syn",
+              "nob": "sammenligne hvordan ulike kilder kan gi ulik informasjon om samme tema, og reflektere over hvordan kilder kan brukes til å påvirke og fremme bestemte syn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM14685",
+          "core_elements": [
+            "KE1846",
+            "KE1847",
+            "KE1849",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske korleis menneske i fortida livnærte seg, og samtale om korleis sentrale endringar i livsgrunnlag og teknologi har påverka og påverkar demografi, levekår og busetjingsmønster",
+              "eng": "explore how people in the past provided for themselves, and discuss how key changes in livelihoods and technology have had impact on and continue to have impact on demographics, living conditions and settlement patterns",
+              "nno": "utforske korleis menneske i fortida livnærte seg, og samtale om korleis sentrale endringar i livsgrunnlag og teknologi har påverka og påverkar demografi, levekår og busetjingsmønster",
+              "nob": "utforske hvordan mennesker i fortiden livnærte seg, og samtale om hvordan sentrale endringer i livsgrunnlag og teknologi har påvirket og påvirker demografi, levekår og bosettingsmønstre"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM14688",
+          "core_elements": [
+            "KE1847",
+            "KE1849"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive geografiske hovudtrekk i ulike delar av verda og reflektere over korleis desse hovudtrekka påverkar menneska som bur der",
+              "eng": "describe geographic features in different parts of the world and reflect on how these features have impact on the lives of the people who live there",
+              "nno": "beskrive geografiske hovudtrekk i ulike delar av verda og reflektere over korleis desse hovudtrekka påverkar menneska som bur der",
+              "nob": "beskrive geografiske hovedtrekk i ulike deler av verden og reflektere over hvordan disse hovedtrekkene påvirker menneskene som bor der"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14682",
+          "core_elements": [
+            "KE1847",
+            "KE1848",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over kvifor konfliktar oppstår, og drøfte korleis den enkelte og samfunn kan handtere konfliktar",
+              "eng": "reflect on why conflicts arise, and discuss how both the individual and society can deal with conflicts",
+              "nno": "reflektere over kvifor konfliktar oppstår, og drøfte korleis den enkelte og samfunn kan handtere konfliktar",
+              "nob": "reflektere over hvorfor konflikter oppstår, og drøfte hvordan den enkelte og samfunnet kan håndtere konflikter"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM14683",
+          "core_elements": [
+            "KE1846",
+            "KE1848",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske ulike sider ved mangfald i Noreg og reflektere over menneska sine behov for å vere seg sjølve og for å høyre til i fellesskap",
+              "eng": "explore various aspects of diversity in Norway and reflect on people’s need to be themselves and to belong to a community",
+              "nno": "utforske ulike sider ved mangfald i Noreg og reflektere over menneska sine behov for å vere seg sjølve og for å høyre til i fellesskap",
+              "nob": "utforske ulike sider ved mangfold i Norge og reflektere over menneskers behov for å være seg selv og for å høre til i fellesskap"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14684",
+          "core_elements": [
+            "KE1846",
+            "KE1847",
+            "KE1848",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "drøfte kva likeverd og likestilling har å seie for eit demokrati, og utvikle forslag til korleis ein kan motarbeide fordommar, rasisme og diskriminering",
+              "eng": "discuss what equality and equal opportunities mean for a democracy, and develop proposals for how to counteract prejudice, racism and discrimination",
+              "nno": "drøfte kva likeverd og likestilling har å seie for eit demokrati, og utvikle forslag til korleis ein kan motarbeide fordommar, rasisme og diskriminering",
+              "nob": "drøfte hva likeverd og likestilling betyr for et demokrati, og utvikle forslag til hvordan man kan motarbeide fordommer, rasisme og diskriminering"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14689",
+          "core_elements": [
+            "KE1847",
+            "KE1848",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om menneske- og likeverd og samanlikne korleis menneskerettane er blitt og blir varetekne i ulike land",
+              "eng": "talk about human values and equality, and compare how human rights have been established and implemented in various countries",
+              "nno": "samtale om menneske- og likeverd og samanlikne korleis menneskerettane er blitt og blir varetekne i ulike land",
+              "nob": "samtale om menneske- og likeverd og sammenligne hvordan menneskerettighetene er blitt og blir ivaretatt i ulike land"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM14690",
+          "core_elements": [
+            "KE1847",
+            "KE1848",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske hovudtrekk ved historia til samane og dei nasjonale minoritetane i Noreg og presentere rettar samane og dei nasjonale minoritetane i Noreg har i dag",
+              "eng": "explore the main features in the history of the Sami people and the national minorities of Norway and make a presentation about the rights the Sami and national minorities of Norway have today",
+              "nno": "utforske hovudtrekk ved historia til samane og dei nasjonale minoritetane i Noreg og presentere rettar samane og dei nasjonale minoritetane i Noreg har i dag",
+              "nob": "utforske hovedtrekk ved historien til samene og de nasjonale minoritetene i Norge og presentere rettigheter samene og de nasjonale minoritetene i Norge har i dag"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4"
+          ],
+          "code": "KM14691",
+          "core_elements": [
+            "KE1847",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over korleis kommersiell påverknad kan verke inn på forbruk, personleg økonomi og sjølvbilete",
+              "eng": "reflect on how commercialism can influence consumption, personal finances and one’s self-image",
+              "nno": "reflektere over korleis kommersiell påverknad kan verke inn på forbruk, personleg økonomi og sjølvbilete",
+              "nob": "reflektere over hvordan kommersiell påvirkning kan virke inn på forbruk, personlig økonomi og selvbilde"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM14692",
+          "core_elements": [
+            "KE1846",
+            "KE1847",
+            "KE1848",
+            "KE1849",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og presentere ei global utfordring ved berekraftig utvikling og kva for konsekvensar ho kan ha, og utvikle forslag til korleis ein kan vere med på å motverke utfordringa og korleis samarbeid mellom land kan bidra",
+              "eng": "explore and present a global challenge that is related to sustainability and what consequences this might have, and develop a proposal relating to how one can contribute to counteracting such challenges and how collaboration between countries may help",
+              "nno": "utforske og presentere ei global utfordring ved berekraftig utvikling og kva for konsekvensar ho kan ha, og utvikle forslag til korleis ein kan vere med på å motverke utfordringa og korleis samarbeid mellom land kan bidra",
+              "nob": "utforske og presentere en global utfordring ved bærekraftig utvikling og hvilke konsekvenser den kan ha, og utvikle forslag til hvordan man kan være med på å motvirke utfordringen, og hvordan samarbeid mellom land kan bidra"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM14693",
+          "core_elements": [
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over korleis ein sjølv og andre deltek i digital samhandling, og drøfte kva det vil seie å bruke dømmekraft sett i lys av reglar, normer og grenser",
+              "eng": "reflect on how one and other people participate in digital interaction, and discuss what it means to use one’s judgment in the light of rules, norms and boundaries",
+              "nno": "reflektere over korleis ein sjølv og andre deltek i digital samhandling, og drøfte kva det vil seie å bruke dømmekraft sett i lys av reglar, normer og grenser",
+              "nob": "reflektere over hvordan egen og andre deltar i digital samhandling og drøfte hva det vil si å bruke dømmekraft, sett i lys av regler, normer og grenser"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14694",
+          "core_elements": [
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over variasjonar i identitetar, seksuell orientering og kjønnsuttrykk, og eigne og andre sine grenser knytte til kjensler, kropp, kjønn og seksualitet og drøfte kva ein kan gjere om grenser blir brotne",
+              "eng": "reflect on variations in identity, sexual orientation and gender expression, and one’s own and others’ boundaries in connection with emotions, the body, gender and sexuality and discuss what one can do if those boundaries are violated",
+              "nno": "reflektere over variasjonar i identitetar, seksuell orientering og kjønnsuttrykk, og eigne og andre sine grenser knytte til kjensler, kropp, kjønn og seksualitet og drøfte kva ein kan gjere om grenser blir brotne",
+              "nob": "reflektere over variasjoner i identiteter, seksuell orientering og kjønnsuttrykk og egne og andres grenser knyttet til følelser, kropp, kjønn og seksualitet og drøfte hva man kan gjøre om grenser blir brutt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM14695",
+          "core_elements": [
+            "KE1847",
+            "KE1848"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive sentrale hendingar som har ført fram til det demokratiet vi har i Noreg i dag og samanlikne korleis enkeltmenneske har høve til å påverke i ulike styresett",
+              "eng": "describe key events that have led to the democracy we have in Norway today and compare how individuals have the power to influence different systems of government",
+              "nno": "beskrive sentrale hendingar som har ført fram til det demokratiet vi har i Noreg i dag og samanlikne korleis enkeltmenneske har høve til å påverke i ulike styresett",
+              "nob": "beskrive sentrale hendelser som har ført til det demokratiet vi har i Norge i dag, og sammenligne hvordan enkeltmennesker har mulighet til å påvirke i ulike styresett"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM14696",
+          "core_elements": [
+            "KE1846",
+            "KE1847"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "gi døme på kva lover, reglar og normer er og kva slags funksjon dei har i samfunn, og reflektere over konsekvensar av å bryte dei",
+              "eng": "give examples of laws, rules and norms and how they function in society, and reflect on the consequences of any breaches of them",
+              "nno": "gi døme på kva lover, reglar og normer er og kva slags funksjon dei har i samfunn, og reflektere over konsekvensar av å bryte dei",
+              "nob": "gi eksempler på hva lover, regler og normer er, og hvilken funksjon de har i samfunnet, og reflektere over konsekvenser av å bryte dem"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM14697",
+          "core_elements": [
+            "KE1846",
+            "KE1847",
+            "KE1848",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over korleis møte mellom menneske har bidrege til å endre korleis menneske har tenkt og ulike samfunn har vore organiserte",
+              "eng": "reflect on how encounters between people have contributed to changing the way people think, and also how different societies have been organised",
+              "nno": "reflektere over korleis møte mellom menneske har bidrege til å endre korleis menneske har tenkt og ulike samfunn har vore organiserte",
+              "nob": "reflektere over hvordan møter mellom mennesker har bidratt til å endre hvordan mennesker har tenkt og samfunn har vært organisert"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 7.trinn",
+          "eng": "Competence aims and assessment year 7",
+          "nno": "Kompetansemål og vurdering 7.trinn",
+          "nob": "Kompetansemål og vurdering 7. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV1151",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14698",
+          "core_elements": [
+            "KE1846",
+            "KE1847"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke samfunnsfaglege metodar og digitale ressursar i eigne undersøkingar, presentere funn ved bruk av digitale verktøy og drøfte kor gyldige og relevante funna er",
+              "eng": "use social studies methods and digital resources in one’s own research, and present the findings using digital tools and discussing the validity and relevancy of the findings",
+              "nno": "bruke samfunnsfaglege metodar og digitale ressursar i eigne undersøkingar, presentere funn ved bruk av digitale verktøy og drøfte kor gyldige og relevante funna er",
+              "nob": "bruke samfunnsfaglige metoder og digitale ressurser i egne undersøkelser, presentere funn ved hjelp av digitale verktøy og drøfte hvor gyldige og relevante funnene er"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14701",
+          "core_elements": [
+            "KE1846",
+            "KE1847",
+            "KE1848"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "vurdere på kva måtar ulike kjelder gir informasjon om eit samfunnsfagleg tema, og reflektere over korleis algoritmar, einsretta kjelder eller mangel på kjelder kan prege forståinga vår",
+              "eng": "assess the ways in which different sources provide information on social-studies-related topics, and reflect on how algorithms, biased sources or the lack of sources can affect our understanding",
+              "nno": "vurdere på kva måtar ulike kjelder gir informasjon om eit samfunnsfagleg tema, og reflektere over korleis algoritmar, einsretta kjelder eller mangel på kjelder kan prege forståinga vår",
+              "nob": "vurdere på hvilke måter ulike kilder gir informasjon om et samfunnsfaglig tema, og reflektere over hvordan algoritmer, ensrettede kilder eller mangel på kilder kan prege forståelsen vår"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14700",
+          "core_elements": [
+            "KE1846",
+            "KE1847",
+            "KE1848",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "drøfte korleis framstillingar av fortida, hendingar og grupper har påverka og påverkar haldningane og handlingane til folk",
+              "eng": "discuss how the way we see the past, events and groups has had impact on and continues to impact people's actions and attitudes",
+              "nno": "drøfte korleis framstillingar av fortida, hendingar og grupper har påverka og påverkar haldningane og handlingane til folk",
+              "nob": "drøfte hvordan framstillinger av fortiden, hendelser og grupper har påvirket og påvirker folks holdninger og handlinger"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM14702",
+          "core_elements": [
+            "KE1846",
+            "KE1847",
+            "KE1848",
+            "KE1849",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske korleis teknologi har vore og framleis er ein endringsfaktor, og drøfte innverknaden teknologien har hatt og har på enkeltmenneske, samfunn og natur",
+              "eng": "explore how technology has been and continues to be a factor for change, and discuss the influence technology has had and has on the individual, society and nature",
+              "nno": "utforske korleis teknologi har vore og framleis er ein endringsfaktor, og drøfte innverknaden teknologien har hatt og har på enkeltmenneske, samfunn og natur",
+              "nob": "utforske hvordan teknologi har vært og fremdeles er en endringsfaktor, og drøfte innvirkningen teknologien har hatt og har på enkeltmennesker, samfunn og natur"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14714",
+          "core_elements": [
+            "KE1847",
+            "KE1848",
+            "KE1849"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over korleis menneske har kjempa og kjempar for endringar i samfunnet og samstundes har vore og er påverka av geografiske forhold og historisk kontekst",
+              "eng": "reflect on how people have fought and continue to fight for change in society while also having been and still being influenced by geographic conditions and historical contexts",
+              "nno": "reflektere over korleis menneske har kjempa og kjempar for endringar i samfunnet og samstundes har vore og er påverka av geografiske forhold og historisk kontekst",
+              "nob": "reflektere over hvordan mennesker har kjempet og kjemper for forandringer i samfunnet og samtidig har vært og er påvirket av geografiske forhold og historisk kontekst"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14704",
+          "core_elements": [
+            "KE1847",
+            "KE1849"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samanlikne korleis politiske, geografiske og historiske forhold påverkar levekår, busetjingsmønster og demografi i forskjellige delar av verda i dag",
+              "eng": "compare how political, geographic and historical events affect living conditions, settlement patterns and demographics in different parts of the world today",
+              "nno": "samanlikne korleis politiske, geografiske og historiske forhold påverkar levekår, busetjingsmønster og demografi i forskjellige delar av verda i dag",
+              "nob": "sammenligne hvordan politiske, geografiske og historiske forhold påvirker levekår, bosettingsmønstre og demografi i forskjellige deler av verden i dag"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14699",
+          "core_elements": [
+            "KE1847",
+            "KE1848",
+            "KE1849"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjere greie for årsaker til og konsekvensar av sentrale historiske og notidige konfliktar og reflektere over om endringar av nokre føresetnader kunne ha hindra konfliktane",
+              "eng": "explain the causes and consequences of key historical and contemporary conflicts, and reflect on whether changes in certain conditions could have prevented the conflicts",
+              "nno": "gjere greie for årsaker til og konsekvensar av sentrale historiske og notidige konfliktar og reflektere over om endringar av nokre føresetnader kunne ha hindra konfliktane",
+              "nob": "gjøre rede for årsaker til og konsekvenser av sentrale historiske og nåtidige konflikter og reflektere over om endringer av noen forutsetninger kunne ha hindret konfliktene"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14705",
+          "core_elements": [
+            "KE1847",
+            "KE1848",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjere greie for årsaker til og konsekvensar av terrorhandlingar og folkemord, som holocaust, og reflektere over korleis ekstreme haldningar og ekstreme handlingar kan førebyggjast",
+              "eng": "explain the causes and consequences of terrorism and genocide, such as the Holocaust, and reflect on how extremist attitudes and extremist acts can be prevented",
+              "nno": "gjere greie for årsaker til og konsekvensar av terrorhandlingar og folkemord, som holocaust, og reflektere over korleis ekstreme haldningar og ekstreme handlingar kan førebyggjast",
+              "nob": "gjøre rede for årsaker til og konsekvenser av terrorhandlinger og folkemord, som holocaust, og reflektere over hvordan ekstreme holdninger og ekstreme handlinger kan forebygges"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM14703",
+          "core_elements": [
+            "KE1846",
+            "KE1847",
+            "KE1848",
+            "KE1849",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og beskrive korleis menneske- og urfolksrettar og andre internasjonale avtalar og samarbeid har betydning for nasjonal politikk, livet til menneske, likestilling og likeverd",
+              "eng": "explore and describe how human rights and the rights of indigenous peoples, as well as other international treaties and international cooperation, are important for national policies, people’s lives, equal rights and equality",
+              "nno": "utforske og beskrive korleis menneske- og urfolksrettar og andre internasjonale avtalar og samarbeid har betydning for nasjonal politikk, livet til menneske, likestilling og likeverd",
+              "nob": "utforske og beskrive hvordan menneske- og urfolksrettigheter og andre internasjonale avtaler og samarbeid har betydning for nasjonal politikk, menneskers liv og likestilling og likeverd"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14706",
+          "core_elements": [
+            "KE1847",
+            "KE1848",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjere greie for fornorsking av samane og dei nasjonale minoritetane og uretten dei har vore utsette for, og reflektere over kva konsekvensar det har hatt og har på individ- og samfunnsnivå",
+              "eng": "explain the policy of Norwegianisation of the Sami people and national minorities, and the injustices they have been subjected to, and thus reflect on what consequences this has had and has on both the individual and societal level",
+              "nno": "gjere greie for fornorsking av samane og dei nasjonale minoritetane og uretten dei har vore utsette for, og reflektere over kva konsekvensar det har hatt og har på individ- og samfunnsnivå",
+              "nob": "gjøre rede for fornorskningen av samene og de nasjonale minoritetene og urettferdigheten de har blitt utsatt for, og reflektere over hvilke konsekvenser det har hatt og har på individ- og samfunnsnivå"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4"
+          ],
+          "code": "KM14708",
+          "core_elements": [
+            "KE1846",
+            "KE1847",
+            "KE1849"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive ulike dimensjonar ved berekraftig utvikling og korleis dei påverkar kvarandre, og presentere tiltak for meir berekraftige samfunn",
+              "eng": "describe different dimensions of sustainability and how they have an impact on each other, and present measures that can be taken to make societies more sustainable",
+              "nno": "beskrive ulike dimensjonar ved berekraftig utvikling og korleis dei påverkar kvarandre, og presentere tiltak for meir berekraftige samfunn",
+              "nob": "beskrive ulike dimensjoner ved bærekraftig utvikling og hvordan de påvirker hverandre, og presentere tiltak for mer bærekraftige samfunn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4"
+          ],
+          "code": "KM14710",
+          "core_elements": [
+            "KE1849",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "vurdere korleis arbeid, inntekt og forbruk kan påverke personleg økonomi, levestandard og livskvalitet",
+              "eng": "assess how work, income and consumption can have an impact on one’s personal finances, standard of living and quality of life",
+              "nno": "vurdere korleis arbeid, inntekt og forbruk kan påverke personleg økonomi, levestandard og livskvalitet",
+              "nob": "vurdere hvordan arbeid, inntekt og forbruk kan påvirke personlig økonomi, levestandard og livskvalitet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14707",
+          "core_elements": [
+            "KE1847",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over likskapar og ulikskapar i identitetar, levesett og kulturuttrykk og drøfte moglegheiter og utfordringar ved mangfald",
+              "eng": "reflect on equalities and inequalities in identities, ways of life and cultural expressions, and discuss the opportunities and challenges related to diversity",
+              "nno": "reflektere over likskapar og ulikskapar i identitetar, levesett og kulturuttrykk og drøfte moglegheiter og utfordringar ved mangfald",
+              "nob": "reflektere over likheter og ulikheter i identiteter, levesett og kulturuttrykk og drøfte muligheter og utfordringer ved mangfold"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM14709",
+          "core_elements": [
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og reflektere over eigne digitale spor og høvet til å få sletta spora og å verne om retten ein sjølv og andre har til privatliv, personvern og opphavsrett",
+              "eng": "explore and reflect on one’s own digital footprint and the possibility of deleting one’s digital trail and the value of one’s own and others’ right to privacy, data protection and copyright",
+              "nno": "utforske og reflektere over eigne digitale spor og høvet til å få sletta spora og å verne om retten ein sjølv og andre har til privatliv, personvern og opphavsrett",
+              "nob": "utforske og reflektere over egne digitale spor og muligheten for å få slettet sporene og verne om egen og andres rett til privatliv, personvern og opphavsrett"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM14711",
+          "core_elements": [
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over korleis identitet, sjølvbilete og eigne grenser blir utvikla og utfordra i ulike fellesskap, og presentere forslag til korleis ein kan handtere påverknad og uønskte hendingar",
+              "eng": "reflect on how identity, self-image and one’s own boundaries are developed and challenged in different environments, and present proposals for how one might deal with influence and unwanted events",
+              "nno": "reflektere over korleis identitet, sjølvbilete og eigne grenser blir utvikla og utfordra i ulike fellesskap, og presentere forslag til korleis ein kan handtere påverknad og uønskte hendingar",
+              "nob": "reflektere over hvordan identitet, selvbilde og egne grenser utvikles og utfordres i ulike fellesskap, og presentere forslag til hvordan man kan håndtere påvirkning og uønskede hendelser"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM14712",
+          "core_elements": [
+            "KE1847",
+            "KE1848"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over kva for aktørar som har makt i samfunnet i dag, og korleis desse grunngir standpunkta sine",
+              "eng": "reflect on which forces in society have power today, and how they justify their positions",
+              "nno": "reflektere over kva for aktørar som har makt i samfunnet i dag, og korleis desse grunngir standpunkta sine",
+              "nob": "reflektere over hvilke aktører som har makt i samfunnet i dag, og hvordan de begrunner standpunktene sine"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM14713",
+          "core_elements": [
+            "KE1848",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske ulike plattformer for digital samhandling og reflektere over korleis digital deltaking og samhandling påverkar forma på og innhaldet i samfunnsdebatten",
+              "eng": "explore different platforms for digital interaction and reflect on how digital participation and digital interaction affect the form and content of societal debates",
+              "nno": "utforske ulike plattformer for digital samhandling og reflektere over korleis digital deltaking og samhandling påverkar forma på og innhaldet i samfunnsdebatten",
+              "nob": "utforske ulike plattformer for digital samhandling og reflektere over hvordan digital deltakelse og samhandling påvirker formen på og innholdet i samfunnsdebatten"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM14715",
+          "core_elements": [
+            "KE1846",
+            "KE1847",
+            "KE1850"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive sentrale lover, reglar og normer og drøfte kva konsekvensar brot på desse kan ha for den enkelte og for samfunnet på kort og lang sikt",
+              "eng": "describe important laws, rules and norms and discuss the consequences any violation of these may have for the individual and for society, in both the short and long run",
+              "nno": "beskrive sentrale lover, reglar og normer og drøfte kva konsekvensar brot på desse kan ha for den enkelte og for samfunnet på kort og lang sikt",
+              "nob": "beskrive sentrale lover, regler og normer og drøfte hvilke konsekvenser brudd på disse kan ha for den enkelte og for samfunnet på kort og lang sikt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM14716",
+          "core_elements": [
+            "KE1846",
+            "KE1848"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive trekk ved det politiske systemet og velferdssamfunnet i Noreg i dag og reflektere over sentrale utfordringar",
+              "eng": "describe features of the political system and welfare state in Norway today and reflect on the key challenges",
+              "nno": "beskrive trekk ved det politiske systemet og velferdssamfunnet i Noreg i dag og reflektere over sentrale utfordringar",
+              "nob": "beskrive trekk ved det politiske systemet og velferdssamfunnet i Norge i dag og reflektere over sentrale utfordringer"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 10. trinn",
+          "eng": "Competence aims and assessment year 10",
+          "nno": "Kompetansemål og vurdering 10. trinn",
+          "nob": "Kompetansemål og vurdering 10. trinn"
+        }
+      }
+    }
+  ],
+  "last_modified": "2026-07-15T12:45:19.139109",
+  "replaced_by": [],
+  "replaces": [
+    "SAF01-04"
+  ],
+  "short_title": {
+    "by_language": {
+      "default": "Samfunnsfag",
+      "eng": "Social Studies",
+      "nno": "Samfunnsfag",
+      "nob": "Samfunnsfag"
+    }
+  },
+  "title": {
+    "by_language": {
+      "default": "Læreplan i samfunnsfag",
+      "eng": "Curriculum for Social Studies",
+      "nno": "Læreplan i samfunnsfag",
+      "nob": "Læreplan i samfunnsfag"
+    }
+  },
+  "valid_from": "2026-08-01",
+  "valid_to": null
+}

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}{{ t("grade.heading", grade=grade) }} · {{ t("site.name") }}{% endblock %}
+
+{% block content %}
+  <h1>{{ t("grade.heading", grade=grade) }}</h1>
+
+  <h2>{{ t("grade.subjects_heading") }}</h2>
+  {% if entries %}
+    <ul class="subject-list">
+      {% for entry in entries %}
+        <li>
+          <a class="subject-card" href="/{{ locale }}/klasse/{{ grade }}/{{ entry.subject.code }}">
+            <h3>{{ entry.subject.display_title.get(lang) }}</h3>
+            <p class="meta">
+              {% if entry.has_quiz %}<span class="badge">{{ t("quiz.start") }}</span>{% endif %}
+              {{ t("grade.goal_count", count=entry.goal_count) }} ·
+              {% if entry.checkpoint.is_final_year %}
+                {{ t("subject.mastery_now", year=entry.checkpoint.goal_set.after_year) }}
+              {% else %}
+                {{ t("subject.working_towards", year=entry.checkpoint.goal_set.after_year) }}
+              {% endif %}
+            </p>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p class="empty">{{ t("grade.no_subjects") }}</p>
+  {% endif %}
+{% endblock %}

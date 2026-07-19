@@ -1,0 +1,313 @@
+# Matematikk, kompetansemål etter 2. trinn (MAT01-06 / KV1021).
+#
+# Hand-written as the reference set: these establish the register and the
+# honesty bar that generated items are held to. Written for 7-year-olds, so
+# prompts are short, concrete, and free of subordinate clauses.
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+---
+subject: MAT01-06
+goal_set: KV1021
+
+items:
+  - id: KM13228-01
+    goal: KM13228
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Kari sorterer leker i to grupper. I den ene gruppa er en ball, en
+        appelsin og en klinkekule. Hva passer best i den gruppa?
+      en: Kari is sorting toys into two groups. One group has a ball, an orange
+        and a marble. What fits best in that group?
+    choices:
+      - id: a
+        text:
+          nb: En mynt
+          en: A coin
+        correct: true
+      - id: b
+        text:
+          nb: En bok
+          en: A book
+      - id: c
+        text:
+          nb: En blyant
+          en: A pencil
+    explanation:
+      nb: Gruppa er ting som er runde. En mynt er rund, mens en bok og en blyant
+        ikke er det.
+      en: The group is round things. A coin is round; a book and a pencil are not.
+    reviewed: true
+    reviewed_by: hand-written reference set
+
+  - id: KM13241-01
+    goal: KM13241
+    type: numeric
+    difficulty: 1
+    prompt:
+      nb: "Hvor mange er dette? ●●●●●●●"
+      en: "How many is this? ●●●●●●●"
+    answer: 7
+    explanation:
+      nb: Det er sju prikker. Tell én om gangen.
+      en: There are seven dots. Count them one at a time.
+    reviewed: true
+    reviewed_by: hand-written reference set
+
+  - id: KM13230-01
+    goal: KM13230
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: "Vi teller baklengs: 20, 18, 16, 14 … Hvilket tall kommer nå?"
+      en: "Counting backwards: 20, 18, 16, 14 … which number comes next?"
+    answer: 12
+    explanation:
+      nb: Vi teller to av gangen nedover, så etter 14 kommer 12.
+      en: The count goes down by two each time, so after 14 comes 12.
+    reviewed: true
+    reviewed_by: hand-written reference set
+
+  - id: KM13231-01
+    goal: KM13231
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvilket tall er et partall?
+      en: Which number is an even number?
+    choices:
+      - id: a
+        text:
+          nb: "7"
+          en: "7"
+      - id: b
+        text:
+          nb: "10"
+          en: "10"
+        correct: true
+      - id: c
+        text:
+          nb: "13"
+          en: "13"
+    explanation:
+      nb: 10 kan deles i to like grupper på 5. Da er det et partall.
+      en: 10 splits into two equal groups of 5, which makes it even.
+    reviewed: true
+    reviewed_by: hand-written reference set
+
+  - id: KM13232-01
+    goal: KM13232
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: Et tall har 4 tiere og 3 enere. Hvilket tall er det?
+      en: A number has 4 tens and 3 ones. What number is it?
+    answer: 43
+    explanation:
+      nb: 4 tiere er 40. Legg til 3 enere, så blir det 43.
+      en: 4 tens is 40. Add 3 ones and you get 43.
+    reviewed: true
+    reviewed_by: hand-written reference set
+
+  - id: KM13233-01
+    goal: KM13233
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: På tallinjen står 30 og 40 ved siden av hverandre. Hvilket tall er
+        midt mellom dem?
+      en: On the number line, 30 and 40 sit next to each other. Which number is
+        halfway between them?
+    answer: 35
+    explanation:
+      nb: Det er 10 fra 30 til 40. Halvveis er 5 videre, altså 35.
+      en: It is 10 from 30 to 40. Halfway is 5 further on, which is 35.
+    reviewed: true
+    reviewed_by: hand-written reference set
+
+  - id: KM13234-01
+    goal: KM13234
+    type: numeric
+    difficulty: 1
+    prompt:
+      nb: Du har 8 klinkekuler. Du gir bort 3. Hvor mange har du igjen?
+      en: You have 8 marbles. You give away 3. How many do you have left?
+    answer: 5
+    explanation:
+      nb: 8 minus 3 er 5.
+      en: 8 minus 3 is 5.
+    reviewed: true
+    reviewed_by: hand-written reference set
+
+  - id: KM13235-01
+    goal: KM13235
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Du vet at 4 + 9 = 13. Hva er 9 + 4?
+      en: You know that 4 + 9 = 13. What is 9 + 4?
+    choices:
+      - id: a
+        text:
+          nb: "13"
+          en: "13"
+        correct: true
+      - id: b
+        text:
+          nb: "14"
+          en: "14"
+      - id: c
+        text:
+          nb: "Det går ikke an å vite"
+          en: "There is no way to know"
+    explanation:
+      nb: Rekkefølgen betyr ingenting når vi plusser. 9 + 4 er også 13.
+      en: Order does not matter when adding. 9 + 4 is 13 as well.
+    reviewed: true
+    reviewed_by: hand-written reference set
+
+  - id: KM13242-01
+    goal: KM13242
+    type: numeric
+    difficulty: 3
+    prompt:
+      nb: "Hvilket tall skal stå i ruta? 5 + 3 = 6 + ▢"
+      en: "Which number goes in the box? 5 + 3 = 6 + ▢"
+    answer: 2
+    explanation:
+      nb: 5 + 3 er 8. Da må 6 + ▢ også bli 8, så ruta er 2. Likhetstegnet
+        betyr at det er like mye på begge sider.
+      en: 5 + 3 is 8, so 6 + ▢ must also be 8, making the box 2. The equals
+        sign means both sides are worth the same.
+    reviewed: true
+    reviewed_by: hand-written reference set
+
+  - id: KM13236-01
+    goal: KM13236
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: "Mønsteret er: rød, blå, blå, rød, blå, blå … Hvilken farge kommer nå?"
+      en: "The pattern is: red, blue, blue, red, blue, blue … which colour comes
+        next?"
+    choices:
+      - id: a
+        text:
+          nb: "Rød"
+          en: "Red"
+        correct: true
+      - id: b
+        text:
+          nb: "Blå"
+          en: "Blue"
+      - id: c
+        text:
+          nb: "Grønn"
+          en: "Green"
+    explanation:
+      nb: Mønsteret gjentar seg med rød, blå, blå. Etter to blå kommer rød igjen.
+      en: The pattern repeats red, blue, blue. After two blues, red comes again.
+    reviewed: true
+    reviewed_by: hand-written reference set
+
+  - id: KM13237-01
+    goal: KM13237
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvor mange hjørner har en trekant?
+      en: How many corners does a triangle have?
+    choices:
+      - id: a
+        text:
+          nb: "3"
+          en: "3"
+        correct: true
+      - id: b
+        text:
+          nb: "4"
+          en: "4"
+      - id: c
+        text:
+          nb: "6"
+          en: "6"
+    explanation:
+      nb: En trekant har tre sider og tre hjørner.
+      en: A triangle has three sides and three corners.
+    reviewed: true
+    reviewed_by: hand-written reference set
+
+  - id: KM13238-01
+    goal: KM13238
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Den lille viseren står på 3, og den store står på 12. Hva er klokka?
+      en: The hour hand points at 3 and the minute hand points at 12. What time
+        is it?
+    choices:
+      - id: a
+        text:
+          nb: "Klokka er 3"
+          en: "Three o'clock"
+        correct: true
+      - id: b
+        text:
+          nb: "Klokka er halv 3"
+          en: "Half past two"
+      - id: c
+        text:
+          nb: "Klokka er 12"
+          en: "Twelve o'clock"
+    explanation:
+      nb: Den lille viseren viser timen. Når den store står på 12, er klokka
+        akkurat 3.
+      en: The hour hand shows the hour. When the minute hand is on 12, it is
+        exactly three o'clock.
+    reviewed: true
+    reviewed_by: hand-written reference set
+
+  - id: KM13240-01
+    goal: KM13240
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva passer best å måle lengden av klasserommet med?
+      en: What is the best thing to measure the length of a classroom with?
+    choices:
+      - id: a
+        text:
+          nb: "Meter"
+          en: "Metres"
+        correct: true
+      - id: b
+        text:
+          nb: "Millimeter"
+          en: "Millimetres"
+      - id: c
+        text:
+          nb: "Kilometer"
+          en: "Kilometres"
+    explanation:
+      nb: Et klasserom er noen få meter langt. Millimeter blir altfor lite, og
+        kilometer altfor stort.
+      en: A classroom is a few metres long. Millimetres are far too small and
+        kilometres far too big.
+    reviewed: true
+    reviewed_by: hand-written reference set
+
+# Goals that no written question can honestly test. Recorded rather than
+# omitted, so the gap is a stated judgement instead of a silent one.
+not_assessable:
+  - goal: KM13229
+    reason: >-
+      Asks the pupil to explore numbers and counting through play, nature, art,
+      music and children's literature. It describes an activity a teacher sets
+      up, not knowledge a question can check.
+
+  - goal: KM13239
+    reason: >-
+      Asks the pupil to make and follow rules and step-by-step instructions in
+      play and games. Following instructions is observable in a classroom but
+      not in a quiz; asking about it would test reading, not the goal.

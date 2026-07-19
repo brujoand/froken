@@ -1,0 +1,1040 @@
+{
+  "code": "RLE01-04",
+  "goal_sets": [
+    {
+      "after_year": 4,
+      "applies_to_years": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "code": "KV1143",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14586",
+          "core_elements": [
+            "KE1836",
+            "KE1837",
+            "KE1839"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og beskrive hvordan kristendom og andre religioner og livssyn kommer til uttrykk lokalt og regionalt",
+              "nno": "utforske og beskrive korleis kristendom og andre religionar og livssyn kjem til uttrykk lokalt og regionalt",
+              "nob": "utforske og beskrive hvordan kristendom og andre religioner og livssyn kommer til uttrykk lokalt og regionalt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14597",
+          "core_elements": [
+            "KE1836",
+            "KE1837"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "samtale om og presentere sentrale fortellinger og trosforestillinger i kristen tradisjon",
+              "nno": "samtale om og presentere sentrale forteljingar og trusførestillingar i kristen tradisjon",
+              "nob": "samtale om og presentere sentrale fortellinger og trosforestillinger i kristen tradisjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14598",
+          "core_elements": [
+            "KE1836",
+            "KE1837"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "samtale om og presentere sentrale fortellinger og trosforestillinger i østlige og vestlige religiøse tradisjoner",
+              "nno": "samtale om og presentere sentrale forteljingar og trusførestillingar i austlege og vestlege religiøse tradisjonar",
+              "nob": "samtale om og presentere sentrale fortellinger og trosforestillinger i østlige og vestlige religiøse tradisjoner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14587",
+          "core_elements": [
+            "KE1836",
+            "KE1837",
+            "KE1839"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "sammenligne og presentere ulike årstider og høytider i kristendom og andre religions- og livssynstradisjoner, som kulturarv",
+              "nno": "samanlikne og presentere ulike årstider og høgtider i kristendom og andre religions- og livssynstradisjonar, som kulturarv",
+              "nob": "sammenligne og presentere ulike årstider og høytider i kristendom og andre religions- og livssynstradisjoner, som kulturarv"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14588",
+          "core_elements": [
+            "KE1836",
+            "KE1837"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "samtale om og presentere estetiske uttrykk fra kristendom og andre religioner og livssyn",
+              "nno": "samtale om og presentere estetiske uttrykk frå kristendom og andre religionar og livssyn",
+              "nob": "samtale om og presentere estetiske uttrykk fra kristendom og andre religioner og livssyn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14596",
+          "core_elements": [
+            "KE1836",
+            "KE1837"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke enkle fagbegreper i arbeidet med religioner og livssyn",
+              "nno": "bruke enkle fagomgrep i arbeidet med religionar og livssyn",
+              "nob": "bruke enkle fagbegreper i arbeidet med religioner og livssyn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14589",
+          "core_elements": [
+            "KE1837"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "skille mellom ulike kilder til kunnskap om religioner og livssyn",
+              "nno": "skilje mellom ulike kjelder til kunnskap om religionar og livssyn",
+              "nob": "skille mellom ulike kilder til kunnskap om religioner og livssyn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14594",
+          "core_elements": [
+            "KE1838",
+            "KE1839",
+            "KE1840"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive og samtale om ulike måter å leve sammen på i familie og samfunn",
+              "nno": "beskrive og samtale om ulike måtar å leve saman på i familie og samfunn",
+              "nob": "beskrive og samtale om ulike måter å leve sammen på i familie og samfunn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14590",
+          "core_elements": [
+            "KE1838",
+            "KE1839",
+            "KE1840"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "samarbeide med andre i filosofisk samtale",
+              "nno": "samarbeide med andre i filosofisk samtale",
+              "nob": "samarbeide med andre i filosofisk samtale"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14591",
+          "core_elements": [
+            "KE1836",
+            "KE1839",
+            "KE1840"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "identifisere og reflektere over etiske spørsmål",
+              "nno": "identifisere og reflektere over etiske spørsmål",
+              "nob": "identifisere og reflektere over etiske spørsmål"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14593",
+          "core_elements": [
+            "KE1838",
+            "KE1839",
+            "KE1840"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og samtale om etiske sider ved menneskers levesett og ressursbruk",
+              "nno": "utforske og samtale om etiske sider ved levesettet og ressursbruken til menneska",
+              "nob": "utforske og samtale om etiske sider ved menneskers levesett og ressursbruk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14592",
+          "core_elements": [
+            "KE1839",
+            "KE1840"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "sette seg inn i og formidle egne og andres tanker, følelser og erfaringer",
+              "nno": "setje seg inn i og formidle eigne og andre sine tankar, kjensler og erfaringar",
+              "nob": "sette seg inn i og formidle egne og andres tanker, følelser og erfaringer"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14595",
+          "core_elements": [
+            "KE1839",
+            "KE1840"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om hva menneskeverd, respekt og toleranse betyr og hva det innebærer for hvordan vi lever sammen",
+              "nno": "samtale om kva menneskeverd, respekt og toleranse betyr og kva det inneber for korleis vi lever saman",
+              "nob": "samtale om hva menneskeverd, respekt og toleranse betyr og hva det innebærer for hvordan vi lever sammen"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 4. trinn",
+          "nno": "Kompetansemål og vurdering 4. trinn",
+          "nob": "Kompetansemål og vurdering 4. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 7,
+      "applies_to_years": [
+        5,
+        6,
+        7
+      ],
+      "code": "KV1144",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14599",
+          "core_elements": [
+            "KE1836",
+            "KE1837",
+            "KE1839"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for historien til kristendom og andre religioner og livssyn i Norge, inkludert samers og nasjonale minoriteters religions- og livssynshistorie",
+              "nno": "gjere greie for historia til kristendom og andre religionar og livssyn i Noreg, inkludert religions- og livssynshistoria til samar og nasjonale minoritetar",
+              "nob": "gjøre rede for historien til kristendom og andre religioner og livssyn i Norge, inkludert samers og nasjonale minoriteters religions- og livssynshistorie"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14601",
+          "core_elements": [
+            "KE1836",
+            "KE1837",
+            "KE1839"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "beskrive og presentere noen sentrale rituelle praksiser og etiske normer i kristendom",
+              "nno": "beskrive og presentere nokre sentrale rituelle praksisar og etiske normer i kristendom",
+              "nob": "beskrive og presentere noen sentrale rituelle praksiser og etiske normer i kristendom"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14609",
+          "core_elements": [
+            "KE1836",
+            "KE1837",
+            "KE1839"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "beskrive og presentere noen sentrale rituelle praksiser og etiske normer fra østlige og vestlige religioner og livssynstradisjoner",
+              "nno": "beskrive og presentere nokre sentrale rituelle praksisar og etiske normer frå austlege og vestlege religionar og livssynstradisjonar",
+              "nob": "beskrive og presentere noen sentrale rituelle praksiser og etiske normer fra østlige og vestlige religioner og livssynstradisjoner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14600",
+          "core_elements": [
+            "KE1836",
+            "KE1837"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og sammenligne tekster og materielle uttrykk som kilder til kunnskap om kulturarv knyttet til kristendom og ulike religions- og livssynstradisjoner",
+              "nno": "utforske og samanlikne tekstar og materielle uttrykk som kjelder til kunnskap om kulturarv knytt til kristendom og ulike religions- og livssynstradisjonar",
+              "nob": "utforske og sammenligne tekster og materielle uttrykk som kilder til kunnskap om kulturarv knyttet til kristendom og ulike religions- og livssynstradisjoner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14610",
+          "core_elements": [
+            "KE1836",
+            "KE1837"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og samtale om mangfold både innenfor kristne trossamfunn og andre religionssamfunn",
+              "nno": "utforske og samtale om mangfald både innanfor kristne trussamfunn og andre religionssamfunn",
+              "nob": "utforske og samtale om mangfold både innenfor kristne trossamfunn og andre religionssamfunn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14607",
+          "core_elements": [
+            "KE1836",
+            "KE1837",
+            "KE1840"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke fagbegreper i arbeidet med religioner og livssyn",
+              "nno": "bruke fagomgrep i arbeidet med religionar og livssyn",
+              "nob": "bruke fagbegreper i arbeidet med religioner og livssyn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14606",
+          "core_elements": [
+            "KE1836",
+            "KE1838",
+            "KE1839",
+            "KE1840"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for ulike syn på barndom, familie og samliv i religioner og livssyn",
+              "nno": "gjere greie for ulike syn på barndom, familie og samliv i religionar og livssyn",
+              "nob": "gjøre rede for ulike syn på barndom, familie og samliv i religioner og livssyn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14602",
+          "core_elements": [
+            "KE1837",
+            "KE1838",
+            "KE1839",
+            "KE1840"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke filosofiske tenkemåter i samtale og undring",
+              "nno": "bruke filosofiske tenkjemåtar i samtale og undring",
+              "nob": "bruke filosofiske tenkemåter i samtale og undring"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14603",
+          "core_elements": [
+            "KE1836",
+            "KE1838",
+            "KE1840"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "samtale om og formidle etiske ideer fra sentrale skikkelser i religiøse og livssynsbaserte tradisjoner",
+              "nno": "samtale om og formidle etiske idear frå sentrale skikkelsar i religiøse og livssynsbaserte tradisjonar",
+              "nob": "samtale om og formidle etiske ideer fra sentrale skikkelser i religiøse og livssynsbaserte tradisjoner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14611",
+          "core_elements": [
+            "KE1838",
+            "KE1840"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "samtale om og formidle etiske ideer fra sentrale skikkelser i filosofihistorien",
+              "nno": "samtale om og formidle etiske idear frå sentrale skikkelsar i filosofihistoria",
+              "nob": "samtale om og formidle etiske ideer fra sentrale skikkelser i filosofihistorien"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14604",
+          "core_elements": [
+            "KE1839",
+            "KE1840"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og beskrive egne og andres perspektiver i etiske dilemmaer knyttet til hverdags- og samfunnsutfordringer",
+              "nno": "utforske og beskrive eigne og andre sine perspektiv i etiske dilemma knytte til kvardags- og samfunnsutfordringar",
+              "nob": "utforske og beskrive egne og andres perspektiver i etiske dilemmaer knyttet til hverdags- og samfunnsutfordringer"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14605",
+          "core_elements": [
+            "KE1838",
+            "KE1839",
+            "KE1840"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over eksistensielle spørsmål knyttet til menneskets levesett og levekår og klodens framtid",
+              "nno": "reflektere over eksistensielle spørsmål knytte til levesettet og levekåra til menneska og til framtida til kloden",
+              "nob": "reflektere over eksistensielle spørsmål knyttet til menneskets levesett og levekår og klodens framtid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14608",
+          "core_elements": [
+            "KE1836",
+            "KE1839",
+            "KE1840"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for hva menneskerettighetene innebærer for ytringsfrihet, religionsfrihet og religiøse minoriteters situasjon i Norge",
+              "nno": "gjere greie for kva menneskerettane inneber for ytringsfridom, religionsfridom og situasjonen for religiøse minoritetar i Noreg",
+              "nob": "gjøre rede for hva menneskerettighetene innebærer for ytringsfrihet, religionsfrihet og religiøse minoriteters situasjon i Norge"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 7. trinn",
+          "nno": "Kompetansemål og vurdering 7. trinn",
+          "nob": "Kompetansemål og vurdering 7. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV1145",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14612",
+          "core_elements": [
+            "KE1836",
+            "KE1837",
+            "KE1839"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og presentere sentrale trekk ved kristendom og andre religions- og livssynstradisjoner og deres utbredelse i dag",
+              "nno": "utforske og presentere sentrale trekk ved kristendom og andre religions- og livssynstradisjonar og gjere greie for utbreiinga deira i dag",
+              "nob": "utforske og presentere sentrale trekk ved kristendom og andre religions- og livssynstradisjoner og deres utbredelse i dag"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14623",
+          "core_elements": [
+            "KE1836",
+            "KE1837"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og drøfte hvordan kristendom og andre religioner inngår i historiske endringsprosesser globalt og nasjonalt",
+              "nno": "utforske og drøfte korleis kristendom og andre religionar inngår i historiske endringsprosessar globalt og nasjonalt",
+              "nob": "utforske og drøfte hvordan kristendom og andre religioner inngår i historiske endringsprosesser globalt og nasjonalt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14624",
+          "core_elements": [
+            "KE1836",
+            "KE1837"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "undersøke og presentere sentrale ideer fra livssynshumanisme og andre ikke-religiøse livssyn",
+              "nno": "undersøkje og presentere sentrale idear frå livssynshumanisme og andre ikkje-religiøse livssyn",
+              "nob": "undersøke og presentere sentrale ideer fra livssynshumanisme og andre ikke-religiøse livssyn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14613",
+          "core_elements": [
+            "KE1836",
+            "KE1837",
+            "KE1839"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og presentere religiøst mangfold og religiøse praksiser utenfor etablerte religionssamfunn",
+              "nno": "utforske og presentere religiøst mangfald og religiøse praksisar utanfor etablerte religionssamfunn",
+              "nob": "utforske og presentere religiøst mangfold og religiøse praksiser utenfor etablerte religionssamfunn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14614",
+          "core_elements": [
+            "KE1836",
+            "KE1837",
+            "KE1839"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for og reflektere over samenes og andre urfolks religions- og livssynstradisjoner",
+              "nno": "gjere greie for og reflektere over religions- og livssynstradisjonane til samane og andre urfolk",
+              "nob": "gjøre rede for og reflektere over samenes og andre urfolks religions- og livssynstradisjoner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14616",
+          "core_elements": [
+            "KE1836",
+            "KE1837",
+            "KE1840"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke og drøfte fagbegreper om religioner og livssyn",
+              "nno": "bruke og drøfte fagomgrep om religionar og livssyn",
+              "nob": "bruke og drøfte fagbegreper om religioner og livssyn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14617",
+          "core_elements": [
+            "KE1837"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "sammenligne og vurdere kritisk ulike kilder til kunnskap om religioner og livssyn",
+              "nno": "samanlikne og vurdere kritisk ulike kjelder til kunnskap om religionar og livssyn",
+              "nob": "sammenligne og vurdere kritisk ulike kilder til kunnskap om religioner og livssyn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14615",
+          "core_elements": [
+            "KE1836",
+            "KE1838",
+            "KE1839",
+            "KE1840"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for og reflektere over ulike syn på kjønn og seksualitet i kristendom og andre religioner og livssyn",
+              "nno": "gjere greie for og reflektere over ulike syn på kjønn og seksualitet i kristendom og andre religionar og livssyn",
+              "nob": "gjøre rede for og reflektere over ulike syn på kjønn og seksualitet i kristendom og andre religioner og livssyn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14622",
+          "core_elements": [
+            "KE1836",
+            "KE1837"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og presentere hvordan elementer fra kristendom og andre religioner og livssyn kommer til uttrykk i medier og populærkultur",
+              "nno": "utforske og presentere korleis element frå kristendom og andre religionar og livssyn kjem til uttrykk i medium og populærkultur",
+              "nob": "utforske og presentere hvordan elementer fra kristendom og andre religioner og livssyn kommer til uttrykk i medier og populærkultur"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14625",
+          "core_elements": [
+            "KE1836",
+            "KE1837",
+            "KE1840"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og sammenligne etiske ideer fra sentrale skikkelser i religiøse og livssynsbaserte tradisjoner",
+              "nno": "utforske og samanlikne etiske idear frå sentrale skikkelsar i religiøse og livssynsbaserte tradisjonar",
+              "nob": "utforske og sammenligne etiske ideer fra sentrale skikkelser i religiøse og livssynsbaserte tradisjoner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14626",
+          "core_elements": [
+            "KE1840"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske etiske ideer fra sentrale skikkelser i filosofihistorien og anvende ideene til å drøfte aktuelle etiske spørsmål",
+              "nno": "utforske etiske idear frå sentrale skikkelsar i filosofihistoria og anvende ideane til å drøfte aktuelle etiske spørsmål",
+              "nob": "utforske etiske ideer fra sentrale skikkelser i filosofihistorien og anvende ideene til å drøfte aktuelle etiske spørsmål"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14618",
+          "core_elements": [
+            "KE1839",
+            "KE1840"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske andres perspektiv og håndtere uenighet og meningsbrytning",
+              "nno": "utforske perspektiva til andre og handtere usemje og meiningsbryting",
+              "nob": "utforske andres perspektiv og håndtere uenighet og meningsbrytning"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14619",
+          "core_elements": [
+            "KE1838",
+            "KE1839",
+            "KE1840"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over eksistensielle spørsmål knyttet til det å vokse opp og leve i et mangfoldig og globalt samfunn",
+              "nno": "reflektere over eksistensielle spørsmål knytte til det å vakse opp og leve i eit mangfaldig og globalt samfunn",
+              "nob": "reflektere over eksistensielle spørsmål knyttet til det å vokse opp og leve i et mangfoldig og globalt samfunn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14620",
+          "core_elements": [
+            "KE1839",
+            "KE1840"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "identifisere og drøfte etiske problemstillinger knyttet til ulike former for kommunikasjon",
+              "nno": "identifisere og drøfte etiske problemstillingar knytte til ulike former for kommunikasjon",
+              "nob": "identifisere og drøfte etiske problemstillinger knyttet til ulike former for kommunikasjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14621",
+          "core_elements": [
+            "KE1836",
+            "KE1839",
+            "KE1840"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "identifisere og drøfte aktuelle etiske problemstillinger knyttet til menneskerettigheter, bærekraft og fattigdom",
+              "nno": "identifisere og drøfte aktuelle etiske problemstillingar knytte til menneskerettar, berekraft og fattigdom",
+              "nob": "identifisere og drøfte aktuelle etiske problemstillinger knyttet til menneskerettigheter, bærekraft og fattigdom"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 10. trinn",
+          "nno": "Kompetansemål og vurdering 10. trinn",
+          "nob": "Kompetansemål og vurdering 10. trinn"
+        }
+      }
+    }
+  ],
+  "last_modified": "2026-07-15T09:29:23.1115129",
+  "replaced_by": [],
+  "replaces": [
+    "RLE01-03"
+  ],
+  "short_title": {
+    "by_language": {
+      "default": "KRLE",
+      "nno": "KRLE",
+      "nob": "KRLE"
+    }
+  },
+  "title": {
+    "by_language": {
+      "default": "Læreplan i kristendom, religion, livssyn og etikk (KRLE)",
+      "nno": "Læreplan i kristendom, religion, livssyn og etikk (KRLE)",
+      "nob": "Læreplan i kristendom, religion, livssyn og etikk (KRLE)"
+    }
+  },
+  "valid_from": "2026-08-01",
+  "valid_to": null
+}

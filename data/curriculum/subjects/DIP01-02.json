@@ -1,0 +1,126 @@
+{
+  "code": "DIP01-02",
+  "goal_sets": [
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV315",
+      "goals": [
+        {
+          "basic_skills": [],
+          "code": "KM3257",
+          "core_elements": [
+            "KE364"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for grunnleggende demokratiske verdier, prinsipper og utfordringer",
+              "nob": "gjøre rede for grunnleggende demokratiske verdier, prinsipper og utfordringer"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3256",
+          "core_elements": [
+            "KE364"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske demokratiske prosesser på egen skole og i lokalsamfunnet og vurdere prosessene i lys av sentrale verdier og prinsipper som demokratiet bygger på",
+              "nob": "utforske demokratiske prosesser på egen skole og i lokalsamfunnet og vurdere prosessene i lys av sentrale verdier og prinsipper som demokratiet bygger på"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3258",
+          "core_elements": [
+            "KE364"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og reflektere over hvordan medbestemmelse og beslutningsprosesser fungerer i praksis",
+              "nob": "utforske og reflektere over hvordan medbestemmelse og beslutningsprosesser fungerer i praksis"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3259",
+          "core_elements": [
+            "KE364"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "delta i meningsbrytninger og håndtere uenighet",
+              "nob": "delta i meningsbrytninger og håndtere uenighet"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3261",
+          "core_elements": [
+            "KE364"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "reflektere over hva som binder et demokratisk samfunn sammen",
+              "nob": "reflektere over hva som binder et demokratisk samfunn sammen"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3260",
+          "core_elements": [
+            "KE364"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke ulike påvirkningskanaler for å nå ut til en bestemt målgruppe og reflektere over etiske problemstillinger knyttet til påvirkning",
+              "nob": "bruke ulike påvirkningskanaler for å nå ut til en bestemt målgruppe og reflektere over etiske problemstillinger knyttet til påvirkning"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering demokrati i praksis",
+          "nob": "Kompetansemål og vurdering demokrati i praksis"
+        }
+      }
+    }
+  ],
+  "last_modified": "2024-11-07T12:57:14.065895",
+  "replaced_by": [],
+  "replaces": [
+    "ADI2-01",
+    "DIP1-01"
+  ],
+  "short_title": {
+    "by_language": {
+      "default": "Demokrati i praksis",
+      "nob": "Demokrati i praksis"
+    }
+  },
+  "title": {
+    "by_language": {
+      "default": "Læreplan i valgfaget demokrati i praksis",
+      "nob": "Læreplan i valgfaget demokrati i praksis"
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

@@ -1,0 +1,87 @@
+---
+# Udir revises curricula on their own schedule, and a revision renumbers every
+# competence goal -- which orphans every quiz item keyed to the old codes. The
+# committed catalogue gives no sign of this on its own: it stays valid-looking
+# indefinitely. This job is the thing that notices.
+#
+# Deliberately not an auto-re-ingest. A revision is editorial work (goals are
+# reworded, checkpoints move, items need re-authoring), so the right output is
+# an issue a human reads, not a large PR that appears unbidden.
+name: Curriculum drift
+
+on:
+  schedule:
+    # Monday morning, so a finding starts the week rather than the weekend.
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+      - run: uv sync --group ingest
+
+      - name: Compare the vendored catalogue against Udir
+        id: drift
+        run: |
+          set +e
+          uv run froken-ingest --check-drift > drift.txt 2>&1
+          echo "status=$?" >> "$GITHUB_OUTPUT"
+          cat drift.txt
+
+      - name: Open an issue when the catalogue has fallen behind
+        if: steps.drift.outputs.status != '0'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = fs.readFileSync('drift.txt', 'utf8');
+            const title = 'Curriculum drift: the vendored catalogue is out of date';
+
+            // Reuse the open issue if there is one. Udir's changes arrive in
+            // batches, so a fresh issue every Monday would be noise.
+            const existing = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'curriculum-drift',
+            });
+
+            const body = [
+              'The scheduled drift check found differences between the committed',
+              'curriculum and Udir.',
+              '',
+              '```',
+              report.trim(),
+              '```',
+              '',
+              'A superseded curriculum renumbers every competence goal, so quiz',
+              'items referencing the old codes will need re-authoring. Re-ingest',
+              'with `froken-ingest --as-of <date the new plans take effect>` and',
+              'review the resulting data diff.',
+            ].join('\n');
+
+            if (existing.data.length > 0) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.data[0].number,
+                body,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+                labels: ['curriculum-drift'],
+              });
+            }

@@ -1,0 +1,2422 @@
+{
+  "code": "MAT01-06",
+  "goal_sets": [
+    {
+      "after_year": 2,
+      "applies_to_years": [
+        1,
+        2
+      ],
+      "code": "KV1021",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13228",
+          "core_elements": [
+            "KE1760",
+            "KE1762",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "gruppere tal og mengder ut frå eigenskapar og reflektere over om dette kan gjerast på fleire måtar",
+              "eng": "group numbers and sets based on their properties and to reflect upon whether there are multiple ways to do this",
+              "nno": "gruppere tal og mengder ut frå eigenskapar og reflektere over om dette kan gjerast på fleire måtar",
+              "nob": "gruppere tall og mengder ut fra egenskaper og reflektere over om dette kan gjøres på flere måter",
+              "sme": "ovttastahttit loguid ja hivvodagaid iešvuođaid vuođul ja reflekteret sáhttá go dan dahkat máŋgga láhkai"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13229",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur",
+              "eng": "explore numbers, sets and counting through play, nature, visual art, music and children’s literature",
+              "nno": "utforske tal, mengder og teljing i leik, natur, biletkunst, musikk og barnelitteratur",
+              "nob": "utforske tall, mengder og telling i lek, natur, billedkunst, musikk og barnelitteratur",
+              "sme": "suokkardit loguid, hivvodagaid ja lohkama stoahkamis, luonddus, govvadáidagis, musihkas ja mánáidgirjjálašvuođas"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13241",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke talsymbol, talord, teikning og konkret til å representere tal og mengder på ulike måtar og omsetje mellom dei ulike representasjonane",
+              "eng": "use numerals, number words, drawings and tangible objects to represent numbers and sets in different ways and translate between the different representations",
+              "nno": "bruke talsymbol, talord, teikning og konkret til å representere tal og mengder på ulike måtar og omsetje mellom dei ulike representasjonane",
+              "nob": "bruke tallsymboler, tallord, tegning og konkreter til å representere tall og mengder på ulike måter og oversette mellom de ulike representasjonene",
+              "sme": "geavahit lohkosymbolaid, lohkosániid, tevnnegiid ja konkrehtaid ovddastit loguid ja hivvodagaid iešguđet láhkai ja molssodit iešguđet ovddastemiid gaskka"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4"
+          ],
+          "code": "KM13230",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "telje både framlengs og baklengs, velje ulike startpunkt og ulik differanse og forklare mønster i teljingar",
+              "eng": "count both up and down, choose different starting points and intervals for counting, and explain counting patterns",
+              "nno": "telje både framlengs og baklengs, velje ulike startpunkt og ulik differanse og forklare mønster i teljingar",
+              "nob": "telle både framlengs og baklengs, velge ulike startpunkter og ulik differanse og forklare mønstre i tellinger",
+              "sme": "lohkat sihke ovddos ja maŋos guvlui, válljet iešguđet álginloguid ja iešguđet differánssaid ja čilget minstariid lohkamiin"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4"
+          ],
+          "code": "KM13231",
+          "core_elements": [
+            "KE1760",
+            "KE1763",
+            "KE1764"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "beskrive og utforske eigenskapar ved partal og oddetal",
+              "eng": "describe and explore the properties of odd and even numbers",
+              "nno": "beskrive og utforske eigenskapar ved partal og oddetal",
+              "nob": "beskrive og utforske egenskaper ved partall og oddetall",
+              "sme": "válddahit ja suokkardit párraloguid ja leaskaloguid iešvuođaid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13232",
+          "core_elements": [
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke talsymbol, talord, teikning og konkret til å representere posisjonssystemet og omsetje mellom dei ulike representasjonane",
+              "eng": "use numerals, number words, drawings and tangible objects to represent the positional system and translate between the different representations",
+              "nno": "bruke talsymbol, talord, teikning og konkret til å representere posisjonssystemet og omsetje mellom dei ulike representasjonane",
+              "nob": "bruke tallsymboler, tallord, tegning og konkreter til å representere posisjonssystemet og oversette mellom de ulike representasjonene",
+              "sme": "geavahit lohkosymbolaid, lohkosániid, tevnnegiid ja konkrehtaid ovddastit sadjevuogádaga ja molssodit iešguđet ovddastemiid gaskka"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4"
+          ],
+          "code": "KM13233",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
+              "eng": "place numbers on the number line and use the number line to carry out arithmetic and solve problems",
+              "nno": "plassere tal på tallinja og bruke tallinja i rekning og problemløysing",
+              "nob": "plassere tall på tallinjen og bruke tallinjen i regning og problemløsing",
+              "sme": "bidjat loguid lohkolinnjái ja geavahit lohkolinnjá rehkenastimis ja čuolbmačoavdimis"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13234",
+          "core_elements": [
+            "KE1761",
+            "KE1763"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke addisjon og subtraksjon til å lage og løyse problem frå leik og kvardag",
+              "eng": "use addition and subtraction in order to create and solve problems from play and in daily life",
+              "nno": "bruke addisjon og subtraksjon til å lage og løyse problem frå leik og kvardag",
+              "nob": "bruke addisjon og subtraksjon til å lage og løse problemer fra lek og hverdag",
+              "sme": "geavahit addišuvnna ja subtrakšuvnna ráhkadit ja čoavdit čuolmmaid stoahkamis ja árgabeaivvis"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13235",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke kommutative og assosiative eigenskapar ved addisjon i hovudrekning og skriftleg rekning",
+              "eng": "use commutative and associative properties when carrying out addition in written and mental arithmetic",
+              "nno": "bruke kommutative og assosiative eigenskapar ved addisjon i hovudrekning og skriftleg rekning",
+              "nob": "bruke kommutative og assosiative egenskaper ved addisjon i hoderegning og skriftlig regning",
+              "sme": "geavahit addišuvnna kommutatiiva ja assosiatiiva iešvuođaid oaivvisrehkenastimis ja čálalaš rehkenastimis"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4"
+          ],
+          "code": "KM13242",
+          "core_elements": [
+            "KE1763",
+            "KE1764"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke likskapsteiknet som eit relasjonelt symbol som viser at to uttrykk har same verdi",
+              "eng": "use the equals sign as a relational symbol that shows that two expressions have the same value",
+              "nno": "bruke likskapsteiknet som eit relasjonelt symbol som viser at to uttrykk har same verdi",
+              "nob": "bruke likhetstegnet som et relasjonelt symbol som viser at to uttrykk har samme verdi",
+              "sme": "geavahit ovttamađodatmearkka relašuvnnalaš symbolan mat čájehit ahte guovtti cealkagis lea seamma árvu"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4"
+          ],
+          "code": "KM13236",
+          "core_elements": [
+            "KE1760",
+            "KE1762",
+            "KE1764"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "kjenne att og beskrive repeterande einingar i mønster og lage eigne mønster",
+              "eng": "recognise and describe repeating units in patterns and create their own patterns",
+              "nno": "kjenne att og beskrive repeterande einingar i mønster og lage eigne mønster",
+              "nob": "kjenne igjen og beskrive repeterende enheter i mønstre og lage egne mønstre",
+              "sme": "dovdát ja válddahit geardduheaddji ovttadagaid minstariin ja ráhkadit iežas minstariid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13237",
+          "core_elements": [
+            "KE1760",
+            "KE1762",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
+              "eng": "explore, draw and describe geometric shapes from their own local environment and reason in relation to ways to sort them according to their properties",
+              "nno": "utforske, teikne og beskrive geometriske figurar frå sitt eige nærmiljø og argumentere for måtar å sortere dei på etter eigenskapar",
+              "nob": "utforske, tegne og beskrive geometriske figurer fra sitt eget nærmiljø og argumentere for måter å sortere dem på etter egenskaper",
+              "sme": "suokkardit, tevdnet ja válddahit geometralaš govvosiid iežas lagašbirrasis ja ákkastallat vugiid rátkit daid iešvuođaid vuođul"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4"
+          ],
+          "code": "KM13240",
+          "core_elements": [
+            "KE1761",
+            "KE1762",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "måle lengd og masse i praktiske situasjonar med ikkje-standardiserte og standardiserte måleiningar og samtale om resultata",
+              "eng": "measure length and mass in practical situations using both non-standardised and standardised units of measurement, and to discuss the results",
+              "nno": "måle lengd og masse i praktiske situasjonar med ikkje-standardiserte og standardiserte måleiningar og samtale om resultata",
+              "nob": "måle lengde og masse i praktiske situasjoner med ikke-standardiserte og standardiserte måleenheter og samtale om resultatene",
+              "sme": "mihtidit guhkkodaga ja mássa praktihkalaš dilálašvuođain standardiserekeahtes ja standardiserejuvvon mihttoovttadagaiguin ja ságastallat bohtosa birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13238",
+          "core_elements": [
+            "KE1761",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "beskrive tid ved hjelp av kalender og analog og digital klokke",
+              "eng": "describe time with the aid of a calendar as well as analogue and digital clocks",
+              "nno": "beskrive tid ved hjelp av kalender og analog og digital klokke",
+              "nob": "beskrive tid ved hjelp av kalender og analog og digital klokke",
+              "sme": "válddahit áiggi kaleandara ja analoga ja digitála tiimma vehkiin"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM13239",
+          "core_elements": [
+            "KE1760",
+            "KE1762"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lage og følgje reglar og trinnvise instruksjonar i leik og spel",
+              "eng": "create and follow rules and step-by-step instructions during play and games",
+              "nno": "lage og følgje reglar og trinnvise instruksjonar i leik og spel",
+              "nob": "lage og følge regler og trinnvise instruksjoner i lek og spill",
+              "sme": "ráhkadit ja čuovvut njuolggadusaid ja cehkiid mielde bagadallamiid stoahkamis ja speallamis"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 2. trinn",
+          "eng": "Competence aims and assessment year 2",
+          "nno": "Kompetansemål og vurdering 2. trinn",
+          "nob": "Kompetansemål og vurdering 2. trinn",
+          "sme": "Gealbomihttomearit ja árvvoštallan 2. ceahkki"
+        }
+      }
+    },
+    {
+      "after_year": 3,
+      "applies_to_years": [
+        3
+      ],
+      "code": "KV1022",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13243",
+          "core_elements": [
+            "KE1761",
+            "KE1763"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke formålstenlege strategiar for addisjon og subtraksjon til å lage og løyse problem frå leik og kvardag",
+              "eng": "use appropriate strategies for addition and subtraction in order to create and solve problems from play and in daily life",
+              "nno": "bruke formålstenlege strategiar for addisjon og subtraksjon til å lage og løyse problem frå leik og kvardag",
+              "nob": "bruke hensiktsmessige strategier for addisjon og subtraksjon til å lage og løse problemer fra lek og hverdag",
+              "sme": "geavahit ulbmillaš strategiijaid addišuvnnas ja substrakšuvnnas ráhkadit ja čoavdit čuolmmaid stoahkamis ja árgabeaivvis"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13244",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "forklare og utforske samanhengar mellom addisjon og subtraksjon i hovudrekning og skriftleg rekning",
+              "eng": "explain and explore the relationships between addition and subtraction in written and mental arithmetic",
+              "nno": "forklare og utforske samanhengar mellom addisjon og subtraksjon i hovudrekning og skriftleg rekning",
+              "nob": "forklare og utforske sammenhenger mellom addisjon og subtraksjon i hoderegning og skriftlig regning",
+              "sme": "čilget ja suokkardit addišuvnna ja subtrakšuvnna oktavuođaid oaivvisrehkenastimis ja čálalaš rehkenastimis"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4"
+          ],
+          "code": "KM13245",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "beskrive og utforske multiplikasjon ved teljing og gruppering",
+              "eng": "describe and explore multiplication through counting and grouping",
+              "nno": "beskrive og utforske multiplikasjon ved teljing og gruppering",
+              "nob": "beskrive og utforske multiplikasjon ved telling og gruppering",
+              "sme": "válddahit ja suokkardit multiplikašuvnna lohkamis ja ovttastahttimis"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13254",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke dobling og halvering i hovudrekning og skriftleg rekning",
+              "eng": "double and halve in written and mental arithmetic",
+              "nno": "bruke dobling og halvering i hovudrekning og skriftleg rekning",
+              "nob": "bruke dobling og halvering i hoderegning og skriftlig regning",
+              "sme": "geavahit duppalastima ja beallideami oaivvisrehkenastimis ja čálalaš rehkenastimis"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13246",
+          "core_elements": [
+            "KE1761",
+            "KE1763"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke multiplikasjon og divisjon til å lage og løyse problem frå leik og kvardag",
+              "eng": "use multiplication and division in order to create and solve problems from play and in daily life",
+              "nno": "bruke multiplikasjon og divisjon til å lage og løyse problem frå leik og kvardag",
+              "nob": "bruke multiplikasjon og divisjon til å lage og løse problemer fra lek og hverdag",
+              "sme": "geavahit multiplikašuvnna ja divišuvnna ráhkadit ja čoavdit čuolmmaid stoahkamis ja árgabeaivvis"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13247",
+          "core_elements": [
+            "KE1761",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke talsymbol, tekst, tabellar, teikning og konkret til å representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+              "eng": "use numerals, text, tables, drawings and tangible objects to represent multiplication in different ways and translate between the different representations",
+              "nno": "bruke talsymbol, tekst, tabellar, teikning og konkret til å representere multiplikasjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+              "nob": "bruke tallsymboler, tekst, tabeller, tegning og konkreter til å representere multiplikasjon på ulike måter og oversette mellom de ulike representasjonene",
+              "sme": "geavahit lohkosymbolaid, teavsttaid, tabeallaid, tevnnegiid ja konkrehtaid ovddastit multiplikašuvnna iešguđet láhkai ja molssodit iešguđet ovddastemiid gaskka"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13248",
+          "core_elements": [
+            "KE1763",
+            "KE1764"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke kommutative, assosiative og distributive eigenskapar ved multiplikasjon i hovudrekning og skriftleg rekning",
+              "eng": "use commutative, associative and distributive properties when carrying out multiplication in written and mental arithmetic",
+              "nno": "bruke kommutative, assosiative og distributive eigenskapar ved multiplikasjon i hovudrekning og skriftleg rekning",
+              "nob": "bruke kommutative, assosiative og distributive egenskaper ved multiplikasjon i hoderegning og skriftlig regning",
+              "sme": "geavahit multiplikašuvnna kommutatiiva, assosiatiiva ja distributiiva iešvuođaid oaivvisrehkenastimis ja čálalaš rehkenastimis"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4"
+          ],
+          "code": "KM13249",
+          "core_elements": [
+            "KE1763",
+            "KE1764"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke likskaps- og ulikskapsteikn som relasjonelle symbol for å samanlikne storleikar, mengder, uttrykk og tal",
+              "eng": "use the equals sign and inequality signs as relational symbols to compare measures, quantities, expressions, and numbers",
+              "nno": "bruke likskaps- og ulikskapsteikn som relasjonelle symbol for å samanlikne storleikar, mengder, uttrykk og tal",
+              "nob": "bruke likhets- og ulikhetstegn som relasjonelle symboler for å sammenligne størrelser, mengder, uttrykk og tall",
+              "sme": "geavahit ovttamađodat- ja veallamearkkaid relašuvnnalaš symbolan buohtastahttit sturrodagaid, hivvodagaid, cealkagiid ja loguid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13250",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke talsymbol, teikning og konkret for å utforske likevekt og omsetje mellom dei ulike representasjonane",
+              "eng": "use numerals, drawings, and tangible objects to explore equivalence and translate between the different representations",
+              "nno": "bruke talsymbol, teikning og konkret for å utforske likevekt og omsetje mellom dei ulike representasjonane",
+              "nob": "bruke tallsymboler, tegning og konkreter for å utforske likevekt og oversette mellom de ulike representasjonene",
+              "sme": "geavahit lohkosymbolaid, tevnnegiid ja konkrehtaid suokkardit dássedeattu ja molssodit iešguđet ovddastemiid gaskka"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4"
+          ],
+          "code": "KM13253",
+          "core_elements": [
+            "KE1761",
+            "KE1762",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "måle areal i praktiske situasjonar med ikkje-standardiserte og standardiserte måleiningar",
+              "eng": "measure areas in practical situations using both non-standardised and standardised units of measurement",
+              "nno": "måle areal i praktiske situasjonar med ikkje-standardiserte og standardiserte måleiningar",
+              "nob": "måle arealer i praktiske situasjoner med ikke-standardiserte og standardiserte måleenheter",
+              "sme": "mihtidit areálaid praktihkalaš dilálašvuođain standardiserekeahtes ja standardiserejuvvon mihttoovttadagaiguin"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM13251",
+          "core_elements": [
+            "KE1760"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "eksperimentere med, namngi og plassere punkt i koordinatsystemet",
+              "eng": "experiment with, name and plot points using a coordinate system",
+              "nno": "eksperimentere med, namngi og plassere punkt i koordinatsystemet",
+              "nob": "eksperimentere med, navngi og plassere punkter i koordinatsystemet",
+              "sme": "eksperimenteret čuoggáiguin koordináhttavuogádagas, bidjat namaid daidda ja sajustit čuoggáid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM13252",
+          "core_elements": [
+            "KE1760",
+            "KE1762"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lage og følgje reglar og trinnvise instruksjonar i leik og spel knytte til koordinatsystemet",
+              "eng": "create and follow rules and step-by-step instructions during play and games related to a coordinate system",
+              "nno": "lage og følgje reglar og trinnvise instruksjonar i leik og spel knytte til koordinatsystemet",
+              "nob": "lage og følge regler og trinnvise instruksjoner i lek og spill knyttet til koordinatsystemet",
+              "sme": "ráhkadit ja čuovvut njuolggadusaid ja cehkiid mielde bagadallamiid stoahkamis ja speallamis mat gusket koordináhtavuogádahkii"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 3. trinn",
+          "eng": "Competence aims and assessment year 3",
+          "nno": "Kompetansemål og vurdering 3. trinn",
+          "nob": "Kompetansemål og vurdering 3. trinn",
+          "sme": "Gealbomihttomearit ja árvvoštallan 3. ceahkki"
+        }
+      }
+    },
+    {
+      "after_year": 4,
+      "applies_to_years": [
+        4
+      ],
+      "code": "KV1023",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4"
+          ],
+          "code": "KM13255",
+          "core_elements": [
+            "KE1760"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og bruke målings- og delingsdivisjon i praktiske situasjonar",
+              "eng": "explore and use grouping and sharing division in practical situations",
+              "nno": "utforske og bruke målings- og delingsdivisjon i praktiske situasjonar",
+              "nob": "utforske og bruke målings- og delingsdivisjon i praktiske situasjoner",
+              "sme": "suokkardit ja geavahit čáhkan- ja osiidejuohkima praktihkalaš oktavuođain"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13256",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke tal, tekst, teikning og konkret for å utforske divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+              "eng": "use numbers, text, drawings, and tangible objects to explore division in different ways and translate between the different representations",
+              "nno": "bruke tal, tekst, teikning og konkret for å utforske divisjon på ulike måtar og omsetje mellom dei ulike representasjonane",
+              "nob": "bruke tall, tekst, tegning og konkreter for å utforske divisjon på ulike måter og oversette mellom de ulike representasjonene",
+              "sme": "geavahit loguid, teavsttaid, tevnnegiid ja konkrehtaid suokkardit divišuvnna iešguđet láhkai ja molssodit iešguđet ovddastemiid gaskka"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4"
+          ],
+          "code": "KM13257",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke og forklare ulike divisjonsstrategiar",
+              "eng": "use and explain different division strategies",
+              "nno": "bruke og forklare ulike divisjonsstrategiar",
+              "nob": "bruke og forklare ulike divisjonsstrategier",
+              "sme": "geavahit ja čilget iešguđetlágan divišuvdnastrategiijaid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13258",
+          "core_elements": [
+            "KE1760",
+            "KE1762",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke hovudrekning og skriftleg rekning til å utforske og forklare samanhengar mellom dei fire rekneartane",
+              "eng": "use written and mental arithmetic to explore and explain the relationships between the four arithmetic operations",
+              "nno": "bruke hovudrekning og skriftleg rekning til å utforske og forklare samanhengar mellom dei fire rekneartane",
+              "nob": "bruke hoderegning og skriftlig regning til å utforske og forklare sammenhenger mellom de fire regneartene",
+              "sme": "geavahit oaivvisrehkenastima ja čálalaš rehkenastima suokkardit ja čilget dan njealji rehkenastinvuogi oktavuođaid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13259",
+          "core_elements": [
+            "KE1761",
+            "KE1762",
+            "KE1763"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "estimere, gjere overslag, forklare tenkjemåtar og vurdere kritisk eigne og andre sine modellar og løysingar i arbeid med praktiske situasjonar",
+              "eng": "assess, estimate, explain their reasoning, and critically assess their own and others’ models and solutions when working in practical situations",
+              "nno": "estimere, gjere overslag, forklare tenkjemåtar og vurdere kritisk eigne og andre sine modellar og løysingar i arbeid med praktiske situasjonar",
+              "nob": "estimere, gjøre overslag, forklare tenkemåter og vurdere kritisk egne og andres modeller og løsninger i arbeid med praktiske situasjoner",
+              "sme": "estimeret, sullii rehkenastit, čilget jurddašanvugiid ja kritihkalaččat árvvoštallat iežas ja earáid modeallaid ja čovdosiid go bargá praktihkalaš bargguid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13260",
+          "core_elements": [
+            "KE1761",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lage rekneuttrykk til praktiske situasjonar og finne praktiske situasjonar som passar til oppgitte rekneuttrykk",
+              "eng": "create mathematical expressions for practical situations and identify practical situations that fit a given mathematical expression",
+              "nno": "lage rekneuttrykk til praktiske situasjonar og finne praktiske situasjonar som passar til oppgitte rekneuttrykk",
+              "nob": "lage regneuttrykk til praktiske situasjoner og finne praktiske situasjoner som passer til oppgitte regneuttrykk",
+              "sme": "ráhkadit rehkenastincealkagiid praktihkalaš dilálašvuođaide ja gávdnat praktihkalaš dilálašvuođaid mat heivejit almmuhuvvon rehkenastincealkagii"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13261",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "beskrive og utforske eigenskapar ved to- og tredimensjonale figurar ved å bruke vinklar, kantar, hjørne og flater",
+              "eng": "describe and explore the properties of two- and three-dimensional shapes by using angles, edges, corners, and faces",
+              "nno": "beskrive og utforske eigenskapar ved to- og tredimensjonale figurar ved å bruke vinklar, kantar, hjørne og flater",
+              "nob": "beskrive og utforske egenskaper ved to- og tredimensjonale figurer ved å bruke vinkler, kanter, hjørner og flater",
+              "sme": "válddahit ja suokkardit guovtte- ja golmmadimenšunála govvosiid iešvuođaid go geavaha čiegaid, ravddaid, nurkkiid ja seinniid"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM13264",
+          "core_elements": [],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "måle volum i praktiske situasjonar med ikkje-standardiserte og standardiserte måleiningar og samtale om resultata",
+              "eng": "measure volume in practical situations using both non-standardised and standardised units of measurement, and to discuss the results",
+              "nno": "måle volum i praktiske situasjonar med ikkje-standardiserte og standardiserte måleiningar og samtale om resultata",
+              "nob": "måle volum i praktiske situasjoner med ikke-standardiserte og standardiserte måleenheter og samtale om resultatene",
+              "sme": "mihtidit voluma praktihkalaš dilálašvuođain standardiserekeahtes ja standardiserejuvvon mihttoovttadagaiguin ja ságastallat bohtosiid birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13262",
+          "core_elements": [
+            "KE1760",
+            "KE1764"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "beskrive og utforske strukturar og mønster i leik og spel",
+              "eng": "describe and explore structures and patterns in games and play",
+              "nno": "beskrive og utforske strukturar og mønster i leik og spel",
+              "nob": "beskrive og utforske strukturer og mønstre i lek og spill",
+              "sme": "válddahit ja suokkardit struktuvrraid ja minstariid stoahkamis ja speallamis"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13263",
+          "core_elements": [
+            "KE1760",
+            "KE1764"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer",
+              "eng": "create algorithms and express them using variables, conditions and loops",
+              "nno": "lage algoritmar og uttrykkje dei ved bruk av variablar, vilkår og lykkjer",
+              "nob": "lage algoritmer og uttrykke dem ved bruk av variabler, vilkår og løkker",
+              "sme": "ráhkadit algoritmmaid ja ovdanbuktit daid geavahettiin variábeliid, eavttuid ja oktavuođaid"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 4. trinn",
+          "eng": "Competence aims and assessment year 4",
+          "nno": "Kompetansemål og vurdering 4. trinn",
+          "nob": "Kompetansemål og vurdering 4. trinn",
+          "sme": "Gealbomihttomearit ja árvvoštallan 4. ceahkki"
+        }
+      }
+    },
+    {
+      "after_year": 5,
+      "applies_to_years": [
+        5
+      ],
+      "code": "KV1024",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13265",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke tal, teikning og konkret til å beskrive og utforske samanhengar mellom brøkar, desimaltal og prosent",
+              "eng": "use numbers, drawings, and tangible objects to describe and explore the relationships between fractions, decimals, and percentages",
+              "nno": "bruke tal, teikning og konkret til å beskrive og utforske samanhengar mellom brøkar, desimaltal og prosent",
+              "nob": "bruke tall, tegning og konkreter til å beskrive og utforske sammenhenger mellom brøker, desimaltall og prosenter",
+              "sme": "geavahit loguid, tevnnegiid ja konkrehtaid válddahit ja suokkardit cuovkkaid, desimálaloguid ja proseanttaid oktavuođaid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13266",
+          "core_elements": [
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "beskrive brøk som del av ein heil, som del av ei mengd, som ein divisjon og som tal på tallinja",
+              "eng": "describe fractions as part of a whole, as part of a quantity, as part of a division, and as a number on a number line",
+              "nno": "beskrive brøk som del av ein heil, som del av ei mengd, som ein divisjon og som tal på tallinja",
+              "nob": "beskrive brøk som del av en hel, som del av en mengde, som en divisjon og som tall på tallinjen",
+              "sme": "válddahit cuovkka oassin ollislašvuođas, oassin hivvodagas, oassin divišuvnnas ja oassin logus lohkolinnjás"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13267",
+          "core_elements": [
+            "KE1761",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke tal, tekst, teikning, konkret og praktiske situasjonar for å representere brøkar og kunne omsetje mellom dei ulike representasjonane",
+              "eng": "use numbers, text, drawings, tangible objects, and practical situation to represent fractions, and to be able to translate between different representations",
+              "nno": "bruke tal, tekst, teikning, konkret og praktiske situasjonar for å representere brøkar og kunne omsetje mellom dei ulike representasjonane",
+              "nob": "bruke tall, tekst, tegning, konkreter og praktiske situasjoner for å representere brøker og kunne oversette mellom de ulike representasjonene",
+              "sme": "geavahit loguid, teavsttaid, tevnnegiid, konkrehtaid ja praktihkalaš dilálašvuođaid ovddastit cuovkkaid ja máhttit molssodit iešguđet ovddastemiid gaskka"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13268",
+          "core_elements": [
+            "KE1760",
+            "KE1763",
+            "KE1764"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utvikle og bruke ulike strategiar for rekning med positive tal og brøk og forklare tenkjemåtane sine",
+              "eng": "develop and use different strategies for arithmetic using positive numbers and fractions, and to explain their reasoning",
+              "nno": "utvikle og bruke ulike strategiar for rekning med positive tal og brøk og forklare tenkjemåtane sine",
+              "nob": "utvikle og bruke ulike strategier for regning med positive tall og brøk og forklare tenkemåtene sine",
+              "sme": "ovdánahttit ja geavahit iešguđetlágan rehkenastinstrategiijaid positiiva loguiguin ja cuovkkaiguin ja čilget iežas jurddašanvugiid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13269",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "formulere og løyse problem som har med brøk å gjere",
+              "eng": "formulate and solve problems related to fractions",
+              "nno": "formulere og løyse problem som har med brøk å gjere",
+              "nob": "formulere og løse problemer som har med brøk å gjøre",
+              "sme": "sátnádit ja čoavdit čuolmmaid mat gusket cuovkkaide"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13270",
+          "core_elements": [
+            "KE1760",
+            "KE1762"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og beskrive tilfeldigheit og sannsyn i spel og praktiske situasjonar, og knyte det til brøk",
+              "eng": "explore and describe chance and probability in games and practical situations, and to connect these concepts to fractions",
+              "nno": "utforske og beskrive tilfeldigheit og sannsyn i spel og praktiske situasjonar, og knyte det til brøk",
+              "nob": "utforske og beskrive tilfeldighet og sannsynlighet i spill og praktiske situasjoner og knytte det til brøk",
+              "sme": "suokkardit ja válddahit soaittáhagaid ja jáhkehahttivuođaid speallamis ja praktihkalaš dilálašvuođain ja čatnat daid cuovkkaide"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13274",
+          "core_elements": [
+            "KE1760",
+            "KE1762",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke tal, tekst, teikning og konkret til å løyse likningar og teste og forklare løysingar",
+              "eng": "use numbers, text, drawings and tangible objects to solve equations and test and explain solutions",
+              "nno": "bruke tal, tekst, teikning og konkret til å løyse likningar og teste og forklare løysingar",
+              "nob": "bruke tall, tekst, tegning og konkreter til å løse ligninger og teste og forklare løsninger",
+              "sme": "geavahit loguid, teavsttaid, tevnnegiid ja konkrehtaid čoavdit ovttamađodagaid ja iskat ja čilget čovdosiid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13271",
+          "core_elements": [
+            "KE1761",
+            "KE1763"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke rekneark for å lage og løyse oppgåver som handlar om personleg økonomi",
+              "eng": "use spreadsheets to create and solve tasks relating to personal finance",
+              "nno": "bruke rekneark for å lage og løyse oppgåver som handlar om personleg økonomi",
+              "nob": "bruke regneark for å lage og løse oppgaver som handler om personlig økonomi",
+              "sme": "geavahit rehkenastinárkka ráhkadit ja čoavdit bargobihtáid main lea sáhka persovnnalaš ekonomiijas"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13273",
+          "core_elements": [
+            "KE1761",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lage og løyse oppgåver som handlar om tid",
+              "eng": "create and solve tasks relating to time",
+              "nno": "lage og løyse oppgåver som handlar om tid",
+              "nob": "lage og løse oppgaver som handler om tid",
+              "sme": "ráhkadit ja čoavdit bargobihtáid main lea sáhka áiggis"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF5"
+          ],
+          "code": "KM13272",
+          "core_elements": [
+            "KE1760",
+            "KE1764"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer",
+              "eng": "create and program algorithms using variables, conditions and loops",
+              "nno": "lage og programmere algoritmar med bruk av variablar, vilkår og lykkjer",
+              "nob": "lage og programmere algoritmer med bruk av variabler, vilkår og løkker",
+              "sme": "ráhkadit ja programmeret algoritmmaid geavahettiin variábeliid, eavttuid ja oktavuođaid"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 5. trinn",
+          "eng": "Competence aims and assessment year 5",
+          "nno": "Kompetansemål og vurdering 5. trinn",
+          "nob": "Kompetansemål og vurdering 5. trinn",
+          "sme": "Gealbomihttomearit ja árvvoštallan 5. ceahkki"
+        }
+      }
+    },
+    {
+      "after_year": 6,
+      "applies_to_years": [
+        6
+      ],
+      "code": "KV1025",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13275",
+          "core_elements": [
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "beskrive og plassere desimaltal på tallinja og samanlikne tal med ulikt antal desimalar som ein del av posisjonssystemet",
+              "eng": "describe and place decimal numbers on the number line and compare numbers with different numbers of decimals as part of the positional system",
+              "nno": "beskrive og plassere desimaltal på tallinja og samanlikne tal med ulikt antal desimalar som ein del av posisjonssystemet",
+              "nob": "beskrive og plassere desimaltall på tallinjen og sammenligne tall med ulikt antall desimaler som en del av posisjonssystemet",
+              "sme": "válddahit ja bidjat desimálaloguid lohkolinnjái ja buohtastahttit loguid vealalaš desimálaloguiguin oassin sadjevuogádagas."
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13276",
+          "core_elements": [
+            "KE1760",
+            "KE1763",
+            "KE1764"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utvikle og bruke ulike strategiar for rekning med desimaltal og samanlikne med reknestrategiar for heile tal",
+              "eng": "develop and use different strategies for arithmetic using decimals and be able to compare these to numeracy strategies used for whole numbers",
+              "nno": "utvikle og bruke ulike strategiar for rekning med desimaltal og samanlikne med reknestrategiar for heile tal",
+              "nob": "utvikle og bruke ulike strategier for regning med desimaltall og sammenligne med regnestrategier for hele tall",
+              "sme": "ovdánahttit ja geavahit iešguđetlágan strategiijaid rehkenastit desimálaloguiguin ja buohtastahttit olles loguid rehkenastinstrategiijaiguin"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13277",
+          "core_elements": [
+            "KE1761",
+            "KE1762"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lage og løyse problem med desimaltal, brøk og prosent og argumentere for eigne løysingar",
+              "eng": "create and solve problems featuring decimal numbers, fractions, and percentages, and to provide reasoning for their own solutions",
+              "nno": "lage og løyse problem med desimaltal, brøk og prosent og argumentere for eigne løysingar",
+              "nob": "lage og løse problemer med desimaltall, brøk og prosent og argumentere for egne løsninger",
+              "sme": "ráhkadit ja čoavdit čuolmmaid desimálaloguiguin, cuovkkaiguin ja proseanttaiguin ja ákkastallat iežas čovdosiid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13278",
+          "core_elements": [
+            "KE1760",
+            "KE1762",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "beskrive og utforske eigenskapar ved to- og tredimensjonale figurar og forklare kva for eigenskapar figurane har til felles, og kva for eigenskapar som skil figurane frå kvarandre",
+              "eng": "describe and explore the properties of two- and three-dimensional shapes and explain which properties the shapes share in common, and which properties distinguish the shapes from each other",
+              "nno": "beskrive og utforske eigenskapar ved to- og tredimensjonale figurar og forklare kva for eigenskapar figurane har til felles, og kva for eigenskapar som skil figurane frå kvarandre",
+              "nob": "beskrive og utforske egenskaper ved to- og tredimensjonale figurer og forklare hvilke egenskaper figurene har til felles, og hvilke egenskaper som skiller figurene fra hverandre",
+              "sme": "válddahit ja suokkardit guovtte- ja golmmadimenšunála govvosiid iešvuođaid ja čilget mat oktasaš iešvuođat ja erohusat govvosiin leat"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13283",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og beskrive symmetri i mønster",
+              "eng": "explore and describe symmetry in patterns",
+              "nno": "utforske og beskrive symmetri i mønster",
+              "nob": "utforske og beskrive symmetri i mønstre",
+              "sme": "suokkardit ja válddahit minstariid struktuvrraid ja minstariid symmetriija"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13284",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lage kongruensavbildingar med og utan koordinatsystem",
+              "eng": "perform congruence transformations with and without a coordinate system",
+              "nno": "lage kongruensavbildingar med og utan koordinatsystem",
+              "nob": "lage kongruensavbildninger med og uten koordinatsystemer",
+              "sme": "ráhkadit kongrueansagovvádusaid koordináhttavuogádagain ja dan haga"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13279",
+          "core_elements": [
+            "KE1760",
+            "KE1762"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "måle radius, diameter og omkrins i sirklar og utforske og forklare samanhengen mellom pi og diameteren i ein sirkel",
+              "eng": "measure the radius, diameter and circumference of circles, and explore and explain the relationship between pi and the diameter of a circle",
+              "nno": "måle radius, diameter og omkrins i sirklar og utforske og forklare samanhengen mellom pi og diameteren i ein sirkel",
+              "nob": "måle radius, diameter og omkrets i sirkler og utforske og forklare sammenhengen mellom pi og diameteren i en sirkel",
+              "sme": "mihtidit rádiusa, diamehtera ja birramihtu gierdduin ja suokkardit ja čilget pi ja gierddu diamehtera oktavuođa"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13280",
+          "core_elements": [
+            "KE1761",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske areal og volum i praktiske situasjonar og bruke formålstjenlege måleiningar",
+              "eng": "explore areas and volumes in practical situations and use appropriate units of measurement",
+              "nno": "utforske areal og volum i praktiske situasjonar og bruke formålstjenlege måleiningar",
+              "nob": "utforske arealer og volum i praktiske situasjoner og bruke hensiktsmessige måleenheter",
+              "sme": "suokkardit areála ja voluma praktihkalaš dilálašvuođain ja geavahit ulbmillaš mihttoovttadagaid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13285",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske praktiske problem med areal ved å bruke oppdeling og distributivitet",
+              "eng": "explore practical issues relating to area through the use of partitioning and distributivity",
+              "nno": "utforske praktiske problem med areal ved å bruke oppdeling og distributivitet",
+              "nob": "utforske praktiske problemer med areal ved å bruke oppdeling og distributivitet",
+              "sme": "suokkardit praktihkalaš areálačuolmmaid go geavaha juohkima ja distribuvitehta"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4"
+          ],
+          "code": "KM13281",
+          "core_elements": [
+            "KE1761",
+            "KE1762",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke og utforske strategiar for å måle og rekne ut areal og omkrins",
+              "eng": "use and explore strategies for measuring and calculating area and perimeter",
+              "nno": "bruke og utforske strategiar for å måle og rekne ut areal og omkrins",
+              "nob": "bruke og utforske strategier for å måle og regne ut areal og omkrets",
+              "sme": "geavahit ja suokkardit strategiijaid mihtidit ja rehkenastit areála ja birramihtu"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF5"
+          ],
+          "code": "KM13282",
+          "core_elements": [
+            "KE1760",
+            "KE1764"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke variablar, lykkjer, vilkår og funksjonar i programmering til å utforske geometriske figurar og mønster",
+              "eng": "use variables, loops, conditions and functions in programming to explore geometric shapes and patterns",
+              "nno": "bruke variablar, lykkjer, vilkår og funksjonar i programmering til å utforske geometriske figurar og mønster",
+              "nob": "bruke variabler, løkker, vilkår og funksjoner i programmering til å utforske geometriske figurer og mønstre",
+              "sme": "geavahit programmerema variábeliid, oktavuođaid, eavttuid ja funkšuvnnaid suokkardit geometralaš govvosiid ja minstariid"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 6. trinn",
+          "eng": "Competence aims and assessment year 6",
+          "nno": "Kompetansemål og vurdering 6. trinn",
+          "nob": "Kompetansemål og vurdering 6. trinn",
+          "sme": "Gealbomihttomearit ja árvvoštallan 6. ceahkki"
+        }
+      }
+    },
+    {
+      "after_year": 7,
+      "applies_to_years": [
+        7
+      ],
+      "code": "KV1026",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13286",
+          "core_elements": [
+            "KE1760",
+            "KE1762",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke tal, tekst, tabellar, teikning og konkret for å representere prosent og kunne omsetje mellom brøk, desimaltal og prosent",
+              "eng": "use numbers, text, tables, drawings, and tangible objects to represent percentages, and to translate between fractions, decimals, and percentages",
+              "nno": "bruke tal, tekst, tabellar, teikning og konkret for å representere prosent og kunne omsetje mellom brøk, desimaltal og prosent",
+              "nob": "bruke tall, tekst, tabeller, tegning og konkreter for å representere prosenter og kunne oversette mellom brøk, desimaltall og prosent",
+              "sme": "geavahit loguid, teavsttaid, tabeallaid, tevnnegiid ja konkrehtaid ovddastit proseanttaid ja máhttit molssodit gaskal cuovkka, desimálalogu ja proseantta"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13288",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke formålstjenlege strategiar i hovudrekning og skriftleg rekning med brøk, desimaltal og prosent og forklare strategiar",
+              "eng": "use appropriate strategies in written and mental arithmetic relating to fractions, decimals, and percentages, and to be able to explain these strategies",
+              "nno": "bruke formålstjenlege strategiar i hovudrekning og skriftleg rekning med brøk, desimaltal og prosent og forklare strategiar",
+              "nob": "bruke hensiktsmessige strategier i hoderegning og skriftlig regning med brøk, desimaltall og prosent og forklare strategier",
+              "sme": "geavahit ulbmillaš strategiijaid oaivvisrehkenastimis ja cuovkkaid, desimálaloguid ja proseanttaid čálalaš rehkenastimis ja čilget strategiijaid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13292",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke og utforske negative tal både praktisk og teoretisk",
+              "eng": "use and explore negative numbers in both practical and theoretical terms",
+              "nno": "bruke og utforske negative tal både praktisk og teoretisk",
+              "nob": "bruke og utforske negative tall både praktisk og teoretisk",
+              "sme": "geavahit ja suokkardit negatiiva loguid sihke praktihkalaččat ja teorehtalaččat"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13287",
+          "core_elements": [
+            "KE1760",
+            "KE1763",
+            "KE1764"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke reglar for reknerekkefølgje i problemløysing og til å lage og løyse samansette rekneuttrykk",
+              "eng": "apply the rules for the order of operations in problem solving and to create and solve multi-step numerical expressions",
+              "nno": "bruke reglar for reknerekkefølgje i problemløysing og til å lage og løyse samansette rekneuttrykk",
+              "nob": "bruke regler for regnerekkefølge i problemløsing og til å lage og løse sammensatte regneuttrykk",
+              "sme": "geavahit rehkenastinvuoru njuolggadusaid ja ráhkadit ja čoavdit ovttastuvvon rehkenastincealkagiid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13291",
+          "core_elements": [
+            "KE1762",
+            "KE1764"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke ulike strategiar for å løyse likningar og vurdere om løysingar er gyldige",
+              "eng": "use different strategies to solve equations and assess whether those solutions are valid",
+              "nno": "bruke ulike strategiar for å løyse likningar og vurdere om løysingar er gyldige",
+              "nob": "bruke ulike strategier for å løse ligninger og vurdere om løsninger er gyldige",
+              "sme": "geavahit iešguđetlágan strategiijaid čoavdit ovttamađodagaid ja árvvoštallat leat go čovdosat gustovaččat"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13294",
+          "core_elements": [
+            "KE1760",
+            "KE1762",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "formulere og løyse problem som har med likningar å gjere",
+              "eng": "formulate and solve problems related to equations",
+              "nno": "formulere og løyse problem som har med likningar å gjere",
+              "nob": "formulere og løse problemer som har med ligninger å gjøre",
+              "sme": "sátnádit ja čoavdit čuolmmaid mat gusket ovttamađodagaide"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM13296",
+          "core_elements": [],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke tal, tekst, teikning og konkret til å løyse ulikskapar og teste og forklare løysingar",
+              "eng": "use numbers, text, drawings and tangible objects to solve inequalities and test and explain solutions",
+              "nno": "bruke tal, tekst, teikning og konkret til å løyse ulikskapar og teste og forklare løysingar",
+              "nob": "bruke tall, tekst, tegning og konkreter til å løse ulikheter og teste og forklare løsninger",
+              "sme": "geavahit loguid, teavsttaid, tevnnegiid ja konkrehtaid čoavdit vealaid ja iskat ja čilget čovdosiid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13289",
+          "core_elements": [
+            "KE1761",
+            "KE1762"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "rekne sentralmål i eigne og andre sine datasett og velje formålstenleg sentralmål",
+              "eng": "calculate averages from their own and others’ datasets, and to choose which average it is appropriate to use",
+              "nno": "rekne sentralmål i eigne og andre sine datasett og velje formålstenleg sentralmål",
+              "nob": "regne sentralmål i egne og andres datasett og velge hensiktsmessig sentralmål",
+              "sme": "rehkenastit guovddášmihtu iežas ja eará dáhtačohkiin ja válljet ulbmillaš guovddášmihtu"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13290",
+          "core_elements": [
+            "KE1761",
+            "KE1763"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "logge, sortere, lese av og presentere data i tabellar og diagram og forklare valet av framstilling",
+              "eng": "log, sort, read and present data in tables and diagrams, and explain the choice of presentation",
+              "nno": "logge, sortere, lese av og presentere data i tabellar og diagram og forklare valet av framstilling",
+              "nob": "logge, sortere, lese av og presentere data i tabeller og diagrammer og forklare valget av framstilling",
+              "sme": "logget, sirret, dulkot ja ovdanbuktit dáhtaid tabeallain ja diagrámmain ja čilget ovdanbuktima válljema"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13295",
+          "core_elements": [
+            "KE1761",
+            "KE1762",
+            "KE1763"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "estimere, gjere overslag, forklare tenkjemåtar og vurdere kritisk eigne og andre sine modellar og løysingar knytte til praktiske situasjonar i arbeid med økonomi",
+              "eng": "assess, estimate, explain their reasoning, and critically assess their own and others’ models and solutions in relation to practical situations when working on finance",
+              "nno": "estimere, gjere overslag, forklare tenkjemåtar og vurdere kritisk eigne og andre sine modellar og løysingar knytte til praktiske situasjonar i arbeid med økonomi",
+              "nob": "estimere, gjøre overslag, forklare tenkemåter og vurdere kritisk egne og andres modeller og løsninger knyttet til praktiske situasjoner i arbeid med økonomi",
+              "sme": "estimeret, sullii rehkenastit, čilget jurddašanvugiid ja kritihkalaččat árvvoštallat iežas ja earáid modeallaid ja čovdosiid mat gusket praktihkalaš dilálašvuođaide go bargá ekonomiijain"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13293",
+          "core_elements": [
+            "KE1760"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke programmering til å utforske data i tabellar og datasett",
+              "eng": "use programming to explore data contained in tables and datasets",
+              "nno": "bruke programmering til å utforske data i tabellar og datasett",
+              "nob": "bruke programmering til å utforske data i tabeller og datasett",
+              "sme": "geavahit programmerema suokkardit dieđuid tabeallain ja datačohkiin"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 7. trinn",
+          "eng": "Competence aims and assessment year 7",
+          "nno": "Kompetansemål og vurdering 7. trinn",
+          "nob": "Kompetansemål og vurdering 7. trinn",
+          "sme": "Gealbomihttomearit ja árvvoštallan 7. ceahkki"
+        }
+      }
+    },
+    {
+      "after_year": 8,
+      "applies_to_years": [
+        8
+      ],
+      "code": "KV1027",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13297",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "rekne med potensar og kvadratrøter og forklare framgangsmåtar og resultat",
+              "eng": "work with powers and square roots, and explain their approach and results",
+              "nno": "rekne med potensar og kvadratrøter og forklare framgangsmåtar og resultat",
+              "nob": "regne med potenser og kvadratrøtter og forklare framgangsmåter og resultater",
+              "sme": "rehkenastit poteanssaiguin ja nubbiruohttasiiguin ja čilget bargovugiid ja bohtosiid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13303",
+          "core_elements": [
+            "KE1763",
+            "KE1764"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke kommutative, assosiative og distributive eigenskapar til å utvikle og kommunisere strategiar for hovudrekning og skriftleg rekning",
+              "eng": "use commutative, associative and distributive properties to develop and communicate strategies for written and mental arithmetic",
+              "nno": "bruke kommutative, assosiative og distributive eigenskapar til å utvikle og kommunisere strategiar for hovudrekning og skriftleg rekning",
+              "nob": "bruke kommutative, assosiative og distributive egenskaper til å utvikle og kommunisere strategier for hoderegning og skriftlig regning",
+              "sme": "geavahit kommutatiiva, assosiatiiva ja distributiiva iešvuođaid ovdánahttit ja gulahallat oaivvisrehkenastima ja čálalaš rehkenastima strategiijaid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4"
+          ],
+          "code": "KM13298",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "beskrive og utforske faktorisering og primtalsfaktorisering og bruke det i brøkrekning",
+              "eng": "describe and explore factorisation and prime factorisation, and to use this in fractional arithmetic",
+              "nno": "beskrive og utforske faktorisering og primtalsfaktorisering og bruke det i brøkrekning",
+              "nob": "beskrive og utforske faktorisering og primtallsfaktorisering og bruke det i brøkregning",
+              "sme": "válddahit ja suokkardit fáktoriserema ja álgolohkofáktoriserema ja geavahit dan cuovkarehkenastimis"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13299",
+          "core_elements": [
+            "KE1760",
+            "KE1763",
+            "KE1764"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og generalisere geometriske mønster og tallmønster med eigne ord og algebraisk",
+              "eng": "explore and generalise geometric patterns and numerical patterns in their own words and algebraically",
+              "nno": "utforske og generalisere geometriske mønster og tallmønster med eigne ord og algebraisk",
+              "nob": "utforske og generalisere geometriske mønstre og tallmønstre med egne ord og algebraisk",
+              "sme": "suokkardit ja generaliseret geometralaš minstariid ja lohkominstariid iežas sániiguin ja algebralaččat"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13301",
+          "core_elements": [
+            "KE1761",
+            "KE1763",
+            "KE1764"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lage og forklare rekneuttrykk med tal, variablar og konstantar knytte til praktiske situasjonar",
+              "eng": "create and explain mathematical expressions with numbers, variables and constants related to practical situations",
+              "nno": "lage og forklare rekneuttrykk med tal, variablar og konstantar knytte til praktiske situasjonar",
+              "nob": "lage og forklare regneuttrykk med tall, variabler og konstanter knyttet til praktiske situasjoner",
+              "sme": "ráhkadit ja čilget rehkenastincealkagiid loguiguin, variábeliiguin ja rievdameahttumiiguin mat gusket praktihkalaš oktavuođaide"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13304",
+          "core_elements": [
+            "KE1761",
+            "KE1762"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lage og løyse likningar knytte til praktiske situasjonar og kritisk vurdere løysingar",
+              "eng": "create and solve equations related to practical situations and critically assess solutions",
+              "nno": "lage og løyse likningar knytte til praktiske situasjonar og kritisk vurdere løysingar",
+              "nob": "lage og løse ligninger knyttet til praktiske situasjoner og kritisk vurdere løsninger",
+              "sme": "ráhkadit ja čoavdit ovttamađodagaid mat gusket praktihkalaš dilálašvuođaide, ja kritihkalaččat árvvoštallat čovdosiid"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM13305",
+          "core_elements": [],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke ulike strategiar for å løyse ulikskapar og vurdere om løysingar er gyldige",
+              "eng": "use different strategies to solve inequalities and assess whether those solutions are valid",
+              "nno": "bruke ulike strategiar for å løyse ulikskapar og vurdere om løysingar er gyldige",
+              "nob": "bruke ulike strategier for å løse ulikheter og vurdere om løsninger er gyldige",
+              "sme": "geavahit iešguđetlágan strategiijaid čoavdit vealaid ja árvvoštallat leat go čovdosat gustovaččat"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM13302",
+          "core_elements": [
+            "KE1760",
+            "KE1761",
+            "KE1763"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive, samanlikne og utforske funksjonar knytte til praktiske situasjonar",
+              "eng": "describe, compare and explore functions related to practical situations",
+              "nno": "beskrive, samanlikne og utforske funksjonar knytte til praktiske situasjonar",
+              "nob": "beskrive, sammenligne og utforske funksjoner knyttet til praktiske situasjoner",
+              "sme": "válddahit, buohtastahttit ja suokkardit funkšuvnnaid mat gusket praktihkalaš dilálašvuođaide"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM13306",
+          "core_elements": [],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke situasjonar, tabellar, grafar og uttrykk til å representere funksjonar og vise samanhengar mellom representasjonane",
+              "eng": "use situations, tables, graphs and expressions to represent functions and show relationships between the representations",
+              "nno": "bruke situasjonar, tabellar, grafar og uttrykk til å representere funksjonar og vise samanhengar mellom representasjonane",
+              "nob": "bruke situasjoner, tabeller, grafer og uttrykk til å representere funksjoner og vise sammenhenger mellom representasjonene",
+              "sme": "geavahit oktavuođaid, tabeallaid, gráfaid ja cealkagiid ovddastit funkšuvnnaid ja čájehit ovddastemiid oktavuođaid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF5"
+          ],
+          "code": "KM13300",
+          "core_elements": [
+            "KE1760"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske korleis algoritmar kan skapast, testast og forbetrast ved hjelp av programmering",
+              "eng": "explore how algorithms can be created, tested and improved using programming",
+              "nno": "utforske korleis algoritmar kan skapast, testast og forbetrast ved hjelp av programmering",
+              "nob": "utforske hvordan algoritmer kan skapes, testes og forbedres ved hjelp av programmering",
+              "sme": "suokkardit mo algoritmmaid sáhttá ráhkadit, iskat ja buoridit programmerema bokte"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 8. trinn",
+          "eng": "Competence aims and assessment year 8",
+          "nno": "Kompetansemål og vurdering 8. trinn",
+          "nob": "Kompetansemål og vurdering 8. trinn",
+          "sme": "Gealbomihttomearit ja árvvoštallan 8. ceahkki"
+        }
+      }
+    },
+    {
+      "after_year": 9,
+      "applies_to_years": [
+        9
+      ],
+      "code": "KV1028",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13316",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lage og løyse problem som handlar om samansette måleiningar",
+              "eng": "create and solve problems involving compound units",
+              "nno": "lage og løyse problem som handlar om samansette måleiningar",
+              "nob": "lage og løse problemer som handler om sammensatte måleenheter",
+              "sme": "ráhkadit ja čoavdit čuolmmaid mat máinnašit ovttastuvvon mihttoovttadagaid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13308",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske eigenskapane ved ulike todimensjonale figurar og forklare omgrepa formlikskap og kongruens",
+              "eng": "explore the properties of different two-dimensional shapes and explain the concepts of isomorphism and congruence",
+              "nno": "utforske eigenskapane ved ulike todimensjonale figurar og forklare omgrepa formlikskap og kongruens",
+              "nob": "utforske egenskapene ved ulike todimensjonale figurer og forklare begrepene formlikhet og kongruens",
+              "sme": "suokkardit iešguđetlágan guovttedimenšunála govvosiid iešvuođaid ja čilget doahpagiid ovttahámatvuohta ja kongrueansa"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13317",
+          "core_elements": [
+            "KE1761",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke formlikskap og læresetninga til Pytagoras til utforsking av praktiske situasjonar",
+              "eng": "use isomorphism and Pythagoras’ theorem to explore practical situations",
+              "nno": "bruke formlikskap og læresetninga til Pytagoras til utforsking av praktiske situasjonar",
+              "nob": "bruke formlikhet og Pytagoras’ læresetning til utforsking av praktiske situasjoner",
+              "sme": "geavahit ovttahámatvuođa ja Pytagorasa cealkaga suokkardit praktihkalaš dilálašvuođaid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13307",
+          "core_elements": [
+            "KE1760",
+            "KE1762"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske, beskrive og argumentere for samanhengar mellom sidelengdene i trekantar",
+              "eng": "explore, describe and reason around the relationships between side lengths in triangles",
+              "nno": "utforske, beskrive og argumentere for samanhengar mellom sidelengdene i trekantar",
+              "nob": "utforske, beskrive og argumentere for sammenhenger mellom sidelengdene i trekanter",
+              "sme": "suokkardit, válddahit ja ákkastallat golmmačiegagiid siidduid oktavuođaid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13309",
+          "core_elements": [
+            "KE1760",
+            "KE1762",
+            "KE1764"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og argumentere for korleis det å endre føresetnader i geometriske problemstillingar påverkar løysingar både praktisk og algebraisk",
+              "eng": "explore and put forward the argument for how changing assumptions in geometric problems affects solutions both practically and algebraically",
+              "nno": "utforske og argumentere for korleis det å endre føresetnader i geometriske problemstillingar påverkar løysingar både praktisk og algebraisk",
+              "nob": "utforske og argumentere for hvordan det å endre forutsetninger i geometriske problemstillinger påvirker løsninger både praktisk og algebraisk",
+              "sme": "suokkardit ja ákkastallat mo geometralaš čuolmmaid eavttuid rievdadeapmi váikkuha čovdosiidda sihke praktihkalaččat ja algebralaččat"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13310",
+          "core_elements": [
+            "KE1760",
+            "KE1762",
+            "KE1764"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke og argumentere for formlar for overflateareal og volum av tredimensjonale figurar",
+              "eng": "use and put forward the argument for formulas for the calculation of the surface area and volume of three-dimensional shapes",
+              "nno": "bruke og argumentere for formlar for overflateareal og volum av tredimensjonale figurar",
+              "nob": "bruke og argumentere for formler for overflateareal og volum av tredimensjonale figurer",
+              "sme": "geavahit ja ákkastallat olggošareála hámuid ja golmmadimenšunála govvosiid voluma"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13312",
+          "core_elements": [
+            "KE1761",
+            "KE1762",
+            "KE1763"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "tolke og kritisk vurdere statistiske framstillingar frå media og lokalsamfunnet",
+              "eng": "interpret and critically assess statistical presentations found in the media and the local community",
+              "nno": "tolke og kritisk vurdere statistiske framstillingar frå media og lokalsamfunnet",
+              "nob": "tolke og kritisk vurdere statistiske framstillinger fra media og lokalsamfunnet",
+              "sme": "dulkot ja kritihkalaččat árvvoštallat mediaid ja báikegotti statistihkalaš ovdanbuktimiid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13313",
+          "core_elements": [
+            "KE1761",
+            "KE1763"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "rekne på sentralmål og spreiingsmål i eigne og reelle datasett og bruke resultata til å beskrive dataa",
+              "eng": "calculate averages and measures of dispersion in their own and others’ datasets, and then use these results to describe the data",
+              "nno": "rekne på sentralmål og spreiingsmål i eigne og reelle datasett og bruke resultata til å beskrive dataa",
+              "nob": "regne på sentralmål og spredningsmål i egne og reelle datasett og bruke resultatene til å beskrive dataene",
+              "sme": "rehkenastit guovddášmihtuid ja bieđgomihtuid iežas ja duohta dáhtačohkiin ja geavahit bohtosiid čilget dáhtaid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13314",
+          "core_elements": [
+            "KE1761",
+            "KE1762",
+            "KE1763"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samanlikne og argumentere for korleis framstillingar av tal og data kan brukast for å fremje ulike synspunkt",
+              "eng": "compare and put forward the argument for how presentations of figures and data can be used to promote different points of view",
+              "nno": "samanlikne og argumentere for korleis framstillingar av tal og data kan brukast for å fremje ulike synspunkt",
+              "nob": "sammenligne og argumentere for hvordan framstillinger av tall og data kan brukes for å fremme ulike synspunkter",
+              "sme": "buohtastahttit ja ákkastallat mo loguid ja dieđuid ovdanbuktima sáhttá geavahit bidjat ovdan iešguđetlágan oaiviliid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13315",
+          "core_elements": [
+            "KE1760",
+            "KE1762"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "berekne og vurdere sannsyn i statistikk og spel",
+              "eng": "calculate and assess probability in statistics and games",
+              "nno": "berekne og vurdere sannsyn i statistikk og spel",
+              "nob": "beregne og vurdere sannsynlighet i statistikk og spill",
+              "sme": "meroštallat ja árvvoštallat jáhkehahttivuođa statistihkas ja spealain"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13311",
+          "core_elements": [
+            "KE1760"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "simulere utfall i tilfeldige forsøk og berekne sannsynet for at noko skal inntreffe, ved å bruke programmering",
+              "eng": "simulate outcomes in randomised trials and calculate the probability of something occurring through the use of programming",
+              "nno": "simulere utfall i tilfeldige forsøk og berekne sannsynet for at noko skal inntreffe, ved å bruke programmering",
+              "nob": "simulere utfall i tilfeldige forsøk og beregne sannsynligheten for at noe skal inntreffe, ved å bruke programmering",
+              "sme": "simuleret soaittáhatseasuid bohtosiid ja meroštallat jáhkehahttivuođa juoga dáhpáhuvvamis go geavaha programmerema"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 9. trinn",
+          "eng": "Competence aims and assessment year 9",
+          "nno": "Kompetansemål og vurdering 9. trinn",
+          "nob": "Kompetansemål og vurdering 9. trinn",
+          "sme": "Gealbomihttomearit ja árvvoštallan 9. ceahkki"
+        }
+      }
+    },
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        10
+      ],
+      "code": "KV1029",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13328",
+          "core_elements": [
+            "KE1760",
+            "KE1764"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke reknereglar og generalisere samanhengar algebraisk",
+              "eng": "use the order of operations and generalise relationships algebraically",
+              "nno": "bruke reknereglar og generalisere samanhengar algebraisk",
+              "nob": "bruke regneregler og generalisere sammenhenger algebraisk",
+              "sme": "geavahit rehkenastinnjuolggadusaid ja generaliseret oktavuođaid algebralaččat"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM13318",
+          "core_elements": [
+            "KE1760",
+            "KE1764"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske kvadratsetningane geometrisk og algebraisk og bruke kvadratsetningane som reknestrategiar",
+              "eng": "explore the square theorems geometrically and algebraically and use the square theorems as calculation strategies",
+              "nno": "utforske kvadratsetningane geometrisk og algebraisk og bruke kvadratsetningane som reknestrategiar",
+              "nob": "utforske kvadratsetningene geometrisk og algebraisk og bruke kvadratsetningene som regnestrategier",
+              "sme": "suokkardit njealjehaslágaid geometralaččat ja algebralaččat ja geavahit njealjehaslágaid rehkenastinstrategiijan"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13324",
+          "core_elements": [
+            "KE1761",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lage, løyse og forklare likningssett knytte til praktiske situasjonar",
+              "eng": "create, solve and explain systems of equations related to practical situations",
+              "nno": "lage, løyse og forklare likningssett knytte til praktiske situasjonar",
+              "nob": "lage, løse og forklare ligningssett knyttet til praktiske situasjoner",
+              "sme": "ráhkadit, čoavdit ja čilget ovttamađodagaid mat gusket praktihkalaš oktavuođaide"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF5"
+          ],
+          "code": "KM13319",
+          "core_elements": [
+            "KE1760",
+            "KE1762",
+            "KE1764"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og samanlikne eigenskapar ved lineære funksjonar, eksponentialfunksjonar, brøkfunksjonar og andregradsfunksjonar ved å bruke digitale verktøy",
+              "eng": "explore and compare properties of linear functions, exponential functions, fractional functions and second-degree functions through the use of digital tools",
+              "nno": "utforske og samanlikne eigenskapar ved lineære funksjonar, eksponentialfunksjonar, brøkfunksjonar og andregradsfunksjonar ved å bruke digitale verktøy",
+              "nob": "utforske og sammenligne egenskaper ved lineære funksjoner, eksponentialfunksjoner, brøkfunksjoner og andregradsfunksjoner ved å bruke digitale verktøy",
+              "sme": "suokkardit ja buohtastahttit lineára funkšuvnnaid, eksponentiálafunkšuvnnaid, cuovkafunkšuvnnaid ja nuppipoteansafunkšuvnnaid iešvuođaid geavahettiin digitála reaidduid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4"
+          ],
+          "code": "KM13320",
+          "core_elements": [
+            "KE1761",
+            "KE1763"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "forklare omgrepet endring per eining og rekne ut stigningstalet til lineære funksjonar",
+              "eng": "explain the concept of change per unit and calculate the slope of linear functions",
+              "nno": "forklare omgrepet endring per eining og rekne ut stigningstalet til lineære funksjonar",
+              "nob": "forklare begrepet endring per enhet og regne ut stigningstallet til lineære funksjoner",
+              "sme": "čilget doahpaga rievdan juohke ovttadaga nammii ja rehkenastit lineára funkšuvnnaid smilčelogu"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13322",
+          "core_elements": [
+            "KE1760",
+            "KE1764"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og forklare samanhengen mellom konstant prosentvis endring, vekstfaktor og eksponentialfunksjonar",
+              "eng": "explore and explain the relationship between constant percentage change, growth factor and exponential functions",
+              "nno": "utforske og forklare samanhengen mellom konstant prosentvis endring, vekstfaktor og eksponentialfunksjonar",
+              "nob": "utforske og forklare sammenhengen mellom konstant prosentvis endring, vekstfaktor og eksponentialfunksjoner",
+              "sme": "suokkardit ja čilget rievdameahttun proseanttalaš rievdadeami, stuorrunfáktora ja eksponentiálafunkšuvnnaid oktavuođa"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13321",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "hente ut og tolke relevant informasjon og reflektere over moglege konsekvensar ved kjøp og sal, renter på sparing, lån og kredittkjøp",
+              "eng": "retrieve and interpret relevant information and reflect on the possible consequences of buying and selling, interest on savings, loans and credit purchases",
+              "nno": "hente ut og tolke relevant informasjon og reflektere over moglege konsekvensar ved kjøp og sal, renter på sparing, lån og kredittkjøp",
+              "nob": "hente ut og tolke relevant informasjon og reflektere over mulige konsekvenser ved kjøp og salg, renter på sparing, lån og kredittkjøp",
+              "sme": "čohkket ja dulkot áigeguovdilis dieđuid ja reflekteret vejolaš váikkuhusaid oastimis ja vuovdimis, seastima, loana ja kredihttaoastima reanttuin"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13325",
+          "core_elements": [
+            "KE1760",
+            "KE1763"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "planleggje, utføre og presentere eit utforskande arbeid knytt til personleg økonomi",
+              "eng": "plan, carry out and present an exploratory assignment related to personal finance",
+              "nno": "planleggje, utføre og presentere eit utforskande arbeid knytt til personleg økonomi",
+              "nob": "planlegge, utføre og presentere et utforskende arbeid knyttet til personlig økonomi",
+              "sme": "plánet, čađahit ja ovdanbuktit suokkardeaddji barggu mii lea čadnon persovnnalaš ekonomiijii"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13323",
+          "core_elements": [
+            "KE1761",
+            "KE1762",
+            "KE1763"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "modellere situasjonar, presentere resultata og vurdere kor gyldige modellane er",
+              "eng": "model situations, present the results and assess the validity of the models",
+              "nno": "modellere situasjonar, presentere resultata og vurdere kor gyldige modellane er",
+              "nob": "modellere situasjoner, presentere resultatene og vurdere hvor gyldige modellene er",
+              "sme": "modelleret oktavuođaid, ovdanbuktit bohtosiid ja árvvoštallat man gustovaččat modeallat leat"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM13326",
+          "core_elements": [
+            "KE1760"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske matematiske eigenskapar og samanhengar ved å bruke programmering",
+              "eng": "explore mathematical properties and relationships using programming",
+              "nno": "utforske matematiske eigenskapar og samanhengar ved å bruke programmering",
+              "nob": "utforske matematiske egenskaper og sammenhenger ved å bruke programmering",
+              "sme": "suokkardit matematihkalaš iešvuođaid ja oktavuođaid geavahettiin programmerema"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM13327",
+          "core_elements": [],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lese og forklare tekstbasert programkode i Python",
+              "eng": "read and explain text-based programming code in Python",
+              "nno": "lese og forklare tekstbasert programkode i Python",
+              "nob": "lese og forklare tekstbasert programkode i Python",
+              "sme": "lohkat ja čilget teakstavuđot prográmmakoda Pythonis"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 10. trinn",
+          "eng": "Competence aims and assessment year 10",
+          "nno": "Kompetansemål og vurdering 10. trinn",
+          "nob": "Kompetansemål og vurdering 10. trinn",
+          "sme": "Gealbomihttomearit ja árvvoštallan 10. ceahkki"
+        }
+      }
+    }
+  ],
+  "last_modified": "2026-06-29T10:14:06.3548168",
+  "replaced_by": [],
+  "replaces": [
+    "MAT01-05"
+  ],
+  "short_title": {
+    "by_language": {
+      "default": "Matematikk 1.-10. trinn",
+      "eng": "Mathematics year 1-10",
+      "nno": "Matematikk 1.-10. trinn",
+      "nob": "Matematikk 1.-10. trinn",
+      "sme": "Matematihka 1.–10. ceahkki"
+    }
+  },
+  "title": {
+    "by_language": {
+      "default": "Læreplan i matematikk 1.–10. trinn",
+      "eng": "Curriculum for Mathematics year 1–10",
+      "nno": "Læreplan i matematikk 1.–10. trinn",
+      "nob": "Læreplan i matematikk 1.-10. trinn",
+      "sme": "Oahppoplána - matematihka 1.–10. ceahkki"
+    }
+  },
+  "valid_from": "2026-08-01",
+  "valid_to": null
+}

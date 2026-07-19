@@ -1,0 +1,11 @@
+# Toolchain for froken. Unlike the agent CLI, nothing here has to run on the CI
+# runner's system python, so this pins the current stable Python rather than
+# matching an image.
+[tools]
+python = "3.13.1"
+uv = "0.11.26"
+"pipx:pre-commit" = "4.6.0"
+# For bin/run_local. Same pins as the sibling repos, so pre-commit behaves here
+# exactly as it does there.
+shellcheck = "0.11.0"
+"asdf:luizm/asdf-shfmt" = "3.13.0"

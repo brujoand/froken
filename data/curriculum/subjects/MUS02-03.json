@@ -1,0 +1,791 @@
+{
+  "code": "MUS02-03",
+  "goal_sets": [
+    {
+      "after_year": 2,
+      "applies_to_years": [
+        1,
+        2
+      ],
+      "code": "KV1067",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4"
+          ],
+          "code": "KM13741",
+          "core_elements": [
+            "KE1794",
+            "KE1796",
+            "KE1797"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utøve et repertoar av sangleker, sanger og danser hentet fra elevenes nære musikkultur og fra kulturarven",
+              "nob": "utøve et repertoar av sangleker, sanger og danser hentet fra elevenes nære musikkultur og fra kulturarven",
+              "sma": "gellie laavlomestååkedimmieh, laavlomh jïh daanhtsoeh darjodh mah leah veedtjesovveme learohki lïhke musihkekultuvreste jïh kultuvreaerpeste",
+              "sme": "čájehit lávlunstohkosiid, lávlagiid ja dánsumiid repertuára mii lea vižžojuvvon ohppiid lagaš musihkkakultuvrras ja kulturárbbis",
+              "smj": "åvddån buktet lávllomståhkusij, lávllagij ja dánssamij repertoárav mij la viettjadum oahppij lahka musihkkakultuvras ja kultuvrraárbes"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4"
+          ],
+          "code": "KM13743",
+          "core_elements": [
+            "KE1794",
+            "KE1796"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og eksperimentere med puls, rytme, tempo, klang, melodi, dynamikk, harmoni og form i dans, med stemmen og i spill på instrumenter",
+              "nob": "utforske og eksperimentere med puls, rytme, tempo, klang, melodi, dynamikk, harmoni og form i dans, med stemmen og i spill på instrumenter",
+              "sma": "goerehtidh jïh eksperimenteeredh pulsine, jievkehtimmine, drïektine, melodijine, dynamihkine, harmonijine jïh hammojne daanhtsosne, gieline jïh tjoejehtimmesne instrumeentine",
+              "sme": "suokkardit ja eksperimenteret pulssain, ritmmain, leavttuin, šuoŋain, melodiijain, dynamihkain, harmoniijain ja hámiin dánsumis, jienain ja čuojahettiin čuojanasaid",
+              "smj": "åtsådit ja eksperimentierit pulsajn, ritmajn, fártajn, tjuojalvisájn, melodijjajn, dynamihkajn, harmonijjajn ja hámijn dánssamin, jienajn ja tjuojadattijn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13740",
+          "core_elements": [
+            "KE1795",
+            "KE1796"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "leke med musikkens grunnelementer gjennom lyd og stemme, lage mønstre og sette sammen mønstrene til enkle improvisasjoner og komposisjoner, også med digitale verktøy",
+              "nob": "leke med musikkens grunnelementer gjennom lyd og stemme, lage mønstre og sette sammen mønstrene til enkle improvisasjoner og komposisjoner, også med digitale verktøy",
+              "sma": "musihken maadthbiehkiejgujmie stååkedidh tjoejen jïh gïelen tjïrrh, möönsterh darjodh jïh möönsterh laavkedh aelhkie improvisasjovnide jïh komposisjovnide, aaj digitaale dïrregigujmie",
+              "sme": "stoahkat musihka vuođđoelemeanttaiguin jienain ja suopmaniin, hábmet minstariid ja minstariiguin ráhkadit álkis improvisašuvnnaid ja komposišuvnnaid, maddái digitála reaidduiguin",
+              "smj": "ståhkat musihka vuodoelementaj jiena ja njálme (lyd og stemme) baktu, stiellit minsstarijt ja biedjat aktij minsstarijt álkkes improvisasjåvnnån ja komposisjåvnnån, aj digitála vædtsagij"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13742",
+          "core_elements": [
+            "KE1794",
+            "KE1795",
+            "KE1796",
+            "KE1797"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "formidle opplevelsene av ulike musikalske uttrykk gjennom samtale og kunstneriske uttrykksformer",
+              "nob": "formidle opplevelsene av ulike musikalske uttrykk gjennom samtale og kunstneriske uttrykksformer",
+              "sma": "dååjresidie ovmessie musihkales vuekijste buektedh soptsestallemen tjïrrh jïh tjiehpeles buektemevuekiej tjïrrh",
+              "sme": "gaskkustit iešguđetlágan musihkalaš ovdanbuktimiid vásáhusaid ságastallama ja dáiddalaš ovdanbuktinvugiid bokte",
+              "smj": "gaskostit iesjguhtiklágásj musihkalasj åvddånbuktemij vásádusájt ságastallama ja dájdalis åvddånbuktemvuogij baktu."
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 2.trinn",
+          "nob": "Kompetansemål og vurdering 2.trinn",
+          "sma": "Maahtoeulmie jïh vuarjasjimmie 2. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 2. ceahkki",
+          "smj": "2. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    },
+    {
+      "after_year": 4,
+      "applies_to_years": [
+        3,
+        4
+      ],
+      "code": "KV1068",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13746",
+          "core_elements": [
+            "KE1794",
+            "KE1796",
+            "KE1797"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utøve og utforske et repertoar av joiker, sanger og danser fra samisk kultur og andre musikkulturer",
+              "nob": "utøve og utforske et repertoar av joiker, sanger og danser fra samisk kultur og andre musikkulturer",
+              "sma": "´såemies vuelieh, laavlomh jïh daanhtsoeh darjodh jïh goerehtidh saemien kultuvreste jïh jeatjah musihkekultuvrijste",
+              "sme": "čájehit ja suokkardit sámi kultuvrra ja eará musihkkakultuvrraid luđiid, lávlagiid ja dánsumiid repertuára",
+              "smj": "vuosedit ja åtsådit juojgaj, lávllagij ja dánssamij repertoárav sáme kultuvras ja ietjá musihkkakultuvrajs"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13744",
+          "core_elements": [
+            "KE1794",
+            "KE1796"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "joike, synge og spille på instrumenter alene og sammen med andre ved bruk av gehør og enkel notasjon",
+              "nob": "joike, synge og spille på instrumenter alene og sammen med andre ved bruk av gehør og enkel notasjon",
+              "sma": "´joejkedh, laavlodh jïh instrumeenth tjoejehtidh oktegh jïh mubpiejgujmie ektine viehkine gehøreste jïh aelhkie notasjovneste",
+              "sme": "juoigat, guldalit ja čuojahit čuojanasaid okto ja ovttas earáiguin guluin ja álkes notašuvnnain",
+              "smj": "juojggat, lávllot ja tjuojadit aktu ja iehtjádij siegen gulujn (gehør) ja álkkes notasjåvnåjn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13745",
+          "core_elements": [
+            "KE1794",
+            "KE1795",
+            "KE1796"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "eksperimentere med rytmer, melodier og andre grunnelementer, sette sammen mønstre til komposisjoner, også ved bruk av digitale verktøy, og presentere arbeidsprosesser og resultater",
+              "nob": "eksperimentere med rytmer, melodier og andre grunnelementer, sette sammen mønstre til komposisjoner, også ved bruk av digitale verktøy, og presentere arbeidsprosesser og resultater",
+              "sma": "jievkehtimmiejgujmie, melodijigujmie jïh jeatjah maadthbiehkiejgujmie eksperimenteeredh, möönsterh laavkedh komposisjovnide, aaj viehkine digitaale dïrregijstie, jïh barkoeprosessh jïh illedahkh åehpiedehtedh",
+              "sme": "eksperimenteret ritmmaiguin, melodiijaiguin ja eará vuođđoelemeanttaiguin, bidjat oktii minstariid komposišuvdnan, maiddái digitála reaidduid vehkiin, ja ovdanbuktit bargoproseassaid ja bohtosiid",
+              "smj": "eksperimentierit ritmaj, melodijjaj ja ietjá vuodoelementaj, biedjat aktij minsstarijt komposisjåvnnån, aj digitála vædtsagij viehkijn, ja åvddånbuktet bargo prosessajt ja båhtusijt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13748",
+          "core_elements": [
+            "KE1794",
+            "KE1796",
+            "KE1797"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "formidle egne musikkopplevelser og beskrive bruk av musikalske virkemidler ved hjelp av enkle fagbegreper med hovedvekt på joik og annen samisk musikk",
+              "nob": "formidle egne musikkopplevelser og beskrive bruk av musikalske virkemidler ved hjelp av enkle fagbegreper med hovedvekt på joik og annen samisk musikk",
+              "sma": "jïjtsh musihkedååjresh buektedh jïh åtnoem musihkales vierhkievierhtijste buerkiestidh viehkine aelhkie faagebaakoetjïertijste joekoen vuelien jïh jeatjah saemien musihken bïjre",
+              "sme": "gaskkustit iežas musihkkavásáhusaid ja válddahit musihkalaš váikkuhangaskaomiid geavaheami álkes fágadoahpagiid vehkiin mas deattuha luođi ja eará sámi musihka",
+              "smj": "gaskostit ietjas vásádusájt musihkas ja gåvvidit musihkalasj vájkkudimnævoj álkkes fáhkabuojkuldagáj, oajvvedættojn juojggamij ja ietjá sáme musihkkaj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13747",
+          "core_elements": [
+            "KE1796",
+            "KE1797"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om og reflektere over hvordan musikk skaper mening når den brukes i ulike sosiale sammenhenger",
+              "nob": "samtale om og reflektere over hvordan musikk skaper mening når den brukes i ulike sosiale sammenhenger",
+              "sma": "soptsestalledh jïh ussjedadtedh guktie musihke mïelem sjugnede gosse ovmessie sosijaale ektiedimmine åtnasåvva",
+              "sme": "ságastallat ja reflekteret das mo musihkas šaddá mearkkašupmi go geavahuvvo iešguđetlágan sosiála oktavuođain",
+              "smj": "ságastallat ja reflektierit gåktu musihkka sisanov buktá gå åvddån buvteduvvá iesjguhtiklágásj sosiála aktijvuodajn"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 4.trinn",
+          "nob": "Kompetansemål og vurdering 4.trinn",
+          "sma": "Maahtoeulmieh jïh vuarjasjimmie 4. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 4. ceahkki",
+          "smj": "4. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    },
+    {
+      "after_year": 7,
+      "applies_to_years": [
+        5,
+        6,
+        7
+      ],
+      "code": "KV1069",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13752",
+          "core_elements": [
+            "KE1794",
+            "KE1796",
+            "KE1797"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utøve et repertoar av musikk, sang, andre vokale uttrykk og dans fra samtiden og historien",
+              "nob": "utøve et repertoar av musikk, sang, andre vokale uttrykk og dans fra samtiden og historien",
+              "sma": "såemies musihkem, laavlomem jïh jeatjah vokaale vuekieh jïh daanhtsoeh ektietïjjeste jïh histovrijistie buektedh",
+              "sme": "čájehit musihka, lávlagiid ja eará vokálalaš ovdanbuktimiid ja dánsumiid repertuára dálááiggis ja historjjás",
+              "smj": "vuosedit musihka, lávllagij ja ietjá vokálalasj åvddånbuktemij ja dánssamij repertoárav dálásjájges ja histåvrås"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13753",
+          "core_elements": [
+            "KE1794",
+            "KE1796",
+            "KE1797"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og drøfte hvordan musikk fra fortiden påvirker dagens musikk",
+              "nob": "utforske og drøfte hvordan musikk fra fortiden påvirker dagens musikk",
+              "sma": "goerehtidh jïh digkiedidh guktie musihke dejpelistie daan beajjetje musihkem baajnehte",
+              "sme": "suokkardit ja ságaškuššat mo musihkka vássánáiggis váikkuha dálááiggi musihkkii",
+              "smj": "åtsådit ja árvvaladdat gåktu åvdep ájge musihkka vájkkut dálásj ájge musihkkaj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM13750",
+          "core_elements": [
+            "KE1794",
+            "KE1796"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "øve inn og framføre joik og annen musikk, i samspill eller individuelt, gehørbasert og ved bruk av enkle notasjonsteknikker",
+              "nob": "øve inn og framføre joik og annen musikk, i samspill eller individuelt, gehørbasert og ved bruk av enkle notasjonsteknikker",
+              "sma": "vueliem jïh jeatjah musihkem haarjanidh jïh åehpiedehtedh, mubpiejgujmie ektine jallh oktegh, gehøren mietie jïh viehkine aelhkie notasjovnevuekijste",
+              "sme": "hárjehallat ja ovdanbuktit luođi ja eará musihka, ovttas dahje okto, gulu vuođul ja go geavaha álkes notašuvdnateknihkaid",
+              "smj": "hárjjidallat ja åvddånbuktet juojgav ja ietjá musihkav, iehtjádij siegen jali aktu, gulo (gehør) milta ja álkkes notasjåvnnåteknihkaj baktu"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13751",
+          "core_elements": [
+            "KE1794",
+            "KE1795",
+            "KE1796"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lytte, eksperimentere og skape nye uttrykk med instrumenter, kropp, stemme eller lyd fra andre kilder og presentere resultatet",
+              "nob": "lytte, eksperimentere og skape nye uttrykk med instrumenter, kropp, stemme eller lyd fra andre kilder og presentere resultatet",
+              "sma": "goltelidh, ekspermienteeredh jïh orre vuekieh sjugniedidh instrumentigujmie, kråahpine, gieline jallh tjoejine jeatjah gaaltijijstie, jïh illedahkem åehpiedehtedh",
+              "sme": "guldalit, eksperimenteret ja ráhkadit ođđa ovdanbuktimiid čuojanasaiguin, rupmašiin, suopmaniin dahje jienain eará gálduin ja ovdanbuktit bohtosa",
+              "smj": "gulldalit, eksperimentierit ja buvtadit ådå åvddånbuktemijt tjuojanisáj, rubmahijn, jienajn (stemme) jali jienajn (lyd) ietjá gáldojs ja åvddånbuktet båhtusav"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13756",
+          "core_elements": [
+            "KE1794",
+            "KE1795",
+            "KE1796"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke teknologi og digitale verktøy til å skape, øve inn og bearbeide musikk",
+              "nob": "bruke teknologi og digitale verktøy til å skape, øve inn og bearbeide musikk",
+              "sma": "teknologijem jïh digitaale dïrregh nuhtjedh musihkem sjugniedidh, haarjanidh jïh gïetedidh",
+              "sme": "geavahit teknologiija ja digitála reaidduid hábmet, hárjehallat ja gieđahallat musihka",
+              "smj": "adnet teknologijjav ja digitála vædtsagijt hábbmitjit, hárjjidalátjit ja giehtadalátjit musihkav"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13757",
+          "core_elements": [
+            "KE1794",
+            "KE1795",
+            "KE1796",
+            "KE1797"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke fagbegreper i beskrivelse av og refleksjon over arbeidsprosesser, resultater, musikalske uttrykk og virkemidler",
+              "nob": "bruke fagbegreper i beskrivelse av og refleksjon over arbeidsprosesser, resultater, musikalske uttrykk og virkemidler",
+              "sma": "faagedïejvesh nuhtjedh gosse barkoeprosessh, illedahkh, musihkales vuekieh jïh vierhkievierhtieh buerkeste jïh dej bijjeli ussjedadta",
+              "sme": "geavahit fágadoahpagiid go válddaha bargoproseassaid, bohtosiid, musihkalaš ovdanbuktimiid ja váikkuhangaskaomiid ja reflekteret daid birra",
+              "smj": "adnet fáhkabuojkuldagájt gå barggoprosessajt gåvvit ja reflektieri båhtusij, musihkalasj åvddånbuktemij ja vájkkudimnævoj badjel"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13754",
+          "core_elements": [
+            "KE1794",
+            "KE1796",
+            "KE1797"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og formidle musikalske opplevelser og erfaringer",
+              "nob": "utforske og formidle musikalske opplevelser og erfaringer",
+              "sma": "musihkales dååjresh jïh dååjrehtimmieh goerehtidh jïh buektedh",
+              "sme": "suokkardit ja gaskkustit musihkalaš vásáhusaid",
+              "smj": "åtsådit ja gaskostit musihkalasj vásádusájt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13749",
+          "core_elements": [
+            "KE1794",
+            "KE1795",
+            "KE1796",
+            "KE1797"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "undersøke hvordan kjønn, kjønnsroller og seksualitet fremstilles i dans og joik og annen musikk i det offentlige rom og skape uttrykk som utfordrer stereotypier",
+              "nob": "undersøke hvordan kjønn, kjønnsroller og seksualitet fremstilles i dans og joik og annen musikk i det offentlige rom og skape uttrykk som utfordrer stereotypier",
+              "sma": "goerehtidh guktie tjoele, tjoeleråållah jïh seksualiteete våajnoes dorjesuvvieh daanhtsosne jïh vuelesne jïh jeatjah musihkesne byögkeles tjiehtjielisnie, jïh vuekieh sjugniedidh mah stereotypijh haestieh",
+              "sme": "guorahallamat mo sohkabealit, sohkabeallerollat ja seksualitehta ovdanbuktojuvvojit dánsumis ja luođis ja eará musihkas almmolašvuođas ja hábmet ovdanbuktimiid mat hástalit stereotiippaid",
+              "smj": "guoradallat gåktu sjierve, sjiervverålla ja seksualitiehtta båhti åvddån dánssamin ja juojgan ja ietjá musihkan almulasjvuodan ja hábbmit åvddånbuktemijt ma stereotijpajt hásstali"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM13755",
+          "core_elements": [
+            "KE1796",
+            "KE1797"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over hvordan musikk kan spille ulike roller for utvikling av individers og gruppers identitet",
+              "nob": "reflektere over hvordan musikk kan spille ulike roller for utvikling av individers og gruppers identitet",
+              "sma": "ussjedadtedh guktie musihke maahta ovmessie råållah utnedh juktie indivijde jïh dåehkiej identiteetem evtiedidh",
+              "sme": "reflekteret das mo musihkas sáhttet leat iešguđetlágan rollat ovdánahttit indiviiddaid ja joavkkuid identitehta",
+              "smj": "reflektierit gåktu musihkan soajttá liehket iesjguhtiklágásj rålla mij guosská indivijda ja juohkusij identitiehta åvddånahttemin"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 7.trinn:",
+          "nob": "Kompetansemål og vurdering 7.trinn:",
+          "sma": "Maahtoeulmieh jïh vuarjasjimmie 7. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 7. ceahkki",
+          "smj": "7. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    },
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV1070",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13760",
+          "core_elements": [
+            "KE1794",
+            "KE1796",
+            "KE1797"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "øve på og framføre et variert repertoar av joik,sang, musikk, andre vokale uttrykk og dans",
+              "nob": "øve på og framføre et variert repertoar av joik,sang, musikk, andre vokale uttrykk og dans",
+              "sma": "haarjanidh jïh åehpiedehtedh ovmessie vuelieh, laavlomh, musihkevuekieh, jeatjah vokaale vuekieh jïh daanhtsoeh",
+              "sme": "hárjehallat ja ovdanbuktit juoigama, lávluma, musihka, eará vokálalaš ovdanbuktimiid ja dánsuma máŋggabealat repertuára",
+              "smj": "hárjjidallat ja åvddånbuktet moattebelak repertoárav masi gullu juojggam, lávllom, musihkka, ietjá vokálalasj åvddånbuktema ja dánssam"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13766",
+          "core_elements": [
+            "KE1796",
+            "KE1797"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "drøfte hvordan musikalske tradisjoner bevares og fornyes",
+              "nob": "drøfte hvordan musikalske tradisjoner bevares og fornyes",
+              "sma": "digkiedidh guktie musihkales aerpievuekieh vaarjelamme jïh orrestamme sjidtieh",
+              "sme": "ságaskuššat mo musihkalaš árbevierut seailluhuvvojit ja ođasmahttojuvvojit",
+              "smj": "árvvaladdat gåktu musihkalasj árbbedábe bisoduvvi ja ådåstuhteduvvi"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13758",
+          "core_elements": [
+            "KE1794",
+            "KE1796"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samarbeide med andre om å planlegge og gjennomføre øvingsprosesser hvor det inngår selvvalgt joik, sang, andre vokale uttrykk, spill på instrumenter eller dans, og formidle resultatet i gruppe eller individuelt",
+              "nob": "samarbeide med andre om å planlegge og gjennomføre øvingsprosesser hvor det inngår selvvalgt joik, sang, andre vokale uttrykk, spill på instrumenter eller dans, og formidle resultatet i gruppe eller individuelt",
+              "sma": "mubpiejgujmie laavenjostedh juktie haarjanimmieprosessh soejkesjidh jïh tjïrrehtidh gusnie jïjtjedorjeme vuelie, laavlome, jeatjah vokaale vuekieh, tjoejehtimmie instrumentine jallh daanhtsoe, jïh illedahkem åehpiedehtedh dåehkesne jallh oktegh",
+              "sme": "earáiguin ovttasbargat ja plánet ja čađahit hárjehallanproseassaid mas lea iešválljen luohti, lávlla ja eará vokálalaš ovdanbuktimat, čuojahit čuojanasaid dahje dánsun, ja gaskkustit bohtosa joavkkus dahje okto",
+              "smj": "iehtjádij siegen barggat ja plánit ja tjadádit hárjjidallamprosessajt manna la iesjválljidum juojgga, lávlla ja ietjá vokálalasj åvddånbuktema, tjuojadibme jali dánssam, ja gaskostit båhtusav juohkusin jali aktu"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13759",
+          "core_elements": [
+            "KE1794",
+            "KE1795",
+            "KE1796"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "skape og programmere musikalske forløp, også med joik, ved å eksperimentere med lyd fra ulike kilder",
+              "nob": "skape og programmere musikalske forløp, også med joik, ved å eksperimentere med lyd fra ulike kilder",
+              "sma": "musihkem sjugniedidh jïh programmeeredh, aaj vueline, viehkine tjoejine ovmessie gaaltijijstie eksperimenteeredh",
+              "sme": "hábmet ja programmeret musihkalaš proseassaid, maiddái luđiin, go eksperimentere jienaiguin iešguđetlágan gálduin",
+              "smj": "buvtadit ja programmerit musihkalasj prosessajt, aj juojgajn, duon dán jiena eksperimentierima baktu"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13767",
+          "core_elements": [
+            "KE1794",
+            "KE1796",
+            "KE1797"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og formidle musikalske opplevelser og erfaringer, og reflektere over bruk av musikalske virkemidler",
+              "nob": "utforske og formidle musikalske opplevelser og erfaringer, og reflektere over bruk av musikalske virkemidler",
+              "sma": "musihkales dååjresh jïh dååjrehtimmieh goerehtidh jïh buektedh, jïh ussjedadtedh guktie musihkales vierhkievierhtieh åtnasuvvieh",
+              "sme": "suokkardit ja gaskkustit musihkalaš vásáhusaid, ja reflekteret musihkalaš váikkuhangaskaomiid geavaheami birra",
+              "smj": "åtsådit ja gaskostit musihkalasj vásádusájt, ja reflektierit musihkalasj vájkkudimnævojt ano birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13763",
+          "core_elements": [
+            "KE1794",
+            "KE1795",
+            "KE1796"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lytte og prøve ut ulike uttrykk og begrunne valg i skapende prosesser fra idé til ferdig resultat",
+              "nob": "lytte og prøve ut ulike uttrykk og begrunne valg i skapende prosesser fra idé til ferdig resultat",
+              "sma": "ovmessie vuekieh goltelidh jïh pryövedh jïh veeljemem tjïelkestidh sjugniedihks prosessine åssjalommesistie gaervies illedahkese",
+              "sme": "guldalit ja geahččalit iešguđetlágan ovdanbuktimiid ja vuođuštit válljejumi hábmejeaddji proseassain ideas gárvves boađusin",
+              "smj": "gulldalit ja gæhttjalit iesjguhtiklágásj åvddånbuktemijt ja vuodustit válljimav hábbmijiddje prosessajn idieja rájes gárves båhtusij"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13764",
+          "core_elements": [
+            "KE1794",
+            "KE1795"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke gehør og notasjonsteknikker som støtte i skapende arbeid",
+              "nob": "bruke gehør og notasjonsteknikker som støtte i skapende arbeid",
+              "sma": "gehørem jïh notasjovnevuekieh nuhtjedh goh dåarjoe sjugniedihks barkosne",
+              "sme": "geavahit gulu ja notašuvdnateknihkaid doarjjan hábmejeaddji barggus",
+              "smj": "adnet gulov (gehør) ja notasjåvnnåteknihkajt doarjjan hábbmijiddje bargon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13765",
+          "core_elements": [
+            "KE1794",
+            "KE1795",
+            "KE1796"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke relevante fagbegreper i skapende arbeid, og i refleksjon over prosesser og produkter",
+              "nob": "bruke relevante fagbegreper i skapende arbeid, og i refleksjon over prosesser og produkter",
+              "sma": "sjiehteles faagebaakoetjïerth nuhtjedh sjugniedihks barkosne, jïh gosse prosessii jïh dorjesi bijjeli ussjedadta",
+              "sme": "geavahit relevánta fágadoahpagiid hábmejeaddji barggus, ja go reflektere proseassaid ja buktagiid birra",
+              "smj": "adnet guoskavasj fáhkabuojkuldagájt hábbmijiddje bargon, ja gå reflektieri prosessaj ja buktagij badjel"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13762",
+          "core_elements": [
+            "KE1794",
+            "KE1795",
+            "KE1796",
+            "KE1797"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og reflektere over hvordan musikk, sang og dans som estetiske uttrykk er påvirket av og uttrykk for historiske og samfunnsmessige forhold, og skape musikalske uttrykk som tar opp utfordringer i samtiden",
+              "nob": "utforske og reflektere over hvordan musikk, sang og dans som estetiske uttrykk er påvirket av og uttrykk for historiske og samfunnsmessige forhold, og skape musikalske uttrykk som tar opp utfordringer i samtiden",
+              "sma": "goerehtidh jïh ussjedadtedh guktie histovrijes tsiehkieh jïh tsiehkieh seabradahkesne leah musihkem, laavlomem jïh daanhtsoem baajnehtamme goh estetihkeles vuekieh, jïh musihkales vuekieh sjugniedidh mah bæjjese vaeltieh haestemh daaletje tïjjen",
+              "sme": "suokkardit ja reflekteret mo historjjálaš ja servodatlaš dilit leat váikkuhan musihkkii, lávlumii ja dánsumii estehtalaš ovdanbuktimin, ja ráhkadit musihkalaš ovdanbuktimiid mat váldet ovdan dálááiggi hástalusaid",
+              "smj": "åtsådit ja reflektierit gåktu histåvrålasj ja sebrudagá dile li vájkkudam musihkkaj, lávllomij ja dánssamij estetihkalasj åvddåjbuktemin, ja buvtadit musihkalasj åvddånbuktemijt ma dálásj ájge hásstalusájt låpptiji"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM13761",
+          "core_elements": [
+            "KE1796",
+            "KE1797"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og drøfte musikkens og dansens betydning i samfunnet, inkludert den samiske musikken og dansen fra alle de fire samiske landene, og etiske problemstillinger knytet til musikalske ytringer og musikkulturer",
+              "nob": "utforske og drøfte musikkens og dansens betydning i samfunnet, inkludert den samiske musikken og dansen fra alle de fire samiske landene, og etiske problemstillinger knytet til musikalske ytringer og musikkulturer",
+              "sma": "musihken jïh daanhtsoen ulmiem seabradahkesne goerehtidh jïh digkiedidh, aaj saemien musihke jïh daanhtsoe gaajhkijste njieljie saemien laantijste, jïh etihkeles dåeriesmoerh mah leah vïedteldihkie musihkales lahtesidie jïh musihkekultuvride",
+              "sme": "suokkardit ja ságaškuššat musihka ja dánsuma mearkkašumi servodahkii, maiddái sámi musihkkii ja dánsumii buot njealji sámi riikkas, ja ehtalaš čuolmmaid mat gusket musihkalaš ovdanbuktimiidda ja musihkkakultuvrii",
+              "smj": "åtsådit ja árvvaladdat man ájnas musihkka ja dánssam li sebrudahkaj, aktan sáme musihkka ja dánssam divna nieljet sáme rijkas, ja etihkalasj tjuolmajt ma guosski musihkalasj åvddånbuktemijda ja musihkkakultuvrraj"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 10. trinn",
+          "nob": "Kompetansemål og vurdering 10. trinn",
+          "sma": "Maahtoeulmieh jïh vuarjasjimmie 10. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 10. ceahkki",
+          "smj": "10. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    }
+  ],
+  "last_modified": "2026-07-09T14:28:27.4418663",
+  "replaced_by": [],
+  "replaces": [
+    "MUS02-02"
+  ],
+  "short_title": {
+    "by_language": {
+      "default": "Musikk samisk",
+      "nob": "Musikk samisk",
+      "sma": "Musihke saemien",
+      "sme": "Musihka sámegillii",
+      "smj": "Musihkka sáme"
+    }
+  },
+  "title": {
+    "by_language": {
+      "default": "Læreplan i musikk samisk",
+      "nob": "Læreplan i musikk samisk",
+      "sma": "Learoesoejkesje - musihke saemien",
+      "sme": "Musihka oahppoplána sámegillii",
+      "smj": "Oahppopládna musihkka sáme"
+    }
+  },
+  "valid_from": "2026-08-01",
+  "valid_to": null
+}

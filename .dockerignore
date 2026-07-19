@@ -1,0 +1,15 @@
+.git
+.github
+.venv
+tests/
+# Maintainer tooling only. Keeping it out of the image is what makes "the
+# container needs no API key" structural rather than a promise.
+tools/
+# Raw upstream responses; the normalised catalogue is what ships.
+data/curriculum/raw/
+**/__pycache__
+*.pyc
+.pytest_cache
+.ruff_cache
+.mise.toml
+mise.toml

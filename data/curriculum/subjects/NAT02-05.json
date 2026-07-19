@@ -1,0 +1,1757 @@
+{
+  "code": "NAT02-05",
+  "goal_sets": [
+    {
+      "after_year": 2,
+      "applies_to_years": [
+        1,
+        2
+      ],
+      "code": "KV1091",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13972",
+          "core_elements": [
+            "KE1807"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "undre seg, utforske og lage spørsmål, og knytte dette til egne eller andres erfaringer",
+              "nob": "undre seg, utforske og lage spørsmål, og knytte dette til egne eller andres erfaringer",
+              "sma": "onterdidh, goerehtidh jïh gyhtjelassh darjodh, jïh dam ektiedidh jïjtsh jallh mubpiej dååjrehtimmide",
+              "sme": "imaštallat, suokkardit ja ráhkadit gažaldagaid, ja čatnat dáid iežaset dahje earáid vásáhusaide",
+              "smj": "imájdallat, åtsådit ja gatjádit, ja tjadnat dájt ietjasa jali iehtjádij vásádusájda"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13973",
+          "core_elements": [
+            "KE1807"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "presentere funnene sine og beskrive hvordan eleven har kommet fram til dem",
+              "nob": "presentere funnene sine og beskrive hvordan eleven har kommet fram til dem",
+              "sma": "gaavnoeh åehpiedehtedh jïh buerkiestidh guktie learohke lea dejtie gaavnehtamme",
+              "sme": "ovdanbuktit iežaset gávdnosiid ja válddahit mo oahppi lea gávnnahan daid",
+              "smj": "åvddånbuktet ietjasa gávnnusijt ja gåvvidit gåktu oahppe la dajt gávnnam"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM13974",
+          "core_elements": [
+            "KE1808"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "presentere egne ideer til teknologiske oppfinnelser",
+              "nob": "presentere egne ideer til teknologiske oppfinnelser",
+              "sma": "jïjtsh åssjalommesh teknologeles hæhtadimmide åehpiedehtedh",
+              "sme": "ovdanbuktit iežaset ideaid teknologalaš hutkosiidda",
+              "smj": "åvddånbuktep ietjasa idiejajt teknologijjalasj gávnadisájda"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4"
+          ],
+          "code": "KM13975",
+          "core_elements": [
+            "KE1807",
+            "KE1809"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og beskrive observerbare egenskaper til ulike objekter, materialer og stoffer og sortere etter egenskaper",
+              "nob": "utforske og beskrive observerbare egenskaper til ulike objekter, materialer og stoffer og sortere etter egenskaper",
+              "sma": "ovmessie objekti, materijaali jïh aamhti jïjtsevoeth goerehtidh jïh buerkiestidh mejtie gåarede vïhtesjidh, jïh dejtie jïjtsevoeti mietie veesmedh",
+              "sme": "suokkardit ja válddahit iešguđetlágan objeavttaid, materiálaid ja ávdnasiid áiccahahtti iešvuođaid ja rátkit daid iešvuođaid mielde",
+              "smj": "åtsådit ja gåvvidit iesjguhtiklágásj objevtaj, materiálaj ja ábnnasij dåbddomerkajt ja tjuolldet daj milta"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13981",
+          "core_elements": [
+            "KE1810"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om hvordan vi kan ta miljøbevisste valg og gjennomføre lokale miljøtiltak",
+              "nob": "samtale om hvordan vi kan ta miljøbevisste valg og gjennomføre lokale miljøtiltak",
+              "sma": "soptsestalledh guktie mijjieh maehtebe byjresevoerkes veeljemh jïh voenges byjreseråajvarimmieh vaeltedh",
+              "sme": "ságastallat mo mii sáhttit dahkat birasdihtomielalaš válljemiid ja čađahit báikkálaš birasdoaibmabijuid",
+              "smj": "ságastallat gåktu máhttep birásdiedulattjat válljit ja tjadádit bájkálasj birásdåjmajt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13976",
+          "core_elements": [
+            "KE1807",
+            "KE1810"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske et naturområde i nærmiljøet og beskrive hvordan noen organismer er tilpasset området og hverandre",
+              "nob": "utforske et naturområde i nærmiljøet og beskrive hvordan noen organismer er tilpasset området og hverandre",
+              "sma": "aktem eatnemedajvem voengesne goerehtidh, jïh buerkiestidh guktie naan organismh leah sjïehtedamme dajvese jïh sinsætnan",
+              "sme": "suokkardit luondduguovllu lagašbirrasis ja válddahit mo muhtun organismmat leat heivehuvvon guvlui ja nubbi nubbái",
+              "smj": "guoradallat luonndoguovlov lahka birrasin ja buojkodit gåktu muhtem organisma li guovlluj ja nubbe nubbáj hiebaduvvam"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4"
+          ],
+          "code": "KM13977",
+          "core_elements": [
+            "KE1807",
+            "KE1810"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "delta i høsting og bruk av naturen (ávkkástallan) til ulike årstider, reflektere over hvordan naturen er i endring, og samtale om skikker og merkedager knyttet til høsting og bruk av naturen",
+              "nob": "delta i høsting og bruk av naturen (ávkkástallan) til ulike årstider, reflektere over hvordan naturen er i endring, og samtale om skikker og merkedager knyttet til høsting og bruk av naturen",
+              "sma": "meatan årrodh riblemisnie jïh åtnose eatnamistie ovmessie jaepieboelhki, ussjedadtedh guktie eatneme lea jarkelimmesne, jïh soptsestalledh vuekiej jïh mïerhkebiejjiej bïjre mah leah vïedteldihkie riblemasse jïh åtnose eatnamistie",
+              "sme": "searvat luondduávkkástallamii iešguđet jagiáiggiin, reflekteret mo luondu rievdá, ja ságastallat vieruid ja mearkabeivviid birra mat leat čadnon luondduávkkástallamii",
+              "smj": "sæbrrat luondo ávkástallamij iesjguhtik jábijn, reflektierit gåktu luonndo rievddá, ja ságastallat dábij ja mærkkabiejvij birra ma li luondo ávkástallamij tjanáduvvam"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13978",
+          "core_elements": [
+            "KE1807",
+            "KE1810"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "planlegge og gjennomføre undersøkelser av vær og himmelfenomener og sammenligne målinger, observasjoner og værtegn gjennom året",
+              "nob": "planlegge og gjennomføre undersøkelser av vær og himmelfenomener og sammenligne målinger, observasjoner og værtegn gjennom året",
+              "sma": "goerehtimmieh soejkesjidh jïh tjïrrehtidh vearaldistie jïh elmiefenomeenijste, jïh möölemh, vïhtesjimmieh jïh veareldevæhtah jaepien tjïrrh viertiestidh",
+              "sme": "plánet ja čađahit dálke- ja almmifenomenaguorahallamiid ja buohtastahttit mihtidemiid, áicamiid ja dálkemearkkaid jagi áigge",
+              "smj": "plánit ja tjadádit dálkke- ja almefenomiednaguoradallamijt ja buohtastahttet mihttimijt, ájttsamij ja dálkkemerkajt jage tjadá"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13979",
+          "core_elements": [
+            "KE1811"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske sansene gjennom lek ute og inne og samtale om hvordan sansene brukes til å samle informasjon",
+              "nob": "utforske sansene gjennom lek ute og inne og samtale om hvordan sansene brukes til å samle informasjon",
+              "sma": "daajide goerehtidh stååkedimmien tjïrrh ålkone jïh gåetesne, jïh soptsestalledh guktie daajh åtnasuvvieh bïevnesh tjöönghkedh",
+              "sme": "suokkardit áiccuid stoagadettiin olgun ja siste ja ságastallat mo áiccut geavahuvvojit čohkket dieđuid",
+              "smj": "åtsådit dåbdudagájt stågadijn ålggon ja sinna ja ságastallat gåktu dåbdudagá aneduvvi diedojt tjoahkkitjit"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13980",
+          "core_elements": [
+            "KE1811"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gi eksempler på noen vanlige sykdommer og samtale om hva man kan gjøre for å verne kroppen mot smittsomme sykdommer",
+              "nob": "gi eksempler på noen vanlige sykdommer og samtale om hva man kan gjøre for å verne kroppen mot smittsomme sykdommer",
+              "sma": "vuesiehtimmieh vedtedh såemies sïejhme skïemtjelasside jïh soptsestalledh maam maahta darjodh juktie kråahpem vaarjelidh sohti vööste",
+              "sme": "addit ovdamearkkaid muhtun dábálaš dávddaide ja ságastallat maid sáhttá dahkat suddjet rupmaša njoammudávddaid vuostá",
+              "smj": "vaddet buojkulvisájt muhtem dábálasj dávdajs ja ságastallat majt máhttá dahkat váj rubmahav suoddji njoammodávdaj vuosstij"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 2. trinn",
+          "nob": "Kompetansemål og vurdering 2. trinn",
+          "sma": "Maahtoeulmie jïh vuarjasjimmie 2. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 2. ceahkki",
+          "smj": "2. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    },
+    {
+      "after_year": 4,
+      "applies_to_years": [
+        3,
+        4
+      ],
+      "code": "KV1092",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13982",
+          "core_elements": [
+            "KE1807"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "undre seg, stille spørsmål og lage hypoteser og utforske disse for å finne svar",
+              "nob": "undre seg, stille spørsmål og lage hypoteser og utforske disse for å finne svar",
+              "sma": "onterdidh, gyhtjelassh gihtjedh jïh hypotesh darjodh jïh dejtie goerehtidh juktie vaestiedassem gaavnedh",
+              "sme": "imaštallat, jearahit ja ráhkadit hypotesaidja suokkardit dáid gávdnan dihtii vástádusaid",
+              "smj": "imájdallat, gatjádallat ja stiellit hypotesajt ja åtsådit dájt váj vásstádusájt gávnná"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13983",
+          "core_elements": [
+            "KE1807"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke tabeller og figurer til å organisere data, lage forklaringer basert på data og presentere funn",
+              "nob": "bruke tabeller og figurer til å organisere data, lage forklaringer basert på data og presentere funn",
+              "sma": "tabellh jïh figuvrh nuhtjedh juktie daatah öörnedh, tjïelkestimmieh darjodh daatan tjïrrh jïh gaavnoeh åehpiedehtedh",
+              "sme": "geavahit tabeallaid ja govvosiid organiseret dieđuid, ráhkadit čilgehusaid dieđuid vuođul ja ovdanbuktit gávdnosiid",
+              "smj": "adnet tabellajt ja gåvvusijt organisieritjit diedojt, dahkat tjielggidusájt diedoj vuodon ja åvddånbuktet gávnnusijt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13984",
+          "core_elements": [
+            "KE1807"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "sammenligne modeller med observasjoner og samtale om hvorfor vi bruker modeller i naturfag",
+              "nob": "sammenligne modeller med observasjoner og samtale om hvorfor vi bruker modeller i naturfag",
+              "sma": "modellh viertiestidh vïhtesjimmiejgujmie jïh soptestalledh man åvteste mijjieh modellh nuhtjebe eatnemefaagesne",
+              "sme": "buohtastahttit áicanmodeallaid ja ságastallat manne mii geavahit modeallaid luonddufágas",
+              "smj": "buohtastahttet modellajt ájttsamij ja ságastallat manen modellajt adná luonndofágan"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM13985",
+          "core_elements": [
+            "KE1808"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske teknologiske systemer som er satt sammen av ulike deler, og beskrive hvordan delene fungerer og virker sammen",
+              "nob": "utforske teknologiske systemer som er satt sammen av ulike deler, og beskrive hvordan delene fungerer og virker sammen",
+              "sma": "teknologeles systeemh goerehtidh mah leah tjåanghkan bïejesovveme ovmessie bielijste, jïh buerkiestidh guktie bielieh juhtieh jïh ektesne juhtieh",
+              "sme": "suokkardit teknologalaš vuogádagaid mat leat biddjon oktii iešguđet osiiguin, ja válddahit mo oasit doibmet ovttas",
+              "smj": "åtsådit teknologijjalasj vuogádagájt ma li akti iesjguhtik åsijs aktij biejaduvvam, ja gåvvidit gåktu oase doajmmi ja aktij gulluji"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM13986",
+          "core_elements": [
+            "KE1808"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "designe og lage et produkt basert på en kravspesifikasjon",
+              "nob": "designe og lage et produkt basert på en kravspesifikasjon",
+              "sma": "dorjesem hammoedidh jïh darjodh sjïere krïevenassen mietie",
+              "sme": "hábmet ja ráhkadit buktaga gáibádusspesifikašuvnna vuođul",
+              "smj": "hábbmit ja stiellit buktagav gájbbádusspesifikasjåvnå milta"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13987",
+          "core_elements": [
+            "KE1807",
+            "KE1809"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og beskrive hvordan noen stoffer kan endre seg når de blandes med andre stoffer",
+              "nob": "utforske og beskrive hvordan noen stoffer kan endre seg når de blandes med andre stoffer",
+              "sma": "goerehtidh jïh buerkiestidh guktie naan aamhth maehtieh jorkesidh gosse jeatjah aamhtigujmie pleentesuvvieh",
+              "sme": "suokkardit ja válddahit mo muhtun ávdnasat sáhttet rievdat go seaguhuvvojit eará ávdnasiiguin",
+              "smj": "åtsådit ja gåvvidit gåktu muhtem ábnnasa máhtti rievddat gå ietjá ábnnasij segaduvvi"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13988",
+          "core_elements": [
+            "KE1807",
+            "KE1809"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske observerbare størrelser som fart og temperatur og knytte dem til energi",
+              "nob": "utforske observerbare størrelser som fart og temperatur og knytte dem til energi",
+              "sma": "stoeredahkh goerehtidh mejtie gåarede vïhtesjidh goh drïekte jïh temperatuvre, jïh dejtie energijese ektiedidh",
+              "sme": "suokkardit áiccahahtti sturrodagaid nugo leavttu ja temperatuvrra ja čatnat daid energiijii",
+              "smj": "åtsådit ájtsadahtte stuorrudagájt dagu fártav ja temperatuvrav ja dajt enersjijjaj tjadnat"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13989",
+          "core_elements": [
+            "KE1808",
+            "KE1809"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om hva energi er, og utforske ulike energikjeder",
+              "nob": "samtale om hva energi er, og utforske ulike energikjeder",
+              "sma": "soptsestalledh mij energije lea, jïh ovmessie energijelïenghkh goerehtidh",
+              "sme": "ságastallat mii energiija lea, ja suokkardit iešguđetlágan energiijagálduid",
+              "smj": "ságastallat mij enersjijja la, ja åtsådit iesjguhtiklágásj enersjijjagáldojt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13997",
+          "core_elements": [
+            "KE1807",
+            "KE1810"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske et naturområde og drøfte bærekraftig bruk av området",
+              "nob": "utforske et naturområde og drøfte bærekraftig bruk av området",
+              "sma": "eatnemedajvem goerehtidh jïh monnehke åtnoem dajveste digkiedidh",
+              "sme": "suokkardit luondduguovllu ja ságaškuššat guovllu guoddevaš geavaheami birra",
+              "smj": "åtsådit nágin bájkev luondon ja árvvaladdat bájke guoddelis ano birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13990",
+          "core_elements": [
+            "KE1807",
+            "KE1810"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og sammenligne ulike dyre- og plantearters tilpasninger til miljø og levesteder og drøfte hvorfor noen arter dør ut",
+              "nob": "utforske og sammenligne ulike dyre- og plantearters tilpasninger til miljø og levesteder og drøfte hvorfor noen arter dør ut",
+              "sma": "goerehtidh jïh viertiestidh ovmessie kreeke- jïh sjædtoesåarhti sjïehtedimmieh byjresasse jïh jieledesijjide jïh digkiedidh man åvteste naan såarhth nåhkededtieh",
+              "sme": "suokkardit ja buohtastahttit iešguđetlágan ealli- ja šaddošlájaid heivehemiid birrasii ja ássansajiide ja ságaškuššat manne muhtun šlájat jávket",
+              "smj": "åtsådit ja buohtastahttet iesjguhtiklágásj ielle- ja sjaddoslájaj hiebadimijt birrasij ja årromsajijda ja árvvaladdat manen muhtem slája gáhtu."
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13992",
+          "core_elements": [
+            "KE1810"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utnytte lokale naturressurser og drøfte hvordan de kan brukes på en bærekraftig måte",
+              "nob": "utnytte lokale naturressurser og drøfte hvordan de kan brukes på en bærekraftig måte",
+              "sma": "voenges eatnemevierhtieh nuhtedh, jïh digkiedidh guktie maahta dejtie monnehkelaakan nuhtjedh",
+              "sme": "ávkkástallat báikkálaš luondduriggodagaid ja ságaškuššat no daid sáhttá geavahit guoddevaš láhkai",
+              "smj": "ávkástallat bájkálasj luonndoboanndudagájt ja árvvaladdat gåktu dajt máhttá guoddelis láhkáj ávkástallat"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM13991",
+          "core_elements": [
+            "KE1810"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "gi eksempler på god dyrevelferd og bruke erfaringer og samiske fortellinger til å reflektere over hvordan dyrs behov kan ivaretas",
+              "nob": "gi eksempler på god dyrevelferd og bruke erfaringer og samiske fortellinger til å reflektere over hvordan dyrs behov kan ivaretas",
+              "sma": "vuesiehtimmieh vedtedh hijven kreeketryjjesvoetese, jïh dååjrehtimmieh jïh saemien soptsesh nuhtjedh juktie ussjedadtedh guktie maahta kreeki daerpiesvoeth gorredidh",
+              "sme": "addit ovdamearkkaid buori elliidčálgui ja geavahit vásáhusaid ja sámi muitalusaid reflekteret mo elliid dárbbuid sáhttá áimmahuššat",
+              "smj": "vaddet buojkulvisájt juhtusij buorre iellemdilláj ja adnet vásádusájt ja sáme subttsasijt reflektieritjit gåktu iellij dárbojt máhttá várajda válldet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13993",
+          "core_elements": [
+            "KE1807",
+            "KE1810"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og beskrive vannets kretsløp og gjøre rede for hvorfor vann er viktig for livet på jorda",
+              "nob": "utforske og beskrive vannets kretsløp og gjøre rede for hvorfor vann er viktig for livet på jorda",
+              "sma": "goerehtidh jïh buerkiestidh guktie tjaetsie jåhta jïh tjïelkestidh man åvteste tjaetsie lea vihkele jieliedasse eatnamisnie",
+              "sme": "suokkardit ja válddahit čázi birrajohtima ja čilget manne čáhci lea nu dehálaš eallimii eatnamis",
+              "smj": "åtsådit ja gåvvidit gåktu tjáhtje birra gålggå ja tjielggit manen tjáhtje la nav ájnas iellemij ednamin"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13994",
+          "core_elements": [
+            "KE1810"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke samiske begreper til å beskrive egne observasjoner av snø, is og føreforhold",
+              "nob": "bruke samiske begreper til å beskrive egne observasjoner av snø, is og føreforhold",
+              "sma": "saemien baakoetjïerth nuhtjedh juktie jïjtse vïhtesjimmieh buerkiestidh lopmeste, jïengeste jïh daelhkeste",
+              "sme": "geavahit sámegiel doahpagiid válddahit iežas áicamiid muohttagis, jieŋas ja siivvus",
+              "smj": "adnet sámegiela moallánagájt gåvvidittjat gåktu muohta, jiegŋa ja fierdda la"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13998",
+          "core_elements": [
+            "KE1811"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om hva fysisk og psykisk helse er, og drøfte hvordan livsstil og trivsel påvirker helse",
+              "nob": "samtale om hva fysisk og psykisk helse er, og drøfte hvordan livsstil og trivsel påvirker helse",
+              "sma": "soptsestalledh mij fysiske jïh psykiske healsoe lea, jïh digkiedidh guktie jieledevuekieh jïh tråjje healsoem baajnehtieh",
+              "sme": "ságastallat mii fysalaš ja psyhkalaš dearvvašvuohta lea, ja ságaškuššat mo eallinvuohki ja loaktin čuohcá dearvvašvuhtii",
+              "smj": "ságastallat mij fusalasj ja psykalasj varresvuohta la, ja árvvaladdat gåktu iellemvuohke ja soapptsom vájkkut varresvuohtaj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13995",
+          "core_elements": [
+            "KE1811"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om likheter og ulikheter mellom kjønnene, om kjønnsidentitet og om menneskets reproduksjon",
+              "nob": "samtale om likheter og ulikheter mellom kjønnene, om kjønnsidentitet og om menneskets reproduksjon",
+              "sma": "soptsestalledh hedtiej jïh joekehtsi bïjre tjoeli gaskem, tjoeleidentiteeten bïjre jïh almetjen reproduksjovnen bïjre",
+              "sme": "ságastallat sohkabeliid ovttaláganvuođaid ja erohusaid, sohkabealleidentitehta ja olbmuid reprodukšuvnna",
+              "smj": "ságastallat sjiervij muodugasjvuodaj ja sieradusáj birra, sjiervveidentitiehta ja ulmutjij reproduksjåvnå birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13999",
+          "core_elements": [
+            "KE1811"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive hvordan muskler og skjelett fungerer, og knytte dette til bevegelse",
+              "nob": "beskrive hvordan muskler og skjelett fungerer, og knytte dette til bevegelse",
+              "sma": "buerkiestidh guktie åedtjieh jïh daektieh juhtieh, jïh dam svïhtjemasse ektiedidh",
+              "sme": "válddahit mo deahkit ja dákteriggi doibmet, ja čatnat dán lihkadeapmái",
+              "smj": "gåvvidit gåktu diehko ja sjelæhtta doajmmi, ja tjadnat dáv labudallamij"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13996",
+          "core_elements": [
+            "KE1811"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive funksjoner i kroppens ytre forsvar og samtale om hvordan dette verner mot sykdom",
+              "nob": "beskrive funksjoner i kroppens ytre forsvar og samtale om hvordan dette verner mot sykdom",
+              "sma": "funksjovnh kråahpen byjngetje vaarjelimmesne buerkiestidh jïh soptsestalledh guktie daate skïemtjelassi vööste vaarjele",
+              "sme": "válddahit rupmaša olggut várjaleami funkšuvnnaid ja ságastallat mo dat suddje dávddaid vuostá",
+              "smj": "gåvvidit rubmaha ålggop várjjalime funksjåvnåjt ja ságastallat gåktu dat suoddji dávdaj vuosstij"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 4. trinn",
+          "nob": "Kompetansemål og vurdering 4. trinn",
+          "sma": "Maahtoeulmieh jïh vuarjasjimmie 4. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 4. ceahkki",
+          "smj": "4. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    },
+    {
+      "after_year": 7,
+      "applies_to_years": [
+        5,
+        6,
+        7
+      ],
+      "code": "KV1093",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14000",
+          "core_elements": [
+            "KE1807"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere variabler og samle data for å finne svar",
+              "nob": "stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere variabler og samle data for å finne svar",
+              "sma": "gyhtjelassh gihtjedh jïh hypoteesh eatnemefaageles fenomeeni darjodh, varijaabelh identifiseeredh jïh daatah tjöönghkedh juktie vaestiedassh gaavnedh",
+              "sme": "jearahit ja ráhkadit hypotesaid luonddufágalaš fenomenaid birra, identifiseret variábeliid ja čohkket dieđuid gávdnan dihtii vástádusaid",
+              "smj": "gatjádallat ja dahkat hypotesajt luonndofágalasj fenomienaj birra, identifisierit variábelijt ja tjoahkkit diedojt váj vásstádusájt gávnná"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14001",
+          "core_elements": [
+            "KE1807"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "skille mellom observasjoner og slutninger, organisere data, bruke årsak-virkning-argumenter, trekke slutninger, vurdere feilkilder og presentere funn",
+              "nob": "skille mellom observasjoner og slutninger, organisere data, bruke årsak-virkning-argumenter, trekke slutninger, vurdere feilkilder og presentere funn",
+              "sma": "vïhtesjimmiej jïh illedahki gaskem joekehtidh, daatah öörnedh, fåantoe-effekte-argumeenth nuhtjedh, illedahkh vihtiestidh, båajhtoeh gaaltijh vuarjasjidh jïh gaavnoeh åehpiedehtedh",
+              "sme": "earuhit áicamiid ja jurddabohtosiid, organiseret dieđuid, geavahit sivva-váikkuhus-ákkastallamiid, konklušuvnnaid dahkat, árvvoštallat boasttugálduid ja ovdanbuktit gávdnosiid",
+              "smj": "ieridit ájttsamij ja ájádusbåhtusij gaskan, organisierit diedojt, adnet sivva-vájkkudus-argumentierimijt, konklusjåvnåjt dahkat, árvustallat vihkegáldojt ja åvddånbuktet gávnnusijt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14002",
+          "core_elements": [
+            "KE1807"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke og vurdere modeller som representerer fenomener man ikke kan observere direkte, og gjøre rede for hvorfor det brukes modeller i naturfag",
+              "nob": "bruke og vurdere modeller som representerer fenomener man ikke kan observere direkte, og gjøre rede for hvorfor det brukes modeller i naturfag",
+              "sma": "modellh nuhtjedh jïh vuarjasjidh mah fenomeenh representeerieh mejtie ij maehtieh ryöktesth vïhtesjidh, jïh tjïelkestidh man åvteste modellh åtnasuvvieh eatnemefaagesne",
+              "sme": "geavahit ja árvvoštallat modeallaid mat ovddastit fenomenaid maid ii sáhte njuolga áicat, ja čilget manne modeallat geavahuvvojit luonddufágas",
+              "smj": "adnet ja árvustallat modellajt ma åvdåsti fenomienajt majt ij máhte njuolgga ájttsat, ja tjielggit manen modella aneduvvi luonndofágan"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM14003",
+          "core_elements": [
+            "KE1807"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "lese og forstå faremerking og reflektere over hensikten med disse",
+              "nob": "lese og forstå faremerking og reflektere over hensikten med disse",
+              "sma": "vaahramïerhkesjimmiem lohkedh jïh guarkedh jïh ussjedadtedh aajkoen bijjelen dejgujmie",
+              "sme": "lohkat ja áddet várramerkema ja reflekteret dan ulbmila birra",
+              "smj": "låhkåt ja dádjadit vádámierkkimav ja reflektierit dan ulme birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14004",
+          "core_elements": [
+            "KE1807"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gi eksempler på hvordan naturvitenskapelig kunnskap er utviklet og utvikler seg",
+              "nob": "gi eksempler på hvordan naturvitenskapelig kunnskap er utviklet og utvikler seg",
+              "sma": "vuesiehtimmieh vedtedh guktie eatnemevitenskapeles daajroe lea evtiesovveme jïh jïjtjemse evtede",
+              "sme": "addit ovdamearkkaid dasa mo luonddudieđalaš máhttu lea ovdánan ja ovdána",
+              "smj": "vaddet buojkulvisájt dasi gåktu luonndodiedalasj máhtto la åvddånam ja vil åvddån"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14018",
+          "core_elements": [
+            "KE1807"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gi eksempler på hvordan tradisjonell kunnskap har bidratt og bidrar til naturvitenskapelig kunnskap",
+              "nob": "gi eksempler på hvordan tradisjonell kunnskap har bidratt og bidrar til naturvitenskapelig kunnskap",
+              "sma": "vuesiehtimmieh vedtedh guktie aerpievuekien daajroe lea vitenskapeles daajroem vadteme jïh vadta",
+              "sme": "addit ovdamearkkaid dasa mo árbevirolašmáhttu lea váikkuhan ja váikkuha luonddudieđalaš máhttui",
+              "smj": "vaddet buojkulvisájt dasi gåktu árbbemáhtto la vájkkudam ja vil vájkkut luonndodiedalasj máhttuj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM14005",
+          "core_elements": [
+            "KE1808"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske, lage og programmere teknologiske systemer som består av deler som virker sammen",
+              "nob": "utforske, lage og programmere teknologiske systemer som består av deler som virker sammen",
+              "sma": "teknologeles systeemh goerehtidh, darjodh jïh programmeeredh mesnie biehkieh mah ektesne juhtieh",
+              "sme": "suokkardit, ráhkadit ja programmeret teknologalaš vuogádagaid main leat oasit mat doibmet ovttas",
+              "smj": "åtsådit, stiellit ja programmerit teknologijjalasj vuogádagájt majna li oase ma aktan doajmmi"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14006",
+          "core_elements": [
+            "KE1808"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "designe og lage et produkt basert på brukerbehov",
+              "nob": "designe og lage et produkt basert på brukerbehov",
+              "sma": "dorjesem hammoedidh jïh darjodh utniji daerpiesvoeti mietie",
+              "sme": "hábmet ja ráhkadit buktaga geavaheaddjidárbbu vuođul",
+              "smj": "hábbmit ja stiellit buktagav addnedárboj milta"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14007",
+          "core_elements": [
+            "KE1808"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over hvordan teknologi kan løse utfordringer, skape muligheter og føre til nye dilemmaer",
+              "nob": "reflektere over hvordan teknologi kan løse utfordringer, skape muligheter og føre til nye dilemmaer",
+              "sma": "ussjedadtedh guktie teknologije maahta haestemh loetedh, nuepieh sjugniedidh jïh orre aehpieh sjugniedidh",
+              "sme": "reflekteret mo teknologiija sáhttá čoavdit hástalusaid, ráhkadit vejolašvuođaid ja dagahit ođđa dilemmaid",
+              "smj": "reflektierit gåktu teknologijja máhttá hásstalusájt tjoavddet, vejulasjvuodajt rahpat ja ådå tjuolmajt buktet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14008",
+          "core_elements": [
+            "KE1807",
+            "KE1809"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske faseoverganger og kjemiske reaksjoner og beskrive hva som kjennetegner dem",
+              "nob": "utforske faseoverganger og kjemiske reaksjoner og beskrive hva som kjennetegner dem",
+              "sma": "faasesertiestimmieh jïh kjemiske reaksjovnh goerehtidh, jïh buerkiestidh mij dejtie mïerhkesje",
+              "sme": "suokkardit muddonuppástusaid ja kemiijalaš reakšuvnnaid ja válddahit daid dovdomearkkaid",
+              "smj": "åtsådit ábnasrievddadimijt ja kemijjalasj reaksjåvnåjt ja gåvvidit daj dåbddomerkajt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14019",
+          "core_elements": [
+            "KE1809"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke partikkelmodellen til å forklare faseoverganger og egenskapene til faste stoffer, væsker og gasser",
+              "nob": "bruke partikkelmodellen til å forklare faseoverganger og egenskapene til faste stoffer, væsker og gasser",
+              "sma": "partihkelemodellem nuhtjedh juktie faasesertiestimmieh jïh jïjtsevoetide faaste aamhtide, væskide jïh gaasside tjïelkestidh",
+              "sme": "geavahit partihkalmodealla čilget nana ávdnasiid, njalbbiid ja gássaid muddonuppástusaid ja iešvuođaid",
+              "smj": "adnet partihkalmodellav tjielggitjit nanos ábnnasij, låsjkudisáj ja gássaj dåbddomerkajt ja ábnasrievddadimijt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14009",
+          "core_elements": [
+            "KE1807",
+            "KE1808",
+            "KE1809"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske elektriske og magnetiske krefter gjennom forsøk og samtale om hvordan vi utnytter elektrisk energi i dagliglivet",
+              "nob": "utforske elektriske og magnetiske krefter gjennom forsøk og samtale om hvordan vi utnytter elektrisk energi i dagliglivet",
+              "sma": "elektrihkeles jïh magnetihkeles faamoeh goerehtidh pryövemi tjïrrh jïh soptsestalledh guktie mijjieh elektrihkeles energijem nuhtebe aarkebiejjien",
+              "sme": "suokkardit elektrihkalaš ja magnehtalaš fámuid seasuid bokte ja ságastallat mo mii ávkkástallat elektrihkalaš energiija beaivválaš eallimis",
+              "smj": "åtsådit elektrisitiehtalasj ja magniehtalasj fámojt gæhttjaladdamij baktu ja ságastallat gåktu ávkástallap elektrisitiehtalasj enersjijjav bæjválasj iellemin"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14010",
+          "core_elements": [
+            "KE1807",
+            "KE1810"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for hvordan organismer kan deles inn i hovedgrupper, og gi eksempler på ulike organismers særtrekk",
+              "nob": "gjøre rede for hvordan organismer kan deles inn i hovedgrupper, og gi eksempler på ulike organismers særtrekk",
+              "sma": "tjïelkestidh guktie organismh maehtieh åejviedåehkide juakasovvedh, jïh vuesiehtimmieh vedtedh ovmessie organismi sjïerevæhtide",
+              "sme": "čilget mo organismmaid sáhttá rátkit váldojoavkkuide, ja addit ovdamearkkaid iešguđetlágan organismmaid dovddamearkkaid",
+              "smj": "tjielggit gåktu organisma máhtti tjuoldeduvvat oajvvejuohkusijda, ja vaddet buojkulvisájt iesjguhtiklágásj organismaj dåbddomerkajs"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14020",
+          "core_elements": [
+            "KE1810"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for betydningen av biologisk mangfold og gjennomføre tiltak for å bevare det biologiske mangfoldet i nærmiljøet",
+              "nob": "gjøre rede for betydningen av biologisk mangfold og gjennomføre tiltak for å bevare det biologiske mangfoldet i nærmiljøet",
+              "sma": "tjïelkestidh man åvteste biologeles gellievoete lea vihkele, jïh råajvarimmieh tjïrrehtidh juktie biologeles gellievoetem voengesne vaarjelidh",
+              "sme": "čilget biologalaš šláddjiivuođa mearkkašumi ja čađahit doaibmabijuid gáhttet biologalaš šláddjiivuođa lagašbirrasis",
+              "smj": "tjielggit biologijjalasj moattebelakvuoda merkadusáv ja tjadádit dåjmajt ma bisodit biologijjalasj moattebelakvuodav lahkabirrasin"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14011",
+          "core_elements": [
+            "KE1810"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "foreslå tiltak for å bevare det biologiske mangfoldet i nordområdene og gi eksempler på betydningen av tradisjonell kunnskap i naturforvaltning",
+              "nob": "foreslå tiltak for å bevare det biologiske mangfoldet i nordområdene og gi eksempler på betydningen av tradisjonell kunnskap i naturforvaltning",
+              "sma": "råajvarimmieh raeriestidh juktie biologeles gellievoetem vaarjelidh noerhtedajvine jïh vuesiehtimmieh vedtedh man vihkele aerpievuekien daajroe lea eatnemereeremisnie",
+              "sme": "evttohit doaibmabijuid gáhttet biologalaš šláddjiivuođa davviguovlluin ja addit ovdamearkkaid árbevirolašmáhtu mearkkašupmái luondduhálddašeamis",
+              "smj": "ævtodit dåjmajt gáhttit biologijjalasj moattebelakvuodav nuorttaguovlojn ja vaddet buojkulvisájt man ájnas árbbemáhtto la luonndoháldadimen"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14012",
+          "core_elements": [
+            "KE1807",
+            "KE1810"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og beskrive ulike næringsnett og bruke dette til å diskutere samspill i naturen",
+              "nob": "utforske og beskrive ulike næringsnett og bruke dette til å diskutere samspill i naturen",
+              "sma": "ovmessie jielemeviermieh goerehtidh jïh buerkiestidh, jïh dam nuhtjedh ektiespïelem eatnamisnie digkiedidh",
+              "sme": "suokkardit ja válddahit iešguđetlágan biebmofierpmádagaid ja geavahit dáid digaštallat ovttasdoaibmama luonddus",
+              "smj": "åtsådit ja buojkodit iesjguhtiklágásj biebbmoværmádagájt ja adnet dájt dágástalátjit gåktu luonndo l aktij tjanádum"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF5"
+          ],
+          "code": "KM14013",
+          "core_elements": [
+            "KE1807",
+            "KE1810"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive og visualisere hvordan døgn, månefaser og årstider oppstår, og samtale om hvordan dette påvirker livet på jorda og samiske skikker for utnyttelse av naturen",
+              "nob": "beskrive og visualisere hvordan døgn, månefaser og årstider oppstår, og samtale om hvordan dette påvirker livet på jorda og samiske skikker for utnyttelse av naturen",
+              "sma": "buerkiestidh jïh visualiseeredh guktie dygnh, askeboelhkh jïh jaepieboelhkh sjidtieh, jïh soptsestalledh guktie daate jieledem eatnamisnie jïh saemien vuekide baajnehtieh eatnemem nuhtedh",
+              "sme": "válddahit ja visualiseret mo jándor, mánnodásit ja jagiáiggit šaddet, ja ságastallat mo dát váikkuhit eallimii eatnamis ja sámi vieruide ávkkástallat luonddu",
+              "smj": "gåvvidit ja visualiserit gåktu jánndur, mánnodáse ja jábe sjaddi, ja ságastallat gåktu dá vájkkudi iellemij ednamin ja sáme dábijda luondov ávkástallat"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14017",
+          "core_elements": [
+            "KE1807",
+            "KE1810"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for jordas forutsetninger for liv og sammenligne med andre himmellegemer i universet",
+              "nob": "gjøre rede for jordas forutsetninger for liv og sammenligne med andre himmellegemer i universet",
+              "sma": "tjïelkestidh man åvteste eatneme maahta jieledem utnedh, jïh jeatjah elmie-legemigujmie universesne viertiestidh",
+              "sme": "čilget eatnama eavttuid eallimii ja buohtastahttit eará almmigáhppálagaiguin univearssas",
+              "smj": "tjielggit ednama ævtojt iellemij ja buohtastahttet ietjá ilmmegávnij vuobmanin"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14014",
+          "core_elements": [
+            "KE1807",
+            "KE1810"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for hvordan det geologiske kretsløpet, platetektonikk og ytre krefter er med på å forme og endre ulike landskap",
+              "nob": "gjøre rede for hvordan det geologiske kretsløpet, platetektonikk og ytre krefter er med på å forme og endre ulike landskap",
+              "sma": "tjïelkestidh guktie geologeles kretsløp, plaatetektonihke jïh byjngetje faamoeh leah meatan ovmessie eatnemh hammoedidh jïh jarkelidh",
+              "sme": "čilget mo geologalaš birrajohtin, baldotektonihkka ja olgguldas fámut leat mielde hábmemin ja rievdadeamen iešguđet eanadagaid",
+              "smj": "tjielggit gåktu geologijjalasj jålådibme, pláhtatektonihkka ja ålgoldis fámo li maŋen duov dáv duobddágav hábbmimin ja rievddadimen"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14015",
+          "core_elements": [
+            "KE1807",
+            "KE1811"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for fysiske og psykiske forandringer i puberteten og samtale om hvordan dette kan påvirke følelser, handlinger og seksualitet",
+              "nob": "gjøre rede for fysiske og psykiske forandringer i puberteten og samtale om hvordan dette kan påvirke følelser, handlinger og seksualitet",
+              "sma": "fysiske jïh psykiske jarkelimmieh puberteetesne tjïelkestidh jïh soptsestalledh guktie daate maahta domtesidie, dahkojde jïh seksualiteetem baajnehtidh",
+              "sme": "čilget fysalaš ja psyhkalaš rievdadusaid rávásmanagis ja ságastallat mo dát sáhttet váikkuhit dovdduide, daguide ja seksualitehtii",
+              "smj": "tjielggit fusalasj ja psykalasj rievddadusájt pubertiehtan ja ságastallat gåktu dá máhtti vájkkudit dåbdojda, dagojda ja seksualitiehttaj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14016",
+          "core_elements": [
+            "KE1811"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for noen av kroppens organsystemer og beskrive hvordan systemene virker sammen",
+              "nob": "gjøre rede for noen av kroppens organsystemer og beskrive hvordan systemene virker sammen",
+              "sma": "såemies kråahpen orgaanesysteemijstie tjïelkestidh jïh buerkiestidh guktie systeemh ektesne juhtieh",
+              "sme": "čilget muhtun orgánavuogádagaid rupmašis ja válddahit mo vuogádagat doibmet ovttas",
+              "smj": "tjielggit muhtem orgádnavuogádagájt rubmahin ja gåvvidit gåktu vuogádagá aktan doajmmi"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 7. trinn",
+          "nob": "Kompetansemål og vurdering 7. trinn",
+          "sma": "Maahtoeulmieh jïh vuarjasjimmie 7. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 7. ceahkki",
+          "smj": "7. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    },
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV1094",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14021",
+          "core_elements": [
+            "KE1807"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere avhengige og uavhengige variabler og samle data for å finne svar",
+              "nob": "stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere avhengige og uavhengige variabler og samle data for å finne svar",
+              "sma": "gyhtjelassh gihtjedh jïh hypoteesh darjodh eatnemefaageles fenomeeni bïjre, jearohke jïh ovjearohke varijaabelh identifiseeredh jïh daata tjöönghkedh juktie vaestiedassem gaavnedh",
+              "sme": "jearahit ja ráhkadit hypotesaid luonddufágalaš fenomenaid birra, identifiseret sorjavaš ja sorjjasmeahttun variábeliid ja čohkket dieđuid gávdnan dihtii vástádusaid",
+              "smj": "gatjádallat ja dahkat hypotesajt luonndofágalasj fenomienaj birra, identifisierit tjanádum ja friddja variábelijt ja tjoahkkit diedojt váj vásstádusájt gávnná"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14022",
+          "core_elements": [
+            "KE1807"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "analysere og bruke innsamlede data til å lage forklaringer, drøfte forklaringene i lys av relevant teori og vurdere kvaliteten på egne og andres utforskinger",
+              "nob": "analysere og bruke innsamlede data til å lage forklaringer, drøfte forklaringene i lys av relevant teori og vurdere kvaliteten på egne og andres utforskinger",
+              "sma": "tjöönghkeme daatah analyseeredh jïh nuhtjedh juktie tjïelkestimmieh darjodh, tjïelkestimmide digkiedidh tjoevkesisnie sjiehteles teorijeste, jïh kvaliteetem jïjtse jïh mubpiej goerehtimmijste vuarjasjidh",
+              "sme": "analyseret ja geavahit čohkkejuvvon dieđuid ráhkadit čilgehusaid, ságaškuššat čilgehusaid áigeguovdilis teoriija vuođul ja árvvoštallat iežas ja earáid suokkardemiid kvalitehta",
+              "smj": "analysierit ja adnet tjoahkkiduvvam diedojt stiellitjit tjielggidusájt, árvvaladdat tjielggidusájt guoskavasj teorijja milta ja árvustallat ietjas ja iehtjádij åtsådimij kvalitiehtav"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM14023",
+          "core_elements": [
+            "KE1807"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensninger",
+              "nob": "bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensninger",
+              "sma": "modellh nuhtjedh jïh darjodh juktie eatnemefaageles prosessh jïh systeemh åvtelhbodti jiehtedh jïh buerkiestidh, jïh modelli faamoeh jïh gaertjiedimmieh tjïelkestidh",
+              "sme": "geavahit ja ráhkadit modeallaid einnostit dahje válddahit luonddufágalaš proseassaid ja vuogádagaid ja čilget modeallaid ovdamuniid ja ráddjehusaid",
+              "smj": "adnet ja dahkat modellajt ma tsoavttsu jali gåvvidi luonndofágalasj prosessajt ja vuogádagájt ja tjielggit modellaj ávkijt ja ráddjimusájt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM14024",
+          "core_elements": [
+            "KE1807"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "delta i risikovurderinger knyttet til forsøk og følge sikkerhetstiltakene",
+              "nob": "delta i risikovurderinger knyttet til forsøk og følge sikkerhetstiltakene",
+              "sma": "meatan årrodh vaahravuarjasjimmine pryövemi bïjre, jïh jearsoesvoeteråajvarimmide fulkedh",
+              "sme": "searvat riskaárvvoštallamiidda mat leat čadnon seasuide ja čuovvut sihkkarvuođadoaibmabijuid",
+              "smj": "sæbrrat vádáárvustallamijda ma li tjanáduvvam gæhttjaladdamijda ja tjuovvot jasskavuoda dåjmajt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM14025",
+          "core_elements": [
+            "KE1807"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gi eksempler på dagsaktuell forskning og drøfte hvordan ny kunnskap genereres gjennom samarbeid og kritisk tilnærming til eksisterende kunnskap",
+              "nob": "gi eksempler på dagsaktuell forskning og drøfte hvordan ny kunnskap genereres gjennom samarbeid og kritisk tilnærming til eksisterende kunnskap",
+              "sma": "vuesiehtimmieh vedtedh dotkemasse mij sjyöhtehke daelie, jïh digkiedidh guktie orre daajroe laavenjostoem jïh laejhtehks geatskanimmiem buakta daan daaletje daajrose",
+              "sme": "addit ovdamearkkaid áigeguovdilis dutkamii ja ságaškuššat mo ođđa máhttu šaddá ovttasbarggu ja kritihkalaš lahkoneami bokte dálá máhttui",
+              "smj": "vaddet buojkulvisájt ájggeguovddelis dutkamis ja árvvaladdat gåktu ådå máhtto ihtá aktisasjbargo ja dálásj máhto lájttális lahkanime baktu"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM14026",
+          "core_elements": [
+            "KE1808"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker",
+              "nob": "utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker",
+              "sma": "teknologeles systeemh goerehtidh, guarkedh jïh darjodh gusnie seedtije jïh dåastoje",
+              "sme": "suokkardit, áddet ja ráhkadit teknologalaš vuogádagaid main leat sáddejeaddji ja vuostáiváldi",
+              "smj": "åtsådit, dádjadit ja stiellit teknologijjalasj vuogádagájt majna li sáddijiddje ja vuosstájvállde"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14027",
+          "core_elements": [
+            "KE1807",
+            "KE1808"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke programmering til å utforske naturfaglige fenomener",
+              "nob": "bruke programmering til å utforske naturfaglige fenomener",
+              "sma": "programmeeremem nuhtjedh juktie eatnemefaageles fenomeenh goerehtidh",
+              "sme": "geavahit programmerema suokkardit luonddufágalaš fenomenaid",
+              "smj": "adnet programmerimav luonndofágalasj fenomienajt åtsådittjat"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14028",
+          "core_elements": [
+            "KE1807",
+            "KE1809"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske kjemiske reaksjoner, forklare massebevaring og gjøre rede for betydninger av noen forbrenningsreaksjoner",
+              "nob": "utforske kjemiske reaksjoner, forklare massebevaring og gjøre rede for betydninger av noen forbrenningsreaksjoner",
+              "sma": "kjemiske reaksjovnh goerehtidh, maassevaarjelimmiem tjïelkestidh, jïh tjïelkestidh man åvteste såemies båeltielimmiereaksjovnh leah vihkele",
+              "sme": "suokkardit kemiijalaš reakšuvnnaid, čilget mássaseailluheami ja čilget muhtun boaldinreakšuvnnaid mearkkašumiid",
+              "smj": "åtsådit kemijjalasj reaksjåvnåjt, tjielggit mássabisodimev ja gåvvidit nágin boalldemreaksjåvnåjt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14029",
+          "core_elements": [
+            "KE1807",
+            "KE1809"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke atommodeller og periodesystemet til å gjøre rede for egenskaper til grunnstoffer og kjemiske forbindelser",
+              "nob": "bruke atommodeller og periodesystemet til å gjøre rede for egenskaper til grunnstoffer og kjemiske forbindelser",
+              "sma": "atovmemodellh jïh periodesysteemem nuhtjedh juktie maadth-aamhti jïh kjemiske ektiedimmiej jïjtsevoeth tjïelkestidh",
+              "sme": "geavahit atomamodeallaid ja periodalaš systema čilget vuođđoávdnasiid ja kemiijalaš oktavuođaid iešvuođaid",
+              "smj": "adnet atåvmmåmodellajt ja periåvdålasj systiemav tjielggitjit vuodoábnnasijt ja kemijjalasj aktijvuodaj dåbddomerkajt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14030",
+          "core_elements": [
+            "KE1807",
+            "KE1809"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive drivhuseffekten og gjøre rede for faktorer som kan forårsake globale klimaendringer",
+              "nob": "beskrive drivhuseffekten og gjøre rede for faktorer som kan forårsake globale klimaendringer",
+              "sma": "drivhuseffektem buerkiestidh jïh faktovrh tjïelkestidh mah maehtieh fåantojne årrodh dejtie veartenevijries klijmajarkelimmide",
+              "sme": "válddahit šaddoviessobeavttu ja čilget beliid mat sáhttet dagahit globála dálkkádatrievdadusaid",
+              "smj": "gåvvidit sjaddogoahtevájkkudusáv ja tjielggit faktåvråjt ma máhtti sivvan globála dálkádakrievddadusájda"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14031",
+          "core_elements": [
+            "KE1807",
+            "KE1808",
+            "KE1809"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for energibevaring og energikvalitet og utforske ulike måter å omdanne, transportere og lagre energi på",
+              "nob": "gjøre rede for energibevaring og energikvalitet og utforske ulike måter å omdanne, transportere og lagre energi på",
+              "sma": "energijevaarjelimmiem jïh energijekvaliteetem tjïelkestidh jïh ovmessie vuekieh goerehtidh juktie energijem jeatjahtehtedh, foeresjidh jïh vöörhkedh",
+              "sme": "čilget energiijaseailluheami ja energiijakvalitehta ja suokkardit iešguđetlágan vugiid earáhuhttit, fievrridit ja vurket energiija",
+              "smj": "tjielggit enersjijjabisodimev ja enersjijjakvalitiehtav ja åtsådit iesjguhtiklágásj vuogijt målssot, doalvvot ja vuorkudit enersjijjav"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14032",
+          "core_elements": [
+            "KE1807",
+            "KE1808",
+            "KE1809"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "drøfte hvordan energiproduksjon og energibruk kan påvirke miljøet lokalt og globalt",
+              "nob": "drøfte hvordan energiproduksjon og energibruk kan påvirke miljøet lokalt og globalt",
+              "sma": "digkiedidh guktie energijeproduksjovne jïh energijeåtnoe maehtieh byjresem voenges sijjesne jïh abpe veartenisnie baajnehtidh",
+              "sme": "ságaškuššat mo energiijabuvttadeapmi ja energiijageavaheapmi sáhttá váikkuhit birrasii báikkálaččat ja globálalaččat",
+              "smj": "árvvaladdat gåktu enersjijjabuvtadibme ja enersjijjaadno máhttá birrasij vájkkudit bájke ja globála dásen"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14033",
+          "core_elements": [
+            "KE1807",
+            "KE1810"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive hvordan forskere har kommet fram til evolusjonsteorien og bruke denne til å forklare utvikling av biologisk mangfold",
+              "nob": "beskrive hvordan forskere har kommet fram til evolusjonsteorien og bruke denne til å forklare utvikling av biologisk mangfold",
+              "sma": "buerkiestidh guktie dotkijh leah evolusjovneteorijem vueptiestamme, jïh dam nuhtjieh juktie evtiedimmiem biologeles gellievoeteste tjïelkestidh",
+              "sme": "válddahit mo dutkit leat gávnnahan evolušuvdnateoriija ja geavahit dan čilget biologalaš šláddjiivuođa ovdáneami",
+              "smj": "gåvvidit gåktu dutke li evolusjåvnnåteorijjav gávnnam ja adnet dav tjielggitjit biologijjalasj moattebelakvuoda åvddånimev"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14034",
+          "core_elements": [
+            "KE1807",
+            "KE1810"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "sammenligne celler hos ulike organismer og beskrive sammenhenger mellom oppbygning og funksjon",
+              "nob": "sammenligne celler hos ulike organismer og beskrive sammenhenger mellom oppbygning og funksjon",
+              "sma": "ceellah viertiestidh ovmessie organismi luvnie, jïh ektiedimmieh buerkiestidh tseegkemen jïh funksjovnen gaskem",
+              "sme": "buohtastahttit iešguđet organismmaid seallaid ja válddahit bajásráhkadusa ja funkšuvnna oktavuođaid",
+              "smj": "buohtastahttet iesjguhtik organismaj sellajt ja buojkodit gåktu tsiekkadus ja dåjma li aktij tjanádum"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14035",
+          "core_elements": [
+            "KE1807",
+            "KE1810"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske sammenhenger mellom abiotiske og biotiske faktorer i et økosystem og diskutere hvordan energi og materie omdannes i kretsløp",
+              "nob": "utforske sammenhenger mellom abiotiske og biotiske faktorer i et økosystem og diskutere hvordan energi og materie omdannes i kretsløp",
+              "sma": "ektiedimmieh goerehtidh gaskem abiotiske jïh biotiske faktovri gaskem aktene ekosysteemesne, jïh digkiedidh guktie energije jïh materije jeatjahtehtieh kretsløpesne",
+              "sme": "suokkardit abiohtalaš ja biohtalaš fáktoriid oktavuođaid ekovuogádagas ja digaštallat mo energiija ja materiija earáhuhttojuvvojit birasjohtimis",
+              "smj": "åtsådit abiohtalasj ja biohtalasj faktåvråj aktijvuodajt ekovuogádagan ja dágástallat gåktu enersjijja ja materija målsoduvvi jålådijn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM14036",
+          "core_elements": [
+            "KE1807",
+            "KE1810"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gi eksempler på og drøfte aktuelle dilemmaer knyttet til utnyttelse av naturressurser og tap av biologisk mangfold",
+              "nob": "gi eksempler på og drøfte aktuelle dilemmaer knyttet til utnyttelse av naturressurser og tap av biologisk mangfold",
+              "sma": "vuesiehtimmieh vedtedh jïh sjyöhtehke aehpieh digkiedidh nuhtemen bïjre eatnemevierhtijste, jïh teehpemen bïjre biologeles gellievoeteste",
+              "sme": "addit ovdamearkkaid áigeguovdilis dilemmaide mat leat čadnon luondduriggodagaid ávkkástallamii ja biologalaš šláddjiivuođa massimii, ja ságaškuššat daid",
+              "smj": "vaddet buojkulvisájt ja árvvaladdat ájggeguovddelis dilemmajt ma li luondoboanndudagáj ávkástallamij ja biologijjalasj moattebelakvuoda massemij tjanáduvvam"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14037",
+          "core_elements": [
+            "KE1810"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjennom praktisk deltagelse vise hvordan birget/bierggit/bïerkenidh i naturen, og sammenlikne birgejupmi/bierggim/bïerkenidh i ulike samiske områder",
+              "nob": "gjennom praktisk deltagelse vise hvordan birget/bierggit/bïerkenidh i naturen, og sammenlikne birgejupmi/bierggim/bïerkenidh i ulike samiske områder",
+              "sma": "praktihkeles meatan årrodh vuesiehtidh guktie eatnamisnie bïerkenidh, jïh bïerkenimmiem viertiestidh ovmessie saemien dajvine",
+              "sme": "praktihkalaš searvama bokte čájehit mo birget luonddus, ja buohtastahttit birgejumi iešguđet sámi guovlluin",
+              "smj": "praktihkalasj oassálasstema baktu vuosedit gåktu bierggit luondon, ja buohtastahttet bierggimav iesjguhtik sáme guovlojn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14038",
+          "core_elements": [
+            "KE1807",
+            "KE1809",
+            "KE1810"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for hvordan fotosyntese og celleånding gir energi til alt levende gjennom karbonkretsløpet",
+              "nob": "gjøre rede for hvordan fotosyntese og celleånding gir energi til alt levende gjennom karbonkretsløpet",
+              "sma": "tjïelkestidh guktie fotosynteese jïh ceellavoejngehtimmie energijem vedtieh gaajhkese mij jeala karbonkretsløpen tjïrrh",
+              "sme": "čilget mo fotosyntesa ja seallavuoigŋan addet energiija buot dasa mii eallá karbonabirrajohtima bokte",
+              "smj": "tjielggit gåktu fotosyntesa ja sellavuojŋŋam vaddi enersjijjav divna dasi mij viessu karbonjålådime baktu"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14039",
+          "core_elements": [
+            "KE1807",
+            "KE1810"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke platetektonikkteorien til å forklare jordas utvikling over tid og gi eksempler på observasjoner som støtter teorien",
+              "nob": "bruke platetektonikkteorien til å forklare jordas utvikling over tid og gi eksempler på observasjoner som støtter teorien",
+              "sma": "plaateteknotihketeorijem nuhtjedh juktie eatnemem evtiedimmiem tjïelkestidh tïjje doekoe, jïh vuesiehtimmieh vïhtesjimmide vedtedh mah teorijem dåarjoehtieh",
+              "sme": "geavahit baldotektonihkkateoriija čilget eatnama ovdáneami áiggi badjel ja addit ovdamearkkaid áicamiidda mat dorjot teoriija",
+              "smj": "adnet platetektonihkkateorijjav tjielggitjit ednama åvddånimev ájgij tjadá ja vaddet buojkulvisájt ájttsamijda ma teorijjav doarjju"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14040",
+          "core_elements": [
+            "KE1811"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "drøfte spørsmål knyttet til seksuell og reproduktiv helse",
+              "nob": "drøfte spørsmål knyttet til seksuell og reproduktiv helse",
+              "sma": "gyhtjelassh seksuelle jïh reproduktijve healsoen bïjre digkiedidh",
+              "sme": "ságaškuššat áššiid mat gusket seksuálalaš ja reproduktiiva dearvvašvuhtii",
+              "smj": "árvvaladdat ássjijt ma guosski seksuálalasj ja reproduktijva varresvuohtaj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14041",
+          "core_elements": [
+            "KE1807",
+            "KE1811"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "sammenligne nervesystemet og hormonsystemet og beskrive hvordan rusmidler, legemidler, miljøgifter og doping påvirker signalsystemene",
+              "nob": "sammenligne nervesystemet og hormonsystemet og beskrive hvordan rusmidler, legemidler, miljøgifter og doping påvirker signalsystemene",
+              "sma": "neervasysteemem jïh hormonsysteemem viertiestidh, jïh buerkiestidh guktie ruvsemehtie, bådtjah, byjresedaalhkesh jïh doping signaalesysteemide baajnehtieh",
+              "sme": "buohtastahttit nearvavuogádaga ja hormonavuogádaga ja válddahit mo gárrenmirkkot, dálkasat, birasmirkkot ja dopen váikkuhit signálavuogádagaide",
+              "smj": "buohtastahttet nærvvavuogádagáv ja hormåvnnåvuogádagáv ja gåvvidit gåktu gárevselga, dálkkasa, birásselga ja doping vájkkudi signállavuogádagájda"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14042",
+          "core_elements": [
+            "KE1807",
+            "KE1811"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive kroppens immunforsvar og hvordan vaksiner virker, og gjøre rede for hva vaksiner betyr for folkehelsen",
+              "nob": "beskrive kroppens immunforsvar og hvordan vaksiner virker, og gjøre rede for hva vaksiner betyr for folkehelsen",
+              "sma": "kråahpen immun-vaarjelimmiem buerkiestidh jïh guktie vaksijne jåhta, jïh tjïelkestidh maam ulmide vaksjinah almetjehealsose utnieh",
+              "sme": "válddahit rupmaša immuvdnavuogádaga ja mo boahkuheapmi doaibmá, ja čilget maid boahkuheamit mearkkašit álbmotdearvvašvuhtii",
+              "smj": "gåvvidit rubmaha immuvnnasuodjalusáv ja gåktu vaksijna doajmmi, ja tjielggit man ájnnasa vaksijna li álmmukvarresvuohtaj"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 10. trinn",
+          "nob": "Kompetansemål og vurdering 10. trinn",
+          "sma": "Maahtoeulmieh jïh vuarjasjimmie 10. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 10. ceahkki",
+          "smj": "10. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    }
+  ],
+  "last_modified": "2026-07-10T12:39:34.8268521",
+  "replaced_by": [],
+  "replaces": [
+    "NAT02-04"
+  ],
+  "short_title": {
+    "by_language": {
+      "default": "Naturfag samisk",
+      "nob": "Naturfag samisk",
+      "sma": "Eatnemefaage saemien",
+      "sme": "Luonddufága sámegillii",
+      "smj": "Luonndofáhka sáme"
+    }
+  },
+  "title": {
+    "by_language": {
+      "default": "Læreplan i naturfag samisk",
+      "nob": "Læreplan i naturfag samisk",
+      "sma": "Learoesoejkesje - eatnemefaage saemien",
+      "sme": "Oahppoplána - luonddufága sámegillii",
+      "smj": "Oahppopládna luonndofáhka sáme"
+    }
+  },
+  "valid_from": "2026-08-01",
+  "valid_to": null
+}

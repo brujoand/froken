@@ -1,0 +1,1130 @@
+{
+  "code": "RLE02-04",
+  "goal_sets": [
+    {
+      "after_year": 4,
+      "applies_to_years": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "code": "KV1146",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14627",
+          "core_elements": [
+            "KE1841",
+            "KE1842",
+            "KE1844"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og beskrive hvordan kristendom, og andre religioner og livssyn kommer til uttrykk lokalt og regionalt",
+              "nob": "utforske og beskrive hvordan kristendom, og andre religioner og livssyn kommer til uttrykk lokalt og regionalt",
+              "sma": "goerehtidh jïh buerkiestidh guktie kristelesvoete jïh jeatjah religijovnh jïh jieledevuajnoeh vååjnesasse båetieh voenges jïh regionaale",
+              "sme": "suokkardit ja válddahit mo kristtalašvuohta, ja eará oskkut ja eallinoainnut bohtet ovdan báikkálaččat ja regionálalaččat",
+              "smj": "åtsådit ja gåvvidit gåktu risstalasjvuohta ja ietjá åsko ja iellemvuojno åvddån båhti bájkálattjat ja regionála dásen"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14628",
+          "core_elements": [
+            "KE1841",
+            "KE1842"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "samtale om og presentere sentrale fortellinger og trosforestillinger i kristen tradisjon",
+              "nob": "samtale om og presentere sentrale fortellinger og trosforestillinger i kristen tradisjon",
+              "sma": "soptsestalledh jïh åehpiedehtedh vihkeles soptsesh jïh jaahkoesoptsesh kristeles aerpievuekesne",
+              "sme": "ságastallat kristtalaš árbevieru guovddáš muitalusaid ja oskuáddejumiid birra ja ovdanbuktit daid",
+              "smj": "ságastallat risstalasj árbbedábe guovdásj subttsasij ja åsskodádjadusáj birra ja dajt åvddån buktet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14638",
+          "core_elements": [
+            "KE1841",
+            "KE1842"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "samtale om og presentere sentrale fortellinger og trosforestillinger fra østlige og vestlige religiøse tradisjoner",
+              "nob": "samtale om og presentere sentrale fortellinger og trosforestillinger fra østlige og vestlige religiøse tradisjoner",
+              "sma": "soptsestalledh jïh åehpiedehtedh vihkeles soptsesh jïh jaahkoesoptsesh luvlege jïh jillege religijööse aerpievuekijste",
+              "sme": "ságastallat nuorta- ja oarjemáilmmi oskkolaš árbevieruid guovddáš muitalusaid ja oskuáddejumiid birra ja ovdanbuktit daid",
+              "smj": "ságastallat lulle- ja alleværálda åskulasj árbbedábij guovdásj subttsasij ja åsskodádjadusáj birra ja dajt åvddån buktet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14629",
+          "core_elements": [
+            "KE1841",
+            "KE1842",
+            "KE1844"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "sammenligne og presentere årstider og høytider i samiske tradisjoner, kristendom og andre religions- og livssynstradisjoner, som kulturarv",
+              "nob": "sammenligne og presentere årstider og høytider i samiske tradisjoner, kristendom og andre religions- og livssynstradisjoner, som kulturarv",
+              "sma": "jaepieboelhkh jïh bissiebiejjieh viertiestidh jïh åehpiedehtedh saemien aerpievuekine, kristelesvoetesne jïh jeatjah religijovne- jïh jieledevuajnoeaerpievuekine, goh kultuvreaerpie",
+              "sme": "buohtastahttit ja ovdanbuktit sámi árbevieru, kristtalašvuođa ja eará osku- ja eallinoaidnoárbevieruid, nugo kulturárbbi, jagiáiggiid ja basiid",
+              "smj": "buohtastahttet ja åvddånbuktet sáme árbbedábij, risstalasjvuoda ja ietjá åssko- ja iellemvuojnnoárbbedábij jábijt ja basijt kultuvrraárbben"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14639",
+          "core_elements": [],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "samtale om og presentere estetiske uttrykk fra kristendom og andre religioner og livssyn",
+              "nob": "samtale om og presentere estetiske uttrykk fra kristendom og andre religioner og livssyn",
+              "sma": "soptsestalledh jïh åehpiedehtedh estetihkeles vuekieh kristelesvoeteste jïh jeatjah religijovnijste jïh jieledevuajnojste",
+              "sme": "ságastallat kristtalašvuođa ja eará oskkuid ja eallinoainnuid estehtalaš ovdanbuktimiid ja ovdanbuktit daid",
+              "smj": "ságastallat risstalasjvuoda ja ietjá åskoj ja iellemvuojnoj estetihkalasj åvddånbuktemij birra ja dajt åvddån buktet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14637",
+          "core_elements": [
+            "KE1841",
+            "KE1842"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke enkle fagbegreper i arbeidet med religioner og livssyn",
+              "nob": "bruke enkle fagbegreper i arbeidet med religioner og livssyn",
+              "sma": "aelhkie faagebaakoetjïerth nuhtjedh gosse religijovnigujmie jïh jieledevuajnoeguvviejgujmie barka",
+              "sme": "geavahit álkes fágadoahpagiid go bargá oskkuiguin ja eallinoainnuiguin",
+              "smj": "adnet álkkes fáhkabuojkuldagájt gå åskoj ja iellemvuojnoj barggá"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14630",
+          "core_elements": [
+            "KE1842"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "skille mellom ulike kilder til kunnskap om religioner og livssyn",
+              "nob": "skille mellom ulike kilder til kunnskap om religioner og livssyn",
+              "sma": "ovmessie daajroegaaltiji gaskem joekehtidh religijovni jïh jieledevuajnoej bïjre",
+              "sme": "earuhit iešguđetlágan máhttogálduid oskkuid ja eallinoainnuid birra",
+              "smj": "ieridit iesjguhtiklágásj máhttogáldoj gaskan mij guosská åsskuj ja iellemvuojnnuj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14635",
+          "core_elements": [
+            "KE1843",
+            "KE1844",
+            "KE1845"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive og samtale om ulike måter å leve sammen på i familie og samfunn",
+              "nob": "beskrive og samtale om ulike måter å leve sammen på i familie og samfunn",
+              "sma": "buerkiestidh jïh soptestalledh ovmessie jieledevuekiej bïjre fuelhkesne jïh seabradahkesne",
+              "sme": "válddahit mo bearrašat ja servodagat sáhttet eallit ovttas iešguđet láhkai ja ságastallat dan birra",
+              "smj": "gåvvidit ja ságastallat duon dán vuoge birra gåktu aktan viessot familljan ja sebrudahkan"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14631",
+          "core_elements": [
+            "KE1841",
+            "KE1842"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samarbeide med andre i samtale om samiske tradisjonelle kunnskaper og praksiser",
+              "nob": "samarbeide med andre i samtale om samiske tradisjonelle kunnskaper og praksiser",
+              "sma": "mubpiejgujmie laavenjostedh gosse saemien aerpievuekien daajroej jïh praksisi bïjre soptsestalla",
+              "sme": "ovttasbargat earáiguin ja ságastallat sámi árbevirolaš máhtu ja praksisaid birra",
+              "smj": "iehtjádij siegen barggat ja ságastallat sáme árbbediedoj ja práksisij birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14632",
+          "core_elements": [
+            "KE1841",
+            "KE1844",
+            "KE1845"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "identifisere og reflektere over etiske spørsmål",
+              "nob": "identifisere og reflektere over etiske spørsmål",
+              "sma": "etihkeles gyhtjelassh identifiseeredh jïh dej bijjeli ussjedadtedh",
+              "sme": "identifiseret ehtalaš áššiid ja reflekteret daid birra",
+              "smj": "identifisierit etihkalasj ássjijt ja reflektierit daj badjel"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14634",
+          "core_elements": [
+            "KE1843",
+            "KE1844",
+            "KE1845"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og samtale om etiske sider ved menneskers levesett og ressursbruk",
+              "nob": "utforske og samtale om etiske sider ved menneskers levesett og ressursbruk",
+              "sma": "etihkeles bielieh almetji jieledevuekiej jïh vierhtieåtnoen bïjre goerehtidh jïh soptsestalledh",
+              "sme": "suokkardit olbmuid eallinvuogi ja resursageavaheami ja ságastallat dan birra",
+              "smj": "åtsådit ulmutjij iellemvuoge ja ressurssaano etihkalasj bielijt ja ságastallat daj birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14633",
+          "core_elements": [
+            "KE1844",
+            "KE1845"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "sette seg inn i og formidle egne og andres tanker, følelser og erfaringer",
+              "nob": "sette seg inn i og formidle egne og andres tanker, følelser og erfaringer",
+              "sma": "jïjtjemse bïejedh jïh buektedh jïjtse jïh mubpiej åssjaldahkh, domtesh jïh dååjrehtimmieh",
+              "sme": "oahpásmuvvat iežas ja earáid jurdagiidda, dovdduide ja vásáhusaide ja gaskkustit daid",
+              "smj": "oahpásmuvvat ietjas ja iehtjádij ájádusájda, dåbdojda ja vásádusájda ja gaskostit dajt."
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14636",
+          "core_elements": [
+            "KE1844",
+            "KE1845"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om hva menneskeverd, respekt, toleranse og samiske rettigheter betyr og hva det innebærer for hvordan vi lever sammen",
+              "nob": "samtale om hva menneskeverd, respekt, toleranse og samiske rettigheter betyr og hva det innebærer for hvordan vi lever sammen",
+              "sma": "soptsestalledh maam ulmide almetje-aarvoe, ååkteme, toleraanse jïh saemien reaktah utnieh, jïh maam ulmide dïhte åtna guktie mijjieh ektesne jielebe",
+              "sme": "ságastallat maid olmmošárvu, árvvusatnin, gierdavašvuohta ja sámi vuoigatvuođat mearkkašit ja maid dat mearkkašit min ovttaseallimii",
+              "smj": "ságastallat majt ulmusjárvvo, vieledibme, gierddisvuohta ja sáme riektá merkahi ja gåktu da vájkkudi mijá aktanviessomij"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 4. trinn",
+          "nob": "Kompetansemål og vurdering 4. trinn",
+          "sma": "Maahtoeulmieh jïh vuarjasjimmie 4. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 4. ceahkki",
+          "smj": "4. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    },
+    {
+      "after_year": 7,
+      "applies_to_years": [
+        5,
+        6,
+        7
+      ],
+      "code": "KV1147",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14640",
+          "core_elements": [
+            "KE1841",
+            "KE1842",
+            "KE1844"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for historien til kristendom og andre religioner og livssyn i Sápmi/Sábme/Saepmie og Norge, inkludert overgangen til kristendom, og nasjonale minoriteters religions- og livssynshistorie",
+              "nob": "gjøre rede for historien til kristendom og andre religioner og livssyn i Sápmi/Sábme/Saepmie og Norge, inkludert overgangen til kristendom, og nasjonale minoriteters religions- og livssynshistorie",
+              "sma": "kristelesvoeten jïh jeatjah religijovni jïh jieledevuajnoej histovrijem tjïelkestidh Saepmesne jïh Nöörjesne, aaj sertiestimmie kristelesvoetese, jïh nasjonaale unnebelåhkoej religijovne- jïh jieledevuajnoehistovrije",
+              "sme": "čilget kristtalašvuođa ja eará oskkuid ja eallinoainnuid historjjá Sámis ja Norggas, maiddái sirdima kristtalašvuhtii, ja nationála minoritehtaid osku- ja eallinoaidnohistorjjá",
+              "smj": "tjielggit risstalasjvuoda ja ietjá åskoj ja iellemvuojnoj histåvråv Sámen ja Vuonan, aj målssomav risstalasjvuohtaj, ja nasjåvnålasj unneplågoj åssko- ja iellemvuojnnohiståvråv"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14641",
+          "core_elements": [
+            "KE1841",
+            "KE1842",
+            "KE1844"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "beskrive og presentere noen sentrale rituelle praksiser og etiske normer i kristendom",
+              "nob": "beskrive og presentere noen sentrale rituelle praksiser og etiske normer i kristendom",
+              "sma": "såemies vihkele rituelle praksish jïh etihkeles nåårmh kristelesvoetesne buerkiestidh jïh åehpiedehtedh.",
+              "sme": "válddahit ja ovdanbuktit kristtalašvuođa muhtun rituála praksisaid ja ehtalaš norpmaid",
+              "smj": "gåvvidit ja åvddånbuktet nágin guovdásj rituála práksisijt ja etihkalasj nårmajt risstalasjvuodan"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14650",
+          "core_elements": [
+            "KE1841",
+            "KE1842",
+            "KE1844"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "beskrive og presentere noen sentrale rituelle praksiser og etiske normer fra østlige og vestlige religioner og livssynstradisjoner",
+              "nob": "beskrive og presentere noen sentrale rituelle praksiser og etiske normer fra østlige og vestlige religioner og livssynstradisjoner",
+              "sma": "såemies vihkeles rituelle praksish jïh etihkeles nåårmh buerkiestidh jïh åehpiedehtedh luvlege jïh jillege religijovnijste jïh jieledevuajnoeaerpievuekijste",
+              "sme": "válddahit ja ovdanbuktit nuorta- ja oarjemáilmmi oskkuid ja eallinoaidnoárbevieruid muhtun rituála praksisaid ja ehtalaš norpmaid",
+              "smj": "gåvvidit ja åvddånbuktet nágin guovdásj rituála práksisijt ja etihkalasj nårmajt lulle- ja alleværálda åskoj ja iellemvuojnnoárbbedábijn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14651",
+          "core_elements": [
+            "KE1841",
+            "KE1842"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og sammenligne tekster og materielle uttrykk som kilder til kunnskap om kulturarv knyttet til kristendom og ulike religions- og livssynstradisjoner",
+              "nob": "utforske og sammenligne tekster og materielle uttrykk som kilder til kunnskap om kulturarv knyttet til kristendom og ulike religions- og livssynstradisjoner",
+              "sma": "teeksth jïh materijelle vuekieh goerehtidh jïh viertiestidh goh daajroegaaltijh kultuvreaerpien bïjre ektiedamme kristelesvoetese jïh ovmessie religijovne- jïh jieledevuajnoeaerpievuekide",
+              "sme": "suokkardit ja buohtastahttit teavsttaid ja ávnnaslaš ovdanbuktimiid máhttogáldun kulturárbbi birra mii guoská kristtalašvuhtii ja iešguđetlágan osku- ja eallinoaidnoárbevieruide",
+              "smj": "åtsådit ja buohtastahttet tevstajt ja materiella javllamusájt gálldon máhttuj kulturárbe birra mij la risstalasjvuohtaj ja ietjá åssko- ja iellemvuojnnodábijda tjanádum"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14642",
+          "core_elements": [
+            "KE1841",
+            "KE1842"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "sammenligne og samtale om tradisjonelle kunnskaper og praksiser fra ulike deler av Sápmi/Sábme/Saepmie",
+              "nob": "sammenligne og samtale om tradisjonelle kunnskaper og praksiser fra ulike deler av Sápmi/Sábme/Saepmie",
+              "sma": "aepievuekien daajroeh jïh praksish viertiestidh jïh dej bijjeli soptsestalledh ovmessie bielijste Saepmeste",
+              "sme": "buohtastahttit árbevirolaš máhtu ja praksisaid iešguđet osiin Sámis ja ságastallat daid birra",
+              "smj": "buohtastahttep ja ságastallat árbbedábálasj máhtoj ja práksisij birra iesjguhtik guovlojn Sámen"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14649",
+          "core_elements": [
+            "KE1841",
+            "KE1842",
+            "KE1845"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke fagbegreper i arbeidet med religioner og livssyn",
+              "nob": "bruke fagbegreper i arbeidet med religioner og livssyn",
+              "sma": "faagebaakoetjïerth nuhtjedh gosse religijovnigujmie jïh jieledevuajnoejgujmie barkeminie",
+              "sme": "geavahit fágadoahpagiid go bargá oskkuiguin ja eallinoainnuiguin",
+              "smj": "adnet fáhkabuojkuldagájt gå åskoj ja iellemvuojnoj barggá"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14647",
+          "core_elements": [
+            "KE1841",
+            "KE1843",
+            "KE1844",
+            "KE1845"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for ulike syn på barndom, familie og samliv i religioner og livssyn og i samiske samfunn",
+              "nob": "gjøre rede for ulike syn på barndom, familie og samliv i religioner og livssyn og i samiske samfunn",
+              "sma": "tjïelkestidh mah ovmessie vuajnoeh religijovnh, jieledevuajnoeh jih saemien seabradahkh maanabaelien, fuelhkien jih ektijieleden bïjre utnieh",
+              "sme": "čilget oskkuid ja eallinoainnuid ja sámi servodagaid iešguđetlágan oainnuid mánnávuhtii, bearrašii ja ovttaseallimii",
+              "smj": "tjielggit åskoj, iellemvuojnoj ja sáme sebrudagáj iesjguhtiklágásj vuojnojt mánnávuohtaj, familljaj ja aktanviessomij"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14643",
+          "core_elements": [
+            "KE1842",
+            "KE1843",
+            "KE1844",
+            "KE1845"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke filosofiske tenkemåter i samtale og undring",
+              "nob": "bruke filosofiske tenkemåter i samtale og undring",
+              "sma": "filosofeles ussjedimmievuekieh nuhtjedh soptsestallemisnie jïh onterdimmesne",
+              "sme": "geavahit filosofalaš jurddašanvugiid ságastallamis ja imaštallamis",
+              "smj": "adnet filosåfalasj ájádallamvuogijt ságastallamin ja imájdallamin"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14644",
+          "core_elements": [
+            "KE1841",
+            "KE1843",
+            "KE1845"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "samtale om og formidle etiske ideer fra sentrale skikkelser i religiøse og livssynsbaserte tradisjoner",
+              "nob": "samtale om og formidle etiske ideer fra sentrale skikkelser i religiøse og livssynsbaserte tradisjoner",
+              "sma": "etihkeles åssjalommesh vihkeles gaagkojste religijööse¨ jïh jieledevuajnoeaerpievuekine åehpiedehtedh jïh dej bïjre soptsestalledh",
+              "sme": "ságastallat oskkolaš ja eallinoidnui guoski árbevieruid guovddáš olbmuid ehtalaš ideaid ja gaskkustit daid",
+              "smj": "ságastallat ja gaskostit etihkalasj idiejajt åskoj ja iellemvuojnoj árbbedábij guovdásj ulmutjijs"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14652",
+          "core_elements": [
+            "KE1843",
+            "KE1845"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "samtale om og formidle etiske ideer fra sentrale skikkelser i filosofihistorien",
+              "nob": "samtale om og formidle etiske ideer fra sentrale skikkelser i filosofihistorien",
+              "sma": "etihkeles åssjalommesi bïjre soptsestalledh vihkele gaagkojste filosofijehistovrijisnie jïh dejtie åehpiedehtedh",
+              "sme": "ságastallat filosofiijahistorjjá guovddáš olbmuid ehtalaš ideaid ja gaskkustit daid",
+              "smj": "ságastallat ja gaskostit filosofijjahiståvrå guovdásj ulmutjij etihkalasj idiejajt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14645",
+          "core_elements": [
+            "KE1844",
+            "KE1845"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og beskrive egne og andres perspektiver i etiske dilemmaer knyttet til hverdags- og samfunnsutfordringer",
+              "nob": "utforske og beskrive egne og andres perspektiver i etiske dilemmaer knyttet til hverdags- og samfunnsutfordringer",
+              "sma": "jïjtse jïh mubpiej perspektijvh goerehtidh jïh buerkiestidh etihkeles aehpine ektiedamme aarkebiejjien- jïh seabradahkehaestiemidie",
+              "sme": "suokkardit ja válddahit iežas ja earáid perspektiivvaid ehtalaš dilemmain mat gusket árgabeai- ja servodathástalusaide",
+              "smj": "åtsådit ja gåvvidit ietjas ja iehtjádij perspektijvajt etihkalasj dilemmajn ma guosski árggabiejve ja sebrudagá hásstalusájda"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14646",
+          "core_elements": [
+            "KE1843",
+            "KE1844",
+            "KE1845"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over eksistensielle spørsmål knyttet til menneskets levesett og levekår og klodens framtid",
+              "nob": "reflektere over eksistensielle spørsmål knyttet til menneskets levesett og levekår og klodens framtid",
+              "sma": "eksistensijelle gyhtjelassi bijjeli ussjedadtedh mah leah almetjen jieledevuekien jïh jieledenuepiej bïjre, jïh veartenebåaloen båetijen aejkien bïjre",
+              "sme": "reflekteret eksistensiála áššiid birra mat gusket olbmuid eallinvuohkái ja birgenláhkái ja eatnama boahtteáigái",
+              "smj": "reflektierit eksistensiella ássjij birra ma guosski ulmutjij iellemvuohkáj ja bierggimláhkáj ja ednama boahtteájggáj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14648",
+          "core_elements": [
+            "KE1841",
+            "KE1844",
+            "KE1845"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for hva menneskerettighetene innebærer for urfolks rettigheter, for ytrings- og religionsfrihet og for religiøse minoriteters situasjon i Sápmi/Sábme/Saepmie og Norge",
+              "nob": "gjøre rede for hva menneskerettighetene innebærer for urfolks rettigheter, for ytrings- og religionsfrihet og for religiøse minoriteters situasjon i Sápmi/Sábme/Saepmie og Norge",
+              "sma": "tjïelkestidh maam ulmide almetjereaktah utnieh aalkoeåålmegi reaktide, soptsestimmie- jïh religijovnefrïjjevoetese jïh religijööse unnebelåhkoej tseahkan Saepmesne jïh Nöörjesne",
+              "sme": "čilget maid olmmošvuoigatvuođat mearkkašit eamiálbmogiid vuoigatvuođaide, cealkin- ja oskunfriddjavuhtii ja oskkolaš minoritehtaid dillái Sámis ja Norggas",
+              "smj": "tjielggit majt ulmusjriektá merkahi iemeálmmugij riektájda, moalgedim- ja åsskofriddjavuohtaj ja åskulasj unneplågoj dilláj Sámen ja Vuonan"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 7. trinn",
+          "nob": "Kompetansemål og vurdering 7. trinn",
+          "sma": "Maahtoeulmieh jïh vuarjasjimmie 7. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 7. ceahkki",
+          "smj": "7. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    },
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV1148",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14653",
+          "core_elements": [
+            "KE1841",
+            "KE1842",
+            "KE1844"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og presentere sentrale trekk ved kristendom og andre religions- og livssynstradisjoner og deres utbredelse i dag",
+              "nob": "utforske og presentere sentrale trekk ved kristendom og andre religions- og livssynstradisjoner og deres utbredelse i dag",
+              "sma": "vihkeles væhtah kristelesvoetesne jïh jeatjah religijovne- jïh jieledevuajnoeaerpievuekine goerehtidh jïh åehpiedehtedh jïh gusnie dah gååvnesieh daelie",
+              "sme": "suokkardit ja ovdanbuktit kristtalašvuođa ja eará osku- ja eallinoaidnoárbevieruid ja sin dálá lávdama guovddáš mihtilmasvuođaid",
+              "smj": "åtsådit ja åvddånbuktet risstalasjvuoda ja ietjá åssko- ja iellemvuojnnoárbbedábij guovdásj dåbddomerkajt ja gånnå væráldin da gávnnuji uddni"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14665",
+          "core_elements": [
+            "KE1841",
+            "KE1842"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og drøfte hvordan kristendom og andre religioner inngår i historiske endringsprosesser globalt og nasjonalt",
+              "nob": "utforske og drøfte hvordan kristendom og andre religioner inngår i historiske endringsprosesser globalt og nasjonalt",
+              "sma": "goerehtidh jïh digkiedidh guktie kristelesvoete jïh jeatjah religijovnh leah meatan dovletje jarkelimmieprosessine abpe veartenisnie jïh nasjonaale",
+              "sme": "suokkardit ja ságaškuššat mo kristtalašvuohta ja eará oskkut gullet historjjálaš rievdadanproseassaide globálalaččat ja nationálalaččat",
+              "smj": "åtsådit ja árvvaladdat gåktu risstalasjvuohta ja ietjá åsko li oassen histåvrålasj rievddadime prosessajs globála ja rijka dásen"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14666",
+          "core_elements": [
+            "KE1841",
+            "KE1842"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "undersøke og presentere sentrale ideer fra livssynshumanisme og andre ikke-religiøse livssyn",
+              "nob": "undersøke og presentere sentrale ideer fra livssynshumanisme og andre ikke-religiøse livssyn",
+              "sma": "vihkeles åssjalommesh jieledevuajnoehumanismeste jïh jeatjah ij-religijööse jieledevuajnojste goerehtidh jïh åehpiedehtedh",
+              "sme": "guorahallat ja ovdanbuktit eallinoaidnohumanismma ja eará ii-oskkolaš eallinoainnuid guovddáš ideaid",
+              "smj": "guoradallat ja åvddånbuktet iellemvuojno humanismav ja ietjá iehpeåskulasj iellemvuojnoj guovdásj idiejajt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14654",
+          "core_elements": [
+            "KE1841",
+            "KE1842",
+            "KE1844"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og presentere religiøst mangfold og religiøse praksiser utenfor etablerte religionssamfunn",
+              "nob": "utforske og presentere religiøst mangfold og religiøse praksiser utenfor etablerte religionssamfunn",
+              "sma": "religijööse gellievoetem jïh religijööste praksish goerehtidh jïh åehpiedehtedh sïejhme religiovneseabradahki ålkolen",
+              "sme": "suokkardit ja ovdanbuktit oskkolaš girjáivuođa ja oskkolaš praksisaid sajáiduvvan oskuservodagaid olggobealde",
+              "smj": "åtsådit ja åvddånbuktet åskulasj moattebelakvuodav ja åskulasj práksisijt sajájduvvam åsskosebrudagáj ålggolin"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14655",
+          "core_elements": [
+            "KE1841",
+            "KE1842",
+            "KE1844"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for og reflektere over andre urfolks religions- og livssynstradisjoner",
+              "nob": "gjøre rede for og reflektere over andre urfolks religions- og livssynstradisjoner",
+              "sma": "jeatjah aalkoeåålmegi religijovne- jïh jieledevuajnoeaerpievuekieh tjïelkestidh jïh dej bijjeli ussjedadtedh",
+              "sme": "čilget eará eamiálbmogiid osku- ja eallinoaidnoárbevieruid ja reflekteret daid birra",
+              "smj": "tjielggit ja reflektierit ietjá iemeálmmugij åssko- ja iellemvuojnnoárbbedábij badjel"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14657",
+          "core_elements": [
+            "KE1841",
+            "KE1842",
+            "KE1845"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke og drøfte fagbegreper om religioner og livssyn og om samiske åndelige tradisjoner",
+              "nob": "bruke og drøfte fagbegreper om religioner og livssyn og om samiske åndelige tradisjoner",
+              "sma": "faagebaakoetjïerth nuhtjedh jïh digkiedidh religijovni jïh jieledevuajnoej bïjre jïh saemien voejkenen aerpievuekiej bïjre",
+              "sme": "geavahit ja ságaškuššat fágadoahpagiid oskkuid ja eallinoainnuid birra ja sámi vuoiŋŋalaš árbevieruid birra",
+              "smj": "adnet ja árvvaladdat fáhkabuojkuldagájt åskoj ja iellemvuojnoj ja sáme vuojŋŋalasj árbbedábij birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14658",
+          "core_elements": [
+            "KE1842"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "sammenligne og vurdere kritisk ulike kilder til kunnskap om religioner og livssyn",
+              "nob": "sammenligne og vurdere kritisk ulike kilder til kunnskap om religioner og livssyn",
+              "sma": "ovmessie daajroegaaltijh religijovni jïh jieledevuajnoej bïjre viertiestidh jïh vuarjasjidh",
+              "sme": "buohtastahttit ja kritihkalaččat árvvoštallat iešguđetlágan máhttogálduid oskkuid ja eallinoainnuid birra",
+              "smj": "buohtastahttet ja lájttálisát árvustallat iesjguhtiklágásj máhttogáldojt åskoj ja iellemvuojnoj birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14656",
+          "core_elements": [
+            "KE1841",
+            "KE1843",
+            "KE1844",
+            "KE1845"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for og reflektere over ulike syn på kjønn og seksualitet i kristendom og andre religioner og livssyn",
+              "nob": "gjøre rede for og reflektere over ulike syn på kjønn og seksualitet i kristendom og andre religioner og livssyn",
+              "sma": "tjïelkestidh jïh ussjedadtedh ovmessie vuajnoej bijjeli tjoelen jïh seksualiteeten bïjre kristelesvotesne jïh jeatjah religijovnine jïh jieledevuajnojne",
+              "sme": "čilget kristtalašvuođa ja eará oskkuid ja eallinoainnuid iešguđetlágan oainnuid sohkabeliide ja seksualitehtii ja reflekteret daid birra",
+              "smj": "tjielggit risstalasjvuoda ja ietjá åskoj ja iellemvuojnoj iesjguhtiklágásj vuojnojt sjiervijda ja seksualitiehttaj ja reflektierit daj badjel"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14663",
+          "core_elements": [
+            "KE1841",
+            "KE1842"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og presentere hvordan elementer fra kristendom og andre religioner og livssyn kommer til uttrykk i medier og populærkultur",
+              "nob": "utforske og presentere hvordan elementer fra kristendom og andre religioner og livssyn kommer til uttrykk i medier og populærkultur",
+              "sma": "goerehtidh jïh åehpiedehtedh guktie biehkieh kristelesvoeteste jïh jeatjah religijovnijste jïh jieledevuajnojste vååjnesasse båetieh medijasse jïh populærkultuvrese",
+              "sme": "suokkardit ja ovdanbuktit mo kristtalašvuođa ja eará oskkuid ja eallinoainnuid elemeanttat bohtet ovdan mediain ja populárakultuvrras",
+              "smj": "åtsådit ja åvddånbuktet gåktu risstalasjvuoda ja ietjá åskoj ja iellemvuojnoj elementa båhti åvddån medijájn ja populerra kultuvran"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14664",
+          "core_elements": [
+            "KE1841",
+            "KE1842",
+            "KE1845"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og sammenligne etiske ideer fra sentrale skikkelser i religiøse og livssynsbaserte tradisjoner",
+              "nob": "utforske og sammenligne etiske ideer fra sentrale skikkelser i religiøse og livssynsbaserte tradisjoner",
+              "sma": "etihkeles åssjalommesh vihkeles gaagkojste religijööse jïh jieledevuajnoeaerpievuekine goerehtidh jïh viertiestidh",
+              "sme": "suokkardit ja buohtastahttit oskkolaš ja eallinoidnui guoski árbevieruid guovddáš olbmuid ehtalaš ideaid",
+              "smj": "åtsådit etihkalasj idiejajt åskoj ja iellemvuojnoj árbbedábij guovdásj ulmutjijs"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14667",
+          "core_elements": [
+            "KE1845"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske etiske ideer fra sentrale skikkelser i filosofihistorien og anvende ideene til å drøfte aktuelle etiske spørsmål",
+              "nob": "utforske etiske ideer fra sentrale skikkelser i filosofihistorien og anvende ideene til å drøfte aktuelle etiske spørsmål",
+              "sma": "etihkeles åssjalommes vihkeles gaagkojste filosofijehistovrijisnie goerehtidh jïh åssjalommesidie nuhtjedh sjyöhtehke etihkeles gyhtjelassh digkiedidh",
+              "sme": "suokkardit filosofiijahistorjjá guovddáš olbmuid ehtalaš ideaid ja geavahit ideaid ságaškuššat áigeguovdilis ehtalaš áššiid birra",
+              "smj": "åtsådit filosofijjahiståvrå guovdásj ulmutjij etihkalasj idiejajt ja adnet idiejajt árvvalattatjit ájggeguovddelis etihkalasj ássjij birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14659",
+          "core_elements": [
+            "KE1844",
+            "KE1845"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske andres perspektiv og håndtere uenighet og meningsbrytning",
+              "nob": "utforske andres perspektiv og håndtere uenighet og meningsbrytning",
+              "sma": "mubpiej perspektijvem goerehtidh jïh ovsïemesvoetem jïh joekehts mïelh gïetedidh",
+              "sme": "suokkardit earáid perspektiivva ja gieđahallat sierraoaivilvuođa ja digaštallama",
+              "smj": "åtsådit iehtjádij perspektijvav ja giehtadallat ietjá vuojnojt ja dágástallamav"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14660",
+          "core_elements": [
+            "KE1843",
+            "KE1844",
+            "KE1845"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over eksistensielle spørsmål knyttet til det å vokse opp og leve i et mangfoldig og globalt samfunn",
+              "nob": "reflektere over eksistensielle spørsmål knyttet til det å vokse opp og leve i et mangfoldig og globalt samfunn",
+              "sma": "eksistensijelle gyhtjelassi bijjeli ussjedadtedh guktie lea byjjenidh aktene gellielaaketje jïh veartenevijries seabradahkesne",
+              "sme": "reflekteret eksistensiála áššiid birra mat gusket dasa ahte bajásšaddat ja eallit girjás ja globála servodagas",
+              "smj": "reflektierit eksistensiella gatjálvisáj badjel ma guosski bajássjaddat ja viessot moattebelak ja globála sebrudagán"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14661",
+          "core_elements": [
+            "KE1844",
+            "KE1845"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "identifisere og drøfte etiske problemstillinger knyttet til ulike former for kommunikasjon",
+              "nob": "identifisere og drøfte etiske problemstillinger knyttet til ulike former for kommunikasjon",
+              "sma": "etihkeles gyhtjelassh damtijidh jïh digkiedidh ektiedamme ovmessie såarhts gaskesadtemasse",
+              "sme": "identifiseret ja ságaškuššat ehtalaš čuolmmaid mat gusket iešguđetlágan gulahallanvugiide",
+              "smj": "identifisierit ja árvvaladdat etihkalasj tjuolmajt ma iesjguhtiklágásj guládallamvuogijda guosski"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14662",
+          "core_elements": [
+            "KE1841",
+            "KE1844",
+            "KE1845"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "identifisere og drøfte aktuelle etiske problemstillinger knyttet til menneskerettigheter, urfolks rettigheter, bærekraft og fattigdom",
+              "nob": "identifisere og drøfte aktuelle etiske problemstillinger knyttet til menneskerettigheter, urfolks rettigheter, bærekraft og fattigdom",
+              "sma": "sjyöhtehke etihkeles gyhtjelassh damtijidh jïh digkiedidh mah leah almetjereaktaj, aalkoeåålmegi reaktaj, monnehkevoeten jïh giefiesvoeten bïjre",
+              "sme": "identifiseret ja ságaškuššat áigeguovdilis ehtalaš čuolmmaid mat gusket olmmošvuoigatvuođaide, eamiálbmogiid vuoigatvuođaide, guoddevašvuhtii ja geafivuhtii",
+              "smj": "identifisierit ja árvvaladdat guoskavasj etihkalasj tjuolmajt ma guosski almasjriektájda, iemeálmmugij riektájda, guoddelisvuohtaj ja hæjosvuohtaj"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 10. trinn",
+          "nob": "Kompetansemål og vurdering 10. trinn",
+          "sma": "Maahtoeulmieh jïh vuarjasjimmie 10. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 10. ceahkki",
+          "smj": "10. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    }
+  ],
+  "last_modified": "2026-07-15T09:48:46.4874473",
+  "replaced_by": [],
+  "replaces": [
+    "RLE02-03"
+  ],
+  "short_title": {
+    "by_language": {
+      "default": "KRLE samisk",
+      "nob": "KRLE samisk",
+      "sma": "KRJE, saemien soejkesje",
+      "sme": "KOEE, sámi plána",
+      "smj": "RÅIE, sáme pládna"
+    }
+  },
+  "title": {
+    "by_language": {
+      "default": "Læreplan i kristendom, religion, livssyn og etikk (KRLE), samisk plan",
+      "nob": "Læreplan i kristendom, religion, livssyn og etikk (KRLE), samisk plan",
+      "sma": "Learoesoejkesje - jupmelesvoete, religijovne, jieledevuajnoe jïh etihke, saemien soejkesje",
+      "sme": "Kristtalašvuođa, oskku, eallinoainnu ja etihka (KOEE) oahppoplána, sámi plána",
+      "smj": "Risstalasjvuoda, åsko, iellemvuojno ja etihka oahppopládna, sáme pládna"
+    }
+  },
+  "valid_from": "2026-08-01",
+  "valid_to": null
+}

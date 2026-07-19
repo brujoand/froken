@@ -1,0 +1,117 @@
+#!/usr/bin/env bash
+#
+# Build and run Frøken locally.
+#
+#   bin/run_local              build the image and run it
+#   bin/run_local --native     run from source with reload, no Docker
+#   bin/run_local --no-build   run the existing image without rebuilding
+#   bin/run_local --port 9000  serve somewhere else
+#
+# The container takes no configuration: no environment, no volumes, no network.
+# If this script ever has to pass it something to make it work, that is a bug in
+# the image rather than a gap here.
+
+set -euo pipefail
+
+readonly IMAGE="froken:dev"
+readonly CONTAINER="froken-dev"
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+readonly REPO_ROOT
+
+PORT=8000
+BUILD=true
+NATIVE=false
+
+usage() {
+  sed -n '3,13p' "${BASH_SOURCE[0]}" | sed 's/^# \{0,1\}//'
+}
+
+log() {
+  printf '%s\n' "$*" >&2
+}
+
+die() {
+  log "error: $*"
+  exit 1
+}
+
+parse_args() {
+  while [[ $# -gt 0 ]]; do
+    case "$1" in
+      --native) NATIVE=true ;;
+      --no-build) BUILD=false ;;
+      --port)
+        [[ $# -ge 2 ]] || die "--port needs a value"
+        PORT="$2"
+        shift
+        ;;
+      -h | --help)
+        usage
+        exit 0
+        ;;
+      *) die "unknown option: $1 (try --help)" ;;
+    esac
+    shift
+  done
+
+  [[ ${PORT} =~ ^[0-9]+$ ]] || die "port must be a number, got: ${PORT}"
+}
+
+announce() {
+  log ""
+  log "Frøken is running at http://localhost:${PORT}"
+  log ""
+  log "  /nb/                    velg klassetrinn"
+  log "  /nb/klasse/2/MAT01-06   the only checkpoint with questions so far"
+  log "  /en/klasse/2/MAT01-06   same content, Udir's own English"
+  log ""
+}
+
+run_native() {
+  command -v mise >/dev/null 2>&1 || die "mise is not installed"
+
+  log "Running from source with reload. Ctrl-C to stop."
+  announce
+  cd "${REPO_ROOT}"
+  exec mise exec -- uv run uvicorn froken.web.app:app \
+    --host 127.0.0.1 --port "${PORT}" --reload
+}
+
+run_container() {
+  command -v docker >/dev/null 2>&1 || die "docker is not installed; try --native"
+  docker info >/dev/null 2>&1 ||
+    die "cannot reach the Docker daemon (permission or not running); try --native"
+
+  if [[ ${BUILD} == true ]]; then
+    log "Building ${IMAGE} ..."
+    docker build -t "${IMAGE}" "${REPO_ROOT}"
+  elif ! docker image inspect "${IMAGE}" >/dev/null 2>&1; then
+    die "${IMAGE} does not exist yet; run without --no-build"
+  fi
+
+  # A container left over from a previous run would hold the name and the port.
+  docker rm -f "${CONTAINER}" >/dev/null 2>&1 || true
+
+  announce
+  log "Logs follow. Ctrl-C to stop."
+  log ""
+
+  # Foreground, so Ctrl-C stops it and the container's logs are simply this
+  # terminal's output. --rm leaves nothing behind to clean up next time.
+  #
+  # No -e, no -v, no --network: the image is expected to need none of them, and
+  # keeping this line bare is what makes that visible.
+  exec docker run --rm --name "${CONTAINER}" -p "${PORT}:8000" "${IMAGE}"
+}
+
+main() {
+  parse_args "$@"
+
+  if [[ ${NATIVE} == true ]]; then
+    run_native
+  else
+    run_container
+  fi
+}
+
+main "$@"

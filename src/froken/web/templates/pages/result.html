@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}{{ t("result.heading") }} · {{ subject.display_title.get(lang) }}{% endblock %}
+
+{% block content %}
+  <h1>{{ t("result.heading") }}</h1>
+
+  <p class="score">{{ t("result.score", correct=result.correct, total=result.total) }}</p>
+  <p class="verdict">{{ t("result.passed") if result.passed else t("result.not_passed") }}</p>
+
+  {# Frøken cannot decide whether a pupil has met a competence goal. Saying so
+     on the result page, not only in the footer, is the honest placement. #}
+  <p class="note">{{ t("result.not_a_verdict") }}</p>
+
+  {% if result.needs_practice %}
+    <h2>{{ t("result.practice_heading") }}</h2>
+    <p class="verbatim-note">{{ t("curriculum.verbatim_note") }}</p>
+    <ul class="curriculum goal-list">
+      {% for entry in result.needs_practice %}
+        <li class="goal">
+          <blockquote cite="{{ goals[entry.goal].source_url }}">{{ goals[entry.goal].text.get(lang) }}</blockquote>
+          <span class="tally">{{ entry.correct }}/{{ entry.total }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if result.strong %}
+    <details class="goals">
+      <summary><h2>{{ t("result.strong_heading") }}</h2></summary>
+    <ul class="curriculum goal-list">
+      {% for entry in result.strong %}
+        <li class="goal">
+          <blockquote cite="{{ goals[entry.goal].source_url }}">{{ goals[entry.goal].text.get(lang) }}</blockquote>
+        </li>
+      {% endfor %}
+    </ul>
+    </details>
+  {% endif %}
+
+  <p class="actions">
+    <a class="button" href="/{{ locale }}/klasse/{{ session.grade }}/{{ subject.code }}">{{ t("result.back_to_subject") }}</a>
+  </p>
+{% endblock %}

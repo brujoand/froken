@@ -1,0 +1,126 @@
+{
+  "code": "TRA01-02",
+  "goal_sets": [
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV306",
+      "goals": [
+        {
+          "basic_skills": [],
+          "code": "KM3215",
+          "core_elements": [
+            "KE344"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og gjøre seg kjent med trafikken i nærmiljøet og foreslå konkrete trafikksikkerhetstiltak",
+              "nob": "utforske og gjøre seg kjent med trafikken i nærmiljøet og foreslå konkrete trafikksikkerhetstiltak"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3216",
+          "core_elements": [
+            "KE345"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "reflektere over og vise hvordan trafikksikkerhetsutstyr kan redusere ulykker og skader",
+              "nob": "reflektere over og vise hvordan trafikksikkerhetsutstyr kan redusere ulykker og skader"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3217",
+          "core_elements": [
+            "KE346"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "drøfte faktorer som har betydning for mobilitet, folkehelse og miljø",
+              "nob": "drøfte faktorer som har betydning for mobilitet, folkehelse og miljø"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3218",
+          "core_elements": [
+            "KE345"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utføre livreddende førstehjelp og tiltak på et skadested for å ivareta egen og andres helse og sikkerhet",
+              "nob": "utføre livreddende førstehjelp og tiltak på et skadested for å ivareta egen og andres helse og sikkerhet"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3219",
+          "core_elements": [
+            "KE344",
+            "KE345"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "beskrive trafikken i et historisk perspektiv og drøfte utfordringer i dag og i fremtiden",
+              "nob": "beskrive trafikken i et historisk perspektiv og drøfte utfordringer i dag og i fremtiden"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3220",
+          "core_elements": [
+            "KE345"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "reflektere over og vise hva det innebærer å opptre trygt og ansvarsfullt i trafikken og diskutere etiske dilemmaer i trafikken",
+              "nob": "reflektere over og vise hva det innebærer å opptre trygt og ansvarsfullt i trafikken og diskutere etiske dilemmaer i trafikken"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering trafikk",
+          "nob": "Kompetansemål og vurdering trafikk"
+        }
+      }
+    }
+  ],
+  "last_modified": "2024-11-07T12:50:07.8520246",
+  "replaced_by": [],
+  "replaces": [
+    "TRA1-01"
+  ],
+  "short_title": {
+    "by_language": {
+      "default": "Trafikk",
+      "nob": "Trafikk"
+    }
+  },
+  "title": {
+    "by_language": {
+      "default": "Læreplan i valgfaget trafikk",
+      "nob": "Læreplan i valgfaget trafikk"
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

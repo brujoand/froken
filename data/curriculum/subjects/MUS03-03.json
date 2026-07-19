@@ -1,0 +1,899 @@
+{
+  "code": "MUS03-03",
+  "goal_sets": [
+    {
+      "after_year": 2,
+      "applies_to_years": [
+        1,
+        2
+      ],
+      "code": "KV1071",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13768",
+          "core_elements": [
+            "KE1798"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske ulike teateruttrykk gjennom lek og dramatisering",
+              "nob": "utforske ulike teateruttrykk gjennom lek og dramatisering",
+              "sme": "suokkardit iešguđetlágan teáhterovdanbuktimiid stoahkama ja dramatiserema bokte"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13769",
+          "core_elements": [
+            "KE1798"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "beskrive opplevelser gjennom språk og bevegelse",
+              "nob": "beskrive opplevelser gjennom språk og bevegelse",
+              "sme": "válddahit vásáhusaid giela ja lihkadeami bokte"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13770",
+          "core_elements": [
+            "KE1798"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og leke med kroppsspråk, mimikk og håndformer",
+              "nob": "utforske og leke med kroppsspråk, mimikk og håndformer",
+              "sme": "suokkardit rumašgiela, mimihka ja giehtahámiid ja stoahkat daiguin"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13771",
+          "core_elements": [
+            "KE1801"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "beskrive og samtale om kreativ bruk av tegnspråk",
+              "nob": "beskrive og samtale om kreativ bruk av tegnspråk",
+              "sme": "válddahit mearkagiela kreatiiva geavaheami ja ságastallat dan birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13772",
+          "core_elements": [
+            "KE1798",
+            "KE1799",
+            "KE1800",
+            "KE1801"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "gjennomføre og presentere dans, samspill og visualisert sang",
+              "nob": "gjennomføre og presentere dans, samspill og visualisert sang",
+              "sme": "čađahit ja ovdanbuktit dánsuma, ovttasdoaibmama ja visualiserejuvvon lávlagiid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13773",
+          "core_elements": [
+            "KE1800"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og bruke kostymer og rekvisitter",
+              "nob": "utforske og bruke kostymer og rekvisitter",
+              "sme": "suokkardit ja geavahit molssafárddaid ja lávdedávviriid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4"
+          ],
+          "code": "KM13774",
+          "core_elements": [
+            "KE1799"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "leke med og presentere rytmeuttrykk i ulike tempo",
+              "nob": "leke med og presentere rytmeuttrykk i ulike tempo",
+              "sme": "stoahkat ritmaovdanbuktimiiguin iešguđetlágan leavttuin ja ovdanbuktit daid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4"
+          ],
+          "code": "KM13775",
+          "core_elements": [
+            "KE1799"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske noen instrumenter og bruke dem til lek og aktiviteter",
+              "nob": "utforske noen instrumenter og bruke dem til lek og aktiviteter",
+              "sme": "suokkardit muhtun čuojanasaid ja geavahit daid stohkosiin ja doaimmain"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 2. trinn",
+          "nob": "Kompetansemål og vurdering 2. trinn",
+          "sme": "Gealbomihttomearit ja árvvoštallan 2. ceahkki"
+        }
+      }
+    },
+    {
+      "after_year": 4,
+      "applies_to_years": [
+        3,
+        4
+      ],
+      "code": "KV1072",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13776",
+          "core_elements": [
+            "KE1798"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og beskrive noen dramatiske grunnelementer",
+              "nob": "utforske og beskrive noen dramatiske grunnelementer",
+              "sme": "suokkardit ja válddahit muhtun dramáhtalaš vuođđoelemeanttaid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13777",
+          "core_elements": [
+            "KE1798",
+            "KE1800"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "dramatisere enkle handlingsforløp alene og sammen med andre",
+              "nob": "dramatisere enkle handlingsforløp alene og sammen med andre",
+              "sme": "dramatiseret álkes juona okto dahje ovttas earáiguin"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM13778",
+          "core_elements": [
+            "KE1798",
+            "KE1799"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og sammenligne digitale verktøy og bruke dem i dramatiske uttrykksformer og rytmiske prosesser",
+              "nob": "utforske og sammenligne digitale verktøy og bruke dem i dramatiske uttrykksformer og rytmiske prosesser",
+              "sme": "suokkardit ja buohtastahttit digitála reaidduid ja geavahit daid dramáhtalaš ovdanbuktinvugiin ja ritmmalaš proseassain"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13779",
+          "core_elements": [
+            "KE1798",
+            "KE1799"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "improvisere ulike former for bevegelse til ulike rytmer og aktiviteter",
+              "nob": "improvisere ulike former for bevegelse til ulike rytmer og aktiviteter",
+              "sme": "improviseret iešguđetlágan lihkadanhámiid iešguđetlágan ritmmaide ja doaimmaide"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13780",
+          "core_elements": [
+            "KE1798",
+            "KE1799",
+            "KE1800",
+            "KE1801"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utvikle og presentere kreativ bruk av tegnspråk, tegnspråkpoesi, visualisert sang og rytmeinstrumenter i enkle samspill",
+              "nob": "utvikle og presentere kreativ bruk av tegnspråk, tegnspråkpoesi, visualisert sang og rytmeinstrumenter i enkle samspill",
+              "sme": "ovdánahttit ja ovdanbuktit mearkagiela, mearkagiellapoesiija, visualiserejuvvon lávlaga ja ritmačuojanasaid kreatiiva geavaheami álkes ovttasdoaibmamis"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13781",
+          "core_elements": [
+            "KE1800"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utvikle og bruke enkle kostymer og rekvisitter",
+              "nob": "utvikle og bruke enkle kostymer og rekvisitter",
+              "sme": "suokkardit ja geavahit ovttageardánis molssafárddaid ja lávdedávviriid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13782",
+          "core_elements": [
+            "KE1800"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og sammenligne ulike former for kulisser",
+              "nob": "utforske og sammenligne ulike former for kulisser",
+              "sme": "suokkardit ja buohtastahttit iešguđetlágan birashámiid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13783",
+          "core_elements": [
+            "KE1798",
+            "KE1801"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og sammenligne ulike sjangre og virkemidler i tegnspråkpoesi fra både Norge og andre land",
+              "nob": "utforske og sammenligne ulike sjangre og virkemidler i tegnspråkpoesi fra både Norge og andre land",
+              "sme": "suokkardit ja buohtastahttit Norgga ja eará riikkaid mearkagiellapoesiija iešguđetlágan šáŋŋeriid ja váikkuhangaskaomiid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13784",
+          "core_elements": [
+            "KE1801"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "analysere og drøfte norske, samiske og andre kulturers uttrykksformer",
+              "nob": "analysere og drøfte norske, samiske og andre kulturers uttrykksformer",
+              "sme": "analyseret ja ságaškuššat norgga, sámi ja eará kultuvrraid ovdanbuktinvugiid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13785",
+          "core_elements": [
+            "KE1799"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "drøfte bruksområder for instrumenter og bruke grunnleggende fagbegreper knyttet til temaet",
+              "nob": "drøfte bruksområder for instrumenter og bruke grunnleggende fagbegreper knyttet til temaet",
+              "sme": "ságaškuššat čuojanasaid geavahanguovlluid ja geavahit fága vuođđodoahpagiid mat gusket fáddái"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 4. trinn",
+          "nob": "Kompetansemål og vurdering 4. trinn",
+          "sme": "Gealbomihttomearit ja árvvoštallan 4. ceahkki"
+        }
+      }
+    },
+    {
+      "after_year": 7,
+      "applies_to_years": [
+        5,
+        6,
+        7
+      ],
+      "code": "KV1073",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13786",
+          "core_elements": [
+            "KE1798",
+            "KE1800"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "improvisere med kroppsbevegelser og kreativ bruk av visual vernacular for å skape kunstneriske uttrykk",
+              "nob": "improvisere med kroppsbevegelser og kreativ bruk av visual vernacular for å skape kunstneriske uttrykk",
+              "sme": "improviseret rumašlihkademiiguin ja kreatiivvalaččat geavahit visuála vernaculára hábmet dáiddalaš ovdanbuktimiid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13788",
+          "core_elements": [
+            "KE1798",
+            "KE1799",
+            "KE1800"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "presentere egne ideer, tanker og følelser gjennom bevegelser, rytme og dans både individuelt og i gruppe",
+              "nob": "presentere egne ideer, tanker og følelser gjennom bevegelser, rytme og dans både individuelt og i gruppe",
+              "sme": "ovdanbuktit iežas ideaid, jurdagiid ja dovdduid lihkadeami, ritmma ja dánsuma bokte sihke individuálalaččat ja joavkkus"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13789",
+          "core_elements": [
+            "KE1798",
+            "KE1799",
+            "KE1800",
+            "KE1801"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "undersøke hvordan kjønn, kjønnsroller og seksualitet fremstilles i musikk og dans i det offentlige rom, og skape uttrykk som utfordrer stereotypier",
+              "nob": "undersøke hvordan kjønn, kjønnsroller og seksualitet fremstilles i musikk og dans i det offentlige rom, og skape uttrykk som utfordrer stereotypier",
+              "sme": "guorahallamat mo sohkabealit, sohkabeallerollat ja seksualitehta ovdanbuktojuvvojit musihkas ja dánsumis almmolašvuođas ja hábmet ovdanbuktimiid mat hástalit stereotiippaid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13790",
+          "core_elements": [
+            "KE1798"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og bruke ulike former for skrevne tekster som utgangspunkt for visuelle uttrykk som tegnspråkpoesi, dans og drama",
+              "nob": "utforske og bruke ulike former for skrevne tekster som utgangspunkt for visuelle uttrykk som tegnspråkpoesi, dans og drama",
+              "sme": "suokkardit ja geavahit iešguđetlágan čállojuvvon teavsttaid vuolggasadjin visuála ovdanbuktimiidda nugo mearkagiellapoesiijii, dánsumii ja drámái"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2"
+          ],
+          "code": "KM13791",
+          "core_elements": [
+            "KE1798",
+            "KE1800"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "kunne overføre bevegelse og handling til et skriftlig format i form av tekst og grafisk notasjon",
+              "nob": "kunne overføre bevegelse og handling til et skriftlig format i form av tekst og grafisk notasjon",
+              "sme": "máhttit sirdit lihkadeami ja dagu čálalaš formáhttii teakstan ja gráfalaš notašuvdnan"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13794",
+          "core_elements": [
+            "KE1799",
+            "KE1800"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "kunne reflektere over og bruke fagbegreper om hvordan bruk av instrumenter kan påvirke dramatiske forløp",
+              "nob": "kunne reflektere over og bruke fagbegreper om hvordan bruk av instrumenter kan påvirke dramatiske forløp",
+              "sme": "máhttit reflekteret fágadoahpagiid birra ja geavahit daid das mo čuojanasaid geavaheapmi sáhttá váikkuhit dramáhtalaš jutnii"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM13787",
+          "core_elements": [
+            "KE1800"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke digitale verktøy i arbeid med egne og andres framføringer",
+              "nob": "bruke digitale verktøy i arbeid med egne og andres framføringer",
+              "sme": "geavahit digitála reaidduid go bargá iežas ja earáid ovdanbuktimiiguin"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13792",
+          "core_elements": [
+            "KE1800"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utvikle og bruke enkle kulisser, rekvisitter og kostymer til riktige formål og utforske forskjellige lysteknikker",
+              "nob": "utvikle og bruke enkle kulisser, rekvisitter og kostymer til riktige formål og utforske forskjellige lysteknikker",
+              "sme": "ráhkadit ja geavahit álkes birrasiid, lávdedávviriid ja molssafárddaid rivttes ulbmiliidda ja suokkardit iešguđetlágan čuovgateknihkaid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13793",
+          "core_elements": [
+            "KE1801"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "drøfte særtrekk ved tegnspråkteater og tegnspråkpoesi, og sammenligne det med ulike kunstuttrykk fra andre kulturer, inkludert samisk kultur",
+              "nob": "drøfte særtrekk ved tegnspråkteater og tegnspråkpoesi, og sammenligne det med ulike kunstuttrykk fra andre kulturer, inkludert samisk kultur",
+              "sme": "ságaškuššat mearkagiellateáhtera ja mearkagiellapoesiija dovddamearkkaid, ja buohtastahttit dain eará kultuvrraid, maiddái sámi kultuvrra, iešguđetlágan dáiddaovdanbuktimiiguin"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13795",
+          "core_elements": [
+            "KE1800",
+            "KE1801"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over hvordan kulturelle uttrykk kan spille ulike roller for utvikling av individers og gruppers identitet",
+              "nob": "reflektere over hvordan kulturelle uttrykk kan spille ulike roller for utvikling av individers og gruppers identitet",
+              "sme": "reflekteret dan mo kultuvrralaš ovdanbuktimiin sáhttet leat iešguđetlágan rollat ovdánahttit indiviiddaid ja joavkkuid identitehta"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 7. trinn",
+          "nob": "Kompetansemål og vurdering 7. trinn",
+          "sme": "Gealbomihttomearit ja árvvoštallan 7. ceahkki"
+        }
+      }
+    },
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV1074",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF2"
+          ],
+          "code": "KM13796",
+          "core_elements": [
+            "KE1798",
+            "KE1799",
+            "KE1800",
+            "KE1801"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke grunnelementer i drama og utvikle egne spill ved å skrive manus med dialog og sceneanvisninger",
+              "nob": "bruke grunnelementer i drama og utvikle egne spill ved å skrive manus med dialog og sceneanvisninger",
+              "sme": "geavahit drámá vuođđoelemeanttaid ja ráhkadit iežaset čájálmasaid go čállet mánusa dialogain ja lávdehábmemiin"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13799",
+          "core_elements": [
+            "KE1798",
+            "KE1799"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "improvisere ut fra tekst og visuelt materiale for å utvikle egne uttrykk",
+              "nob": "improvisere ut fra tekst og visuelt materiale for å utvikle egne uttrykk",
+              "sme": "improviseret teavstta ja visuála materiála vuođul ovdánahttit iežaset ovdanbuktimiid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13800",
+          "core_elements": [
+            "KE1798",
+            "KE1799",
+            "KE1800",
+            "KE1801"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utvikle og presentere tegnspråkpoesi og gjøre rede for og begrunne valg av sjangre og virkemidler",
+              "nob": "utvikle og presentere tegnspråkpoesi og gjøre rede for og begrunne valg av sjangre og virkemidler",
+              "sme": "ovdánahttit ja ovdanbuktit mearkagiellapoesiija ja čilget ja válddahit šáŋŋeriid ja váikkuhangaskaomiid válljejumiid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13801",
+          "core_elements": [
+            "KE1798",
+            "KE1799",
+            "KE1800",
+            "KE1801"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke relevante faglige begreper i presentasjon av et selvvalgt arbeid innenfor drama og rytmikk",
+              "nob": "bruke relevante faglige begreper i presentasjon av et selvvalgt arbeid innenfor drama og rytmikk",
+              "sme": "geavahit áššáioahppevaš fágalaš doahpagiid iešválljen barggu ovdanbuktimis drámás ja rytmihkas"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13797",
+          "core_elements": [
+            "KE1799",
+            "KE1800"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke digitalt opptaksutstyr, rytmiske instrumenter og lysteknikk i egne oppsetninger",
+              "nob": "bruke digitalt opptaksutstyr, rytmiske instrumenter og lysteknikk i egne oppsetninger",
+              "sme": "geavahit digitála báddenrusttegiid, ritmmalaš čuojanasaid ja čuovgateknihka iežas ovdanbuktimiin"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13802",
+          "core_elements": [
+            "KE1799",
+            "KE1800",
+            "KE1801"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utvikle egne danseuttrykk med utgangspunkt i visuelle og rytmiske inntrykk fra egen kultur, samisk kultur og internasjonal kultur",
+              "nob": "utvikle egne danseuttrykk med utgangspunkt i visuelle og rytmiske inntrykk fra egen kultur, samisk kultur og internasjonal kultur",
+              "sme": "ovdánahttit iežas dánsunovdanbuktima mas vuolggasadjin leat visuála ja ritmmalaš muitogovat iežas kultuvrras, sámi kultuvrras ja riikkaidgaskasaš kultuvrras"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13798",
+          "core_elements": [
+            "KE1800"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utvikle og bruke kostymer, rekvisitter og kulisser som passer til formålet",
+              "nob": "utvikle og bruke kostymer, rekvisitter og kulisser som passer til formålet",
+              "sme": "ovdánahttit ja geavahit molssafárddaid, lávdedávviriid ja birrasiid mat heivejit ulbmilii"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13803",
+          "core_elements": [
+            "KE1801"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "drøfte og reflektere rundt teater, film og musikk som kunst og kulturelle uttrykk og som underholdnings- og forbruksvare",
+              "nob": "drøfte og reflektere rundt teater, film og musikk som kunst og kulturelle uttrykk og som underholdnings- og forbruksvare",
+              "sme": "ságaškuššat ja reflekteret teáhtera, filmma ja musihka birra dáiddan ja kultuvrralaš ovdanbuktimin ja guoimmuhan- ja golahusgálvun"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13804",
+          "core_elements": [
+            "KE1801"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og reflektere over hvordan teater, film og musikk gjenspeiler trekk ved samfunnsutvikling og ungdomskultur, og hvordan dette kan komme til uttrykk gjennom ulike kulturelle uttrykksformer",
+              "nob": "utforske og reflektere over hvordan teater, film og musikk gjenspeiler trekk ved samfunnsutvikling og ungdomskultur, og hvordan dette kan komme til uttrykk gjennom ulike kulturelle uttrykksformer",
+              "sme": "suokkardit ja reflekteret mo teáhter, filbma ja musihkka speadjalastet servodatovdáneami ja nuoraidkultuvrra dovdomearkkaid, ja mot dát sáhttet boahtit ovdan iešguđetlágan kultuvrralaš ovdanbuktinvugiid bokte"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM13805",
+          "core_elements": [
+            "KE1800",
+            "KE1801"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og drøfte musikken og dansens betydning i samfunnet og etiske problemstillinger knyttet til musikalske ytringer og musikkulturer",
+              "nob": "utforske og drøfte musikken og dansens betydning i samfunnet og etiske problemstillinger knyttet til musikalske ytringer og musikkulturer",
+              "sme": "suokkardit ja ságaškuššat musihka ja dánsuma mearkkašumi servodahkii ja ehtalaš čuolmmaid mat gusket musihkalaš olggosbuktimiidda ja musihkkakultuvrraide"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 10. trinn",
+          "nob": "Kompetansemål og vurdering 10. trinn",
+          "sme": "Gealbomihttomearit ja árvvoštallan 10. ceahkki"
+        }
+      }
+    }
+  ],
+  "last_modified": "2026-07-09T14:47:58.5619494",
+  "replaced_by": [],
+  "replaces": [
+    "MUS03-02"
+  ],
+  "short_title": {
+    "by_language": {
+      "default": "Drama og rytmikk",
+      "nob": "Drama og rytmikk",
+      "sme": "Drámá ja rytmihka"
+    }
+  },
+  "title": {
+    "by_language": {
+      "default": "Læreplan i drama og rytmikk for elever med tegnspråk",
+      "nob": "Læreplan i drama og rytmikk for elever med tegnspråk",
+      "sme": "Drámá ja rytmihka oahppoplána ohppiide geain lea mearkagiella"
+    }
+  },
+  "valid_from": "2026-08-01",
+  "valid_to": null
+}

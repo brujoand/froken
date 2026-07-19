@@ -1,0 +1,98 @@
+{
+  "code": "FAH01-02",
+  "goal_sets": [
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV318",
+      "goals": [
+        {
+          "basic_skills": [],
+          "code": "KM3273",
+          "core_elements": [
+            "KE369"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "øve på og gjennomføre varierte bevegelsesaktiviteter alene og sammen med andre",
+              "nob": "øve på og gjennomføre varierte bevegelsesaktiviteter alene og sammen med andre"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3274",
+          "core_elements": [
+            "KE369"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "anerkjenne forskjeller mellom seg selv og andre i bevegelsesaktiviteter, inkludere alle, samarbeide og oppmuntre medelever til å delta i fysisk aktivitet",
+              "nob": "anerkjenne forskjeller mellom seg selv og andre i bevegelsesaktiviteter, inkludere alle, samarbeide og oppmuntre medelever til å delta i fysisk aktivitet"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3275",
+          "core_elements": [
+            "KE370"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "tilberede enkle helsefremmende måltider og reflektere over verdien av å spise sammen med andre",
+              "nob": "tilberede enkle helsefremmende måltider og reflektere over verdien av å spise sammen med andre"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3276",
+          "core_elements": [
+            "KE369",
+            "KE370"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "drøfte hvordan fysisk aktivitet og kosthold kan bidra til god fysisk og psykisk helse",
+              "nob": "drøfte hvordan fysisk aktivitet og kosthold kan bidra til god fysisk og psykisk helse"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering fysisk aktivitet og helse",
+          "nob": "Kompetansemål og vurdering fysisk aktivitet og helse"
+        }
+      }
+    }
+  ],
+  "last_modified": "2024-11-07T12:56:29.0079756",
+  "replaced_by": [],
+  "replaces": [
+    "FAH1-01"
+  ],
+  "short_title": {
+    "by_language": {
+      "default": "Fysisk aktivitet og helse",
+      "nob": "Fysisk aktivitet og helse"
+    }
+  },
+  "title": {
+    "by_language": {
+      "default": "Læreplan i valgfaget fysisk aktivitet og helse",
+      "nob": "Læreplan i valgfaget fysisk aktivitet og helse"
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

@@ -1,0 +1,126 @@
+{
+  "code": "PHF01-02",
+  "goal_sets": [
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV307",
+      "goals": [
+        {
+          "basic_skills": [],
+          "code": "KM3221",
+          "core_elements": [
+            "KE347",
+            "KE348"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "forstå og følge arbeidstegninger eller instruksjoner for å lage et produkt",
+              "nob": "forstå og følge arbeidstegninger eller instruksjoner for å lage et produkt"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3222",
+          "core_elements": [
+            "KE347"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "velge verktøy og begrunne valget, og bruke og vedlikeholde verktøyene på en trygg måte",
+              "nob": "velge verktøy og begrunne valget, og bruke og vedlikeholde verktøyene på en trygg måte"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3223",
+          "core_elements": [
+            "KE347",
+            "KE348"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "holde orden og oversikt i arbeidet og på arbeidsplassen",
+              "nob": "holde orden og oversikt i arbeidet og på arbeidsplassen"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3224",
+          "core_elements": [
+            "KE348"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og beskrive råmaterialers egenskaper og bruksområder",
+              "nob": "utforske og beskrive råmaterialers egenskaper og bruksområder"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3225",
+          "core_elements": [
+            "KE348"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "drøfte valg av råmaterialer og produksjon i et bærekraftig perspektiv",
+              "nob": "drøfte valg av råmaterialer og produksjon i et bærekraftig perspektiv"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3226",
+          "core_elements": [
+            "KE347",
+            "KE348"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "ferdigstille produkter på en håndverksmessig, funksjonell, kreativ og estetisk måte",
+              "nob": "ferdigstille produkter på en håndverksmessig, funksjonell, kreativ og estetisk måte"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering praktisk håndverksfag",
+          "nob": "Kompetansemål og vurdering praktisk håndverksfag"
+        }
+      }
+    }
+  ],
+  "last_modified": "2024-11-07T12:51:55.1104332",
+  "replaced_by": [],
+  "replaces": [],
+  "short_title": {
+    "by_language": {
+      "default": "Praktisk håndverksfag",
+      "nob": "Praktisk håndverksfag"
+    }
+  },
+  "title": {
+    "by_language": {
+      "default": "Læreplan i valgfaget praktisk håndverksfag",
+      "nob": "Læreplan i valgfaget praktisk håndverksfag"
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

@@ -1,0 +1,1040 @@
+{
+  "code": "KHV02-03",
+  "goal_sets": [
+    {
+      "after_year": 2,
+      "applies_to_years": [
+        1,
+        2
+      ],
+      "code": "KV1056",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13646",
+          "core_elements": [
+            "KE1783"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke duodji-/duodje-/duedtie-teknikker og håndverktøy i arbeid med harde og myke materialer på en miljøbevisst og trygg måte",
+              "nob": "bruke duodji-/duodje-/duedtie-teknikker og håndverktøy i arbeid med harde og myke materialer på en miljøbevisst og trygg måte",
+              "sma": "duedtievuekieh jïh gïetedïrregh nuhtjedh gosse garre jïh myövhkes ïebnigujmie barka byjresevoerkes- jïh jearsoeslaakan.",
+              "sme": "geavahit duodjeteknihkaid ja giehtaneavvuid go bargá garra ja dipma ávdnasiiguin birasdiđolaš ja dorvvolaš láhkai",
+              "smj": "adnet duodjeteknihkajt ja giehtavædtsagijt gå barggá garra ja dimes ábnnasij birásdiedulasj ja jasska láhkáj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM13643",
+          "core_elements": [
+            "KE1783",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samle og oppdage verdien i naturmaterialer fra nærmiljøet og bruke dette i eget skapende arbeid",
+              "nob": "samle og oppdage verdien i naturmaterialer fra nærmiljøet og bruke dette i eget skapende arbeid",
+              "sma": "ïebnh eatnamistie voengeste tjöönghkedh jïh aarvoem dejstie vueptiestidh, jïh dejtie jïjtse sjugniedimmiebarkosne nuhtjedh",
+              "sme": "čohkket ja fuomášit lagašguovllu luondduávdnasiid árvvu ja geavahit dan iežas hábmejeaddji barggus",
+              "smj": "tjoahkkit ja huomáhit lahkabirrasa luondoábnnasij árvov ja adnet dav ietjas hábbmijiddje bargon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13647",
+          "core_elements": [
+            "KE1784",
+            "KE1785",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske dáidda/samiske kunstverk og andre kulturelle uttrykk og bygge videre på andres ideer i egne visuelle fortellinger",
+              "nob": "utforske dáidda/samiske kunstverk og andre kulturelle uttrykk og bygge videre på andres ideer i egne visuelle fortellinger",
+              "sma": "saemien tjeahpoem jïh jeatjah kulturelle vuekieh goerehtidh, jïh mubpiej åssjalommesh skraejrine nuhtjedh jïjtse visuelle soptsesinie",
+              "sme": "suokkardit sámi dáidagiid ja eará kultuvrralaš ovdanbuktinvugiid ja bargat viidáseappot earáid ideaiguin iežas visuála muitalusain",
+              "smj": "åtsådit sáme dájdajt ja ietjá kultuvralasj åvddånbuktemvuogijt ja barggat vijddásappot iehtjádij idiejaj ietjas visuála subttsasijn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13648",
+          "core_elements": [
+            "KE1784",
+            "KE1785"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "eksperimentere med form, farge, rytme og kontrast",
+              "nob": "eksperimentere med form, farge, rytme og kontrast",
+              "sma": "hammojne, klaeriejgujmie, jievkehtimmine jïh kontraastine eksperimenteeredh",
+              "sme": "eksperimenteret hámiiguin, ivnniiguin, ritmmain ja kontrásttain",
+              "smj": "eksperimentierit hámij, bájnoj, ritmajn ja kontrástajn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13645",
+          "core_elements": [
+            "KE1784",
+            "KE1785",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "forestille seg og beskrive framtiden gjennom tegning og modeller",
+              "nob": "forestille seg og beskrive framtiden gjennom tegning og modeller",
+              "sma": "båetijem aejkiem sov uvte vuejnedh jïh dam buerkiestidh guvviej jïh modelli tjïrrh",
+              "sme": "govahallat ja válddahit boahtteáiggi tevnnegiid ja modeallaid bokte",
+              "smj": "gåvådallat ja gåvvidit boahtteájgev tjuorggasij ja modellaj baktu"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13644",
+          "core_elements": [
+            "KE1783",
+            "KE1784",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "planlegge og konstruere i naturmaterialer etter inspirasjon fra samisk og lokal byggeskikk",
+              "nob": "planlegge og konstruere i naturmaterialer etter inspirasjon fra samisk og lokal byggeskikk",
+              "sma": "soejkesjidh jïh konstrueeredh eatnemeïebnine skraejrien mietie saemien jïh voenges bigkemevuekijste",
+              "sme": "plánet ja konstrueret luondduávdnasiiguin sámi ja báikkálaš huksenvieruid inspirašuvnna vuođul",
+              "smj": "plánit ja konstruierit luondoábnnasij sáme ja bájkálasj tsieggimdábij inspirasjåvnå milta"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM13649",
+          "core_elements": [
+            "KE1784",
+            "KE1785"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "lage en utstilling eller samling ved hjelp av digitale verktøy",
+              "nob": "lage en utstilling eller samling ved hjelp av digitale verktøy",
+              "sma": "vuesiehtimmiem jallh våarhkoem darjodh viehkine digitaale dïrregijstie",
+              "sme": "ráhkadit čájáhusa dahje čoakkáldaga digitála reaidduiguin",
+              "smj": "dahkat vuosádusáv jali vuorkáv digitála vædtsagij"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 2. trinn",
+          "nob": "Kompetansemål og vurdering 2. trinn",
+          "sma": "Maahtoeulmie jïh vuarjasjimmie 2. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 2. ceahkki",
+          "smj": "2. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    },
+    {
+      "after_year": 4,
+      "applies_to_years": [
+        3,
+        4
+      ],
+      "code": "KV1057",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF4"
+          ],
+          "code": "KM13650",
+          "core_elements": [
+            "KE1783",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "duddjot/duodjuhit/vitnesjidh med ulike grunnleggende teknikker og håndverktøy og bruke samiske målemetoder",
+              "nob": "duddjot/duodjuhit/vitnesjidh med ulike grunnleggende teknikker og håndverktøy og bruke samiske målemetoder",
+              "sma": "ovmessie vihkeles vuekiejgujmie jïh gïetedïrregigujmie vytnesjidh, jïh saemien möölemevuekieh nuhtjedh",
+              "sme": "duddjot iešguđetlágan vuođđoteknihkaiguin ja giehtaneavvuiguin ja geavahit sámi mihtidanmetodaid",
+              "smj": "duodjuhit duon dán vuodoteknihkaj ja giehtavædtsagij ja adnet sáme mihttimvuogijt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM13651",
+          "core_elements": [
+            "KE1783",
+            "KE1784",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "undersøke hvordan man i duodji/duodje/duedtie utnytter naturmaterialers egenskaper til å dekke behov og lage enkle bruksgjenstander",
+              "nob": "undersøke hvordan man i duodji/duodje/duedtie utnytter naturmaterialers egenskaper til å dekke behov og lage enkle bruksgjenstander",
+              "sma": "goerehtidh guktie eatnemen ïebni jïjtsevoeth nuhtjie duedtesne juktie daerpiesvoetide illedh, jïh aelhkie åtnoedaeverh darjodh",
+              "sme": "guorahallat mo duojis ávkkástallet luondduávdnasiid iešvuođaid gokčat dárbbuid ja ráhkadit álkes atnubiergasiid",
+              "smj": "guoradallat gåktu duojen ávkástallá luonndoábnnasij dåbddomerkajt váj gåbttjå dárbojt ja duodjuj álkkes adnogálvojt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13655",
+          "core_elements": [
+            "KE1783",
+            "KE1784",
+            "KE1785",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "prøve ut ulike ideer og muligheter i gjenbruksmaterialer og formidle til andre hvordan man i egen hverdag kan bidra til å ivareta natur og miljø",
+              "nob": "prøve ut ulike ideer og muligheter i gjenbruksmaterialer og formidle til andre hvordan man i egen hverdag kan bidra til å ivareta natur og miljø",
+              "sma": "ovmessie åssjalommes jïh nuepieh ïebnine pryövedh mejtie gåarede orresistie nuhtjedh, jïh mubpide bievnedh guktie maahta eatnemem jïh byjresem vaarjelidh jïjtse aarkebiejjien",
+              "sme": "geahččaladdat iešguđetlágan ideaid ja vejolašvuođaid ođđasisávkkástallojuvvon ávdnasiin ja gaskkustit earáide mo olmmoš iežas árgabeaivvis sáhttá leat mielde áimmahuššamin luonddu ja birrasa",
+              "smj": "gæhttjaladdat nágin idiejajt ja vejulasjvuodajt gåktu ábnnasijt ådåsit adnet ja gaskostit iehtjádijda gåktu ulmusj ietjas árggabiejven máhttá viehkken luondov ja birrasav várajda válldet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13657",
+          "core_elements": [
+            "KE1783",
+            "KE1784",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjennomføre kunst- og designprosesser ved å søke inspirasjon, utforske muligheter, gjøre valg og lage egne produkter",
+              "nob": "gjennomføre kunst- og designprosesser ved å søke inspirasjon, utforske muligheter, gjøre valg og lage egne produkter",
+              "sma": "tjeahpoe- jïh hammoedimmieprosessh tjïrrehtidh viehkine skraejriem ohtsedh, nuepieh goerehtidh, veeljemh darjodh jïh jïjtse dorjesh darjodh",
+              "sme": "čađahit dáidda- ja designproseassaid ozadettiin inspirašuvnna, suokkardettiin vejolašvuođaid, dagadettiin válljejumiid ja ráhkadettiin iežas buktagiid",
+              "smj": "tjadádit dájdda- ja desájnnaprosessajt åtsådijn arvusmahttemav, vejulasjvuodajt, ja de válljit ja ietjas buktagijt duodjuhit"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13654",
+          "core_elements": [
+            "KE1784",
+            "KE1785"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "tegne form og dybde ved bruk av virkemidler som overlapping og forminskning",
+              "nob": "tegne form og dybde ved bruk av virkemidler som overlapping og forminskning",
+              "sma": "hammoem jïh gïengelem guvviedieh viehkine vierhkievierhtijste goh overlapping jïh unniedimmie",
+              "sme": "tevdnet hámiid ja čikŋodagaid geavahettiin váikkuhangaskaomiid nugo duppalastima ja unnideami",
+              "smj": "tjuorggat hámijt ja tjiegŋudagájt vájkkudimnævoj dagu gærddodibme ja unnedibme"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13652",
+          "core_elements": [
+            "KE1784",
+            "KE1785",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "tolke og samtale om farger, mønstre, symboler og uttrykk fra dáidda/samisk kunst og duodji/duodje/duedtie, og eksperimentere med disse i eget skapende arbeid",
+              "nob": "tolke og samtale om farger, mønstre, symboler og uttrykk fra dáidda/samisk kunst og duodji/duodje/duedtie, og eksperimentere med disse i eget skapende arbeid",
+              "sma": "toelhkestidh jïh soptsestalledh klaeriej, möönsteri, symbovli jïh vuekiej bïjre saemien tjeahposte jïh duedteste, jïh dejgujmie jïjtse sjugniedimmiebarkosne haarjanidh",
+              "sme": "dulkot sámi dáidagiid ja dujiid ivnniid, minstariid, symbolaid ja ovdanbuktimiid ja ságastallat daid birra, ja eksperimenteret dáiguin iežas hábmejeaddji barggus",
+              "smj": "dålkkut ja ságastallat sáme dájdaj ja duojij bájnoj, skándaj, symbåvlåj ja åvddånbuktemij birra, ja eksperimentierit dáj ietjas hábbmijiddje bargon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13653",
+          "core_elements": [
+            "KE1784",
+            "KE1785",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske mangfold i motiver og visuelle uttrykk i samiske, nasjonale og internasjonale kunstverk og lage en digital presentasjon",
+              "nob": "utforske mangfold i motiver og visuelle uttrykk i samiske, nasjonale og internasjonale kunstverk og lage en digital presentasjon",
+              "sma": "gellievoetem motijvine jïh visuelle vuekine goerehtidh saemien, nasjonaale jïh gaskenasjonaale tjeahpojne, jïh digitaale åehpiedehtemem darjodh",
+              "sme": "suokkardit sámi, nationála ja riikkaidgaskasaš dáidagiid motiivvaid ja visuála ovdanbuktimiid girjáivuođa ja ráhkadit digitála ovdanbuktima",
+              "smj": "åtsådit sáme, nasjåvnålasj ja rijkajgasskasasj dájdaj motijvaj ja visuála åvddånbuktemij girjakvuodav ja stiellit digitála åvddånbuktemav"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13656",
+          "core_elements": [
+            "KE1784",
+            "KE1785",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "undersøke lavvoens eller gammens tradisjonelle innvendige struktur og lage en modell av en framtidig sosial møteplass",
+              "nob": "undersøke lavvoens eller gammens tradisjonelle innvendige struktur og lage en modell av en framtidig sosial møteplass",
+              "sma": "låavthgåetien jallh derhviegåetien aerpievuekien sisnjelds struktuvrem goerehtidh, jïh maallem darjodh aktede båetijen aejkien sosijaale gaavnedimmiesijjeste",
+              "sme": "guorahallat lávu dahje goađi árbevirolaš siskkáldas struktuvrra ja ráhkadit boahttevaš sosiála deaivvadanbáikki modealla",
+              "smj": "guoradallat låvdagoade jali gámá árbbedábálasj sissŋálasj struktuvrav ja stiellit boahtteájge sosiála æjvvalimsaje modellav"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM13658",
+          "core_elements": [
+            "KE1784",
+            "KE1785"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "formidle og vise fram eget arbeid gjennom utstilling",
+              "nob": "formidle og vise fram eget arbeid gjennom utstilling",
+              "sma": "jïjtse barkoem vuesiehtimmesne vuesiehtidh",
+              "sme": "gaskkustit ja čájehit iežas barggu čájáhusa bokte",
+              "smj": "gaskostit ja vuosedit ietjas bargov vuosádusá baktu"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 4. trinn",
+          "nob": "Kompetansemål og vurdering 4. trinn",
+          "sma": "Maahtoeulmieh jïh vuarjasjimmie 4. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 4. ceahkki",
+          "smj": "4. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    },
+    {
+      "after_year": 7,
+      "applies_to_years": [
+        5,
+        6,
+        7
+      ],
+      "code": "KV1058",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF4"
+          ],
+          "code": "KM13661",
+          "core_elements": [
+            "KE1783"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke håndverktøy og elektrisk verktøy for å bearbeide og sammenføye i myke og harde materialer på en trygg og miljøbevisst måte",
+              "nob": "bruke håndverktøy og elektrisk verktøy for å bearbeide og sammenføye i myke og harde materialer på en trygg og miljøbevisst måte",
+              "sma": "gïetedïrregh jïh elektrihkeles dïrregh nuhtjedh juktie myövhkes jïh garre ïebnh gïetedidh jïh laavkedh jearsoeslaakan jïh byjresevoerkes vuekien mietie",
+              "sme": "geavahit giehtaneavvuid ja elektrihkalaš neavvuid gieđahallat ja oktiibidjat dipma ja garra ávdnasiid dorvvolaš ja birasdiđolaš láhkai",
+              "smj": "adnet giehtavædtsagijt ja elektrisitiehtalasj vædtsagijt giehtadalátjit ja aktij biejatjit dimes ja garra ábnnasijt jasska ja birásdiedulasj láhkáj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM13659",
+          "core_elements": [
+            "KE1783",
+            "KE1785",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "undersøke hvordan naturmaterialers egenskaper former funksjonelle og estetiske duodji-/duodje-/duedtie-produkter, og utnytte materialers egenskaper i eget skapende arbeid",
+              "nob": "undersøke hvordan naturmaterialers egenskaper former funksjonelle og estetiske duodji-/duodje-/duedtie-produkter, og utnytte materialers egenskaper i eget skapende arbeid",
+              "sma": "goerehtidh guktie eatnemeïebni jïjtsevoeth funksjonelle jïh estetihkeles duedtiedaeverh hammoedieh, jïh ïebni jïjtsevoeth nuhtjedh jïjtse sjugniedimmiebarkosne",
+              "sme": "guorahallat mo luondduávdnasiid iešvuođat hábmejit funkšuvnnalaš ja estehtalaš duodjebuktagiid, ja ávkkástallat ávdnasiid iešvuođaid iežas hábmejeaddji barggus",
+              "smj": "guoradallat gåktu luondoábnnasij dåbddomerka hábbmiji funksjåvnålasj ja estetihkalasj duodjebuktagijt, ja ávkástallat ábnnasij dåbddomerkajt ietjas hábbmijiddje bargon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM13667",
+          "core_elements": [
+            "KE1783",
+            "KE1784",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "undersøke og eksperimentere med overskuddsmaterialer",
+              "nob": "undersøke og eksperimentere med overskuddsmaterialer",
+              "sma": "goerehtidh jïh eksperimenteeredh ïebnigujmie mah bæjjan sjïdteme",
+              "sme": "guorahallat báhcán ávdnasiid ja eksperimenteret daiguin",
+              "smj": "guoradallat báhtsám ábnnasijt ja eksperimentierit daj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13663",
+          "core_elements": [
+            "KE1783",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "undersøke materialene i ulike gjenstander og vurdere funksjon, holdbarhet og muligheter for reparasjon og gjenbruk",
+              "nob": "undersøke materialene i ulike gjenstander og vurdere funksjon, holdbarhet og muligheter for reparasjon og gjenbruk",
+              "sma": "ïebnh ovmessie daevierinie goerehtidh jïh vuarjasjidh funksjovnem, nænnoesvoetem jïh mejtie gåarede daevieridie dåvvodh jïh orresistie nuhtjedh.",
+              "sme": "guorahallat iešguđetlágan dávviriid ávdnasiid ja árvvoštallat funkšuvnna, nanusvuođa ja vejolašvuođaid divvut ja ođđasit geavahit",
+              "smj": "guoradallat duon dán dávvera ábnnasijt ja árvustallat funksjåvnåv, nanosvuodav ja máhttelisvuodajt divvot ja ådåsit adnet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13660",
+          "core_elements": [
+            "KE1783",
+            "KE1784",
+            "KE1785"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "duddjot/duodjuhit/vitnesjidh bruksgjenstander gjennom å bruke ulike strategier for problemløsing og kunne bruke samiske fagbegreper om duodji-/duodje-/duedtieprosessen",
+              "nob": "duddjot/duodjuhit/vitnesjidh bruksgjenstander gjennom å bruke ulike strategier for problemløsing og kunne bruke samiske fagbegreper om duodji-/duodje-/duedtieprosessen",
+              "sma": "åtnoedaeverh vytnesjidh viehkine ovmessie strategijh dåeriesmoereloetemasse nuhtjedh jïh maehtedh saemien faagebaakoeh duedtieprosessen bïjre nuhtjedh",
+              "sme": "duddjot atnubiergasiid geavahettiin iešguđetlágan čuolbmačoavdinstrategiijaid ja máhttit geavahit sámi fágadoahpagiid duddjonproseassas",
+              "smj": "duodjuhit bierggasijt duon dán láhkáj ja buktet adnet sáme fáhkabuojkuldagájt duodjuhimen"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13665",
+          "core_elements": [
+            "KE1784",
+            "KE1785"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "tegne form, flate og rom ved hjelp av virkemidler som kontraster, skygge, proporsjoner og perspektiv",
+              "nob": "tegne form, flate og rom ved hjelp av virkemidler som kontraster, skygge, proporsjoner og perspektiv",
+              "sma": "hammoem, skieriem jïh rommem guvviedidh viehkine vierhkievierhtijste goh kontraasth, yörhke, proporsjovnh jïh perspektijvh",
+              "sme": "tevdnet hámiid, dulbosiid ja lanjaid geavahettiin váikkuhangaskaomiid nugo kontrásttaid, suoivaniid, goriid ja perspektiivvaid",
+              "smj": "tjuorggat hámijt, jalgudagájt ja lanjájt vájkkudimnævoj baktu dagu kontrásta, suojvvanisá, proporsjåvnå ja perspektijva"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13668",
+          "core_elements": [
+            "KE1784",
+            "KE1785",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "analysere visuelle virkemidler i ulike medier og belyse et aktuelt tema gjennom foto eller infografikk",
+              "nob": "analysere visuelle virkemidler i ulike medier og belyse et aktuelt tema gjennom foto eller infografikk",
+              "sma": "visuelle vierhkievierhtieh ovmessie medijinie analyseeredh jïh sjyöhtehke teema tjïelkestidh guvviej jallh infografihken tjïrrh",
+              "sme": "analyseret visuála váikkuhangaskaomiid iešguđet mediain ja čalmmustahttit áigeguovdilis fáttá govaid dahje diehtografihka bokte",
+              "smj": "analysierit visuála vájkkudimnævojt iesjguhtik medijájn ja tjalmostahttet ájggeguovddelis tiemáv gåvåj jali diehtografihka baktu"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13662",
+          "core_elements": [
+            "KE1783",
+            "KE1784",
+            "KE1785",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og sette ord på hvordan duodji/duodje/duedtie, kunst og arkitektur kommuniserer stemninger, identitet og tilhørighet, og bruke symbolikk og farge til å uttrykke følelser og meninger i egne arbeider",
+              "nob": "utforske og sette ord på hvordan duodji/duodje/duedtie, kunst og arkitektur kommuniserer stemninger, identitet og tilhørighet, og bruke symbolikk og farge til å uttrykke følelser og meninger i egne arbeider",
+              "sma": "goerehtidh jïh soptsestidh guktie duedtie, tjeahpoe jïh arkitektuvre aajmoeh, identiteetem jïh ektiedimmiem gaskesedtieh, jïh symbolihkem jïh klaerieh nuhtjedh domtesh jïh mïelh buektedh jïjtse barkojne",
+              "sme": "suokkardit ja muitalit mo duodji, dáidda ja arkitektuvra gaskkustit vuoiŋŋa, identitehta ja gullevašvuođa, ja geavahit symbolihka ja ivnniid ovdanbuktit dovdduid ja oaiviliid iežaset bargguin",
+              "smj": "åtsådit ja gåvvidit gåktu duodje, dájdda ja arkitektuvrra gaskosti vuojŋŋanav, identitiehtav ja gullevasjvuodav, ja adnet symbolihkav ja bájnojt åvddånbuvtátjit dåbdojt ja vuojnojt ietjasa dagojn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM13669",
+          "core_elements": [
+            "KE1783",
+            "KE1784",
+            "KE1785",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "presentere et mangfold av kles- og duodji-/duodje-/duedtietradisjoner i Sápmi/Sábme/Saepmie, og lage et produkt med inspirasjon fra egen kultur",
+              "nob": "presentere et mangfold av kles- og duodji-/duodje-/duedtietradisjoner i Sápmi/Sábme/Saepmie, og lage et produkt med inspirasjon fra egen kultur",
+              "sma": "gelliesåarhts vaarjoe- jïh duedtieaerpievuekieh Saepmesne åehpiedehtedh jïh dorjesem darjodh skraejrine jïjtse kultuvreste",
+              "sme": "ovdanbuktit bivttas- ja duodjeárbevieruid girjáivuođa Sámis, ja ráhkadit buktaga mas inspirašuvnna lea viežžan iežas kultuvrras",
+              "smj": "åvddånbuktet bivtas- ja duodjeárbbedábij moattebelakvuodav Sámen, ja stiellit buktagav mij ietjas kultuvras la arvusmahtedum"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13664",
+          "core_elements": [
+            "KE1784",
+            "KE1785",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "undersøke hvordan kjønnsroller vises i kulturelle uttrykk før og nå, og lage visuelle uttrykk som utfordrer stereotypier",
+              "nob": "undersøke hvordan kjønnsroller vises i kulturelle uttrykk før og nå, og lage visuelle uttrykk som utfordrer stereotypier",
+              "sma": "goerehtidh guktie tjoeleråållah vååjnoeh kulturelle vuekine åvtesne jïh daelie, jïh visuelle vuekieh darjodh mah stereotypijh haestieh",
+              "sme": "iskat mo sohkabeallerollat čájehuvvojit kultuvrralaš ovdanbuktimiin ovdal ja dál, ja ráhkadit visuála ovdanbuktimiid mat hástalit stereotiippaid",
+              "smj": "guoradallat gåktu sjiervverålla vuoseduvvi kultuvralasj åvddånbuktemijn åvddåla ja dálla, ja stielliji visuála åvddånbuktemijt ma stereotijpajt hásstali"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13670",
+          "core_elements": [
+            "KE1784",
+            "KE1785",
+            "KE1786"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke programmering til å skape interaktivitet og visuelle uttrykk",
+              "nob": "bruke programmering til å skape interaktivitet og visuelle uttrykk",
+              "sma": "programmeeremem nuhtjedh interaktiviteetem jïh visuelle vuekieh sjugniedidh",
+              "sme": "geavahit programmerema ráhkadit interaktivitehta ja visuála ovdanbuktimiid",
+              "smj": "adnet programmerimav stiellitjit interaktivitiehtav ja visuála åvddånbuktemijt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM13666",
+          "core_elements": [
+            "KE1784",
+            "KE1785"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "planlegge, dokumentere og presentere prosesser og produkter ved hjelp av digitale verktøy",
+              "nob": "planlegge, dokumentere og presentere prosesser og produkter ved hjelp av digitale verktøy",
+              "sma": "soejkesjidh, dokumenteeredh jïh åehpiedehtedh prosessh jïh dorjesh viehkine digitaale dïrregijstie",
+              "sme": "plánet, duođaštit ja ovdanbuktit proseassaid ja buktagiid digitála reaidduid vehkiin",
+              "smj": "plánit, duodastit ja åvddånbuktet prosessajt ja buktagij digitála ræjdojt baktu"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 7. trinn",
+          "nob": "Kompetansemål og vurdering 7. trinn",
+          "sma": "Maahtoeulmieh jïh vuarjasjimmie 7. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 7. ceahkki",
+          "smj": "7. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    },
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV1059",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF4"
+          ],
+          "code": "KM13673",
+          "core_elements": [
+            "KE1783",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske muligheter innenfor duodji-/duodje-/duedtie-teknikker og egnet teknologi for å reparere, bearbeide og sammenføye harde, plastiske og myke materialer",
+              "nob": "utforske muligheter innenfor duodji-/duodje-/duedtie-teknikker og egnet teknologi for å reparere, bearbeide og sammenføye harde, plastiske og myke materialer",
+              "sma": "nuepieh duedtievuekiej jïh sjiehteles teknologijen sisnjeli goerehtidh juktie garre, plastiske jïh myövhkes ïebnh dåvvodh, gïetedidh jïh laavkedh",
+              "sme": "suokkardit duodjeteknihkaid vejolašvuođaid ja heivvolaš teknologiija divvut, gieđahallat ja oktiibidjat garra, plastihkalaš ja dipma ávdnasiid",
+              "smj": "åtsådit duodjeteknihkaj máhttelisvuodajt ja hiebalasj teknologijjav divvot, giehtadallat ja aktij biedjat garra, plastihkalasj ja dimes ábnnasijt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM13671",
+          "core_elements": [
+            "KE1783",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "sanke og bearbeide naturmaterialer, vite hvor og når materialene kan hentes, og bruke materialene hensiktsmessig",
+              "nob": "sanke og bearbeide naturmaterialer, vite hvor og når materialene kan hentes, og bruke materialene hensiktsmessig",
+              "sma": "eatnemeïebnh tjöönghkedh jïh gïetedidh, daejredh gusnie jïh gåessie edtja ïebnide veedtjedh jïh ïebnide maereleslaakan nuhtjedh",
+              "sme": "háhkat ja gieđahallat luondduávdnasiid, diehtit gos ja goas ávdnasiid sáhttá háhkat, ja geavahit ávdnasiid ulbmillaččat",
+              "smj": "tjoahkkit ja giehtadallat ábnnasijt luondos, diehtet gåsstå ja goassa ábnnasijt máhttá viedtjat, ja adnet ábnnasijt hiebalgis láhkáj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13676",
+          "core_elements": [
+            "KE1783",
+            "KE1784",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "vurdere materialers holdbarhet og muligheter for reparasjon, redesign og gjenbruk, og bruke ulike verktøy og materialer på en hensiktsmessig og miljøbevisst måte",
+              "nob": "vurdere materialers holdbarhet og muligheter for reparasjon, redesign og gjenbruk, og bruke ulike verktøy og materialer på en hensiktsmessig og miljøbevisst måte",
+              "sma": "vuarjasjidh man nænnoes ovmessie ïebnh leah, jïh mejtie gåarede dejtie dåvvodh, orresistie hammoedidh jïh orresistie nuhtjedh, jïh ovmessie dïrregh jïh ïebnh maereleslaakan jïh byjresevoerkes vuekien mietie nuhtjedh",
+              "sme": "árvvoštallat ávdnasiid nanusvuođa ja vejolašvuođaid divvut, ođđasit designet ja ođđasit geavahit, ja geavahit iešguđetlágan neavvuid ja ávdnasiid ulbmillaš ja birasdiđolaš láhkai",
+              "smj": "árvustallat ábnnasij nanosvuodav ja máhttelisvuodajt divvot, ådåsit designit ja adnet, ja adnet duov dáv vædtsagav ja ábnnasav vuogas ja birásdiedulasj láhkáj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13672",
+          "core_elements": [
+            "KE1784",
+            "KE1785",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke stegvise designprosesser for å duddjot/duodjuhit/vitnesjidh og kunne bruke samiske fagbegreper i arbeidet",
+              "nob": "bruke stegvise designprosesser for å duddjot/duodjuhit/vitnesjidh og kunne bruke samiske fagbegreper i arbeidet",
+              "sma": "sïlli sïlli hammoedimmieprosessh nuhtjedh juktie vytnesjidh jïh maehtedh saemien faagebakoeh barkosne nuhtjedh",
+              "sme": "geavahit ceahkkálas designproseassaid duddjot ja máhttit geavahit sámi fágadoahpagiid barggus",
+              "smj": "adnet desájna prosessajt lávkij milta duodjuhittjat ja buktet adnet sáme fáhkabuojkuldagájt bargon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13679",
+          "core_elements": [
+            "KE1783",
+            "KE1784",
+            "KE1785"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "visualisere form ved hjelp av frihåndstegninger, arbeidstegninger, modeller og digitale verktøy",
+              "nob": "visualisere form ved hjelp av frihåndstegninger, arbeidstegninger, modeller og digitale verktøy",
+              "sma": "hammoem visualiseeredh viehkine gïeteguvvijste, barkoeguvvijste, maallijste jïh digitaale dïrregijstie",
+              "sme": "visualiseret hámiid giehtasárggastusaiguin, bargotevnnegiid, modeallaid ja digitála reaidduid vehkiin",
+              "smj": "visualiserit hámijt giehtatjuorggasij, barggotjuorggasij, modellaj ja digitála vædtsagij viehkken"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13674",
+          "core_elements": [
+            "KE1785",
+            "KE1786"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "analysere ornamentikk fra et tradisjonelt duodji-/duodje-/duedtie-produkt og eksperimentere med ulike visuelle uttrykk i en kunstnerisk prosess",
+              "nob": "analysere ornamentikk fra et tradisjonelt duodji-/duodje-/duedtie-produkt og eksperimentere med ulike visuelle uttrykk i en kunstnerisk prosess",
+              "sma": "tjaalehtjimmiem aktede aerpievuekien duedtiedorjesistie analyseeredh jïh ovmessie visuelle vuekiejgujmie haarjanidh aktene tjiehpeles prosessesne",
+              "sme": "analyseret árbevirolaš duodjebuktaga ornamentihka ja eksperimenteret iešguđetlágan visuála ovdanbuktimiiguin dáiddalaš proseassas",
+              "smj": "analysierit árbbedábálasj duodjebuktaga ornamentihkav ja eksperimentierit iesjguhtiklágásj visuála åvddånbuktemij dájda prosessan"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13675",
+          "core_elements": [
+            "KE1784",
+            "KE1785",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over hvordan immateriell kulturarv gjenspeiles i duodji/duodje/duedtie, og eksperimentere med kulturelle referanser i eget skapende arbeid",
+              "nob": "reflektere over hvordan immateriell kulturarv gjenspeiles i duodji/duodje/duedtie, og eksperimentere med kulturelle referanser i eget skapende arbeid",
+              "sma": "ussjedadtedh guktie immaterijelle kultuvreaerpie vååjnesasse båata duedtesne, jïh kulturelle referaansigujmie eksperimenteeredh jïjtse sjugniedimmiebarkosne",
+              "sme": "reflekteret mo vuoiŋŋalaš kulturárbi speadjalastojuvvo duojis, ja eksperimenteret kultuvrralaš referánssaiguin iežas hábmejeaddji barggus",
+              "smj": "árvvaladdat gåktu iehpemateriella kultuvrraárbbe duojen spiedjilassteduvvá, ja eksperimentierit kultuvralasj referánsaj ietjas hábbmijiddje bargon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13677",
+          "core_elements": [
+            "KE1783",
+            "KE1784",
+            "KE1785",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "undersøke hvordan identitet og stedstilhørighet kommuniseres i arkitektur og gjenstander, og modellere arkitektoniske løsninger som ivaretar ulike behov og interesser",
+              "nob": "undersøke hvordan identitet og stedstilhørighet kommuniseres i arkitektur og gjenstander, og modellere arkitektoniske løsninger som ivaretar ulike behov og interesser",
+              "sma": "goerehtidh guktie identiteete jïh sijjieektiedimmie vååjnesasse båetieh arkitektuvresne jïh daevierisnie, jïh arkitektovneles maallh hammoedidh mah ovmessie daerpiesvoeth jïh ïedtjh gorredieh",
+              "sme": "guorahallat mo identitehta ja báikegullevašvuohta boahtá ovdan arkitektuvrras ja dávviriin, ja modelleret arkitektonalaš čovdosiid mat váldet vuhtii iešguđetlágan dárbbuid ja beroštumiid",
+              "smj": "guoradallat gåktu identitiehtta ja bájkke boahtá åvddån arkitektuvran ja dávverijn, ja modellierit arkitektonijjalasj tjoavddusijt ma iesjguhtiklágásj dárbojt ja berustimijt vieledi"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF5"
+          ],
+          "code": "KM13678",
+          "core_elements": [
+            "KE1783",
+            "KE1784"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske hvordan digitale verktøy og ny teknologi kan gi muligheter for kommunikasjonsformer og opplevelser i skapende prosesser og produkter",
+              "nob": "utforske hvordan digitale verktøy og ny teknologi kan gi muligheter for kommunikasjonsformer og opplevelser i skapende prosesser og produkter",
+              "sma": "goerehtidh guktie digitaale dïrregh jïh orre teknologije maehtieh nuepieh vedtedh gaskesadtemevuekide jïh dååjresidie sjugneden prosessine jïh dorjesinie",
+              "sme": "suokkardit mo digitála reaiddut ja ođđa teknologiija sáhttet addit vejolašvuođaid gulahallanvugiide ja vásáhusaide hábmejeaddji proseassain ja buktagiin",
+              "smj": "guoradallat gåktu digitála ræjdo ja ådå teknologijja máhtti máhttelisvuodajt vaddet guládallamvuogijda ja vásádusájda hábbmijiddje prosessajn ja buktagijn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM13681",
+          "core_elements": [
+            "KE1784",
+            "KE1785"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "fordype seg i en visuell uttrykksform og/eller en duodji-/duodje-/duedtie-teknikk, utforske muligheter gjennom praktisk skapende arbeid og presentere valg fra idé til ferdig resultat",
+              "nob": "fordype seg i en visuell uttrykksform og/eller en duodji-/duodje-/duedtie-teknikk, utforske muligheter gjennom praktisk skapende arbeid og presentere valg fra idé til ferdig resultat",
+              "sma": "aktem visuelle buektemevuekiem jïh/jallh duedtievuekiem veelebe goerehtidh, nuepieh goerehtidh praktihkeles sjugniedimmiebarkoen tjïrrh, jïh veeljemem åehpiedehtedh åssjalommesen raejeste gaervies illedahken raajan",
+              "sme": "čiekŋudit visuála ovdanbuktinvuohkái ja/dahje duodjeteknihkkii, suokkardit vejolašvuođaid praktihkalaš hábmejeaddji barggu bokte ja ovdanbuktit válljejumi ideas gárvves buvttan",
+              "smj": "tjiegŋodit visuála åvddånbuktemvuohkáj ja/jali duodjeteknihkkaj, åtsådit máhttelisvuodajt praktihkalasj hábbmijiddje bargo baktu ja åvddåjbuktet gåktu la válljim idieja rájes gárves buktagij"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM13680",
+          "core_elements": [
+            "KE1784",
+            "KE1785",
+            "KE1786"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "undersøke hvordan dáidda/samisk kunst utfordrer, og skape kunstuttrykk som belyser utfordringer i egen samtid",
+              "nob": "undersøke hvordan dáidda/samisk kunst utfordrer, og skape kunstuttrykk som belyser utfordringer i egen samtid",
+              "sma": "goerehtidh guktie saemien tjeahpoe haasta, jïh tjeahpoevuekieh sjugniedidh mah tjoevkesem biejieh haestiemidie jïjtse ektietïjjen",
+              "sme": "guorahallat mo sámi dáidda hástala, ja ráhkadit dáiddaovdanbuktimiid mat fuomášuhttet hástalusaid iežas dálááiggis",
+              "smj": "guoradallat gåktu sáme dájdda hásstal, ja stiellit dájdav mij gåvvit dálásj ájgev"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 10. trinn",
+          "nob": "Kompetansemål og vurdering 10. trinn",
+          "sma": "Maahtoeulmieh jïh vuarjasjimmie 10. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 10. ceahkki",
+          "smj": "10. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    }
+  ],
+  "last_modified": "2026-07-08T15:48:49.8246849",
+  "replaced_by": [],
+  "replaces": [
+    "KHV02-02"
+  ],
+  "short_title": {
+    "by_language": {
+      "default": "Duodji",
+      "nob": "Duodji",
+      "sma": "Duedtie",
+      "sme": "Duoji",
+      "smj": "Duodje"
+    }
+  },
+  "title": {
+    "by_language": {
+      "default": "Læreplan i duodji",
+      "nob": "Læreplan i duodji",
+      "sma": "Learoesoejkesje - duedtie",
+      "sme": "Oahppoplána - duoji",
+      "smj": "Oahppopládna duodje"
+    }
+  },
+  "valid_from": "2026-08-01",
+  "valid_to": null
+}

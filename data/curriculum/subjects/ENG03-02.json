@@ -1,0 +1,275 @@
+{
+  "code": "ENG03-02",
+  "goal_sets": [
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV13",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM187",
+          "core_elements": [
+            "KE8",
+            "KE10",
+            "KE11"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke engelsk muntlig og skriftlig i digital samhandling tilpasset formål, mottaker og situasjon",
+              "nob": "bruke engelsk muntlig og skriftlig i digital samhandling tilpasset formål, mottaker og situasjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM188",
+          "core_elements": [
+            "KE8",
+            "KE9"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "skape ulike typer muntlige og skriftlige tekster om selvvalgte emner som presenterer, forteller eller forklarer gjennom ulike medier",
+              "nob": "skape ulike typer muntlige og skriftlige tekster om selvvalgte emner som presenterer, forteller eller forklarer gjennom ulike medier"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM189",
+          "core_elements": [
+            "KE9"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "videreutvikle egne muntlige og skriftlige tekster på bakgrunn av tilbakemeldinger",
+              "nob": "videreutvikle egne muntlige og skriftlige tekster på bakgrunn av tilbakemeldinger"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM190",
+          "core_elements": [
+            "KE11"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og presentere innhold, form og formål i spill, film og musikk",
+              "nob": "utforske og presentere innhold, form og formål i spill, film og musikk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM197",
+          "core_elements": [
+            "KE11"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over variasjon i tenkesett, kommunikasjonsmønstre og samhandlingsformer i den virtuelle og virkelige verden",
+              "nob": "reflektere over variasjon i tenkesett, kommunikasjonsmønstre og samhandlingsformer i den virtuelle og virkelige verden"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM193",
+          "core_elements": [
+            "KE10"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "skape digitale produkter som kombinerer ulike medietyper",
+              "nob": "skape digitale produkter som kombinerer ulike medietyper"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM192",
+          "core_elements": [
+            "KE9",
+            "KE10"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og sammenligne språkbruk og virkemidler i ulike medier og sammenhenger",
+              "nob": "utforske og sammenligne språkbruk og virkemidler i ulike medier og sammenhenger"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM194",
+          "core_elements": [
+            "KE10",
+            "KE11"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og reflektere over hvordan synsvinkel og avsender kan påvirke et budskap",
+              "nob": "utforske og reflektere over hvordan synsvinkel og avsender kan påvirke et budskap"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM191",
+          "core_elements": [
+            "KE8"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "presentere selvvalgte interesseområder",
+              "nob": "presentere selvvalgte interesseområder"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM196",
+          "core_elements": [
+            "KE8",
+            "KE10"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for egen rolle i ulike medier og reflektere kritisk over hvordan eleven framstiller seg selv og andre på nett",
+              "nob": "gjøre rede for egen rolle i ulike medier og reflektere kritisk over hvordan eleven framstiller seg selv og andre på nett"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM195",
+          "core_elements": [
+            "KE10"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke kilder på en kritisk og etterrettelig måte og følge regler for personvern og opphavsrett",
+              "nob": "bruke kilder på en kritisk og etterrettelig måte og følge regler for personvern og opphavsrett"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 10. trinn",
+          "nob": "Kompetansemål og vurdering 10. trinn"
+        }
+      }
+    }
+  ],
+  "last_modified": "2021-03-25T20:01:36.999059",
+  "replaced_by": [],
+  "replaces": [
+    "ENG3-01"
+  ],
+  "short_title": {
+    "by_language": {
+      "default": "Engelsk fordypning",
+      "nob": "Engelsk fordypning"
+    }
+  },
+  "title": {
+    "by_language": {
+      "default": "Læreplan i fordypning i engelsk",
+      "nob": "Læreplan i fordypning i engelsk"
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

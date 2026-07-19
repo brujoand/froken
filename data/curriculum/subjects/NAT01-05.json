@@ -1,0 +1,1644 @@
+{
+  "code": "NAT01-05",
+  "goal_sets": [
+    {
+      "after_year": 2,
+      "applies_to_years": [
+        1,
+        2
+      ],
+      "code": "KV1075",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13806",
+          "core_elements": [
+            "KE1802"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "undre seg, utforske og lage spørsmål, og knytte dette til egne eller andres erfaringer",
+              "eng": "query, explore and make questions and to link these to one's own or others’ experiences",
+              "nno": "undre seg, utforske og lage spørsmål, og knyte dette til eigne eller andre sine erfaringar",
+              "nob": "undre seg, utforske og lage spørsmål, og knytte dette til egne eller andres erfaringer"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13807",
+          "core_elements": [
+            "KE1802"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "presentere funnene sine og beskrive hvordan eleven har kommet fram til dem",
+              "eng": "present one’s findings and describe how one has arrived at them",
+              "nno": "presentere funna sine og beskrive korleis eleven har kome fram til dei",
+              "nob": "presentere funnene sine og beskrive hvordan eleven har kommet fram til dem"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM13808",
+          "core_elements": [
+            "KE1803"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "presentere egne ideer til teknologiske oppfinnelser",
+              "eng": "present one’s own ideas for technological inventions",
+              "nno": "presentere eigne idear til teknologiske oppfinningar",
+              "nob": "presentere egne ideer til teknologiske oppfinnelser"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4"
+          ],
+          "code": "KM13809",
+          "core_elements": [
+            "KE1802",
+            "KE1804"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og beskrive observerbare egenskaper til ulike objekter, materialer og stoffer og sortere etter egenskaper",
+              "eng": "explore and describe observable properties of different objects, materials and substances and sort them according to their properties",
+              "nno": "utforske og beskrive observerbare eigenskapar til ulike objekt, materiale og stoff og sortere etter eigenskapar",
+              "nob": "utforske og beskrive observerbare egenskaper til ulike objekter, materialer og stoffer og sortere etter egenskaper"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13815",
+          "core_elements": [
+            "KE1805"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om hvordan vi kan ta miljøbevisste valg og gjennomføre lokale miljøtiltak",
+              "eng": "talk about how we can make environmentally aware choices and carry out local environmental initiatives",
+              "nno": "samtale om korleis vi kan ta miljømedvitne val og gjennomføre lokale miljøtiltak",
+              "nob": "samtale om hvordan vi kan ta miljøbevisste valg og gjennomføre lokale miljøtiltak"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13810",
+          "core_elements": [
+            "KE1802",
+            "KE1805"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske et naturområde i nærmiljøet og beskrive hvordan noen organismer er tilpasset området og hverandre",
+              "eng": "explore a local natural area and describe how some organisms are adapted to the area and to each other",
+              "nno": "utforske eit naturområde i nærmiljøet og beskrive korleis nokre organismar er tilpassa området og kvarandre",
+              "nob": "utforske et naturområde i nærmiljøet og beskrive hvordan noen organismer er tilpasset området og hverandre"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4"
+          ],
+          "code": "KM13811",
+          "core_elements": [
+            "KE1802",
+            "KE1805"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "oppleve naturen til ulike årstider, reflektere over hvordan naturen er i endring, og hvorfor året deles inn på ulike måter i norsk og samisk tradisjon",
+              "eng": "experience nature during the different seasons, reflect on how nature is undergoing changes and why the year is divided in different ways in the Norwegian and Sami traditions",
+              "nno": "oppleve naturen til ulike årstider, reflektere over korleis naturen er i endring, og kvifor året blir delt inn på ulike måtar i norsk og samisk tradisjon",
+              "nob": "oppleve naturen til ulike årstider, reflektere over hvordan naturen er i endring, og hvorfor året deles inn på ulike måter i norsk og samisk tradisjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13812",
+          "core_elements": [
+            "KE1802",
+            "KE1805"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "planlegge og gjennomføre undersøkelser av vær og himmelfenomener og sammenligne målinger, observasjoner og værtegn gjennom året",
+              "eng": "plan and carry out examinations of weather and sky phenomena and compare measurements, observations and weather signs throughout the year",
+              "nno": "planleggje og gjennomføre undersøkingar av ver og himmelfenomen og samanlikne målingar, observasjonar og verteikn gjennom året",
+              "nob": "planlegge og gjennomføre undersøkelser av vær og himmelfenomener og sammenligne målinger, observasjoner og værtegn gjennom året"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13813",
+          "core_elements": [
+            "KE1806"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske sansene gjennom lek ute og inne og samtale om hvordan sansene brukes til å samle informasjon",
+              "eng": "explore the senses through indoor and outdoor play and talk about how the senses are used to collect information",
+              "nno": "utforske sansane gjennom leik ute og inne og samtale om korleis sansane blir brukte til å samle informasjon",
+              "nob": "utforske sansene gjennom lek ute og inne og samtale om hvordan sansene brukes til å samle informasjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13814",
+          "core_elements": [
+            "KE1806"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gi eksempler på noen vanlige sykdommer og samtale om hva man kan gjøre for å verne kroppen mot smittsomme sykdommer",
+              "eng": "give examples of some common diseases and talk about what can be done to protect the body from infectious diseases",
+              "nno": "gi døme på nokre vanlege sjukdommar og samtale om kva ein kan gjere for å verne kroppen mot smittsame sjukdommar",
+              "nob": "gi eksempler på noen vanlige sykdommer og samtale om hva man kan gjøre for å verne kroppen mot smittsomme sykdommer"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 2. trinn",
+          "eng": "Competence aims and assessment after Year 2",
+          "nno": "Kompetansemål og vurdering 2. trinn",
+          "nob": "Kompetansemål og vurdering 2. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 5,
+      "applies_to_years": [
+        4,
+        5
+      ],
+      "code": "KV1076",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13816",
+          "core_elements": [
+            "KE1802"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "undre seg, stille spørsmål og lage hypoteser og utforske disse for å finne svar",
+              "eng": "query, ask questions, formulate hypotheses and explore them to find answers",
+              "nno": "undre seg, stille spørsmål og lage hypotesar og utforske desse for å finne svar",
+              "nob": "undre seg, stille spørsmål og lage hypoteser og utforske disse for å finne svar"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13817",
+          "core_elements": [
+            "KE1802"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke tabeller og figurer til å organisere data, lage forklaringer basert på data og presentere funn",
+              "eng": "use tables and figures to structure data, make explanations based on data and present findings",
+              "nno": "bruke tabellar og figurar til å organisere data, lage forklaringar baserte på data og presentere funn",
+              "nob": "bruke tabeller og figurer til å organisere data, lage forklaringer basert på data og presentere funn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13818",
+          "core_elements": [
+            "KE1802"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "sammenligne modeller med observasjoner og samtale om hvorfor vi bruker modeller i naturfag",
+              "eng": "compare models with observations and talk about how we use models in natural science",
+              "nno": "samanlikne modellar med observasjonar og samtale om kvifor vi bruker modellar i naturfag",
+              "nob": "sammenligne modeller med observasjoner og samtale om hvorfor vi bruker modeller i naturfag"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM13820",
+          "core_elements": [
+            "KE1803"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske teknologiske systemer som er satt sammen av ulike deler, og beskrive hvordan delene fungerer og virker sammen",
+              "eng": "explore technological systems that are composed of different parts and describe how the parts function and work together",
+              "nno": "utforske teknologiske system som er sette saman av ulike delar, og beskrive korleis delane fungerer og verkar saman",
+              "nob": "utforske teknologiske systemer som er satt sammen av ulike deler, og beskrive hvordan delene fungerer og virker sammen"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM13821",
+          "core_elements": [
+            "KE1803"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "designe og lage et produkt basert på en kravspesifikasjon",
+              "eng": "design and make a product based on specifications",
+              "nno": "designe og lage eit produkt basert på ein kravspesifikasjon",
+              "nob": "designe og lage et produkt basert på en kravspesifikasjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13822",
+          "core_elements": [
+            "KE1802",
+            "KE1804"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og beskrive hvordan noen stoffer kan endre seg når de blandes med andre stoffer",
+              "eng": "explore and describe how some substances can change when mixed with other substances",
+              "nno": "utforske og beskrive korleis nokre stoff kan endre seg når dei blir blanda med andre stoff",
+              "nob": "utforske og beskrive hvordan noen stoffer kan endre seg når de blandes med andre stoffer"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13823",
+          "core_elements": [
+            "KE1802",
+            "KE1804"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske observerbare størrelser som fart og temperatur og knytte dem til energi",
+              "eng": "explore observable quantities, such as speed and temperature, and connect them to energy",
+              "nno": "utforske storleikar som lar seg observere, som fart og temperatur, og knyte dei til energi",
+              "nob": "utforske observerbare størrelser som fart og temperatur og knytte dem til energi"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13824",
+          "core_elements": [
+            "KE1803",
+            "KE1804"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om hva energi er, og utforske ulike energikjeder",
+              "eng": "talk about what energy is and explore different energy chains",
+              "nno": "samtale om kva energi er, og utforske ulike energikjeder",
+              "nob": "samtale om hva energi er, og utforske ulike energikjeder"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13819",
+          "core_elements": [
+            "KE1802",
+            "KE1805"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske et naturområde og drøfte bærekraftig bruk av området",
+              "eng": "explore an area in nature and discuss sustainable use of the area",
+              "nno": "utforske eit naturområde og drøfte berekraftig bruk av området",
+              "nob": "utforske et naturområde og drøfte bærekraftig bruk av området"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13825",
+          "core_elements": [
+            "KE1802",
+            "KE1805"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og sammenligne ulike dyre- og plantearters tilpasninger til miljø og levesteder og drøfte hvorfor noen arter dør ut",
+              "eng": "explore and compare how different species of animals and plants adapt to environments and habitats and discuss why some species become extinct",
+              "nno": "utforske og samanlikne korleis ulike dyre- og planteartar har tilpassa seg miljø og levestader, og drøfte kvifor nokre artar døyr ut",
+              "nob": "utforske og sammenligne ulike dyre- og plantearters tilpasninger til miljø og levesteder og drøfte hvorfor noen arter dør ut"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13827",
+          "core_elements": [
+            "KE1805"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "delta i høsting og bruk av naturressurser og drøfte hvordan naturressurser kan brukes på en bærekraftig måte",
+              "eng": "participate in harvesting and using natural resources and explain how natural resources can be used in a sustainable way",
+              "nno": "delta i hausting og bruk av naturressursar og drøfte korleis naturressursar kan bli brukte på ein berekraftig måte",
+              "nob": "delta i høsting og bruk av naturressurser og drøfte hvordan naturressurser kan brukes på en bærekraftig måte"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13826",
+          "core_elements": [
+            "KE1805"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "gi eksempler på god dyrevelferd og reflektere over hvordan dyrs behov kan ivaretas",
+              "eng": "give examples of good animal welfare and reflect on how to look after the needs of animals",
+              "nno": "gi døme på god dyrevelferd og reflektere over korleis ein kan vareta behova til dyr",
+              "nob": "gi eksempler på god dyrevelferd og reflektere over hvordan dyrs behov kan ivaretas"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13828",
+          "core_elements": [
+            "KE1802",
+            "KE1805"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og beskrive vannets kretsløp og gjøre rede for hvorfor vann er viktig for livet på jorda",
+              "eng": "explore and describe the water cycle and explain why water is important for life on Earth",
+              "nno": "utforske og beskrive kretsløpet til vatnet og gjere greie for kvifor vatn er viktig for livet på jorda",
+              "nob": "utforske og beskrive vannets kretsløp og gjøre rede for hvorfor vann er viktig for livet på jorda"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13832",
+          "core_elements": [
+            "KE1806"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om hva fysisk og psykisk helse er, og drøfte hvordan livsstil og trivsel påvirker helse",
+              "eng": "talk about physical and mental health and explain how lifestyles and well-being affect health",
+              "nno": "samtale om kva fysisk og psykisk helse er og drøfte korleis livsstil og trivnad påverkar helse",
+              "nob": "samtale om hva fysisk og psykisk helse er, og drøfte hvordan livsstil og trivsel påvirker helse"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13829",
+          "core_elements": [
+            "KE1806"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om likheter og ulikheter mellom kjønnene, om kjønnsidentitet og om menneskets reproduksjon",
+              "eng": "talk about the similarities and differences between the genders, about gender identity and about human reproduction",
+              "nno": "samtale om likskapar og ulikskapar mellom kjønna, om kjønnsidentitet og om korleis mennesket reproduserer seg",
+              "nob": "samtale om likheter og ulikheter mellom kjønnene, om kjønnsidentitet og om menneskets reproduksjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13831",
+          "core_elements": [
+            "KE1806"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive hvordan muskler og skjelett fungerer, og knytte dette til bevegelse",
+              "eng": "describe how the muscles and skeleton function and relate this to movement",
+              "nno": "beskrive korleis musklar og skjelett fungerer, og knyte dette til bevegelse",
+              "nob": "beskrive hvordan muskler og skjelett fungerer, og knytte dette til bevegelse"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13830",
+          "core_elements": [
+            "KE1806"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive funksjoner i kroppens ytre forsvar og samtale om hvordan dette verner mot sykdom",
+              "eng": "describe functions in the body’s external defence mechanisms and talk about how these protect against disease",
+              "nno": "beskrive funksjonar i det ytre forsvaret til kroppen og samtale om korleis dette vernar mot sjukdom",
+              "nob": "beskrive funksjoner i kroppens ytre forsvar og samtale om hvordan dette verner mot sykdom"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 4. trinn",
+          "eng": "Competence aims and assessment Year 4",
+          "nno": "Kompetansemål og vurdering 4. trinn",
+          "nob": "Kompetansemål og vurdering 4. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 7,
+      "applies_to_years": [
+        5,
+        6,
+        7
+      ],
+      "code": "KV1077",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13833",
+          "core_elements": [
+            "KE1802"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere variabler og samle data for å finne svar",
+              "eng": "ask questions and formulate hypotheses about natural-science phenomena, identify variables and collect data to find answers",
+              "nno": "stille spørsmål og lage hypotesar om naturfaglege fenomen, identifisere variablar og samle data for å finne svar",
+              "nob": "stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere variabler og samle data for å finne svar"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13834",
+          "core_elements": [
+            "KE1802"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "skille mellom observasjoner og slutninger, organisere data, bruke årsak-virkning-argumenter, trekke slutninger, vurdere feilkilder og presentere funn",
+              "eng": "distinguish between observations and conclusions, structure data, use cause and effect arguments, draw conclusions, assess sources of errors and present findings",
+              "nno": "skilje mellom observasjonar og slutningar, organisere data, bruke årsak–verknad-argument, trekkje slutningar, vurdere feilkjelder og presentere funn",
+              "nob": "skille mellom observasjoner og slutninger, organisere data, bruke årsak-virkning-argumenter, trekke slutninger, vurdere feilkilder og presentere funn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13835",
+          "core_elements": [
+            "KE1802"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke og vurdere modeller som representerer fenomener man ikke kan observere direkte, og gjøre rede for hvorfor det brukes modeller i naturfag",
+              "eng": "use and assess models that represent phenomena that cannot be observed directly and explain why models are used in natural science",
+              "nno": "bruke og vurdere modellar som representerer fenomen ein ikkje kan observere direkte, og gjere greie for kvifor det blir brukt modellar i naturfag",
+              "nob": "bruke og vurdere modeller som representerer fenomener man ikke kan observere direkte, og gjøre rede for hvorfor det brukes modeller i naturfag"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM13836",
+          "core_elements": [
+            "KE1802"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "lese og forstå faremerking og reflektere over hensikten med disse",
+              "eng": "read and understand hazard labelling and reflect on the purpose os such labelling",
+              "nno": "lese og forstå faremerking og reflektere over formålet med desse",
+              "nob": "lese og forstå faremerking og reflektere over hensikten med disse"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13837",
+          "core_elements": [
+            "KE1802"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gi eksempler på hvordan naturvitenskapelig kunnskap er utviklet og utvikler seg",
+              "eng": "give examples of how natural-science knowledge has developed and continues to develop",
+              "nno": "gi døme på korleis naturvitskapleg kunnskap er utvikla og utviklar seg",
+              "nob": "gi eksempler på hvordan naturvitenskapelig kunnskap er utviklet og utvikler seg"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13851",
+          "core_elements": [
+            "KE1802"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gi eksempler på hvordan tradisjonell kunnskap har bidratt og bidrar til naturvitenskapelig kunnskap",
+              "eng": "give examples of how traditional knowledge has contributed and continues to contribute to natural-science knowledge",
+              "nno": "gi døme på korleis tradisjonell kunnskap har bidrege og bidreg til naturvitskapleg kunnskap",
+              "nob": "gi eksempler på hvordan tradisjonell kunnskap har bidratt og bidrar til naturvitenskapelig kunnskap"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM13838",
+          "core_elements": [
+            "KE1803"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske, lage og programmere teknologiske systemer som består av deler som virker sammen",
+              "eng": "explore, make and program technological systems that consist of parts that work together",
+              "nno": "utforske, lage og programmere teknologiske system som består av delar som verkar saman",
+              "nob": "utforske, lage og programmere teknologiske systemer som består av deler som virker sammen"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13839",
+          "core_elements": [
+            "KE1803"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "designe og lage et produkt basert på brukerbehov",
+              "eng": "design and make a product based on user needs",
+              "nno": "designe og lage eit produkt basert på brukarbehov",
+              "nob": "designe og lage et produkt basert på brukerbehov"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13840",
+          "core_elements": [
+            "KE1803"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over hvordan teknologi kan løse utfordringer, skape muligheter og føre til nye dilemmaer",
+              "eng": "reflect on how technology can solve challenges, create opportunities and lead to new dilemmas",
+              "nno": "reflektere over korleis teknologi kan løyse utfordringar, skape moglegheiter og føre til nye dilemma",
+              "nob": "reflektere over hvordan teknologi kan løse utfordringer, skape muligheter og føre til nye dilemmaer"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13841",
+          "core_elements": [
+            "KE1802",
+            "KE1804"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske faseoverganger og kjemiske reaksjoner og beskrive hva som kjennetegner dem",
+              "eng": "explore phase transitions and chemical reactions and describe their properties",
+              "nno": "utforske faseovergangar og kjemiske reaksjonar og beskrive kva som kjenneteiknar dei",
+              "nob": "utforske faseoverganger og kjemiske reaksjoner og beskrive hva som kjennetegner dem"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13852",
+          "core_elements": [
+            "KE1804"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke partikkelmodellen til å forklare faseoverganger og egenskapene til faste stoffer, væsker og gasser",
+              "eng": "use the particle model to explain phase transitions and the properties of solids, liquids and gases",
+              "nno": "bruke partikkelmodellen til å forklare faseovergangar og eigenskapane til faste stoff, væsker og gassar",
+              "nob": "bruke partikkelmodellen til å forklare faseoverganger og egenskapene til faste stoffer, væsker og gasser"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13842",
+          "core_elements": [
+            "KE1802",
+            "KE1803",
+            "KE1804"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske elektriske og magnetiske krefter gjennom forsøk og samtale om hvordan vi utnytter elektrisk energi i dagliglivet",
+              "eng": "explore electric and magnetic forces through experiments and talk about how we exploit electric energy in everyday life",
+              "nno": "utforske elektriske og magnetiske krefter gjennom forsøk og samtale om korleis vi utnyttar elektrisk energi i dagleglivet",
+              "nob": "utforske elektriske og magnetiske krefter gjennom forsøk og samtale om hvordan vi utnytter elektrisk energi i dagliglivet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13843",
+          "core_elements": [
+            "KE1802",
+            "KE1805"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for hvordan organismer kan deles inn i hovedgrupper, og gi eksempler på ulike organismers særtrekk",
+              "eng": "explain how organisms can be divided into main groups and give examples of the special features of different organisms",
+              "nno": "gjere greie for korleis organismar kan delast inn i hovudgrupper, og gi døme på særtrekka til ulike organismar",
+              "nob": "gjøre rede for hvordan organismer kan deles inn i hovedgrupper, og gi eksempler på ulike organismers særtrekk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13853",
+          "core_elements": [
+            "KE1805"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for betydningen av biologisk mangfold og gjennomføre tiltak for å bevare det biologiske mangfoldet i nærmiljøet",
+              "eng": "explain the importance of biological diversity and implement measures to protect biological diversity in the local community",
+              "nno": "gjere greie for betydninga av biologisk mangfald og gjennomføre tiltak for å bevare det biologiske mangfaldet i nærmiljøet",
+              "nob": "gjøre rede for betydningen av biologisk mangfold og gjennomføre tiltak for å bevare det biologiske mangfoldet i nærmiljøet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13844",
+          "core_elements": [
+            "KE1805"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "foreslå tiltak for å bevare det biologiske mangfoldet i nordområdene og gi eksempler på betydningen av tradisjonell kunnskap i naturforvaltning",
+              "eng": "propose measures to preserve biological diversity in northern areas and give examples of the importance of traditional knowledge in nature management",
+              "nno": "foreslå tiltak for å bevare det biologiske mangfaldet i nordområda og gi døme på betydninga av tradisjonell kunnskap i naturforvaltning",
+              "nob": "foreslå tiltak for å bevare det biologiske mangfoldet i nordområdene og gi eksempler på betydningen av tradisjonell kunnskap i naturforvaltning"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13845",
+          "core_elements": [
+            "KE1802",
+            "KE1805"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og beskrive ulike næringsnett og bruke dette til å diskutere samspill i naturen",
+              "eng": "explore and describe different food cycles and use this to discuss synergy in nature",
+              "nno": "utforske og beskrive ulike næringsnett og bruke dette til å diskutere samspel i naturen",
+              "nob": "utforske og beskrive ulike næringsnett og bruke dette til å diskutere samspill i naturen"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF5"
+          ],
+          "code": "KM13846",
+          "core_elements": [
+            "KE1802",
+            "KE1805"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "beskrive og visualisere hvordan døgn, månefaser og årstider oppstår, og samtale om hvordan dette påvirker livet på jorda",
+              "eng": "describe and visualise how day and night, moon phases and seasons arise and talk about the effect on life on Earth",
+              "nno": "beskrive og visualisere korleis døgn, månefasar og årstider oppstår, og samtale om korleis dette påverkar livet på jorda",
+              "nob": "beskrive og visualisere hvordan døgn, månefaser og årstider oppstår, og samtale om hvordan dette påvirker livet på jorda"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13847",
+          "core_elements": [
+            "KE1802",
+            "KE1805"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for jordas forutsetninger for liv og sammenligne med andre himmellegemer i universet",
+              "eng": "explain the conditions for life on Earth and compare these to other celestial bodies in the universe",
+              "nno": "gjere greie for føresetnadene jorda har for liv, og samanlikne med andre himmellekamar i universet",
+              "nob": "gjøre rede for jordas forutsetninger for liv og sammenligne med andre himmellegemer i universet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13848",
+          "core_elements": [
+            "KE1802",
+            "KE1805"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for hvordan det geologiske kretsløpet, platetektonikk og ytre krefter er med på å forme og endre ulike landskap",
+              "eng": "explain how the geological cycle, plate tectonics and external forces help shape and change different landscapes",
+              "nno": "gjere greie for korleis det geologiske kretsløpet, platetektonikk og ytre krefter er med på å forme og endre ulike landskap",
+              "nob": "gjøre rede for hvordan det geologiske kretsløpet, platetektonikk og ytre krefter er med på å forme og endre ulike landskap"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13849",
+          "core_elements": [
+            "KE1802",
+            "KE1806"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for fysiske og psykiske forandringer i puberteten og samtale om hvordan dette kan påvirke følelser, handlinger og seksualitet",
+              "eng": "explain physical and mental changes during puberty and talk about how these can affect emotions, actions and sexuality",
+              "nno": "gjere greie for fysiske og psykiske forandringar i puberteten og samtale om korleis dette kan påverke kjensler, handlingar og seksualitet",
+              "nob": "gjøre rede for fysiske og psykiske forandringer i puberteten og samtale om hvordan dette kan påvirke følelser, handlinger og seksualitet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13850",
+          "core_elements": [
+            "KE1806"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for noen av kroppens organsystemer og beskrive hvordan systemene virker sammen",
+              "eng": "describe some of the body’s organ systems and describe how the systems work together",
+              "nno": "gjere greie for nokre av organsystema i kroppen og beskrive korleis systema verkar saman",
+              "nob": "gjøre rede for noen av kroppens organsystemer og beskrive hvordan systemene virker sammen"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 7. trinn",
+          "eng": "Competence aims and assessment Year 7",
+          "nno": "Kompetansemål og vurdering 7. trinn",
+          "nob": "Kompetansemål og vurdering 7. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV1078",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13854",
+          "core_elements": [
+            "KE1802"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere avhengige og uavhengige variabler og samle data for å finne svar",
+              "eng": "ask questions and formulate hypotheses about natural-science phenomena, identify dependent and independent variables and collect data to find answers",
+              "nno": "stille spørsmål og lage hypotesar om naturfaglege fenomen, identifisere avhengige og uavhengige variablar og samle data for å finne svar",
+              "nob": "stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere avhengige og uavhengige variabler og samle data for å finne svar"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13855",
+          "core_elements": [
+            "KE1802"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "analysere og bruke innsamlede data til å lage forklaringer, drøfte forklaringene i lys av relevant teori og vurdere kvaliteten på egne og andres utforskinger",
+              "eng": "analyse and use collected data to make explanations, discuss the explanations in the light of relevant theory and assess the quality of one’s own and others’ explorations",
+              "nno": "analysere og bruke innsamla data til å lage forklaringar, drøfte forklaringane i lys av relevant teori og vurdere kvaliteten på eigne og andre sine utforskingar",
+              "nob": "analysere og bruke innsamlede data til å lage forklaringer, drøfte forklaringene i lys av relevant teori og vurdere kvaliteten på egne og andres utforskinger"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM13856",
+          "core_elements": [
+            "KE1802"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensninger",
+              "eng": "use and make models to predict or describe natural-science processes and systems and explain the strengths and limitations of the models",
+              "nno": "bruke og lage modellar for å føreseie eller beskrive naturfaglege prosessar og system og gjere greie for kva styrkar og avgrensingar modellane har",
+              "nob": "bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensninger"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13857",
+          "core_elements": [
+            "KE1802"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "delta i risikovurderinger knyttet til forsøk og følge sikkerhetstiltakene",
+              "eng": "participate in risk assessments in relation to experiments and comply with safety measures",
+              "nno": "delta i risikovurderingar knytte til forsøk og følgje sikkerheitstiltaka",
+              "nob": "delta i risikovurderinger knyttet til forsøk og følge sikkerhetstiltakene"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM13858",
+          "core_elements": [
+            "KE1802"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gi eksempler på dagsaktuell forskning og drøfte hvordan ny kunnskap genereres gjennom samarbeid og kritisk tilnærming til eksisterende kunnskap",
+              "eng": "give examples of current research and explain how new knowledge is generated through collaboration and a critical approach to existing knowledge",
+              "nno": "gi døme på dagsaktuell forsking og drøfte korleis ny kunnskap blir generert gjennom samarbeid og kritisk tilnærming til eksisterande kunnskap",
+              "nob": "gi eksempler på dagsaktuell forskning og drøfte hvordan ny kunnskap genereres gjennom samarbeid og kritisk tilnærming til eksisterende kunnskap"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM13859",
+          "core_elements": [
+            "KE1803"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker",
+              "eng": "explore, understand and make technological systems that have a transmitter and receiver",
+              "nno": "utforske, forstå og lage teknologiske system som består av ein sendar og ein mottakar",
+              "nob": "utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13860",
+          "core_elements": [
+            "KE1802",
+            "KE1803"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke programmering til å utforske naturfaglige fenomener",
+              "eng": "use programming to explore natural-science phenomena",
+              "nno": "bruke programmering til å utforske naturfaglege fenomen",
+              "nob": "bruke programmering til å utforske naturfaglige fenomener"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13861",
+          "core_elements": [
+            "KE1802",
+            "KE1804"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske kjemiske reaksjoner, forklare massebevaring og gjøre rede for betydninger av noen forbrenningsreaksjoner",
+              "eng": "explore chemical reactions, explain mass conservation and explain the importance of some combustion reactions",
+              "nno": "utforske kjemiske reaksjonar, forklare massebevaring og gjere greie for betydningar av nokre forbrenningsreaksjonar",
+              "nob": "utforske kjemiske reaksjoner, forklare massebevaring og gjøre rede for betydninger av noen forbrenningsreaksjoner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13862",
+          "core_elements": [
+            "KE1802",
+            "KE1804"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke atommodeller og periodesystemet til å gjøre rede for egenskaper til grunnstoffer og kjemiske forbindelser",
+              "eng": "use atomic models and the periodic table to explain the properties of the elements and chemical compounds",
+              "nno": "bruke atommodellar og periodesystemet til å gjere greie for eigenskapar til grunnstoff og kjemiske samband",
+              "nob": "bruke atommodeller og periodesystemet til å gjøre rede for egenskaper til grunnstoffer og kjemiske forbindelser"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13863",
+          "core_elements": [
+            "KE1802",
+            "KE1804"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive drivhuseffekten og gjøre rede for faktorer som kan forårsake globale klimaendringer",
+              "eng": "describe the greenhouse effect and explain factors that can cause global climate changes",
+              "nno": "beskrive drivhuseffekten og gjere greie for faktorar som kan vere årsak til globale klimaendringar",
+              "nob": "beskrive drivhuseffekten og gjøre rede for faktorer som kan forårsake globale klimaendringer"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13864",
+          "core_elements": [
+            "KE1802",
+            "KE1803",
+            "KE1804"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for energibevaring og energikvalitet og utforske ulike måter å omdanne, transportere og lagre energi på",
+              "eng": "explain energy conservation and energy quality and explore different ways to convert, transport and store energy",
+              "nno": "gjere greie for energibevaring og energikvalitet og utforske ulike måtar å omdanne, transportere og lagre energi på",
+              "nob": "gjøre rede for energibevaring og energikvalitet og utforske ulike måter å omdanne, transportere og lagre energi på"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13865",
+          "core_elements": [
+            "KE1802",
+            "KE1803",
+            "KE1804"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "drøfte hvordan energiproduksjon og energibruk kan påvirke miljøet lokalt og globalt",
+              "eng": "explain how energy production and energy use can affect the environment locally and globally",
+              "nno": "drøfte korleis energiproduksjon og energibruk kan påverke miljøet lokalt og globalt",
+              "nob": "drøfte hvordan energiproduksjon og energibruk kan påvirke miljøet lokalt og globalt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13866",
+          "core_elements": [
+            "KE1802",
+            "KE1805"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive hvordan forskere har kommet fram til evolusjonsteorien og bruke denne til å forklare utvikling av biologisk mangfold",
+              "eng": "describe how researchers have arrived at evolution theory and use it to explain the development of biological diversity",
+              "nno": "beskrive korleis forskarar har kome fram til evolusjonsteorien og bruke denne til å forklare utvikling av biologisk mangfald",
+              "nob": "beskrive hvordan forskere har kommet fram til evolusjonsteorien og bruke denne til å forklare utvikling av biologisk mangfold"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM13867",
+          "core_elements": [
+            "KE1802",
+            "KE1805"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "sammenligne celler hos ulike organismer og beskrive sammenhenger mellom oppbygning og funksjon",
+              "eng": "compare cells in various organisms and describe the connections between structure and function",
+              "nno": "samanlikne celler hos ulike organismar og beskrive samanhengar mellom oppbygging og funksjon",
+              "nob": "sammenligne celler hos ulike organismer og beskrive sammenhenger mellom oppbygning og funksjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13868",
+          "core_elements": [
+            "KE1802",
+            "KE1805"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske sammenhenger mellom abiotiske og biotiske faktorer i et økosystem og diskutere hvordan energi og materie omdannes i kretsløp",
+              "eng": "explore connections between abiotic and biotic factors in an ecosystem and discuss how energy and matter are converted in cycles",
+              "nno": "utforske samanhengar mellom abiotiske og biotiske faktorar i eit økosystem og diskutere korleis energi og materie blir omdanna i kretsløp",
+              "nob": "utforske sammenhenger mellom abiotiske og biotiske faktorer i et økosystem og diskutere hvordan energi og materie omdannes i kretsløp"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM13875",
+          "core_elements": [
+            "KE1802",
+            "KE1805"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gi eksempler på og drøfte aktuelle dilemmaer knyttet til utnyttelse av naturressurser og tap av biologisk mangfold",
+              "eng": "give examples of and discuss current dilemmas related to exploitation of natural resources and the loss of biological diversity",
+              "nno": "gi døme på og drøfte aktuelle dilemma knytte til utnytting av naturressursar og tap av biologisk mangfald",
+              "nob": "gi eksempler på og drøfte aktuelle dilemmaer knyttet til utnyttelse av naturressurser og tap av biologisk mangfold"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13869",
+          "core_elements": [
+            "KE1805"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gi eksempler på samers tradisjonelle kunnskap om naturen og diskutere hvordan denne kunnskapen kan bidra til bærekraftig forvaltning av naturen",
+              "eng": "give examples of traditional Sami knowledge about nature and discuss how this knowledge can contribute to sustainable nature management",
+              "nno": "gi døme på den tradisjonelle kunnskapen samane har om naturen, og diskutere korleis denne kunnskapen kan bidra til berekraftig forvalting av naturen",
+              "nob": "gi eksempler på samers tradisjonelle kunnskap om naturen og diskutere hvordan denne kunnskapen kan bidra til bærekraftig forvaltning av naturen"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13870",
+          "core_elements": [
+            "KE1802",
+            "KE1804",
+            "KE1805"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for hvordan fotosyntese og celleånding gir energi til alt levende gjennom karbonkretsløpet",
+              "eng": "explain how photosynthesis and cellular respiration produce energy for all living organisms throughout the carbon cycle",
+              "nno": "gjere greie for korleis fotosyntese og celleanding gir energi til alt levande gjennom karbonkretsløpet",
+              "nob": "gjøre rede for hvordan fotosyntese og celleånding gir energi til alt levende gjennom karbonkretsløpet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13871",
+          "core_elements": [
+            "KE1802",
+            "KE1805"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke platetektonikkteorien til å forklare jordas utvikling over tid og gi eksempler på observasjoner som støtter teorien",
+              "eng": "use plate tectonic theory to explain the development of Earth over time and give examples of observations that support this theory",
+              "nno": "bruke platetektonikkteorien til å forklare utviklinga til jorda over tid og gi døme på observasjonar som støttar teorien",
+              "nob": "bruke platetektonikkteorien til å forklare jordas utvikling over tid og gi eksempler på observasjoner som støtter teorien"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13872",
+          "core_elements": [
+            "KE1806"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "drøfte spørsmål knyttet til seksuell og reproduktiv helse",
+              "eng": "discuss questions relating to sexual and reproductive health",
+              "nno": "drøfte spørsmål knytte til seksuell og reproduktiv helse",
+              "nob": "drøfte spørsmål knyttet til seksuell og reproduktiv helse"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13873",
+          "core_elements": [
+            "KE1802",
+            "KE1806"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "sammenligne nervesystemet og hormonsystemet og beskrive hvordan rusmidler, legemidler, miljøgifter og doping påvirker signalsystemene",
+              "eng": "compare the nervous system and hormone system and describe how drugs, medicines, environmental toxins and doping affect the cell signalling systems",
+              "nno": "samanlikne nervesystemet og hormonsystemet og beskrive korleis rusmiddel, legemiddel, miljøgifter og doping påverkar signalsystema",
+              "nob": "sammenligne nervesystemet og hormonsystemet og beskrive hvordan rusmidler, legemidler, miljøgifter og doping påvirker signalsystemene"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13874",
+          "core_elements": [
+            "KE1802",
+            "KE1806"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive kroppens immunforsvar og hvordan vaksiner virker, og gjøre rede for hva vaksiner betyr for folkehelsen",
+              "eng": "describe the body’s immune system and how vaccines work and explain the importance of vaccines for public health",
+              "nno": "beskrive immunforsvaret til kroppen og korleis vaksinar verkar, og gjere greie for kva vaksinar betyr for folkehelsa",
+              "nob": "beskrive kroppens immunforsvar og hvordan vaksiner virker, og gjøre rede for hva vaksiner betyr for folkehelsen"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 10. trinn",
+          "eng": "Competence aims and assessment Year 10",
+          "nno": "Kompetansemål og vurdering 10. trinn",
+          "nob": "Kompetansemål og vurdering 10. trinn"
+        }
+      }
+    }
+  ],
+  "last_modified": "2026-07-10T12:24:12.7930496",
+  "replaced_by": [],
+  "replaces": [
+    "NAT01-04"
+  ],
+  "short_title": {
+    "by_language": {
+      "default": "Naturfag",
+      "eng": "Natural science",
+      "nno": "Naturfag",
+      "nob": "Naturfag"
+    }
+  },
+  "title": {
+    "by_language": {
+      "default": "Læreplan i naturfag",
+      "eng": "Curriculum for Natural science",
+      "nno": "Læreplan i naturfag",
+      "nob": "Læreplan i naturfag"
+    }
+  },
+  "valid_from": "2026-08-01",
+  "valid_to": null
+}

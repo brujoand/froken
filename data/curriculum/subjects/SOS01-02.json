@@ -1,0 +1,105 @@
+{
+  "code": "SOS01-02",
+  "goal_sets": [
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV311",
+      "goals": [
+        {
+          "basic_skills": [],
+          "code": "KM3239",
+          "core_elements": [
+            "KE355",
+            "KE356",
+            "KE357"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "planlegge og delta i scenisk produksjon for publikum",
+              "nob": "planlegge og delta i scenisk produksjon for publikum"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3240",
+          "core_elements": [
+            "KE355",
+            "KE356",
+            "KE357"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske, reflektere over og gjøre rede for ulike prosesser som inngår i en scenisk produksjon, og utføre oppgaver knyttet til scenisk produksjon",
+              "nob": "utforske, reflektere over og gjøre rede for ulike prosesser som inngår i en scenisk produksjon, og utføre oppgaver knyttet til scenisk produksjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3242",
+          "core_elements": [
+            "KE355",
+            "KE356",
+            "KE357"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bidra til dynamisk samspill i utforskende kreative prosesser",
+              "nob": "bidra til dynamisk samspill i utforskende kreative prosesser"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3241",
+          "core_elements": [
+            "KE355",
+            "KE356",
+            "KE357"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og samtale om ulike kunstneriske uttrykk og kulturopplevelser",
+              "nob": "utforske og samtale om ulike kunstneriske uttrykk og kulturopplevelser"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering produksjon for scene",
+          "nob": "Kompetansemål og vurdering produksjon for scene"
+        }
+      }
+    }
+  ],
+  "last_modified": "2024-11-07T12:50:36.3807661",
+  "replaced_by": [],
+  "replaces": [
+    "SOS1-01"
+  ],
+  "short_title": {
+    "by_language": {
+      "default": "Produksjon for scene",
+      "nob": "Produksjon for scene"
+    }
+  },
+  "title": {
+    "by_language": {
+      "default": "Læreplan i valgfaget produksjon for scene",
+      "nob": "Læreplan i valgfaget produksjon for scene"
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

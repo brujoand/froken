@@ -1,0 +1,461 @@
+/* Vendored, no build step, no external requests -- a child's browser should not
+   have to talk to a CDN to read the curriculum. */
+
+:root {
+  --ink: #1c2024;
+  --ink-soft: #5b6570;
+  --paper: #fbfaf7;
+  --card: #fff;
+  --line: #dfdcd4;
+  --accent: #1f5c8b;
+  --accent-soft: #eaf1f7;
+  --quote: #f3f1ec;
+  --radius: 10px;
+  --measure: 38rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #e8e6e1;
+    --ink-soft: #a3a9b0;
+    --paper: #16181b;
+    --card: #1e2125;
+    --line: #333840;
+    --accent: #7db4dd;
+    --accent-soft: #1c2b38;
+    --quote: #22262b;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 1rem/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+main {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 4rem;
+}
+
+h1 {
+  font-size: 1.9rem;
+  line-height: 1.2;
+  margin: 0 0 0.75rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin: 2rem 0 0.75rem;
+}
+
+a {
+  color: var(--accent);
+}
+
+/* Header ------------------------------------------------------------------ */
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.wordmark {
+  font-weight: 650;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.locale-switch {
+  display: flex;
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.locale-switch a,
+.locale-switch span {
+  padding: 0.2rem 0.45rem;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.locale-switch [aria-current] {
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Home -------------------------------------------------------------------- */
+
+.hero h1 {
+  font-size: 2.1rem;
+}
+
+.lede {
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+}
+
+.grade-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr));
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.grade-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+  padding: 1rem 0.5rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: inherit;
+}
+
+.grade-card:hover {
+  border-color: var(--accent);
+}
+
+.grade-number {
+  font-size: 1.75rem;
+  font-weight: 650;
+  color: var(--accent);
+}
+
+.grade-label {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+/* Subject list ------------------------------------------------------------ */
+
+.subject-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.subject-card {
+  display: block;
+  padding: 0.9rem 1rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: inherit;
+}
+
+.subject-card:hover {
+  border-color: var(--accent);
+}
+
+.subject-card h3 {
+  margin: 0 0 0.2rem;
+  font-size: 1.05rem;
+}
+
+.meta {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+/* Checkpoint framing ------------------------------------------------------ */
+
+.checkpoint {
+  margin: 0 0 0.5rem;
+  font-weight: 600;
+}
+
+.checkpoint--upcoming {
+  color: var(--ink-soft);
+}
+
+.note {
+  margin: 0 0 1rem;
+  padding: 0.6rem 0.8rem;
+  background: var(--accent-soft);
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+}
+
+.breadcrumb {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  margin-bottom: 0.75rem;
+}
+
+/* Curriculum text.
+   Visually distinct from everything else on the page. Udir's wording is quoted
+   verbatim under NLOD, and must never be mistakable for ours -- especially once
+   generated quiz questions share the page. */
+
+.verbatim-note {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  margin-bottom: 0.5rem;
+}
+
+.goal-list {
+  margin: 0;
+  padding: 0 0 0 1.25rem;
+  display: grid;
+  gap: 0.9rem;
+}
+
+.goal blockquote {
+  margin: 0;
+  padding: 0.7rem 0.9rem;
+  background: var(--quote);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+.source-link {
+  display: inline-block;
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+
+.quiz-cta {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px dashed var(--line);
+  border-radius: var(--radius);
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+
+.quiz-cta p {
+  margin: 0;
+}
+
+/* Footer ------------------------------------------------------------------ */
+
+.site-footer {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 1.25rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+
+.site-footer p {
+  margin: 0 0 0.4rem;
+}
+
+/* Quiz --------------------------------------------------------------------
+   Questions are ours; curriculum text is Udir's. The two must never look
+   alike, so nothing in here reuses the .curriculum blockquote treatment. */
+
+.authored-note,
+.progress {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.prompt {
+  margin: 0.5rem 0 1rem;
+  font-size: 1.3rem;
+  line-height: 1.35;
+}
+
+.choices {
+  list-style: none;
+  margin: 0 0 1.25rem;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.choices label {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.75rem 0.9rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+.choices label:hover {
+  border-color: var(--accent);
+}
+
+.answer-input {
+  width: 100%;
+  padding: 0.7rem 0.8rem;
+  margin-bottom: 1.25rem;
+  font: inherit;
+  color: inherit;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.button {
+  display: inline-block;
+  padding: 0.65rem 1.2rem;
+  font: inherit;
+  font-weight: 600;
+  color: #fff;
+  background: var(--accent);
+  border: 0;
+  border-radius: var(--radius);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.feedback {
+  padding: 0.9rem 1rem;
+  margin-bottom: 1.25rem;
+  border-radius: var(--radius);
+  border-left: 3px solid var(--line);
+  background: var(--card);
+}
+
+.feedback--correct {
+  border-left-color: #2e7d52;
+}
+
+.feedback--incorrect {
+  border-left-color: #b4762a;
+}
+
+.feedback .verdict {
+  margin: 0 0 0.35rem;
+  font-weight: 650;
+}
+
+.feedback .explanation {
+  margin: 0;
+}
+
+.score {
+  font-size: 1.4rem;
+  font-weight: 650;
+  margin-bottom: 0.25rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.05rem 0.4rem;
+  margin-right: 0.3rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: 4px;
+}
+
+.tally {
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+
+.actions {
+  margin-top: 2rem;
+}
+
+/* Collapsible goal lists --------------------------------------------------
+   A checkpoint can carry twenty-odd competence goals. Shown all at once they
+   push everything else off the screen, so they fold. */
+
+.goals > summary {
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 650;
+  margin: 2rem 0 0.75rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.goals > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* A rotating caret rather than the default marker, so the control reads the
+   same in both browsers and both themes. */
+.goals > summary::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 0.4rem solid currentColor;
+  border-top: 0.3rem solid transparent;
+  border-bottom: 0.3rem solid transparent;
+  transition: transform 0.15s ease;
+}
+
+.goals[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+.goals > summary h2 {
+  display: inline;
+  margin: 0;
+  font-size: inherit;
+}
+
+.goals .count {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: 999px;
+  padding: 0.05rem 0.5rem;
+}
+
+/* What the pupil answered, next to what was right. */
+
+.answers {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.2rem 0.6rem;
+  margin: 0 0 0.6rem;
+  font-size: 0.9rem;
+}
+
+.answers dt {
+  color: var(--ink-soft);
+}
+
+.answers dd {
+  margin: 0;
+  font-weight: 600;
+}
+
+.answers__given {
+  text-decoration: line-through;
+  text-decoration-color: var(--ink-soft);
+}

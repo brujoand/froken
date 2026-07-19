@@ -1,0 +1,38 @@
+{# One question. Swapped in by HTMX; also renders standalone. #}
+{% if item %}
+  <form class="question"
+        hx-post="/{{ locale }}/quiz/{{ session.id }}/answer"
+        hx-target="#quiz-slot"
+        hx-swap="innerHTML">
+    <p class="progress">{{ t("quiz.progress", number=session.answered + 1, total=session.total) }}</p>
+    <input type="hidden" name="item_id" value="{{ item.id }}" />
+
+    {# Authored by us, never quoted from the curriculum -- said plainly, and
+       styled apart from the .curriculum blockquotes for the same reason. #}
+    <h2 class="prompt">{{ item.prompt.get(locale) }}</h2>
+
+    {% if item.type == "multiple_choice" %}
+      <ul class="choices">
+        {% for choice in item.choices %}
+          <li>
+            <label>
+              <input type="radio" name="response" value="{{ choice.id }}" required />
+              <span>{{ choice.text.get(locale) }}</span>
+            </label>
+          </li>
+        {% endfor %}
+      </ul>
+    {% elif item.type == "numeric" %}
+      <input class="answer-input" type="text" inputmode="decimal" name="response"
+             placeholder="{{ t('quiz.numeric_placeholder') }}" autocomplete="off" required />
+    {% else %}
+      <input class="answer-input" type="text" name="response"
+             placeholder="{{ t('quiz.text_placeholder') }}" autocomplete="off" required />
+    {% endif %}
+
+    <button class="button" type="submit">{{ t("quiz.check") }}</button>
+  </form>
+{% else %}
+  <p class="progress">{{ t("quiz.progress", number=session.total, total=session.total) }}</p>
+  <a class="button" href="/{{ locale }}/quiz/{{ session.id }}/result">{{ t("quiz.see_result") }}</a>
+{% endif %}

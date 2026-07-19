@@ -1,0 +1,420 @@
+{
+  "code": "KEF01-01",
+  "goal_sets": [
+    {
+      "after_year": 2,
+      "applies_to_years": [
+        1,
+        2
+      ],
+      "code": "KV162",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM1847",
+          "core_elements": [
+            "KE156",
+            "KE159"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lytte, forstå, lese og bruke innøvde ord og fraser i nye situasjoner",
+              "nob": "lytte, forstå, lese og bruke innøvde ord og fraser i nye situasjoner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF5"
+          ],
+          "code": "KM1871",
+          "core_elements": [
+            "KE156",
+            "KE157"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "kommunisere i lek og bruke praktiske situasjoner til å lære språk",
+              "nob": "kommunisere i lek og bruke praktiske situasjoner til å lære språk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM1869",
+          "core_elements": [
+            "KE156",
+            "KE157",
+            "KE159"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "leke og eksperimentere med språklyder, stavelser, ord og setninger",
+              "nob": "leke og eksperimentere med språklyder, stavelser, ord og setninger"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF5"
+          ],
+          "code": "KM1870",
+          "core_elements": [
+            "KE158"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "fortelle om opplevelser eller erfaringer gjennom kreative og estetiske uttrykk",
+              "nob": "fortelle om opplevelser eller erfaringer gjennom kreative og estetiske uttrykk"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 2. trinn",
+          "nob": "Kompetansemål og vurdering 2. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 4,
+      "applies_to_years": [
+        3,
+        4
+      ],
+      "code": "KV163",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM1873",
+          "core_elements": [
+            "KE156",
+            "KE159"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "delta i samtale om kjente emner",
+              "nob": "delta i samtale om kjente emner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM1872",
+          "core_elements": [
+            "KE156",
+            "KE159"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "finne informasjon og uttrykke forståelse av innholdet",
+              "nob": "finne informasjon og uttrykke forståelse av innholdet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM1875",
+          "core_elements": [
+            "KE156",
+            "KE157",
+            "KE159"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske ulike språkarenaer og bruke dem til egen språklæring",
+              "nob": "utforske ulike språkarenaer og bruke dem til egen språklæring"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF5"
+          ],
+          "code": "KM1874",
+          "core_elements": [
+            "KE156",
+            "KE157"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og eksperimentere med oppbygningen av ord og setninger",
+              "nob": "utforske og eksperimentere med oppbygningen av ord og setninger"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF5"
+          ],
+          "code": "KM1876",
+          "core_elements": [
+            "KE158"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bli kjent med, dokumentere og presentere tradisjoner eller kulturelle uttrykk",
+              "nob": "bli kjent med, dokumentere og presentere tradisjoner eller kulturelle uttrykk"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 4. trinn",
+          "nob": "Kompetansemål og vurdering 4. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 7,
+      "applies_to_years": [
+        5,
+        6,
+        7
+      ],
+      "code": "KV164",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM1878",
+          "core_elements": [
+            "KE156",
+            "KE159"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "delta i spontane og planlagte muntlige og skriftlige situasjoner",
+              "nob": "delta i spontane og planlagte muntlige og skriftlige situasjoner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM1887",
+          "core_elements": [
+            "KE156",
+            "KE157",
+            "KE159"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke relevante ordbøyinger og setningsstrukturer i egen produksjon",
+              "nob": "bruke relevante ordbøyinger og setningsstrukturer i egen produksjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM1879",
+          "core_elements": [
+            "KE157",
+            "KE158"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og reflektere over flerspråklighet og språkmøter",
+              "nob": "utforske og reflektere over flerspråklighet og språkmøter"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM1880",
+          "core_elements": [
+            "KE158"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bli kjent med kvener/norskfinner som en nasjonal minoritet og utforske og beskrive likheter med andre minoriteter",
+              "nob": "bli kjent med kvener/norskfinner som en nasjonal minoritet og utforske og beskrive likheter med andre minoriteter"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 7. trinn",
+          "nob": "Kompetansemål og vurdering 7. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV165",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM1881",
+          "core_elements": [
+            "KE156",
+            "KE159"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "delta i spontane og planlagte samtaler om ulike emner",
+              "nob": "delta i spontane og planlagte samtaler om ulike emner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM1884",
+          "core_elements": [
+            "KE156",
+            "KE158",
+            "KE159"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "finne informasjon om kjente temaer, og bruke den i egen produksjon",
+              "nob": "finne informasjon om kjente temaer, og bruke den i egen produksjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM1882",
+          "core_elements": [
+            "KE156",
+            "KE159"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke modelltekster i egen produksjon",
+              "nob": "bruke modelltekster i egen produksjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM1883",
+          "core_elements": [
+            "KE156",
+            "KE157",
+            "KE159"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke kunnskap om språk og tekststruktur i egen tekstskaping",
+              "nob": "bruke kunnskap om språk og tekststruktur i egen tekstskaping"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM1885",
+          "core_elements": [
+            "KE158"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "undersøke og reflektere over ulike sider ved kvensk/norskfinsk kultur og historie og ulike sider ved «tre stammers møte»",
+              "nob": "undersøke og reflektere over ulike sider ved kvensk/norskfinsk kultur og historie og ulike sider ved «tre stammers møte»"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 10. trinn",
+          "nob": "Kompetansemål og vurdering 10. trinn"
+        }
+      }
+    }
+  ],
+  "last_modified": "2026-04-23T16:07:24.7246432",
+  "replaced_by": [],
+  "replaces": [
+    "FIN1-03"
+  ],
+  "short_title": {
+    "by_language": {
+      "default": "Kvensk eller finsk som andrespråk",
+      "nob": "Kvensk eller finsk som andrespråk"
+    }
+  },
+  "title": {
+    "by_language": {
+      "default": "Læreplan i kvensk eller finsk som andrespråk",
+      "nob": "Læreplan i kvensk eller finsk som andrespråk"
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

@@ -1,0 +1,85 @@
+[project]
+name = "froken"
+description = "What Norwegian pupils should master by each grade checkpoint, and quizzes to test it"
+readme = "README.md"
+requires-python = ">=3.13"
+license = "MIT"
+license-files = ["LICENSE"]
+# Version is derived from the git tag by semantic-release; never hand-bumped.
+dynamic = ["version"]
+dependencies = [
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.34",
+  "jinja2>=3.1",
+  "pydantic>=2.10",
+  "pyyaml>=6.0",
+  # HTML form posts from the quiz; FastAPI requires it for Form(...).
+  "python-multipart>=0.0.20",
+]
+
+[project.scripts]
+froken-ingest = "froken.ingest.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "src/froken/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/froken"]
+
+[dependency-groups]
+dev = [
+  "pytest>=8.0",
+  "pytest-asyncio>=0.25",
+  "pytest-httpx>=0.35",
+  "ruff>=0.9.0",
+]
+# Offline maintainer tooling only. Never installed into the runtime image --
+# that is what keeps "the container needs no API key" structurally true rather
+# than a convention.
+generate = [
+  "anthropic>=0.40",
+  "ruamel.yaml>=0.18",
+]
+# tools/ingest.py talks to Udir; the app never does, so httpx is not a runtime
+# dependency.
+ingest = [
+  "httpx[http2]>=0.28",
+]
+
+[tool.ruff]
+target-version = "py313"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "C4", "SIM", "S"]
+# E501: line length is handled by the formatter. B008: FastAPI's Depends() in
+# defaults is the documented idiom. SIM108: ternaries are not always clearer.
+ignore = ["E501", "B008", "SIM108"]
+
+[tool.ruff.lint.per-file-ignores]
+# S101 (assert): pytest.
+"tests/**" = ["S101"]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.semantic_release]
+# Version lives in one place and is set by tooling, never by hand.
+version_variables = ["src/froken/__init__.py:__version__"]
+build_command = "uv build"
+commit_message = "chore(release): {version}\n\n[skip ci]"
+tag_format = "v{version}"
+
+[tool.semantic_release.branches.main]
+match = "main"
+
+[tool.semantic_release.changelog]
+exclude_commit_patterns = ["chore\\(release\\):.*"]

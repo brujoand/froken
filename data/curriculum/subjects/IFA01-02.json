@@ -1,0 +1,98 @@
+{
+  "code": "IFA01-02",
+  "goal_sets": [
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV312",
+      "goals": [
+        {
+          "basic_skills": [],
+          "code": "KM3243",
+          "core_elements": [
+            "KE359"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og reflektere over hva frivillig arbeid og sosialt entreprenørskap innebærer og hva dette betyr i praksis",
+              "nob": "utforske og reflektere over hva frivillig arbeid og sosialt entreprenørskap innebærer og hva dette betyr i praksis"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3244",
+          "core_elements": [
+            "KE359"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "planlegge og utvikle sosiale tiltak som bidrar til et inkluderende samfunn",
+              "nob": "planlegge og utvikle sosiale tiltak som bidrar til et inkluderende samfunn"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3245",
+          "core_elements": [
+            "KE358",
+            "KE359"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "gjennomføre praktiske sosiale tiltak for andre i samarbeid med andre",
+              "nob": "gjennomføre praktiske sosiale tiltak for andre i samarbeid med andre"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3246",
+          "core_elements": [
+            "KE358"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "følge etiske retningslinjer og tilpasse kommunikasjonen til ulike målgrupper",
+              "nob": "følge etiske retningslinjer og tilpasse kommunikasjonen til ulike målgrupper"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering innsats for andre",
+          "nob": "Kompetansemål og vurdering innsats for andre"
+        }
+      }
+    }
+  ],
+  "last_modified": "2024-11-07T12:55:42.4884951",
+  "replaced_by": [],
+  "replaces": [
+    "IFA1-01"
+  ],
+  "short_title": {
+    "by_language": {
+      "default": "Innsats for andre",
+      "nob": "Innsats for andre"
+    }
+  },
+  "title": {
+    "by_language": {
+      "default": "Læreplan i valgfaget innsats for andre",
+      "nob": "Læreplan i valgfaget innsats for andre"
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

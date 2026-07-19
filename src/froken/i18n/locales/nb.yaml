@@ -1,0 +1,92 @@
+# Bokmål is the source locale. Add a string here first, then to en.yaml --
+# the i18n-key-parity check fails the build if the two drift apart.
+---
+site:
+  name: Frøken
+  tagline: Hva skal du kunne i norsk skole?
+  description: >-
+    Kompetansemålene fra læreplanen, og quizer for å øve på dem.
+
+nav:
+  home: Forsiden
+  language: Språk
+  about: Om Frøken
+
+home:
+  heading: Hvilket trinn går du på?
+  intro: >-
+    Velg klassetrinn for å se hva du skal kunne, og prøv deg på en quiz.
+  grade: "{grade}. klasse"
+
+grade:
+  heading: "{grade}. klasse"
+  subjects_heading: Fag
+  goal_count: "{count} kompetansemål"
+  no_subjects: Vi har ikke noe innhold for dette trinnet ennå.
+
+subject:
+  # The distinction the whole page turns on: a pupil in their checkpoint year is
+  # being told what they should already master, everyone else what they are
+  # working towards.
+  mastery_now: Dette skal du kunne etter {year}. trinn
+  working_towards: Dette jobber du mot fram til {year}. trinn
+  working_towards_note: >-
+    Du går i {grade}. klasse, og målene nedenfor gjelder fram til slutten av
+    {year}. trinn. Du trenger altså ikke kunne alt ennå.
+  goals_heading: Kompetansemål
+  source_link: Se målet hos Udir
+  quiz_cta: Ta quizen
+  quiz_unavailable: Quiz kommer snart for dette faget.
+
+curriculum:
+  # Shown wherever official text appears, so Udir's words are never mistaken for
+  # ours. This is an NLOD condition, not decoration.
+  verbatim_note: >-
+    Teksten nedenfor er gjengitt ordrett fra læreplanen.
+  attribution: >-
+    Inneholder data under NLOD, tilgjengeliggjort på data.udir.no.
+  nynorsk_notice: >-
+    Dette faget er fastsatt på nynorsk, og vises derfor på nynorsk.
+
+disclaimer:
+  short: Frøken er et uoffisielt hjelpemiddel, ikke et vurderingsverktøy.
+  long: >-
+    Frøken er laget for å øve, ikke for å vurdere. Å klare en quiz her betyr
+    ikke at du består et trinn, og å bomme betyr ikke at du ikke gjør det.
+    Frøken er ikke tilknyttet Utdanningsdirektoratet.
+
+footer:
+  source: Kilde
+  licence: Lisens
+  code: Kildekode
+
+quiz:
+  start: Ta quizen
+  intro: "{count} spørsmål fra dette trinnet. Du får svaret forklart underveis."
+  progress: Spørsmål {number} av {total}
+  check: Sjekk svaret
+  next: Neste spørsmål
+  see_result: Se resultatet
+  your_answer: Du svarte
+  correct_answer: Riktig svar
+  correct: Riktig!
+  incorrect: Ikke helt.
+  numeric_placeholder: Skriv et tall
+  text_placeholder: Skriv svaret
+  # Ours, not Udir's -- and the page must never blur that line.
+  authored_note: >-
+    Spørsmålene er laget av Frøken, ikke hentet fra læreplanen.
+
+result:
+  heading: Slik gikk det
+  score: Du fikk {correct} av {total} riktig.
+  passed: Flott jobba! Du har god kontroll på dette trinnet.
+  not_passed: God innsats! Her er det litt igjen å øve på.
+  # Deliberately not "du bestod / strøk". Frøken cannot decide that.
+  not_a_verdict: >-
+    Dette er en øving, ikke en vurdering. Resultatet sier bare hvordan det gikk
+    med disse spørsmålene i dag.
+  strong_heading: Dette får du til
+  practice_heading: Dette kan du øve mer på
+  try_again: Prøv igjen
+  back_to_subject: Tilbake til faget

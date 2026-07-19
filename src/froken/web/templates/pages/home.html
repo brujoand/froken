@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="hero">
+    <h1>{{ t("site.tagline") }}</h1>
+    <p class="lede">{{ t("home.intro") }}</p>
+  </section>
+
+  <section aria-labelledby="grades-heading">
+    <h2 id="grades-heading">{{ t("home.heading") }}</h2>
+    <ul class="grade-grid">
+      {% for grade in grades %}
+        <li>
+          <a class="grade-card" href="/{{ locale }}/klasse/{{ grade }}">
+            <span class="grade-number">{{ grade }}</span>
+            <span class="grade-label">{{ t("home.grade", grade=grade) }}</span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endblock %}

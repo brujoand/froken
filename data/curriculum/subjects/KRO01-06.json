@@ -1,0 +1,1195 @@
+{
+  "code": "KRO01-06",
+  "goal_sets": [
+    {
+      "after_year": 2,
+      "applies_to_years": [
+        1,
+        2
+      ],
+      "code": "KV1046",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13556",
+          "core_elements": [
+            "KE1777",
+            "KE1778"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske eigen kroppsleg bevegelse i leik og andre aktivitetar, åleine og saman med andre",
+              "eng": "explore one’s own bodily movement in play and other activities, alone and together with others",
+              "nno": "utforske eigen kroppsleg bevegelse i leik og andre aktivitetar, åleine og saman med andre",
+              "nob": "utforske egen kroppslig bevegelse i lek og andre aktiviteter, alene og sammen med andre",
+              "sma": "jïjtse kråahpesvihtjemh goerehtidh stååkedimmesne jïh jeatjah darjoeminie, oktegh jïh mubpiejgujmie ektine",
+              "sme": "suokkardit iežas rumašlaš lihkadeami stoahkamis ja eará doaimmain, okto dahje ovttas earáiguin",
+              "smj": "åtsådit ietjas rubbmelasj labudallamav ståhkamin ja ietjá dåjmajn, aktu jali iehtjádij siegen"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13557",
+          "core_elements": [
+            "KE1777"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og gjennomføre grunnleggjande bevegelsar som å krype, gå, springe, hinke, satse, lande, vende og rulle i ulike miljø ut frå eigne føresetnader",
+              "eng": "explore and carry out basic movements such as to crawl, walk, run, hop on one leg, jump, land, turn and roll in different environments based on one’s own abilities",
+              "nno": "utforske og gjennomføre grunnleggjande bevegelsar som å krype, gå, springe, hinke, satse, lande, vende og rulle i ulike miljø ut frå eigne føresetnader",
+              "nob": "utforske og gjennomføre grunnleggende bevegelser som å krype, gå, løpe, hinke, satse, lande, vende og rulle i ulike miljøer ut fra egne forutsetninger",
+              "sma": "goerehtidh jïh tjïrrehtidh vihkeles svihtjemh goh goetsedh, vaedtsedh, vaarredh, tjanghkodh, njulhtjedh, soejedh, jarkedh jïh jårredh jïjtsh nuepiej mietie.",
+              "sme": "suokkardit ja čađahit vuođđolihkademiid nugo beahkit, vázzit, viehkat, čiŋkut, čellet, seaivut, jorgalit ja jorrat iešguđet birrasiin iežaset eavttuid vuođul",
+              "smj": "åtsådit ja tjadádit vuodolabudallamijt dagu biehket, vádtset, viehkat, tjiŋŋgot, tjiellit, sæjvvot, jårggålit ja jållurit iesjguhtik birrasijn ietjasa ævtoj milta"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13558",
+          "core_elements": [
+            "KE1777"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "øve på å avlevere, ta imot og leike med ulike reiskapar og balltypar",
+              "eng": "practise in delivering, receiving and playing with different objects and types of ball",
+              "nno": "øve på å avlevere, ta imot og leike med ulike reiskapar og balltypar",
+              "nob": "øve på å avlevere, ta imot og leke med ulike redskaper og balltyper",
+              "sma": "haarjanidh deelledh, dåastodh jïh stååkedidh ovmessie dïrregigujmie jïh tjengkeresåarhtigujmie",
+              "sme": "hárjehallet bálkestit ja dustet iešguđetlágan reaidduid ja spáppaid ja stoahkat daiguin",
+              "smj": "hárjjidallat bálkestit ja duosstot iesjguhtiklágásj ræjdojt ja bállojt ja daj ståhkat"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13559",
+          "core_elements": [
+            "KE1778"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "leike og vere med saman med andre i aktivitet i varierte bevegelsesmiljø",
+              "eng": "play and interact with others in activities in a variety of movement environments",
+              "nno": "leike og vere med saman med andre i aktivitet i varierte bevegelsesmiljø",
+              "nob": "leke og være med sammen med andre i aktivitet i varierte bevegelsesmiljøer",
+              "sma": "stååkedidh jïh mubpiejgujmie årrodh darjoeminie jeereldihkie svihtjemebyjresinie",
+              "sme": "stoahkat ja leat ovttas earáiguin doaimmain iešguđetlágan lihkadanbirrasiin",
+              "smj": "ståhkat ja liehket iehtjádij siegen dåjmajn iesjguhtiklágásj labudallambirrasijn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13560",
+          "core_elements": [
+            "KE1777"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "leike og utføre grunnleggjande øvingar med tilvenning til vatn, som å dykke, flyte, gli, skape framdrift, hoppe uti og orientere seg i vatn",
+              "eng": "play and perform basic exercises to get accustomed to water, such as to dive, float, glide, move through the water and jump into and orient oneself in water",
+              "nno": "leike og utføre grunnleggjande øvingar med tilvenning til vatn, som å dykke, flyte, gli, skape framdrift, hoppe uti og orientere seg i vatn",
+              "nob": "leke og utføre grunnleggende øvelser med tilvenning til vann, som å dykke, flyte, gli, skape framdrift, hoppe uti og orientere seg i vann",
+              "sma": "stååkedidh jïh vihkeles haarjanimmieh darjodh gosse vaane sjædta tjaetsine, goh tjarnedh, gabpeldidh, galkedh, åvtese båetedh, njulhtjedh jïh tjaetsesne vaaksjoehtidh",
+              "sme": "stoahkat ja čađahit vuođđohárjehusaid hárjánit čáhcái, nugo buokčalit, govdut, rievdat, beassat ovddos guvlui, njuiket čáhcái ja orienteret čázis",
+              "smj": "ståhkat ja tjadádit vuodohárjjidusájt hárjjánit tjáhtjáj, dagu buoktjalit, gårvvot, bessat åvddålijguovlluj, gahppadit tjáhtjáj ja orientierit tjátjen"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13561",
+          "core_elements": [
+            "KE1778"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "forstå og praktisere enkle reglar for samspel i ulike bevegelsesaktivitetar",
+              "eng": "understand and follow simple rules for interaction in various movement activities",
+              "nno": "forstå og praktisere enkle reglar for samspel i ulike bevegelsesaktivitetar",
+              "nob": "forstå og praktisere enkle regler for samspill i ulike bevegelsesaktiviteter",
+              "sma": "aelhkie njoelkedassh ektiespïelese guarkedh jïh praktiseeredh ovmessie svihtjemedarjoeminie",
+              "sme": "áddet ja praktiseret ovttasdoaibmama álkes njuolggadusaid iešguđetlágan lihkadandoaimmain",
+              "smj": "dádjadit ja praktisierit álkkes njuolgadusájt gåktu iehtjádij siegen labudallat duon dán dåjman"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13562",
+          "core_elements": [
+            "KE1779"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske naturen i nærmiljøet med varierte aktivitetar til ulike årstider",
+              "eng": "explore nature in the local environment with a variety of activities in each of the seasons",
+              "nno": "utforske naturen i nærmiljøet med varierte aktivitetar til ulike årstider",
+              "nob": "utforske naturen i nærmiljøet med varierte aktiviteter til ulike årstider",
+              "sma": "eatnemem voengesne goerehtidh jeereldihkie darjoeminie ovmessie jaepieboelhkine",
+              "sme": "suokkardit luonddu lagašbirrasis iešguđetlágan doaimmain iešguđet jagiáiggiin",
+              "smj": "åtsådit luondov lahkabirrasin iesjguhtiklágásj dåjmaj jagev birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13563",
+          "core_elements": [
+            "KE1779"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "forstå og praktisere turreglar og bruke klede etter vêr og forhold i naturen",
+              "eng": "understand and follow rules for hiking and wear the proper clothing according to the weather and outdoor conditions",
+              "nno": "forstå og praktisere turreglar og bruke klede etter vêr og forhold i naturen",
+              "nob": "forstå og praktisere turregler og bruke klær etter vær og forhold i naturen",
+              "sma": "tuvrenjoelkedassh guarkedh jïh praktiseeredh jïh gåårvedih vearelden jïh eatnemen tsiehkiej mietie",
+              "sme": "áddet ja praktiseret olgodaddannjuolggadusaid ja gárvodit dálkki mielde",
+              "smj": "dádjadit ja praktisierip tuvra njuolgadusájt ja gárvvunit dálke milta"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13564",
+          "core_elements": [
+            "KE1779"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "øve på trygg ferdsel i trafikken",
+              "eng": "practise safe behaviour in traffic",
+              "nno": "øve på trygg ferdsel i trafikken",
+              "nob": "øve på trygg ferdsel i trafikken",
+              "sma": "haarjanidh jearsoeslaakan valkesisnie vaedtsedh",
+              "sme": "hárjehallat dorvvolaččat johtit johtolagas",
+              "smj": "hárjjidallat liehket jasska jåhtulagán"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13565",
+          "core_elements": [
+            "KE1779"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "øve på trygg ferdsel ved vatn og på å kunne tilkalle hjelp",
+              "eng": "practise safe behaviour when in the water and practise how to call for help",
+              "nno": "øve på trygg ferdsel ved vatn og på å kunne tilkalle hjelp",
+              "nob": "øve på trygg ferdsel ved vann og på å tilkalle hjelp",
+              "sma": "haarjanidh jearsoeslaakan vaedtsedh jaevrien/jeanoen lïhke jïh maehtedh viehkien mietie gohtjedidh",
+              "sme": "hárjehallat dorvvolaččat johtit čáziid lahka ja máhttit čuorvvuhit veahki",
+              "smj": "hárjjidallat jasska jåhtet tjátjij milta ja máhttet viehkev ánodit"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 2. trinn",
+          "eng": "Competence aims and assessment Year 2",
+          "nno": "Kompetansemål og vurdering 2. trinn",
+          "nob": "Kompetansemål og vurdering 2. trinn",
+          "sma": "Maahtoeulmieh jïh vuarjasjimmie 2. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 2. ceahkki",
+          "smj": "2. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    },
+    {
+      "after_year": 4,
+      "applies_to_years": [
+        3,
+        4
+      ],
+      "code": "KV1047",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF5"
+          ],
+          "code": "KM13566",
+          "core_elements": [
+            "KE1778"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og gjennomføre leikar, idrettsaktivitetar, dansar og andre bevegelsesaktivitetar",
+              "eng": "explore and play games, take part in sports activities, dancing and other movement activities",
+              "nno": "utforske og gjennomføre leikar, idrettsaktivitetar, dansar og andre bevegelsesaktivitetar",
+              "nob": "utforske og gjennomføre leker, idrettsaktiviteter, danser og andre bevegelsesaktiviteter",
+              "sma": "goerehtidh jïh tjïrrehtidh stååkedimmieh, gaarsjelimmiedarjomh, daanhtsoeh jïh jeatjah svihtjemedarjomh",
+              "sme": "suokkardit ja čađahit stoahkamiid, valáštallandoaimmaid, dánsumiid ja eará lihkadandoaimmaid",
+              "smj": "åtsådit ja tjadádit ståhkusijt, valástallamdåjmajt, dánssamijt ja ietjá labudallamdåjmajt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13567",
+          "core_elements": [
+            "KE1777"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke kroppen til å utforske aktivitetar og utvikle grunnleggjande bevegelsar",
+              "eng": "use one's body to explore activities and develop basic movements",
+              "nno": "bruke kroppen til å utforske aktivitetar og utvikle grunnleggjande bevegelsar",
+              "nob": "bruke kroppen til å utforske aktiviteter og utvikle grunnleggende bevegelser",
+              "sma": "kråahpem nuhtjedh darjomh goerehtidh jïh vihkeles svihtjemh evtiedidh",
+              "sme": "geavahit rupmaša suokkardit doaimmaid ja ovdánahttit vuođđolihkademiid",
+              "smj": "adnet rubmahav åtsådittjat dåjmajt ja åvddånahtátjit vuodolabudallamijt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13568",
+          "core_elements": [
+            "KE1777"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "øve på og bruke basisferdigheiter som å føre, kaste, sprette, sparke og ta imot ball i ulike bevegelsesaktivitetar",
+              "eng": "practise and use basic skills, such as running with, throwing, bouncing, kicking and catching a ball in various movement activities",
+              "nno": "øve på og bruke basisferdigheiter som å føre, kaste, sprette, sparke og ta imot ball i ulike bevegelsesaktivitetar",
+              "nob": "øve på og bruke basisferdigheter som å føre, kaste, sprette, sparke og ta imot ball i ulike bevegelsesaktiviteter",
+              "sma": "haarjanidh jïh basisedarjomh nuhtjedh goh jårredh, hajkedh, trïhpehtidh jïh tjengkerem dåastodh ovmessie svihtjemedarjoeminie",
+              "sme": "hárjehallat ja geavahit vuođđogálggaid nugo jođihit, bálkut, njuikut, čiekčat ja dustet spáppa iešguđetlágan lihkadandoaimmain",
+              "smj": "hárjjidallat ja adnet vuodotjehpudagájt dagu doalvvot, bálkestit, gampaldit, tjiektjat ja duosstot bállov iesjguhtiklágásj labudallamdåjmajn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13569",
+          "core_elements": [
+            "KE1777"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "vere symjedyktig ved å falle uti på djupt vatn, symje 100 meter på magen, og undervegs dykke ned og hente ein gjenstand med hendene, stoppe og kvile i 3 minutt (imens flyte på magen, orientere seg, rulle over, flyte på rygg), så symje 100 meter på rygg og ta seg opp på land",
+              "eng": "show the ability to swim by falling into deep water, front stroke swimming 100 m, during which the pupil dives down and picks up an object with his or her hands, stopping and resting for three minutes (while keeping afloat on one's stomach, orienting oneself, rolling over, floating on one’s back), then swimming 100 m backstroke, and climbing ashore",
+              "nno": "vere symjedyktig ved å falle uti på djupt vatn, symje 100 meter på magen, og undervegs dykke ned og hente ein gjenstand med hendene, stoppe og kvile i 3 minutt (imens flyte på magen, orientere seg, rulle over, flyte på rygg), så symje 100 meter på rygg og ta seg opp på land",
+              "nob": "være svømmedyktig ved å falle uti på dypt vann, svømme 100 meter på magen, og underveis dykke ned og hente en gjenstand med hendene, stoppe og hvile i 3 minutter (og samtidig flyte på magen, orientere seg, rulle over og flyte på ryggen), og deretter svømme 100 meter på rygg og ta seg opp på land",
+              "sma": "maehtedh voejedh gosse gïengelisnie, 100 meeterh tjåejjien nelnie voejedh, jïh tjarnedh jïh daeverem gïetigujmie veedtjedh, tjöödtjestidh jïh lïegkedidh 3 minudth (meatan tjåejjien nelnie gabpelde, vaaksjohte, jårra, rudtjen nelnie gabpelde), jïh vihth 100 meeterh rudtjen nelnie voejedh jïh gaadtan vaedtsedh",
+              "sme": "máhttit vuodjat go gahččá čiekŋalis čáhcái, vuodjat 100 mehtera čoavjji alde ja vuojadettiin buokčalit ja viežžat áđa gieđaiguin, bisánit ja vuoiŋŋastit 3 minuhta (govddodettiin čoavjji alde, orienteret, jorgalit ja govdut čielggi alde), dasto vuodjat 100 mehtera čielggi alde ja beassat gáddái",
+              "smj": "máhttet vuodjat gå tjiegŋalis tjáhtjáj gahttjá, vuodjat 100 miehttara tjoajve nanna ja vuojadijn buoktjalit ja viedtjat ádav giedaj, ganugit ja vuojŋadallat 3 minuhta (madi tjoajve nanna gårvvu, gehtjas birás, jårggål ja gårvvu hárddo nanna), ja de vuodjat 100 miehttara hárddo nanna ja bessat gáddáj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13570",
+          "core_elements": [
+            "KE1778"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "forstå og bruke reglar for samhandling i spel og bevegelsesaktivitetar",
+              "eng": "understand and follow rules for interaction in games and movement activities",
+              "nno": "forstå og bruke reglar for samhandling i spel og bevegelsesaktivitetar",
+              "nob": "forstå og bruke regler for samhandling i spill og bevegelsesaktiviteter",
+              "sma": "aelhkie njoelkedassh ektiespïelese guarkedh jïh darjodh ovmessie svihtjemedarjoeminie",
+              "sme": "áddet ja geavahit ovttasdoaibmannjuolggadusaid stoahkamis ja lihkadandoaimmain",
+              "smj": "dádjadit ja adnet njuolgadusájt gå iehtjádij siegen stoahká ja labudallá"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13571",
+          "core_elements": [
+            "KE1778"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "forstå kroppsleg ulikskap mellom seg sjølv og andre, og inkludere andre i ulike bevegelsesaktivitetar",
+              "eng": "understand how one’s own body and others’ bodies are different, and include others in different movement activities",
+              "nno": "forstå kroppsleg ulikskap mellom seg sjølv og andre, og inkludere andre i ulike bevegelsesaktivitetar",
+              "nob": "forstå kroppslig ulikhet mellom seg selv og andre, og inkludere andre i ulike bevegelsesaktiviteter",
+              "sma": "guarkedh jïjtse jïh mubpiej kråahph leah joekehts, jïh jeatjebh meatan vaeltedh ovmessie svihtjemedarjoeminie",
+              "sme": "áddet rumašlaš erohusaid alddis ja earáin, ja váldit earáid mielde iešguđetlágan lihkadandoaimmaide",
+              "smj": "dádjadit rubbmelasj sieradusájt ietjas ja iehtjádij gaskan, ja válldet iehtjádijt fáron duon dán labudallamdåjmajda"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13572",
+          "core_elements": [
+            "KE1778",
+            "KE1779"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske uteaktivitetar og samarbeide med andre under vekslande årstider i nærmiljøet",
+              "eng": "explore outdoor activities and cooperate with others during the different seasons in the local environment",
+              "nno": "utforske uteaktivitetar og samarbeide med andre under vekslande årstider i nærmiljøet",
+              "nob": "utforske uteaktiviteter og samarbeide med andre under vekslende årstider i nærmiljøet",
+              "sma": "darjomh ålkone goerehtidh jïh mubpiejgujmie laavenjostedh joekehts jaepieboelhki voengesne",
+              "sme": "suokkardit olgodoaimmaid ja ovttasbargat earáiguin iešguđet jagiáiggiin lagaširrasis",
+              "smj": "åtsådit ålggodåjmajt ja iehtjádij siegen liehket ålggon lahka birrasin jagev birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13573",
+          "core_elements": [
+            "KE1779"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lage og bruke kart for å orientere seg i kjent terreng",
+              "eng": "make and use maps to orient oneself in familiar terrain",
+              "nno": "lage og bruke kart for å orientere seg i kjent terreng",
+              "nob": "lage og bruke kart for å orientere seg i kjent terreng",
+              "sma": "kaarhth darjodh jïh nuhtjedh juktie åehpies eatnamisnie vaaksjoehtidh",
+              "sme": "ráhkadit ja geavahit kártta dádjadit oahpes guovllus",
+              "smj": "stiellit ja adnet kártav oahpes bájkev dádjadittjat"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13574",
+          "core_elements": [
+            "KE1779"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "øve på trygg og sporlaus ferdsel i naturen",
+              "eng": "practise safe and sustainable nature wandering",
+              "nno": "øve på trygg og sporlaus ferdsel i naturen",
+              "nob": "øve på trygg og sporløs ferdsel i naturen",
+              "sma": "haarjanidh jearsoeslaakan jïh gïejehts eatnamisnie fealadidh",
+              "sme": "hárjehallat dorvvolaččat ja luottaheamet johtalit luonddus",
+              "smj": "hárjjidallat jasska jåhtålit luondon váni luottajt guodemis"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13575",
+          "core_elements": [],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "forstå og følgje reglar i trafikken",
+              "eng": "understand and follow traffic rules",
+              "nno": "forstå og følgje reglar i trafikken",
+              "nob": "forstå og følge regler i trafikken",
+              "sma": "njoelkedassh valkesisnie guarkedh jïh fulkedh",
+              "sme": "áddet ja čuovvut johtolatnjuolggadusaid",
+              "smj": "dádjadit ja tjuovvot jåhtulagá njuolgadusájt"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 4. trinn",
+          "eng": "Competence aims and assessment Year 4",
+          "nno": "Kompetansemål og vurdering 4. trinn",
+          "nob": "Kompetansemål og vurdering 4. trinn",
+          "sma": "Maahtoeulmie jïh vuarjasjimmie 4. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 4. ceahkki",
+          "smj": "4. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    },
+    {
+      "after_year": 7,
+      "applies_to_years": [
+        5,
+        6,
+        7
+      ],
+      "code": "KV1048",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13576",
+          "core_elements": [
+            "KE1778"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og gjennomføre leik og spel saman med andre i ulike bevegelsesaktivitetar",
+              "eng": "explore, play and play games, and play together with others in various movement activities",
+              "nno": "utforske og gjennomføre leik og spel saman med andre i ulike bevegelsesaktivitetar",
+              "nob": "utforske og gjennomføre lek og spill sammen med andre i ulike bevegelsesaktiviteter",
+              "sma": "goerehtidh jïh tjïrrehtidh stååkedimmieh, spïelh mubpiejgujmie jeatjah svihtjemedarjoeminie",
+              "sme": "suokkardit ja čađahit stoahkama ja speallama ovttas earáiguin iešguđetlágan lihkadandoaimmain",
+              "smj": "åtsådit ja tjadádit ståhkamav ja spellamav iehtjádij siegen iesjguhtiklágásj labudallamdåjmajn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13577",
+          "core_elements": [
+            "KE1777",
+            "KE1778"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "øve på samansette bevegelsar, åleine og saman med andre",
+              "eng": "practise complex movements, alone and together with others",
+              "nno": "øve på samansette bevegelsar, åleine og saman med andre",
+              "nob": "øve på sammensatte bevegelser, alene og sammen med andre",
+              "sma": "haarjanidh tjåanghkan bïejesovveme svihtjemh, oktegh jïh mubpiejgujmie ektine",
+              "sme": "hárjehallet váttes lihkademiid, okto dahje ovttas earáiguin",
+              "smj": "hárjjidallat gássjelis labudallamijt, aktu jali iehtjádij siegen"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13578",
+          "core_elements": [
+            "KE1777"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjennomføre aktivitetar ut frå eigne interesser og føresetnader i dans, friluftsliv, idrettsaktivitetar og andre bevegelsesaktivitetar",
+              "eng": "take part in activities according to one’s own interests and abilities in dancing, outdoor life, sports activities and other movement activities",
+              "nno": "gjennomføre aktivitetar ut frå eigne interesser og føresetnader i dans, friluftsliv, idrettsaktivitetar og andre bevegelsesaktivitetar",
+              "nob": "gjennomføre aktiviteter ut fra egne interesser og forutsetninger i dans, friluftsliv, idrettsaktiviteter og andre bevegelsesaktiviteter",
+              "sma": "darjomh tjïrrehtidh jïjtsh ïedtji jïh nuepiej mietie daanhtsosne, ålkoejieliedisnie, gaarsjelimmiedarjoeminie jïh jeatjah svihtjemedarjoeminie",
+              "sme": "čađahit doaimmaid iežas beroštumiid ja eavttuid vuođul dánsumis, olgodaddamis, valáštallandoaimmain ja eará lihkadandoaimmain",
+              "smj": "tjadádit dåjmajt ietjas berustimij ja ævtoj milta dánssamin, ålggoiellemin, valástallamdåjmajn ja ietjá labudallamdåjmajn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13579",
+          "core_elements": [
+            "KE1779"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke kart, digitale verktøy og teikn i naturen til å orientere seg i natur og nærmiljø",
+              "eng": "use maps, digital tools and signs in nature to orient oneself in nature and the local environment",
+              "nno": "bruke kart, digitale verktøy og teikn i naturen til å orientere seg i natur og nærmiljø",
+              "nob": "bruke kart, digitale verktøy og tegn i naturen til å orientere seg i natur og nærmiljø",
+              "sma": "kaarhth, digitaale dïrregh jïh væhtah eatnamisnie nuhtjedh juktie eatnamisnie jïh voengesne vaaksjoehtidh",
+              "sme": "geavahit kártta, digitála reaidduid ja luonddumearkkaid dádjadit luonddus ja lagašbirrasis",
+              "smj": "adnet kártav, digitála vædtsagijt ja luondomerkajt gå luonnduj ja lahka birrasij oahpásmuvvá"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13580",
+          "core_elements": [
+            "KE1778"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "forstå og praktisere reglar for aktivitet og spel og respektere resultata",
+              "eng": "understand and follow the rules for activities and games and respect the results",
+              "nno": "forstå og praktisere reglar for aktivitet og spel og respektere resultata",
+              "nob": "forstå og praktisere regler for aktivitet og spill og respektere resultatene",
+              "sma": "njoelkedassh guarkedh jïh nuhtjedh darjoeminie jïh spïelesne jïh illedahkide ååktedh",
+              "sme": "áddet ja praktiseret doaimmaid ja stoahkama njuolggadusaid ja dohkkehit bohtosiid",
+              "smj": "dádjadit ja praktisierit dåjmaj ja ståhkama njuolgadusájt ja dåhkkidit båhtusijt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13581",
+          "core_elements": [
+            "KE1778"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "forstå ulikskapar mellom seg sjølv og andre og delta i bevegelsesaktivitetar som kan vere tilpassa ikkje berre eigne føresetnader, men òg andre sine",
+              "eng": "understand the differences between oneself and others and participate in movement activities that may be adapted to the abilities of others, not only one's personal preferences",
+              "nno": "forstå ulikskapar mellom seg sjølv og andre og delta i bevegelsesaktivitetar som kan vere tilpassa ikkje berre eigne føresetnader, men òg andre sine",
+              "nob": "forstå ulikheter mellom seg selv og andre og delta i bevegelsesaktiviteter som kan være tilpasset ikke bare egne forutsetninger, men også andres",
+              "sma": "joekehtsh jïjtse jïh mubpiej gaskem guarkedh jïh meatan årrodh svihtjemedarjoeminie mah maehtieh sjïehtedamme årrodh ij ajve jïjtse nuepide men aaj mubpiej",
+              "sme": "áddet iežas ja earáid erohusaid ja searvat lihkadandoaimmaide mat sáhttet leat heivehuvvon sihke iežas ja earáid eavttuide",
+              "smj": "dádjadit sieradusájt ietjas ja iehtjádij gaskan ja sæbrrat labudallamdåjmajda ma máhtti liehket hiebaduvvam sihke ietjas ja iehtjádij ævtojda"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13582",
+          "core_elements": [
+            "KE1777"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utføre grunnleggjande teknikkar i symjing på magen, på ryggen og under vatn",
+              "eng": "perform basic techniques in front stoke swimming, backstroke swimming and swimming under water",
+              "nno": "utføre grunnleggjande teknikkar i symjing på magen, på ryggen og under vatn",
+              "nob": "utføre grunnleggende teknikker i svømming på magen, på ryggen og under vann",
+              "sma": "vihkeles voejemevuekieh darjodh tjåejjien jïh rudtjen nelnie jïh tjaetsien nuelesne",
+              "sme": "čađahit vuodjama vuođđoteknihkaid čoavjji alde, čielggi alde ja čázi vuolde",
+              "smj": "tjadádit vuodjama vuodoteknihkajt tjoajve nanna, hárddo nanna ja tjátje vuolen"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13583",
+          "core_elements": [
+            "KE1779"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "vurdere sikkerheit i uteaktivitet og naturferdsel og gjennomføre sjølvberging i vatn",
+              "eng": "assess the safety of outdoor activities and nature wandering and learn self-rescue in water",
+              "nno": "vurdere sikkerheit i uteaktivitet og naturferdsel og gjennomføre sjølvberging i vatn",
+              "nob": "vurdere sikkerhet i uteaktivitet og naturferdsel og gjennomføre selvberging i vann",
+              "sma": "jearsoesvoetem ålkoedarjoeminie jïh fealadimmesne eatnamisnie vuarjasjidh jïh jïjjebïerkenimmiem tjïrrehtidh tjaetsesne",
+              "sme": "árvvoštallat sihkkarvuođa olgodoaimmain ja luonddujohtaleamis ja gádjut iežas čázis",
+              "smj": "árvustallat sihkarvuodav ålggodåjmajn ja luondojåhtålimen ja ietjas bierggit tjátjen"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13584",
+          "core_elements": [
+            "KE1779"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke nærmiljøet og utforske lokale kulturar for friluftsliv",
+              "eng": "use the local environment and explore local outdoor life cultures",
+              "nno": "bruke nærmiljøet og utforske lokale kulturar for friluftsliv",
+              "nob": "bruke nærmiljøet og utforske lokale kulturer for friluftsliv",
+              "sma": "voengem nuhtjedh jïh voenges kultuvrh ålkoejieliedasse goerehtidh",
+              "sme": "geavahit lagašbirrasa ja suokkardit báikkálaš olgodaddanvieruid",
+              "smj": "adnet lahka birrasav ja åtsådit bájkálasj dábijt ma li ålggoiellemij tjanádum"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM13585",
+          "core_elements": [
+            "KE1779"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjere greie for allemannsretten under ferdsel og opphald i naturen",
+              "eng": "explain the public right of access in nature and behaviour in nature",
+              "nno": "gjere greie for allemannsretten under ferdsel og opphald i naturen",
+              "nob": "gjøre rede for allemannsretten under ferdsel og opphold i naturen",
+              "sma": "åålmehreaktam fealadimmesne jïh vïesehtimmesne eatnamisnie tjïelkestidh",
+              "sme": "čilget buohkaidrievtti go johtala ja lea luonddus",
+              "smj": "tjielggit gájkaj riektáv gå luondon vándart"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM13586",
+          "core_elements": [
+            "KE1779"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjennomføre overnattingstur og reflektere over eigne naturopplevingar",
+              "eng": "go on overnight trips and reflect on one’s own experiences of nature",
+              "nno": "gjennomføre overnattingstur og reflektere over eigne naturopplevingar",
+              "nob": "gjennomføre overnattingstur og reflektere over egne naturopplevelser",
+              "sma": "jïjjedimmietuvrem tjïrrehtidh jïh jïjtse eatnemedååjresi bijjeli ussjedadtedh",
+              "sme": "čađahit idjadanmátkki ja reflekteret iežas luondduvásáhusaid birra",
+              "smj": "tjadádit idjadimtuvrav ja reflektierit ietjas luondovásádusáj badjel"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 7. trinn",
+          "eng": "Competence aims and assessment Year 7",
+          "nno": "Kompetansemål og vurdering 7. trinn",
+          "nob": "Kompetansemål og vurdering 7. trinn",
+          "sma": "Maahtoeulmieh jïh vuarjasjimmie 7. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 7. ceahkki",
+          "smj": "7. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    },
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV1049",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13587",
+          "core_elements": [
+            "KE1777",
+            "KE1778"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske eigne moglegheiter til trening, helse og velvære gjennom leik, dans, friluftsliv, idrettsaktivitetar og andre bevegelsesaktivitetar",
+              "eng": "explore one’s own opportunities for exercising, health and well-being through play, dancing, outdoor life, sports activities and other movement activities",
+              "nno": "utforske eigne moglegheiter til trening, helse og velvære gjennom leik, dans, friluftsliv, idrettsaktivitetar og andre bevegelsesaktivitetar",
+              "nob": "utforske egne muligheter til trening, helse og velvære gjennom lek, dans, friluftsliv, idrettsaktiviteter og andre bevegelsesaktiviteter",
+              "sma": "jïjtse nuepieh saavremasse, healsose jïh buerie jieliedasse goerehtidh stååkedimmien, daanhtsoen, ålkoejieleden, gaarsjelimmiedarjomi jïh jeatjah svihtjemedarjomi tjïrrh",
+              "sme": "suokkardit iežas hárjehallanvejolašvuođaid, dearvvašvuođa ja dearvvašvuođadovddu stoahkama, dánsuma, olgodaddama, valáštallandoaimmaid ja eará lihkadandoaimmaid bokte",
+              "smj": "åtsådit ietjas vejulasjvuodajt hárjjidallat, varresvuohtaj ja hávsskudallamij ståhkama, dánssama, ålggoiellema, valástallamdåjmaj ja ietjá labudallamdåjmaj baktu"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13588",
+          "core_elements": [
+            "KE1777"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "trene på og utvikle ferdigheiter i varierte bevegelsesaktivitetar",
+              "eng": "exercise and develop skills in a variety of movement activities",
+              "nno": "trene på og utvikle ferdigheiter i varierte bevegelsesaktivitetar",
+              "nob": "trene på og utvikle ferdigheter i varierte bevegelsesaktiviteter",
+              "sma": "tjiehpiesvoeth jeereldihkie svihtjemedarjoeminie haarjanidh jïh evtiedidh",
+              "sme": "hárjehallat ja ovdánahttit gálggaid iešguđetlágan lihkadandoaimmain",
+              "smj": "hárjjidallat ja åvddånahttet tjehpudagájt iesjguhtiklágásj labudallamdåjmajn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13589",
+          "core_elements": [
+            "KE1778"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "øve på og gjennomføre danseaktivitetar frå ungdomskulturar og andre kulturar, og saman med medelevar skape og presentere dansekomposisjonar",
+              "eng": "practise and carry out dance activities from youth cultures and other cultures, and together with co-pupils create and present dance compositions",
+              "nno": "øve på og gjennomføre danseaktivitetar frå ungdomskulturar og andre kulturar, og saman med medelevar skape og presentere dansekomposisjonar",
+              "nob": "øve på og gjennomføre danseaktiviteter fra ungdomskulturer og andre kulturer, og sammen med medelever skape og presentere dansekomposisjoner",
+              "sma": "haarjanidh jïh tjïrrehtidh daanhtsoedarjomh noerekultuvrijste jïh jeatjah kultuvrijste, jïh meatanlearohkigujmie daanhtsoekomposisjovnh sjugniedidh jïh åehpiedehtedh",
+              "sme": "hárjehallat ja čađahit nuoraidkultuvrraid ja eará kultuvrraid dánsundoaimmaid, ja ovttas mielohppiiguin ráhkadit ja ovdanbuktit dánsunkomposišuvnnaid",
+              "smj": "hárjjidallat ja tjadádit nuorajkultuvraj ja ietjá kultuvraj dánssamdåjmajt, ja guojmmeoahppij siegen stiellit ja åvddånbuktet dánssamkomposisjåvnåjt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13590",
+          "core_elements": [
+            "KE1777"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over korleis ulike framstillingar av kropp i media og samfunnet påverkar bevegelsesaktivitet, kroppsidentitet og sjølvbilete",
+              "eng": "reflect on how different presentations of the body in media and society affect movement activity, and how the pupil sees his or her body and self-image",
+              "nno": "reflektere over korleis ulike framstillingar av kropp i media og samfunnet påverkar bevegelsesaktivitet, kroppsidentitet og sjølvbilete",
+              "nob": "reflektere over hvordan ulike framstillinger av kropp i media og samfunnet påvirker bevegelsesaktivitet, kroppsidentitet og selvbilde",
+              "sma": "ussjedadtedh guktie ovmessie åehpiedehtemh kråahpeste medijisnie jïh seabradahkesne svihtjemedarjoemidie, kråahpeidentiteetese jïh jïjtjeguvviem baajnehtieh",
+              "sme": "reflekteret mot iešguđetlágan rumašgovvádusat medias ja servodagas váikkuhit lihkadandoaimmaide, rumašidentitehtii ja iešgovvii",
+              "smj": "reflektierit gåktu iesjguhtiklágásj rumájgåvvidime mediján ja sebrudagán vájkkudi labudallamdåjmajda, rumájidentitiehttaj ja iesjgåvvåj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13591",
+          "core_elements": [
+            "KE1777"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "planleggje og gjennomføre bevegelsesaktivitetar som kan gjennomførast ved skadar eller sjukdom",
+              "eng": "plan and perform movement activities that can be carried out in the case of injury or illness",
+              "nno": "planleggje og gjennomføre bevegelsesaktivitetar som kan gjennomførast ved skadar eller sjukdom",
+              "nob": "planlegge og gjennomføre bevegelsesaktiviteter som kan gjennomføres ved skader eller sykdom",
+              "sma": "svihtjemedarjomh soejkesjidh jïh tjïrrehtidh mejtie maahta tjïrrehtidh jis skaarah jallh skïemtjelassh åtna",
+              "sme": "plánet ja čađahit lihkadandoaimmaid maid sáhttá dahkat beroškeahttá vigiin ja dávddain",
+              "smj": "plánit ja tjadádit labudallamdåjmajt majt máhttá dahkat vájku la vahágahtedum jali skibás"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13592",
+          "core_elements": [
+            "KE1777",
+            "KE1778"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke eigne ferdigheiter og kunnskapar på ein slik måte at det kan medverke til framgang for andre",
+              "eng": "use one’s own skills and knowledge in a way that might help others to have progress",
+              "nno": "bruke eigne ferdigheiter og kunnskapar på ein slik måte at det kan medverke til framgang for andre",
+              "nob": "bruke egne ferdigheter og kunnskaper på en slik måte at det kan medvirke til framgang for andre",
+              "sma": "jïjtse tjiehpiesvoeth jïh daajroeh naemhtie guktie maahta buerebe sjïdtedh jeatjabidie",
+              "sme": "geavahit iežas gálggaid ja máhtu nu ahte dat sáhttet addit ovdáneami earáide",
+              "smj": "adnet ietjas tjehpudagájt ja máhtov navti vaj da máhtti iehtjádijda åvddånimev buktet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13593",
+          "core_elements": [
+            "KE1778"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "anerkjenne ulikskap mellom seg sjølv og andre i bevegelsesaktivitetar og inkludere alle, uavhengig av føresetnader",
+              "eng": "recognise differences between oneself and others in movement activities and include everyone, regardless background and abilities",
+              "nno": "anerkjenne ulikskap mellom seg sjølv og andre i bevegelsesaktivitetar og inkludere alle, uavhengig av føresetnader",
+              "nob": "anerkjenne ulikhet mellom seg selv og andre i bevegelsesaktiviteter og inkludere alle, uavhengig av forutsetninger",
+              "sma": "joekehtsvoeth jååhkesjidh jïjtse jïh mubpiej gaskem svihtjemedarjoeminie jïh gaajhkesidie meatan vaeltedh, saaht mah nuepieh dej leah.",
+              "sme": "dohkkehit iežas ja earáid erohusaid lihkadandoaimmain ja fátmmastit buohkaid, beroškeahttá eavttuin",
+              "smj": "dåhkkidit ietjas ja iehtjádij sieradusájt labudallamdåjmajn ja sebradahttet gájkajt, berustik ævtojs"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13594",
+          "core_elements": [
+            "KE1779"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "forstå fleire typer kart og digitale verktøy og bruke dei til å orientere seg i kjende og ukjende miljø",
+              "eng": "understand the use of several types of maps and digital tools and use them to orient oneself in familiar and unfamiliar terrain",
+              "nno": "forstå fleire typer kart og digitale verktøy og bruke dei til å orientere seg i kjende og ukjende miljø",
+              "nob": "forstå flere typer kart og digitale verktøy og bruke dem til å orientere seg i kjente og ukjente miljøer",
+              "sma": "joekehts såarhts kaarhth jïh digitaale digitaale dïrregh guarkedh jïh dejtie nuhtjedh juktie vaaksjoehtidh åehpies jïh ovnohkens byjresinie",
+              "sme": "áddet máŋggalágan kárttaid ja digitála reaidduid ja geavahit daid dádjadit oahpes ja amas guovlluin",
+              "smj": "dádjadit moattelágásj kártajt ja digitála vædtsagijt ja adnet dajt oahpásmuvátjit oahpes ja amás guovlojda"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13598",
+          "core_elements": [],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utføre varierte symjeteknikkar og kunne symje ein lengre distanse basert på eiga målsetjing",
+              "eng": "perform a variety of swimming techniques and be able to swim a long distance based on one’s own goals",
+              "nno": "utføre varierte symjeteknikkar og kunne symje ein lengre distanse basert på eiga målsetjing",
+              "nob": "utføre varierte svømmeteknikker og svømme en lengre distanse basert på egen målsetting",
+              "sma": "jeereldihkie voejemevuekieh darjodh jïh maehtedh voejedh guhkebe gåhkoem jïjtsh ulmien mietie",
+              "sme": "vuodjat iešguđetlágan vuojadanteknihkaiguin ja máhttit vuodjat guhkibuš gaskka iežas mihttomeari vuođul",
+              "smj": "vuodjat iesjguhtiklágásj vuodjamteknihkaj ja nahkat vuodjat guhkev ietjas mihttomiere milta"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13595",
+          "core_elements": [
+            "KE1779"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "forstå og gjennomføre livberging i, på og ved vatn ute i naturen",
+              "eng": "understand and perform lifesaving in, on and by water out in nature",
+              "nno": "forstå og gjennomføre livberging i, på og ved vatn ute i naturen",
+              "nob": "forstå og gjennomføre livredning i, på og ved vann ute i naturen",
+              "sma": "jieledebeerkemem guarkedh jïh tjïrrehtidh jaevresne jïh jaevrien lïhke eatnamisnie",
+              "sme": "áddet ja čađahit heaggagádjuma čázis ja gáttis olgun luonddus",
+              "smj": "dádjadit ja tjadádit hæggagádjomav tjátjen ja gátten ålggon luondon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13599",
+          "core_elements": [],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "forstå og gjennomføre livreddande førstehjelp",
+              "eng": "understand and perform lifesaving first aid",
+              "nno": "forstå og gjennomføre livreddande førstehjelp",
+              "nob": "forstå og gjennomføre livreddende førstehjelp",
+              "sma": "guarkedh jïh tjïrrehtidh voestesviehkiem jïh jieledem beerkie",
+              "sme": "áddet ja čađahit heaggagáddju vuosttašveahki",
+              "smj": "dádjadit ja tjadádit vuostasjviehkev mij hekkav gádju"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13596",
+          "core_elements": [
+            "KE1778",
+            "KE1779"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjennomføre friluftsliv til ulike årstider, òg med overnatting ute, og reflektere over kva naturopplevingar kan ha å seie for ein sjølv og andre",
+              "eng": "practise outdoor life in all the seasons, including camping out, and reflect on what experiences in nature may mean for oneself and others",
+              "nno": "gjennomføre friluftsliv til ulike årstider, òg med overnatting ute, og reflektere over kva naturopplevingar kan ha å seie for ein sjølv og andre",
+              "nob": "gjennomføre friluftslivsaktiviteter til ulike årstider, også med overnatting ute, og reflektere over hva naturopplevelser kan bety for seg selv og andre",
+              "sma": "ålkoejieledem tjïrrehtidh joekehts jaepieboelhkine, aaj jïjjedimmine ålkone, jïh ussjedadtedh maam eatnemedååjresh maehtieh jiehtedh jïjtsasse jïh mubpide",
+              "sme": "olgodaddat iešguđet jagiáiggiin, maiddái idjadit olgun, ja reflekteret maid luondduvásáhusat sáhttet mearkkašit alcces ja earáide",
+              "smj": "liehket ålggon jagev birra, aj idjadit ålggon, ja reflektierit majt luondovásádusá máhtti allasis ja iehtjádijda merkahit"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13597",
+          "core_elements": [
+            "KE1779"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "vurdere risiko og tryggleik ved ulike uteaktivitetar, forstå og gjennomføre sporlaus og trygg ferdsel",
+              "eng": "assess the risk and safety of a variety of outdoor activities, understand and carry out sustainable and safe nature wandering",
+              "nno": "vurdere risiko og tryggleik ved ulike uteaktivitetar, forstå og gjennomføre sporlaus og trygg ferdsel",
+              "nob": "vurdere risiko og sikkerhet ved ulike uteaktiviteter, og forstå og gjennomføre sporløs og trygg ferdsel",
+              "sma": "vaahram jïh jearsoesvoetem vuarjasjidh ovmessie darjoeminie ålkone, guarkedh jïh tjïrrehtidh gïejehts jïh jearsoes fealadimmiem",
+              "sme": "árvvoštallat iešguđetlágan olgodoaimmaid riskka ja dorvvolašvuođa, áddet ja čađahit luottahis ja oadjebas johtaleami",
+              "smj": "árvustallap iesjguhtiklágásj ålggodåjmaj vádáv ja jasskavuodav, dádjadit ja tjadádit luottadis ja jasska jåhtålimev"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 10. trinn",
+          "eng": "Competence aims and assessment Year 10",
+          "nno": "Kompetansemål og vurdering 10. trinn",
+          "nob": "Kompetansemål og vurdering 10. trinn",
+          "sma": "Maahtoeulmieh jïh vuarjasjimmie 10. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 10. ceahkki",
+          "smj": "10. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    }
+  ],
+  "last_modified": "2026-07-08T15:01:27.2692031",
+  "replaced_by": [],
+  "replaces": [
+    "KRO01-05"
+  ],
+  "short_title": {
+    "by_language": {
+      "default": "Kroppsøving",
+      "eng": "Physical education",
+      "nno": "Kroppsøving",
+      "nob": "Kroppsøving",
+      "sma": "Vitnedimmie",
+      "sme": "Lášmmohallama oahppoplána",
+      "smj": "Lásjmudallama"
+    }
+  },
+  "title": {
+    "by_language": {
+      "default": "Læreplan i kroppsøving",
+      "eng": "Curriculum in Physical education",
+      "nno": "Læreplan i kroppsøving",
+      "nob": "Læreplan i kroppsøving",
+      "sma": "Learoesoejkesje - vitnedimmie",
+      "sme": "Lášmmohallama oahppoplána",
+      "smj": "Lásjmudallama oahppopládna"
+    }
+  },
+  "valid_from": "2026-08-01",
+  "valid_to": null
+}
