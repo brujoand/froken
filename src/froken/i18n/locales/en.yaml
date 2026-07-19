@@ -53,3 +53,32 @@ footer:
   source: Source
   licence: Licence
   code: Source code
+
+quiz:
+  start: Take the quiz
+  intro: "{count} questions from this checkpoint. Each answer is explained as you go."
+  progress: Question {number} of {total}
+  check: Check answer
+  next: Next question
+  see_result: See the result
+  your_answer: Your answer
+  correct: Correct!
+  incorrect: Not quite.
+  numeric_placeholder: Type a number
+  text_placeholder: Type your answer
+  authored_note: >-
+    These questions were written by Frøken; they are not taken from the
+    curriculum.
+
+result:
+  heading: How it went
+  score: You got {correct} out of {total} right.
+  passed: Well done! You have a good grip on this checkpoint.
+  not_passed: Good effort! There is a bit more to practise here.
+  not_a_verdict: >-
+    This is practice, not assessment. The result only says how these questions
+    went today.
+  strong_heading: You have got this
+  practice_heading: Worth practising more
+  try_again: Try again
+  back_to_subject: Back to the subject

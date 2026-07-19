@@ -13,6 +13,7 @@
           <a class="subject-card" href="/{{ locale }}/klasse/{{ grade }}/{{ entry.subject.code }}">
             <h3>{{ entry.subject.display_title.get(lang) }}</h3>
             <p class="meta">
+              {% if entry.has_quiz %}<span class="badge">{{ t("quiz.start") }}</span>{% endif %}
               {{ t("grade.goal_count", count=entry.goal_count) }} ·
               {% if entry.checkpoint.is_final_year %}
                 {{ t("subject.mastery_now", year=entry.checkpoint.goal_set.after_year) }}

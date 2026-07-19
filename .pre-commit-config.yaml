@@ -71,5 +71,13 @@ repos:
         files: ^src/froken/i18n/
         pass_filenames: false
 
-# `validate-items` (quiz item schema + goal-code references) lands with the item
-# schema in the quiz milestone.
+      # An item can be perfectly well-formed and still reference a competence
+      # goal that no longer exists -- which is exactly what a curriculum
+      # revision produces. That failure is silent at runtime (the item simply
+      # never gets selected), so it is made loud here.
+      - id: validate-items
+        name: Validate quiz items against the curriculum catalogue
+        entry: uv run python -m froken.items.validate
+        language: system
+        files: ^(data/(items|curriculum)/|src/froken/items/)
+        pass_filenames: false

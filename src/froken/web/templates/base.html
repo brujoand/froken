@@ -6,6 +6,9 @@
     <title>{% block title %}{{ t("site.name") }}{% endblock %}</title>
     <meta name="description" content="{{ t('site.description') }}" />
     <link rel="stylesheet" href="/static/froken.css" />
+    {# Vendored, not from a CDN: no third-party origin should receive a request
+       from a child's browser, and the app must work with no network at all. #}
+    <script src="/static/htmx.min.js" defer></script>
   </head>
   <body>
     <header class="site-header">

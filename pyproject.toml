@@ -13,6 +13,8 @@ dependencies = [
   "jinja2>=3.1",
   "pydantic>=2.10",
   "pyyaml>=6.0",
+  # HTML form posts from the quiz; FastAPI requires it for Form(...).
+  "python-multipart>=0.0.20",
 ]
 
 [project.scripts]

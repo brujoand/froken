@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}{{ t("quiz.start") }} · {{ subject.display_title.get(lang) }}{% endblock %}
+
+{% block content %}
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="/{{ locale }}/klasse/{{ session.grade }}">{{ t("grade.heading", grade=session.grade) }}</a> ›
+    <a href="/{{ locale }}/klasse/{{ session.grade }}/{{ subject.code }}">{{ subject.display_title.get(lang) }}</a>
+  </nav>
+
+  <p class="authored-note">{{ t("quiz.authored_note") }}</p>
+
+  <div id="quiz-slot">
+    {% include "partials/question.html" %}
+  </div>
+{% endblock %}

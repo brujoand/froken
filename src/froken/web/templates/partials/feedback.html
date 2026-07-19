@@ -1,0 +1,15 @@
+{# Shown after an answer. The explanation is the point: a wrong answer should
+   teach something, not just score zero. #}
+<div class="feedback feedback--{{ 'correct' if correct else 'incorrect' }}">
+  <p class="verdict">{{ t("quiz.correct") if correct else t("quiz.incorrect") }}</p>
+  <p class="explanation">{{ item.explanation.get(locale) }}</p>
+</div>
+
+{% if session.finished %}
+  <a class="button" href="/{{ locale }}/quiz/{{ session.id }}/result">{{ t("quiz.see_result") }}</a>
+{% else %}
+  <button class="button"
+          hx-get="/{{ locale }}/quiz/{{ session.id }}/question"
+          hx-target="#quiz-slot"
+          hx-swap="innerHTML">{{ t("quiz.next") }}</button>
+{% endif %}

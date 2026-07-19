@@ -59,3 +59,33 @@ footer:
   source: Kilde
   licence: Lisens
   code: Kildekode
+
+quiz:
+  start: Ta quizen
+  intro: "{count} spørsmål fra dette trinnet. Du får svaret forklart underveis."
+  progress: Spørsmål {number} av {total}
+  check: Sjekk svaret
+  next: Neste spørsmål
+  see_result: Se resultatet
+  your_answer: Svaret ditt
+  correct: Riktig!
+  incorrect: Ikke helt.
+  numeric_placeholder: Skriv et tall
+  text_placeholder: Skriv svaret
+  # Ours, not Udir's -- and the page must never blur that line.
+  authored_note: >-
+    Spørsmålene er laget av Frøken, ikke hentet fra læreplanen.
+
+result:
+  heading: Slik gikk det
+  score: Du fikk {correct} av {total} riktig.
+  passed: Flott jobba! Du har god kontroll på dette trinnet.
+  not_passed: God innsats! Her er det litt igjen å øve på.
+  # Deliberately not "du bestod / strøk". Frøken cannot decide that.
+  not_a_verdict: >-
+    Dette er en øving, ikke en vurdering. Resultatet sier bare hvordan det gikk
+    med disse spørsmålene i dag.
+  strong_heading: Dette får du til
+  practice_heading: Dette kan du øve mer på
+  try_again: Prøv igjen
+  back_to_subject: Tilbake til faget

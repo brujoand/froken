@@ -271,3 +271,117 @@ a {
 .site-footer p {
   margin: 0 0 0.4rem;
 }
+
+/* Quiz --------------------------------------------------------------------
+   Questions are ours; curriculum text is Udir's. The two must never look
+   alike, so nothing in here reuses the .curriculum blockquote treatment. */
+
+.authored-note,
+.progress {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.prompt {
+  margin: 0.5rem 0 1rem;
+  font-size: 1.3rem;
+  line-height: 1.35;
+}
+
+.choices {
+  list-style: none;
+  margin: 0 0 1.25rem;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.choices label {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.75rem 0.9rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+.choices label:hover {
+  border-color: var(--accent);
+}
+
+.answer-input {
+  width: 100%;
+  padding: 0.7rem 0.8rem;
+  margin-bottom: 1.25rem;
+  font: inherit;
+  color: inherit;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.button {
+  display: inline-block;
+  padding: 0.65rem 1.2rem;
+  font: inherit;
+  font-weight: 600;
+  color: #fff;
+  background: var(--accent);
+  border: 0;
+  border-radius: var(--radius);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.feedback {
+  padding: 0.9rem 1rem;
+  margin-bottom: 1.25rem;
+  border-radius: var(--radius);
+  border-left: 3px solid var(--line);
+  background: var(--card);
+}
+
+.feedback--correct {
+  border-left-color: #2e7d52;
+}
+
+.feedback--incorrect {
+  border-left-color: #b4762a;
+}
+
+.feedback .verdict {
+  margin: 0 0 0.35rem;
+  font-weight: 650;
+}
+
+.feedback .explanation {
+  margin: 0;
+}
+
+.score {
+  font-size: 1.4rem;
+  font-weight: 650;
+  margin-bottom: 0.25rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.05rem 0.4rem;
+  margin-right: 0.3rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: 4px;
+}
+
+.tally {
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+
+.actions {
+  margin-top: 2rem;
+}

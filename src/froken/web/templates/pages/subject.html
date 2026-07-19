@@ -43,9 +43,16 @@
     </ol>
   </section>
 
-  {# The quiz call to action lands with the quiz engine. Until then every
-     subject says so, rather than offering a button that goes nowhere. #}
   <section class="quiz-cta">
-    <p>{{ t("subject.quiz_unavailable") }}</p>
+    {% if has_quiz %}
+      <p>{{ t("quiz.intro", count=question_count) }}</p>
+      <form method="post" action="/{{ locale }}/klasse/{{ grade }}/{{ subject.code }}/quiz">
+        <button class="button" type="submit">{{ t("quiz.start") }}</button>
+      </form>
+    {% else %}
+      {# No items authored for this checkpoint yet. Saying so beats a button
+         that leads nowhere. #}
+      <p>{{ t("subject.quiz_unavailable") }}</p>
+    {% endif %}
   </section>
 {% endblock %}
