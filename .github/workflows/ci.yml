@@ -41,3 +41,29 @@ jobs:
       # way, so omitting the group would guarantee nothing on its own.
       - run: uv sync --group dev
       - run: uv run pytest -q
+
+  image:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: docker/setup-buildx-action@v3
+      # Build only -- pushing happens on release. This exists so a broken
+      # Dockerfile fails the PR that broke it.
+      - uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: false
+          load: true
+          tags: froken:ci
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+      - name: The container must serve with no configuration at all
+        run: |
+          docker run -d --name froken -p 8000:8000 froken:ci
+          for i in $(seq 1 30); do
+            curl -sf http://localhost:8000/healthz && break
+            sleep 1
+          done
+          curl -sf http://localhost:8000/nb/ > /dev/null
+          curl -sf http://localhost:8000/nb/klasse/2/MAT01-06 > /dev/null
+          docker rm -f froken

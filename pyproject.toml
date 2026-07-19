@@ -70,3 +70,16 @@ quote-style = "double"
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 asyncio_mode = "auto"
+
+[tool.semantic_release]
+# Version lives in one place and is set by tooling, never by hand.
+version_variables = ["src/froken/__init__.py:__version__"]
+build_command = "uv build"
+commit_message = "chore(release): {version}\n\n[skip ci]"
+tag_format = "v{version}"
+
+[tool.semantic_release.branches.main]
+match = "main"
+
+[tool.semantic_release.changelog]
+exclude_commit_patterns = ["chore\\(release\\):.*"]
