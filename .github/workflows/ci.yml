@@ -1,0 +1,43 @@
+---
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/pre-commit
+          key: pre-commit-${{ hashFiles('.pre-commit-config.yaml') }}
+      - run: uv sync --group dev
+      - run: uv run pre-commit run --all-files --show-diff-on-failure
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+      # The ingest group is not needed to run the suite. Network isolation is
+      # enforced by an autouse fixture in conftest.py rather than by dependency
+      # absence -- httpx arrives transitively via Starlette's TestClient either
+      # way, so omitting the group would guarantee nothing on its own.
+      - run: uv sync --group dev
+      - run: uv run pytest -q

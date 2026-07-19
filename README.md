@@ -64,14 +64,38 @@ uv run pytest
 uv run pre-commit run --all-files
 ```
 
-Refreshing the curriculum from Udir:
+### Keeping the curriculum current
+
+Udir revises curricula on their own schedule, and a revision **renumbers every
+competence goal** — which orphans every quiz item keyed to the old codes. The
+committed data gives no sign of this by itself: it stays valid-looking
+indefinitely. So noticing is automated.
 
 ```bash
-uv run froken-ingest --as-of 2026-08-01     # writes data/curriculum/
+uv run froken-ingest --check-drift      # what has changed upstream? (read-only)
+uv run froken-ingest --as-of 2026-08-01 # re-vendor; writes data/curriculum/
 ```
 
-The output is committed, sorted, and stable, so a curriculum change arrives as a
-readable diff — that diff is the review artifact.
+`--check-drift` reads only Udir's index endpoint, so it is cheap enough to run
+weekly — which it does, via `.github/workflows/curriculum-drift.yml`, opening an
+issue when something needs attention. It reports four things: a subject revised
+upstream, one expiring or expired, one withdrawn, and one **superseded by a newer
+revision**.
+
+That last check is inferred from a higher revision number appearing upstream
+rather than read directly, because the index endpoint carries no `erstattes-av`.
+It has to be: NOR01-07 was replaced by NOR01-08 while carrying no expiry date at
+all, so a newer revision in the index is the *only* signal that the vendored copy
+is stale.
+
+Re-ingesting is deliberately a human decision, not an automated PR — a revision
+reworks goal wording and moves checkpoints, so items need re-authoring rather
+than a rubber-stamped merge. The output is sorted and stable, so the change
+arrives as a readable diff, and that diff is the review artifact.
+
+Udir is the single source of truth: nothing under `data/curriculum/` is
+hand-authored or hand-edited, so the whole catalogue can always be re-derived
+and re-verified against the official source.
 
 ## Honest limits
 
