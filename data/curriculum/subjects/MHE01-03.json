@@ -1,0 +1,689 @@
+{
+  "code": "MHE01-03",
+  "goal_sets": [
+    {
+      "after_year": 4,
+      "applies_to_years": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "code": "KV1053",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13616",
+          "core_elements": [
+            "KE1780"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "følgje prinsipp for god hygiene i samband med matlaging",
+              "eng": "follow the principles of food hygiene when cooking",
+              "nno": "følgje prinsipp for god hygiene i samband med matlaging",
+              "nob": "følge prinsipper for god hygiene i forbindelse med matlaging"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13621",
+          "core_elements": [
+            "KE1780",
+            "KE1781"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke reiskap, rom- og vektmål og enkle teknikkar i samband med matlaging",
+              "eng": "use utensils, simple cooking techniques, and mass and volume measurements",
+              "nno": "bruke reiskap, rom- og vektmål og enkle teknikkar i samband med matlaging",
+              "nob": "bruke redskaper, rom- og vektmål og enkle teknikker i forbindelse med matlaging"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13622",
+          "core_elements": [
+            "KE1780",
+            "KE1782"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "kjenne att smakar i mat og undre seg over kvifor smak er noko vi opplever ulikt",
+              "eng": "recognise flavours in foods and question why we taste them differently",
+              "nno": "kjenne att smakar i mat og undre seg over kvifor smak er noko vi opplever ulikt",
+              "nob": "kjenne igjen smaker i mat og undre seg over hvorfor smak er noe vi opplever ulikt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13623",
+          "core_elements": [
+            "KE1780"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "fortelje om kva som kjenneteiknar sunn og variert mat og kvifor det er viktig for helsa",
+              "eng": "describe the characteristics of healthy and a wide variety of food and why they are important to health",
+              "nno": "fortelje om kva som kjenneteiknar sunn og variert mat og kvifor det er viktig for helsa",
+              "nob": "fortelle om hva som kjennetegner sunn og variert mat, og hvorfor det er viktig for helsen"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13617",
+          "core_elements": [
+            "KE1781"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utnytte lokale matvarer i matlaging og presentere ledda i produksjonskjeda frå råvare til måltid",
+              "eng": "utilise local foods in cooking and present the parts of the supply chain from raw ingredients to meals",
+              "nno": "utnytte lokale matvarer i matlaging og presentere ledda i produksjonskjeda frå råvare til måltid",
+              "nob": "utnytte lokale matvarer i matlaging og presentere leddene i produksjonskjeden fra råvare til måltid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13618",
+          "core_elements": [
+            "KE1781"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "sortere avfall i samband med matlaging og forklare kvifor det er viktig å gjere det",
+              "eng": "sort food waste and explain why it is important",
+              "nno": "sortere avfall i samband med matlaging og forklare kvifor det er viktig å gjere det",
+              "nob": "sortere avfall i forbindelse med matlaging og forklare hvorfor det er viktig å gjøre det"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13619",
+          "core_elements": [
+            "KE1780",
+            "KE1782"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "lage enkle måltid og bidra til å skape ei triveleg ramme rundt måltid saman med andre",
+              "eng": "create simple meals and help create a pleasant frame around meals with others",
+              "nno": "lage enkle måltid og bidra til å skape ei triveleg ramme rundt måltid saman med andre",
+              "nob": "lage enkle måltider og bidra til å skape en trivelig ramme rundt måltider sammen med andre"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13624",
+          "core_elements": [
+            "KE1780",
+            "KE1782"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om måltidsskikkar frå norsk og samisk kultur og frå andre kulturar, og om verdien av å ete saman med andre",
+              "eng": "talk about food customs in Norway, Samiland and other cultures and the value of eating with others",
+              "nno": "samtale om måltidsskikkar frå norsk og samisk kultur og frå andre kulturar, og om verdien av å ete saman med andre",
+              "nob": "samtale om måltidsskikker fra norsk og samisk kultur og fra andre kulturer, og om verdien av å spise sammen med andre"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13620",
+          "core_elements": [
+            "KE1780",
+            "KE1782"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om korleis skulemåltidet kan bidra til ein god skulekvardag",
+              "eng": "talk about how school meals may contribute to having a good day at school",
+              "nno": "samtale om korleis skulemåltidet kan bidra til ein god skulekvardag",
+              "nob": "samtale om hvordan skolemåltidet kan bidra til en god skolehverdag"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 4. trinn",
+          "eng": "Competence aims and assessment Year 4",
+          "nno": "Kompetansemål og vurdering 4. trinn",
+          "nob": "Kompetansemål og vurdering 4. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 7,
+      "applies_to_years": [
+        5,
+        6,
+        7
+      ],
+      "code": "KV1054",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13625",
+          "core_elements": [
+            "KE1780",
+            "KE1781"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke reiskap, grunnleggjande teknikkar og matlagingsmetodar til å lage trygg og berekraftig mat som gir grunnlag for god helse",
+              "eng": "to use utensils, basic techniques and cooking methods to make safe and sustainable food that lays the foundation for good health",
+              "nno": "bruke reiskap, grunnleggjande teknikkar og matlagingsmetodar til å lage trygg og berekraftig mat som gir grunnlag for god helse",
+              "nob": "bruke redskaper, grunnleggende teknikker og matlagingsmetoder til å lage trygg og bærekraftig mat som gir grunnlag for god helse"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13634",
+          "core_elements": [
+            "KE1780"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke sansane til å utforske og vurdere matens smak og tekstur og til å utforske anretning av mat",
+              "eng": "use their senses to explore and assess the flavour of food and texture, and explore food preparation",
+              "nno": "bruke sansane til å utforske og vurdere matens smak og tekstur og til å utforske anretning av mat",
+              "nob": "bruke sansene til å utforske og vurdere matens smak og tekstur og til å utforske anretning av mat"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13627",
+          "core_elements": [
+            "KE1780"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "kjenne att og greie ut om grunnsmakar i matvarer og fortelje om og diskutere korleis smak kan påverke matpreferansar og matval",
+              "eng": "recognise and describe the basic flavours in foods, and explain and discuss how flavours can affect food preferences and food choices",
+              "nno": "kjenne att og greie ut om grunnsmakar i matvarer og fortelje om og diskutere korleis smak kan påverke matpreferansar og matval",
+              "nob": "kjenne igjen og gjøre rede for grunnsmaker i matvarer og fortelle om og diskutere hvordan smak kan påvirke matpreferanser og matvalg"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13626",
+          "core_elements": [
+            "KE1780",
+            "KE1781"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke oppskrifter i matlaging og rekne ut og vurdere mengda i porsjonane både med og utan bruk av digitale ressursar",
+              "eng": "use recipes in cooking and calculate and assess the volume of portions both with and without using digital resources",
+              "nno": "bruke oppskrifter i matlaging og rekne ut og vurdere mengda i porsjonane både med og utan bruk av digitale ressursar",
+              "nob": "bruke oppskrifter i matlaging og regne ut og vurdere mengden i porsjonene både med og uten bruk av digitale ressurser"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13628",
+          "core_elements": [
+            "KE1780"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "vise samanhengar mellom matvaregrupper og næringsstoff som er viktige for god helse",
+              "eng": "demonstrate the relationship between food groups and nutrients important for good health",
+              "nno": "vise samanhengar mellom matvaregrupper og næringsstoff som er viktige for god helse",
+              "nob": "vise sammenhenger mellom matvaregrupper og næringsstoffer som er viktige for god helse"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13629",
+          "core_elements": [
+            "KE1780",
+            "KE1781"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke matmerking og kostmodellar til å setje saman eit sunt, variert og berekraftig kosthald og reflektere rundt vala sine",
+              "eng": "use food labelling and dietary models to put together a healthy, varied and sustainable diet and reflect on their choices",
+              "nno": "bruke matmerking og kostmodellar til å setje saman eit sunt, variert og berekraftig kosthald og reflektere rundt vala sine",
+              "nob": "bruke matmerking og kostmodeller til å sette sammen et sunt, variert og bærekraftig kosthold og reflektere over valgene sine"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13630",
+          "core_elements": [
+            "KE1780",
+            "KE1781"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke digitale ressursar til å samanlikne og drøfte produktinformasjon og reklame i ulike medium",
+              "eng": "use digital resources to compare and discuss product information and advertisements in various media",
+              "nno": "bruke digitale ressursar til å samanlikne og drøfte produktinformasjon og reklame i ulike medium",
+              "nob": "bruke digitale ressurser til å sammenligne og drøfte produktinformasjon og reklame i ulike medier"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13631",
+          "core_elements": [
+            "KE1781"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utnytte matvarer og restar frå matlaging og reflektere over eige matforbruk",
+              "eng": "use food and leftovers, and reflect on their own food consumption",
+              "nno": "utnytte matvarer og restar frå matlaging og reflektere over eige matforbruk",
+              "nob": "utnytte matvarer og rester fra matlaging og reflektere over eget matforbruk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13632",
+          "core_elements": [
+            "KE1781",
+            "KE1782"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og presentere tradisjonelle norske og samiske metodar for å konservere mat på og kunne fortelje om råvarene som blir konserverte",
+              "eng": "explore and present traditional Norwegian and Sami food preservation methods and talk about the raw ingredients that are preserved",
+              "nno": "utforske og presentere tradisjonelle norske og samiske metodar for å konservere mat på og kunne fortelje om råvarene som blir konserverte",
+              "nob": "utforske og presentere tradisjonelle norske og samiske metoder for å konservere mat og fortelle om råvarene som blir konservert"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13633",
+          "core_elements": [
+            "KE1780",
+            "KE1782"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "lage måltid frå ulike kulturar og fortelje om og utforske korleis sosialt fellesskap og samhandling kan vere med på å styrkje god helse",
+              "eng": "make meals from different cultures, and describe and explore how a social community and interaction may contribute to improved health",
+              "nno": "lage måltid frå ulike kulturar og fortelje om og utforske korleis sosialt fellesskap og samhandling kan vere med på å styrkje god helse",
+              "nob": "lage måltider fra ulike kulturer og fortelle om og utforske hvordan sosialt fellesskap og samhandling kan være med på å styrke god helse"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 7. trinn",
+          "eng": "Competence aims and assessment Year 7",
+          "nno": "Kompetansemål og vurdering 7. trinn",
+          "nob": "Kompetansemål og vurdering 7. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV1055",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13635",
+          "core_elements": [
+            "KE1780",
+            "KE1781"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "planleggje og bruke eigna reiskap, teknikkar og matlagingsmetodar til å lage trygg og berekraftig mat som gir grunnlag for god helse",
+              "eng": "plan and use suitable utensils, techniques and cooking methods to create safe and sustainable food that lays the foundation for good health",
+              "nno": "planleggje og bruke eigna reiskap, teknikkar og matlagingsmetodar til å lage trygg og berekraftig mat som gir grunnlag for god helse",
+              "nob": "planlegge og bruke egnede redskaper, teknikker og matlagingsmetoder til å lage trygg og bærekraftig mat som gir grunnlag for god helse"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13636",
+          "core_elements": [
+            "KE1780",
+            "KE1781",
+            "KE1782"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke sansane til å vurdere kvaliteten på matvarer, utforske og kombinere smakar i matlaginga og forbetre oppskrifter, menyar og anretning av mat",
+              "eng": "use their senses to assess the quality of foods, explore and combine flavours in cooking and improve recipes, menus and food preparation",
+              "nno": "bruke sansane til å vurdere kvaliteten på matvarer, utforske og kombinere smakar i matlaginga og forbetre oppskrifter, menyar og anretning av mat",
+              "nob": "bruke sansene til å vurdere kvaliteten på matvarer, utforske og kombinere smaker i matlagingen og forbedre oppskrifter, menyer og anretning av mat"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13637",
+          "core_elements": [
+            "KE1780",
+            "KE1781"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "drøfte korleis kosthald kan bidra til god helse, og bruke digitale ressursar til å vurdere eige kosthald og til å velje sunne og varierte matvarer i samband med matlaging",
+              "eng": "discuss how diet may contribute to good health, and use digital resources to assess their own diet and to choose healthy and a variety of different foods when cooking",
+              "nno": "drøfte korleis kosthald kan bidra til god helse, og bruke digitale ressursar til å vurdere eige kosthald og til å velje sunne og varierte matvarer i samband med matlaging",
+              "nob": "drøfte hvordan kosthold kan bidra til god helse, og bruke digitale ressurser til å vurdere eget kosthold og til å velge sunne og varierte matvarer i forbindelse med matlaging"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13638",
+          "core_elements": [
+            "KE1780"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjere greie for og kritisk vurdere påstandar, råd og informasjon om kosthald og helse",
+              "eng": "describe and critically assess claims, advice and information about diet and health",
+              "nno": "gjere greie for og kritisk vurdere påstandar, råd og informasjon om kosthald og helse",
+              "nob": "gjøre rede for og kritisk vurdere påstander, råd og informasjon om kosthold og helse"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13639",
+          "core_elements": [
+            "KE1781"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "kritisk vurdere informasjon om matproduksjon og drøfte korleis forbrukarmakt kan påverke lokal og global matproduksjon",
+              "eng": "critically assess information about food production and discuss how consumer power can impact local and global food production",
+              "nno": "kritisk vurdere informasjon om matproduksjon og drøfte korleis forbrukarmakt kan påverke lokal og global matproduksjon",
+              "nob": "kritisk vurdere informasjon om matproduksjon og drøfte hvordan forbrukermakt kan påvirke lokal og global matproduksjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13640",
+          "core_elements": [
+            "KE1780",
+            "KE1781"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske klimaavtrykket til matvarer og gjere greie for korleis matval og matforbruk kan påverke miljøet, klimaet og matsikkerheita",
+              "eng": "explore the carbon footprint of foods, and describe how food choices and food consumption may impact the environment, climate and food safety",
+              "nno": "utforske klimaavtrykket til matvarer og gjere greie for korleis matval og matforbruk kan påverke miljøet, klimaet og matsikkerheita",
+              "nob": "utforske klimaavtrykket til matvarer og gjøre rede for hvordan matvalg og matforbruk kan påvirke miljøet, klimaet og matsikkerheten"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13641",
+          "core_elements": [
+            "KE1781",
+            "KE1782"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "lage mat frå norsk og samisk kultur og frå andre kulturar og samanlikne og utforske råvarer og matlagingsmetodar som blir brukte i ulike matkulturar",
+              "eng": "make food from Norway, Samiland and other cultures, and compare and explore raw ingredients and cooking methods used in different food cultures",
+              "nno": "lage mat frå norsk og samisk kultur og frå andre kulturar og samanlikne og utforske råvarer og matlagingsmetodar som blir brukte i ulike matkulturar",
+              "nob": "lage mat fra norsk og samisk kultur og fra andre kulturer og sammenligne og utforske råvarer og matlagingsmetoder som brukes i ulike matkulturer"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13642",
+          "core_elements": [
+            "KE1782"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "vise gjennom matlaging og måltid korleis identitet og fellesskap blir formidla i ulike kulturar",
+              "eng": "demonstrate how cooking and meals convey identity and community in different cultures",
+              "nno": "vise gjennom matlaging og måltid korleis identitet og fellesskap blir formidla i ulike kulturar",
+              "nob": "vise gjennom matlaging og måltider hvordan identitet og fellesskap blir formidlet i ulike kulturer"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 10. trinn",
+          "eng": "Competence aims and assessment Year 10",
+          "nno": "Kompetansemål og vurdering 10. trinn",
+          "nob": "Kompetansemål og vurdering 10. trinn"
+        }
+      }
+    }
+  ],
+  "last_modified": "2026-07-08T15:34:14.0286237",
+  "replaced_by": [],
+  "replaces": [
+    "MHE01-02"
+  ],
+  "title": {
+    "by_language": {
+      "default": "Læreplan i mat og helse",
+      "eng": "Curriculum for Food and Health",
+      "nno": "Læreplan i mat og helse",
+      "nob": "Læreplan i mat og helse"
+    }
+  },
+  "valid_from": "2026-08-01",
+  "valid_to": null
+}

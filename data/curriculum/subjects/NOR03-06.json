@@ -1,0 +1,1121 @@
+{
+  "code": "NOR03-06",
+  "goal_sets": [
+    {
+      "after_year": 2,
+      "applies_to_years": [
+        1,
+        2
+      ],
+      "code": "KV1116",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14271",
+          "core_elements": [
+            "KE1818",
+            "KE1820"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lytte til tekster fra norsk og samisk litteratur på norsk og uttrykke tekstopplevelser på kreative måter",
+              "nob": "lytte til tekster fra norsk og samisk litteratur på norsk og uttrykke tekstopplevelser på kreative måter"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM14266",
+          "core_elements": [
+            "KE1818"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lese med sammenheng og forståelse",
+              "nob": "lese med sammenheng og forståelse"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM14268",
+          "core_elements": [
+            "KE1820",
+            "KE1822"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "arbeide kreativt med rim, rytme og stavelser",
+              "nob": "arbeide kreativt med rim, rytme og stavelser"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14272",
+          "core_elements": [
+            "KE1818",
+            "KE1820",
+            "KE1821"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "kombinere tekst og muntlige uttrykksformer på lekende og utforskende måter i samhandling med andre",
+              "nob": "kombinere tekst og muntlige uttrykksformer på lekende og utforskende måter i samhandling med andre"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM14275",
+          "core_elements": [
+            "KE1818",
+            "KE1821"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke noen lese- og skrivestrategier i arbeid med å lære norsk",
+              "nob": "bruke noen lese- og skrivestrategier i arbeid med å lære norsk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14270",
+          "core_elements": [
+            "KE1818",
+            "KE1820"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke et ordforråd som dekker dagligdagse situasjoner",
+              "nob": "bruke et ordforråd som dekker dagligdagse situasjoner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM14269",
+          "core_elements": [
+            "KE1821",
+            "KE1822"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "skrive setninger på norsk, med store og små bokstaver og med punktum, spørsmålstegn og utropstegn, for hånd og med tastatur",
+              "nob": "skrive setninger på norsk, med store og små bokstaver og med punktum, spørsmålstegn og utropstegn, for hånd og med tastatur"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14273",
+          "core_elements": [
+            "KE1819"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "vurdere egne og andres tekster og gi innspill ut fra kriterier",
+              "nob": "vurdere egne og andres tekster og gi innspill ut fra kriterier"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14267",
+          "core_elements": [
+            "KE1820",
+            "KE1822",
+            "KE1823"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "samtale om og sammenligne norske og samiske språklyder og bokstaver",
+              "nob": "samtale om og sammenligne norske og samiske språklyder og bokstaver"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14274",
+          "core_elements": [
+            "KE1822",
+            "KE1823"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om egen tospråklighet og om hvordan norsk og samisk brukes i egen hverdag",
+              "nob": "samtale om egen tospråklighet og om hvordan norsk og samisk brukes i egen hverdag"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 2. trinn",
+          "nob": "Kompetansemål og vurdering 2. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 4,
+      "applies_to_years": [
+        3,
+        4
+      ],
+      "code": "KV1117",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM14280",
+          "core_elements": [
+            "KE1818",
+            "KE1819",
+            "KE1820"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lytte til og lese tekster fra norsk og samisk litteratur på norsk og samtale om innholdet",
+              "nob": "lytte til og lese tekster fra norsk og samisk litteratur på norsk og samtale om innholdet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14282",
+          "core_elements": [
+            "KE1818"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske tekster fra den samiske og den norske fortellertradisjonen og reflektere over innholdet",
+              "nob": "utforske tekster fra den samiske og den norske fortellertradisjonen og reflektere over innholdet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14281",
+          "core_elements": [
+            "KE1818"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "uttrykke tekstopplevelser på kreative måter",
+              "nob": "uttrykke tekstopplevelser på kreative måter"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM14283",
+          "core_elements": [
+            "KE1820",
+            "KE1821",
+            "KE1822"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "kombinere ulike uttrykksformer i egen tekstskaping",
+              "nob": "kombinere ulike uttrykksformer i egen tekstskaping"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14287",
+          "core_elements": [
+            "KE1819",
+            "KE1820",
+            "KE1821"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "søke etter informasjon i digitale kilder og bruke informasjonen i egne tekster",
+              "nob": "søke etter informasjon i digitale kilder og bruke informasjonen i egne tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14288",
+          "core_elements": [
+            "KE1819",
+            "KE1821"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke lese- og skrivestrategier til ulike formål",
+              "nob": "bruke lese- og skrivestrategier til ulike formål"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14285",
+          "core_elements": [
+            "KE1820"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lytte til andre og uttrykke egne meninger i samtaler og diskusjoner",
+              "nob": "lytte til andre og uttrykke egne meninger i samtaler og diskusjoner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14278",
+          "core_elements": [
+            "KE1820",
+            "KE1821"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "beskrive og fortelle muntlig og skriftlig",
+              "nob": "beskrive og fortelle muntlig og skriftlig"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14279",
+          "core_elements": [
+            "KE1820",
+            "KE1821"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke et presist ordforråd som dekker hverdagslige situasjoner",
+              "nob": "bruke et presist ordforråd som dekker hverdagslige situasjoner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2"
+          ],
+          "code": "KM14276",
+          "core_elements": [
+            "KE1821",
+            "KE1822"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke kunnskap om likheter og forskjeller i samiske og norske språklyder og samisk og norsk ordbøyning i egen skriving",
+              "nob": "bruke kunnskap om likheter og forskjeller i samiske og norske språklyder og samisk og norsk ordbøyning i egen skriving"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14277",
+          "core_elements": [
+            "KE1820",
+            "KE1821",
+            "KE1822"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske ord og setninger og bruke dem på kreative måter",
+              "nob": "utforske ord og setninger og bruke dem på kreative måter"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14284",
+          "core_elements": [
+            "KE1819",
+            "KE1821"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "vurdere egne og andres tekster og videreutvikle egne tekster ut fra kriterier og innspill fra andre",
+              "nob": "vurdere egne og andres tekster og videreutvikle egne tekster ut fra kriterier og innspill fra andre"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14286",
+          "core_elements": [
+            "KE1822",
+            "KE1823"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og reflektere over egen flerspråklighet og språkmangfoldet i nærmiljøet",
+              "nob": "utforske og reflektere over egen flerspråklighet og språkmangfoldet i nærmiljøet"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 4. trinn",
+          "nob": "Kompetansemål og vurdering 4. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 7,
+      "applies_to_years": [
+        5,
+        6,
+        7
+      ],
+      "code": "KV1118",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14289",
+          "core_elements": [
+            "KE1818"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "lese lyrikk, noveller, fagtekster og annen skjønnlitteratur og sakprosa fra norsk og samisk og reflektere over hva tekstene betyr for eleven",
+              "nob": "lese lyrikk, noveller, fagtekster og annen skjønnlitteratur og sakprosa fra norsk og samisk og reflektere over hva tekstene betyr for eleven"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14300",
+          "core_elements": [
+            "KE1818",
+            "KE1822"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "sammenligne fortellermåter og formål i norsk og samisk fortellertradisjon",
+              "nob": "sammenligne fortellermåter og formål i norsk og samisk fortellertradisjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM14290",
+          "core_elements": [
+            "KE1818",
+            "KE1820",
+            "KE1823"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lytte til og lese kortere tekster på den målformen eleven ikke får opplæring i og samtale om innholdet",
+              "nob": "lytte til og lese kortere tekster på den målformen eleven ikke får opplæring i og samtale om innholdet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14294",
+          "core_elements": [
+            "KE1819"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "velge hensiktsmessige kilder og oppgi kilder i egne tekster",
+              "nob": "velge hensiktsmessige kilder og oppgi kilder i egne tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14299",
+          "core_elements": [
+            "KE1819",
+            "KE1820"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lytte til andre og begrunne egne meninger i diskusjoner",
+              "nob": "lytte til andre og begrunne egne meninger i diskusjoner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14297",
+          "core_elements": [
+            "KE1820"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke et dekkende ordforråd i samtaler om faglige emner",
+              "nob": "bruke et dekkende ordforråd i samtaler om faglige emner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14291",
+          "core_elements": [
+            "KE1820",
+            "KE1821"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "informere og fortelle muntlig og skriftlig",
+              "nob": "informere og fortelle muntlig og skriftlig"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM14296",
+          "core_elements": [
+            "KE1820",
+            "KE1821"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lage tekster ved å kombinere ulike uttrykksformer",
+              "nob": "lage tekster ved å kombinere ulike uttrykksformer"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14302",
+          "core_elements": [
+            "KE1819",
+            "KE1821"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "velge og bruke relevante lese- og skrivestrategier i arbeid med faget",
+              "nob": "velge og bruke relevante lese- og skrivestrategier i arbeid med faget"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14292",
+          "core_elements": [
+            "KE1818",
+            "KE1821",
+            "KE1822"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske bruken av noen språklige virkemidler og eksperimentere med disse i egne tekster",
+              "nob": "utforske bruken av noen språklige virkemidler og eksperimentere med disse i egne tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2"
+          ],
+          "code": "KM14298",
+          "core_elements": [
+            "KE1821",
+            "KE1822"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke tekstbinding og noen sentrale regler for ordbøying, rettskriving, tegnsetting og setningsstruktur i egne tekster",
+              "nob": "bruke tekstbinding og noen sentrale regler for ordbøying, rettskriving, tegnsetting og setningsstruktur i egne tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14293",
+          "core_elements": [
+            "KE1819",
+            "KE1822"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "vurdere egne og andres tekster, og videreutvikle egne tekster ut fra faglige kriterier og innspill fra andre",
+              "nob": "vurdere egne og andres tekster, og videreutvikle egne tekster ut fra faglige kriterier og innspill fra andre"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14295",
+          "core_elements": [
+            "KE1822",
+            "KE1823"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og reflektere over språk og språkbruk i ulike situasjoner",
+              "nob": "utforske og reflektere over språk og språkbruk i ulike situasjoner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14301",
+          "core_elements": [
+            "KE1822",
+            "KE1823"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og reflektere over sammenhengen mellom språk og identitet",
+              "nob": "utforske og reflektere over sammenhengen mellom språk og identitet"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 7. trinn",
+          "nob": "Kompetansemål og vurdering 7. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV1119",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14303",
+          "core_elements": [
+            "KE1818",
+            "KE1819"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "lese norsk og samisk skjønnlitteratur og sakprosa på bokmål og nynorsk og reflektere over innhold, sjangertrekk og virkemidler",
+              "nob": "lese norsk og samisk skjønnlitteratur og sakprosa på bokmål og nynorsk og reflektere over innhold, sjangertrekk og virkemidler"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14314",
+          "core_elements": [
+            "KE1818",
+            "KE1819"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og reflektere over hvordan urfolk blir framstilt i ulike medier",
+              "nob": "utforske og reflektere over hvordan urfolk blir framstilt i ulike medier"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14315",
+          "core_elements": [
+            "KE1818",
+            "KE1820",
+            "KE1821"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "uttrykke tekstopplevelser på kreative måter",
+              "nob": "uttrykke tekstopplevelser på kreative måter"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14312",
+          "core_elements": [
+            "KE1819",
+            "KE1820",
+            "KE1822"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjenkjenne og forklare bruken av retoriske appellformer i muntlige og skriftlige tekster",
+              "nob": "gjenkjenne og forklare bruken av retoriske appellformer i muntlige og skriftlige tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14311",
+          "core_elements": [
+            "KE1819"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke kilder på en kritisk måte, markere sitater og vise til kilder på en etterrettelig måte i egne tekster",
+              "nob": "bruke kilder på en kritisk måte, markere sitater og vise til kilder på en etterrettelig måte i egne tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14309",
+          "core_elements": [
+            "KE1819",
+            "KE1820"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "lytte til andre, følge opp innspill og argumentere saklig i samtaler og diskusjoner",
+              "nob": "lytte til andre, følge opp innspill og argumentere saklig i samtaler og diskusjoner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM14307",
+          "core_elements": [
+            "KE1820"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke et funksjonelt ordforråd og fagspråk i faglige samtaler, diskusjoner og skriftlige og muntlige presentasjoner",
+              "nob": "bruke et funksjonelt ordforråd og fagspråk i faglige samtaler, diskusjoner og skriftlige og muntlige presentasjoner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM14306",
+          "core_elements": [
+            "KE1820",
+            "KE1821"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "informere, fortelle, argumentere og reflektere i ulike muntlige og skriftlige sjangre og for ulike formål tilpasset mottaker og medium",
+              "nob": "informere, fortelle, argumentere og reflektere i ulike muntlige og skriftlige sjangre og for ulike formål tilpasset mottaker og medium"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2"
+          ],
+          "code": "KM14308",
+          "core_elements": [
+            "KE1821",
+            "KE1822"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "skrive tekster med tydelig struktur og tekstbinding og bruke sentrale regler for ordbøying, rettskriving og tegnsetting i egne tekster",
+              "nob": "skrive tekster med tydelig struktur og tekstbinding og bruke sentrale regler for ordbøying, rettskriving og tegnsetting i egne tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14317",
+          "core_elements": [
+            "KE1822"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke fagspråk til å beskrive sentrale trekk ved formverk, setningsoppbygning og rettskriving i norsk",
+              "nob": "bruke fagspråk til å beskrive sentrale trekk ved formverk, setningsoppbygning og rettskriving i norsk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14304",
+          "core_elements": [
+            "KE1819",
+            "KE1821"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "velge og bruke hensiktsmessige lese- og skrivestrategier til ulike formål",
+              "nob": "velge og bruke hensiktsmessige lese- og skrivestrategier til ulike formål"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14313",
+          "core_elements": [
+            "KE1819",
+            "KE1821",
+            "KE1822"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "vurdere egne og andres tekster, og videreutvikle egne tekster ut fra språklige og faglige kriterier og innspill fra andre",
+              "nob": "vurdere egne og andres tekster, og videreutvikle egne tekster ut fra språklige og faglige kriterier og innspill fra andre"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14305",
+          "core_elements": [
+            "KE1821",
+            "KE1822"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for virkemidler i ulike typer tekster og eksperimentere med disse i egne tekster",
+              "nob": "gjøre rede for virkemidler i ulike typer tekster og eksperimentere med disse i egne tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM14310",
+          "core_elements": [
+            "KE1820",
+            "KE1821",
+            "KE1822"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lage sammensatte tekster og begrunne valg av uttrykksformer",
+              "nob": "lage sammensatte tekster og begrunne valg av uttrykksformer"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14316",
+          "core_elements": [
+            "KE1823"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske det språklige mangfoldet i Norge og Sápmi/Sábme/Saepmie og reflektere over egen og andres språksituasjon",
+              "nob": "utforske det språklige mangfoldet i Norge og Sápmi/Sábme/Saepmie og reflektere over egen og andres språksituasjon"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 10. trinn",
+          "nob": "Kompetansemål og vurdering 10. trinn"
+        }
+      }
+    }
+  ],
+  "last_modified": "2026-07-10T13:08:22.0976905",
+  "replaced_by": [],
+  "replaces": [
+    "NOR03-05"
+  ],
+  "title": {
+    "by_language": {
+      "default": "Læreplan i norsk for elever med samisk som førstespråk",
+      "nob": "Læreplan i norsk for elever med samisk som førstespråk"
+    }
+  },
+  "valid_from": "2026-08-01",
+  "valid_to": null
+}

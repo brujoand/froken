@@ -1,0 +1,797 @@
+{
+  "code": "MHE02-03",
+  "goal_sets": [
+    {
+      "after_year": 4,
+      "applies_to_years": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "code": "KV1060",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13682",
+          "core_elements": [
+            "KE1787"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "følge prinsipper for god hygiene i forbindelse med matlaging",
+              "nob": "følge prinsipper for god hygiene i forbindelse med matlaging",
+              "sma": "prinsihph fulkedh hijven raajnesvoeten bïjre gosse beapmoeh jurjehte",
+              "sme": "čuovvut buori hygiena prinsihpaid biebmoráhkadeami oktavuođas",
+              "smj": "tjuovvot buorre hygiena prinsihpajt biebmoj russtima aktijvuodan"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13688",
+          "core_elements": [
+            "KE1787",
+            "KE1788"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke redskaper, rom- og vektmål og enkle teknikker i forbindelse med matlaging",
+              "nob": "bruke redskaper, rom- og vektmål og enkle teknikker i forbindelse med matlaging",
+              "sma": "dïrregh, romme- jïh væktoemöölegh jïh aelhkie vuekieh nuhtjedh gosse beapmoem jurjehte",
+              "sme": "geavahit reaidduid, latnja- ja deaddoovttadagaid ja álkes teknihkaid biebmoráhkadeami oktavuođas",
+              "smj": "adnet vædtsagijt, ladnja- ja dæddoavtadagájt ja álkkes teknihkaj biebmoj russtima aktijvuodan"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13689",
+          "core_elements": [
+            "KE1787",
+            "KE1789"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "kjenne igjen smaker i mat og undre seg over hvorfor smak er noe vi opplever ulikt",
+              "nob": "kjenne igjen smaker i mat og undre seg over hvorfor smak er noe vi opplever ulikt",
+              "sma": "smaahkh beapmosne damtijidh jïh onterdidh man åvteste mijjieh smaahkem joekehtslaakan dååjrebe",
+              "sme": "dovdát máisttuid biepmus ja imaštallat manne olbmot vásihit máisttuid iešguđet láhkai",
+              "smj": "dåbddåt májstijt biebmon ja imájdallat manen ulmutja vásedi májstajt iesjguhtik láhkáj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13690",
+          "core_elements": [
+            "KE1787"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "fortelle om hva som kjennetegner sunn og variert mat og hvorfor det er viktig for helsen",
+              "nob": "fortelle om hva som kjennetegner sunn og variert mat og hvorfor det er viktig for helsen",
+              "sma": "væhtaj bïjre soptsestidh aejlies jïh jeereldihkie beapmose jïh man åvteste dïhte vihkele healsose",
+              "sme": "muitalit mat leat dearvvašlaš ja máŋggabealat biepmu dovdomearkkat ja manne dat leat dehálaččat dearvvašvuhtii",
+              "smj": "subtsastit ma li varres ja moattebelak biebmo dåbddomerka ja manen da li ájnnasa varresvuohtaj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4"
+          ],
+          "code": "KM13683",
+          "core_elements": [
+            "KE1787",
+            "KE1788",
+            "KE1789"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "delta i høsting av lokale matvarer og i dyrking av mat for bruk i matlaging",
+              "nob": "delta i høsting av lokale matvarer og i dyrking av mat for bruk i matlaging",
+              "sma": "meatan årrodh voenges beapmoevaaroeh tjöönghkedh jïh beapmoem sjïdtedehtedh mejtie edtja beapmoejurjiehtimmesne nuhtjedh",
+              "sme": "searvat báikkálaš biebmogálvvuid ávkkástallamii ja biebmogilvimii borramušráhkadeami várás",
+              "smj": "sæbrrat bájkálasj biebbmogálvoj ávkástallamij ja biebmoj sjattadibmáj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13684",
+          "core_elements": [
+            "KE1788"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utnytte lokale matvarer i matlaging og presentere leddene i produksjonskjeden fra råvare til måltid",
+              "nob": "utnytte lokale matvarer i matlaging og presentere leddene i produksjonskjeden fra råvare til måltid",
+              "sma": "voenges beapmoevaaroeh nuhtjedh gosse beapmoem jurjehte jïh lïhtside produksjovnesvaalhtesinie navradahkeste maalestahkese åehpiedehtedh",
+              "sme": "ávkkástallat báikkálaš biebmogálvvuid biebmoráhkadeamis ja ovdanbuktit buvttadanviđjji lađđasiid biebmogálvvus borramin",
+              "smj": "ávkástallat bájkálasj biebbmogálvojt biebmoj russtidijn ja åvddånbuktet buvtadimriggasa lahtasijt biebbmogálvos gitta njálmmáj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13685",
+          "core_elements": [
+            "KE1788",
+            "KE1789"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "ta vare på maten, forklare hvorfor det er viktig å gjøre det og fortelle om tradisjonelle måter å behandle organisk avfall på",
+              "nob": "ta vare på maten, forklare hvorfor det er viktig å gjøre det og fortelle om tradisjonelle måter å behandle organisk avfall på",
+              "sma": "beapmoem gorredidh, tjïelkestidh man åvteste vihkele dam darjodh, jïh soptsestidh guktie organiske slaavvoeh gïetedidh aerpievuekiej mietie",
+              "sme": "áimmahuššat biepmu, čilget manne lea dehálaš dahkat dan ja muitalit árbevirolaš vugiid birra gieđahallat orgánalaš bázahusaid",
+              "smj": "várajda válldet biebmov, tjielggit manen la ájnas dav dahkat ja subtsastit árbbedábálasj vuogij birra gåktu giehtadallat orgánalasj bátsidisájt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13686",
+          "core_elements": [
+            "KE1789"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjennomføre måltider rundt et bål og andre tradisjonelle arenaer og bruke fortellinger til å reflektere over sikkerhet og hensyn til naturen",
+              "nob": "gjennomføre måltider rundt et bål og andre tradisjonelle arenaer og bruke fortellinger til å reflektere over sikkerhet og hensyn til naturen",
+              "sma": "maalestahkh tjïrrehtidh dållen bïjre jïh jeatjah aerpievuekien sijjine, jïh soptsesh nuhtjedh juktie ussjedadtedh jearsoevoeten bijjelen jïh eatnemem krööhkestidh",
+              "sme": "čađahit borramiid dollagáttis ja eará árbevirolaš sajiin ja geavahit muitalusaid reflekteret sihkkarvuođa birra ja luonddu vuhtiiváldima birra",
+              "smj": "tjadádit bårråmusájt dållågátten ja ietjá árbbedábálasj sajijn ja subttsasij baktu reflektierit sihkarvuoda birra ja luondo vieledusá birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13687",
+          "core_elements": [
+            "KE1787",
+            "KE1789"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "lage enkle og varierte måltider og samtale om måltidsskikker fra norsk og samisk kultur og fra andre kulturer, og om verdien av å spise sammen med andre",
+              "nob": "lage enkle og varierte måltider og samtale om måltidsskikker fra norsk og samisk kultur og fra andre kulturer, og om verdien av å spise sammen med andre",
+              "sma": "aelhkie jïh jeereldihkie maalestahkh darjodh jïh maalestahkevuekiej bïjre soptsestalledh nöörjen jïh saemien kultuvreste, jïh aarvoen bïjre mubpiejgujmie byöpmedidh",
+              "sme": "ráhkadit álkes ja máŋggabealat borramiid ja ságastallat borrandábiid birra norgga ja sámi kultuvrras ja eará kultuvrrain, ja árvvuid birra boradit ovttas earáiguin",
+              "smj": "russtit álkkes ja moattebelak bårråmusájt ja ságastallat bårråmdábij birra dáttja ja sáme kultuvran ja ietjá kultuvrajn, ja man ájnas la iehtjádij siegen bårråt"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering etter 4. trinn",
+          "nob": "Kompetansemål og vurdering etter 4. trinn",
+          "sma": "Maahtoeulmie jïh vuarjasjimmie 4. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 4. ceahki maŋŋá",
+          "smj": "4. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    },
+    {
+      "after_year": 7,
+      "applies_to_years": [
+        5,
+        6,
+        7
+      ],
+      "code": "KV1061",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13691",
+          "core_elements": [
+            "KE1787",
+            "KE1788"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke redskaper, grunnleggende teknikker og matlagingsmetoder til å lage trygg og bærekraftig mat som gir grunnlag for god helse",
+              "nob": "bruke redskaper, grunnleggende teknikker og matlagingsmetoder til å lage trygg og bærekraftig mat som gir grunnlag for god helse",
+              "sma": "dïrregh, vihkeles vuekieh jïh beapmoejurjiehtimmievuekieh nuhtjedh jearsoe jïh monnehke beapmoem darjodh mij våaromem vadta hijven healsose",
+              "sme": "geavahit reaidduid, vuođđoteknihkaid ja biebmoráhkadanmetodaid ráhkadit dorvvolaš ja guoddevaš biepmu mii addá vuođu buori dearvvašvuhtii",
+              "smj": "adnet ræjdojt, vuodoteknihkajt ja biebmoj russtima metåvdåjt váj stielliji sihkaris ja guoddelis biebmov mij vaddá vuodov buorre varresvuohtaj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13701",
+          "core_elements": [
+            "KE1787"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke sansene til å utforske og vurdere matens smak og tekstur og til å utforske anretning av mat",
+              "nob": "bruke sansene til å utforske og vurdere matens smak og tekstur og til å utforske anretning av mat",
+              "sma": "daajide nuhtjedh beapmoen smaahkem jïh tekstuvrem goerehtidh, jïh vuarjasjidh jïh goerehtidh guktie beapmojde gåassohte",
+              "sme": "geavahit áiccuid suokkardit ja árvvoštallat biepmu máisttuid ja tekstuvrra ja suokkardit biebmobardima lihttái guossoheami várás",
+              "smj": "adnet dåbdudagájt åtsådittjat ja árvustallat biebmo májstijt ja tekstuvrav ja åtsådit biebmoj bårddemav lihttáj guossodibmáj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13693",
+          "core_elements": [
+            "KE1787"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "kjenne igjen og beskrive grunnsmaker og utforske og diskutere hvordan smak kan påvirke matpreferanser og matvalg",
+              "nob": "kjenne igjen og beskrive grunnsmaker og utforske og diskutere hvordan smak kan påvirke matpreferanser og matvalg",
+              "sma": "damtijidh jïh buerkiestidh maadthsmaahkh, jïh goerehtidh jïh digkiedidh guktie smaahke maahta beapmoepreferaansh jïh beapmoeveeljemem baajnehtidh",
+              "sme": "dovdát ja válddahit vuođđomáisttuid ja suokkardit ja digaštallat mo máisttut sáhttet váikkuhit biebmopreferánssaide ja biebmoválljejupmái",
+              "smj": "dåbddåt ja gåvvidit vuodomájstijt ja åtsådit ja dágástallat gåktu májste máhtti vájkkudit biebmoj preferánsajda ja biebmoj válljimij"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13692",
+          "core_elements": [
+            "KE1787",
+            "KE1788"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke oppskrifter i matlaging, også muntlige, og regne ut og vurdere mengden i porsjonene, både med og uten bruk av digitale ressurser",
+              "nob": "bruke oppskrifter i matlaging, også muntlige, og regne ut og vurdere mengden i porsjonene, både med og uten bruk av digitale ressurser",
+              "sma": "bïhkedassh beapmoejurjiehtimmesne nuhtjedh, aaj njaalmeldh, jïh veahkam åesine vuarjasjidh, dovne viehkine digitaale vierhtijste jïh bielelen",
+              "sme": "geavahit biebmorávvagiid biebmoráhkadeamis, maiddái njálmmálaš, ja rehkenastit ja árvvoštallat poršuvnnaid hivvodaga, sihke digitála resurssaid vehkiin ja daid haga",
+              "smj": "adnet bagádusájt biebmoj russtimin, aj njálmálasj, ja riekknit ja árvustallat porsjåvnåj stuorrudagáv, digitála ressursaj viehkijn ja daj dagi"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13694",
+          "core_elements": [
+            "KE1787"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "vise sammenhenger mellom matvaregrupper og næringsstoffer som er viktige for god helse",
+              "nob": "vise sammenhenger mellom matvaregrupper og næringsstoffer som er viktige for god helse",
+              "sma": "ektiedimmieh vuesiehtidh beapmoevaaroedåehkiej jïh jielememehtiej gaskem mah leah vihkele hijven healsose",
+              "sme": "čájehit oktavuođaid gaskal biebmogálvojoavkkuid ja biebmoávdnasiid mat leat dehálaččat buori dearvvašvuhtii",
+              "smj": "vuosedit aktijvuodajt biebbmogálvoj juohkusij ja biektelisábnnasij gaskan ma li ájnnasa varresvuohtaj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13699",
+          "core_elements": [
+            "KE1787",
+            "KE1788"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke matmerking og kostmodeller til å sette sammen et sunt, variert og bærekraftig kosthold og reflektere rundt valgene sine",
+              "nob": "bruke matmerking og kostmodeller til å sette sammen et sunt, variert og bærekraftig kosthold og reflektere rundt valgene sine",
+              "sma": "beapmoemïerhkemem jïh kost-modellh nuhtjedh juktie aejlies, jeereldihkie jïh monnehke kostholdem tjåanghkan bïejedh jïh sijjen veeljemi bïjre ussjedadtedh",
+              "sme": "geavahit biebmomerkema ja biebmodoallomodeallaid ráhkadit dearvvašlaš, máŋggabealat ja guoddevaš biebmodoalu ja reflekteret iežas válljejumiid birra",
+              "smj": "adnet biebmoj mierkkimav ja biebmoj ano modellajt russtitjit varres, moattebelak ja guoddelis biebbmoanov ja reflektierit ietjas válljimij badjel"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13695",
+          "core_elements": [
+            "KE1787",
+            "KE1788"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke digitale ressurser til å sammenligne og drøfte produktinformasjon og reklame i ulike medier",
+              "nob": "bruke digitale ressurser til å sammenligne og drøfte produktinformasjon og reklame i ulike medier",
+              "sma": "digitaale vierhtieh nuhtjedh juktie produktebïevnesh jïh reklaamem ovmessie medijinie viertiestidh jïh digkiedidh",
+              "sme": "geavahit digitála reaidduid buohtastahttit ja ságaškuššat sisdoalločilgehusaid ja máidnosiid iešguđet mediain",
+              "smj": "adnet digitála vædtsagijt buohtastahtátjit ja árvvaladdat sisadnotjielggidusájt ja reklame duon dán medijájn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13696",
+          "core_elements": [
+            "KE1787",
+            "KE1788"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "ta vare på, bearbeide og utnytte råvarer på en bærekraftig måte",
+              "nob": "ta vare på, bearbeide og utnytte råvarer på en bærekraftig måte",
+              "sma": "navradahkh gorredidh, evtiedidh jïh nuhtjedh monnehkelaakan",
+              "sme": "fuolahit, gieđahallat ja ávkkástallat biebmogálvvuid guoddevaš láhkai",
+              "smj": "várajda válldet, giehtadallat ja ávkástallat biebbmogálvojt guoddelis láhkáj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13700",
+          "core_elements": [
+            "KE1788",
+            "KE1789"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke tradisjonell kunnskap om matforbruk og reflektere over eget matforbruk",
+              "nob": "bruke tradisjonell kunnskap om matforbruk og reflektere over eget matforbruk",
+              "sma": "aerpievuekien daajroem nuhtjedh beapmoeåtnoen bïjre, jïh jïjtse beapmoeåtnoen bijjelen ussjedadtedh",
+              "sme": "geavahit árbevirolašmáhtu biebmogolaheami birra ja reflekteret iežas biebmogolaheami birra",
+              "smj": "adnet árbbediedov biebmoj gållådime birra ja reflektierit ietjas biebmoj gållådime badjel"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13697",
+          "core_elements": [
+            "KE1787",
+            "KE1789"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "lage mat på bål og andre tradisjonelle arenaer for matlaging og samtale om måltidsskikker i goahti/goahte/gåetie/lávvu og hvordan sosialt fellesskap rundt måltider kan bidra til å styrke god helse",
+              "nob": "lage mat på bål og andre tradisjonelle arenaer for matlaging og samtale om måltidsskikker i goahti/goahte/gåetie/lávvu og hvordan sosialt fellesskap rundt måltider kan bidra til å styrke god helse",
+              "sma": "beapmoem dållesne jïh jeatjah aerpievuekien beapmoejurjiehtimmieareenine darjodh jïh maalestahkevuekiej bïjre derhviegåetesne/låavthgåetesne soptsestalledh, jïh guktie sosijaale ektievoete maalestahki bïjre maahta viehkiehtidh hijven healsoem nænnoestidh",
+              "sme": "ráhkadit biepmu dolas ja eará árbevirolaš biebmoráhkadanarenain ja ságastallat borranvieruid birra goađis/lávus ja mo sosiála searvevuohta borramiin sáhttá leat mielde nannemin buori dearvvašvuođa",
+              "smj": "stiellit biebmov dålån ja ietjá árbbedábálasj biebbmostiellima arienájn ja  ságastallap bårråmdábij birra gámán/låvdagoaden ja gåktu sosiála aktijvuohta bårråmusán máhttá varresvuodav nannit"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13698",
+          "core_elements": [
+            "KE1789"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "lage måltider fra egen kultur og andre kulturer og sammenligne råvarebruk og måltidsskikker, og reflektere over hvordan mattradisjoner henger sammen med natur og levevis i ulike områder",
+              "nob": "lage måltider fra egen kultur og andre kulturer og sammenligne råvarebruk og måltidsskikker, og reflektere over hvordan mattradisjoner henger sammen med natur og levevis i ulike områder",
+              "sma": "maalestahkh jïjtse kultuvreste jïh jeatjah kultuvrijste darjodh jïh navradahkeåtnoem jïh maalestahkevuekieh viertiestidh, jïh ussjedadtedh guktie beapmoevuekieh leah vïedteldahkesne eatnaminie jïh jieledevuekine ovmessie dajvine",
+              "sme": "ráhkadit biepmuid iežas kultuvrras ja eará kultuvrrain ja buohtastahttit biebmogálvogeavaheami ja borranvieruid, ja reflekteret mo biebmoárbevierut gullet oktii luondduin ja eallinvugiin iešguđet guovlluin.",
+              "smj": "stiellit biebmojt ietjas kultuvras ja ietjá kultuvrajs ja buohtastahttet biebbmogálvoj anov ja bårråmdábijt, ja reflektierit gåktu árbbedábe biebmoj vuoksjuj gulluji aktij luondujn ja iellemvuogijn iesjguhtik guovlojn"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 7. trinn",
+          "nob": "Kompetansemål og vurdering 7. trinn",
+          "sma": "Maahtoeulmieh jïh vuarjasjimmie 7. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 7. ceahkki",
+          "smj": "7. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    },
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV1062",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13702",
+          "core_elements": [
+            "KE1787",
+            "KE1788"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "planlegge og bruke egnede redskaper, teknikker og matlagingsmetoder til å lage trygg og bærekraftig mat som gir grunnlag for god helse",
+              "nob": "planlegge og bruke egnede redskaper, teknikker og matlagingsmetoder til å lage trygg og bærekraftig mat som gir grunnlag for god helse",
+              "sma": "soejkesjidh jïh dïrregh, vihkeles vuekieh jïh beapmoejurjiehtimmievuekieh nuhtjedh jearsoe jïh monnehke beapmoem darjodh, mij våaromem vadta hijven healsose",
+              "sme": "plánet ja geavahit heivvolaš reaidduid, teknihkaid ja biebmoráhkadanmetodaid ráhkadit dorvvolaš ja guoddevaš biepmu mii addá vuođu buori dearvvašvuhtii",
+              "smj": "plánit ja adnet hiebalasj vædtsagijt, teknihkajt ja biebmoj russtima metåvdåjt russtitjit sihkaris ja guoddelis biebmov mij vaddá vuodov buorre varresvuohtaj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13710",
+          "core_elements": [
+            "KE1787",
+            "KE1788",
+            "KE1789"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke sansene til å vurdere kvaliteten på matvarer, utforske og kombinere smaker i matlagingen og forbedre oppskrifter, menyer og anretning av mat",
+              "nob": "bruke sansene til å vurdere kvaliteten på matvarer, utforske og kombinere smaker i matlagingen og forbedre oppskrifter, menyer og anretning av mat",
+              "sma": "daajide nuhtjedh kvaliteetem beapmoevaarojde vuarjasjidh, smaahkh goerehtidh jïh kombineeredh beapmoejurjiehtimmesne jïh bïhkedassh, menyh jïh gåassoehtimmiem beapmoste bueriedidh",
+              "sme": "geavahit áiccuid árvvoštallat biebmogálvvuid kvalitehta, suokkardit ja kombineret máisttuid biebmoráhkadeamis ja buoridit biebmorávvagiid, fáluid ja biebmobardima lihttái guossoheami várás",
+              "smj": "adnet dåbdudagájt árvustalátjit biebbmogálvoj kvalitiehtav, åtsådit ja kombinierit májstijt biebmo russtidijn ja buoredit bagádusájt, fálojt ja biebmoj bårddemav lihttáj guossodibmáj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13703",
+          "core_elements": [
+            "KE1788",
+            "KE1789"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "skape og prøve ut nye retter fra lokale matressurser",
+              "nob": "skape og prøve ut nye retter fra lokale matressurser",
+              "sma": "orre beapmoereedth sjugniedidh pryövedh voenges beapmoevierhtijste",
+              "sme": "ráhkadit ja geahččaladdat ođđa biepmuid báikkálaš biebmoresurssain",
+              "smj": "stiellit ja gæhttjaladdat ådå biebmojt bájkálasj biebbmoressursajs"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13704",
+          "core_elements": [
+            "KE1787",
+            "KE1788"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "drøfte hvordan kosthold kan bidra til god helse og bruke digitale ressurser til å vurdere eget kosthold og til å velge sunne og varierte matvarer i forbindelse med matlaging",
+              "nob": "drøfte hvordan kosthold kan bidra til god helse og bruke digitale ressurser til å vurdere eget kosthold og til å velge sunne og varierte matvarer i forbindelse med matlaging",
+              "sma": "digkiedidh guktie kosthold maahta hijven healsoem vedtedh jïh digitaale vierhtieh nuhtjedh jïjtse kostholdem vuarjasjidh, jïh aejlies jïh jeereldihkie beapmoevaaroeh veeljedh gosse beapmoeh jurjehte",
+              "sme": "ságaškuššat mo biebmodoallu sáhttá váikkuhit buori dearvvašvuhtii ja geavahit digitála resurssaid árvvoštallat iežas biebmodoalu ja válljet dearvvašlaš ja máŋggabealat biebmogálvvuid biebmoráhkadeami oktavuođas",
+              "smj": "árvvaladdat gåktu biebmo máhtti buorre varresvuohtaj vájkkudit ja adnet digitála ressursajt árvustalátjit ietjas bårråmusájt ja válljit varres ja moattebelak biebbmogálvojt biebmoj russtidijn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13705",
+          "core_elements": [
+            "KE1787"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for og kritisk vurdere påstander, råd og informasjon om kosthold og helse",
+              "nob": "gjøre rede for og kritisk vurdere påstander, råd og informasjon om kosthold og helse",
+              "sma": "tjïelkestidh jïh laejhtehkslaakan vuarjasjidh mïelh, raerieh jïh bïevnesh kostholden jïh healsoen bïjre",
+              "sme": "čilget ja kritihkalaččat árvvoštallat čuoččuhusaid, rávvagiid ja dieđuid biebmodoalu ja dearvvašvuođa birra",
+              "smj": "tjielggit ja lájttálisát árvustallat tjuottjodusájt, rádijt ja diedojt biebmo ja varresvuoda birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13706",
+          "core_elements": [
+            "KE1788"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "kritisk vurdere informasjon om matproduksjon og drøfte hvordan forbrukermakt kan påvirke lokal og global matproduksjon",
+              "nob": "kritisk vurdere informasjon om matproduksjon og drøfte hvordan forbrukermakt kan påvirke lokal og global matproduksjon",
+              "sma": "laejhtehkslaakan bïevnesh beapmoeproduksjovnen bïjre vuarjasjidh, jïh digkiedidh guktie utnijefaamoe maahta voenges jïh veartenevijries beapmoeproduksjovnem baajnehtidh",
+              "sme": "kritihkalaččat árvvoštallat dieđuid biebmobuvttadeami birra ja ságaškuššat mo golaheaddjifápmu sáhttá váikkuhit báikkálaš ja globála biebmobuvttadeapmái",
+              "smj": "lájttálisát árvustallat diedojt biebbmobuvtadime birra ja árvvaladdat gåktu gållådiddjij fábmo máhttá vájkkudit bájkálasj ja globála biebbmobuvtadibmáj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13711",
+          "core_elements": [
+            "KE1787",
+            "KE1788"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske klimaavtrykket til matvarer og forklare hvordan matvalg og matforbruk kan påvirke miljøet, klimaet og matsikkerheten",
+              "nob": "utforske klimaavtrykket til matvarer og forklare hvordan matvalg og matforbruk kan påvirke miljøet, klimaet og matsikkerheten",
+              "sma": "beapmoevaaroej klijma-åasam goerehtidh jïh tjïelkestidh guktie beapmoevaaroeh jïh beapmoeåtnoe maehtieh byjresem, klijmam jïh beapmoejearsoesvoetem baajnehtidh",
+              "sme": "suokkardit biebmogálvvuid dálkkádatluottaid ja čilget mo biebmoválljen ja biebmogolaheapmi sáhttet váikkuhit birrasii, dálkkádahkii ja biebmosihkkarvuhtii",
+              "smj": "åtsådit biebbmogálvoj dálkádakluottajt ja tjielggit gåktu biebmoj válljim ja biebmoj gållådibme máhtti vájkkudit birrasij, dálkádahkaj ja biebmoj sihkarvuohtaj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM13707",
+          "core_elements": [
+            "KE1788",
+            "KE1789"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke samiske begreper knyttet til slakting og oppdeling av dyr, sløying og filetering av fisk og beskrive hvordan de forskjellige delene utnyttes",
+              "nob": "bruke samiske begreper knyttet til slakting og oppdeling av dyr, sløying og filetering av fisk og beskrive hvordan de forskjellige delene utnyttes",
+              "sma": "saemien baakoetjïerth nuhtjedh leekedimmesne jïh smeejvemisnie kreekijste, gosse guelieh tjåelieh jïh buerkiestidh guktie doh ovmessie bielieh åtnasuvvieh",
+              "sme": "geavahit sámi doahpagiid elliid njuovvamis ja rihttemis, guliid čollemiid ja fileteremis ja válddahit mo iešguđet ruovjjit ávkkástallojuvvojit",
+              "smj": "adnet sáme buojkuldagájt iellij njuovvamin ja ruojvvimin, guolij sláhkkimin ja filetierimin ja  buojkodit gåktu iesjguhtik ruojve ávkástaláduvvi"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13708",
+          "core_elements": [
+            "KE1788",
+            "KE1789"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske tradisjonelle konserveringsmetoder som salting, tørking og røyking i ulike matregioner",
+              "nob": "utforske tradisjonelle konserveringsmetoder som salting, tørking og røyking i ulike matregioner",
+              "sma": "aerpievuekien konserveeremevuekieh goerehtidh goh såålhteme, gajhkesjimmie jïh soevestimmie ovmessie beapmoeregijovnine",
+              "sme": "suokkardit árbevirolaš seailluhanmetodaid nugo sálten, goikadeapmi ja suovastuhttin iešguđet biebmoguovlluin",
+              "smj": "åtsådit árbbedábálasj vuorkkima metåvdåjt dagu sálltim, gåjkkådibme ja suovastibme iesjguhtik biebbmoguovlojn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13709",
+          "core_elements": [
+            "KE1788",
+            "KE1789"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "lage mat fra egen kultur, nordlige kulturer, urfolkskulturer og andre kulturer og sammenligne mattradisjoner og forklare hvordan identitet og tilhørighet blir uttrykt og formidlet gjennom mat og måltider",
+              "nob": "lage mat fra egen kultur, nordlige kulturer, urfolkskulturer og andre kulturer og sammenligne mattradisjoner og forklare hvordan identitet og tilhørighet blir uttrykt og formidlet gjennom mat og måltider",
+              "sma": "beapmoem jurjiehtidh jïjtse kultuvreste, noerhtege kultuvrijste, aalkoeåålmegekultuvrijste jïh jeatjah kultuvrijste, jïh beapmoevuekieh viertiestidh jïh tjïelkestidh guktie identiteete jïh ektiedimmie våajnoes dorjesuvvieh beapmoen jïh maalestahki tjïrrh",
+              "sme": "ráhkadit iežas kultuvrra, davviguovlluid kultuvrraid, eamiálbmotkultuvrraid ja eará kultuvrraid biepmu ja buohtastahttit biebmoárbevieruid ja čilget mo identitehta ja gullevašvuohta ovdanbuktojuvvojit ja gaskkustuvvojit biepmu ja borramiid bokte",
+              "smj": "stiellit biebmojt ietjas kultuvras, nuorttaguovloj kultuvrajs, iemeálmmukkultuvrajs ja ietjá kultuvrajs ja buohtastahttet biebmoj árbbedábijt ja tjielggit gåktu identitiehtta ja gullevasjvuohta åvddånbuvteduvvi ja gaskostuvvi biebmo ja bårråmusáj baktu"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 10. trinn",
+          "nob": "Kompetansemål og vurdering 10. trinn",
+          "sma": "Maahtoeulmieh jïh vuarjasjimmie 10. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 10. ceahkki",
+          "smj": "10. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    }
+  ],
+  "last_modified": "2026-07-09T11:11:50.3041215",
+  "replaced_by": [],
+  "replaces": [
+    "MHE02-02"
+  ],
+  "title": {
+    "by_language": {
+      "default": "Læreplan i mat og helse, samisk plan",
+      "nob": "Læreplan i mat og helse, samisk plan",
+      "sma": "Learoesoejkesje - Beapmoe jïh healsoe, saemien soejkesje",
+      "sme": "Oahppoplána - biepmu ja dearvvašvuođa oahppoplána",
+      "smj": "Biebbmo ja varresvuoda oahppopládna, sáme pládna"
+    }
+  },
+  "valid_from": "2026-08-01",
+  "valid_to": null
+}

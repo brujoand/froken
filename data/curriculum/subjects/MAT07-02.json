@@ -1,0 +1,201 @@
+{
+  "code": "MAT07-02",
+  "goal_sets": [
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV23",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM294",
+          "core_elements": [
+            "KE18",
+            "KE19",
+            "KE21"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke teknologi som verktøy for kunnskapssøking, kommunikasjon, kreativitet og læring i matematikk",
+              "nob": "bruke teknologi som verktøy for kunnskapssøking, kommunikasjon, kreativitet og læring i matematikk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM295",
+          "core_elements": [
+            "KE18",
+            "KE19",
+            "KE20",
+            "KE21"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske, planlegge og modellere situasjoner knyttet til temaer innenfor samfunn og arbeidsliv og presentere og argumentere for resultatene",
+              "nob": "utforske, planlegge og modellere situasjoner knyttet til temaer innenfor samfunn og arbeidsliv og presentere og argumentere for resultatene"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM296",
+          "core_elements": [
+            "KE19",
+            "KE21",
+            "KE22"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke, forklare og lage formler uttrykt med ord og symboler med utgangspunkt i en praktisk problemstilling",
+              "nob": "bruke, forklare og lage formler uttrykt med ord og symboler med utgangspunkt i en praktisk problemstilling"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM297",
+          "core_elements": [
+            "KE19",
+            "KE21"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "tolke og diskutere statistiske framstillinger knyttet til bærekraftig utvikling",
+              "nob": "tolke og diskutere statistiske framstillinger knyttet til bærekraftig utvikling"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM298",
+          "core_elements": [
+            "KE19",
+            "KE21"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lage, utføre og presentere oppgaver knyttet til sannsynlighetsregning",
+              "nob": "lage, utføre og presentere oppgaver knyttet til sannsynlighetsregning"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM299",
+          "core_elements": [
+            "KE18",
+            "KE21"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og representere kombinatoriske problemer",
+              "nob": "utforske og representere kombinatoriske problemer"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM300",
+          "core_elements": [
+            "KE18",
+            "KE20",
+            "KE21"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "diskutere, planlegge, lage og vurdere spilldesign og egne spill",
+              "nob": "diskutere, planlegge, lage og vurdere spilldesign og egne spill"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4"
+          ],
+          "code": "KM301",
+          "core_elements": [
+            "KE19",
+            "KE20"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beregne og vurdere betingelser for og kostnader ved ulike typer kjøp fra inn- og utland",
+              "nob": "beregne og vurdere betingelser for og kostnader ved ulike typer kjøp fra inn- og utland"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering fordypning i matematikk",
+          "nob": "Kompetansemål og vurdering fordypning i matematikk"
+        }
+      }
+    }
+  ],
+  "last_modified": "2021-02-09T13:36:41.6299218",
+  "replaced_by": [],
+  "replaces": [
+    "MAT7-01"
+  ],
+  "title": {
+    "by_language": {
+      "default": "Læreplan i fordypning i matematikk",
+      "nob": "Læreplan i fordypning i matematikk"
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

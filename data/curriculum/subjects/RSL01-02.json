@@ -1,0 +1,92 @@
+{
+  "code": "RSL01-02",
+  "goal_sets": [
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV309",
+      "goals": [
+        {
+          "basic_skills": [],
+          "code": "KM3231",
+          "core_elements": [
+            "KE351"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske lokalt eller regionalt reiseliv og gjere greie for tilbod til ulike målgrupper",
+              "nno": "utforske lokalt eller regionalt reiseliv og gjere greie for tilbod til ulike målgrupper"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3232",
+          "core_elements": [
+            "KE351"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "undersøkje og formidle moglegheiter og særtrekk ved lokal eller regional kultur og natur som kan vere attraktive i eit reiselivsperspektiv",
+              "nno": "undersøkje og formidle moglegheiter og særtrekk ved lokal eller regional kultur og natur som kan vere attraktive i eit reiselivsperspektiv"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3233",
+          "core_elements": [
+            "KE351",
+            "KE352"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "planleggje, marknadsføre og utføre lokale eller regionale reiselivstenester, og formidle eige arbeid med reiselivstenester",
+              "nno": "planleggje, marknadsføre og utføre lokale eller regionale reiselivstenester, og formidle eige arbeid med reiselivstenester"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3234",
+          "core_elements": [
+            "KE352"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "vurdere korleis turisme kan påverke natur og miljø og finne døme på slik påverknad lokalt og globalt",
+              "nno": "vurdere korleis turisme kan påverke natur og miljø og finne døme på slik påverknad lokalt og globalt"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering reiseliv",
+          "nno": "Kompetansemål og vurdering reiseliv"
+        }
+      }
+    }
+  ],
+  "last_modified": "2024-11-07T12:49:14.230672",
+  "replaced_by": [],
+  "replaces": [
+    "RSL1-01"
+  ],
+  "title": {
+    "by_language": {
+      "default": "Læreplan i valfaget reiseliv",
+      "nno": "Læreplan i valfaget reiseliv"
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

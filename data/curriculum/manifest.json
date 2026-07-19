@@ -1,0 +1,457 @@
+{
+  "as_of": "2026-08-01",
+  "ingested_with": "0.0.0",
+  "source": "https://data.udir.no/kl06/v201906/",
+  "subjects": {
+    "ARB01-03": {
+      "goal_sets": 1,
+      "goals": 8,
+      "last_modified": "2022-04-22T13:29:37.422922",
+      "replaced_by": [],
+      "sha256": "9075a7acd23a6232b9856675bfc228d38dd3586acce99341a9d23df6219bba9e",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "DIP01-02": {
+      "goal_sets": 1,
+      "goals": 6,
+      "last_modified": "2024-11-07T12:57:14.065895",
+      "replaced_by": [],
+      "sha256": "baa6ef760b8e1d82a043e1f4f0c98bf6745f4742c3a7a1069e1fa87771045aca",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "DOR01-02": {
+      "goal_sets": 1,
+      "goals": 4,
+      "last_modified": "2024-11-07T12:56:52.9560243",
+      "replaced_by": [],
+      "sha256": "cb0d19cb39ac44e3a37aae201cf1c9786d0e4c19c3ff44ca920409c929ff0c29",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "ENG01-06": {
+      "goal_sets": 4,
+      "goals": 61,
+      "last_modified": "2026-07-08T10:56:00.2724417",
+      "replaced_by": [],
+      "sha256": "f9cf59c0783cde3cb92465ea9c42cc9e6a7d909f337fb7763c65f5a72243d240",
+      "valid_from": "2026-08-01",
+      "valid_to": null
+    },
+    "ENG02-06": {
+      "goal_sets": 4,
+      "goals": 59,
+      "last_modified": "2026-07-08T15:42:03.7020496",
+      "replaced_by": [],
+      "sha256": "c4a489106f50e569d9e135e333e14c4e9e69a099d1b988d2b5ab5b2568580982",
+      "valid_from": "2026-08-01",
+      "valid_to": null
+    },
+    "ENG03-02": {
+      "goal_sets": 1,
+      "goals": 11,
+      "last_modified": "2021-03-25T20:01:36.999059",
+      "replaced_by": [],
+      "sha256": "ee135bc5bdb5b94c1eaa18811ab00996774c53d5dab2fb166759d38d2fe7ff8e",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "FAH01-02": {
+      "goal_sets": 1,
+      "goals": 4,
+      "last_modified": "2024-11-07T12:56:29.0079756",
+      "replaced_by": [],
+      "sha256": "ffe91459e812867623eb3cca1cee98eed44a64235d467de927a519386ceba82d",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "FIP01-02": {
+      "goal_sets": 1,
+      "goals": 4,
+      "last_modified": "2024-11-07T12:56:06.5674691",
+      "replaced_by": [],
+      "sha256": "965c63832939361c94e46e74a20b473be3a0390436729b1535329e50514bc9f0",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "FSP01-04": {
+      "goal_sets": 1,
+      "goals": 9,
+      "last_modified": "2025-06-27T10:33:44.8493561",
+      "replaced_by": [],
+      "sha256": "75493a16b665fb2bba692f741ddebff5ea7e7224b678113f4808be05e25b7e65",
+      "valid_from": "2025-08-01",
+      "valid_to": null
+    },
+    "IFA01-02": {
+      "goal_sets": 1,
+      "goals": 4,
+      "last_modified": "2024-11-07T12:55:42.4884951",
+      "replaced_by": [],
+      "sha256": "43c0873c678ae6f2547750cd4f9a3d7d6f3315ccfa4899089a74dc52e55d0dcd",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "ISA01-02": {
+      "goal_sets": 1,
+      "goals": 4,
+      "last_modified": "2024-11-07T12:54:58.7007588",
+      "replaced_by": [],
+      "sha256": "5223d3ccdd28d5af9a6cd12ac5975e699b42e2b674b39dd2b6ff6d8cdad81e83",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "KEF01-01": {
+      "goal_sets": 4,
+      "goals": 18,
+      "last_modified": "2026-04-23T16:07:24.7246432",
+      "replaced_by": [],
+      "sha256": "e0eb923cb9029404186e72f4feeeed4dfa22b364638f7d45c8f97d986e33f995",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "KHV01-03": {
+      "goal_sets": 4,
+      "goals": 41,
+      "last_modified": "2026-07-08T11:01:48.7836113",
+      "replaced_by": [],
+      "sha256": "e88bbb0a39a30aa3174737688c3880cf86841e2a4857cbc17e557be7013e246d",
+      "valid_from": "2026-08-01",
+      "valid_to": null
+    },
+    "KHV02-03": {
+      "goal_sets": 4,
+      "goals": 39,
+      "last_modified": "2026-07-08T15:48:49.8246849",
+      "replaced_by": [],
+      "sha256": "813aec830fa6bded874269fae14e741084f0e8ddbcd48f9b49c3ff691dadc084",
+      "valid_from": "2026-08-01",
+      "valid_to": null
+    },
+    "KRO01-06": {
+      "goal_sets": 4,
+      "goals": 44,
+      "last_modified": "2026-07-08T15:01:27.2692031",
+      "replaced_by": [],
+      "sha256": "4df30adc2ef172e3b7e5c1ee44ea8b3c7e9f595e31bb6270b3007303cfb8ee49",
+      "valid_from": "2026-08-01",
+      "valid_to": null
+    },
+    "LKA01-02": {
+      "goal_sets": 1,
+      "goals": 4,
+      "last_modified": "2024-11-07T12:49:29.4606086",
+      "replaced_by": [],
+      "sha256": "0ca328cb44c738650d0a8289e9146a76234d0bc485574600131e1bcec6d30399",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "MAT01-06": {
+      "goal_sets": 9,
+      "goals": 101,
+      "last_modified": "2026-06-29T10:14:06.3548168",
+      "replaced_by": [],
+      "sha256": "96c1747444b1aadcaae71ad066200e930d99aaea44046d6c2c2e80d96e0aa845",
+      "valid_from": "2026-08-01",
+      "valid_to": null
+    },
+    "MAT07-02": {
+      "goal_sets": 1,
+      "goals": 8,
+      "last_modified": "2021-02-09T13:36:41.6299218",
+      "replaced_by": [],
+      "sha256": "97db256ff3a8b91366339d175373cf8e54e2a7646b1813991335b6200a245c65",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "MHE01-03": {
+      "goal_sets": 3,
+      "goals": 27,
+      "last_modified": "2026-07-08T15:34:14.0286237",
+      "replaced_by": [],
+      "sha256": "6cf696ed51ae8030cc5fd11719c7a8a71175dc779ccba94bd2ef585a0ac05ba9",
+      "valid_from": "2026-08-01",
+      "valid_to": null
+    },
+    "MHE02-03": {
+      "goal_sets": 3,
+      "goals": 30,
+      "last_modified": "2026-07-09T11:11:50.3041215",
+      "replaced_by": [],
+      "sha256": "6f987bdc14a8c9e76c13cb6f73f9fdbe066b59fa6e0afdaa79cbf84b0ba2a2fb",
+      "valid_from": "2026-08-01",
+      "valid_to": null
+    },
+    "MOI01-02": {
+      "goal_sets": 1,
+      "goals": 5,
+      "last_modified": "2024-11-07T12:54:24.0042356",
+      "replaced_by": [],
+      "sha256": "c847eed3b0bcdaec5c71ecd09fb6faef293a840d95c45cc8d5d8e2703897719c",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "MUS01-03": {
+      "goal_sets": 4,
+      "goals": 28,
+      "last_modified": "2026-07-09T12:17:38.7183098",
+      "replaced_by": [],
+      "sha256": "aa2273d85ee26ae04c96ef7512b09319dbd5f560cd2ab5f07af4cd25bee9e979",
+      "valid_from": "2026-08-01",
+      "valid_to": null
+    },
+    "MUS02-03": {
+      "goal_sets": 4,
+      "goals": 28,
+      "last_modified": "2026-07-09T14:28:27.4418663",
+      "replaced_by": [],
+      "sha256": "8b76dd7c3bd89040553177ac0f1fa6f174de438838b3b5672ba2c04f93b823c2",
+      "valid_from": "2026-08-01",
+      "valid_to": null
+    },
+    "MUS03-03": {
+      "goal_sets": 4,
+      "goals": 38,
+      "last_modified": "2026-07-09T14:47:58.5619494",
+      "replaced_by": [],
+      "sha256": "2bb46bde1ac11590acc5fb9f42b0e2017003243204de1eaa8eb4e2ab39e4cfcf",
+      "valid_from": "2026-08-01",
+      "valid_to": null
+    },
+    "NAT01-05": {
+      "goal_sets": 4,
+      "goals": 70,
+      "last_modified": "2026-07-10T12:24:12.7930496",
+      "replaced_by": [],
+      "sha256": "c3e9d3ce0a039772ee4b4069bda1e1a4b8eec8821dc61d066477bd75043228bb",
+      "valid_from": "2026-08-01",
+      "valid_to": null
+    },
+    "NAT02-05": {
+      "goal_sets": 4,
+      "goals": 71,
+      "last_modified": "2026-07-10T12:39:34.8268521",
+      "replaced_by": [],
+      "sha256": "93ab3631e09080c80786a38313b59de8df3fe7a4133e772a1447bae7fadbc86f",
+      "valid_from": "2026-08-01",
+      "valid_to": null
+    },
+    "NMF01-02": {
+      "goal_sets": 1,
+      "goals": 7,
+      "last_modified": "2024-11-07T12:52:16.2452568",
+      "replaced_by": [],
+      "sha256": "c5ea95565beae5287fb2457e98c019520348c68b4d63a147ac2191b612a5efa1",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "NOR01-08": {
+      "goal_sets": 4,
+      "goals": 63,
+      "last_modified": "2026-07-10T12:57:07.7305489",
+      "replaced_by": [],
+      "sha256": "965bdfeecaef3540f918b85571fa90937ae265aa36a02335107889c83ae7ea3f",
+      "valid_from": "2026-08-01",
+      "valid_to": null
+    },
+    "NOR03-06": {
+      "goal_sets": 4,
+      "goals": 52,
+      "last_modified": "2026-07-10T13:08:22.0976905",
+      "replaced_by": [],
+      "sha256": "18079b3d7b5c2298a49966c9104a3620064b57bfa34e9a54eaf88a72231f9c24",
+      "valid_from": "2026-08-01",
+      "valid_to": null
+    },
+    "NOR04-06": {
+      "goal_sets": 4,
+      "goals": 45,
+      "last_modified": "2026-07-15T08:59:18.3773072",
+      "replaced_by": [],
+      "sha256": "6d994fbbbcb910ef9db8b3a07fcc6a584b6dc70741be0683ddcd318ece7ed721",
+      "valid_from": "2026-08-01",
+      "valid_to": null
+    },
+    "NOR05-07": {
+      "goal_sets": 4,
+      "goals": 44,
+      "last_modified": "2026-07-15T09:14:57.7352325",
+      "replaced_by": [],
+      "sha256": "45d9de44c69911ddfb2cfebe1c1759b6767996ebab15b12c54fa40f6ca629f93",
+      "valid_from": "2026-08-01",
+      "valid_to": null
+    },
+    "NOR06-02": {
+      "goal_sets": 1,
+      "goals": 10,
+      "last_modified": "2021-03-25T20:04:33.4392892",
+      "replaced_by": [],
+      "sha256": "23ec1ef31314ef0579a2c2351f020d8a7ca08781073324dc56b4c52ebc258013",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "NOR07-02": {
+      "goal_sets": 3,
+      "goals": 51,
+      "last_modified": "2023-06-14T09:17:59.2321121",
+      "replaced_by": [],
+      "sha256": "f91e50de03280379e3d4b66a3eeb06db6aeb59c43557e20decbc3fbe104f553a",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "NOR08-02": {
+      "goal_sets": 3,
+      "goals": 38,
+      "last_modified": "2023-06-14T09:18:32.0628044",
+      "replaced_by": [],
+      "sha256": "8c7e195a1569b381d38944e0ef1ae81c0b91afffcb4c9fc4c647cc0b0239f8a5",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "PHF01-02": {
+      "goal_sets": 1,
+      "goals": 6,
+      "last_modified": "2024-11-07T12:51:55.1104332",
+      "replaced_by": [],
+      "sha256": "422211116867643eae1ed490655020100c8079914c4733e4ece29f013b769234",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "PRG01-02": {
+      "goal_sets": 1,
+      "goals": 6,
+      "last_modified": "2024-11-07T12:51:28.3833674",
+      "replaced_by": [],
+      "sha256": "93621cfd671183ad9ed60722ab4d24b2ab64c66f6b524ff324bb40d4e84adcaf",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "PVT01-02": {
+      "goal_sets": 1,
+      "goals": 6,
+      "last_modified": "2024-11-07T12:51:04.4108066",
+      "replaced_by": [],
+      "sha256": "92c9ef02a161df978d2520f8c3d30278bce8879cd177d050616498b421b93ffc",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "RLE01-04": {
+      "goal_sets": 3,
+      "goals": 41,
+      "last_modified": "2026-07-15T09:29:23.1115129",
+      "replaced_by": [],
+      "sha256": "08a947e648968d239faf7f4ea261eb71d5739411396847618176d8f3d8009570",
+      "valid_from": "2026-08-01",
+      "valid_to": null
+    },
+    "RLE02-04": {
+      "goal_sets": 3,
+      "goals": 41,
+      "last_modified": "2026-07-15T09:48:46.4874473",
+      "replaced_by": [],
+      "sha256": "32d75c7a4a23d4dfc3b5056888559307aab97f411464e233833943175eaf4150",
+      "valid_from": "2026-08-01",
+      "valid_to": null
+    },
+    "RSL01-02": {
+      "goal_sets": 1,
+      "goals": 4,
+      "last_modified": "2024-11-07T12:49:14.230672",
+      "replaced_by": [],
+      "sha256": "23abb41ae180dceb05648caeadb1b3090597556715e86f24d8de841152149b2b",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "SAF01-05": {
+      "goal_sets": 4,
+      "goals": 62,
+      "last_modified": "2026-07-15T12:45:19.139109",
+      "replaced_by": [],
+      "sha256": "75565170300d0b421c8b72214e2e1b32e767be31598a04c7c1732300861a13cb",
+      "valid_from": "2026-08-01",
+      "valid_to": null
+    },
+    "SAF02-05": {
+      "goal_sets": 4,
+      "goals": 62,
+      "last_modified": "2026-07-15T13:02:23.0761926",
+      "replaced_by": [],
+      "sha256": "9fcfcbae66a481600fb2a77fda087dc56574650d80a225fbefcb741e139d5a3a",
+      "valid_from": "2026-08-01",
+      "valid_to": null
+    },
+    "SAS02-01": {
+      "goal_sets": 4,
+      "goals": 32,
+      "last_modified": "2026-04-24T11:09:50.1186703",
+      "replaced_by": [],
+      "sha256": "798657cb5aae463f83c5b016190b755531e5251746195a52115b87a375205f58",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "SAS03-01": {
+      "goal_sets": 3,
+      "goals": 20,
+      "last_modified": "2026-04-24T14:50:55.2286053",
+      "replaced_by": [],
+      "sha256": "dcaee5de266bfe2ad32b7ad6c34609a71fb2cdee91a5c3571a3dcdd2ab14933f",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "SFS01-05": {
+      "goal_sets": 4,
+      "goals": 60,
+      "last_modified": "2026-04-24T08:21:19.872",
+      "replaced_by": [],
+      "sha256": "6d24b5dfd24fd7356a740b72c0d0defd54b91db99269a0327b683efa4b672f28",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "SFS02-02": {
+      "goal_sets": 1,
+      "goals": 10,
+      "last_modified": "2026-05-13T09:29:09.1872738",
+      "replaced_by": [],
+      "sha256": "d208b295f1ad52d1d800edd0791e6fd8af616eba8cf3a577aeacffef05bfc55a",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "SOS01-02": {
+      "goal_sets": 1,
+      "goals": 4,
+      "last_modified": "2024-11-07T12:50:36.3807661",
+      "replaced_by": [],
+      "sha256": "bdb31e84c21b16bf155c9553a444b3e5bfe1b6df7775e8c0d4d4c3818c0e883a",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "TPR01-02": {
+      "goal_sets": 1,
+      "goals": 4,
+      "last_modified": "2024-11-07T12:48:48.3531357",
+      "replaced_by": [],
+      "sha256": "d329bb2ad7e23c79f49d54629346d92df31f84378b153ba21f6ff59ccd9c2927",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "TRA01-02": {
+      "goal_sets": 1,
+      "goals": 6,
+      "last_modified": "2024-11-07T12:50:07.8520246",
+      "replaced_by": [],
+      "sha256": "d18da0a8b0f2619bda487029e849a685290b5ad982fe975335aa2262ef67310e",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    },
+    "UTV01-03": {
+      "goal_sets": 1,
+      "goals": 10,
+      "last_modified": "2022-12-01T10:32:02.5844454",
+      "replaced_by": [],
+      "sha256": "22f472f93a8ac6b672830185bfeb34921e17ec67f15f26c6d4e4dad6b25c5f36",
+      "valid_from": "2020-08-01",
+      "valid_to": null
+    }
+  }
+}

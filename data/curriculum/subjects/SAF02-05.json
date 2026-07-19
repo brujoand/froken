@@ -1,0 +1,1574 @@
+{
+  "code": "SAF02-05",
+  "goal_sets": [
+    {
+      "after_year": 2,
+      "applies_to_years": [
+        1,
+        2
+      ],
+      "code": "KV1153",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14730",
+          "core_elements": [
+            "KE1851",
+            "KE1852"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utvikle og presentere samfunnsfaglige spørsmål",
+              "nob": "utvikle og presentere samfunnsfaglige spørsmål",
+              "sma": "seabradahkefaageles gyhtjelassh evtiedidh jïh åehpiedehtedh",
+              "sme": "ovdánahttit ja ovdanbuktit servodatfágalaš gažaldagaid",
+              "smj": "åvddånahttet ja åvddånbuktet sebrudakfágalasj gatjálvisájt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM14731",
+          "core_elements": [
+            "KE1851",
+            "KE1852"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "samtale om hvordan ulike norske og samiske kilder, inkludert fortellinger og kart, kan gi informasjon om samfunnsfaglige spørsmål",
+              "nob": "samtale om hvordan ulike norske og samiske kilder, inkludert fortellinger og kart, kan gi informasjon om samfunnsfaglige spørsmål",
+              "sma": "soptsestalledh guktie ovmessie nöörjen jïh saemien gaaltijh, aaj soptsesh jïh kaarhth, maehtieh bïevnesh vedtedh seabradahkefaageles gyhtjelassi bïjre",
+              "sme": "ságastallat mo iešguđet norgga ja sámi gáldut, maiddái muitalusat ja kárttat, sáhttet addit dieđuid servodatfágalaš áššiin",
+              "smj": "ságastallat gåktu iesjguhtik vuona ja sáme gáldo, aktan subttsasa ja kárta, máhtti diedojt sebrudakfágalasj ássjij birra vaddet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM14732",
+          "core_elements": [
+            "KE1852",
+            "KE1854"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og beskrive kulturminner og kultur- og naturlandskapet i nærmiljøet",
+              "nob": "utforske og beskrive kulturminner og kultur- og naturlandskapet i nærmiljøet",
+              "sma": "kultuvremojhtesh jïh kultuvrelaantem jïh eatnemem voengesne goerehtidh jïh buerkiestidh",
+              "sme": "suokkardit ja válddahit kulturmuittuid ja kultur- ja luonddueanadaga lagašbirrasis",
+              "smj": "åtsådit ja gåvvidit kulturmujtojt ja kultuvrra- ja luonndoduobddágav lahkabirrasin"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM14733",
+          "core_elements": [
+            "KE1852",
+            "KE1854",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og presentere hvordan mennesker levde for én til to menneskealdre siden",
+              "nob": "utforske og presentere hvordan mennesker levde for én til to menneskealdre siden",
+              "sma": "goerehtidh jïh åehpiedehtedh guktie almetjh veasoejin akten jallh göökti boelvi mænngan",
+              "sme": "suokkardit ja ovdanbuktit mo olbmot elle ovtta–guovtti buolvva dassái",
+              "smj": "åtsådit ja åvddånbuktet gåktu ulmutja viessun avta–guovte buolva dássta åvddåla"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14734",
+          "core_elements": [
+            "KE1852",
+            "KE1853",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over hvorfor mennesker har ulike meninger og gjør ulike valg",
+              "nob": "reflektere over hvorfor mennesker har ulike meninger og gjør ulike valg",
+              "sma": "ussjedadtedh man åvteste almetji leah joekehtsh mïelh jïh ovmessie veeljemh vaeltieh",
+              "sme": "reflekteret manne olbmuin leat iešguđet oaivilat ja válljejit iešguđet láhkai",
+              "smj": "reflektierit manen ulmutjijn li iesjguhtik vuojno ja válljiji iesjguhtik láhkáj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14735",
+          "core_elements": [
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om vennskap, tilhørighet og hva som påvirker relasjoner",
+              "nob": "samtale om vennskap, tilhørighet og hva som påvirker relasjoner",
+              "sma": "vïenevoeten jïh ektiedimmien bïjre soptsestalledh jïh mij relasjovnide baajnehte",
+              "sme": "ságastallat ustitvuođa ja gullevašvuođa birra ja mii váikkuha gaskavuođaide",
+              "smj": "ságastallat ráddnavuoda ja gullevasjvuoda birra ja mij vájkkut aktijvuodajda ulmutjij gaskan"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14741",
+          "core_elements": [
+            "KE1853",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive og gi eksempler på mangfold og likeverd i Norge og Sápmi/Sábme/Saepmie, med vekt på samisk slektskap og ulike familieformer og folkegrupper",
+              "nob": "beskrive og gi eksempler på mangfold og likeverd i Norge og Sápmi/Sábme/Saepmie, med vekt på samisk slektskap og ulike familieformer og folkegrupper",
+              "sma": "buerkiestidh jïh vuesiehtimmieh vedtedh gellievoetese jïh seammavyörtegsvoetese Nöörjesne jïh Saepmesne, joekoen saemien slïekth jïh ovmessie fuelhkiehammoeh jïh almetjekrirrieh",
+              "sme": "válddahit girjáivuođa ja ovttaárvosašvuođa Sámis ja addit ovdamearkkaid daidda ja seammás deattuhit sámi fuolkevuođa ja iešguđet bearašhámiid ja álbmotčearddaid",
+              "smj": "gåvvidit ja buojkodit moattebelakvuodav ja avtaárvvusasjvuodav Sámen, dættodit sáme berajvuodav ja iesjguhtik familljahámijt ja álmmuktjerdajt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14738",
+          "core_elements": [
+            "KE1851",
+            "KE1852",
+            "KE1854"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og gi eksempler på hvordan mennesker påvirker klima og miljø, og dokumentere hvordan påvirkningene kommer til syne i nærmiljøet",
+              "nob": "utforske og gi eksempler på hvordan mennesker påvirker klima og miljø, og dokumentere hvordan påvirkningene kommer til syne i nærmiljøet",
+              "sma": "goerehtidh jïh vuesiehtimmieh vedtedh guktie almetjh klijmam jïh byjresem baajnehtieh, jïh dokumenteeredh guktie baajnehtimmieh vååjnesasse båetieh voengesne",
+              "sme": "suokkardit ja addit ovdamearkkaid dasa mo olbmot váikkuhit dálkkádahkii ja birrasii, ja duođaštit mo váikkuhusat oidnojit lagašbirrasis",
+              "smj": "åtsådit ja vaddet buojkulvisájt dasi gåktu ulmutja vájkkudi dálkádahkaj ja birrasij, ja duodastit gåktu vájkkudusá lahkabirrasin vuojnnuji"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14737",
+          "core_elements": [
+            "KE1852",
+            "KE1853",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "presentere og gi eksempler på rettigheter barn har i Norge og verden, og hva barn kan gjøre ved brudd på disse rettighetene",
+              "nob": "presentere og gi eksempler på rettigheter barn har i Norge og verden, og hva barn kan gjøre ved brudd på disse rettighetene",
+              "sma": "åehpiedehtedh jïh vuesiehtimmieh vedtedh maanaj reaktide Nöörjesne jïh veartenisnie, jïh maam maanah maehtieh darjodh gosse naaken daejtie reaktide mïedtele",
+              "sme": "ovdanbuktit ja addit ovdamearkkaid vuoigatvuođaide mat mánáin leat Norggas ja máilmmis, ja maid mánát sáhttet dahkat jus dát vuoigatvuođat rihkkojuvvojit",
+              "smj": "åvddånbuktet ja buojkodit riektájda ma mánájn li Vuonan ja væráldin, ja majt máná máhtti dahkat jus dá rievtesvuoda doajeduvvi"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4"
+          ],
+          "code": "KM14736",
+          "core_elements": [
+            "KE1851",
+            "KE1852",
+            "KE1853"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og gi eksempler på hvordan barn kan påvirke beslutninger og samarbeide om demokratiske prosesser",
+              "nob": "utforske og gi eksempler på hvordan barn kan påvirke beslutninger og samarbeide om demokratiske prosesser",
+              "sma": "goerehtidh jïh vuesiehtimmieh vedtedh guktie maanah maehtieh sjæjsjalimmieh baajnehtidh jïh demokraateles prosessi bïjre laavenjostedh",
+              "sme": "suokkardit ja addit ovdamearkkaid dasa mo mánát sáhttet váikkuhit mearrádusaide ja ovttasbargat demokráhtalaš proseassaid hárrái",
+              "smj": "åtsådit ja buojkodit gåktu máná máhtti mærrádusájda vájkkudit ja aktan barggat demokratijjalasj prosessaj hárráj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF5"
+          ],
+          "code": "KM14739",
+          "core_elements": [
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om muligheter og utfordringer ved digital samhandling",
+              "nob": "samtale om muligheter og utfordringer ved digital samhandling",
+              "sma": "soptestalledh nuepiej jïh haestemi bïjre digitaale ektiedahkosne",
+              "sme": "ságastallat digitála ovttasdoaibmama vejolašvuođaid ja hástalusaid birra",
+              "smj": "ságastallat digitála aktandoajmmama máhttelisvuodaj ja hásstalusáj birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14740",
+          "core_elements": [
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om følelser, kropp, kjønn og seksualitet og hvordan egne og andres grenser kan uttrykkes og respekteres",
+              "nob": "samtale om følelser, kropp, kjønn og seksualitet og hvordan egne og andres grenser kan uttrykkes og respekteres",
+              "sma": "soptsestalledh domtesi, kråahpen, tjoelen jïh seksualiteeten bïjre jïh guktie maahta jïjtse jïh mubpiej raasth vuesiehtidh jïh ååktedh",
+              "sme": "ságastallat dovdduid, rupmaša, sohkabeali ja seksualitehta birra, ja mo iežas ja earáid rájáid sáhttá čájehit ja árvvusatnit",
+              "smj": "ságastallat dåbdoj, rubmaha, sjierve ja seksualitiehta birra, ja gåktu ietjas ja iehtjádij rájájt máhttá vuosedit ja vieledit"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM14742",
+          "core_elements": [
+            "KE1853",
+            "KE1854",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og gi eksempler på hvordan mennesker i forskjellige deler av verden påvirker hverandres liv",
+              "nob": "utforske og gi eksempler på hvordan mennesker i forskjellige deler av verden påvirker hverandres liv",
+              "sma": "goerehtidh jïh vuesiehtimmieh vedtedh guktie almetjh ovmessie bieline veartenistie sinsitnien jieledem baajnehtieh",
+              "sme": "suokkardit ja addit ovdamearkkaid dasa mo olbmot iešguđet osiin máilmmis váikkuhit guhtet guoimmiset eallimiid",
+              "smj": "åtsådit ja buojkodit gåktu ulmutja iesjguhtik åsijn væráldin vájkkudi goabbá guojmesa iellemijda"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 2. trinn",
+          "nob": "Kompetansemål og vurdering 2. trinn",
+          "sma": "Maahtoeulmie jïh vuarjasjimmie 2. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 2. ceahkki",
+          "smj": "2. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    },
+    {
+      "after_year": 4,
+      "applies_to_years": [
+        3,
+        4
+      ],
+      "code": "KV1154",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14743",
+          "core_elements": [
+            "KE1851",
+            "KE1852"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og presentere samfunnsfaglige spørsmål, søke etter informasjon i ulike kilder og vurdere hvor nyttig informasjonen er til å belyse spørsmålene",
+              "nob": "utforske og presentere samfunnsfaglige spørsmål, søke etter informasjon i ulike kilder og vurdere hvor nyttig informasjonen er til å belyse spørsmålene",
+              "sma": "seabradahkefaageles gyhtjelassh goerehtidh jïh åehpiedehtedh, bïevnesh ovmessie gaaltijinie ohtsedidh jïh vuarjasjidh man nuhteligs bïevnesh leah gyhtjelasside tjïelkestidh",
+              "sme": "suokkardit ja ovdanbuktit servodatfágalaš gažaldagaid, ohcat dieđuid iešguđet gálduin ja árvvoštallat man ávkkálaččat dieđut leat čalmmustahttit gažaldagaid",
+              "smj": "åtsådit ja åvddånbuktet sebrudakfágalasj gatjálvisájt, åhtsåt diedojt iesjguhtik gáldojn ja árvustallat man ávkálattja diedo li gatjálvisájt tjalmostahttet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM14744",
+          "core_elements": [
+            "KE1852",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske samisk lokalhistorie, kulturminner og hvordan mennesker levde i den tiden kulturminnene er fra, og sammenligne med hvordan vi lever i dag",
+              "nob": "utforske samisk lokalhistorie, kulturminner og hvordan mennesker levde i den tiden kulturminnene er fra, og sammenligne med hvordan vi lever i dag",
+              "sma": "saemien voenges histovrijem jïh kultuvremojhtesh goerehtidh, jïh guktie almetjh veasoejin don baelien mestie kultuvremojhtesh leah, jïh mijjen jieledevuekine daan biejjien viertiestidh",
+              "sme": "suokkardit sámi báikehistorjjá, kulturmuittuid ja mo olbmot elle kulturmuittuid áigge ja buohtastahttit mo mii eallit dál",
+              "smj": "åtsådit sáme bájkkehiståvråv, kulturmujtojt ja gåktu ulmutja viessun kulturmujtoj ájge ja buohtastahttet gåktu mij viessot dálla"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM14745",
+          "core_elements": [
+            "KE1852",
+            "KE1854"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive kultur- og naturlandskap i Norge og samtale om hvordan geografiske og historiske kilder, inkludert kart og fortellinger, kan gi innsikt i landskap",
+              "nob": "beskrive kultur- og naturlandskap i Norge og samtale om hvordan geografiske og historiske kilder, inkludert kart og fortellinger, kan gi innsikt i landskap",
+              "sma": "kultuvre- jïh eatnemelaanth Nöörjesne buerkiestidh daan biejjien jïh soptsestalledh guktie geograafeles jïh histovrijes gaaltijh, aaj kaarhth jïh soptsesh, maehtieh daajroem vedtedh eatnemen bïjre",
+              "sme": "válddahit kultur- ja luonddueanadaga Norggas ja ságastallat maid geográfalaš ja historjjálaš gáldut, maiddái kárttat ja muitalusat, sáhttet muitalit eanadaga birra",
+              "smj": "gåvvidit Vuona kultuvrra- ja luonndoduobddágijt ja ságastallat majt geografijjalasj ja histårjålasj gáldo aktan kárta ja subttsasa, máhtti subtsastit duobddágij birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4"
+          ],
+          "code": "KM14746",
+          "core_elements": [
+            "KE1853",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om hvorfor det oppstår konflikter i skole- og nærmiljøet, lytte til andres mening og samarbeide med andre om å finne konstruktive løsninger",
+              "nob": "samtale om hvorfor det oppstår konflikter i skole- og nærmiljøet, lytte til andres mening og samarbeide med andre om å finne konstruktive løsninger",
+              "sma": "soptsestalledh man åvteste vigkieh sjædta skuvlebyjresisnie jïh voengesne, mubpiej mïelh goltelidh jïh mubpiejgujmie laavenjostedh konstruktijve loetemh gaavnedh",
+              "sme": "ságastallat manne riiddut čuožžilit skuvla- ja lagašbirrasis, guldalit earáid oaiviliid ja ovttasbargat earáiguin gávdnat konstruktiiva čovdosiid",
+              "smj": "ságastallat manen rijdo tjuodtjeli skåvllå- ja lahkabirrasin, gulldalit iehtjádij vuojnojda ja aktan barggat iehtjádij siegen gávnatjit konstruktijva tjoavddusijt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM14747",
+          "core_elements": [
+            "KE1853",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "presentere menneskerettigheter og rettigheter barn har, og reflektere over hvorfor disse rettighetene finnes",
+              "nob": "presentere menneskerettigheter og rettigheter barn har, og reflektere over hvorfor disse rettighetene finnes",
+              "sma": "almetjereaktah jïh maanaj reaktah åehpiedehtedh, jïh ussjedadtedh man åvteste daah reaktah gååvnesieh",
+              "sme": "ovdanbuktit olmmošvuoigatvuođaid ja vuoigatvuođaid mat mánáin leat, ja reflekteret manne dát vuoigatvuođat gávdnojit",
+              "smj": "åvddånbuktet ulmusjriektájt ja riektájt ma mánájn li, ja reflektierit manen dá riektá gávnnuji"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM14748",
+          "core_elements": [
+            "KE1852",
+            "KE1853",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over hvorfor samene har urfolksstatus i Norge, og beskrive sentrale trekk ved samisk kultur- og samfunnsliv før og nå, med vekt på eget samfunn",
+              "nob": "reflektere over hvorfor samene har urfolksstatus i Norge, og beskrive sentrale trekk ved samisk kultur- og samfunnsliv før og nå, med vekt på eget samfunn",
+              "sma": "ussjedadtedh man åvteste saemiej lea aalkoeåålmegestatuse Nöörjesne, jïh vihkeles væhtah saemien kultuvre- jïh seabradahkejieliedisnie buerkiestidh åvtesne jïh daelie, joekoen jïjtse seabradahkesne",
+              "sme": "reflekteret manne sápmelaččain lea eamiálbmotstáhtus Norggas, ja válddahit sámi kultur- ja servodateallima guovddáš mihtilmasvuođaid ovdal ja dál deattuhettiin iežas servodaga",
+              "smj": "reflektierit manen sámijn la iemeálmmukstáhtus Vuonan, ja gåvvidit sáme kultuvrra- ja sebrudakiellema guovdásj merkajt åvddål ja dálla dætton ietjas sebrudahkaj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM14749",
+          "core_elements": [
+            "KE1851",
+            "KE1852",
+            "KE1854"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og gi eksempler på noen sider ved bærekraftig utvikling, inkludert samisk tradisjonell kunnskap",
+              "nob": "utforske og gi eksempler på noen sider ved bærekraftig utvikling, inkludert samisk tradisjonell kunnskap",
+              "sma": "goerehtidh jïh vuesiehtimmieh vedtedh såemies bielide monnehke evtiedimmeste, aaj saemien aerpievuekien daajroe",
+              "sme": "suokkardit ja addit ovdamearkkaid muhtun beliide guoddevaš ovdáneamis, maiddái sámi árbevirolašmáhtu",
+              "smj": "åtsådit ja vaddet buojkulvisájt muhtem bielijda guoddelis åvddånimes, aj sáme árbbediedos"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4"
+          ],
+          "code": "KM14755",
+          "core_elements": [
+            "KE1852",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over sammenhengen mellom personlig økonomi og forbruk hos den enkelte",
+              "nob": "reflektere over sammenhengen mellom personlig økonomi og forbruk hos den enkelte",
+              "sma": "ektiedimmien bijjelen ussjedadtedh gaskem persovneles ekonomije jïh åtnoe fïereguhten luvnie",
+              "sme": "reflekteret ovttaskas olbmo persovnnalaš ekonomiija ja golahusa oktavuođa birra",
+              "smj": "reflektierit gåktu aktugasj ulmutja persåvnålasj økonomijja ja gålådime aktij gulluji"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14754",
+          "core_elements": [
+            "KE1852",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om identitet, mangfold og fellesskap og reflektere over hvordan det kan oppleves ikke å være del av fellesskapet",
+              "nob": "samtale om identitet, mangfold og fellesskap og reflektere over hvordan det kan oppleves ikke å være del av fellesskapet",
+              "sma": "identiteeten, gellievoeten jïh ektievoeten bïjre soptsestalledh jïh ussjedadtedh guktie maahta domtedh ij bieline årrodh ektievoeteste",
+              "sme": "ságastallat identitehta, girjáivuođa ja searvevuođa birra ja reflekteret mo orru leat go ii leat oassin searvevuođas",
+              "smj": "ságastallat identitiehta, moattebelakvuoda ja aktijvuoda birra ja reflektierit gåktu dåbddu gå ij la oassen aktijvuodas"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF5"
+          ],
+          "code": "KM14750",
+          "core_elements": [
+            "KE1851",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om regler og normer for personvern, deling og beskyttelse av informasjon og om hva det vil si å bruke dømmekraft i digital samhandling",
+              "nob": "samtale om regler og normer for personvern, deling og beskyttelse av informasjon og om hva det vil si å bruke dømmekraft i digital samhandling",
+              "sma": "soptsestalledh, juekemen jïh vaarjelimmien bïjre bïevnesijstie jïh mij sæjhta jiehtedh vuarjasjimmiefaamoem digitaale ektiedahkosne nuhtjedh",
+              "sme": "ságastallat personsuodjalusa, juogadeami ja dieđuid suddjema njuolggadusaid ja norpmaid birra ja maid mearkkaša geavahit árvvoštallannávccaid digitála ovttasdoaibmamis",
+              "smj": "ságastallat persåvnnåsuodjalusá, juogadime ja diedoj suoddjima njuolgadusáj ja nårmaj birra ja majt merkaj liehket jærmálasj digitála aktisasjbargon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14751",
+          "core_elements": [
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om grenser knyttet til kropp, hva vold og seksuelle overgrep er, og hvor man kan få hjelp hvis man blir utsatt for vold og seksuelle overgrep",
+              "nob": "samtale om grenser knyttet til kropp, hva vold og seksuelle overgrep er, og hvor man kan få hjelp hvis man blir utsatt for vold og seksuelle overgrep",
+              "sma": "soptsestalledh kråahpen raasti bïjre, mij vædtsoesvoete jïh seksuelle daaresjimmieh, jïh gusnie maahta viehkiem åadtjodh jis vædtsoesvoetem jïh daaresjimmiem dååjroe",
+              "sme": "ságastallat rájáid birra mat gullet rupmašii, mat veahkaválddálašvuohta ja seksuálalaš illasteapmi leat, ja gos sáhttá oažžut veahki jus gillá veahkaválddálašvuođa ja seksuálalaš illasteami",
+              "smj": "ságastallat rájáj birra ma rubmahij gulluji, ma vahágahttem ja seksuálalasj illastibme li, ja gåsstå máhttá viehkev oadtjot jus vahágahteduvvá ja seksuálalattjat illastuvvá"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14752",
+          "core_elements": [
+            "KE1851",
+            "KE1852",
+            "KE1853"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over hvem som har makt, og hva et demokrati er, og utvikle forslag til hvordan man kan være med på å påvirke beslutninger",
+              "nob": "reflektere over hvem som har makt, og hva et demokrati er, og utvikle forslag til hvordan man kan være med på å påvirke beslutninger",
+              "sma": "ussjedadtedh gïeh faamoem utnieh, jïh mij demokratije lea, jïh raeriestimmieh evtiedidh guktie maahta meatan årrodh sjæjsjalimmieh baajnehtidh",
+              "sme": "reflekteret geain lea fápmu, ja mii demokratiija lea, ja evttohit mo olmmoš sáhttá váikkuhit mearrádusaide",
+              "smj": "reflektierit gejna la fábmo, ja mij demokratijja la, ja ævtodit gåktu ulmusj máhttá mærrádusájda vájkkudit"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14753",
+          "core_elements": [
+            "KE1851",
+            "KE1853",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om noen viktige offentlige institusjoner og virksomheter i Norge og Sápmi/Sábme/Saepmie og reflektere over hva de betyr for menneskers liv",
+              "nob": "samtale om noen viktige offentlige institusjoner og virksomheter i Norge og Sápmi/Sábme/Saepmie og reflektere over hva de betyr for menneskers liv",
+              "sma": "soptsestalledh såemies vihkeles byögkeles institusjovni jïh gïehtelimmiej bïjre Nöörjesne jïh Saepmesne, jïh ussjedadtedh maam ulmide dah almetji jieliedasse utnieh",
+              "sme": "ságastallat muhtun dehálaš almmolaš ásahusaid ja doaimmaid Norggas ja Sámis ja reflekteret maid dat mearkkašit olbmuid eallimii",
+              "smj": "ságastallat muhtem ájnas almulasj ásadusáj ja dåjmaj birra Vuonan ja Sámen ja reflektierit majt da merkahi ulmutjij iellemijda"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 4.trinn",
+          "nob": "Kompetansemål og vurdering 4.trinn",
+          "sma": "Maahtoeulmie jïh vuarjasjimmie 4. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 4. ceahkki",
+          "smj": "4. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    },
+    {
+      "after_year": 7,
+      "applies_to_years": [
+        5,
+        6,
+        7
+      ],
+      "code": "KV1155",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14756",
+          "core_elements": [
+            "KE1851",
+            "KE1852"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "gjennomføre en samfunnsfaglig undersøkelse og presentere resultatene ved hjelp av egnede digitale verktøy",
+              "nob": "gjennomføre en samfunnsfaglig undersøkelse og presentere resultatene ved hjelp av egnede digitale verktøy",
+              "sma": "seabradahkefaageles goerehtimmiem tjïrrehtidh jïh illedahkide åehpiedehtedh viehkine sjiehteles digitaale dïrregijstie",
+              "sme": "čađahit servodatfágalaš guorahallama ja ovdanbuktit bohtosiid heivvolaš digitála reaidduiguin",
+              "smj": "tjadádit sebrudakfágalasj guoradallamav ja åvddånbuktet båhtusijt hiebalasj digitála ræjdoj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14757",
+          "core_elements": [
+            "KE1851",
+            "KE1852"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "presentere en aktuell nyhetssak og reflektere over forskjeller mellom fakta, meninger og kommersielt budskap i mediebildet",
+              "nob": "presentere en aktuell nyhetssak og reflektere over forskjeller mellom fakta, meninger og kommersielt budskap i mediebildet",
+              "sma": "sjyöhtehke saerniem åehpiedehtedh jïh ussjedadtedh joekehtsi bijjeli gaskem faaktah, mïelh jïh kommersijelle dïjre medijeguvvesne",
+              "sme": "ovdanbuktit áigeguovdilis ođasášši ja reflekteret faktaid, oaiviliid ja kommersiála sisdoalu erohusaid mediagovas",
+              "smj": "åvddånbuktet ájggeguovddelis ådåsássjev ja reflektierit fáktáj, vuojnoj ja kommersiála sisano sieradusájt medijágåvån"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14758",
+          "core_elements": [
+            "KE1851",
+            "KE1852"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "sammenligne hvordan ulike kilder, inkludert fortellinger og kart, kan gi ulik informasjon om samme tema, og reflektere over hvordan kilder kan brukes til å påvirke og fremme bestemte syn",
+              "nob": "sammenligne hvordan ulike kilder, inkludert fortellinger og kart, kan gi ulik informasjon om samme tema, og reflektere over hvordan kilder kan brukes til å påvirke og fremme bestemte syn",
+              "sma": "viertiestidh guktie ovmessie gaaltijh, aaj soptsesh jïh kaarhth, maehtieh joekehts bïevnesh seamma teeman bïjre vedtedh, jïh ussjedadtedh guktie gaaltijh maehtieh åtnasovvedh vihties vuajnoeh baajnehtidh jïh eevtjedh",
+              "sme": "buohtastahttit mo iešguđet gáldut, maiddái muitalusat ja kárttat, sáhttet addit iešguđet dieđuid seamma fáttá birra, ja reflekteret mo gálduid sáhttá geavahit váikkuhit ja ovddidit dihto oaivila",
+              "smj": "buohtastahttet gåktu iesjguhtik gáldo, aj subttsasa ja kárta, máhtti iesjguhtik diedojt sæmmi tiemá birra vaddet, ja reflektierit gåktu gáldojt máhttá adnet vájkkudittjat ja åvdedit visses vuojnov"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM14759",
+          "core_elements": [
+            "KE1851",
+            "KE1852",
+            "KE1854",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske hvordan mennesker i fortiden livnærte seg, og samtale om hvordan sentrale endringer i livsgrunnlag og teknologi har påvirket og påvirker demografi, levekår og bosettingsmønstre",
+              "nob": "utforske hvordan mennesker i fortiden livnærte seg, og samtale om hvordan sentrale endringer i livsgrunnlag og teknologi har påvirket og påvirker demografi, levekår og bosettingsmønstre",
+              "sma": "goerehtidh guktie almetjh dejpeli jieliemassem reeblin, jïh soptsestalledh guktie vihkeles jarkelimmieh jieledevåaroemisnie jïh teknologijesne leah demografijem, jieledetsiehkieh jïh årromemöönsterh baajnehtamme jïh baajnehtieh",
+              "sme": "suokkardit mo olbmot dolin birgejedje, ja ságastallat mo dehálaš rievdadusat birgenlágis ja teknologiijas leat váikkuhan ja váikkuhit demografiijai, birgenláhkái ja ássanminstariidda",
+              "smj": "åtsådit gåktu ulmutja dålen bierggijin, ja ságastallat gåktu ájnas rievddadusá bierggimin ja teknologijjan li vájkkudam ja vájkkudi demografijjaj, iellemdilláj ja årromvuogijda"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM14760",
+          "core_elements": [
+            "KE1852",
+            "KE1854"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive geografiske hovedtrekk i ulike deler av verden og reflektere over hvordan disse hovedtrekkene påvirker menneskene som bor der",
+              "nob": "beskrive geografiske hovedtrekk i ulike deler av verden og reflektere over hvordan disse hovedtrekkene påvirker menneskene som bor der",
+              "sma": "geograafeles åejvievæhtah ovmessie bieline veartenistie buerkiestidh, jïh ussjedadtedh guktie daah åejvievæhtah almetjidie baajnehtieh mah desnie årroeh",
+              "sme": "válddahit geográfalaš váldočuoggáid iešguđet osiin máilmmis ja reflekteret mo dát váldočuoggát váikkuhit olbmuide geat ásset doppe",
+              "smj": "gåvvidit geografijjalasj oajvvetjuokkajt iesjguhtik åsijn væráldin ja reflektierit gåktu dá oajvvetjuokka vájkkudi ulmutjijda gudi dåppe årru"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14761",
+          "core_elements": [
+            "KE1852",
+            "KE1853",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over hvorfor konflikter oppstår, og drøfte hvordan den enkelte og samfunn kan håndtere konflikter",
+              "nob": "reflektere over hvorfor konflikter oppstår, og drøfte hvordan den enkelte og samfunn kan håndtere konflikter",
+              "sma": "ussjedadtedh man åvteste vigkieh sjædta, jïh digkiedidh guktie fïereguhte jïh seabradahke maehtieh vigkieh gïetedidh",
+              "sme": "reflekteret manne riiddut čuožžilit, ja ságaškuššat mo ovttaskas olmmoš ja servodat sáhttet gieđahallat riidduid",
+              "smj": "reflektierit manen rijdo badjáni, ja árvvaladdat gåktu aktugasj ulmusj ja sebrudahka máhtti rijdojt giehtadallat"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM14762",
+          "core_elements": [
+            "KE1851",
+            "KE1853",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske ulike sider ved mangfold i Norge og Sápmi/Sábme/Saepmie og reflektere over menneskers behov for å være seg selv og for å høre til i fellesskap",
+              "nob": "utforske ulike sider ved mangfold i Norge og Sápmi/Sábme/Saepmie og reflektere over menneskers behov for å være seg selv og for å høre til i fellesskap",
+              "sma": "ovmessie bielieh gellievoetine Nöörjesne jïh Saepmesne goerehtidh, jïh ussjedadtedh man åvteste almetjh daarpesjieh jïjtjemse årrodh jïh ektievoetese govlesovvedh",
+              "sme": "suokkardit girjáivuođa iešguđet beliid Norggas ja Sámis ja reflekteret olbmuid dárbbuid birra leat iežasláganin ja gullat searvevuhtii",
+              "smj": "åtsådit iesjguhtik bielijt moattebelakvuodas Vuonan ja Sámen ja reflektierit ulmutjij dárboj birra liehket sierralágátjin ja gullut aktijvuohtaj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14763",
+          "core_elements": [
+            "KE1851",
+            "KE1852",
+            "KE1853",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "drøfte hva likeverd og likestilling betyr for et demokrati, og drøfte hvordan man kan motarbeide fordommer, rasisme og diskriminering",
+              "nob": "drøfte hva likeverd og likestilling betyr for et demokrati, og drøfte hvordan man kan motarbeide fordommer, rasisme og diskriminering",
+              "sma": "digkiedidh man vihkeles seammavyörtegsvoete jïh mïrrestalleme lea demokratijese, jïh digkiedidh guktie maahta åvtelh-aarvoej, rasismen jïh sïerredimmien vööste barkedh",
+              "sme": "ságaškuššat maid ovttaárvosašvuohta ja dásseárvu mearkkaša demokratiijai, ja ságaškuššat mo sáhttá vuosttaldit ovdagáttuid, rasismma ja vealaheami",
+              "smj": "árvvaladdat majt avtaárvvusasjvuohta ja dássádus merkaj demokratijjaj, ja árvvaladdat gåktu máhttá vuosteldit gáttojt, rasismav ja badjelgæhttjamav"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14764",
+          "core_elements": [
+            "KE1852",
+            "KE1853",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om menneske- og likeverd og sammenligne hvordan menneske- og urfolksrettigheter har blitt og blir ivaretatt i ulike land",
+              "nob": "samtale om menneske- og likeverd og sammenligne hvordan menneske- og urfolksrettigheter har blitt og blir ivaretatt i ulike land",
+              "sma": "almetje- jïh seammavyörtegsvoeten bïjre soptsestalledh jïh viertiestidh guktie almetje- jïh aalkoeåålmegereaktah leah gorresovveme jïh gorresuvvieh ovmessie laantine",
+              "sme": "ságastallat olmmoš- ja dásseárvosašvuođa ja buohtastahttit mo olmmoš- ja eamiálbmotvuoigatvuođat leat bearráigehččon ja bearráigehččojit iešguđet riikkain",
+              "smj": "ságastallat almasj- ja avtaárvvusasjvuoda birra ja buohtastahttet gåktu almasj- ja iemeálmmukriektá li bærrájgehtjaduvvam ja bærrájgehtjaduvvi iesjguhtik rijkajn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM14765",
+          "core_elements": [
+            "KE1852",
+            "KE1853",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske hovedtrekk ved historien til samene og de nasjonale minoritetene i Norge og presentere rettigheter samene og de nasjonale minoritetene i Norge har i dag",
+              "nob": "utforske hovedtrekk ved historien til samene og de nasjonale minoritetene i Norge og presentere rettigheter samene og de nasjonale minoritetene i Norge har i dag",
+              "sma": "åejvievæhtah goerehtidh saemiej jïh nasjonaale unnebelåhkoej histovrijisnie Nöörjesne, jïh reaktah åehpiedehtedh mejtie saemieh jïh nasjonaale unnebelåhkoeh Nöörjesne utnieh daan biejjien",
+              "sme": "suokkardit Norgga sápmelaččaid ja nationála minoritehtaid historjjá váldočuoggáid ja ovdanbuktit Norgga sápmelaččaid ja nationála minoritehtaid dálá vuoigatvuođaid",
+              "smj": "åtsådit Vuona sámij ja nasjåvnålasj unneplågoj histåvrå oajvvetjuokkajt ja åvddånbukti makkir riektá Vuona sámijn ja nasjåvnålasj unneplågoj li uddni"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4"
+          ],
+          "code": "KM14767",
+          "core_elements": [
+            "KE1852",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over hvordan kommersiell påvirkning kan virke inn på forbruk, personlig økonomi og selvbilde",
+              "nob": "reflektere over hvordan kommersiell påvirkning kan virke inn på forbruk, personlig økonomi og selvbilde",
+              "sma": "ussjedadtedh guktie kommersijelle baajnehtimmie maahta effektem utnedh åtnose, persovneles ekonomijese jïh jïjtjegåvvan",
+              "sme": "reflekteret mo kommersiála váikkuheapmi sáhttá váikkuhit golahussii, persovnnalaš ekonomiijai ja iešgovvii",
+              "smj": "reflektierit gåktu kommersiála vájkkudibme máhttá vájkkudit gålådibmáj, persåvnålasj økonomijjaj ja iesjgåvvåj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM14766",
+          "core_elements": [
+            "KE1851",
+            "KE1852",
+            "KE1853",
+            "KE1854",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og presentere en global utfordring ved bærekraftig utvikling og hvilke konsekvenser den kan ha, og utvikle forslag til hvordan man kan være med på å motvirke utfordringen og hvordan samarbeid mellom land kan bidra",
+              "nob": "utforske og presentere en global utfordring ved bærekraftig utvikling og hvilke konsekvenser den kan ha, og utvikle forslag til hvordan man kan være med på å motvirke utfordringen og hvordan samarbeid mellom land kan bidra",
+              "sma": "veartenevijries haestemem monnehke evtiedimmesne goerehtidh jïh åehpiedehtedh jïh mah konsekvensh dïhte maahta utnedh, jïh raeriestimmieh evtiedidh guktie maahta meatan årrodh haestemem vuastalidh jïh guktie laavenjostoe laanti gaskem maahta viehkine årrodh",
+              "sme": "suokkardit ja ovdanbuktit guoddevaš ovdáneami globála hástalusa ja mat váikkuhusat das sáhttet leat, ja evttohit mo olmmoš sáhttá leat mielde vuosttaldeamen hástalusa ja mo riikkaid ovttasbargu sáhttá veahkehit",
+              "smj": "åtsådit ja åvddånbuktet guoddelis åvddånime globála hásstalusáv ja gåktu dat máhttá vájkkudit, ja ævtodit gåktu ulmusj máhttá hásstalusáv vuosteldahttet ja gåktu aktisasjbarggo lándaj gaskan máhttá viehkedit"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM14768",
+          "core_elements": [
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over egen og andres deltakelse i digital samhandling og drøfte hva det vil si å bruke dømmekraft, sett i lys av regler, normer og grenser",
+              "nob": "reflektere over egen og andres deltakelse i digital samhandling og drøfte hva det vil si å bruke dømmekraft, sett i lys av regler, normer og grenser",
+              "sma": "meatanårromen bijjelen digitaale ektiedahkosne, jïh digkiedidh mij sæjhta jiehtedh vuarjasjimmiefaamoem nuhtjedh, tjoevkesisnie vuajneme njoelkedassijste, nåårmijste jïh raastijste",
+              "sme": "reflekteret iežas ja earáid searvama birra digitála ovttasdoaibmamii ja ságaškuššat maid mearkkaša geavahit árvvoštallannávccaid go váldá vuolggasaji njuolggadusain, norpmain ja rájáin",
+              "smj": "reflektierit ietjas ja iehtjádij oassálasstema birra digitála aktandåjmajda ja árvvaladdat majt merkaj liehket jærmálasj njuolgadusáj, nårmaj ja rájáj milta"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14769",
+          "core_elements": [
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over variasjoner i identiteter, seksuell orientering og kjønnsuttrykk, og egne og andres grenser knyttet til følelser, kropp, kjønn og seksualitet og drøfte hva man kan gjøre om grenser blir brutt",
+              "nob": "reflektere over variasjoner i identiteter, seksuell orientering og kjønnsuttrykk, og egne og andres grenser knyttet til følelser, kropp, kjønn og seksualitet og drøfte hva man kan gjøre om grenser blir brutt",
+              "sma": "ussjedadtedh jeerehtsi bijjeli identiteetine, seksuelle vaaksjoehtimmesne jïh tjoelevæhtine jïh jïjtsh jïh mubpiej raasti bïjre domtesi, kråahpen jïh seksualiteeten bïjre, jïh digkiedidh maam maahta darjodh jis naaken raastide miedtele",
+              "sme": "reflekteret identitehtaid, seksuála soju ja sohkabealleovdanbuktimiid variašuvnnaid ja iežas ja earáid rájáid dovdduid, rupmaša, sohkabeali ja seksualitehta hárrái ja ságaškuššat maid sáhttá dahkat jus ráját rihkkojuvvojit",
+              "smj": "reflektierit identitiehtaj, seksuálalasj råhtåsimij ja sjiervveåvddånbuktemij variasjåvnåj badjel, ja ietjas ja iehtjádij rájáj dåbdoj, rubmaha, sjierve ja seksualitiehta hárráj ja árvvaladdat majt máhttá dahkat jus ráje doajeduvvi"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM14770",
+          "core_elements": [
+            "KE1852",
+            "KE1853"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive sentrale hendelser som har ført fram til det demokratiet vi har i Norge og i Sápmi/Sábme/Saepmie i dag og sammenlikne hvordan enkeltmennesker har mulighet til påvirke beslutninger i ulike styresett",
+              "nob": "beskrive sentrale hendelser som har ført fram til det demokratiet vi har i Norge og i Sápmi/Sábme/Saepmie i dag og sammenlikne hvordan enkeltmennesker har mulighet til påvirke beslutninger i ulike styresett",
+              "sma": "vihkeles heannadimmieh buerkiestidh mejstie mijjieh dam demokratijem åådtjeme maam mijjieh Nöörjesne jïh Saepmesne utnebe daan biejjien, jïh viertiestidh guktie aktegsalmetjh nuepiem utnieh sjæjsjalimmieh ovmessie stuvremevuekine baajnehtidh",
+              "sme": "válddahit dehálaš dáhpáhusaid mat leat dagahan dan demokratiija mii mis lea Norggas ja Sámis dál ja buohtastahttit mo ovttaskas olbmuin lea vejolašvuohta váikkuhit mearrádusaide iešguđet stivrenvugiin",
+              "smj": "buojkodit ájnas dáhpádusájt ma li vájkkudam demokratijjav mij miján la Vuonan ja Sámen dálla ja buohtastahttet gåktu aktugasj ulmutjijn la máhttelisvuohta vájkkudittjat mærrádusájda iesjguhtik stivrrimvuogijn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM14771",
+          "core_elements": [
+            "KE1851",
+            "KE1852"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "gi eksempler på hva lover, regler og normer er og hvilken funksjon de har i samfunn, og reflektere over konsekvenser av å bryte dem",
+              "nob": "gi eksempler på hva lover, regler og normer er og hvilken funksjon de har i samfunn, og reflektere over konsekvenser av å bryte dem",
+              "sma": "vuesiehtimmieh vedtedh mij laakh, njoelkedassh jïh nåårmh leah, jïh maam funksjovnide dah seabradahkesne utnieh, jïh konsekvensi bijjeli ussjedadtedh gosse dejtie miedtele",
+              "sme": "addit ovdamearkkaid dasa mat lágat, njuolggadusat ja norpmat leat ja mii funkšuvnnaid dain lea servodagain, ja reflekteret váikkuhusaid birra mat šaddet jus daid rihkku",
+              "smj": "vaddet buojkulvisájt dasi ma lága, njuolgadusá ja nårma li ja makkir funksjåvnå dajn li sebrudagán, ja reflektierit vájkkudusáj birra ma sjaddi jus dajt doadjá"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM14772",
+          "core_elements": [
+            "KE1851",
+            "KE1852",
+            "KE1853",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over hvordan møter mellom mennesker har bidratt til å endre hvordan mennesker har tenkt og ulike samfunn har vært organisert",
+              "nob": "reflektere over hvordan møter mellom mennesker har bidratt til å endre hvordan mennesker har tenkt og ulike samfunn har vært organisert",
+              "sma": "ussjedadtedh guktie gaavnedimmieh almetji gaskem leah viehkiehtamme jarkelidh guktie almetjh leah ussjedamme jïh ovmessie seabradahkh leah organiseereme orreme",
+              "sme": "reflekteret mo iešguđet olbmuid deaivvadeamit leat rievdadan olbmuid jurddašanvuogi ja iešguđet servodagaid organiserema",
+              "smj": "reflektierit gåktu iesjguhtik ulmutjij æjvvalime li ulmutjij ájádallamvuogev ja iesjguhtik sebrudagáj organisierimav rievddadam"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 7. trinn",
+          "nob": "Kompetansemål og vurdering 7. trinn",
+          "sma": "Maahtoeulmie jïh vuarjasjimmie 7. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 7. ceahkki",
+          "smj": "7. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    },
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV1156",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14773",
+          "core_elements": [
+            "KE1851",
+            "KE1852"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke samfunnsfaglige metoder og digitale ressurser i egne undersøkelser, presentere funn ved hjelp av digitale verktøy og drøfte hvor gyldige og relevante funnene er",
+              "nob": "bruke samfunnsfaglige metoder og digitale ressurser i egne undersøkelser, presentere funn ved hjelp av digitale verktøy og drøfte hvor gyldige og relevante funnene er",
+              "sma": "seabradahkefaageles vuekieh jïh digitaale vierhtieh jïjtse goerehtimmine, gaavnoeh åehpiedehtedh viehkine digitaale dïrregijstie jïh digkiedidh man faamosne jïh sjiehteles gaavnoeh leah",
+              "sme": "geavahit servodatfágalaš metodaid ja digitála resurssaid iežas guorahallamiin, ovdanbuktit gávdnosiid digitála reaidduiguin ja ságaškuššat man gustovaččat ja áigeguovdilat gávdnosat leat",
+              "smj": "adnet sebrudakfágalasj metåvdåjt ja digitála ressursajt ietjas guoradallamijn, åvddånbuktet majt gávnná digitála ræjdoj ja árvvaladdat mav guoskavattja ja ájggeguovddelisá gávnnusa li"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14774",
+          "core_elements": [
+            "KE1851",
+            "KE1852",
+            "KE1853"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "vurdere på hvilke måter ulike kilder, inkludert fortellinger og kart, gir informasjon om et samfunnsfaglig tema, og reflektere over hvordan algoritmer, ensrettede kilder eller mangel på kilder kan prege vår forståelse",
+              "nob": "vurdere på hvilke måter ulike kilder, inkludert fortellinger og kart, gir informasjon om et samfunnsfaglig tema, og reflektere over hvordan algoritmer, ensrettede kilder eller mangel på kilder kan prege vår forståelse",
+              "sma": "vuarjasjih guktie ovmessie gaaltijh, aaj soptsesh jïh kaarhth, bïevnesh vedtieh akten seabradahkefaageles teeman bïjre jïh ussjedadtedh guktie algoritmh, aktelaaketje gaaltijh jallh faatoes gaaltijh maehtieh mijjen goerkesem baajnehtidh",
+              "sme": "árvvoštallat man láhkai iešguđet gáldut, maiddái muitalusat ja kárttat, addet dieđuid servodatfágalaš fáttá birra, ja reflekteret mo algoritmmat, ovttageardánis gáldut dahje gálduid váilevašvuohta sáhttet báidnit min áddejumi",
+              "smj": "árvustallat gåktu iesjguhtik gáldo, aj subttsasa ja kárta, vaddi diedojt sebrudakfágalasj tiemá birra, ja reflektierit gåktu algoritma, avtabællásasj gáldo jali gáldoj vánesvuohta soajtti mijá dádjadussaj vájkkudit"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14775",
+          "core_elements": [
+            "KE1851",
+            "KE1852",
+            "KE1853",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "drøfte hvordan framstillinger av fortiden, hendelser og grupper har påvirket og påvirker folks holdninger og handlinger",
+              "nob": "drøfte hvordan framstillinger av fortiden, hendelser og grupper har påvirket og påvirker folks holdninger og handlinger",
+              "sma": "digkiedidh guktie åehpiedehtemh åvtetje aejkeste, heannadimmijste jïh dåehkijste leah almetji vuajnoeh jïh dahkoeh baajnehtamme jïh baajnehtieh",
+              "sme": "ságaškuššat mo vássánáiggi , dáhpáhusaid ja joavkkuid govvádusat leat váikkuhan ja váikkuhit olbmuid miellaguottuide ja daguide",
+              "smj": "árvvaladdat gåktu vássám ájge, dáhpádusáj ja juohkusij gåvvidime li vájkkudam ja vájkkudi ulmutjij guottojda ja dagojda"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM14776",
+          "core_elements": [
+            "KE1851",
+            "KE1852",
+            "KE1853",
+            "KE1854",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske hvordan teknologi har vært og fremdeles er en endringsfaktor, og drøfte innvirkningen teknologien har hatt og har på enkeltmennesker, samfunn og natur",
+              "nob": "utforske hvordan teknologi har vært og fremdeles er en endringsfaktor, og drøfte innvirkningen teknologien har hatt og har på enkeltmennesker, samfunn og natur",
+              "sma": "goerehtidh guktie teknologije lea jarkelimmiefaktovrine orreme jïh annje lea, jïh digkiedidh dam baajnehtimmiem teknologije lea aktegsalmetjidie, seabradahkese jïh eatnamasse åtneme jïh åtna",
+              "sme": "suokkardit mo teknologiija lea leamaš ja lea ain rievdadusfáktor, ja ságaškuššat mo teknologiija lea váikkuhan ja váikkuha ovttaskas olbmuide, servodagaide ja lundui",
+              "smj": "åtsådit gåktu teknologijja la læhkám ja la ájn rievddadimfaktåvrrå, ja árvvaladdat gåktu teknologijja la vájkkudam ja vájkkut aktugasj ulmutjijda, sebrudagájda ja luonnduj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14777",
+          "core_elements": [
+            "KE1852",
+            "KE1853",
+            "KE1854"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over hvordan mennesker har kjempet og kjemper for forandringer i samfunnet og samtidig har vært og er påvirket av geografiske forhold og historisk kontekst",
+              "nob": "reflektere over hvordan mennesker har kjempet og kjemper for forandringer i samfunnet og samtidig har vært og er påvirket av geografiske forhold og historisk kontekst",
+              "sma": "ussjedadtedh guktie almetjh leah gymhpeme jïh gæmhpoeminie jarkelimmiej åvteste seabradahkesne jïh seamma tïjjen leah geograafeles tsiehkijste jïh histovrijes konteeksteste baajnehtamme jïh annje baajnehtamme sjidtieh",
+              "sme": "reflekteret mo olbmot leat rahčan ja rahčet rievdadit servodaga ja seammás geográfalaš bealit ja historjjálaš konteaksta leat báidnán ja báidnet sin",
+              "smj": "reflektierit gåktu ulmutja li rahtjam ja rahtji rievddadittjat sebrudagáv ja sæmmi bále gåktu geografijjalasj biele ja histåvrålasj kontæksta li bájnnám ja bájnni sijáv"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14789",
+          "core_elements": [
+            "KE1852",
+            "KE1854"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "sammenligne hvordan politiske, geografiske og historiske forhold påvirker levekår, bosettingsmønstre og demografi i forskjellige deler av verden i dag",
+              "nob": "sammenligne hvordan politiske, geografiske og historiske forhold påvirker levekår, bosettingsmønstre og demografi i forskjellige deler av verden i dag",
+              "sma": "viertiestidh guktie politihkeles, geograafeles jïh histovrijen tsiehkieh jieledevuekieh, årromemöönsterh jïh demografijem baajnehtieh ovmessie bieline veartenistie daan biejjien",
+              "sme": "buohtastahttit mo politihkalaš, geográfalaš ja historjjálaš bealit váikkuhit birgenláhkái, ássanminstariidda ja demografiijai iešguđet osiin máilmmis dál",
+              "smj": "buohtastahttet gåktu politihkalasj, geografijjalasj ja histåvrålasj vidjura vájkkudi bierggimij, årromvuogijda ja demografijjaj iesjguhtik åsijn væráldin uddni"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14778",
+          "core_elements": [
+            "KE1852",
+            "KE1853",
+            "KE1854"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for årsaker til og konsekvenser av sentrale historiske og nåtidige konflikter og reflektere over om endringer av noen betingelser kunne ha endret konfliktene",
+              "nob": "gjøre rede for årsaker til og konsekvenser av sentrale historiske og nåtidige konflikter og reflektere over om endringer av noen betingelser kunne ha endret konfliktene",
+              "sma": "fåantoeh jïh konsekvensh tjïelkestidh vihkeles histovrijes jïh daaletje vigkijste jïh ussjedadtedh mejtie jarkelimmieh såemies eaktojste lin maahteme vigkide jarkelidh",
+              "sme": "čilget dehálaš historjjálaš ja dálááiggi riidduid sivaid ja váikkuhusaid ja reflekteret livčče go muhtun eavttuid rievdademiiguin sáhttán rievdadit riidduid",
+              "smj": "tjielggit ájnas histåvrålasj ja dálásj ájge rijdoj sivájt ja vájkkudusájt ja reflektierit lulun gus muhtem ævtoj rievddam luluj máhttám rievddadit rijdojt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14779",
+          "core_elements": [
+            "KE1852",
+            "KE1853",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for årsaker til og konsekvenser av terrorhandlinger og folkemord, som holocaust, og reflektere over hvordan ekstreme holdninger og ekstreme handlinger kan forebygges",
+              "nob": "gjøre rede for årsaker til og konsekvenser av terrorhandlinger og folkemord, som holocaust, og reflektere over hvordan ekstreme holdninger og ekstreme handlinger kan forebygges",
+              "sma": "fåantoeh jïh konsekvensh tjïelkestidh terrordahkojste jïh åålmegebuvvemistie, goh holocaust, jïh ussjedadtedh guktie ekstreeme vuajnoeh jïh ekstreeme dahkoeh maehtieh heerresovvedh",
+              "sme": "čilget terrordaguid ja álbmotgoddimiid, nugo holocaust, sivaid ja váikkuhusaid, ja reflekteret mo ekstrema miellaguottuid ja ekstrema daguid sáhttá eastadit",
+              "smj": "tjielggit terrordagoj ja álmmukgåddålimij, dagu holocaust, sivájt ja vájkudusájt, ja reflektierit gåktu ekstriema miellaguottojt ja ekstriema dagojt máhttá hieredit"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM14780",
+          "core_elements": [
+            "KE1851",
+            "KE1852",
+            "KE1853",
+            "KE1854",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og beskrive hvordan menneske- og urfolksrettigheter og andre internasjonale avtaler og samarbeid har betydning for nasjonal politikk, menneskers liv og likestilling og likeverd",
+              "nob": "utforske og beskrive hvordan menneske- og urfolksrettigheter og andre internasjonale avtaler og samarbeid har betydning for nasjonal politikk, menneskers liv og likestilling og likeverd",
+              "sma": "goerehtidh jïh buerkiestidh guktie almetje- jïh aalkoeåålmegereaktah jïh jeatjah gaskenasjonaale latjkoeh jïh laavenjostoe leah vihkeles nasjonaale politihkese, almetji jieliedasse jïh mïrrestallemasse jïh seammavyörtegsvoetese",
+              "sme": "suokkardit ja válddahit mo olmmoš- ja eamiálbmotvuoigatvuođat ja eará riikkaidgaskasaš soahpamušat ja ovttasbarggut leat váikkuhan nationála politihkkii, olbmuid eallimii ja dásseárvui ja ovttaárvosašvuhtii",
+              "smj": "åtsådit ja tjielggit gåktu almasj- ja iemeálmmukriektá ja ietjá rijkajgasskasasj såbadusá ja aktisasjbargo li vájkkudam nasjåvnålasj politihkkaj, ulmutjij iellemij ja dássádussaj ja avtaárvulasjvuohtaj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14788",
+          "core_elements": [
+            "KE1852",
+            "KE1853",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for fornorskning av samene og de nasjonale minoritetene og uretten de har vært utsatt for, og reflektere over hvilke konsekvenser dette har hatt og har på individ- og samfunnsnivå",
+              "nob": "gjøre rede for fornorskning av samene og de nasjonale minoritetene og uretten de har vært utsatt for, og reflektere over hvilke konsekvenser dette har hatt og har på individ- og samfunnsnivå",
+              "sma": "daaroedehtemem saemijste jïh nasjonaale unnebelåhkojste tjïelkestidh jïh ovreaktam mejtie dah leah dååjreme, jïh ussjedadtedh mah konsekvensh daate lea åtneme jïh åtna indivijde- jïh seabradahkedaltesasse",
+              "sme": "čilget sápmelaččaid ja nationála minoritehtaid dáruiduhttima ja vearrivuođa maid sii leat gillán, ja reflekteret makkár váikkuhusat das leat leamaš ja leat indiviida- ja servodatdásis",
+              "smj": "tjielggit sámij ja nasjåvnålasj unneplågoj dárojduhttemav ja vierrevuodav majt sij li gierddam, ja reflektierit gåktu da li vájkkudam ja vil uddnik vájkkudi indivijdda- ja sebrudakdásen"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4"
+          ],
+          "code": "KM14781",
+          "core_elements": [
+            "KE1851",
+            "KE1852",
+            "KE1854"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive ulike dimensjoner ved bærekraftig utvikling og hvordan de påvirker hverandre, presentere tiltak for mer bærekraftige samfunn og vurdere tiltakene i lys av tradisjonelle samiske næringer",
+              "nob": "beskrive ulike dimensjoner ved bærekraftig utvikling og hvordan de påvirker hverandre, presentere tiltak for mer bærekraftige samfunn og vurdere tiltakene i lys av tradisjonelle samiske næringer",
+              "sma": "ovmessie dimensjovnh buerkiestidh monnehke evtiedimmesne jïh guktie dah sinsitniem baajnehtieh, råajvarimmieh åehpiedehtedh monnehkåbpoe seabradahken åvteste jïh råajvarimmide vuarjasjidh tjoevkesisnie aerpievuekien saemien jieliemijstie",
+              "sme": "válddahit guoddevaš ovdáneami iešguđet dimenšuvnnaid ja mo dat váikkuhit gaskaneaset, ovdanbuktit doaibmabijuid guoddevaččat servodagaide ja árvvoštallat doaibmabijuid sámi árbeealáhusaid vuođul",
+              "smj": "gåvvidit guoddelis åvddånime iesjguhtik dimensjåvnåjt ja gåktu da gaskanisá vájkkudi, åvddånbuktet dåjmajt guoddelap sebrudagájda ja árvustallat dåjmaj vájkkudusájt sáme árbbeæládusájda"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4"
+          ],
+          "code": "KM14782",
+          "core_elements": [
+            "KE1854",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "vurdere hvordan arbeid, inntekt og forbruk kan påvirke personlig økonomi, levestandard og livskvalitet",
+              "nob": "vurdere hvordan arbeid, inntekt og forbruk kan påvirke personlig økonomi, levestandard og livskvalitet",
+              "sma": "vuarjasjidh guktie barkoe, sïjsebaalhka jïh åtnoe maehtieh persovneles ekonomijem, jieledestandaardem jïh jieledekvaliteetem baajnehtidh",
+              "sme": "árvvoštallat mo bargu, dienas ja golahus sáhttet váikkuhit persovnnalaš ekonomiijai, eallinstandárdii ja eallinkvalitehtii",
+              "smj": "árvustallat gåktu barggo, tjijnnim ja gålådibme máhtti vájkkudit persåvnålasj økonomijjaj, iellemdilláj ja iellemkvalitiehttaj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14783",
+          "core_elements": [
+            "KE1852",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over likheter og ulikheter i identiteter, levesett og kulturuttrykk i og utenfor Sápmi/Sábme/Saepmie og drøfte muligheter og utfordringer ved mangfold",
+              "nob": "reflektere over likheter og ulikheter i identiteter, levesett og kulturuttrykk i og utenfor Sápmi/Sábme/Saepmie og drøfte muligheter og utfordringer ved mangfold",
+              "sma": "hedtiej jïh joekehtsvoeti bijjeli ussjedadtedh identiteetine, jieledevuekine, kultuvrevæhtine Saepmesne jïh Saepmien ålkolen, jïh nuepieh jïh haestemh digkiedidh gellievoetesne",
+              "sme": "reflekteret identitehtaid, eallinvuogi ja kulturovdanbuktimiid ovttaláganvuođaid ja erohusaid Sámis ja Sámi olggobealde ja ságaškuššat girjáivuođa vejolašvuođaid ja hástalusaid",
+              "smj": "reflektierit identitiehtaj, iellemvuogij ja kultuvrraåvddånbuktemij muodugasjvuodajt ja sieradusájt Sámen ja Sáme ålggolin ja árvvaladdat moattebelakvuoda máhttelisvuodajt ja hásstalusájt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM14784",
+          "core_elements": [
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og reflektere over egne digitale spor og muligheten for å få slettet sporene og å verne om egen og andres rett til privatliv, personvern og opphavsrett",
+              "nob": "utforske og reflektere over egne digitale spor og muligheten for å få slettet sporene og å verne om egen og andres rett til privatliv, personvern og opphavsrett",
+              "sma": "ussjedadtedh jïjtse digitaale gïeji bijjeli jïh nuepien bijjelen gïejide skubpedh jïh jïjtse jïh mubpiej reaktam vaarjelidh privaate jieliedasse, persovnevaarjelæmman jïh aalkoereaktese",
+              "sme": "suokkardit ja reflekteret iežas digitála luottaid ja vejolašvuođa sihkkut luottaid ja suodjalit iežas ja earáid vuoigatvuođa priváhtaeallimii, personsuodjalussii ja dahkkivuoigatvuhtii",
+              "smj": "åtsådit ja reflektierit ietjas digitála luottaj badjel ja man mudduj bæssá luottajt sihkkot ja suodjalit ietjas ja iehtjádij riektájt priváhtaiellemij, persåvnnåsuodjalussaj ja dahkkeriektáj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM14785",
+          "core_elements": [
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over hvordan identitet, selvbilde og egne grenser utvikles og utfordres i ulike fellesskap, og presentere forslag til hvordan man kan håndtere påvirkning og uønskede hendelser",
+              "nob": "reflektere over hvordan identitet, selvbilde og egne grenser utvikles og utfordres i ulike fellesskap, og presentere forslag til hvordan man kan håndtere påvirkning og uønskede hendelser",
+              "sma": "ussjedadtedh guktie identiteete, jïjtjeguvvie jïh jïjtse raasth evtiesuvvieh jïh haastasuvvieh ovmessie ektievoetine, jïh raeriestimmieh åehpiedehtedh guktie maahta baajnehtimmiem jïh ovvaajteles heannadimmieh gïetedidh",
+              "sme": "reflekteret mo identitehta, iešgovva ja iežas ráját ovdánahttojuvvojit ja hástaluvvojit iešguđet searvevuođain, ja evttohit mo sáhttá dustet váikkuhemiid ja sávakeahtes dáhpáhusaid",
+              "smj": "reflektierit gåktu identitiehtta, iesjgåvvå ja ietjas rájá åvddånahteduvvi ja hásstaluvvi iesjguhtik aktijvuodajn, ja ævtodit gåktu máhttá giehtadallat vájkkudimijt ja dáhpádusájt majt ij lágeda"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM14786",
+          "core_elements": [
+            "KE1852",
+            "KE1853"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over hvilke aktører som har makt i samfunnet i dag, og hvordan de begrunner standpunktene sine",
+              "nob": "reflektere over hvilke aktører som har makt i samfunnet i dag, og hvordan de begrunner standpunktene sine",
+              "sma": "ussjedadtedh mah aktöörh mah faamoem seabradahkesne utnieh daan biejjien jïh guktie dah sijjen vuajnoeh tjïelkestieh",
+              "sme": "reflekteret main aktevrrain lea fápmu dálá servodagas, ja mo sii vuođuštit iežaset oaiviliid",
+              "smj": "reflektierit makkir akterajn la fábmo dálásj sebrudagán, ja gåktu sij vuodusti ietjasa vuojnojt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM14787",
+          "core_elements": [
+            "KE1853",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske ulike plattformer for digital samhandling og reflektere over hvordan digital deltakelse og samhandling påvirker formen på og innholdet i samfunnsdebatten",
+              "nob": "utforske ulike plattformer for digital samhandling og reflektere over hvordan digital deltakelse og samhandling påvirker formen på og innholdet i samfunnsdebatten",
+              "sma": "ovmessie våaromh digkiedidh digitaale ektiedahkose, jïh ussjedadtedh guktie digitale meatanårrome jïh ektiedahkoe hammoem jïh sisvegem seabrahkedigkiedimmesne baajnehtieh",
+              "sme": "suokkardit digitála ovttasdoaibmama iešguđet vuogádagaid ja reflekteret mo digitála searvan ja ovttasdoaibman váikkuha servodatdigaštallama hámi ja sisdoalu",
+              "smj": "åtsådit digitála aktandoajmmama iesjguhtik vuogádagájt ja reflektierit gåktu digitála sæbrram ja aktandoajmma vájkkut sebrudakdágástallama hámev ja sisanov"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM14790",
+          "core_elements": [
+            "KE1851",
+            "KE1852",
+            "KE1855"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive sentrale lover, regler og normer og drøfte hvilke konsekvenser brudd på disse kan ha for den enkelte og for samfunnet på kort og lang sikt",
+              "nob": "beskrive sentrale lover, regler og normer og drøfte hvilke konsekvenser brudd på disse kan ha for den enkelte og for samfunnet på kort og lang sikt",
+              "sma": "vihkeles laakh, njoelkedassh jïh nåårmh buerkiestidh jïh konsekvenside digkiedidh fïerhten almetjasse jïh seabradahkese jis dejtie mïedtele, åeniebasse jïh guhkiebasse",
+              "sme": "válddahit dehálaš lágaid, njuolggadusaid ja norpmaid ja ságaškuššat mat váikkuhusat leat dáid rihkkumis ovttaskas olbmui ja servodahkii oanehis ja guhkit áigái",
+              "smj": "gåvvidit guovdásj lágajt, njuolgadusájt ja nårmajt ja árvvaladdap makkir vájkudusá li dájn mieddemin aktugasj ulmutjij ja sebrudahkaj oanegis ja guhkás ájggáj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4"
+          ],
+          "code": "KM14791",
+          "core_elements": [
+            "KE1851",
+            "KE1853"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive trekk ved de politiske systemene og velferdssamfunnene i Norge og Sapmi/Sabme/Saepmie og reflektere over sentrale utfordringer",
+              "nob": "beskrive trekk ved de politiske systemene og velferdssamfunnene i Norge og Sapmi/Sabme/Saepmie og reflektere over sentrale utfordringer",
+              "sma": "væhtah burkiestidh dejnie politihkeles systeemine jïh tryjjesvoeteseabradahkine Nöörjesne jïh Saepmesne jïh ussjedadtedh vihkeles haestemi bijjeli",
+              "sme": "válddahit Norgga ja Sámi politihkalaš vuogádagaid ja čálgoservodagaid mihtilmasvuođaid ja reflekteret guovddáš hástalusaid birra",
+              "smj": "gåvvidit Vuona ja Sáme politihkalasj vuogádagájt ja álkkádussebrudagájt ja reflektierit guovdásj hásstalusáj birra"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 10. trinn",
+          "nob": "Kompetansemål og vurdering 10. trinn",
+          "sma": "Maahtoeulmie jïh vuarjasjimmie 10. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 10. ceahkki",
+          "smj": "10. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    }
+  ],
+  "last_modified": "2026-07-15T13:02:23.0761926",
+  "replaced_by": [],
+  "replaces": [
+    "SAF02-04"
+  ],
+  "title": {
+    "by_language": {
+      "default": "Læreplan i samfunnsfag samisk",
+      "nob": "Læreplan i samfunnsfag samisk",
+      "sma": "Learoesoejkesje – seabradahkefaage saemien",
+      "sme": "Oahppoplána - servodatfága sámegillii",
+      "smj": "Oahppopládna sebrudakfáhka sáme"
+    }
+  },
+  "valid_from": "2026-08-01",
+  "valid_to": null
+}

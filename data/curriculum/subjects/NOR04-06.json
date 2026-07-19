@@ -1,0 +1,912 @@
+{
+  "code": "NOR04-06",
+  "goal_sets": [
+    {
+      "after_year": 2,
+      "applies_to_years": [
+        1,
+        2
+      ],
+      "code": "KV1125",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14380",
+          "core_elements": [
+            "KE1826"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "avlese og følge regler for turtaking i tegnspråksamtaler",
+              "nob": "avlese og følge regler for turtaking i tegnspråksamtaler"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM14376",
+          "core_elements": [
+            "KE1824",
+            "KE1826"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "avlese og oppleve skjønnlitteratur og sakprosa på tegnspråk og samtale om innholdet",
+              "nob": "avlese og oppleve skjønnlitteratur og sakprosa på tegnspråk og samtale om innholdet"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM14379",
+          "core_elements": [
+            "KE1824"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske hvordan valg av tegn og mimikk gir forskjellig mening i tegnspråktekster",
+              "nob": "utforske hvordan valg av tegn og mimikk gir forskjellig mening i tegnspråktekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM14383",
+          "core_elements": [
+            "KE1826"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "leke med håndform, rim og rytme",
+              "nob": "leke med håndform, rim og rytme"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM14385",
+          "core_elements": [
+            "KE1825"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "finne og bruke relevante digitale tegnspråkressurser",
+              "nob": "finne og bruke relevante digitale tegnspråkressurser"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM14377",
+          "core_elements": [
+            "KE1828"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "avlese og bruke håndalfabetet og forstå sammenhengen mellom bokstavering, munnstilling og skriftbilde",
+              "nob": "avlese og bruke håndalfabetet og forstå sammenhengen mellom bokstavering, munnstilling og skriftbilde"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14378",
+          "core_elements": [
+            "KE1826"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive, fortelle og gi uttrykk for egne meninger på norsk tegnspråk",
+              "nob": "beskrive, fortelle og gi uttrykk for egne meninger på norsk tegnspråk"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM14381",
+          "core_elements": [
+            "KE1826"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "skape tegnspråktekster gjennom lek og andre kreative aktiviteter",
+              "nob": "skape tegnspråktekster gjennom lek og andre kreative aktiviteter"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14382",
+          "core_elements": [
+            "KE1826"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om og erfare hva en tegnspråktolk gjør",
+              "nob": "samtale om og erfare hva en tegnspråktolk gjør"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM14384",
+          "core_elements": [
+            "KE1826"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om og beskrive hvordan tegn vi bruker i direkte og digital samhandling kan påvirke andre",
+              "nob": "samtale om og beskrive hvordan tegn vi bruker i direkte og digital samhandling kan påvirke andre"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 2. trinn",
+          "nob": "Kompetansemål og vurdering 2. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 4,
+      "applies_to_years": [
+        3,
+        4
+      ],
+      "code": "KV1126",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14395",
+          "core_elements": [
+            "KE1826"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "avlese, følge regler for turtaking og gi tilbakemelding i tegnspråksamtaler",
+              "nob": "avlese, følge regler for turtaking og gi tilbakemelding i tegnspråksamtaler"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14396",
+          "core_elements": [
+            "KE1829"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "samtale om trekk i døves historie og gi eksempler på hvordan tegn oppstår",
+              "nob": "samtale om trekk i døves historie og gi eksempler på hvordan tegn oppstår"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM14386",
+          "core_elements": [
+            "KE1824"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "avlese fortellinger, eventyr, faktabøker og andre tekster og samtale om hva tekstene betyr for eleven",
+              "nob": "avlese fortellinger, eventyr, faktabøker og andre tekster og samtale om hva tekstene betyr for eleven"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14387",
+          "core_elements": [
+            "KE1828"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke og avlese norsk enhånds- og tohåndsalfabet og internasjonalt håndalfabet",
+              "nob": "bruke og avlese norsk enhånds- og tohåndsalfabet og internasjonalt håndalfabet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM14388",
+          "core_elements": [
+            "KE1825",
+            "KE1826"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om forskjellen mellom meninger og fakta i tegnspråktekster",
+              "nob": "samtale om forskjellen mellom meninger og fakta i tegnspråktekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14389",
+          "core_elements": [
+            "KE1826",
+            "KE1828"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "samtale om og gjøre rede for noen likheter og forskjeller mellom ulike tegnspråk",
+              "nob": "samtale om og gjøre rede for noen likheter og forskjeller mellom ulike tegnspråk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14390",
+          "core_elements": [
+            "KE1826",
+            "KE1827"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "beskrive, fortelle og argumentere, og bruke norsk tegnspråk på kreative måter i egne tekster",
+              "nob": "beskrive, fortelle og argumentere, og bruke norsk tegnspråk på kreative måter i egne tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14391",
+          "core_elements": [
+            "KE1828"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og bruke noen faste tegnuttrykk",
+              "nob": "utforske og bruke noen faste tegnuttrykk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14392",
+          "core_elements": [
+            "KE1826",
+            "KE1829"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og presentere norsk tegnspråks opprinnelse",
+              "nob": "utforske og presentere norsk tegnspråks opprinnelse"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14393",
+          "core_elements": [
+            "KE1824",
+            "KE1826"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "forstå og forklare hvordan vi gjennom språkbruk i direkte og digital samhandling kan krenke andre",
+              "nob": "forstå og forklare hvordan vi gjennom språkbruk i direkte og digital samhandling kan krenke andre"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14394",
+          "core_elements": [
+            "KE1827",
+            "KE1828"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke fagspråk om tegnspråkets grammatikk og oppbygning",
+              "nob": "bruke fagspråk om tegnspråkets grammatikk og oppbygning"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 4. trinn",
+          "nob": "Kompetansemål og vurdering 4. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 7,
+      "applies_to_years": [
+        5,
+        6,
+        7
+      ],
+      "code": "KV1127",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14403",
+          "core_elements": [
+            "KE1826",
+            "KE1829"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for sentrale utviklingstrekk i døves historie",
+              "nob": "gjøre rede for sentrale utviklingstrekk i døves historie"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14404",
+          "core_elements": [
+            "KE1826",
+            "KE1827"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske tegnspråkets muligheter og uttrykke seg med et variert tegnspråk i spontan muntlig samhandling og i tekstskaping",
+              "nob": "utforske tegnspråkets muligheter og uttrykke seg med et variert tegnspråk i spontan muntlig samhandling og i tekstskaping"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM14402",
+          "core_elements": [
+            "KE1825",
+            "KE1826",
+            "KE1827"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "gi tilbakemelding på medelevers tegnspråktekster ut fra kriterier og bruke tilbakemeldinger i bearbeiding av egne tekster",
+              "nob": "gi tilbakemelding på medelevers tegnspråktekster ut fra kriterier og bruke tilbakemeldinger i bearbeiding av egne tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM14397",
+          "core_elements": [
+            "KE1824"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "avlese tegnspråktekster i forskjellige sjangre fra ulike tider og kulturer",
+              "nob": "avlese tegnspråktekster i forskjellige sjangre fra ulike tider og kulturer"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14398",
+          "core_elements": [
+            "KE1826",
+            "KE1827"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "beskrive, fortelle, argumentere og reflektere i muntlig samhandling og skriftlig tekstskaping",
+              "nob": "beskrive, fortelle, argumentere og reflektere i muntlig samhandling og skriftlig tekstskaping"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14399",
+          "core_elements": [
+            "KE1825",
+            "KE1826",
+            "KE1827"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "vurdere hvor pålitelige kilder er og vise til kilder i egne tekster",
+              "nob": "vurdere hvor pålitelige kilder er og vise til kilder i egne tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14407",
+          "core_elements": [
+            "KE1827",
+            "KE1828"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke fagspråk i samtaler om tegnspråktekster",
+              "nob": "bruke fagspråk i samtaler om tegnspråktekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14400",
+          "core_elements": [
+            "KE1829"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "greie ut om regler for tegndanning og hvordan nye tegn oppstår og endres over tid",
+              "nob": "greie ut om regler for tegndanning og hvordan nye tegn oppstår og endres over tid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14401",
+          "core_elements": [
+            "KE1828"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og reflektere over sammenhengen mellom språk og identitet",
+              "nob": "utforske og reflektere over sammenhengen mellom språk og identitet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2"
+          ],
+          "code": "KM14405",
+          "core_elements": [
+            "KE1827"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "produsere tekster med tydelig tegnspråkstruktur",
+              "nob": "produsere tekster med tydelig tegnspråkstruktur"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM14406",
+          "core_elements": [
+            "KE1829"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for bruk av tegnspråktolk/skrivetolk i utdanning",
+              "nob": "gjøre rede for bruk av tegnspråktolk/skrivetolk i utdanning"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 7. trinn",
+          "nob": "Kompetansemål og vurdering 7. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV1128",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM14419",
+          "core_elements": [
+            "KE1827"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "uttrykke seg i ulike sjangre og eksperimentere med sjangre på kreative måter",
+              "nob": "uttrykke seg i ulike sjangre og eksperimentere med sjangre på kreative måter"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14408",
+          "core_elements": [
+            "KE1824"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og gjøre rede for tegnspråklig litteratur og fortellertradisjon",
+              "nob": "utforske og gjøre rede for tegnspråklig litteratur og fortellertradisjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14415",
+          "core_elements": [
+            "KE1829"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for det språklige mangfoldet i Norge og sammenligne samers og andre minoritetsspråkliges rettigheter i Norge",
+              "nob": "gjøre rede for det språklige mangfoldet i Norge og sammenligne samers og andre minoritetsspråkliges rettigheter i Norge"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM14409",
+          "core_elements": [
+            "KE1824"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "reflektere over og gjøre rede for ulike elementer som påvirker tekster som oversettes og tolkes",
+              "nob": "reflektere over og gjøre rede for ulike elementer som påvirker tekster som oversettes og tolkes"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2"
+          ],
+          "code": "KM14410",
+          "core_elements": [
+            "KE1825",
+            "KE1827"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for regler om personvern og opphavsrett, bruke kilder på en kritisk måte, markere sitater og vise til kilder på en etterrettelig måte i egne tegnspråktekster",
+              "nob": "gjøre rede for regler om personvern og opphavsrett, bruke kilder på en kritisk måte, markere sitater og vise til kilder på en etterrettelig måte i egne tegnspråktekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM14411",
+          "core_elements": [
+            "KE1825"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "vurdere hva som er saklig argumentasjon og begrunne egne synspunkter",
+              "nob": "vurdere hva som er saklig argumentasjon og begrunne egne synspunkter"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14412",
+          "core_elements": [
+            "KE1826",
+            "KE1827"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "informere, analysere, reflektere og argumentere i ulike sjangre og for ulike formål",
+              "nob": "informere, analysere, reflektere og argumentere i ulike sjangre og for ulike formål"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14413",
+          "core_elements": [
+            "KE1827",
+            "KE1828"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke fagspråk og kunnskap om tegnspråkets grammatikk i beskrivelser av hvordan tegnspråk er bygget opp",
+              "nob": "bruke fagspråk og kunnskap om tegnspråkets grammatikk i beskrivelser av hvordan tegnspråk er bygget opp"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14414",
+          "core_elements": [
+            "KE1829"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og greie ut om andre lands tegnspråk og deres påvirkning på norsk tegnspråk",
+              "nob": "utforske og greie ut om andre lands tegnspråk og deres påvirkning på norsk tegnspråk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14416",
+          "core_elements": [
+            "KE1824",
+            "KE1825"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og diskutere hvordan tegnspråktekster framstiller unges livssituasjon",
+              "nob": "utforske og diskutere hvordan tegnspråktekster framstiller unges livssituasjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM14417",
+          "core_elements": [
+            "KE1826",
+            "KE1827",
+            "KE1829"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke fagspråk i diskusjoner, spontane samtaler og i skriftlige og muntlige presentasjoner om tegnspråkfaglige emner",
+              "nob": "bruke fagspråk i diskusjoner, spontane samtaler og i skriftlige og muntlige presentasjoner om tegnspråkfaglige emner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM14418",
+          "core_elements": [
+            "KE1826",
+            "KE1827"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "produsere tekster som har en tydelig struktur og er tilpasset sjanger, mottaker og formål",
+              "nob": "produsere tekster som har en tydelig struktur og er tilpasset sjanger, mottaker og formål"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM14420",
+          "core_elements": [
+            "KE1829"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for retten til å bruke tegnspråktolk/skrivetolk",
+              "nob": "gjøre rede for retten til å bruke tegnspråktolk/skrivetolk"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 10. trinn",
+          "nob": "Kompetansemål og vurdering 10. trinn"
+        }
+      }
+    }
+  ],
+  "last_modified": "2026-07-15T08:59:18.3773072",
+  "replaced_by": [],
+  "replaces": [
+    "NOR04-05"
+  ],
+  "title": {
+    "by_language": {
+      "default": "Læreplan i norsk tegnspråk",
+      "nob": "Læreplan i norsk tegnspråk"
+    }
+  },
+  "valid_from": "2026-08-01",
+  "valid_to": null
+}

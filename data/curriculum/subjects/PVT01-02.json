@@ -1,0 +1,121 @@
+{
+  "code": "PVT01-02",
+  "goal_sets": [
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV305",
+      "goals": [
+        {
+          "basic_skills": [],
+          "code": "KM3209",
+          "core_elements": [
+            "KE342"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og identifisere et marked og behovene i det",
+              "nob": "utforske og identifisere et marked og behovene i det"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3210",
+          "core_elements": [
+            "KE342"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utvikle et produkt eller en tjeneste som møter et definert behov",
+              "nob": "utvikle et produkt eller en tjeneste som møter et definert behov"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3211",
+          "core_elements": [
+            "KE342",
+            "KE343"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "vurdere problemstillinger rundt etikk og bærekraft i egen bedrift",
+              "nob": "vurdere problemstillinger rundt etikk og bærekraft i egen bedrift"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3212",
+          "core_elements": [
+            "KE343"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "planlegge og gjennomføre drift av en bedrift i samarbeid med andre",
+              "nob": "planlegge og gjennomføre drift av en bedrift i samarbeid med andre"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3213",
+          "core_elements": [
+            "KE343"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke budsjett og regnskap for å holde oversikt over driften av bedriften",
+              "nob": "bruke budsjett og regnskap for å holde oversikt over driften av bedriften"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3214",
+          "core_elements": [
+            "KE342",
+            "KE343"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "dokumentere drift og reflektere over ulike sider ved egen bedrift",
+              "nob": "dokumentere drift og reflektere over ulike sider ved egen bedrift"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering utvikling av produkter og tjenester",
+          "nob": "Kompetansemål og vurdering utvikling av produkter og tjenester"
+        }
+      }
+    }
+  ],
+  "last_modified": "2024-11-07T12:51:04.4108066",
+  "replaced_by": [],
+  "replaces": [
+    "PVT1-01"
+  ],
+  "title": {
+    "by_language": {
+      "default": "Læreplan i valgfaget utvikling av produkter og tjenester",
+      "nob": "Læreplan i valgfaget utvikling av produkter og tjenester"
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

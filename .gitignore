@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Raw upstream Udir responses. Cached so re-running the ingest is cheap, but the
+# normalised output under data/curriculum/subjects/ is what we commit and review.
+data/curriculum/raw/

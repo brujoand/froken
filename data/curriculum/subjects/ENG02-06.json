@@ -1,0 +1,1240 @@
+{
+  "code": "ENG02-06",
+  "goal_sets": [
+    {
+      "after_year": 2,
+      "applies_to_years": [
+        1,
+        2
+      ],
+      "code": "KV1036",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF5"
+          ],
+          "code": "KM13433",
+          "core_elements": [
+            "KE1769",
+            "KE1772"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke teknologi for å oppleve språket via autentiske språkmodeller og samtalepartnere",
+              "nob": "bruke teknologi for å oppleve språket via autentiske språkmodeller og samtalepartnere"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13424",
+          "core_elements": [
+            "KE1770"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og bruke grunnleggende munnformer, språklyder og stavelser i ord",
+              "nob": "utforske og bruke grunnleggende munnformer, språklyder og stavelser i ord"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13425",
+          "core_elements": [
+            "KE1770"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "koble språklyder til bokstaver og stavemønstre og trekke bokstavlyder sammen til ord",
+              "nob": "koble språklyder til bokstaver og stavemønstre og trekke bokstavlyder sammen til ord"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13426",
+          "core_elements": [
+            "KE1770"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske det engelske alfabetet, og gjenkjenne håndalfabetet på BSL og ASL i lek og/eller sangaktiviteter",
+              "nob": "utforske det engelske alfabetet, og gjenkjenne håndalfabetet på BSL og ASL i lek og/eller sangaktiviteter"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13429",
+          "core_elements": [
+            "KE1770"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "oppdage høyfrekvente ord og fraser i ulike typer tekster",
+              "nob": "oppdage høyfrekvente ord og fraser i ulike typer tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13427",
+          "core_elements": [
+            "KE1769",
+            "KE1770"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "stille og svare på enkle spørsmål, følge enkle instruksjoner og bruke noen høflighetsuttrykk",
+              "nob": "stille og svare på enkle spørsmål, følge enkle instruksjoner og bruke noen høflighetsuttrykk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13428",
+          "core_elements": [
+            "KE1769"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "delta i innøvde dialoger og spontane samtaler om egne behov og følelser, dagligliv og interesser",
+              "nob": "delta i innøvde dialoger og spontane samtaler om egne behov og følelser, dagligliv og interesser"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13430",
+          "core_elements": [
+            "KE1770"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "oppdage ord som er felles for engelsk og andre språk eleven kjenner til",
+              "nob": "oppdage ord som er felles for engelsk og andre språk eleven kjenner til"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13431",
+          "core_elements": [
+            "KE1771"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "oppfatte, lese og samtale om innhold i enkle tekster, inkludert billedbøker",
+              "nob": "oppfatte, lese og samtale om innhold i enkle tekster, inkludert billedbøker"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM13434",
+          "core_elements": [
+            "KE1769",
+            "KE1770"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lese og eksperimentere med å skrive kjente ord, fraser og enkle setninger",
+              "nob": "lese og eksperimentere med å skrive kjente ord, fraser og enkle setninger"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13432",
+          "core_elements": [
+            "KE1771"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "tilegne seg tegn/ord og kulturell kunnskap gjennom engelskspråklig barnelitteratur og barnekultur",
+              "nob": "tilegne seg tegn/ord og kulturell kunnskap gjennom engelskspråklig barnelitteratur og barnekultur"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 2. trinn",
+          "nob": "Kompetansemål og vurdering 2. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 4,
+      "applies_to_years": [
+        3,
+        4
+      ],
+      "code": "KV1037",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13438",
+          "core_elements": [
+            "KE1770"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske ulike ordbøker og hvordan de kan brukes i språklæring",
+              "nob": "utforske ulike ordbøker og hvordan de kan brukes i språklæring"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13446",
+          "core_elements": [
+            "KE1769",
+            "KE1770",
+            "KE1772"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke teknologi til å utforske språket og samhandle med andre",
+              "nob": "bruke teknologi til å utforske språket og samhandle med andre"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13435",
+          "core_elements": [
+            "KE1770"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske det engelske alfabetet og bruke munnformer i varierte lek og/eller sangaktiviteter og språklæringsaktiviteter",
+              "nob": "utforske det engelske alfabetet og bruke munnformer i varierte lek og/eller sangaktiviteter og språklæringsaktiviteter"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13449",
+          "core_elements": [
+            "KE1770"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "oppfatte og forstå ord og uttrykk i tilpassede tekster",
+              "nob": "oppfatte og forstå ord og uttrykk i tilpassede tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13436",
+          "core_elements": [
+            "KE1769",
+            "KE1770"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke noen vanlige tegn/småord, høflighetsuttrykk og enkle fraser og setninger for å få hjelp til å forstå og bli forstått",
+              "nob": "bruke noen vanlige tegn/småord, høflighetsuttrykk og enkle fraser og setninger for å få hjelp til å forstå og bli forstått"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13437",
+          "core_elements": [
+            "KE1769"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "delta i samtaler om egne og andres behov, følelser, dagligliv og interesser og bruke samtaleregler",
+              "nob": "delta i samtaler om egne og andres behov, følelser, dagligliv og interesser og bruke samtaleregler"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13441",
+          "core_elements": [
+            "KE1770"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "oppdage og leke med ord og uttrykk som er felles for engelsk og andre språk eleven kjenner til",
+              "nob": "oppdage og leke med ord og uttrykk som er felles for engelsk og andre språk eleven kjenner til"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM13439",
+          "core_elements": [
+            "KE1770"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "uttrykke seg i fortid, nåtid og fremtid med de vanligste verbene og identifisere ordklasser i tilpassede tekster",
+              "nob": "uttrykke seg i fortid, nåtid og fremtid med de vanligste verbene og identifisere ordklasser i tilpassede tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2"
+          ],
+          "code": "KM13440",
+          "core_elements": [
+            "KE1770"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "følge enkle regler for rettskriving og setningsstruktur",
+              "nob": "følge enkle regler for rettskriving og setningsstruktur"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13442",
+          "core_elements": [
+            "KE1770"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lese og forstå tekster med lydrette ord og kjente og ukjente ordbilder",
+              "nob": "lese og forstå tekster med lydrette ord og kjente og ukjente ordbilder"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM13443",
+          "core_elements": [
+            "KE1770",
+            "KE1771"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lese og forstå betydningen av kjente og ukjente ord, fraser og setninger ut fra sammenhengen i selvvalgte tekster",
+              "nob": "lese og forstå betydningen av kjente og ukjente ord, fraser og setninger ut fra sammenhengen i selvvalgte tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13444",
+          "core_elements": [
+            "KE1771"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "lese og samtale om innhold i ulike typer tekster, inkludert billedbøker",
+              "nob": "lese og samtale om innhold i ulike typer tekster, inkludert billedbøker"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2"
+          ],
+          "code": "KM13447",
+          "core_elements": [
+            "KE1769"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "skrive enkle tekster som uttrykker tanker og meninger",
+              "nob": "skrive enkle tekster som uttrykker tanker og meninger"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13448",
+          "core_elements": [
+            "KE1769"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om noen sider ved ulike levemåter, tradisjoner og skikker for talespråklige og tegnspråklige i den engelskspråklige verden og i Norge",
+              "nob": "samtale om noen sider ved ulike levemåter, tradisjoner og skikker for talespråklige og tegnspråklige i den engelskspråklige verden og i Norge"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13445",
+          "core_elements": [
+            "KE1771"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "tilegne seg tegn/ord, fraser og kulturell kunnskap gjennom engelskspråklig litteratur og barnekultur",
+              "nob": "tilegne seg tegn/ord, fraser og kulturell kunnskap gjennom engelskspråklig litteratur og barnekultur"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 4. trinn ",
+          "nob": "Kompetansemål og vurdering 4. trinn "
+        }
+      }
+    },
+    {
+      "after_year": 7,
+      "applies_to_years": [
+        5,
+        6,
+        7
+      ],
+      "code": "KV1038",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13454",
+          "core_elements": [
+            "KE1769",
+            "KE1770",
+            "KE1771",
+            "KE1772"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke enkle strategier i språklæring, tekstskaping og kommunikasjon",
+              "nob": "bruke enkle strategier i språklæring, tekstskaping og kommunikasjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13459",
+          "core_elements": [
+            "KE1769",
+            "KE1770",
+            "KE1772"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke hensiktsmessig teknologi og ulike ordbøker i språklæring, tekstskaping og samhandling",
+              "nob": "bruke hensiktsmessig teknologi og ulike ordbøker i språklæring, tekstskaping og samhandling"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13450",
+          "core_elements": [
+            "KE1770"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og bruke tegn/ord og uttrykk i lek og/eller sang og rollespill",
+              "nob": "utforske og bruke tegn/ord og uttrykk i lek og/eller sang og rollespill"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13451",
+          "core_elements": [
+            "KE1771",
+            "KE1772"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "oppfatte og forstå tegn/ord og uttrykk i tilpassede og autentiske tekster",
+              "nob": "oppfatte og forstå tegn/ord og uttrykk i tilpassede og autentiske tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13452",
+          "core_elements": [
+            "KE1769"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "uttrykke seg forståelig med et variert tegn-/ordforråd og høflighetsuttrykk tilpasset mottaker og situasjon",
+              "nob": "uttrykke seg forståelig med et variert tegn-/ordforråd og høflighetsuttrykk tilpasset mottaker og situasjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13453",
+          "core_elements": [
+            "KE1769"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "innlede, holde i gang og avslutte samtaler om egne interesser og aktuelle emner tilpasset ulike mottakere og situasjoner",
+              "nob": "innlede, holde i gang og avslutte samtaler om egne interesser og aktuelle emner tilpasset ulike mottakere og situasjoner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13456",
+          "core_elements": [
+            "KE1770"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og samtale om noen språklige likheter mellom engelsk og andre språk eleven kjenner til, og bruke dette i egen språklæring",
+              "nob": "utforske og samtale om noen språklige likheter mellom engelsk og andre språk eleven kjenner til, og bruke dette i egen språklæring"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM13465",
+          "core_elements": [
+            "KE1770"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "identifisere setningsledd i ulike typer setninger og bruke kunnskap om bøying av verb, substantiv og adjektiv i arbeid med egne tekster",
+              "nob": "identifisere setningsledd i ulike typer setninger og bruke kunnskap om bøying av verb, substantiv og adjektiv i arbeid med egne tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2"
+          ],
+          "code": "KM13455",
+          "core_elements": [
+            "KE1770"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "følge regler for rettskriving, ordbøying og setningsstruktur",
+              "nob": "følge regler for rettskriving, ordbøying og setningsstruktur"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13457",
+          "core_elements": [
+            "KE1769",
+            "KE1771",
+            "KE1772"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "lese og videreformidle innhold fra ulike typer tekster, inkludert selvvalgte tekster",
+              "nob": "lese og videreformidle innhold fra ulike typer tekster, inkludert selvvalgte tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13458",
+          "core_elements": [
+            "KE1769",
+            "KE1771"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "lese og oppfatte innholdet i engelskspråklige sakprosatekster og engelskspråklig barne- og ungdomslitteratur/tegnspråkpoesi og skrive og samtale om innholdet",
+              "nob": "lese og oppfatte innholdet i engelskspråklige sakprosatekster og engelskspråklig barne- og ungdomslitteratur/tegnspråkpoesi og skrive og samtale om innholdet"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13460",
+          "core_elements": [
+            "KE1769",
+            "KE1771",
+            "KE1772"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om ulike kilders pålitelighet, og velge kilder til eget bruk",
+              "nob": "samtale om ulike kilders pålitelighet, og velge kilder til eget bruk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM13461",
+          "core_elements": [
+            "KE1769",
+            "KE1772"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "skrive sammenhengende tekster, inkludert sammensatte, som gjenforteller, forteller, spør og uttrykker meninger og interesser, tilpasset mottaker",
+              "nob": "skrive sammenhengende tekster, inkludert sammensatte, som gjenforteller, forteller, spør og uttrykker meninger og interesser, tilpasset mottaker"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13462",
+          "core_elements": [
+            "KE1769"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bearbeide egne tekster ut fra tilbakemeldinger",
+              "nob": "bearbeide egne tekster ut fra tilbakemeldinger"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13463",
+          "core_elements": [
+            "KE1769",
+            "KE1771"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over og samtale om rollen engelsk har i eget liv",
+              "nob": "reflektere over og samtale om rollen engelsk har i eget liv"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13464",
+          "core_elements": [
+            "KE1769",
+            "KE1771",
+            "KE1772"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over identitet, kulturell tilhørighet og døvekultur gjennom møter med engelskspråklige tekster",
+              "nob": "reflektere over identitet, kulturell tilhørighet og døvekultur gjennom møter med engelskspråklige tekster"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 7. trinn ",
+          "nob": "Kompetansemål og vurdering 7. trinn "
+        }
+      }
+    },
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV1039",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13468",
+          "core_elements": [
+            "KE1769",
+            "KE1770",
+            "KE1771",
+            "KE1772"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke varierte strategier i språklæring, tekstskaping og kommunikasjon",
+              "nob": "bruke varierte strategier i språklæring, tekstskaping og kommunikasjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13474",
+          "core_elements": [
+            "KE1769",
+            "KE1770",
+            "KE1771",
+            "KE1772"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke teknologi og andre hjelpemidler i språklæring, tekstskaping og samhandling",
+              "nob": "bruke teknologi og andre hjelpemidler i språklæring, tekstskaping og samhandling"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13466",
+          "core_elements": [
+            "KE1769",
+            "KE1770"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "uttrykke seg med flyt og sammenheng med et variert tegn-/ordforråd og idiomatiske uttrykk tilpasset formål, mottaker og situasjon",
+              "nob": "uttrykke seg med flyt og sammenheng med et variert tegn-/ordforråd og idiomatiske uttrykk tilpasset formål, mottaker og situasjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM13467",
+          "core_elements": [
+            "KE1769"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "stille spørsmål og følge opp innspill i samtaler om ulike emner tilpasset ulike formål, mottakere og situasjoner",
+              "nob": "stille spørsmål og følge opp innspill i samtaler om ulike emner tilpasset ulike formål, mottakere og situasjoner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13470",
+          "core_elements": [
+            "KE1770"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og beskrive noen språklige likheter og ulikheter mellom engelsk og andre språk eleven kjenner til, og bruke dette i egen språklæring",
+              "nob": "utforske og beskrive noen språklige likheter og ulikheter mellom engelsk og andre språk eleven kjenner til, og bruke dette i egen språklæring"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13482",
+          "core_elements": [
+            "KE1770"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke kunnskap om ordklasser og setningsstruktur i arbeid med egne tekster",
+              "nob": "bruke kunnskap om ordklasser og setningsstruktur i arbeid med egne tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2"
+          ],
+          "code": "KM13469",
+          "core_elements": [
+            "KE1770"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "følge regler for rettskriving, ordbøying, setningsstruktur og tekststruktur",
+              "nob": "følge regler for rettskriving, ordbøying, setningsstruktur og tekststruktur"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13471",
+          "core_elements": [
+            "KE1771"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "lese, diskutere og videreformidle innhold fra ulike typer tekster, inkludert selvvalgte tekster",
+              "nob": "lese, diskutere og videreformidle innhold fra ulike typer tekster, inkludert selvvalgte tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13472",
+          "core_elements": [
+            "KE1771"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "lese, tolke og reflektere over engelskspråklig skjønnlitteratur, inkludert tekster av og om tegnspråklige",
+              "nob": "lese, tolke og reflektere over engelskspråklig skjønnlitteratur, inkludert tekster av og om tegnspråklige"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13473",
+          "core_elements": [
+            "KE1771"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "lese sakprosatekster og vurdere hvor pålitelige kildene er",
+              "nob": "lese sakprosatekster og vurdere hvor pålitelige kildene er"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13475",
+          "core_elements": [
+            "KE1771",
+            "KE1772"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke kilder på en kritisk og etterrettelig måte",
+              "nob": "bruke kilder på en kritisk og etterrettelig måte"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM13476",
+          "core_elements": [
+            "KE1769"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "skrive formelle og uformelle tekster, inkludert sammensatte, med struktur og sammenheng som beskriver, forteller og reflekterer tilpasset formål, mottaker og situasjon",
+              "nob": "skrive formelle og uformelle tekster, inkludert sammensatte, med struktur og sammenheng som beskriver, forteller og reflekterer tilpasset formål, mottaker og situasjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13477",
+          "core_elements": [
+            "KE1770"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bearbeide egne tekster ut fra tilbakemeldinger og kunnskap om språk",
+              "nob": "bearbeide egne tekster ut fra tilbakemeldinger og kunnskap om språk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13478",
+          "core_elements": [
+            "KE1769",
+            "KE1771",
+            "KE1772"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive og reflektere over rollen engelsk har for talespråklige og tegnspråklige i Norge og i verden",
+              "nob": "beskrive og reflektere over rollen engelsk har for talespråklige og tegnspråklige i Norge og i verden"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13479",
+          "core_elements": [
+            "KE1769",
+            "KE1771",
+            "KE1772"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og reflektere over situasjonen til tegnspråklige i den engelskspråklige verden og i Norge",
+              "nob": "utforske og reflektere over situasjonen til tegnspråklige i den engelskspråklige verden og i Norge"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13481",
+          "core_elements": [
+            "KE1769",
+            "KE1771",
+            "KE1772"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og beskrive levemåter, tenkesett, kommunikasjonsmønstre og mangfold for talespråklige og tegnspråklige i den engelskspråklige verden",
+              "nob": "utforske og beskrive levemåter, tenkesett, kommunikasjonsmønstre og mangfold for talespråklige og tegnspråklige i den engelskspråklige verden"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13480",
+          "core_elements": [
+            "KE1769",
+            "KE1771",
+            "KE1772"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og videreformidle innhold i engelskspråklige kulturelle uttrykksformer fra ulike medier knyttet til egne interesser",
+              "nob": "utforske og videreformidle innhold i engelskspråklige kulturelle uttrykksformer fra ulike medier knyttet til egne interesser"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 10. trinn",
+          "nob": "Kompetansemål og vurdering 10. trinn"
+        }
+      }
+    }
+  ],
+  "last_modified": "2026-07-08T15:42:03.7020496",
+  "replaced_by": [],
+  "replaces": [],
+  "title": {
+    "by_language": {
+      "default": "Læreplan i engelsk for elever med tegnspråk",
+      "nob": "Læreplan i engelsk for elever med tegnspråk"
+    }
+  },
+  "valid_from": "2026-08-01",
+  "valid_to": null
+}

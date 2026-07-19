@@ -1,0 +1,288 @@
+{
+  "code": "UTV01-03",
+  "goal_sets": [
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV106",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM1159",
+          "core_elements": [
+            "KE102"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive egne styrker og egenskaper og interesser, og kunne se dette i sammenheng med utdannings- og yrkesønsker og livsmestring",
+              "eng": "describe their own strengths, qualities and interests, and consider them in relation to their desired education, career and life skills",
+              "nno": "beskrive eigne styrker, eigenskapar og interesser og kunne sjå dette i samanheng med utdannings- og yrkesønske og livsmeistring",
+              "nob": "beskrive egne styrker og egenskaper og interesser, og kunne se dette i sammenheng med utdannings- og yrkesønsker og livsmestring",
+              "sma": "jïjtse vieksiesvoeth jïh jïjtsevoeth jïh ïedtjh buerkiestidh, jïh maehtedh dam vuejnedh ektiedimmesne ööhpehtimmie- jïh barkoesjaavnjoejgujmie jïh jieledehaalveminie",
+              "sme": "válddahit iežas nana beliid ja iešvuođaid ja beroštumiid, ja máhttit oaidnit dáid oahppo- ja fidnosávaldagaid ja eallinhálddašeami olis",
+              "smj": "gåvvidit ietjas nanos bielijt ja ulmusjvuodav ja berustimijt, ja buktet vuojnnet dájt oahppo- ja virggesávadusáj ja iellembierggima gáktuj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1167",
+          "core_elements": [
+            "KE102"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "samle, analysere og bruke informasjon om utdanning og arbeid",
+              "eng": "gather, analyse and use information about education and employment",
+              "nno": "samle, analysere og bruke informasjon om utdanning og arbeid",
+              "nob": "samle, analysere og bruke informasjon om utdanning og arbeid",
+              "sma": "bïevnesh ööhpehtimmien jïh barkoen bïjre tjöönghkedh, analyseeredh jïh nuhtjedh",
+              "sme": "čohkket, analyseret ja ávkkástallat dieđuid oahpuid ja bargguid birra",
+              "smj": "tjoahkkit, analysierit ja ávkástallat diedojt oahpoj ja bargoj birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM1160",
+          "core_elements": [
+            "KE102"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske utdanningsmuligheter på varierte måter, og gjøre rede for ulike utdanningsveier og hvilke yrkesområder de kan føre til",
+              "eng": "explore career opportunities in various ways, and describe different educational pathways and careers they may lead to",
+              "nno": "utforske utdanningsmoglegheiter på varierte måtar, og gjere greie for ulike utdanningsvegar og kva yrkesområde dei kan føre til",
+              "nob": "utforske utdanningsmuligheter på varierte måter, og gjøre rede for ulike utdanningsveier og hvilke yrkesområder de kan føre til",
+              "sma": "ööhpehtimmienuepieh goerehtidh joekehtslaakan, jïh ovmessie ööhpehtimmiegeajnoeh tjïelkestidh jïh mejtie barkoesuerkide dah maehtieh vedtedh",
+              "sme": "suokkardit oahppovejolašvuođaid iešguđet láhkai, ja čilget iešguđetlágan oahpposurggiid ja maid fidnosurggiid dat sáhttet mielddisbuktet",
+              "smj": "åtsådit oahppovejulasjvuodajt iesjguhtik láhkáj, ja tjielggit iesjguhtiklágásj oahpposuorgijt ja makkir virggesuorgijda da máhtti doalvvot"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1161",
+          "core_elements": [
+            "KE102"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "tilegne seg kunnskap om arbeidslivet gjennom utprøving og utforskning og reflektere over hvordan bærekraftsmål, konjunkturer og teknologi påvirker arbeidsmarked, yrker og arbeidsmåter",
+              "eng": "gain knowledge of the workplace by testing, exploring and reflecting on how sustainability goals, conjunctures and technology impact the labour market, occupations and working methods",
+              "nno": "tileigne seg kunnskap om arbeidslivet gjennom utprøving og utforsking og reflektere over korleis berekraftsmål, konjunkturar og teknologi påverkar arbeidsmarknad, yrke og arbeidsmåtar",
+              "nob": "tilegne seg kunnskap om arbeidslivet gjennom utprøving og utforskning og reflektere over hvordan bærekraftsmål, konjunkturer og teknologi påvirker arbeidsmarked, yrker og arbeidsmåter",
+              "sma": "daajroem vejtiestidh barkoejieleden bïjre viehkine pryövedh jïh goerehtidh jïh ussjedadtedh guktie monnehkevoeteulmieh, konjunktuvrh jïh teknologije barkoemaarkedem, barkoeh jïh barkoevuekieh baajnehtieh",
+              "sme": "háhkat máhtu bargoeallima birra go geahččaladdá ja suokkarda ja reflekteret das mo guoddevašvuođamihttomearit, konjunktuvrrat ja teknologiija váikkuhit bargomárkanii, fidnuide ja bargovugiide",
+              "smj": "åttjudit máhtov barggoiellema birra gå gæhttjaladdá ja åtsåt ja reflektieri gåktu guoddelisvuoda mihttomiere, konjunktuvra ja teknologijja vájkkudi barggomárnánij, virgijda ja barggovuogijda"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1162",
+          "core_elements": [
+            "KE102"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "diskutere konsekvenser av utenforskap og forstå økonomisk og sosial verdi av arbeid på individ- og samfunnsnivå",
+              "eng": "discuss consequences of exclusion and awareness of the economic and social value of working at both the individual and social level",
+              "nno": "diskutere konsekvensar av utanforskap og forstå økonomisk og sosial verdi av arbeid på individ- og samfunnsnivå",
+              "nob": "diskutere konsekvenser av utenforskap og forstå økonomisk og sosial verdi av arbeid på individ- og samfunnsnivå",
+              "sma": "konsekvensh ålkoestimmeste digkiedidh jïh ekonomeles jïh sosijaale aarvoem barkoste guarkedh indivijde- jïh seabradahkedaltesistie",
+              "sme": "digaštallat olggobealvuođa váikkuhusaid ja áddet barggu ekonomalaš ja sosiála árvvu indiviida- ja servodatdásis",
+              "smj": "dágástallat ålggodisvuoda vájkkudusájt ja dádjadit bargo økonåvmålasj ja sosiála árvov indivijda ja sebrudagá dásen"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM1163",
+          "core_elements": [
+            "KE102"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for hva og hvem som kan påvirke karrierevalg og hva dette har å si for egne valg",
+              "eng": "describe what and who can impact career choices and how this affects one's own choices",
+              "nno": "gjere greie for kva og kven som kan påverke karriereval og kva dette har å seie for eigne val",
+              "nob": "gjøre rede for hva og hvem som kan påvirke karrierevalg og hva dette har å si for egne valg",
+              "sma": "tjïelkestidh mij jïh gie maahta karreijeereveeljemem baajnehtidh, jïh maam ulmide daate åtna jïjtse veeljemidie",
+              "sme": "čilget mii ja gii sáhttá váikkuhit karriearaválljejupmái, ja maid dat mearkkaša iežas válljejumiide",
+              "smj": "tjielggit mij ja gut máhttá karrierraválljimij vájkkudit, ja majt dat merkaj ietjas válljimijda"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1164",
+          "core_elements": [
+            "KE102"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og drøfte kjønnsrelaterte perspektiver i karrierevalg",
+              "eng": "explore and discuss gender-related perspectives in career choices",
+              "nno": "utforske og drøfte kjønnsrelaterte perspektiv i eit karriereval",
+              "nob": "utforske og drøfte kjønnsrelaterte perspektiver i karrierevalg",
+              "sma": "tjoeleperspektijvh karrijeereveeljemisnie goerehtidh jïh digkiedidh",
+              "sme": "suokkardit ja ságaškuššat sohkabeallái guoski perspektiivvaid karriearaválljejumiin",
+              "smj": "åtsådit ja árvvaladdat karrierraválljima perspektijvajt ma sjærvváj guosski"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM1165",
+          "core_elements": [
+            "KE102"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "se muligheter og omsette egne idéer til handling og valg, og reflektere sammen med andre over konsekvenser av karrierevalg",
+              "eng": "see the opportunities and transform their own ideas into taking action and making decisions, and reflect with others on the consequences of career choices",
+              "nno": "sjå moglegheiter og omsette eigne idear til handling og val, og reflektere saman med andre over konsekvensar av karriereval",
+              "nob": "se muligheter og omsette egne idéer til handling og valg, og reflektere sammen med andre over konsekvenser av karrierevalg",
+              "sma": "nuepieh vuejnedh jïh jïjtse åssjalommesh dahkose jïh veeljemasse jeatjahtehtedh, jïh mubpiejgujmie ektine ussjedadtedh konsekvensi bijjeli karrijeereveeljemistie",
+              "sme": "oaidnit vejolašvuođaid ja duohtandahkat iežas ideaid ja válljejumiid, ja reflekteret ovttas earáiguin karriearaválljejumiid váikkuhusaid birra",
+              "smj": "vuojnnet vejulasjvuodajt ja duohtan dahkat ietjas idiejajt ja válljimijt, ja reflektierit iehtjádij siegen karrierraválljimij vájkkudusáj badjel"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM1166",
+          "core_elements": [
+            "KE102"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utvikle og bruke mestringsstrategier for å håndtere overganger og utfordringer relatert til utdanning og karriere",
+              "eng": "develop and use coping strategies to handle transitions and challenges related to education and careers",
+              "nno": "utvikle og bruke meistringsstrategiar for å handtere overgangar og utfordringar relaterte til utdanning og karriere",
+              "nob": "utvikle og bruke mestringsstrategier for å håndtere overganger og utfordringer relatert til utdanning og karriere",
+              "sma": "haalvemestrategijh evtiedidh jïh nuhtjedh juktie sertiestimmieh jïh haestemh gïetedidh ööhpehtimmien jïh karrijeeren bïjre",
+              "sme": "ovdánahttit ja geavahit hálddašanstrategiijaid hálddašit nuppástuvvamiid ja hástalusaid mat gusket ohppui ja karrierii",
+              "smj": "åvddånahttet ja adnet háldadimstratesjijjajt háldadittjat målssomijt ja hásstalusájt ma oahppuj ja karrierraj guosski"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3"
+          ],
+          "code": "KM1168",
+          "core_elements": [
+            "KE102"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "tolke stillingsannonser, skrive CV og jobbsøknad og tilegne seg kunnskap om hvordan man gjør et godt jobbintervju",
+              "eng": "interpret job advertisements, write a CV and job application, and learn how to make a good impression during an interview",
+              "nno": "tolke stillingsannonsar, skrive CV og jobbsøknad og tileigne seg kunnskap om korleis ein gjer eit godt jobbintervju",
+              "nob": "tolke stillingsannonser, skrive CV og jobbsøknad og tilegne seg kunnskap om hvordan man gjør et godt jobbintervju",
+              "sma": "barkoebïevnesh toelhkestidh, CV:m jïh barkoeohtsemem tjaeledh jïh daajroem vejtiestidh guktie hivjen barkoegïhtjehtimmiem dorje",
+              "sme": "dulkot virgealmmuhusaid, čállit CV ja bargoohcamuša ja háhkat máhtu mo dahkat buori bargojearahallama",
+              "smj": "dålkkut virggealmodusájt, tjállet CV:av ja barggoåhtsåmusáv ja åttjudit máhtov gåktu dahkat buorre barggoságájdahttemav"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering",
+          "eng": "Competence aims and assessment",
+          "nno": "Kompetansemål og vurdering",
+          "nob": "Kompetansemål og vurdering",
+          "sma": "Maahtoeulmieh jïh vuarjasjimmie",
+          "sme": "Gealbomihttomearit ja árvvoštallan",
+          "smj": "Máhtudakulme ja árvustallam"
+        }
+      }
+    }
+  ],
+  "last_modified": "2022-12-01T10:32:02.5844454",
+  "replaced_by": [],
+  "replaces": [
+    "UTV1-02"
+  ],
+  "title": {
+    "by_language": {
+      "default": "Læreplan for utdanningsvalg på ungdomstrinnet",
+      "eng": "Curriculum for selection of education for lower secondary education",
+      "nno": "Læreplan for utdanningsval på ungdomstrinnet",
+      "nob": "Læreplan for utdanningsvalg på ungdomstrinnet",
+      "sma": "Learoesoejkesje - ööhpehtimmieveeljeme noeredaltesisnie",
+      "sme": "Oahppoválljema oahppoplána nuoraidceahkis",
+      "smj": "Oahppoválljima oahppopládna nuorajdásen "
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

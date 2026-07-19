@@ -1,0 +1,93 @@
+{
+  "code": "LKA01-02",
+  "goal_sets": [
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV310",
+      "goals": [
+        {
+          "basic_skills": [],
+          "code": "KM3235",
+          "core_elements": [
+            "KE353",
+            "KE354"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke ferdigheiter, teknikkar, reiskapar og verktøy for å utøve ulike handverk og tradisjonar",
+              "nno": "bruke ferdigheiter, teknikkar, reiskapar og verktøy for å utøve ulike handverk og tradisjonar"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3236",
+          "core_elements": [
+            "KE353",
+            "KE354"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "drøfte korleis ein ved å bruke, formidle og vidareutvikle kulturarv på ein berekraftig måte kan ta vare på han for framtida",
+              "nno": "drøfte korleis ein ved å bruke, formidle og vidareutvikle kulturarv på ein berekraftig måte kan ta vare på han for framtida"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3237",
+          "core_elements": [
+            "KE353"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og formidle korleis materiell og immateriell kulturarv utviklar seg i samspel med, og er ein del av, eit moderne, mangfaldig samfunn",
+              "nno": "utforske og formidle korleis materiell og immateriell kulturarv utviklar seg i samspel med, og er ein del av, eit moderne, mangfaldig samfunn"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3238",
+          "core_elements": [
+            "KE353"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "beskrive korleis kulturarv kan vere ein identitetsmarkør, og reflektere over korleis dette kan komme til uttrykk i ulike grupper i samfunnet",
+              "nno": "beskrive korleis kulturarv kan vere ein identitetsmarkør, og reflektere over korleis dette kan komme til uttrykk i ulike grupper i samfunnet"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering kulturarv",
+          "nno": "Kompetansemål og vurdering kulturarv"
+        }
+      }
+    }
+  ],
+  "last_modified": "2024-11-07T12:49:29.4606086",
+  "replaced_by": [],
+  "replaces": [
+    "LKA1-01"
+  ],
+  "title": {
+    "by_language": {
+      "default": "Læreplan i valfaget kulturarv",
+      "nno": "Læreplan i valfaget kulturarv"
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

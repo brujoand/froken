@@ -1,0 +1,226 @@
+{
+  "code": "FSP01-04",
+  "goal_sets": [
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV965",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM12609",
+          "core_elements": [
+            "KE1665",
+            "KE1668"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner",
+              "eng": "listen to and understand simple and clear speech about personal and everyday topics",
+              "nno": "lytte til og forstå enkel og tydeleg tale om personlege og daglegdagse emne",
+              "nob": "lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM12610",
+          "core_elements": [
+            "KE1665",
+            "KE1668"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner",
+              "eng": "participate in simple conversations in everyday situations about activities and familiar topics",
+              "nno": "delta i enkle samtalar i daglegdagse situasjonar om aktivitetar og kjende emne",
+              "nob": "delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM12611",
+          "core_elements": [
+            "KE1665",
+            "KE1668"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant",
+              "eng": "talk about daily life and experiences and express opinions, also spontaneously",
+              "nno": "munnleg fortelje om daglegliv og opplevingar og uttrykkje meiningar, òg spontant",
+              "nob": "muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM12612",
+          "core_elements": [
+            "KE1665",
+            "KE1668"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner",
+              "eng": "read and understand adapted and simple authentic texts about personal and everyday topics",
+              "nno": "lese og forstå tilpassa og enklare autentiske tekstar om personlege og daglegdagse emne",
+              "nob": "lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2"
+          ],
+          "code": "KM12613",
+          "core_elements": [
+            "KE1665",
+            "KE1668"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler",
+              "eng": "write simple texts about daily life and experiences that tell, describe and inform, with and without aids",
+              "nno": "skrive enkle tekstar om daglegliv og opplevingar som fortel, beskriv og informerer, med og utan hjelpemiddel",
+              "nob": "skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM12614",
+          "core_elements": [
+            "KE1665",
+            "KE1667"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte",
+              "eng": "use simple language structures, rules for pronunciation and spelling and the official alphabet or characters of the language to communicate in a way that is adapted to the situation",
+              "nno": "bruke enkle språklege strukturar, reglar for uttale og rettskriving og det offisielle alfabetet til eller teikn for språket for å kommunisere på ein situasjonstilpassa måte",
+              "nob": "bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM12615",
+          "core_elements": [
+            "KE1667",
+            "KE1668"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen",
+              "eng": "use relevant learning and communication strategies, digital resources and experiences from earlier language learning in the learning process",
+              "nno": "bruke relevante lærings- og kommunikasjonsstrategiar, digitale ressursar og erfaringar frå tidlegare språklæring i læringsprosessen",
+              "nob": "bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM12616",
+          "core_elements": [
+            "KE1665",
+            "KE1666",
+            "KE1668"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn",
+              "eng": "explore and describe ways of life, traditions and geography in areas where the language is spoken and identify connections to one’s own background",
+              "nno": "utforske og beskrive levemåtar, tradisjonar og geografi i område der ein snakkar språket, og sjå samanhengar med eigen bakgrunn",
+              "nob": "utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM12617",
+          "core_elements": [
+            "KE1665",
+            "KE1666",
+            "KE1668"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser",
+              "eng": "explore and describe artistic and cultural expressions from areas where the language is spoken and express one’s own experiences",
+              "nno": "utforske og beskrive kunstnarlege og kulturelle uttrykk frå område der ein snakkar språket, og gi uttrykk for eigne opplevingar",
+              "nob": "utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering nivå I",
+          "eng": "Competence aims and assessment level I",
+          "nno": "Kompetansemål og vurdering nivå I",
+          "nob": "Kompetansemål og vurdering nivå I"
+        }
+      }
+    }
+  ],
+  "last_modified": "2025-06-27T10:33:44.8493561",
+  "replaced_by": [],
+  "replaces": [
+    "FSP01-03"
+  ],
+  "title": {
+    "by_language": {
+      "default": "Læreplan i fremmedspråk",
+      "eng": "Curriculum for Foreign Languages",
+      "nno": "Læreplan i framandspråk",
+      "nob": "Læreplan i fremmedspråk"
+    }
+  },
+  "valid_from": "2025-08-01",
+  "valid_to": null
+}

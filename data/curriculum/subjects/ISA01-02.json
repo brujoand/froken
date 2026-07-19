@@ -1,0 +1,95 @@
+{
+  "code": "ISA01-02",
+  "goal_sets": [
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV314",
+      "goals": [
+        {
+          "basic_skills": [],
+          "code": "KM3252",
+          "core_elements": [
+            "KE362",
+            "KE363"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og reflektere over forskjeller og likheter mellom egne og andre menneskers kulturer, holdninger og levemåter i dialog med mennesker i andre land",
+              "nob": "utforske og reflektere over forskjeller og likheter mellom egne og andre menneskers kulturer, holdninger og levemåter i dialog med mennesker i andre land"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3254",
+          "core_elements": [
+            "KE362",
+            "KE363"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "drøfte etiske problemstillinger som gjelder menneskerettigheter, miljø eller forskjeller i levekår og utforske tiltak som kan bidra til å løse disse problemene",
+              "nob": "drøfte etiske problemstillinger som gjelder menneskerettigheter, miljø eller forskjeller i levekår og utforske tiltak som kan bidra til å løse disse problemene"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3253",
+          "core_elements": [
+            "KE362",
+            "KE363"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og gjøre rede for hvordan en organisasjon eller en sosial bevegelse arbeider med internasjonale problemstillinger og solidaritetsspørsmål",
+              "nob": "utforske og gjøre rede for hvordan en organisasjon eller en sosial bevegelse arbeider med internasjonale problemstillinger og solidaritetsspørsmål"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3255",
+          "core_elements": [
+            "KE362",
+            "KE363"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske bakgrunnen for en internasjonal avtale og reflektere over hvordan ulike maktforhold og interessemotsetninger kan håndteres gjennom dialog og samhandling",
+              "nob": "utforske bakgrunnen for en internasjonal avtale og reflektere over hvordan ulike maktforhold og interessemotsetninger kan håndteres gjennom dialog og samhandling"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering internasjonalt samarbeid",
+          "nob": "Kompetansemål og vurdering internasjonalt samarbeid"
+        }
+      }
+    }
+  ],
+  "last_modified": "2024-11-07T12:54:58.7007588",
+  "replaced_by": [],
+  "replaces": [
+    "ISA1-01"
+  ],
+  "title": {
+    "by_language": {
+      "default": "Læreplan i valgfaget internasjonalt samarbeid",
+      "nob": "Læreplan i valgfaget internasjonalt samarbeid"
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

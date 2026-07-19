@@ -1,0 +1,94 @@
+{
+  "code": "TPR01-02",
+  "goal_sets": [
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV303",
+      "goals": [
+        {
+          "basic_skills": [],
+          "code": "KM3202",
+          "core_elements": [
+            "KE338"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "designe og grunngi konsept for teknologiske produkt",
+              "nno": "designe og grunngi konsept for teknologiske produkt"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3201",
+          "core_elements": [
+            "KE337",
+            "KE338"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "velje og bruke ulike materialar og verktøy i arbeidet med prototypar for teknologiske produkt",
+              "nno": "velje og bruke ulike materialar og verktøy i arbeidet med prototypar for teknologiske produkt"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3199",
+          "core_elements": [
+            "KE337",
+            "KE338"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lage prototypar for teknologiske produkt og reflektere over korleis desse kan betrast eller utviklast vidare",
+              "nno": "lage prototypar for teknologiske produkt og reflektere over korleis desse kan betrast eller utviklast vidare"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3200",
+          "core_elements": [
+            "KE337",
+            "KE338"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "grunngi val av design, materialar, verktøy og framgangsmåtar, og reflektere over kor trygge og berekraftige vala er",
+              "nno": "grunngi val av design, materialar, verktøy og framgangsmåtar, og reflektere over kor trygge og berekraftige vala er"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering teknologi og design",
+          "nno": "Kompetansemål og vurdering teknologi og design"
+        }
+      }
+    }
+  ],
+  "last_modified": "2024-11-07T12:48:48.3531357",
+  "replaced_by": [],
+  "replaces": [
+    "TPR1-01"
+  ],
+  "title": {
+    "by_language": {
+      "default": "Læreplan i valfaget teknologi og design",
+      "nno": "Læreplan i valfaget teknologi og design"
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

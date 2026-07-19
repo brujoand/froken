@@ -1,0 +1,243 @@
+{
+  "code": "NOR06-02",
+  "goal_sets": [
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV117",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1304",
+          "core_elements": [
+            "KE113",
+            "KE114"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "formulere og fordype seg i problemstillinger som omhandler språk eller tekst, og presentere resultatet av arbeidet ved å bruke ulike uttrykksformer",
+              "nob": "formulere og fordype seg i problemstillinger som omhandler språk eller tekst, og presentere resultatet av arbeidet ved å bruke ulike uttrykksformer"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1305",
+          "core_elements": [
+            "KE111",
+            "KE113",
+            "KE114"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og presentere innhold, form og formål i spill, filmer, romaner eller andre selvvalgte tekster",
+              "nob": "utforske og presentere innhold, form og formål i spill, filmer, romaner eller andre selvvalgte tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM1306",
+          "core_elements": [
+            "KE111",
+            "KE112"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere over likheter og forskjeller i normer, kultur og verdier i den virtuelle og den virkelige verden",
+              "nob": "reflektere over likheter og forskjeller i normer, kultur og verdier i den virtuelle og den virkelige verden"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1307",
+          "core_elements": [
+            "KE111"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og gjøre rede for hvordan eventyr, myter og andre tekster fra eldre tider ligger til grunn for ulike typer nyere tekster",
+              "nob": "utforske og gjøre rede for hvordan eventyr, myter og andre tekster fra eldre tider ligger til grunn for ulike typer nyere tekster"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1308",
+          "core_elements": [
+            "KE115",
+            "KE116"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "undersøke og beskrive språksituasjonen i eget nærmiljø",
+              "nob": "undersøke og beskrive språksituasjonen i eget nærmiljø"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1309",
+          "core_elements": [
+            "KE112",
+            "KE115"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske og sammenligne språkbruk og retoriske virkemidler i ulike medier og sammenhenger",
+              "nob": "utforske og sammenligne språkbruk og retoriske virkemidler i ulike medier og sammenhenger"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM1310",
+          "core_elements": [
+            "KE112",
+            "KE115"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og vurdere hvordan digitale medier påvirker og endrer språk og kommunikasjon",
+              "nob": "utforske og vurdere hvordan digitale medier påvirker og endrer språk og kommunikasjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM1311",
+          "core_elements": [
+            "KE112",
+            "KE115"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere kritisk over egen rolle i digital kommunikasjon, og hvordan eleven framstiller seg selv og andre på nett",
+              "nob": "reflektere kritisk over egen rolle i digital kommunikasjon, og hvordan eleven framstiller seg selv og andre på nett"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1312",
+          "core_elements": [
+            "KE112",
+            "KE114"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke kilder på en kritisk og etterrettelig måte og følge regler for personvern og opphavsrett",
+              "nob": "bruke kilder på en kritisk og etterrettelig måte og følge regler for personvern og opphavsrett"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM1313",
+          "core_elements": [
+            "KE114"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "dokumentere og vurdere egen utvikling i arbeidet med faget",
+              "nob": "dokumentere og vurdere egen utvikling i arbeidet med faget"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 10.trinn",
+          "nob": "Kompetansemål og vurdering 10.trinn"
+        }
+      }
+    }
+  ],
+  "last_modified": "2021-03-25T20:04:33.4392892",
+  "replaced_by": [],
+  "replaces": [
+    "NOR6-01"
+  ],
+  "title": {
+    "by_language": {
+      "default": "Læreplan i fordypning i norsk",
+      "nob": "Læreplan i fordypning i norsk"
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

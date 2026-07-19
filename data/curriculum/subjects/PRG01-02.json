@@ -1,0 +1,125 @@
+{
+  "code": "PRG01-02",
+  "goal_sets": [
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV304",
+      "goals": [
+        {
+          "basic_skills": [],
+          "code": "KM3203",
+          "core_elements": [
+            "KE340",
+            "KE341"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for hvordan datamaskiner og dataprogram fungerer, og forklare egne og andres koder",
+              "nob": "gjøre rede for hvordan datamaskiner og dataprogram fungerer, og forklare egne og andres koder"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3204",
+          "core_elements": [
+            "KE340"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert",
+              "nob": "bruke flere programmeringsspråk, deriblant minst ett som er tekstbasert"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3205",
+          "core_elements": [
+            "KE339",
+            "KE340"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse",
+              "nob": "bruke grunnleggende prinsipper i programmering, slik som variabler, løkker, vilkår og funksjoner, og reflektere over bruken av disse"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3206",
+          "core_elements": [
+            "KE339"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "analysere problemer, gjøre dem om til delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med programmering",
+              "nob": "analysere problemer, gjøre dem om til delproblemer og gjøre rede for hvordan noen av delproblemene kan løses med programmering"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3207",
+          "core_elements": [
+            "KE339",
+            "KE340",
+            "KE341"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "planlegge og skape et digitalt produkt og vurdere dette med tanke på brukervennlighet",
+              "nob": "planlegge og skape et digitalt produkt og vurdere dette med tanke på brukervennlighet"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3208",
+          "core_elements": [
+            "KE339",
+            "KE340",
+            "KE341"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utvikle og feilsøke dataprogram som løser definerte problemer, inkludert kontrollering eller simulering av fysiske objekter",
+              "nob": "utvikle og feilsøke dataprogram som løser definerte problemer, inkludert kontrollering eller simulering av fysiske objekter"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering programmering",
+          "nob": "Kompetansemål og vurdering programmering"
+        }
+      }
+    }
+  ],
+  "last_modified": "2024-11-07T12:51:28.3833674",
+  "replaced_by": [],
+  "replaces": [
+    "PRG1-01"
+  ],
+  "title": {
+    "by_language": {
+      "default": "Læreplan i valgfaget programmering",
+      "nob": "Læreplan i valgfaget programmering"
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

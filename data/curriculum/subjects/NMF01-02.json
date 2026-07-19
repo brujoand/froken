@@ -1,0 +1,134 @@
+{
+  "code": "NMF01-02",
+  "goal_sets": [
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV317",
+      "goals": [
+        {
+          "basic_skills": [],
+          "code": "KM3266",
+          "core_elements": [
+            "KE367"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "ferdes i naturen på en trygg og sporløs måte og ta ansvar for seg selv og andre",
+              "nob": "ferdes i naturen på en trygg og sporløs måte og ta ansvar for seg selv og andre"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3267",
+          "core_elements": [
+            "KE367"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "planlegge og gjennomføre turer ute til ulike årstider, også med overnatting, og gjøre rede for valg av rute og leirplass",
+              "nob": "planlegge og gjennomføre turer ute til ulike årstider, også med overnatting, og gjøre rede for valg av rute og leirplass"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3268",
+          "core_elements": [
+            "KE367"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "holde orden på og vurdere bruk av utstyr og bekledning",
+              "nob": "holde orden på og vurdere bruk av utstyr og bekledning"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3269",
+          "core_elements": [
+            "KE367",
+            "KE368"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "fiske, jakte eller høste fra naturen og fortelle hvordan naturressursene kan brukes og oppbevares",
+              "nob": "fiske, jakte eller høste fra naturen og fortelle hvordan naturressursene kan brukes og oppbevares"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3270",
+          "core_elements": [
+            "KE368"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "reflektere over etisk og bærekraftig bruk av naturressurser",
+              "nob": "reflektere over etisk og bærekraftig bruk av naturressurser"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3271",
+          "core_elements": [
+            "KE367"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "forstå og bruke teknikker knyttet til kart og kompass, bålfyring, knuter, førstehjelp og redskaper",
+              "nob": "forstå og bruke teknikker knyttet til kart og kompass, bålfyring, knuter, førstehjelp og redskaper"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM3272",
+          "core_elements": [
+            "KE368"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "gjøre rede for allemannsretten og bestemmelser som regulerer ferdsel i og bruk av naturen",
+              "nob": "gjøre rede for allemannsretten og bestemmelser som regulerer ferdsel i og bruk av naturen"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering friluftsliv",
+          "nob": "Kompetansemål og vurdering friluftsliv"
+        }
+      }
+    }
+  ],
+  "last_modified": "2024-11-07T12:52:16.2452568",
+  "replaced_by": [],
+  "replaces": [
+    "NMF1-01"
+  ],
+  "title": {
+    "by_language": {
+      "default": "Læreplan i valgfaget friluftsliv",
+      "nob": "Læreplan i valgfaget friluftsliv"
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

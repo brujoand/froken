@@ -1,0 +1,1323 @@
+{
+  "code": "SFS01-05",
+  "goal_sets": [
+    {
+      "after_year": 2,
+      "applies_to_years": [
+        1,
+        2
+      ],
+      "code": "KV202",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM2284",
+          "core_elements": [
+            "KE203"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "guldalit ja vurrolagaid ságastallat",
+              "nob": "lytte og ta ordet etter tur i samtaler",
+              "sma": "goltelidh jïh baakoem vaeltedh våaroen mietie soptsestalleminie",
+              "sme": "guldalit ja vurrolagaid ságastallat",
+              "smj": "gulldalit ja válldet bágov vuorrolakkoj ságastaládijn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM2287",
+          "core_elements": [
+            "KE203",
+            "KE205"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "albmanahttit iežas oaiviliid ja jurdagiid iešguđetlágan fáttáid ja dilálašvuođaid birra",
+              "nob": "uttrykke egne meninger og tanker om ulike emner og situasjoner",
+              "sma": "jïjtse mïelh jïh åssjaldahkh buektedh ovmessie teemaj jïh tsiehkiej bïjre",
+              "sme": "albmanahttit iežas oaiviliid ja jurdagiid iešguđetlágan fáttáid ja dilálašvuođaid birra",
+              "smj": "åvddån buktet ietjas vuojnojt ja ájádusájt duon dán ássje ja dile birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM2285",
+          "core_elements": [
+            "KE203",
+            "KE204",
+            "KE205",
+            "KE206"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "stoahkat ja bargat kreatiivvalaččat jietnadagaiguin, stávvaliiguin, giellaelemeanttaiguin ja ritmmaiguin",
+              "nob": "leke og arbeide kreativt med språklyder, stavelser, språkelementer og rytmer",
+              "sma": "gïeletjoejigujmie, baakoetjomhpigujmie, gïelebiehkiejgujmie jïh jievkehtimmiejgujmie stååkedidh jïh kreatijvelaakan barkedh",
+              "sme": "stoahkat ja bargat kreatiivvalaččat jietnadagaiguin, stávvaliiguin, giellaelemeanttaiguin ja ritmmaiguin",
+              "smj": "ståhkat ja sjuggelit barggat giellajienaj, stávvalij, giellaelementaj ja ritmaj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM2288",
+          "core_elements": [
+            "KE203",
+            "KE205"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "guldalit ja bargat kreatiivvalaččat njálmmálaš ja čálalaš muitalusaiguin ja teavsttaiguin",
+              "nob": "lytte til og arbeide kreativt med muntlige og skriftlige fortellinger og tekster",
+              "sma": "njaalmeldh jïh tjaaleldh soptsesh jïh teeksth goltelidh jïh dejgujmie kreatijvelaakan barkedh",
+              "sme": "guldalit ja bargat kreatiivvalaččat njálmmálaš ja čálalaš muitalusaiguin ja teavsttaiguin",
+              "smj": "gulldalit ja sjuggelit barggat njálmálasj ja tjálalasj subttsasij ja tevstaj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM2281",
+          "core_elements": [
+            "KE204"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lohkat teavsttaid njuovžilit ja áddet sisdoalu",
+              "nob": "lese tekster med sammenheng og forståelse",
+              "sma": "teeksth iktemierien lohkedh jïh dejtie guarkedh",
+              "sme": "lohkat teavsttaid njuovžilit ja áddet sisdoalu",
+              "smj": "låhkåt tevstajt avtatrajes ja dajt dádjadit"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM2283",
+          "core_elements": [
+            "KE203",
+            "KE204"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "ságastallat dan birra mat iešguđetlágan teavsttain leat deaŧalaš dieđut ja mat eai leat nu deaŧalaš dieđut",
+              "nob": "samtale om hva som er viktig informasjon og hva som er mindre viktig informasjon i ulike tekster",
+              "sma": "soptsestalledh mij vihkeles bïevnesh, jïh mij ij leah dan vihkeles bïevnesh ovmessie teekstine",
+              "sme": "ságastallat dan birra mat iešguđetlágan teavsttain leat deaŧalaš dieđut ja mat eai leat nu deaŧalaš dieđut",
+              "smj": "ságastallat ma li ájnas diedo ja ma ælla sæmmi ájnas diedo iesjgeŋga tevstajn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM2280",
+          "core_elements": [
+            "KE205"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bargat kreatiivvalaččat tevdnemiin ja čállimiin, sihke digitála reaidduiguin ja daid haga",
+              "nob": "arbeide kreativt med tegning og skriving, med og uten digitale verktøy",
+              "sma": "kreatijvelaakan barkedh guvviedimmine jïh tjaelieminie, digitaale dïrregigujmie jïh namhtah",
+              "sme": "bargat kreatiivvalaččat tevdnemiin ja čállimiin, sihke digitála reaidduiguin ja daid haga",
+              "smj": "sjuggelit barggat sárggomijn ja tjállemijn, digitála vædtsagij ja daj dagi"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM2193",
+          "core_elements": [
+            "KE205"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "čállit teavsttaid sihke gieđain ja boallobevddiin, ja geavahit stuorra ja smávva bustávaid, čuoggáid, čuorvvasmearkkaid ja gažaldatmearkkaid",
+              "nob": "skrive tekster for hånd og med tastatur, og med bruk av store og små bokstaver, punktum, utropstegn og spørsmålstegn",
+              "sma": "teeksth gïetine jïh tastatuvrine tjaeledh, jïh stoerre jïh smaave bokstaavh, punktumem, tjåarvomevæhtam jïh gihtjemevæhtam nuhtjedh",
+              "sme": "čállit teavsttaid sihke gieđain ja boallobevddiin, ja geavahit stuorra ja smávva bustávaid, čuoggáid, čuorvvasmearkkaid ja gažaldatmearkkaid",
+              "smj": "tjállet tevstajt giedajn ja boallobievdijn, stuorra ja smáv bokstávaj, tjuorgaj, tjuorvasmerkaj ja gatjálvismerkaj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM2279",
+          "core_elements": [
+            "KE203",
+            "KE206"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "ságastallat iežas giellaoahppama birra",
+              "nob": "samtale om egen språklæring",
+              "sma": "jïjtse gïelelïeremen bïjre soptsestalledh",
+              "sme": "ságastallat iežas giellaoahppama birra",
+              "smj": "ságastallat ietjas giellaoahppama birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM2286",
+          "core_elements": [
+            "KE207"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "ságastallat iežas ja earáid suopmaniid birra",
+              "nob": "samtale om egen og andres dialekt",
+              "sma": "jïjtse jïh mubpiej smaaregïelen bïjre soptsestalledh",
+              "sme": "ságastallat iežas ja earáid suopmaniid birra",
+              "smj": "ságastallat ietjas ja iehtjádij dialevtaj birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2282",
+          "core_elements": [
+            "KE203"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "geavahit sániid ja doahpagiid mat gusket bearrašii, báikkálaš servodahkii ja árbevirolaš máhttui",
+              "nob": "bruke ord og begreper knyttet til familie, lokalsamfunn og tradisjonell kunnskap",
+              "sma": "baakoeh jïh dïejvesh nuhtjedh fuelhkien, voenges siebriedahken jïh aerpievuekien daajroen bïjre",
+              "sme": "geavahit sániid ja doahpagiid mat gusket bearrašii, báikkálaš servodahkii ja árbevirolaš máhttui",
+              "smj": "adnet bágojt ja buojkuldagájt tjanádum familljaj, bájkálasj sebrudahkaj ja árbbediehtu"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Gealbomihttomearit ja árvvoštallan 2. ceahkki",
+          "nob": "Kompetansemål og vurdering 2. trinn",
+          "sma": "Maahtoeulmie jïh vuarjasjimmie 2. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 2. ceahkki",
+          "smj": "2. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    },
+    {
+      "after_year": 4,
+      "applies_to_years": [
+        3,
+        4
+      ],
+      "code": "KV210",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM2270",
+          "core_elements": [
+            "KE203"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "guldalit earáid, jearrat čielggadeaddji ja čiekŋudeaddji gažaldagaid, ja čuovvulit dan maid earát ovdanbuktet",
+              "nob": "lytte til andre, stille oppklarende og utdypende spørsmål, og følge opp innspill fra andre",
+              "sma": "mubpide goltelidh, gyhtjelassh gihtjedh juktie buerebelaakan guarkedh jïh mubpiej åssjaldahkh fulkedh",
+              "sme": "guldalit earáid, jearrat čielggadeaddji ja čiekŋudeaddji gažaldagaid, ja čuovvulit dan maid earát ovdanbuktet",
+              "smj": "gulldalit iehtjádijda, gatjádallat tjielggijiddje ja tjiegŋodiddjeláhkáj, ja iehtjádij árvvalusájt tjuovvolit"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2276",
+          "core_elements": [
+            "KE203",
+            "KE204",
+            "KE205",
+            "KE206",
+            "KE207"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "guldalit, ságastallat ja suokkardit iešguđetlágan njálmmálaš ja čálalaš teavsttaid",
+              "nob": "lytte til, samtale om og utforske ulike typer muntlige og skriftlige tekster",
+              "sma": "goltelidh, ovmessie njaalmeldh jïh tjaaleldh teeksti bïjre soptsestalledh jïh dejtie goerehtidh",
+              "sme": "guldalit, ságastallat ja suokkardit iešguđetlágan njálmmálaš ja čálalaš teavsttaid",
+              "smj": "gulldalit, ságastallat ja åtsåditiesjgeŋga njálmálasj ja tjálalasj tevstajt"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM2271",
+          "core_elements": [
+            "KE204",
+            "KE206"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lohkat iešguđetlágan teakstašlájaid njuovžilit ja áddet sisdoalu ja teavstta ulbmila",
+              "nob": "lese ulike teksttyper med flyt og forståelse av innhold og formål",
+              "sma": "ovmessie teekstesåarhth galkije lohkedh jïh sisvegem jïh aajkoem guarkedh",
+              "sme": "lohkat iešguđetlágan teakstašlájaid njuovžilit ja áddet sisdoalu ja teavstta ulbmila",
+              "smj": "avtatrajes låhkåt iesjgeŋga tækstaslájajt ja daj sisanov ja ulmijt dádjadit"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM2266",
+          "core_elements": [
+            "KE203"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "ságastallat oaiviliid ja fáktáid erohusaid birra",
+              "nob": "samtale om forskjeller mellom meninger og fakta",
+              "sma": "joekehtsi bïjre soptsestalledh mïeli jïh faaktaj gaskem",
+              "sme": "ságastallat oaiviliid ja fáktáid erohusaid birra",
+              "smj": "ságastallat mij la sieradus vuojnoj ja fáktá gaskan"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM2269",
+          "core_elements": [
+            "KE203",
+            "KE206"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "suokkardit ja válddahit mo sátneválljema ja jietnageavaheami sáhttá geavahit váikkuhangaskaoapmin",
+              "nob": "utforske og beskrive hvordan ordvalg og stemmebruk kan brukes som virkemidler",
+              "sma": "goerehtidh jïh buerkiestidh guktie baakoeveeljeme jïh gïeleåtnoe maehtieh vierhkievierhtine åtnasovvedh",
+              "sme": "suokkardit ja válddahit mo sátneválljema ja jietnageavaheami sáhttá geavahit váikkuhangaskaoapmin",
+              "smj": "åtsådit ja gåvvidit gåktu bágo ja jiedna máhtti vájkkudimnævvon aneduvvat"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2267",
+          "core_elements": [
+            "KE203",
+            "KE205"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "muitalit, válddahit ja ákkastallat njálmmálaččat ja čálalaččat",
+              "nob": "fortelle, beskrive og argumentere muntlig og skriftlig",
+              "sma": "soptsestalledh, buerkiestidh jïh argumenteradidh njaalmeldh jïh tjaaleldh",
+              "sme": "muitalit, válddahit ja ákkastallat njálmmálaččat ja čálalaččat",
+              "smj": "subtsastit, gåvvidit ja tjuottjodit njálmálattjat ja tjálalattjat"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2275",
+          "core_elements": [
+            "KE203",
+            "KE205",
+            "KE206"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "geavahit iešguđetlágan strategiijaid ja digitála resurssaid hábmedettiin teavsttaid",
+              "nob": "bruke ulike strategier og digitale ressurser for å skape tekster",
+              "sma": "ovmessie strategijh jïh digitaale vierhtieh nuhtjedh juktie teeksth sjugniedidh",
+              "sme": "geavahit iešguđetlágan strategiijaid ja digitála resurssaid hábmedettiin teavsttaid",
+              "smj": "adnet iesjgeŋga stratesjijjajt ja digitála ressursajt tevstaj hábbmidimen"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM2274",
+          "core_elements": [
+            "KE205",
+            "KE206"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "čállit iešguđetlágan teavsttaid main lea struktuvra ja oktavuohta",
+              "nob": "skrive ulike typer tekster med struktur og sammenheng",
+              "sma": "ovmessie såarhts teeksth tjaeledh struktuvrine jïh ektiedimmine",
+              "sme": "čállit iešguđetlágan teavsttaid main lea struktuvra ja oktavuohta",
+              "smj": "tjállet iesjgeŋga tækstaslájajt ma li avtatrajága ja struktuvrajn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2"
+          ],
+          "code": "KM2278",
+          "core_elements": [
+            "KE205",
+            "KE206"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "geavahit giela hápme- ja cealkkaoahpa njuolggadusaid ja minstariid iežas teakstaráhkadeamis",
+              "nob": "bruke regler og mønstre i språkets formverk og setningslære i egen tekstskaping",
+              "sma": "gïelen hammoe- jïh raajeselearoen njoelkedassh nuhtjedh jïjtse teekstesjugniedimmesne",
+              "sme": "geavahit giela hápme- ja cealkkaoahpa njuolggadusaid ja minstariid iežas teakstaráhkadeamis",
+              "smj": "adnet giela háme ja gárgadisåhpa njuolgadusájt ja minsstarijt ietjas tækstahábbmimijn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM2273",
+          "core_elements": [
+            "KE203",
+            "KE206"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "geavahit metagiela go ságastallá giela deaŧaleamos struktuvrraid birra",
+              "nob": "bruke metaspråk i samtale om de mest sentrale strukturene i språket",
+              "sma": "metagïelem nuhtjedh gosse dej vihkielommes gïelestruktuvri bïjre soptsestalla",
+              "sme": "geavahit metagiela go ságastallá giela deaŧaleamos struktuvrraid birra",
+              "smj": "adnet metagielav gå ságas daj ienemus guovdásj giellastruktuvraj birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2272",
+          "core_elements": [
+            "KE203",
+            "KE205",
+            "KE206"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "gávdnat, válljet, geavahit ja almmuhit gálduid iežas barggus",
+              "nob": "finne, velge, bruke og oppgi kilder i eget arbeid",
+              "sma": "gaaltijh gaavnedh, nuhtjedh, veeljedh jïh dejtie jïjtse barkosne saarnodh",
+              "sme": "gávdnat, válljet, geavahit ja almmuhit gálduid iežas barggus",
+              "smj": "gávnnat, válljit, adnet ja vuosedit gáldojda ietjas bargon"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2264",
+          "core_elements": [
+            "KE204",
+            "KE205",
+            "KE206"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "árvvoštallat iežas ja earáid teavsttaid ja buoridit iežas teavsttaid earáid responssa ja válljejuvvon árvvoštallaneavttuid vuođul",
+              "nob": "vurdere egne og andres tekster og bearbeide egne tekster utfra tilbakemeldinger og valgte kriterier",
+              "sma": "jïjtse jïh mubpiej teeksth vuarjasjidh jïh jïjtse teeksth bueriedidh dej bïevnesi mietie maam mubpijste åådtjeme jïh veeljeme kriteriji mietie",
+              "sme": "árvvoštallat iežas ja earáid teavsttaid ja buoridit iežas teavsttaid earáid responssa ja válljejuvvon árvvoštallaneavttuid vuođul",
+              "smj": "árvustallat ietjas ja iehtjádij tevstajt ja ietjas tevstajt buoredit iehtjádij árvvalusáj ja válljidum kritierihij milta"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2265",
+          "core_elements": [
+            "KE203",
+            "KE204",
+            "KE205"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "geahččaladdat iešguđetlágan oahppanstrategiijaid",
+              "nob": "eksperimentere med ulike strategier for å lære",
+              "sma": "ovmessie strategijigujmie haarjanidh juktie lïeredh",
+              "sme": "geahččaladdat iešguđetlágan oahppanstrategiijaid",
+              "smj": "gæhttjaladdat iesjgeŋga stratesjijjaj gåktu oahppat"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2277",
+          "core_elements": [
+            "KE206",
+            "KE207"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "buohtastahttit iežas suopmana čállingielain",
+              "nob": "sammenligne egen dialekt med skriftspråket",
+              "sma": "jïjtse smaaregïelem viertiestidh tjaelemegïeline",
+              "sme": "buohtastahttit iežas suopmana čállingielain",
+              "smj": "buohtastahttet ietjas dialevtav tjállemgielajn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM2263",
+          "core_elements": [
+            "KE206",
+            "KE207"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "ságastallat giela ja giellaseaguheami birra",
+              "nob": "samtale om språk og språkblanding",
+              "sma": "gïelen jïh gïelepleentemen bïjre soptsestalledh",
+              "sme": "ságastallat giela ja giellaseaguheami birra",
+              "smj": "ságastit giela ja giellasegadime birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2268",
+          "core_elements": [
+            "KE203",
+            "KE205",
+            "KE207"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "geavahit sániid ja doahpagiid mat gusket árbevirolaš máhttui, lundui ja servodahkii",
+              "nob": "bruke ord og begreper knyttet til tradisjonell kunnskap, natur og samfunn",
+              "sma": "baakoeh jïh dïejvesh aerpievuekien daajroen, eatnemen jïh siebriedahken bïjre nuhtjedh",
+              "sme": "geavahit sániid ja doahpagiid mat gusket árbevirolaš máhttui, lundui ja servodahkii",
+              "smj": "adnet bágojt ja moallánahkojt ma li tjanádum árbbediehtuj, luonnduj ja sebrudahkaj"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Gealbomihttomearit ja árvvoštallan 4. ceahkki",
+          "nob": "Kompetansemål og vurdering 4. trinn",
+          "sma": "Maahtoeulmie jïh vuarjasjimmie 4. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 4. ceahkki",
+          "smj": "4. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    },
+    {
+      "after_year": 7,
+      "applies_to_years": [
+        5,
+        6,
+        7
+      ],
+      "code": "KV204",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM2262",
+          "core_elements": [
+            "KE203"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "guldalit ja meannudit earáid árvalusaid ja ieš albmanahttit ja ákkastallat iežas oaiviliid beali",
+              "nob": "lytte til og bearbeide innspill fra andre og selv gi uttrykk for og begrunne egne meninger",
+              "sma": "mubpiej åssjaldahkh goltelidh jïh gïetedidh, jïh jïjtsh mïelh buektedh jïh tjïelkestidh",
+              "sme": "guldalit ja meannudit earáid árvalusaid ja ieš albmanahttit ja ákkastallat iežas oaiviliid beali",
+              "smj": "gulldalit ja dåmadit iehtjádij árvvalusájt ja ietjas vuojnojt åvddån buktet ja vuodustit"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM2317",
+          "core_elements": [
+            "KE203"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflekteret dan hárrái mo giella sáhttá albmanahttit olbmuid guottuid",
+              "nob": "reflektere over hvordan språk kan uttrykke holdninger til medmennesker",
+              "sma": "ussjedadtedh guktie gïele maahta vuajnoeh mubpiealmetjidie buektedh",
+              "sme": "reflekteret dan hárrái mo giella sáhttá albmanahttit olbmuid guottuid",
+              "smj": "reflekterit gåktu giella máhttá gåvvidit vuojnojt guojmmealmatjij gáktuj"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2260",
+          "core_elements": [
+            "KE203",
+            "KE204",
+            "KE206"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lohkat máŋggalágan teakstašlájaid ja ságastallat hámi ja sisdoalu birra",
+              "nob": "lese et bredt utvalg teksttyper og samtale om form og innhold",
+              "sma": "gellielaaketje teeksth lohkedh jïh hammoen jïh sisvegen bïjre soptsestalledh",
+              "sme": "lohkat máŋggalágan teakstašlájaid ja ságastallat hámi ja sisdoalu birra",
+              "smj": "låhkåt moatte lágásj tækstaslájajt ja ságastallat háme ja sisano birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2313",
+          "core_elements": [
+            "KE203",
+            "KE204",
+            "KE205",
+            "KE207"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "reflekteret dan hárrái mo njálmmálaš muitalanárbevierut ja árvvut bohtet ovdan sámi girjjálašvuođas",
+              "nob": "reflektere over hvordan muntlige fortellertradisjoner og verdier gjenspeiler seg i samisk litteratur",
+              "sma": "ussjedadtedh guktie njaalmeldh soptsestimmievuekieh jïh aarvoeh vååjnesasse båetieh saemien lidteratuvresne",
+              "sme": "reflekteret dan hárrái mo njálmmálaš muitalanárbevierut ja árvvut bohtet ovdan sámi girjjálašvuođas",
+              "smj": "reflekterit gåktu njálmálasj subtsastallamdábe ja árvo båhti åvddån sáme girjálasjvuodan"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2315",
+          "core_elements": [
+            "KE207"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "suokkardit ja reflekteret giela ja identitehta oktavuođa hárrái",
+              "nob": "utforske og reflektere over sammenhengene mellom språk og identitet",
+              "sma": "goerehtidh jïh ussjedadtedh guktie gïele jïh identiteete leah vïedteldihkie",
+              "sme": "suokkardit ja reflekteret giela ja identitehta oktavuođa hárrái",
+              "smj": "åtsådit ja reflekterit giela ja identitiehta aktijvuodaj badjel"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3"
+          ],
+          "code": "KM2291",
+          "core_elements": [
+            "KE204"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "geavahit ávkkálaš lohkanvugiid ja strategiijaid mat heivejit teavstta hápmái ja sisdollui ja lohkama ulbmilii",
+              "nob": "bruke hensiktsmessige lesemåter og strategier tilpasset tekstens form og innhold og lesingens formål",
+              "sma": "maereles lohkemevuekieh jïh strategijh nuhtjedh mah leah teeksten hammose jïh sisvegasse jïh lohkemen aajkose sjïehtedamme",
+              "sme": "geavahit ávkkálaš lohkanvugiid ja strategiijaid mat heivejit teavstta hápmái ja sisdollui ja lohkama ulbmilii",
+              "smj": "adnet vuogas låhkåmvuogijt ja stratesjijjajt ma li hiebaduvvam tevsta hábmáj ja sisadnuj ja låhkåma ulmmáj"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2290",
+          "core_elements": [
+            "KE203",
+            "KE205",
+            "KE206"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "muitalit, juohkit dieđuid, ákkastallat ja albmanahttit dárkilit njálmmálaččat ja čálalaččat",
+              "nob": "fortelle, informere, argumentere og uttrykke seg presist muntlig og skriftlig",
+              "sma": "soptsestidh, bievnedh, argumenteradidh jïh veelelaakan soptsestidh njaalmeldh jïh tjaaleldh",
+              "sme": "muitalit, juohkit dieđuid, ákkastallat ja albmanahttit dárkilit njálmmálaččat ja čálalaččat",
+              "smj": "subtsastit, diededit, tjuottjodit ja dárkkelit guládallat åvddånbuktet njálmálattjat ja tjálalattjat"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM2314",
+          "core_elements": [
+            "KE205",
+            "KE206"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "čállit iešguđetlágan teakstašlájaid main lea čielga ulbmil, sisdoallu ja struktuvra",
+              "nob": "skrive ulike teksttyper med klart formål, klart innhold og klar struktur",
+              "sma": "joekehts teekstesåarhth tjaeledh tjïelke aajkojne, tjïelke sisveginie jïh tjïelke struktuvrine",
+              "sme": "čállit iešguđetlágan teakstašlájaid main lea čielga ulbmil, sisdoallu ja struktuvra",
+              "smj": "tjállet iesjgeŋga tækstaslájajt tjielgga ulmijn, sisanujn ja struktuvrajn"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2292",
+          "core_elements": [
+            "KE203",
+            "KE204",
+            "KE205",
+            "KE206"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "suokkardit ja geavahit iešguđetlágan gielalaš váikkuhangaskaomiid ja modalitehtaid iežas teakstaráhkadeamis ja njálmmálaš oktavuođain",
+              "nob": "utforske og bruke ulike språklige virkemidler og modaliteter i egen tekstskaping og i muntlige sammenhenger",
+              "sma": "joekehts gïeleldh vierhkievierhtieh jïh modaliteeth goerehtidh jïh nuhtjedh jïjtse teekstesjugniedimmesne jïh njaalmeldh tsiehkine",
+              "sme": "suokkardit ja geavahit iešguđetlágan gielalaš váikkuhangaskaomiid ja modalitehtaid iežas teakstaráhkadeamis ja njálmmálaš oktavuođain",
+              "smj": "åtsådit ja adnet iesjgeŋga gielalasj vájkkudimnævov ja modalitiehtav ietjas tækstahábbmimin ja njálmálasj aktijvuodajn"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2319",
+          "core_elements": [
+            "KE203",
+            "KE205",
+            "KE206"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "geavahit iešguđetlágan teakstameannudan- ja gulahallanreaidduid njálmmálaš ja čálalaš gulahallamis",
+              "nob": "bruke ulike typer tekstbehandlings- og kommunikasjonsverktøy i muntlig og skriftlig kommunikasjon",
+              "sma": "joekehts såarhts teekstegïetedimmie- jïh gaskesadtemedïrregh nuhtjedh njaalmeldh jïh tjaaleldh gaskesadtemisnie",
+              "sme": "geavahit iešguđetlágan teakstameannudan- ja gulahallanreaidduid njálmmálaš ja čálalaš gulahallamis",
+              "smj": "adnet iesjgeŋga lágásj tækstagiehtadallam- ja guládallamvædtsagijt njálmálasj ja tjálalasj guládaládijn"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2321",
+          "core_elements": [
+            "KE206",
+            "KE207"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "čilget ja geavahit máhtu giela hápmeoahpa, dábálaš suorggádusaid ja cealkkaráhkadeami birra",
+              "nob": "forklare og bruke kunnskaper om språkets formverk, vanlige typer ordavledninger og setningsoppbygning",
+              "sma": "daajroeh tjïelkestidh jïh nuhtjedh gïelen hammoevierhkien bïjre, sïejhme baakoeseerkemi bïjre jïh raajesebigkemen bïjre",
+              "sme": "čilget ja geavahit máhtu giela hápmeoahpa, dábálaš suorggádusaid ja cealkkaráhkadeami birra",
+              "smj": "tjielggit ja adnet máhtudagájt giela háme, dábálasj suorgudime ja gárgadisåhpa birra"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM2320",
+          "core_elements": [
+            "KE205",
+            "KE206"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "geavahit riektačállima, cealkkaráhkadeami ja teakstačatnama guovddáš njuolggadusaid iežas teakstaráhkadeamis",
+              "nob": "bruke sentrale regler for rettskriving, setningsoppbygning og tekstbinding i egen tekstskaping",
+              "sma": "vihkeles njoelkedassh nuhtjedh reaktatjaeliemasse, raajesebigkemasse jïh teeksteviedtiemasse jïjtse teekstesjugniedimmesne",
+              "sme": "geavahit riektačállima, cealkkaráhkadeami ja teakstačatnama guovddáš njuolggadusaid iežas teakstaráhkadeamis",
+              "smj": "adnet guovdásj njuolgadusájt duollatjállema, gárgadisdahkama ja tækstatjadnusij birra ietjas tevstaj tjáledijn"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2289",
+          "core_elements": [
+            "KE203",
+            "KE204",
+            "KE205"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "árvvoštallat iešguđetlágan gálduid jáhkehahttivuođa ja almmuhit gálduidis iežas barggus",
+              "nob": "vurdere ulike kilders troverdighet og oppgi kilder i eget arbeid",
+              "sma": "joekehts gaaltiji ussjedammesvoetem vuarjasjidh jïh jïjtse gaaltiji bïjre bievnedh jïjtse barkosne",
+              "sme": "árvvoštallat iešguđetlágan gálduid jáhkehahttivuođa ja almmuhit gálduidis iežas barggus",
+              "smj": "árvustallat makta iesjgeŋga gáldo li luohtedahtte ja dajda vuosedit ietjas bargon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM2322",
+          "core_elements": [
+            "KE203",
+            "KE205",
+            "KE206"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "árvvoštallat iežas ja earáid teavsttaid ja buoridit iežas teavsttaid iešguđetlágan fágalaš eavttuid vuođul",
+              "nob": "vurdere egne og andres tekster og bearbeide egne tekster ut fra ulike faglige kriterier",
+              "sma": "jïjtse jïh mubpiej teeksth vuarjasjidh jïh jïjtse teeksth bueriedidh ovmessie faageles kriteriji mietie",
+              "sme": "árvvoštallat iežas ja earáid teavsttaid ja buoridit iežas teavsttaid iešguđetlágan fágalaš eavttuid vuođul",
+              "smj": "árvustallat ietjas ja iehtjádij tevstajt ja buoredit tevstajt iesjgeŋga fágalasj kritieri hij milta"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2261",
+          "core_elements": [
+            "KE206",
+            "KE207"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "suokkardit ja čilget ovttaláganvuođaid ja erohusaid iežas ja earáid suopmana ja čállingiela gaskka",
+              "nob": "utforske og beskrive likheter og ulikheter mellom egen og andres dialekt og skriftspråket",
+              "sma": "hedtieh jïh joekehtsh goerehtidh jïh buerkiestidh jïjtse jïh mubpiej smaaregïelen jïh tjaelemegïelen gaskem",
+              "sme": "suokkardit ja čilget ovttaláganvuođaid ja erohusaid iežas ja earáid suopmana ja čállingiela gaskka",
+              "smj": "åtsådit ja gåvvidit makta ietjas ja iehtjádij dialækta ja tjállemgiella li muodugattja jali ælla muodugattja"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2316",
+          "core_elements": [
+            "KE203",
+            "KE204",
+            "KE205",
+            "KE206",
+            "KE207"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflekteret dan hárrái mo eará gielat váikkuhit sámegielaide",
+              "nob": "reflektere over hvordan andre språk påvirker samiske språk",
+              "sma": "ussjedadtedh guktie jeatjah gïelh saemien gïelem tsevtsieh",
+              "sme": "reflekteret dan hárrái mo eará gielat váikkuhit sámegielaide",
+              "smj": "reflektierit gåktu ietjá giela sámegielajda vájkkudi"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2318",
+          "core_elements": [
+            "KE203",
+            "KE205",
+            "KE207"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "suokkardit ja geavahit sániid ja doahpagiid mat gusket servodateallimii, luonddugeavaheapmái ja árbevirolaš máhttui",
+              "nob": "utforske og bruke ord og uttrykk knyttet til samfunnsliv, naturbruk og tradisjonell kunnskap",
+              "sma": "goerehtidh jïh baakoeh jïh baakoetjïerth nuhtjedh mah leah ektiedamme siebriedahkejieliedasse, eatnemeåtnose jïh aerpievuekien daajrose",
+              "sme": "suokkardit ja geavahit sániid ja doahpagiid mat gusket servodateallimii, luonddugeavaheapmái ja árbevirolaš máhttui",
+              "smj": "åtsådit ja adnet bágojt ja moallánahkojt tjanádum sebrudakiellemij, luonndoadnuj ja árbbediehtuj"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Gealbomihttomearit ja árvvoštallan 7. ceahkki",
+          "nob": "Kompetansemål og vurdering 7. trinn",
+          "sma": "Maahtoeulmie jïh vuarjasjimmie 7. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 7. ceahkki",
+          "smj": "7. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    },
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV205",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF1"
+          ],
+          "code": "KM2323",
+          "core_elements": [
+            "KE203"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "guldalit earáid presentašuvnnaid ja reflekteret daid hárrái, ja hukset iežas ákkastallama earáid oaiviliid ovdanbuktimiid ala",
+              "nob": "lytte til og reflektere over andres presentasjoner, og bygge egen argumentasjon på andres innspill",
+              "sma": "goltelidh jïh ussjedadtedh mubpiej åehpiedehtemi bijjeli jïh jïjtsh argumentasjovnem bigkedh mubpiej åssjaldahkide",
+              "sme": "guldalit earáid presentašuvnnaid ja reflekteret daid hárrái, ja hukset iežas ákkastallama earáid oaiviliid ovdanbuktimiid ala",
+              "smj": "gulldalit ja reflektierit iehtjádij åvddånbuktemij badjel, ja ietjas argumentasjåvnåv tsieggit iehtjádij árvvalusáj nanna"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2308",
+          "core_elements": [
+            "KE203",
+            "KE204",
+            "KE206"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflekteret dan hárrái mo iešguđetlágan giellageavaheapmi sáhttá albmanahttit guottuid eará olbmuide",
+              "nob": "reflektere over hvordan ulik språkbruk kan uttrykke holdninger til medmennesker",
+              "sma": "ussjedadtedh guktie joekehts gïeleåtnoe maahta vuajnoeh buektedh mubpiealmetjidie",
+              "sme": "reflekteret dan hárrái mo iešguđetlágan giellageavaheapmi sáhttá albmanahttit guottuid eará olbmuide",
+              "smj": "reflektierit gåktu iesjgeŋga giellaadno máhttá gåvvidit gåktu guojmmealmatjij birra ájádallá"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2299",
+          "core_elements": [
+            "KE203",
+            "KE204",
+            "KE205",
+            "KE206"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "muitalit, juohkit dieđuid, ákkastallat ja reflekteret njálmmálaččat ja čálalaččat",
+              "nob": "fortelle, informere, argumentere og reflektere muntlig og skriftlig",
+              "sma": "soptsestidh, bievnedh, argumenteradidh jïh ussjedadtedh njaalmeldh jïh tjaaleldh",
+              "sme": "muitalit, juohkit dieđuid, ákkastallat ja reflekteret njálmmálaččat ja čálalaččat",
+              "smj": "subtsastit, diededit, tjuottjodit ja reflektierit njálmálattjaj ja tjálalattjat"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2310",
+          "core_elements": [
+            "KE203",
+            "KE204",
+            "KE205",
+            "KE206"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "dovdát ja geavahit iešguđetlágan gielalaš ja estehtalaš váikkuhangaskaomiid ja retoralaš apeallavugiid",
+              "nob": "gjenkjenne og bruke ulike språklige og estetiske virkemidler og retoriske appellformer",
+              "sma": "damtijidh jïh ovmessie gïeleldh jïh estetihkeles vierhkievierhtieh jïh retorihkeles appellehammoeh nuhtjedh",
+              "sme": "dovdát ja geavahit iešguđetlágan gielalaš ja estehtalaš váikkuhangaskaomiid ja retoralaš apeallavugiid",
+              "smj": "dåbddåt ja adnet iesjgeŋga gielalasj ja estetihkalasj vájkkudimnævojt ja retorihkalasj apællavuogijt"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2306",
+          "core_elements": [
+            "KE203",
+            "KE204",
+            "KE205",
+            "KE206"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "lohkat iešguđetlágan teakstašlájaid iešguđet guhkkodagas ja mohkkáivuođas, ja buohtastahttit ja dulkot teavsttaid",
+              "nob": "lese ulike teksttyper av varierende lengde og kompleksitet, og sammenligne og tolke tekstene",
+              "sma": "ovmessie teekstesåarhth lohkedh jeereldihkie gåhkojne jïh geervevoetine jïh teekstide viertiestidh jïh toelhkestidh",
+              "sme": "lohkat iešguđetlágan teakstašlájaid iešguđet guhkkodagas ja mohkkáivuođas, ja buohtastahttit ja dulkot teavsttaid",
+              "smj": "låhkåt iesjgeŋga tækstaslájajt ma li oane, guhke, álkke ja gássjelabbo, ja tevstajt buohtastahttet ja dålkkut"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2305",
+          "core_elements": [
+            "KE204",
+            "KE205"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "válljet ja geavahit heivvolaš lohkan- ja oahppanstrategiijaid go fágain bargá",
+              "nob": "velge og bruke hensiktsmessige lese- og læringsstrategier i arbeid med faget",
+              "sma": "maereles lohkeme- jïh lïeremestrategijh veeljedh jïh nuhtjedh gosse faagine barka",
+              "sme": "válljet ja geavahit heivvolaš lohkan- ja oahppanstrategiijaid go fágain bargá",
+              "smj": "válljit ja adnet vuogas oahppam- ja låhkåmstratesjijjajt gå fágajn barggá"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2311",
+          "core_elements": [
+            "KE203",
+            "KE204",
+            "KE205",
+            "KE207"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflekteret dan hárrái mo sámi jurddašanvuogit, sámi njálmmálaš muitalanárbevierut ja sámi árvvut bohtet ovdan sámi girjjálašvuođas",
+              "nob": "reflektere over hvordan samiske tenkemåter, samiske muntlige fortellertradisjoner og samiske verdier kommer til uttrykk i samisk litteratur",
+              "sma": "ussjedadtedh guktie saemien ussjedimmievuekieh, saemien njaalmeldh soptsestimmievuekieh jïh saemien aarvoeh vååjnesasse båetieh saemien lidteratuvresne",
+              "sme": "reflekteret dan hárrái mo sámi jurddašanvuogit, sámi njálmmálaš muitalanárbevierut ja sámi árvvut bohtet ovdan sámi girjjálašvuođas",
+              "smj": "reflektierit gåktu sáme ájádallamvuoge, sáme njálmálasj subtsastallamdábe ja sáme árvo åvddån båhti sáme girjálasjvuodan"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2309",
+          "core_elements": [
+            "KE203",
+            "KE204",
+            "KE205"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "geavahit relevánta doahpagiid ja fágagiela mat gusket iešguđetlágan sámi fáttáide ja árvvuide",
+              "nob": "bruke relevante begreper og fagspråk knyttet til ulike samiske emner og verdier",
+              "sma": "sjyöhtehke dïejvesh jïh faagegïelem nuhtjedh ovmessie saemien teemaj jïh aarvoej bïjre",
+              "sme": "geavahit relevánta doahpagiid ja fágagiela mat gusket iešguđetlágan sámi fáttáide ja árvvuide",
+              "smj": "adnet guoskavasj buojkuldagájt ja fáhkagielav tjanádum iesjgeŋga sáme ássjijda ja árvojda"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2300",
+          "core_elements": [
+            "KE204",
+            "KE206",
+            "KE207"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "buohtastahttit iešguđet sámi guovlluid cuvccas- ja máinnasvariánttaid ja njálmmálaš árbevieruid",
+              "nob": "sammenligne sagn- og eventyrvarianter og muntlige tradisjoner fra ulike samiske områder",
+              "sma": "jeereldihkie vaajesh jïh heamturh jïh njaalmeldh aerpievuekieh viertiestidh ovmessie saemien dajvijste",
+              "sme": "buohtastahttit iešguđet sámi guovlluid cuvccas- ja máinnasvariánttaid ja njálmmálaš árbevieruid",
+              "smj": "buohtastahttet dijdda- ja subtsasvariántajt ja njálmálasj árbbedábijt iesjgeŋga sámeguovlojs"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2301",
+          "core_elements": [
+            "KE203",
+            "KE206",
+            "KE207"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "suokkardit ja čilget ovttaláganvuođaid ja erohusaid sámegielaid gaskkas",
+              "nob": "utforske og gjøre rede for likheter og forskjeller mellom samiske språk",
+              "sma": "goerehtidh jïh tjïelkestidh hedtieh jïh joekehtsh saemien gïeli gaskem",
+              "sme": "suokkardit ja čilget ovttaláganvuođaid ja erohusaid sámegielaid gaskkas",
+              "smj": "åtsådit ja buojkodit makta sámegiela li muodugattja ja ietjálágátja"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2298",
+          "core_elements": [
+            "KE203",
+            "KE204",
+            "KE205",
+            "KE206"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "geavahit relevánta fágagiela teavstta ja giela čilgemii ja analyseremii",
+              "nob": "bruke relevant fagspråk for å forklare og analysere tekst og språk",
+              "sma": "sjyöhtehke faagegïelem nuhtjedh juktie teekstem jïh gïelem tjïelkestidh jïh analyseradidh",
+              "sme": "geavahit relevánta fágagiela teavstta ja giela čilgemii ja analyseremii",
+              "smj": "adnet guoskavasj fáhkagielav gå tevstav ja gielav tjielggi ja analyseri"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2304",
+          "core_elements": [
+            "KE203",
+            "KE205",
+            "KE206"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "iešguđetlágan teakstašlájaid plánet ja hábmet struktuvrrain mii lea heivehuvvon sisdollui, ulbmilii ja vuostáiváldái",
+              "nob": "planlegge og utforme ulike typer tekster med struktur tilpasset innhold, formål og mottaker",
+              "sma": "ovmessie såarhts teeksth soejkesjidh jïh hammoedidh struktuvrine mij sisvegasse, aajkose jïh dåastoejasse sjiehtieh",
+              "sme": "iešguđetlágan teakstašlájaid plánet ja hábmet struktuvrrain mii lea heivehuvvon sisdollui, ulbmilii ja vuostáiváldái",
+              "smj": "plánit ja hábbmit iesjgeŋga tækstaslájajt struktuvrajn hiebaduvvam sisadnuj, ulmmáj ja vuosstájválldáj"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2"
+          ],
+          "code": "KM2312",
+          "core_elements": [
+            "KE205",
+            "KE206"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "geavahit riektačállima, giela hápmeoahpa ja teakstačatnama njuolggadusaid čálalaš gulahallamis ja teakstaráhkadeamis",
+              "nob": "bruke regler for rettskriving, språkets formverk og tekstbinding i skriftlig kommunikasjon og tekstskaping",
+              "sma": "reaktatjaelemen, gïelen hammoevierhkien jïh teeksteviedtemen njoelkedassh nuhtjedh tjaaleldh gaskesadtemisnie jïh teekstesjugniedimmesne",
+              "sme": "geavahit riektačállima, giela hápmeoahpa ja teakstačatnama njuolggadusaid čálalaš gulahallamis ja teakstaráhkadeamis",
+              "smj": "adnet njuolgadusájt duollatjállema, giela háme ja tækstatjadnusij tjálalasj guládallamin ja tækstahábbmimin"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2302",
+          "core_elements": [
+            "KE203",
+            "KE204",
+            "KE205",
+            "KE206"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "árvvoštallat iešguđetlágan gálduid jáhkehahttivuođa, doallevašvuođa ja relevánssa, ja iežas barggus geavahit gálduid rehálaččat",
+              "nob": "vurdere ulike kilders troverdighet, pålitelighet og relevans, og bruke kilder i eget arbeid på en etterrettelig måte",
+              "sma": "oekehts gaaltiji ussjedammesvoetem, stinkesvoetem jïh relevaansem vuarjasjidh, jïh gaaltijh jïjtse barkosne nuhtjedh stinkeslaakan",
+              "sme": "árvvoštallat iešguđetlágan gálduid jáhkehahttivuođa, doallevašvuođa ja relevánssa, ja iežas barggus geavahit gálduid rehálaččat",
+              "smj": "árvustallat makta iesjgeŋga gáldo li jáhkedahtte, luohtedahtte ja guoskavattja, ja gáldojt adnet ietjas bargon navti váj maŋŋela máhttádajt guorrat"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2297",
+          "core_elements": [
+            "KE203",
+            "KE204",
+            "KE205",
+            "KE206"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "árvvoštallat iežas ja earáid teavsttaid ja buoridit iežas teavsttaid máŋggalágan fágalaš eavttuid mielde",
+              "nob": "vurdere egne og andres tekster og bearbeide egne tekster ut fra varierte faglige kriterier",
+              "sma": "jïjtse jïh mubpiej teeksth vuarjasjidh jïh jïjtse teeksth bueriedidh jeereldihkie faageles kriteriji mietie",
+              "sme": "árvvoštallat iežas ja earáid teavsttaid ja buoridit iežas teavsttaid máŋggalágan fágalaš eavttuid mielde",
+              "smj": "árvustallat ietjas ja iehtjádij tevstajt ja ietjas tevstajt buoredit målsudahkes fágalasj kritierihij milta"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2303",
+          "core_elements": [
+            "KE206",
+            "KE207"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "reflekteret dan hárrái mo eará gielat váikkuhit sámegillii ja mo sáhttá gáhttet ja ovddidit sámegielaid iešguđetlágan arenain",
+              "nob": "reflektere over hvordan andre språk påvirker samiske språk og hvordan man kan bevare og utvikle samisk på ulike arenaer",
+              "sma": "ussjedadtedh guktie jeatjah gïelh saemien gïelem tsevtsieh jïh guktie maahta saemien vaarjelidh jïh evtiedidh ovmessie åtnoesuerkine",
+              "sme": "reflekteret dan hárrái mo eará gielat váikkuhit sámegillii ja mo sáhttá gáhttet ja ovddidit sámegielaid iešguđetlágan arenain",
+              "smj": "reflektierit gåktu ietjá giela sámegielajda vájkkudi ja gåktu máhttá sámegielajt bisodit ja åvddånahttet iesjgeŋga arienájn"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Gealbomihttomearit ja árvvoštallan 10. ceahkki",
+          "nob": "Kompetansemål og vurdering 10. trinn",
+          "sma": "Maahtoeulmie jïh vuarjasjimmie 10.daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 10. ceahkki",
+          "smj": "10. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    }
+  ],
+  "last_modified": "2026-04-24T08:21:19.872",
+  "replaced_by": [],
+  "replaces": [
+    "SFS1-04"
+  ],
+  "title": {
+    "by_language": {
+      "default": "Oahppoplána – sámegiella vuosttašgiellan",
+      "nob": "Læreplan i samisk som førstespråk",
+      "sma": "Learoesoejkesje – saemiengïelesne voestesgïeline",
+      "sme": "Oahppoplána – sámegiella vuosttašgiellan",
+      "smj": "Oahppopládna – sámegielan vuostasjgiellan"
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

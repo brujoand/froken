@@ -1,0 +1,229 @@
+{
+  "code": "SFS02-02",
+  "goal_sets": [
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV201",
+      "goals": [
+        {
+          "basic_skills": [],
+          "code": "KM2183",
+          "core_elements": [
+            "KE198",
+            "KE199",
+            "KE200",
+            "KE201"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "iežas beroštumiid vuođul ovddidit ja čiekŋudit čuolmmaide mat gusket gillii dahje tekstii, ja bohtosa presenteret iešguđetlágan albmanahttinvugiiguin",
+              "nob": "utvikle og fordype seg i problemstillinger knyttet til språk eller tekst ut fra egne interesser og presentere resultatet av arbeidet ved å bruke ulike uttrykksformer",
+              "sma": "gyhtjelassh evtiedidh jïh goerehtidh mah leah ektiedamme gïelese jallh teekstese jïjtsh ïedtji mietie, jïh illedahkem barkoste åehpiedehtedh viehkine ovmessie buektemevuekieh nuhtjedh",
+              "sme": "iežas beroštumiid vuođul ovddidit ja čiekŋudit čuolmmaide mat gusket gillii dahje tekstii, ja bohtosa presenteret iešguđetlágan albmanahttinvugiiguin",
+              "smj": "åvddånahttet ja tjiegŋodit giela jali tevsta tjuolmajda ietjas berustimij milta ja åvddånbuktet bargo båhtusav iesjgeŋga åvddånbuktemvuogij"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2184",
+          "core_elements": [
+            "KE198",
+            "KE199",
+            "KE200",
+            "KE201"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "iskat ja presenteret muhtun ovttaláganvuođaid ja erohusaid sámegielaid gaskka ieš giela, giela teavsttaid dahje njálmmálaš árbevieruid ektui",
+              "nob": "undersøke og presentere noen likheter og forskjeller mellom de samiske språkene når det gjelder språk, skriftlige tekster eller muntlige tradisjoner",
+              "sma": "såemies hedtieh jïh joekehtsh goerehtidh jïh åehpiedehtedh dej saemien gïeli gaskem gosse lea jïjtjehke gïelen bïjre, teeksti bïjre gïelesne jallh njaalmeldh aerpievuekiej bïjre.",
+              "sme": "iskat ja presenteret muhtun ovttaláganvuođaid ja erohusaid sámegielaid gaskka ieš giela, giela teavsttaid dahje njálmmálaš árbevieruid ektui",
+              "smj": "guoradallat ja åvddånbuktet muhtem sieradusájt ja muodugasjvuodajt sámegielaj gaskan mij guosská giellaj, tjálalasj tevstajda jali njálmálasj árbbedábijda"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2185",
+          "core_elements": [
+            "KE198",
+            "KE199"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "suokkardit ja válddahit mo máidnasat, cukcasat, myhtat ja eará njálmmálaš árbevierut oidnojit iešguđetlágan ođđasit teavsttain",
+              "nob": "utforske og gjøre rede for hvordan eventyr, sagn, myter og andre muntlige tradisjoner kommer til syne i ulike nyere tekster",
+              "sma": "goerehtidh jïh tjïelkestidh guktie heamturh, vaajesh, mytah jïh jeatjah njaalmeldh aerpievuekieh vååjnesasse båetieh ovmessie urrebe teekstine",
+              "sme": "suokkardit ja válddahit mo máidnasat, cukcasat, myhtat ja eará njálmmálaš árbevierut oidnojit iešguđetlágan ođđasit teavsttain",
+              "smj": "åtsådit ja buojkodit gåktu subttsasa, båva, dijda ja ietjá njálmálasj árbbedábe båhti åvddån iesjgeŋga ådå tevstajn"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2186",
+          "core_elements": [
+            "KE198",
+            "KE200"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "suokkardit ja buohtastahttit giellageavaheami ja retoralaš váikkuhangaskaomiid iešguđet mediain ja oktavuođain",
+              "nob": "utforske og sammenligne språkbruk og retoriske virkemidler i ulike medier og sammenhenger",
+              "sma": "gïeleåtnoem jïh retorihkeles vierhkievierhtieh goerehtidh jïh viertiestidh ovmessie meedijinie jïh ektiedimmine",
+              "sme": "suokkardit ja buohtastahttit giellageavaheami ja retoralaš váikkuhangaskaomiid iešguđet mediain ja oktavuođain",
+              "smj": "åtsådit ja buohtastahttet giellaanov ja retorihkalasj vájkkudimnævojt iesjgeŋga medijájn ja aktijvuodajn"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM2187",
+          "core_elements": [
+            "KE199"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "ráhkadit digitála buktagiid mat kombinerejit iešguđetlágan mediamálliid",
+              "nob": "skape digitale produkter som kombinerer ulike medietyper",
+              "sma": "digitaale dorjesh sjugniedidh mah joekehts meedijesåarhth ektiedieh",
+              "sme": "ráhkadit digitála buktagiid mat kombinerejit iešguđetlágan mediamálliid",
+              "smj": "hábbmit digitála buktagijt ma iesjgeŋga medijáslájajt aktidi"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2188",
+          "core_elements": [
+            "KE198",
+            "KE199",
+            "KE201"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "suokkardit ja árvvoštallat mo digitála mediat váikkuhit ja rievdadit giela ja gulahallama, ja maid giellaválljema",
+              "nob": "utforske og vurdere hvordan digitale medier påvirker og endrer språk og kommunikasjon og også språkvalg",
+              "sma": "goerehtidh jïh vuarjasjidh guktie digitaale meedijh gïelem jïh gaskesadtemem jïh aaj gïeleveeljemem tsevtsieh",
+              "sme": "suokkardit ja árvvoštallat mo digitála mediat váikkuhit ja rievdadit giela ja gulahallama, ja maid giellaválljema",
+              "smj": "åtsådit ja árvustallat gåktu digitála medijá vájkkudi ja rievddadi gielav ja guládallamav ja aj giellaválljimav"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2189",
+          "core_elements": [
+            "KE198",
+            "KE199"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "kreatiivvalaččat ja digitála reaidduiguin ja daid haga gaskkustit iežas vásáhusaid ja dulkomiid teavsttain",
+              "nob": "formidle egne opplevelser og tolkninger av tekster kreativt med og uten bruk av digitale verktøy",
+              "sma": "jïjtsh dååjresh jïh toelhkestimmieh teekstijste kreatijvelaakan buektedh, viehkine digitaale dïrregijstie jallh namhtah",
+              "sme": "kreatiivvalaččat ja digitála reaidduiguin ja daid haga gaskkustit iežas vásáhusaid ja dulkomiid teavsttain",
+              "smj": "sjuggelit gaskostit ietjas vásádusájt ja dålkkumijt tevstajs digitála nævoj ja daj dagi"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM2190",
+          "core_elements": [
+            "KE199"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "kritihkalaččat reflekteret iežas rolla ektui digitála gulahallamis ja dan ektui mo neahtas čájeha iežas ja earáid",
+              "nob": "reflektere kritisk over egen rolle i digital kommunikasjon, og hvordan eleven framstiller seg selv og andre på nett",
+              "sma": "laejhtehkslaakan jïjtse råållan bijjelen ussjedadtedh digitaale gaskesadtemisnie, jïh guktie jïjtjemse jïh mubpieh nedtesne åehpiedehtieh",
+              "sme": "kritihkalaččat reflekteret iežas rolla ektui digitála gulahallamis ja dan ektui mo neahtas čájeha iežas ja earáid",
+              "smj": "lájttálisát reflekterit ietjas rålla badjel digitála guládallamin, ja gåktu oahppe ietjas ja iehtjádijt gåvvit nehtan"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM2191",
+          "core_elements": [
+            "KE198",
+            "KE199"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "gálduid geavahit kritihkalaččat ja rehálaččat, ja čuovvut njuolggadusaid persovdnasuodjaleami ja dahkkivuoigatvuođa birra",
+              "nob": "bruke kilder på en kritisk og etterprøvbar måte og følge regler for personvern og opphavsrett",
+              "sma": "gaaltijh laejhtehkslaakan jïh jaehkemeslaakan nuhtjedh jïh almetjevaarjelimmien jïh aalkoereaktan njoelkedassh fulkedh",
+              "sme": "gálduid geavahit kritihkalaččat ja rehálaččat, ja čuovvut njuolggadusaid persovdnasuodjaleami ja dahkkivuoigatvuođa birra",
+              "smj": "adnet gáldojt lájttális láhkáj váj maŋŋela máhttá dajt guorrat ja tjuovvot persåvnnåsuodjalime ja tjállerievtesvuoda njuolgadusájt"
+            }
+          }
+        },
+        {
+          "basic_skills": [],
+          "code": "KM2192",
+          "core_elements": [
+            "KE199"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "duođaštit ja árvvoštallat iežas ovdáneami barggus fágain",
+              "nob": "dokumentere og vurdere egen utvikling i arbeidet med faget",
+              "sma": "jïjtsh evtiedimmiem barkosne faagine dokumenteradidh jïh vuarjasjidh",
+              "sme": "duođaštit ja árvvoštallat iežas ovdáneami barggus fágain",
+              "smj": "dokumenterit ja árvustallat ietjas åvddånimev fágajn bargadijn"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Gealbomihttomearit ja árvvoštallan 10. ceahkki",
+          "nob": "Kompetansemål og vurdering 10. trinn",
+          "sma": "Maahtoeulmie jïh vuarjasjimmie 10. daltese",
+          "sme": "Gealbomihttomearit ja árvvoštallan 10. ceahkki",
+          "smj": "10. jahkedáse máhtudakulme ja árvustallam"
+        }
+      }
+    }
+  ],
+  "last_modified": "2026-05-13T09:29:09.1872738",
+  "replaced_by": [],
+  "replaces": [
+    "SFS2-01"
+  ],
+  "title": {
+    "by_language": {
+      "default": "Oahppoplána – Čiekŋudeapmi sámegielas",
+      "nob": "Læreplan i samisk fordypning",
+      "sma": "Learoesoejkesje – goerehtimmie saemiengïelesne",
+      "sme": "Oahppoplána – Čiekŋudeapmi sámegielas",
+      "smj": "Oahppopládna sámegiela tjiegŋodibme"
+    }
+  },
+  "valid_from": "2020-08-01",
+  "valid_to": null
+}

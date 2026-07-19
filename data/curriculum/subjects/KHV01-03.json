@@ -1,0 +1,1027 @@
+{
+  "code": "KHV01-03",
+  "goal_sets": [
+    {
+      "after_year": 2,
+      "applies_to_years": [
+        1,
+        2
+      ],
+      "code": "KV1042",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13515",
+          "core_elements": [
+            "KE1773"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke håndverksteknikker og håndverktøy i utforming av tre, leire og tekstil på en miljøbevisst og trygg måte",
+              "eng": "use craft techniques and hand tools for shaping wood, clay, and textiles in a safe and environmentally conscious and safe manner",
+              "nno": "bruke handverksteknikkar og handverktøy i utforming av tre, leire og tekstil på ein miljømedviten og trygg måte",
+              "nob": "bruke håndverksteknikker og håndverktøy i utforming av tre, leire og tekstil på en miljøbevisst og trygg måte"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13516",
+          "core_elements": [
+            "KE1773",
+            "KE1774"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "undersøke egenskaper ved materialer og dele sanseerfaringer",
+              "eng": "investigate material properties and share sensory experiences",
+              "nno": "undersøkje eigenskapar ved materiale og dele sanseerfaringar",
+              "nob": "undersøke egenskaper ved materialer og dele sanseerfaringer"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13517",
+          "core_elements": [
+            "KE1773",
+            "KE1774",
+            "KE1775",
+            "KE1776"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "utforske ulike visuelle uttrykk og bygge videre på andres ideer i eget skapende arbeid",
+              "eng": "explore different visual expressions and build on others’ ideas in their own creative work",
+              "nno": "utforske ulike visuelle uttrykk og byggje vidare på ideane til andre i eige skapande arbeid",
+              "nob": "utforske ulike visuelle uttrykk og bygge videre på andres ideer i eget skapende arbeid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13518",
+          "core_elements": [
+            "KE1774",
+            "KE1775"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "eksperimentere med form, farge, rytme og kontrast",
+              "eng": "experiment with form, colours, rhythm and contrast",
+              "nno": "eksperimentere med form, farge, rytme og kontrast",
+              "nob": "eksperimentere med form, farge, rytme og kontrast"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM13519",
+          "core_elements": [
+            "KE1774",
+            "KE1775"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "studere form gjennom å tegne, male og fotografere",
+              "eng": "study form through drawing, painting and photography",
+              "nno": "studere form gjennom å teikne, male og fotografere",
+              "nob": "studere form gjennom å tegne, male og fotografere"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13522",
+          "core_elements": [
+            "KE1774",
+            "KE1775",
+            "KE1776"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "skape fortellinger ved hjelp av digitale verktøy etter inspirasjon fra lokale og nasjonale kunstverk",
+              "eng": "use digital tools to create stories inspired by local and national artworks",
+              "nno": "skape forteljingar ved hjelp av digitale verktøy etter inspirasjon frå lokale og nasjonale kunstverk",
+              "nob": "skape fortellinger ved hjelp av digitale verktøy etter inspirasjon fra lokale og nasjonale kunstverk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13523",
+          "core_elements": [
+            "KE1774",
+            "KE1775",
+            "KE1776"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "forestille seg og beskrive framtiden gjennom tegning og modeller",
+              "eng": "imagine and describe the future through drawings and models",
+              "nno": "førestille seg og beskrive framtida gjennom teikning og modellar",
+              "nob": "forestille seg og beskrive framtiden gjennom tegning og modeller"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13520",
+          "core_elements": [
+            "KE1773",
+            "KE1774",
+            "KE1776"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "planlegge og konstruere i naturmaterialer etter inspirasjon fra samisk og lokal byggeskikk",
+              "eng": "plan and make constructions in natural materials after being inspired by Sámi and local building customs",
+              "nno": "planleggje og konstruere i naturmateriale etter inspirasjon frå samisk og lokal byggeskikk",
+              "nob": "planlegge og konstruere i naturmaterialer etter inspirasjon fra samisk og lokal byggeskikk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM13521",
+          "core_elements": [
+            "KE1774",
+            "KE1775"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "vise fram og presentere objekter gjennom utstilling eller samling",
+              "eng": "display and present objects through exhibitions or collections",
+              "nno": "vise fram og presentere objekt gjennom utstilling eller samling",
+              "nob": "vise fram og presentere objekter gjennom utstilling eller samling"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 2. trinn",
+          "eng": "Competence aims and assessment Year 2",
+          "nno": "Kompetansemål og vurdering 2. trinn",
+          "nob": "Kompetansemål og vurdering 2. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 4,
+      "applies_to_years": [
+        3,
+        4
+      ],
+      "code": "KV1043",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF4"
+          ],
+          "code": "KM13524",
+          "core_elements": [
+            "KE1773"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke håndverktøy og sammenføyningsteknikker i tre, leire og tekstil på en miljøbevisst og trygg måte",
+              "eng": "use hand tools and joining techniques for wood, clay, and textiles in an environmentally conscious and safe manner",
+              "nno": "bruke handverktøy og samanføyingsteknikkar i tre, leire og tekstil på ein miljømedviten og trygg måte",
+              "nob": "bruke håndverktøy og sammenføyningsteknikker i tre, leire og tekstil på en miljøbevisst og trygg måte"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2"
+          ],
+          "code": "KM13527",
+          "core_elements": [
+            "KE1773",
+            "KE1774",
+            "KE1775",
+            "KE1776"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "prøve ut ulike ideer og muligheter i gjenbruksmaterialer og formidle til andre hvordan man i egen hverdag kan bidra til å ivareta natur og miljø",
+              "eng": "explore ideas and possibilities using reused materials and communicate to others how everyday practices can help care for nature and the environment",
+              "nno": "prøve ut ulike idear og moglegheiter i gjenbruksmateriale og formidle til andre korleis ein i eigen kvardag kan bidra til å ta vare på natur og miljø",
+              "nob": "prøve ut ulike ideer og muligheter i gjenbruksmaterialer og formidle til andre hvordan man i egen hverdag kan bidra til å ivareta natur og miljø"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13525",
+          "core_elements": [
+            "KE1773",
+            "KE1774",
+            "KE1776"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "gjennomføre kunst- og designprosesser ved å søke inspirasjon, utforske muligheter, gjøre valg og lage egne produkter",
+              "eng": "apply art and design processes by seeking inspiration, exploring possibilities, making choices, and creating products",
+              "nno": "gjennomføre kunst- og designprosessar ved å søkje inspirasjon, utforske moglegheiter, gjere val og lage eigne produkt",
+              "nob": "gjennomføre kunst- og designprosesser ved å søke inspirasjon, utforske muligheter, gjøre valg og lage egne produkter"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF4"
+          ],
+          "code": "KM13526",
+          "core_elements": [
+            "KE1773",
+            "KE1774",
+            "KE1776"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "undersøke hvordan tradisjonshåndverk, inkludert samisk håndverk, utnytter naturmaterialers egenskaper, og bruke erfaringer til å lage enkle bruksgjenstander",
+              "eng": "investigate how traditional crafts, including Sámi crafts, utilise the properties of natural materials and use this knowledge to create simple functional objects",
+              "nno": "undersøkje korleis tradisjonshandverk, inkludert samisk handverk, utnyttar eigenskapar i naturmateriale, og bruke erfaringar til å lage enkle bruksgjenstandar",
+              "nob": "undersøke hvordan tradisjonshåndverk, inkludert samisk håndverk, utnytter naturmaterialers egenskaper, og bruke erfaringer til å lage enkle bruksgjenstander"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13528",
+          "core_elements": [
+            "KE1773",
+            "KE1774",
+            "KE1776"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "samtale om bruk, funksjon og materialvalg i ulike bygninger og lage skisser med forslag til ny arkitektur",
+              "eng": "discuss the use, function and choice of materials in different buildings and create sketches proposing new architecture",
+              "nno": "samtale om bruk, funksjon og materialval i ulike bygningar og lage skisser med forslag til ny arkitektur",
+              "nob": "samtale om bruk, funksjon og materialvalg i ulike bygninger og lage skisser med forslag til ny arkitektur"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13529",
+          "core_elements": [
+            "KE1774",
+            "KE1775",
+            "KE1776"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "tolke former og symboler fra ulike kulturer og bruke disse i visuelle uttrykk",
+              "eng": "interpret shapes and symbols from different cultures and use them in visual expressions",
+              "nno": "tolke former og symbol frå ulike kulturar og bruke desse i visuelle uttrykk",
+              "nob": "tolke former og symboler fra ulike kulturer og bruke disse i visuelle uttrykk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13530",
+          "core_elements": [
+            "KE1774",
+            "KE1775"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "tegne form og dybde ved bruk av virkemidler som overlapping og forminskning",
+              "eng": "create shape and depth in drawing using visual principles such as overlapping and size diminution",
+              "nno": "teikne form og djupn ved bruk av verkemiddel som overlapping og forminsking",
+              "nob": "tegne form og dybde ved bruk av virkemidler som overlapping og forminskning"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF5"
+          ],
+          "code": "KM13531",
+          "core_elements": [
+            "KE1774",
+            "KE1775"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke enkle komposisjonsprinsipper i fotografi og digitale verktøy",
+              "eng": "use basic principles of composition in photography and digital tools",
+              "nno": "bruke enkle komposisjonsprinsipp i fotografi og digitale verktøy",
+              "nob": "bruke enkle komposisjonsprinsipper i fotografi og digitale verktøy"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13532",
+          "core_elements": [
+            "KE1774",
+            "KE1775",
+            "KE1776"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske mangfold i motiver og visuelle uttrykk i kunst fra ulike verdensdeler og lage en digital presentasjon",
+              "eng": "explore diversity in motifs and visual expression in art from different parts of the world and create a digital presentation",
+              "nno": "utforske mangfald i motiv og visuelle uttrykk i kunst frå ulike verdsdelar og lage ein digital presentasjon",
+              "nob": "utforske mangfold i motiver og visuelle uttrykk i kunst fra ulike verdensdeler og lage en digital presentasjon"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM13533",
+          "core_elements": [
+            "KE1774",
+            "KE1775"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "formidle og vise fram eget arbeid gjennom utstilling",
+              "eng": "communicate and present own work through an exhibition",
+              "nno": "formidle og vise fram eige arbeid gjennom utstilling",
+              "nob": "formidle og vise fram eget arbeid gjennom utstilling"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 4. trinn",
+          "eng": "Competence aims and assessment Year 4",
+          "nno": "Kompetansemål og vurdering 4. trinn",
+          "nob": "Kompetansemål og vurdering 4. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 7,
+      "applies_to_years": [
+        5,
+        6,
+        7
+      ],
+      "code": "KV1044",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF4"
+          ],
+          "code": "KM13534",
+          "core_elements": [
+            "KE1773"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke ulike håndverktøy og elektriske verktøy for å bearbeide og sammenføye harde, plastiske og myke materialer på en trygg og miljøbevisst måte",
+              "eng": "use a range of hand tools and power tools to process and join hard, plastic, and soft materials in a safe and environmentally conscious manner",
+              "nno": "bruke ulike handverktøy og elektriske verktøy for å arbeide vidare med og samanføye harde, plastiske og mjuke materiale på ein trygg og miljømedviten måte",
+              "nob": "bruke ulike håndverktøy og elektriske verktøy for å bearbeide og sammenføye harde, plastiske og myke materialer på en trygg og miljøbevisst måte"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13535",
+          "core_elements": [
+            "KE1773",
+            "KE1774"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "undersøke materialene i ulike gjenstander og vurdere funksjon, holdbarhet og muligheter for reparasjon og gjenbruk",
+              "eng": "examine the materials in various objects and assess function, durability, and possibilities for repair and reuse",
+              "nno": "undersøkje materiala i ulike gjenstandar og vurdere funksjon, haldbarheit og moglegheiter for reparasjon og gjenbruk",
+              "nob": "undersøke materialene i ulike gjenstander og vurdere funksjon, holdbarhet og muligheter for reparasjon og gjenbruk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4"
+          ],
+          "code": "KM13536",
+          "core_elements": [
+            "KE1773",
+            "KE1774"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bygge og eksperimentere med stabile konstruksjoner",
+              "eng": "build and experiment with stable constructions",
+              "nno": "byggje og eksperimentere med stabile konstruksjonar",
+              "nob": "bygge og eksperimentere med stabile konstruksjoner"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM13538",
+          "core_elements": [
+            "KE1774",
+            "KE1775"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke ulike strategier for idéutvikling og problemløsing",
+              "eng": "use different strategies for idea development and problem‑solving",
+              "nno": "bruke ulike strategiar for idéutvikling og problemløysing",
+              "nob": "bruke ulike strategier for idéutvikling og problemløsing"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM13537",
+          "core_elements": [
+            "KE1774",
+            "KE1775"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "bruke digitale verktøy til å planlegge og presentere prosesser og produkter",
+              "eng": "use digital tools to plan and present processes and products",
+              "nno": "bruke digitale verktøy til å planleggje og presentere prosessar og produkt",
+              "nob": "bruke digitale verktøy til å planlegge og presentere prosesser og produkter"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13539",
+          "core_elements": [
+            "KE1774",
+            "KE1775"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "tegne form, flate og rom ved hjelp av virkemidler som kontraster, skygge, proporsjoner og perspektiv",
+              "eng": "create form, plane and space in drawing using elements and principles of design such as contrast, shading, proportion and perspective",
+              "nno": "teikne form, flate og rom ved hjelp av verkemiddel som kontrastar, skugge, proporsjonar og perspektiv",
+              "nob": "tegne form, flate og rom ved hjelp av virkemidler som kontraster, skygge, proporsjoner og perspektiv"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13540",
+          "core_elements": [
+            "KE1773",
+            "KE1774",
+            "KE1775",
+            "KE1776"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske og reflektere over hvordan følelser og meninger vises i kunst, og bruke symbolikk og farge til å uttrykke følelser og meninger i egne arbeider",
+              "eng": "explore and reflect on how emotions and opinions are expressed in art, and use symbolism and colour to express emotions and opinions in own work",
+              "nno": "utforske og reflektere over korleis kjensler og meiningar blir viste i kunst og bruke symbolikk og farge til å uttrykkje kjensler og meiningar i eigne arbeid",
+              "nob": "utforske og reflektere over hvordan følelser og meninger vises i kunst, og bruke symbolikk og farge til å uttrykke følelser og meninger i egne arbeider"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13541",
+          "core_elements": [
+            "KE1774",
+            "KE1775",
+            "KE1776"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "analysere visuelle virkemidler i ulike medier og belyse et aktuelt tema gjennom foto eller infografikk",
+              "eng": "analyse visual elements in different media and address a topical issue through photography or infographics",
+              "nno": "analysere visuelle verkemiddel i ulike medium og belyse eit aktuelt tema gjennom foto eller infografikk",
+              "nob": "analysere visuelle virkemidler i ulike medier og belyse et aktuelt tema gjennom foto eller infografikk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM13542",
+          "core_elements": [
+            "KE1773",
+            "KE1774",
+            "KE1775",
+            "KE1776"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "beskrive mangfoldet i klestradisjoner eller gjenstander, inkludert samiske, og lage et produkt med inspirasjon fra kulturarv",
+              "eng": "describe diversity in clothing traditions or objects, including Sámi traditions, and create a product inspired by cultural heritage",
+              "nno": "beskrive mangfaldet i klestradisjonar eller gjenstandar, inkludert samiske, og lage eit produkt med inspirasjon frå kulturarv",
+              "nob": "beskrive mangfoldet i klestradisjoner eller gjenstander, inkludert samiske, og lage et produkt med inspirasjon fra kulturarv"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13543",
+          "core_elements": [
+            "KE1774",
+            "KE1775",
+            "KE1776"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "undersøke hvordan kjønnsroller vises i kulturelle uttrykk før og nå, og lage visuelle uttrykk som utfordrer stereotypier",
+              "eng": "explore how gender roles are shown in cultural expressions in the past and present, and create visual expressions that challenge stereotypes",
+              "nno": "undersøkje korleis kjønnsroller blir viste i kulturelle uttrykk før og no, og lage visuelle uttrykk som utfordrar stereotypiar",
+              "nob": "undersøke hvordan kjønnsroller vises i kulturelle uttrykk før og nå, og lage visuelle uttrykk som utfordrer stereotypier"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13544",
+          "core_elements": [
+            "KE1774",
+            "KE1775"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "bruke programmering til å skape interaktivitet og visuelle uttrykk",
+              "eng": "use programming to create interactivity and visual expressions",
+              "nno": "bruke programmering til å skape interaktivitet og visuelle uttrykk",
+              "nob": "bruke programmering til å skape interaktivitet og visuelle uttrykk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM13545",
+          "core_elements": [
+            "KE1774",
+            "KE1775"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "designe og lage en utstilling som viser fram prosess og produkt",
+              "eng": "design and create an exhibition that presents both process and product",
+              "nno": "designe og lage ei utstilling som viser fram prosess og produkt",
+              "nob": "designe og lage en utstilling som viser fram prosess og produkt"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 7. trinn",
+          "eng": "Competence aims and assessment Year 7",
+          "nno": "Kompetansemål og vurdering 7. trinn",
+          "nob": "Kompetansemål og vurdering 7. trinn"
+        }
+      }
+    },
+    {
+      "after_year": 10,
+      "applies_to_years": [
+        8,
+        9,
+        10
+      ],
+      "code": "KV1045",
+      "goals": [
+        {
+          "basic_skills": [
+            "GF4"
+          ],
+          "code": "KM13546",
+          "core_elements": [
+            "KE1773"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske muligheter innenfor håndverksteknikker og egnet teknologi ved å bearbeide og sammenføye harde, plastiske og myke materialer.",
+              "eng": "explore possibilities within craft techniques and appropriate technologies by processing and joining hard, plastic, and soft materials",
+              "nno": "utforske moglegheiter innanfor handverksteknikkar og eigna teknologi ved å arbeide vidare med og samanføye harde, plastiske og mjuke materiale",
+              "nob": "utforske muligheter innenfor håndverksteknikker og egnet teknologi ved å bearbeide og sammenføye harde, plastiske og myke materialer."
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF3"
+          ],
+          "code": "KM13547",
+          "core_elements": [
+            "KE1773",
+            "KE1774"
+          ],
+          "cross_curricular": [
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "vurdere materialers holdbarhet og muligheter for reparasjon og gjenbruk, og bruke ulike verktøy og materialer på en hensiktsmessig og miljøbevisst måte",
+              "eng": "assess material durability and possibilities for repair and reuse, and use different tools and materials in an appropriate and environmentally conscious manner",
+              "nno": "vurdere haldbarheita til materiale og moglegheiter for reparasjon og gjenbruk, og bruke ulike verktøy og materiale på ein formålstenleg og miljømedviten måte",
+              "nob": "vurdere materialers holdbarhet og muligheter for reparasjon og gjenbruk, og bruke ulike verktøy og materialer på en hensiktsmessig og miljøbevisst måte"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM13548",
+          "core_elements": [
+            "KE1774",
+            "KE1775"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utvikle løsninger gjennom en stegvis designprosess og vurdere holdbarhet, funksjon og estetisk uttrykk",
+              "eng": "develop solutions through a step‑by‑step design process and assess durability, function and aesthetic expression",
+              "nno": "utvikle løysingar gjennom ein stegvis designprosess og vurdere haldbarheit, funksjon og estetisk uttrykk",
+              "nob": "utvikle løsninger gjennom en stegvis designprosess og vurdere holdbarhet, funksjon og estetisk uttrykk"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF5"
+          ],
+          "code": "KM13549",
+          "core_elements": [
+            "KE1773",
+            "KE1774"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "utforske hvordan digitale verktøy og ny teknologi kan gi muligheter for kommunikasjonsformer og opplevelser i skapende prosesser og produkter",
+              "eng": "explore how digital tools and new technologies create opportunities for communication and experiences in creative processes and products",
+              "nno": "utforske korleis digitale verktøy og ny teknologi kan gi moglegheiter for kommunikasjonsformer og opplevingar i skapande prosessar og produkt",
+              "nob": "utforske hvordan digitale verktøy og ny teknologi kan gi muligheter for kommunikasjonsformer og opplevelser i skapende prosesser og produkter"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF2",
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13550",
+          "core_elements": [
+            "KE1773",
+            "KE1774",
+            "KE1775"
+          ],
+          "cross_curricular": [],
+          "text": {
+            "by_language": {
+              "default": "visualisere form ved hjelp av frihåndstegninger, arbeidstegninger, modeller og digitale verktøy",
+              "eng": "visualise form using freehand drawings, technical drawings, models and digital tools",
+              "nno": "visualisere form ved hjelp av frihandsteikningar, arbeidsteikningar, modellar og digitale verktøy",
+              "nob": "visualisere form ved hjelp av frihåndstegninger, arbeidstegninger, modeller og digitale verktøy"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13552",
+          "core_elements": [
+            "KE1773",
+            "KE1774",
+            "KE1775",
+            "KE1776"
+          ],
+          "cross_curricular": [
+            "TT1",
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "analysere hvordan identitet og stedstilhørighet kommuniseres i arkitektur, klestradisjoner, kunst eller gjenstander, og integrere kulturelle referanser i eget skapende arbeid",
+              "eng": "analyse how identity and local culture are communicated in architecture, clothing traditions, art, or objects, and integrate cultural references in own creative work",
+              "nno": "analysere korleis identitet og stadtilhøyrsel blir kommunisert i arkitektur, klestradisjonar, kunst eller gjenstandar, og integrere kulturelle referansar i eige skapande arbeid",
+              "nob": "analysere hvordan identitet og stedstilhørighet kommuniseres i arkitektur, klestradisjoner, kunst eller gjenstander, og integrere kulturelle referanser i eget skapende arbeid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF3",
+            "GF5"
+          ],
+          "code": "KM13553",
+          "core_elements": [
+            "KE1774",
+            "KE1775",
+            "KE1776"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "undersøke hvordan kunst, inkludert samisk kunst, kan bidra i samfunnskritikk, og skape kunstuttrykk som belyser utfordringer i egen samtid",
+              "eng": "examine how art, including Sámi art, can contribute to social critique, and create artistic expressions that address challenges in contemporary society",
+              "nno": "undersøkje korleis kunst, inkludert samisk kunst, kan bidra i samfunnskritikk, og skape kunstuttrykk som belyser utfordringar i eiga samtid",
+              "nob": "undersøke hvordan kunst, inkludert samisk kunst, kan bidra i samfunnskritikk, og skape kunstuttrykk som belyser utfordringer i egen samtid"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM13554",
+          "core_elements": [
+            "KE1774",
+            "KE1775"
+          ],
+          "cross_curricular": [
+            "TT2"
+          ],
+          "text": {
+            "by_language": {
+              "default": "reflektere kritisk over visuelle virkemidler og eksperimentere med ulike visuelle uttrykk i en skapende prosess",
+              "eng": "reflect critically on elements and principles of design, and experiment with different visual expressions in a creative process",
+              "nno": "reflektere kritisk over visuelle verkemiddel og eksperimentere med ulike visuelle uttrykk i ein skapande prosess",
+              "nob": "reflektere kritisk over visuelle virkemidler og eksperimentere med ulike visuelle uttrykk i en skapende prosess"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF4",
+            "GF5"
+          ],
+          "code": "KM13555",
+          "core_elements": [
+            "KE1774",
+            "KE1775"
+          ],
+          "cross_curricular": [
+            "TT2",
+            "TT3"
+          ],
+          "text": {
+            "by_language": {
+              "default": "lage skisser til fornyelse av lokale omgivelser og modellere arkitektoniske løsninger som ivaretar ulike behov og interesser",
+              "eng": "create sketches for the renewal of local environments and model architectural solutions that address diverse needs and interests",
+              "nno": "lage skisser til fornying av lokale omgivnader og modellere arkitektoniske løysingar som tek vare på ulike behov og interesser",
+              "nob": "lage skisser til fornyelse av lokale omgivelser og modellere arkitektoniske løsninger som ivaretar ulike behov og interesser"
+            }
+          }
+        },
+        {
+          "basic_skills": [
+            "GF1",
+            "GF2",
+            "GF5"
+          ],
+          "code": "KM13551",
+          "core_elements": [
+            "KE1774",
+            "KE1775"
+          ],
+          "cross_curricular": [
+            "TT1"
+          ],
+          "text": {
+            "by_language": {
+              "default": "fordype seg i en visuell uttrykksform og/eller en håndverksteknikk, utforske muligheter gjennom praktisk skapende arbeid og presentere valg fra idé til ferdig resultat",
+              "eng": "pecialise in a visual form of expression and/or a craft technique, explore possibilities through practical creative work and present choices from idea to finished result",
+              "nno": "fordjupe seg i ei visuell uttrykksform og/eller ein handverksteknikk, utforske moglegheiter gjennom praktisk skapande arbeid og presentere val frå idé til ferdig resultat",
+              "nob": "fordype seg i en visuell uttrykksform og/eller en håndverksteknikk, utforske muligheter gjennom praktisk skapende arbeid og presentere valg fra idé til ferdig resultat"
+            }
+          }
+        }
+      ],
+      "title": {
+        "by_language": {
+          "default": "Kompetansemål og vurdering 10. trinn",
+          "eng": "Competence aims and assessment Year 10",
+          "nno": "Kompetansemål og vurdering 10. trinn",
+          "nob": "Kompetansemål og vurdering 10. trinn"
+        }
+      }
+    }
+  ],
+  "last_modified": "2026-07-08T11:01:48.7836113",
+  "replaced_by": [],
+  "replaces": [
+    "KHV01-02"
+  ],
+  "title": {
+    "by_language": {
+      "default": "Læreplan i kunst og håndverk",
+      "eng": "Curriculum for Art and crafts",
+      "nno": "Læreplan i kunst og handverk",
+      "nob": "Læreplan i kunst og håndverk"
+    }
+  },
+  "valid_from": "2026-08-01",
+  "valid_to": null
+}

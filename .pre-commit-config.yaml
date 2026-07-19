@@ -1,0 +1,66 @@
+---
+# Same repos and revs as the sibling repos in this workspace, so Renovate bumps
+# them by the same rules. No bash hooks here -- froken has no shell scripts.
+default_install_hook_types: [pre-commit, commit-msg]
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+      - id: check-merge-conflict
+      - id: check-yaml
+      - id: check-toml
+      - id: check-json
+      # data/ grows with every ingest; a stray raw cache dump would bloat the
+      # repo permanently.
+      - id: check-added-large-files
+        args: [--maxkb=2048]
+
+  - repo: https://github.com/Lucas-C/pre-commit-hooks
+    rev: v1.5.5
+    hooks:
+      - id: remove-crlf
+      - id: remove-tabs
+
+  # Deliberately NOT running fix-smartquotes: this repo stores Norwegian
+  # curriculum text verbatim from Udir, and rewriting its punctuation would
+  # silently fork us from the official wording.
+
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.28.0
+    hooks:
+      - id: gitleaks
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.15.10
+    hooks:
+      - id: ruff
+        args: [--fix]
+        files: ^(src|tools|tests)/.*\.py$
+      - id: ruff-format
+        files: ^(src|tools|tests)/.*\.py$
+
+  - repo: https://github.com/compilerla/conventional-pre-commit
+    rev: v4.0.0
+    hooks:
+      - id: conventional-pre-commit
+        stages: [commit-msg]
+
+  - repo: local
+    hooks:
+      # The committed catalogue is data, and data rots differently from code: a
+      # re-ingest that silently drops a subject or orphans a goal code passes
+      # every syntactic check. These tests are the gate for that.
+      - id: catalogue-tests
+        name: Validate the committed curriculum catalogue
+        entry: uv run pytest tests/test_catalogue_data.py -q
+        language: system
+        files: ^(data/curriculum/|src/froken/(domain|catalogue)/)
+        pass_filenames: false
+
+# Two more local hooks land with the milestones that need them: `validate-items`
+# (quiz item schema + goal-code references) with the item schema, and
+# `i18n-key-parity` with the UI locale files.
