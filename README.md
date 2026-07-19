@@ -90,6 +90,26 @@ readable diff — that diff is the review artifact.
 
 ## Licence
 
-MIT — see [LICENSE](LICENSE). The curriculum text is © Utdanningsdirektoratet and
-is redistributed here under the terms of their open data publication; each goal
-links to its official source record.
+The code is MIT — see [LICENSE](LICENSE).
+
+The curriculum data under `data/curriculum/` is not ours. It is redistributed
+under **NLOD**, the Norwegian Licence for Open Government Data, which permits
+copying, redistribution, modification and commercial use, and requires the
+source to be credited:
+
+> Inneholder data under [NLOD](https://data.norge.no/nlod/no),
+> tilgjengeliggjort på [data.udir.no](https://data.udir.no).
+>
+> Contains data under [NLOD](https://data.norge.no/nlod/en), made available on
+> [data.udir.no](https://data.udir.no).
+
+Two conditions of that licence shape how Frøken is built, not just how it is
+credited:
+
+- **The data must not be presented in a misleading or distorted manner.** So
+  competence-goal text is shown verbatim, never paraphrased or summarised, and
+  is always visually distinct from quiz questions — which are ours, not Udir's.
+  Each goal links to its official source record so any claim we make about the
+  curriculum can be checked against it.
+- **Udir's logo may not be used** without a separate agreement. Frøken does not
+  use it, and displays nothing implying official endorsement.
