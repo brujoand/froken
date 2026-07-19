@@ -64,6 +64,34 @@ Bokmål is the original; write it first and translate to English. Never translat
 a competence goal — Udir's own wording is used for that, and paraphrasing a
 legal text would be a correctness bug.
 
+## Subject-specific care
+
+**KRLE and samfunnsfag.** Test knowledge *about* religions, worldviews and
+society — never adherence to one, and never whether the pupil holds an opinion.
+"Hva feirer muslimer under id?" is a fact. "Hvorfor er det viktig å…" is not a
+quiz question. Never present a contested political, moral or theological claim
+as having one correct answer; if a goal's substance is the pupil's own reasoning
+or discussion, that part is `not_assessable`. Norway's minorities — Sami people,
+national minorities, immigrant communities, religious groups — are subjects of
+these curricula and will be reading. Write as though they are.
+
+**Engelsk.** The pupil is a Norwegian child learning English, so the `nb` prompt
+is the instruction and the English is the material being tested. It is the one
+subject where the two locales are not a translation of each other: a vocabulary
+item asking for the English word cannot show the answer in its own Norwegian
+prompt. Test comprehension, vocabulary and structure — not accent, and not
+cultural trivia about English-speaking countries beyond what the goals name.
+
+**Norsk.** Grammar, reading comprehension and vocabulary are testable. Writing,
+presenting and discussing are not — those goals belong in `not_assessable`.
+Where a goal covers both bokmål and nynorsk, remember the pupil may have either
+as their hovedmål; do not assume which.
+
+**Naturfag.** Facts and reasoning are testable; *utforske*, practical
+investigation and lab work are not. Keep to settled science: a quiz for children
+is not the place for a contested finding, and anything you are unsure of should
+not be a question at all.
+
 ## Item types
 
 - **`multiple_choice`** — at least 3 options, exactly one `correct: true`.

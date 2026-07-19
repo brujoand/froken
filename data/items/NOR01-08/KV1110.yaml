@@ -1,0 +1,847 @@
+# Norsk, kompetansemål etter 10. trinn (NOR01-08 / KV1110).
+#
+# Written for pupils in 8.-10. klasse, roughly 13-15 years old. Prose is normal
+# but plain: the question should test the goal, not the reading.
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+---
+subject: NOR01-08
+goal_set: KV1110
+
+items:
+  # KM14193 - lesing av skjønnlitteratur og sakprosa, formål og sjangertrekk
+  - id: KM14193-01
+    goal: KM14193
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvilken av disse tekstene er sakprosa?
+      en: Which of these texts is non-fiction?
+    choices:
+      - id: a
+        text:
+          nb: En novelle om en gutt som rømmer hjemmefra
+          en: A short story about a boy who runs away from home
+      - id: b
+        text:
+          nb: Et leserinnlegg i avisa om skolematen
+          en: A letter to the newspaper about school lunches
+        correct: true
+      - id: c
+        text:
+          nb: Et dikt om høsten
+          en: A poem about autumn
+    explanation:
+      nb: Sakprosa handler om den virkelige verden og har et saklig formål.
+        Leserinnlegget vil overbevise leseren om noe som faktisk finnes.
+        Novellen og diktet er skjønnlitteratur, altså diktet opp.
+      en: Non-fiction deals with the real world and has a factual purpose. The
+        letter argues about something that actually exists. The story and the
+        poem are fiction, that is, invented.
+    reviewed: false
+
+  - id: KM14193-02
+    goal: KM14193
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva er typiske sjangertrekk ved en novelle?
+      en: What are typical genre features of a short story?
+    choices:
+      - id: a
+        text:
+          nb: Den er kort, har få personer og starter ofte midt i handlingen
+          en: It is short, has few characters and often starts in the middle of
+            the action
+        correct: true
+      - id: b
+        text:
+          nb: Den følger mange personer gjennom flere tiår
+          en: It follows many characters across several decades
+      - id: c
+        text:
+          nb: Den er skrevet på vers med fast rim og rytme
+          en: It is written in verse with a fixed rhyme and rhythm
+    explanation:
+      nb: Novellen er en kort fortelling med få personer, kort tidsrom og ofte
+        en åpen slutt. Det første alternativet beskriver en roman, og det siste
+        beskriver et dikt.
+      en: A short story is brief, with few characters, a short span of time and
+        often an open ending. The second option describes a novel and the third
+        describes a poem.
+    reviewed: false
+
+  # KM14197 - tolke tekster ut fra historisk kontekst og egen samtid
+  - id: KM14197-01
+    goal: KM14197
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva betyr det å tolke en tekst ut fra historisk kontekst?
+      en: What does it mean to interpret a text in its historical context?
+    choices:
+      - id: a
+        text:
+          nb: Å finne ut nøyaktig hvilket år teksten ble trykt
+          en: To find out exactly which year the text was printed
+      - id: b
+        text:
+          nb: Å lese teksten i lys av samfunnet og tida den ble skrevet i
+          en: To read the text in the light of the society and period it was
+            written in
+        correct: true
+      - id: c
+        text:
+          nb: Å skrive om teksten så den passer for lesere i dag
+          en: To rewrite the text so it suits readers today
+    explanation:
+      nb: Historisk kontekst er alt som lå rundt teksten da den ble til, som
+        levekår, lover og verdier. Årstallet alene forklarer ingenting, og en
+        tolkning endrer ikke teksten.
+      en: >-
+        Historical context is everything surrounding the text when it was
+        written, such as living conditions, laws and values. The year alone
+        explains nothing, and interpreting a text does not change it.
+    reviewed: false
+
+  - id: KM14197-02
+    goal: KM14197
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: En roman fra 1870-tallet handler om en gift kvinne som ikke får
+        bestemme over sine egne penger. Hva sier dette mest om?
+      en: A novel from the 1870s is about a married woman who is not allowed to
+        control her own money. What does this tell us most about?
+    choices:
+      - id: a
+        text:
+          nb: At forfatteren hadde misforstått lovene i sin egen tid
+          en: That the author had misunderstood the laws of the time
+      - id: b
+        text:
+          nb: At gifte kvinner hadde få juridiske rettigheter på den tida
+          en: That married women had few legal rights at the time
+        correct: true
+      - id: c
+        text:
+          nb: At romaner fra 1800-tallet alltid handler om penger
+          en: That novels from the 1800s are always about money
+    explanation:
+      nb: Gifte kvinner i Norge var lenge umyndige og kunne ikke råde over egen
+        formue. Når vi kjenner den historiske bakgrunnen, ser vi at romanen
+        skildrer en virkelig urett og ikke en tilfeldig personlig konflikt.
+      en: Married women in Norway were long legally dependent and could not
+        control their own property. Knowing that background shows the novel is
+        depicting a real injustice, not just a personal quarrel.
+    reviewed: false
+
+  # KM14200 - svensk og dansk
+  - id: KM14200-01
+    goal: KM14200
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: I en svensk tekst står det "Filmen var jätterolig". Hva betyr "rolig"
+        på svensk?
+      en: A Swedish text says "Filmen var jätterolig". What does "rolig" mean in
+        Swedish?
+    choices:
+      - id: a
+        text:
+          nb: Morsom
+          en: Funny
+        correct: true
+      - id: b
+        text:
+          nb: Stille og fredelig
+          en: Quiet and peaceful
+      - id: c
+        text:
+          nb: Kjedelig
+          en: Boring
+    explanation:
+      nb: Svensk "rolig" betyr morsom, ikke rolig slik vi bruker ordet på norsk.
+        Slike ord kalles falske venner, fordi de ser kjente ut, men betyr noe
+        annet.
+      en: >-
+        Swedish "rolig" means funny, not calm as the same word does in
+        Norwegian. Words like this are called false friends, because they look
+        familiar but mean something else.
+    reviewed: false
+
+  - id: KM14200-02
+    goal: KM14200
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: I en dansk tekst står det "Drengen cyklede hjem". Hvem sykler hjem?
+      en: A Danish text says "Drengen cyklede hjem". Who is cycling home?
+    choices:
+      - id: a
+        text:
+          nb: En gutt
+          en: A boy
+        correct: true
+      - id: b
+        text:
+          nb: En gårdsarbeider
+          en: A farmhand
+      - id: c
+        text:
+          nb: En hund
+          en: A dog
+    explanation:
+      nb: Dansk "dreng" betyr gutt. På norsk betyr "dreng" en gårdsarbeider, så
+        her må du lese ordet slik det brukes på dansk.
+      en: Danish "dreng" means boy. In Norwegian the same word means a farmhand,
+        so you have to read it the way Danish uses it.
+    reviewed: false
+
+  - id: KM14200-03
+    goal: KM14200
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Hvilken av disse setningene er svensk?
+      en: Which of these sentences is Swedish?
+    choices:
+      - id: a
+        text:
+          nb: Jag vet inte var hon bor.
+          en: Jag vet inte var hon bor.
+        correct: true
+      - id: b
+        text:
+          nb: Jeg ved ikke, hvor hun bor.
+          en: Jeg ved ikke, hvor hun bor.
+      - id: c
+        text:
+          nb: Eg veit ikkje kvar ho bur.
+          en: Eg veit ikkje kvar ho bur.
+    explanation:
+      nb: Svensk skriver "jag" og "inte" og bruker ofte dobbel konsonant der
+        norsk har enkel. Den andre setningen er dansk med "ved", og den tredje
+        er norsk nynorsk.
+      en: Swedish writes "jag" and "inte". The second sentence is Danish, marked
+        by "ved", and the third is Norwegian nynorsk.
+    reviewed: false
+
+  # KM14192 - språklige virkemidler og retoriske appellformer
+  - id: KM14192-01
+    goal: KM14192
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: "En taler sier: «Tenk på barna som vokser opp uten et sted å være
+        etter skolen.» Hvilken appellform bruker hun mest?"
+      en: "A speaker says: 'Think of the children growing up with nowhere to go
+        after school.' Which rhetorical appeal is she mainly using?"
+    choices:
+      - id: a
+        text:
+          nb: Patos
+          en: Pathos
+        correct: true
+      - id: b
+        text:
+          nb: Logos
+          en: Logos
+      - id: c
+        text:
+          nb: Etos
+          en: Ethos
+    explanation:
+      nb: Patos er appell til følelsene hos den som lytter. Logos ville vært tall
+        og fornuftsgrunner, og etos ville handlet om talerens egen troverdighet.
+      en: Pathos appeals to the listener's feelings. Logos would be figures and
+        reasoning, and ethos would be about the speaker's own credibility.
+    reviewed: false
+
+  - id: KM14192-02
+    goal: KM14192
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: "En skribent innleder slik: «Som sykepleier med tjue års erfaring har
+        jeg sett dette på nært hold.» Hva appellerer hun til?"
+      en: "A writer opens: 'As a nurse with twenty years of experience I have
+        seen this up close.' What is she appealing to?"
+    choices:
+      - id: a
+        text:
+          nb: Etos, altså sin egen troverdighet
+          en: Ethos, that is, her own credibility
+        correct: true
+      - id: b
+        text:
+          nb: Patos, altså leserens følelser
+          en: Pathos, that is, the reader's feelings
+      - id: c
+        text:
+          nb: Logos, altså tall og statistikk
+          en: Logos, that is, figures and statistics
+    explanation:
+      nb: Hun viser til yrket og erfaringen sin for å framstå som til å stole på.
+        Det er etos. Hun har ennå ikke lagt fram verken følelser eller tall.
+      en: She points to her profession and experience to appear trustworthy,
+        which is ethos. She has not yet offered either feelings or figures.
+    reviewed: false
+
+  - id: KM14192-03
+    goal: KM14192
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: "I setningen «Sola smilte til oss hele dagen» får sola menneskelige
+        trekk. Hva kalles dette virkemidlet?"
+      en: "In the sentence 'The sun smiled at us all day', the sun is given human
+        traits. What is this device called?"
+    choices:
+      - id: a
+        text:
+          nb: Besjeling
+          en: Personification
+        correct: true
+      - id: b
+        text:
+          nb: Gjentakelse
+          en: Repetition
+      - id: c
+        text:
+          nb: Allitterasjon
+          en: Alliteration
+    explanation:
+      nb: Besjeling er å gi noe livløst menneskelige egenskaper. Gjentakelse er
+        å si det samme flere ganger, og allitterasjon er at flere ord begynner
+        med samme lyd.
+      en: Personification gives human qualities to something lifeless.
+        Repetition says the same thing several times, and alliteration is
+        several words starting with the same sound.
+    reviewed: false
+
+  # KM14190 - kildekritikk og kildehenvisning
+  - id: KM14190-01
+    goal: KM14190
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Du vil bruke en setning ordrett fra en artikkel i din egen tekst.
+        Hvordan gjør du det riktig?
+      en: You want to use a sentence word for word from an article in your own
+        text. How do you do it properly?
+    choices:
+      - id: a
+        text:
+          nb: Sette setningen i anførselstegn og oppgi hvor den er hentet fra
+          en: Put the sentence in quotation marks and state where it came from
+        correct: true
+      - id: b
+        text:
+          nb: Skrive setningen med større skrift så leseren ser den godt
+          en: Write the sentence in a larger font so the reader notices it
+      - id: c
+        text:
+          nb: Bytte ut noen få ord, så teller den som din egen
+          en: Swap out a few words so it counts as your own
+    explanation:
+      nb: Et ordrett sitat skal markeres med anførselstegn og følges av en
+        kildehenvisning. Å bytte ut noen ord uten å oppgi kilde er fortsatt å ta
+        andres arbeid uten å si fra.
+      en: A word-for-word quotation is marked with quotation marks and followed
+        by a reference. Swapping a few words without crediting the source is
+        still taking someone else's work without saying so.
+    reviewed: false
+
+  - id: KM14190-02
+    goal: KM14190
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Du finner en påstand om at energidrikk er sunt, på nettsidene til en
+        produsent av energidrikk. Hva er den viktigste innvendingen mot kilden?
+      en: You find a claim that energy drinks are healthy on the website of an
+        energy drink manufacturer. What is the main objection to this source?
+    choices:
+      - id: a
+        text:
+          nb: Avsenderen tjener penger på at du tror på påstanden
+          en: The sender profits from you believing the claim
+        correct: true
+      - id: b
+        text:
+          nb: Nettsiden er skrevet på et lettlest språk
+          en: The website is written in easy language
+      - id: c
+        text:
+          nb: Teksten har ingen bilder
+          en: The text has no pictures
+    explanation:
+      nb: Kildekritikk handler blant annet om hvem avsenderen er og hva
+        avsenderen vil oppnå. En produsent har egeninteresse i konklusjonen, så
+        påstanden bør sjekkes mot en uavhengig kilde.
+      en: Source criticism asks who the sender is and what they want to achieve.
+        A manufacturer has a stake in the conclusion, so the claim should be
+        checked against an independent source.
+    reviewed: false
+
+  # KM14199 - digitale medier og språk
+  - id: KM14199-01
+    goal: KM14199
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva kjennetegner ofte språket i chat og kommentarfelt sammenlignet med
+        språket i en skoletekst?
+      en: What often characterises the language of chats and comment sections
+        compared with the language of a school essay?
+    choices:
+      - id: a
+        text:
+          nb: Flere forkortelser og trekk fra talespråket
+          en: More abbreviations and features from spoken language
+        correct: true
+      - id: b
+        text:
+          nb: Strengere krav til kildehenvisninger
+          en: Stricter requirements for citing sources
+      - id: c
+        text:
+          nb: Lengre og mer oppbygde setninger
+          en: Longer and more elaborate sentences
+    explanation:
+      nb: Digital skriving skjer raskt og ligner derfor mer på tale, med
+        forkortelser, korte setninger og løsere tegnsetting. Skoletekster har
+        strengere krav til form og kilder.
+      en: Digital writing happens fast and therefore resembles speech, with
+        abbreviations, short sentences and looser punctuation. School texts have
+        stricter demands on form and sources.
+    reviewed: false
+
+  - id: KM14199-02
+    goal: KM14199
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvorfor bruker mange emojier når de sender korte meldinger?
+      en: Why do many people use emoji when sending short messages?
+    choices:
+      - id: a
+        text:
+          nb: De erstatter tonefall og ansiktsuttrykk som skriften mangler
+          en: They replace the tone of voice and facial expressions that writing
+            lacks
+        correct: true
+      - id: b
+        text:
+          nb: Rettskrivingsreglene krever minst én emoji per melding
+          en: Spelling rules require at least one emoji per message
+      - id: c
+        text:
+          nb: Meldinger må ha like mange tegn som ord
+          en: Messages must have as many characters as words
+    explanation:
+      nb: Når vi snakker sammen, forteller stemme og ansikt hvordan noe er ment.
+        I skrift forsvinner det, og emojier har blitt en måte å vise mening og
+        tone på i digital kommunikasjon.
+      en: When we speak, voice and face show how something is meant. Writing
+        loses that, and emoji have become a way of signalling tone and intent in
+        digital communication.
+    reviewed: false
+
+  # KM14191 - tekstbinding, tegnsetting, rettskriving
+  - id: KM14191-01
+    goal: KM14191
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilken setning har riktig tegnsetting?
+      en: Which sentence is punctuated correctly?
+    choices:
+      - id: a
+        text:
+          nb: Jeg skulle på trening, men jeg ble syk.
+          en: Jeg skulle på trening, men jeg ble syk.
+        correct: true
+      - id: b
+        text:
+          nb: Jeg skulle på trening men, jeg ble syk.
+          en: Jeg skulle på trening men, jeg ble syk.
+      - id: c
+        text:
+          nb: Jeg skulle, på trening men jeg ble syk.
+          en: Jeg skulle, på trening men jeg ble syk.
+    explanation:
+      nb: Når to hele setninger bindes sammen med "men", settes kommaet foran
+        bindeordet. Kommaet hører aldri etter "men", og det skal ikke stå inne i
+        en setning uten grunn.
+      en: When two full clauses are joined by "men" (but), the comma goes before
+        the conjunction. It never follows it, and it should not sit inside a
+        clause for no reason.
+    reviewed: false
+
+  - id: KM14191-02
+    goal: KM14191
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: "Hvilket bindeord passer best? «Det regnet hele dagen. ___ ble kampen
+        avlyst.»"
+      en: "Which connective fits best? 'It rained all day. ___ the match was
+        cancelled.'"
+    choices:
+      - id: a
+        text:
+          nb: Derfor
+          en: Therefore
+        correct: true
+      - id: b
+        text:
+          nb: Likevel
+          en: Nevertheless
+      - id: c
+        text:
+          nb: For eksempel
+          en: For example
+    explanation:
+      nb: Regnet er årsaken til at kampen ble avlyst, og "derfor" viser årsak og
+        virkning. "Likevel" ville betydd at kampen ble spilt på tross av regnet.
+      en: The rain caused the cancellation, and "therefore" marks cause and
+        effect. "Nevertheless" would mean the match went ahead despite the rain.
+    reviewed: false
+
+  - id: KM14191-03
+    goal: KM14191
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Hvilken setning er riktig skrevet?
+      en: Which sentence is written correctly?
+    choices:
+      - id: a
+        text:
+          nb: Han liker å svømme og å sykle.
+          en: Han liker å svømme og å sykle.
+        correct: true
+      - id: b
+        text:
+          nb: Han liker og svømme og og sykle.
+          en: Han liker og svømme og og sykle.
+      - id: c
+        text:
+          nb: Han liker og svømme å sykle.
+          en: Han liker og svømme å sykle.
+    explanation:
+      nb: >-
+        Infinitivsmerket "å" hører sammen med verbet, mens "og" binder sammen to
+        ledd. Her er begge verbene i infinitiv, og "og" står mellom dem.
+      en: >-
+        The infinitive marker "å" belongs with the verb, while "og" (and) joins
+        two elements. Here both verbs are infinitives, joined by "og".
+    reviewed: false
+
+  # KM14194 - fagspråk om grammatikk, tekststruktur og sjanger
+  - id: KM14194-01
+    goal: KM14194
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: "Hvilken ordklasse tilhører ordet «gamle» i setningen «Den gamle
+        hunden sov i sola»?"
+      en: "Which word class does 'gamle' belong to in the sentence 'Den gamle
+        hunden sov i sola'?"
+    choices:
+      - id: a
+        text:
+          nb: Adjektiv
+          en: Adjective
+        correct: true
+      - id: b
+        text:
+          nb: Substantiv
+          en: Noun
+      - id: c
+        text:
+          nb: Verb
+          en: Verb
+    explanation:
+      nb: Adjektiv beskriver egenskaper ved substantivet. "Gamle" sier noe om
+        hunden. Substantivene her er "hunden" og "sola", og verbet er "sov".
+      en: Adjectives describe qualities of a noun. "Gamle" (old) describes the
+        dog. The nouns here are "hunden" and "sola", and the verb is "sov".
+    reviewed: false
+
+  - id: KM14194-02
+    goal: KM14194
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: "Hva er verbalet i setningen «Elevene leverte oppgaven i går»?"
+      en: "What is the verb phrase in the sentence 'Elevene leverte oppgaven i
+        går'?"
+    choices:
+      - id: a
+        text:
+          nb: leverte
+          en: leverte
+        correct: true
+      - id: b
+        text:
+          nb: Elevene
+          en: Elevene
+      - id: c
+        text:
+          nb: oppgaven
+          en: oppgaven
+    explanation:
+      nb: Verbalet er setningsleddet som forteller hva som skjer, og består av
+        verbet. "Elevene" er subjekt og "oppgaven" er objekt.
+      en: The verb phrase is the element saying what happens. "Elevene" is the
+        subject and "oppgaven" is the object.
+    reviewed: false
+
+  - id: KM14194-03
+    goal: KM14194
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva kalles den korte innledningen i en nyhetsartikkel som oppsummerer
+        det viktigste?
+      en: What is the short opening of a news article that summarises the main
+        point called?
+    choices:
+      - id: a
+        text:
+          nb: Ingress
+          en: Standfirst (ingress)
+        correct: true
+      - id: b
+        text:
+          nb: Brødtekst
+          en: Body text
+      - id: c
+        text:
+          nb: Bildetekst
+          en: Caption
+    explanation:
+      nb: Ingressen står mellom overskriften og brødteksten og gir leseren det
+        viktigste med én gang. Brødteksten er selve artikkelen, og bildeteksten
+        forklarer et bilde.
+      en: The standfirst sits between the headline and the body text and gives
+        the reader the key point immediately. The body text is the article
+        itself, and a caption explains a picture.
+    reviewed: false
+
+  # KM14195 - historisk bakgrunn for bokmål og nynorsk
+  - id: KM14195-01
+    goal: KM14195
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvem reiste rundt i Norge og samlet inn ord og former fra dialektene,
+        og laget grunnlaget for landsmålet som senere ble nynorsk?
+      en: Who travelled around Norway collecting words and forms from the
+        dialects, creating the basis for landsmål, later called nynorsk?
+    choices:
+      - id: a
+        text:
+          nb: Ivar Aasen
+          en: Ivar Aasen
+        correct: true
+      - id: b
+        text:
+          nb: Knud Knudsen
+          en: Knud Knudsen
+      - id: c
+        text:
+          nb: Henrik Wergeland
+          en: Henrik Wergeland
+    explanation:
+      nb: Ivar Aasen bygde landsmålet på norske dialekter, særlig fra Vestlandet
+        og innlandsbygdene. Knud Knudsen valgte en annen vei, og Wergeland var
+        dikter og språkdebattant, ikke språkbygger.
+      en: Ivar Aasen built landsmål from Norwegian dialects, especially western
+        and inland ones. Knud Knudsen took a different route, and Wergeland was
+        a poet and language debater rather than a language builder.
+    reviewed: false
+
+  - id: KM14195-02
+    goal: KM14195
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Knud Knudsen ville fornorske skriftspråket ved å endre det danske
+        skriftspråket litt etter litt. Hva ble dette skriftspråket til slutt
+        hetende?
+      en: Knud Knudsen wanted to Norwegianise the written language by gradually
+        changing written Danish. What was that written language eventually
+        called?
+    choices:
+      - id: a
+        text:
+          nb: Bokmål
+          en: Bokmål
+        correct: true
+      - id: b
+        text:
+          nb: Nynorsk
+          en: Nynorsk
+      - id: c
+        text:
+          nb: Landsmål
+          en: Landsmål
+    explanation:
+      nb: Knudsens linje førte fram til riksmål og siden bokmål. Aasens linje
+        førte til landsmål, som senere fikk navnet nynorsk. De to skriftspråkene
+        har altså helt ulik opprinnelse.
+      en: Knudsen's approach led to riksmål and later bokmål. Aasen's led to
+        landsmål, later renamed nynorsk. The two written languages have quite
+        different origins.
+    reviewed: false
+
+  - id: KM14195-03
+    goal: KM14195
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvilke to målformer av norsk er likestilte skriftspråk i Norge i dag?
+      en: Which two written forms of Norwegian have equal official status in
+        Norway today?
+    choices:
+      - id: a
+        text:
+          nb: Bokmål og nynorsk
+          en: Bokmål and nynorsk
+        correct: true
+      - id: b
+        text:
+          nb: Bokmål og riksmål
+          en: Bokmål and riksmål
+      - id: c
+        text:
+          nb: Nynorsk og landsmål
+          en: Nynorsk and landsmål
+    explanation:
+      nb: Bokmål og nynorsk er likestilte skriftspråk, og elever har rett til
+        opplæring i sitt eget hovedmål. Riksmål og landsmål er eldre navn på
+        forløperne. Samiske språk er også offisielle språk i Norge, ved siden av
+        norsk.
+      en: Bokmål and nynorsk have equal status, and pupils have the right to be
+        taught in their own main form. Riksmål and landsmål are older names for
+        their predecessors. Sami languages are also official languages in
+        Norway, alongside Norwegian.
+    reviewed: false
+
+  # KM14196 - språklig variasjon og mangfold
+  - id: KM14196-01
+    goal: KM14196
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva er riktig om dialekter i Norge?
+      en: Which statement about dialects in Norway is correct?
+    choices:
+      - id: a
+        text:
+          nb: Alle dialekter har sine egne faste regler og er fullverdig norsk
+          en: Every dialect has its own consistent rules and is fully valid
+            Norwegian
+        correct: true
+      - id: b
+        text:
+          nb: Bare den dialekten som ligner mest på bokmål, er korrekt norsk
+          en: Only the dialect closest to bokmål is correct Norwegian
+      - id: c
+        text:
+          nb: Dialekter finnes bare på små steder, ikke i byene
+          en: Dialects exist only in small places, not in cities
+    explanation:
+      nb: En dialekt er ikke en unøyaktig utgave av skriftspråket. Hver dialekt
+        har sitt eget system for uttale, bøying og ordforråd, og alle snakker en
+        dialekt, også de som bor i byene.
+      en: A dialect is not a sloppy version of the written language. Each has its
+        own system of pronunciation, inflection and vocabulary, and everyone
+        speaks one, city dwellers included.
+    reviewed: false
+
+  - id: KM14196-02
+    goal: KM14196
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilket alternativ viser språklig mangfold i Norge i dag?
+      en: Which option shows linguistic diversity in Norway today?
+    choices:
+      - id: a
+        text:
+          nb: At samiske språk, kvensk, norsk tegnspråk og mange andre morsmål
+            brukes i landet
+          en: That Sami languages, Kven, Norwegian Sign Language and many other
+            mother tongues are used in the country
+        correct: true
+      - id: b
+        text:
+          nb: At norsk har to skriftspråk og ingenting mer
+          en: That Norwegian has two written forms and nothing more
+      - id: c
+        text:
+          nb: At alle i Norge lærer engelsk på skolen
+          en: That everyone in Norway learns English at school
+    explanation:
+      nb: Språklig mangfold rommer mer enn bokmål og nynorsk. Samiske språk,
+        kvensk, romani og romanes har status som språk i Norge, norsk tegnspråk
+        er et fullverdig språk, og mange har andre morsmål i tillegg til norsk.
+      en: Linguistic diversity is wider than bokmål and nynorsk. Sami languages,
+        Kven, Romani and Romanes have recognised status in Norway, Norwegian
+        Sign Language is a full language, and many people have other mother
+        tongues alongside Norwegian.
+    reviewed: false
+
+# Goals that no written question can honestly test. Recorded rather than
+# omitted, so the gap is a stated judgement instead of a silent one.
+not_assessable:
+  - goal: KM14201
+    reason: >-
+      Asks the pupil to describe and reflect on their own use of reading
+      strategies. The object is the pupil's own metacognition, which only they
+      have access to. A question could check whether they know what skumlesing
+      means, but that would test terminology and quietly report it as evidence
+      about their own reading.
+
+  - goal: KM14198
+    reason: >-
+      Asks the pupil to explore and reflect on how texts portray young people's
+      life situations. It requires reading a specific text and forming a
+      considered response to it; there is no single correct answer, and asking
+      one would either test a text the pupil has not read or present one reading
+      as the right one.
+
+  - goal: KM14186
+    reason: >-
+      Asks the pupil to use subject terminology and argue soberly in
+      discussions, conversations, oral presentations and written work. The goal
+      is performance in dialogue over time. A quiz can check that a pupil
+      recognises a term, but not that they use it well while arguing with
+      someone.
+
+  - goal: KM14188
+    reason: >-
+      Asks the pupil to inform, narrate, argue and reflect in different oral and
+      written genres, adapted to audience and medium. This is composition. No
+      multiple-choice question can check whether a pupil can produce a text that
+      fits its reader.
+
+  - goal: KM14187
+    reason: >-
+      Asks the pupil to express themselves in different genres and experiment
+      creatively with genre. Creative production has no correct answer to grade
+      against, and a question about it would test genre knowledge instead of the
+      making.
+
+  - goal: KM14189
+    reason: >-
+      Asks the pupil to create composite texts and justify their choice of forms
+      of expression. Both halves are activities: producing a text with images,
+      sound or video, and explaining decisions the pupil themselves made.
+      Neither survives being turned into a question with one right answer.

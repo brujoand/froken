@@ -1,0 +1,812 @@
+# Engelsk, kompetansemål etter 7. trinn (ENG01-06 / KV1032).
+#
+# The pupil is a Norwegian child in 5.-7. klasse learning English. The Norwegian
+# prompt is the instruction; the English inside a question is the material being
+# tested. The two locales are therefore not translations of each other: English
+# material stays byte-identical in both, and no Norwegian prompt names the
+# English word it is asking for.
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+---
+subject: ENG01-06
+goal_set: KV1032
+
+items:
+  - id: KM13359-01
+    goal: KM13359
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Les setningen "The path was very slippery, so Tom walked slowly and
+        held on to the fence." Hva betyr "slippery" her? Bruk resten av
+        setningen som hjelp.
+      en: >-
+        Read the sentence "The path was very slippery, so Tom walked slowly and
+        held on to the fence." What does "slippery" mean here? Use the rest of
+        the sentence to help you.
+    choices:
+      - id: a
+        text:
+          nb: Glatt, så det er lett å skli
+          en: Smooth, so it is easy to slip
+        correct: true
+      - id: b
+        text:
+          nb: Bratt oppover
+          en: Steeply uphill
+      - id: c
+        text:
+          nb: Mørkt, uten lys
+          en: Dark, with no light
+    explanation:
+      nb: >-
+        Du trenger ikke slå opp ordet. Tom går sakte og holder seg fast, og da
+        må underlaget være glatt. Å gjette ut fra resten av setningen er en av
+        de beste strategiene når du møter et ukjent ord.
+      en: >-
+        You do not need a dictionary. Tom walks slowly and holds on, so the
+        ground must be slippery. Guessing from the rest of the sentence is one
+        of the best strategies when you meet an unknown word.
+    reviewed: false
+
+  - id: KM13359-02
+    goal: KM13359
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Du kan "friendly", men møter ordet "unfriendly". Hva gjør forstavelsen
+        "un-" med betydningen?
+      en: >-
+        You know "friendly", but you meet the word "unfriendly". What does the
+        prefix "un-" do to the meaning?
+    choices:
+      - id: a
+        text:
+          nb: Den snur betydningen til det motsatte
+          en: It turns the meaning into the opposite
+        correct: true
+      - id: b
+        text:
+          nb: Den gjør ordet til flertall
+          en: It makes the word plural
+      - id: c
+        text:
+          nb: Den gjør ordet til fortid
+          en: It puts the word in the past tense
+    explanation:
+      nb: >-
+        "un-" betyr "ikke", så "unfriendly" er det motsatte av "friendly". Å se
+        etter kjente orddeler er en strategi som gjør at du forstår mange nye
+        ord uten hjelp.
+      en: >-
+        "un-" means "not", so "unfriendly" is the opposite of "friendly".
+        Looking for familiar word parts is a strategy that unlocks many new
+        words without help.
+    reviewed: false
+
+  - id: KM13364-01
+    goal: KM13364
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Du møter ordet "running" i en tekst og vil slå det opp i en ordbok
+        eller en ordbok-app. Hvilken form leter du etter?
+      en: >-
+        You meet the word "running" in a text and want to look it up in a
+        dictionary or a dictionary app. Which form do you look for?
+    choices:
+      - id: a
+        text:
+          nb: run
+          en: run
+        correct: true
+      - id: b
+        text:
+          nb: running
+          en: running
+      - id: c
+        text:
+          nb: runned
+          en: runned
+    explanation:
+      nb: >-
+        Ordbøker fører opp verb i grunnform. "running" er en bøyd form av
+        "run", så det er "run" du finner oppslaget under. "runned" finnes ikke.
+      en: >-
+        Dictionaries list verbs in their base form. "running" is an inflected
+        form of "run", so "run" is the entry you will find. "runned" is not a
+        word.
+    reviewed: false
+
+  - id: KM13364-02
+    goal: KM13364
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: >-
+        I en engelsk ordbok står det "light (adj.)". Hva forteller forkortelsen
+        "adj." deg?
+      en: >-
+        An English dictionary shows "light (adj.)". What does the abbreviation
+        "adj." tell you?
+    choices:
+      - id: a
+        text:
+          nb: At ordet er et adjektiv
+          en: That the word is an adjective
+        correct: true
+      - id: b
+        text:
+          nb: At ordet er et verb
+          en: That the word is a verb
+      - id: c
+        text:
+          nb: At ordet er et substantiv
+          en: That the word is a noun
+    explanation:
+      nb: >-
+        Ordbøker bruker korte merkelapper for ordklasse. "adj." står for
+        adjektiv. Samme ord kan stå flere ganger med ulik merkelapp, og da må
+        du velge den som passer i setningen din.
+      en: >-
+        Dictionaries use short labels for word class. "adj." stands for
+        adjective. The same word can appear several times with different
+        labels, and you pick the one that fits your sentence.
+    reviewed: false
+
+  - id: KM13356-01
+    goal: KM13356
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Sam ser ut av vinduet og sier "It's raining cats and dogs!" Hva mener
+        han?
+      en: >-
+        Sam looks out of the window and says "It's raining cats and dogs!" What
+        does he mean?
+    choices:
+      - id: a
+        text:
+          nb: Det regner veldig kraftig
+          en: It is raining very heavily
+        correct: true
+      - id: b
+        text:
+          nb: Det står dyr ute i regnet
+          en: There are animals standing out in the rain
+      - id: c
+        text:
+          nb: Det har akkurat sluttet å regne
+          en: The rain has just stopped
+    explanation:
+      nb: >-
+        Dette er et fast uttrykk, og da betyr ikke ordene hver for seg det de
+        pleier. "It's raining cats and dogs" betyr at det høljer ned.
+      en: >-
+        This is a fixed expression, so the words do not mean what they usually
+        mean on their own. "It's raining cats and dogs" means it is pouring
+        down.
+    reviewed: false
+
+  - id: KM13356-02
+    goal: KM13356
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: >-
+        På døra til en butikk står det "Opening hours: Monday to Friday, 9 to
+        17. Closed on Sundays." Når er butikken stengt?
+      en: >-
+        A shop door says "Opening hours: Monday to Friday, 9 to 17. Closed on
+        Sundays." When is the shop closed?
+    choices:
+      - id: a
+        text:
+          nb: På søndager
+          en: On Sundays
+        correct: true
+      - id: b
+        text:
+          nb: På fredager
+          en: On Fridays
+      - id: c
+        text:
+          nb: Klokka 9 på mandag
+          en: At 9 on Monday
+    explanation:
+      nb: >-
+        "Closed" betyr stengt, og "Sundays" er søndager. Fredag står i lista
+        over dagene butikken har åpent, og klokka 9 er åpningstidspunktet.
+      en: >-
+        "Closed" is the key word, and it is followed by "Sundays". Friday is in
+        the list of open days, and 9 is when the shop opens.
+    reviewed: false
+
+  - id: KM13357-01
+    goal: KM13357
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Du skal be læreren din om hjelp på engelsk. Hvilken setning er
+        høfligst?
+      en: >-
+        You want to ask your teacher for help in English. Which sentence is the
+        most polite?
+    choices:
+      - id: a
+        text:
+          nb: Could you help me, please?
+          en: Could you help me, please?
+        correct: true
+      - id: b
+        text:
+          nb: Give me help.
+          en: Give me help.
+      - id: c
+        text:
+          nb: I want help now.
+          en: I want help now.
+    explanation:
+      nb: >-
+        "Could you ... please?" er et høflighetsuttrykk som gjør spørsmålet
+        vennlig. De to andre er ordrer, og de passer dårlig når du snakker med
+        en voksen eller en du ikke kjenner godt.
+      en: >-
+        "Could you ... please?" is a polite formula that makes the request
+        friendly. The other two are commands, which fit badly when you speak to
+        an adult or someone you do not know well.
+    reviewed: false
+
+  - id: KM13357-02
+    goal: KM13357
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: >-
+        En venn sier "Thank you for helping me!" til deg. Hva er et vanlig svar
+        på engelsk?
+      en: >-
+        A friend says "Thank you for helping me!" to you. What is a common
+        reply in English?
+    choices:
+      - id: a
+        text:
+          nb: You're welcome.
+          en: You're welcome.
+        correct: true
+      - id: b
+        text:
+          nb: Thank you for helping me too.
+          en: Thank you for helping me too.
+      - id: c
+        text:
+          nb: Never mind me.
+          en: Never mind me.
+    explanation:
+      nb: >-
+        "You're welcome" er det vanlige svaret når noen takker deg. De to andre
+        er engelsk, men de svarer ikke på en takk.
+      en: >-
+        "You're welcome" is the standard reply when someone thanks you. The
+        other two are English, but they do not answer a thank you.
+    reviewed: false
+
+  - id: KM13361-01
+    goal: KM13361
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: >-
+        Noen engelske ord ligner på norske ord, men betyr noe helt annet. Hva
+        betyr det engelske ordet "gift"?
+      en: >-
+        Some English words look like Norwegian words but mean something else.
+        What does the English word "gift" mean?
+    choices:
+      - id: a
+        text:
+          nb: En gave
+          en: A present that you give to someone
+        correct: true
+      - id: b
+        text:
+          nb: Et farlig stoff
+          en: A dangerous substance
+      - id: c
+        text:
+          nb: Å være gift med noen
+          en: Being married to someone
+    explanation:
+      nb: >-
+        "gift" på engelsk betyr gave. Ord som ligner på hverandre i to språk,
+        men betyr noe forskjellig, kalles falske venner. Likheten hjelper deg
+        ofte, men her lurer den deg.
+      en: >-
+        English "gift" means a present. Words that look alike in two languages
+        but mean different things are called false friends. The similarity
+        usually helps you, but here it misleads.
+    reviewed: false
+
+  - id: KM13370-01
+    goal: KM13370
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        I setningen "The dog chased the ball" - hvilket ord er verbet?
+      en: >-
+        In the sentence "The dog chased the ball", which word is the verb?
+    choices:
+      - id: a
+        text:
+          nb: chased
+          en: chased
+        correct: true
+      - id: b
+        text:
+          nb: dog
+          en: dog
+      - id: c
+        text:
+          nb: ball
+          en: ball
+    explanation:
+      nb: >-
+        Verbet sier hva som skjer. Her er det "chased", som forteller hva
+        hunden gjorde. "dog" og "ball" er substantiv.
+      en: >-
+        The verb says what happens. Here it is "chased", which tells you what
+        the dog did. "dog" and "ball" are nouns.
+    reviewed: false
+
+  - id: KM13370-02
+    goal: KM13370
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Hvilket ord passer i luka? "One child, two ___."
+      en: >-
+        Which word fits in the gap? "One child, two ___."
+    choices:
+      - id: a
+        text:
+          nb: children
+          en: children
+        correct: true
+      - id: b
+        text:
+          nb: childs
+          en: childs
+      - id: c
+        text:
+          nb: childrens
+          en: childrens
+    explanation:
+      nb: >-
+        De fleste engelske substantiv får -s i flertall, men "child" er
+        uregelrett og blir "children". "children" er allerede flertall, så det
+        skal ikke ha en ekstra -s.
+      en: >-
+        Most English nouns take -s in the plural, but "child" is irregular and
+        becomes "children". "children" is already plural, so it takes no extra
+        -s.
+    reviewed: false
+
+  - id: KM13370-03
+    goal: KM13370
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: >-
+        Hvilket ord passer i luka? "My box is big, but yours is even ___."
+      en: >-
+        Which word fits in the gap? "My box is big, but yours is even ___."
+    choices:
+      - id: a
+        text:
+          nb: bigger
+          en: bigger
+        correct: true
+      - id: b
+        text:
+          nb: more big
+          en: more big
+      - id: c
+        text:
+          nb: biggest
+          en: biggest
+    explanation:
+      nb: >-
+        Når du sammenligner to ting, bruker du gradbøying med -er, altså
+        "bigger". Korte adjektiv bruker ikke "more". "biggest" bruker du bare
+        når noe er størst av alle.
+      en: >-
+        When you compare two things, short adjectives take -er, so "bigger".
+        Short adjectives do not use "more". "biggest" is only for when
+        something is the largest of all.
+    reviewed: false
+
+  - id: KM13360-01
+    goal: KM13360
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvilket ord er stavet riktig?
+      en: Which word is spelled correctly?
+    choices:
+      - id: a
+        text:
+          nb: because
+          en: because
+        correct: true
+      - id: b
+        text:
+          nb: becuse
+          en: becuse
+      - id: c
+        text:
+          nb: becouse
+          en: becouse
+    explanation:
+      nb: >-
+        "because" skrives be-cause. Det høres ut som "kos" på slutten, men
+        skrives med -ause.
+      en: >-
+        "because" is written be-cause. The ending sounds nothing like it looks,
+        which is why it is worth learning by heart.
+    reviewed: false
+
+  - id: KM13360-02
+    goal: KM13360
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilket spørsmål har riktig ordstilling på engelsk?
+      en: Which question has the correct English word order?
+    choices:
+      - id: a
+        text:
+          nb: Where do you live?
+          en: Where do you live?
+        correct: true
+      - id: b
+        text:
+          nb: Where live you?
+          en: Where live you?
+      - id: c
+        text:
+          nb: Where you live?
+          en: Where you live?
+    explanation:
+      nb: >-
+        Engelske spørsmål trenger hjelpeverbet "do" foran subjektet. På norsk
+        sier vi "Hvor bor du?" uten hjelpeverb, og det er derfor denne
+        ordstillingen er lett å bomme på.
+      en: >-
+        English questions need the helper verb "do" before the subject.
+        Norwegian puts the main verb first instead, which is why this word
+        order is easy to get wrong.
+    reviewed: false
+
+  - id: KM13360-03
+    goal: KM13360
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilken setning er skrevet riktig?
+      en: Which sentence is written correctly?
+    choices:
+      - id: a
+        text:
+          nb: My friend lives in Bergen.
+          en: My friend lives in Bergen.
+        correct: true
+      - id: b
+        text:
+          nb: my friend lives in bergen.
+          en: my friend lives in bergen.
+      - id: c
+        text:
+          nb: My Friend lives in bergen.
+          en: My Friend lives in bergen.
+    explanation:
+      nb: >-
+        Setningen skal begynne med stor bokstav, og stedsnavn som Bergen har
+        alltid stor forbokstav. "friend" er et vanlig substantiv og skal ha
+        liten bokstav.
+      en: >-
+        A sentence starts with a capital letter, and place names like Bergen
+        always take one. "friend" is an ordinary noun and stays lowercase.
+    reviewed: false
+
+  - id: KM13362-01
+    goal: KM13362
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Les teksten "Lisa found a small bird under the tree. Its wing was hurt,
+        so she put it in a box and called her mum." Hva handler teksten om?
+      en: >-
+        Read the text "Lisa found a small bird under the tree. Its wing was
+        hurt, so she put it in a box and called her mum." What is the text
+        about?
+    choices:
+      - id: a
+        text:
+          nb: Lisa hjelper en skadet fugl
+          en: Lisa helps a hurt bird
+        correct: true
+      - id: b
+        text:
+          nb: Lisa klatrer i et tre
+          en: Lisa climbs a tree
+      - id: c
+        text:
+          nb: Lisa mister en eske
+          en: Lisa loses a box
+    explanation:
+      nb: >-
+        Fuglen har vondt i vingen, og Lisa legger den trygt i en eske og ringer
+        moren sin. Treet og esken er detaljer, ikke det teksten handler om.
+      en: >-
+        The bird has a hurt wing, and Lisa puts it somewhere safe and calls her
+        mum. The tree and the box are details, not what the text is about.
+    reviewed: false
+
+  - id: KM13362-02
+    goal: KM13362
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        En oppskrift sier "1. Boil the water. 2. Add the rice. 3. Wait for
+        twelve minutes." Hva gjør du rett etter at vannet koker?
+      en: >-
+        A recipe says "1. Boil the water. 2. Add the rice. 3. Wait for twelve
+        minutes." What do you do right after the water boils?
+    choices:
+      - id: a
+        text:
+          nb: Har i risen
+          en: Add the rice
+        correct: true
+      - id: b
+        text:
+          nb: Venter i tolv minutter
+          en: Wait for twelve minutes
+      - id: c
+        text:
+          nb: Slår av plata
+          en: Turn off the heat
+    explanation:
+      nb: >-
+        Punkt 2 kommer rett etter punkt 1, og der står det "Add the rice".
+        Ventingen kommer først i punkt 3, og oppskriften sier ingenting om å
+        slå av plata.
+      en: >-
+        Step 2 follows step 1, and it says "Add the rice". The waiting is step
+        3, and the recipe never mentions turning off the heat.
+    reviewed: false
+
+  - id: KM13363-01
+    goal: KM13363
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Fra en faktatekst "Polar bears look white, but their skin is black. The
+        black skin helps them stay warm in the cold." Hvorfor er huden svart,
+        ifølge teksten?
+      en: >-
+        From a non-fiction text "Polar bears look white, but their skin is
+        black. The black skin helps them stay warm in the cold." Why is the
+        skin black, according to the text?
+    choices:
+      - id: a
+        text:
+          nb: Den hjelper isbjørnen med å holde på varmen
+          en: It helps the polar bear stay warm
+        correct: true
+      - id: b
+        text:
+          nb: Den skjuler isbjørnen i snøen
+          en: It hides the polar bear in the snow
+      - id: c
+        text:
+          nb: Den gjør at pelsen ser hvit ut
+          en: It makes the fur look white
+    explanation:
+      nb: >-
+        Teksten sier det rett ut: "The black skin helps them stay warm". Pelsen
+        er hvit, men teksten sier ikke at det er huden som gjør den hvit.
+      en: >-
+        The text says it directly: "The black skin helps them stay warm". The
+        fur is white, but the text never says the skin is what makes it white.
+    reviewed: false
+
+  - id: KM13363-02
+    goal: KM13363
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Fra en barnebok "Tom opened the door slowly. His hands were shaking and
+        he could hear his own heart." Hvordan føler Tom seg?
+      en: >-
+        From a children's book "Tom opened the door slowly. His hands were
+        shaking and he could hear his own heart." How does Tom feel?
+    choices:
+      - id: a
+        text:
+          nb: Redd
+          en: Scared
+        correct: true
+      - id: b
+        text:
+          nb: Sulten
+          en: Hungry
+      - id: c
+        text:
+          nb: Sint
+          en: Angry
+    explanation:
+      nb: >-
+        Forfatteren skriver ikke at Tom er redd, men viser det: hendene rister,
+        han hører sitt eget hjerte og åpner døra sakte. Slike hint er noe du
+        kan lete etter i alle fortellinger.
+      en: >-
+        The author never writes that Tom is scared, but shows it: shaking
+        hands, hearing his own heart, opening the door slowly. Clues like these
+        are worth looking for in any story.
+    reviewed: false
+
+  - id: KM13365-01
+    goal: KM13365
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Du skal finne ut hvor høyt Mount Everest er, til en engelsk tekst du
+        skriver. Hvilken kilde er mest pålitelig?
+      en: >-
+        You need to find out how tall Mount Everest is for an English text you
+        are writing. Which source is the most reliable?
+    choices:
+      - id: a
+        text:
+          nb: Nettsiden til et kjent leksikon
+          en: The website of a well-known encyclopaedia
+        correct: true
+      - id: b
+        text:
+          nb: En kommentar under en video
+          en: A comment under a video
+      - id: c
+        text:
+          nb: En melding fra en venn som tror han husker tallet
+          en: A message from a friend who thinks he remembers the number
+    explanation:
+      nb: >-
+        Et leksikon har navngitte redaktører som sjekker tall før de blir
+        publisert. En kommentar eller en melding er én persons hukommelse, og
+        ingen har kontrollert den.
+      en: >-
+        An encyclopaedia has named editors who check numbers before publishing.
+        A comment or a message is one person's memory, and nobody has checked
+        it.
+    reviewed: false
+
+  - id: KM13369-01
+    goal: KM13369
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: I hvilket av disse landene er engelsk et offisielt språk?
+      en: In which of these countries is English an official language?
+    choices:
+      - id: a
+        text:
+          nb: New Zealand
+          en: New Zealand
+        correct: true
+      - id: b
+        text:
+          nb: Brasil
+          en: Brazil
+      - id: c
+        text:
+          nb: Japan
+          en: Japan
+    explanation:
+      nb: >-
+        Engelsk er offisielt språk i New Zealand. I Brasil er det portugisisk,
+        og i Japan er det japansk. Engelsk er offisielt språk i land på alle
+        kontinenter.
+      en: >-
+        English is an official language in New Zealand. Brazil uses Portuguese
+        and Japan uses Japanese. English is official in countries on every
+        continent.
+    reviewed: false
+
+  - id: KM13369-02
+    goal: KM13369
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Hva er vanlig på mange skoler i Storbritannia, men uvanlig på norske
+        skoler?
+      en: >-
+        What is common in many schools in the United Kingdom, but unusual in
+        Norwegian schools?
+    choices:
+      - id: a
+        text:
+          nb: At elevene har skoleuniform
+          en: Pupils wearing a school uniform
+        correct: true
+      - id: b
+        text:
+          nb: At elevene har sommerferie
+          en: Pupils having a summer holiday
+      - id: c
+        text:
+          nb: At elevene lærer matematikk
+          en: Pupils learning mathematics
+    explanation:
+      nb: >-
+        Skoleuniform er vanlig i Storbritannia, mens norske elever bruker sine
+        egne klær. Sommerferie og matematikk finnes begge steder, så de skiller
+        ikke landene fra hverandre.
+      en: >-
+        School uniforms are common in the UK, while Norwegian pupils wear their
+        own clothes. Summer holidays and mathematics exist in both countries,
+        so neither of them tells the two apart.
+    reviewed: false
+
+# Goals whose substance is speaking, writing or personal reflection. No written
+# question can check them, and a proxy question would test something else while
+# claiming to test these.
+not_assessable:
+  - goal: KM13355
+    reason: >-
+      Asks the pupil to explore and use pronunciation patterns, words and
+      phrases in play, song and role play. Pronunciation cannot be checked
+      without hearing the pupil, and the goal's setting is a shared classroom
+      activity rather than knowledge. Asking about pronunciation in writing
+      would test spelling rules instead.
+
+  - goal: KM13358
+    reason: >-
+      Asks the pupil to open, sustain and close conversations about their own
+      interests and current topics. This is live oral interaction with another
+      person; a written question can at most ask which phrase sounds right,
+      which is already covered elsewhere and would not show that the pupil can
+      keep a conversation going.
+
+  - goal: KM13366
+    reason: >-
+      Asks the pupil to write coherent texts, including composite ones, that
+      retell, narrate, ask and express opinions for a given reader. Producing a
+      text is the whole goal, and no multiple-choice question can stand in for
+      writing one.
+
+  - goal: KM13367
+    reason: >-
+      Asks the pupil to revise their own texts in response to feedback. It
+      needs a text the pupil wrote and feedback someone gave on it, neither of
+      which a quiz has.
+
+  - goal: KM13368
+    reason: >-
+      Asks the pupil to reflect on and discuss the role English plays in their
+      own life. The answer is personal and differs from pupil to pupil, so
+      marking one response correct would be wrong.

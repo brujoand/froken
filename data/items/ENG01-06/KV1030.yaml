@@ -1,0 +1,485 @@
+# Engelsk, kompetansemål etter 2. trinn (ENG01-06 / KV1030).
+#
+# The pupil is a Norwegian child in 1.-2. klasse, in their first years of
+# English. The Norwegian prompt is the instruction; the English inside it is the
+# material being tested. The two locales are therefore not translations of each
+# other: where the answer is an English word, the Norwegian stimulus word stays
+# Norwegian in the `en` prompt too, so an English-reading pupil is not handed
+# the answer.
+#
+# Most goals at this checkpoint are about listening, singing and speaking. Four
+# of the eleven are recorded as not assessable for that reason.
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+---
+subject: ENG01-06
+goal_set: KV1030
+
+items:
+  # KM13330 - letter sounds, spelling patterns, blending sounds into words.
+  - id: KM13330-01
+    goal: KM13330
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvilket engelsk ord begynner med samme lyd som «sun»?
+      en: Which English word begins with the same sound as “sun”?
+    choices:
+      - id: a
+        text:
+          nb: "sock"
+          en: "sock"
+        correct: true
+      - id: b
+        text:
+          nb: "moon"
+          en: "moon"
+      - id: c
+        text:
+          nb: "tree"
+          en: "tree"
+    explanation:
+      nb: >-
+        «sun» og «sock» begynner begge med bokstaven s og lyden /s/. «moon»
+        begynner med /m/ og «tree» med /t/.
+      en: >-
+        “sun” and “sock” both begin with the letter s and the sound /s/. “moon”
+        begins with /m/ and “tree” with /t/.
+    reviewed: false
+
+  - id: KM13330-02
+    goal: KM13330
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Trekk lydene sammen til et ord - /d/ /o/ /g/. Hvilket engelsk ord blir det?
+      en: Blend the sounds into a word - /d/ /o/ /g/. Which English word is it?
+    choices:
+      - id: a
+        text:
+          nb: "dig"
+          en: "dig"
+      - id: b
+        text:
+          nb: "dog"
+          en: "dog"
+        correct: true
+      - id: c
+        text:
+          nb: "bag"
+          en: "bag"
+    explanation:
+      nb: >-
+        Lydene kommer i rekkefølgen d - o - g. Når vi trekker dem sammen, blir
+        det ordet dog.
+      en: >-
+        The sounds come in the order d - o - g. Blended together they make the
+        word dog.
+    reviewed: false
+
+  # KM13334 - noticing high-frequency words and phrases in texts.
+  - id: KM13334-01
+    goal: KM13334
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: "Hvilket ord mangler? «I ___ seven years old.»"
+      en: "Which word is missing? “I ___ seven years old.”"
+    choices:
+      - id: a
+        text:
+          nb: "am"
+          en: "am"
+        correct: true
+      - id: b
+        text:
+          nb: "is"
+          en: "is"
+      - id: c
+        text:
+          nb: "are"
+          en: "are"
+    explanation:
+      nb: >-
+        Etter I sier vi alltid am. «I am seven years old» er en frase du møter
+        ofte i engelske tekster.
+      en: >-
+        After I we always say am. “I am seven years old” is a phrase you meet
+        often in English texts.
+    reviewed: false
+
+  - id: KM13334-02
+    goal: KM13334
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilket av disse vanlige engelske ordene betyr «jeg»?
+      en: Which of these common English words means «jeg»?
+    choices:
+      - id: a
+        text:
+          nb: "you"
+          en: "you"
+      - id: b
+        text:
+          nb: "I"
+          en: "I"
+        correct: true
+      - id: c
+        text:
+          nb: "he"
+          en: "he"
+    explanation:
+      nb: >-
+        I betyr jeg, og skrives alltid med stor bokstav på engelsk. you betyr
+        du, og he betyr han.
+      en: >-
+        I means «jeg», and in English it is always written with a capital
+        letter. you means «du» and he means «han».
+    reviewed: false
+
+  # KM13332 - asking and answering simple questions, following simple
+  # instructions, using some polite expressions.
+  - id: KM13332-01
+    goal: KM13332
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Du får en gave av en venn. Hva sier du på engelsk?
+      en: A friend gives you a present. What do you say in English?
+    choices:
+      - id: a
+        text:
+          nb: "Good night!"
+          en: "Good night!"
+      - id: b
+        text:
+          nb: "Thank you!"
+          en: "Thank you!"
+        correct: true
+      - id: c
+        text:
+          nb: "Sit down!"
+          en: "Sit down!"
+    explanation:
+      nb: >-
+        Thank you betyr takk. Good night sier vi når noen skal legge seg, og
+        sit down er en beskjed om å sette seg ned.
+      en: >-
+        Thank you is what you say when someone gives you something. Good night
+        is for bedtime, and sit down is an instruction to take a seat.
+    reviewed: false
+
+  - id: KM13332-02
+    goal: KM13332
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: "Noen spør deg: «What is your name?» Hvilket svar passer?"
+      en: "Someone asks you: “What is your name?” Which answer fits?"
+    choices:
+      - id: a
+        text:
+          nb: "I am fine, thank you."
+          en: "I am fine, thank you."
+      - id: b
+        text:
+          nb: "My name is Ida."
+          en: "My name is Ida."
+        correct: true
+      - id: c
+        text:
+          nb: "It is a cat."
+          en: "It is a cat."
+    explanation:
+      nb: >-
+        Spørsmålet handler om hva du heter, og da svarer vi «My name is …».
+        «I am fine» er svaret på «How are you?».
+      en: >-
+        The question asks what you are called, so the answer starts “My name
+        is …”. “I am fine” answers “How are you?” instead.
+    reviewed: false
+
+  # KM13335 - noticing words shared between English and other languages the
+  # pupil knows.
+  - id: KM13335-01
+    goal: KM13335
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Det engelske ordet «house» ligner på et norsk ord. Hvilket?
+      en: The English word “house” looks like one Norwegian word. Which one?
+    choices:
+      - id: a
+        text:
+          nb: "hest"
+          en: "hest"
+      - id: b
+        text:
+          nb: "hus"
+          en: "hus"
+        correct: true
+      - id: c
+        text:
+          nb: "hage"
+          en: "hage"
+    explanation:
+      nb: >-
+        house og hus høres nesten like ut og betyr det samme. Mange engelske og
+        norske ord er slik i slekt.
+      en: >-
+        house and the Norwegian «hus» sound almost the same and mean the same
+        thing. Many English and Norwegian words are related like this.
+    reviewed: false
+
+  - id: KM13335-02
+    goal: KM13335
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilket engelsk ord ligner mest på det norske ordet «sommer»?
+      en: Which English word looks most like the Norwegian word «sommer»?
+    choices:
+      - id: a
+        text:
+          nb: "winter"
+          en: "winter"
+      - id: b
+        text:
+          nb: "summer"
+          en: "summer"
+        correct: true
+      - id: c
+        text:
+          nb: "morning"
+          en: "morning"
+    explanation:
+      nb: >-
+        summer og sommer skiller seg bare med én bokstav. Når et engelsk ord
+        ligner på et du kan fra før, er det ofte en god hjelp til å gjette
+        betydningen.
+      en: >-
+        summer and «sommer» differ by a single letter. When an English word
+        resembles one you already know, that resemblance often gives away the
+        meaning.
+    reviewed: false
+
+  # KM13336 - listening to, reading and talking about the content of simple
+  # texts. Only the reading half can be checked here.
+  - id: KM13336-01
+    goal: KM13336
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: "Les setningen: «Tom has a red ball.» Hvilken farge har ballen?"
+      en: "Read the sentence: “Tom has a red ball.” What colour is the ball?"
+    choices:
+      - id: a
+        text:
+          nb: "Rød"
+          en: "Red"
+        correct: true
+      - id: b
+        text:
+          nb: "Blå"
+          en: "Blue"
+      - id: c
+        text:
+          nb: "Grønn"
+          en: "Green"
+    explanation:
+      nb: Ordet red står rett foran ball, og red betyr rød.
+      en: The word red comes right before ball, and red is the colour rød.
+    reviewed: false
+
+  - id: KM13336-02
+    goal: KM13336
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: "Les setningen: «The cat is under the table.» Hvor er katten?"
+      en: "Read the sentence: “The cat is under the table.” Where is the cat?"
+    choices:
+      - id: a
+        text:
+          nb: "På bordet"
+          en: "On the table"
+      - id: b
+        text:
+          nb: "Under bordet"
+          en: "Under the table"
+        correct: true
+      - id: c
+        text:
+          nb: "Bak døra"
+          en: "Behind the door"
+    explanation:
+      nb: >-
+        under betyr under. Hadde det stått on the table, ville katten vært oppå
+        bordet.
+      en: >-
+        under tells you the cat is beneath the table. If the sentence said on
+        the table, the cat would be up on top of it.
+    reviewed: false
+
+  # KM13339 - reading and experimenting with writing known words, phrases and
+  # simple sentences. The writing half is not checkable here; recognising
+  # correct spelling and word order is.
+  - id: KM13339-01
+    goal: KM13339
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilket ord er stavet riktig på engelsk?
+      en: Which word is spelled correctly in English?
+    choices:
+      - id: a
+        text:
+          nb: "hous"
+          en: "hous"
+      - id: b
+        text:
+          nb: "howse"
+          en: "howse"
+      - id: c
+        text:
+          nb: "house"
+          en: "house"
+        correct: true
+    explanation:
+      nb: >-
+        house skrives med o, u, s og e til slutt. På engelsk er det ofte flere
+        bokstaver enn lyder i et ord.
+      en: >-
+        house is written with o, u, s and a final e. English words often have
+        more letters than sounds.
+    reviewed: false
+
+  - id: KM13339-02
+    goal: KM13339
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Hvilken setning har ordene i riktig rekkefølge?
+      en: Which sentence has the words in the right order?
+    choices:
+      - id: a
+        text:
+          nb: "I like apples."
+          en: "I like apples."
+        correct: true
+      - id: b
+        text:
+          nb: "Like I apples."
+          en: "Like I apples."
+      - id: c
+        text:
+          nb: "Apples like I."
+          en: "Apples like I."
+    explanation:
+      nb: >-
+        På engelsk kommer den som gjør noe først, så hva hun gjør, og så resten.
+        Derfor blir det I like apples.
+      en: >-
+        In English the one doing something comes first, then what they do, then
+        the rest. That gives I like apples.
+    reviewed: false
+
+  # KM13337 - words and cultural knowledge through English-language children's
+  # literature and children's culture. Kept to songs and rhymes that are part of
+  # ordinary Norwegian English teaching at this age.
+  - id: KM13337-01
+    goal: KM13337
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: "Hvilket ord mangler i barnesangen? «Twinkle, twinkle, little ___»"
+      en: "Which word is missing from the children's song? “Twinkle, twinkle,
+        little ___”"
+    choices:
+      - id: a
+        text:
+          nb: "car"
+          en: "car"
+      - id: b
+        text:
+          nb: "star"
+          en: "star"
+        correct: true
+      - id: c
+        text:
+          nb: "moon"
+          en: "moon"
+    explanation:
+      nb: >-
+        Sangen handler om en stjerne, og star betyr stjerne. star rimer også på
+        car, men det er stjernen som blinker i sangen.
+      en: >-
+        The song is about a star. star also rhymes with car, but it is the star
+        that twinkles.
+    reviewed: false
+
+  - id: KM13337-02
+    goal: KM13337
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: I sangen «Old MacDonald Had a Farm» er det et dyr som sier «moo». Hvilket
+        dyr er det?
+      en: In the song “Old MacDonald Had a Farm” one animal says “moo”. Which
+        animal is it?
+    choices:
+      - id: a
+        text:
+          nb: "a cow"
+          en: "a cow"
+        correct: true
+      - id: b
+        text:
+          nb: "a duck"
+          en: "a duck"
+      - id: c
+        text:
+          nb: "a pig"
+          en: "a pig"
+    explanation:
+      nb: >-
+        cow betyr ku, og kua sier moo i sangen. Anda (duck) sier quack, og
+        grisen (pig) sier oink.
+      en: >-
+        cow is the animal that says moo in the song. The duck says quack and the
+        pig says oink.
+    reviewed: false
+
+# Goals that no written question can honestly test. At this checkpoint most of
+# the subject lives in the ear and the mouth, so this list is long by design.
+not_assessable:
+  - goal: KM13338
+    reason: >-
+      Asks the pupil to use digital resources to experience the language through
+      authentic language models and conversation partners. It names a way of
+      working with English, not knowledge; a question could only ask whether the
+      pupil had done the activity, which is the teacher's observation to make.
+
+  - goal: KM13329
+    reason: >-
+      Asks the pupil to listen to and recognise speech sounds and syllables in
+      words. Recognition happens by ear. A written question would show the
+      pupil the letters instead, which turns a listening task into a reading
+      task and tests the wrong thing.
+
+  - goal: KM13331
+    reason: >-
+      Asks the pupil to listen to and explore the English alphabet and
+      pronunciation patterns through play and song. Both the activity and what
+      it produces are spoken and heard; a quiz on paper cannot reach either, and
+      pronunciation is explicitly not something we test.
+
+  - goal: KM13333
+    reason: >-
+      Asks the pupil to take part in rehearsed dialogues and spontaneous
+      conversations about their own needs, feelings, daily life and interests.
+      Participation is the whole goal. A question could at best check that the
+      pupil recognises a phrase, which is not the same as being able to use it
+      with another person.

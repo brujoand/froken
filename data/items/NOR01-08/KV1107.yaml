@@ -1,0 +1,379 @@
+# Norsk, kompetansemål etter 2. trinn (NOR01-08 / KV1107).
+#
+# Written for 6-7-åringer som så vidt har begynt å lese. Prompts are kept to one
+# short sentence, and almost every item is multiple choice.
+#
+# Most goals in this set describe things the pupil *does* — listens, talks,
+# draws, writes by hand, borrows books. Those are recorded under not_assessable
+# rather than faked with an adjacent question.
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+---
+subject: NOR01-08
+goal_set: KV1107
+
+items:
+  - id: KM14145-01
+    goal: KM14145
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva rimer på hus?
+      en: Which word rhymes with "hus" (house)?
+    choices:
+      - id: a
+        text:
+          nb: Mus
+          en: Mus (mouse)
+        correct: true
+      - id: b
+        text:
+          nb: Hund
+          en: Hund (dog)
+      - id: c
+        text:
+          nb: Sol
+          en: Sol (sun)
+    explanation:
+      nb: Hus og mus slutter likt, på -us. Da rimer de.
+      en: >-
+        "Hus" and "mus" end with the same sound, -us, so they rhyme.
+    reviewed: false
+
+  - id: KM14145-02
+    goal: KM14145
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvor mange stavelser har ordet sykkel?
+      en: How many syllables does "sykkel" (bicycle) have?
+    choices:
+      - id: a
+        text:
+          nb: "1"
+          en: "1"
+      - id: b
+        text:
+          nb: "2"
+          en: "2"
+        correct: true
+      - id: c
+        text:
+          nb: "3"
+          en: "3"
+    explanation:
+      nb: Vi klapper ordet syk-kel. Det blir to klapp, altså to stavelser.
+      en: Clap the word syk-kel. That is two claps, so two syllables.
+    reviewed: false
+
+  - id: KM14145-03
+    goal: KM14145
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilket ord begynner med lyden m?
+      en: Which word starts with the sound m?
+    choices:
+      - id: a
+        text:
+          nb: Sol
+          en: Sol (sun)
+      - id: b
+        text:
+          nb: Katt
+          en: Katt (cat)
+      - id: c
+        text:
+          nb: Måne
+          en: Måne (moon)
+        correct: true
+    explanation:
+      nb: Måne starter med m. Sol starter med s, og katt starter med k.
+      en: >-
+        "Måne" starts with m. "Sol" starts with s and "katt" starts with k.
+    reviewed: false
+
+  - id: KM14146-01
+    goal: KM14146
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Trekk lydene sammen. s - o - l. Hvilket ord blir det?
+      en: Blend the sounds. s - o - l. Which word is it?
+    choices:
+      - id: a
+        text:
+          nb: Sol
+          en: Sol (sun)
+        correct: true
+      - id: b
+        text:
+          nb: Los
+          en: Los (pilot)
+      - id: c
+        text:
+          nb: Ost
+          en: Ost (cheese)
+    explanation:
+      nb: Lydene kommer i rekkefølgen s, o, l. Da blir ordet sol.
+      en: The sounds come in the order s, o, l, which makes the word "sol".
+    reviewed: false
+
+  - id: KM14146-02
+    goal: KM14146
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Trekk lydene sammen. m - a - t. Hvilket ord blir det?
+      en: Blend the sounds. m - a - t. Which word is it?
+    choices:
+      - id: a
+        text:
+          nb: Tam
+          en: Tam (tame)
+      - id: b
+        text:
+          nb: Mat
+          en: Mat (food)
+        correct: true
+      - id: c
+        text:
+          nb: Matt
+          en: Matt (weak)
+    explanation:
+      nb: Vi tar lydene i tur og orden, m, a, t. Da blir ordet mat.
+      en: Take the sounds in order, m, a, t, and the word is "mat".
+    reviewed: false
+
+  - id: KM14140-01
+    goal: KM14140
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Per har en rød ball. Hvilken farge har ballen?
+      en: Per has a red ball. What colour is the ball?
+    choices:
+      - id: a
+        text:
+          nb: Blå
+          en: Blue
+      - id: b
+        text:
+          nb: Rød
+          en: Red
+        correct: true
+      - id: c
+        text:
+          nb: Grønn
+          en: Green
+    explanation:
+      nb: Det står rød ball i setningen. Svaret står rett i teksten.
+      en: The sentence says "rød ball". The answer is right there in the text.
+    reviewed: false
+
+  - id: KM14140-02
+    goal: KM14140
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: En bok heter Dyr i skogen. Hva handler den om?
+      en: A book is called "Dyr i skogen" (Animals in the forest). What is it
+        about?
+    choices:
+      - id: a
+        text:
+          nb: Dyr som bor i skogen
+          en: Animals that live in the forest
+        correct: true
+      - id: b
+        text:
+          nb: Biler
+          en: Cars
+      - id: c
+        text:
+          nb: Å bake brød
+          en: Baking bread
+    explanation:
+      nb: Tittelen sier hva boka handler om. Å lese tittelen først er et godt
+        lesetriks.
+      en: The title tells you what the book is about. Reading the title first is
+        a good reading trick.
+    reviewed: false
+
+  - id: KM14144-01
+    goal: KM14144
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvilket tegn setter vi etter et spørsmål?
+      en: Which mark do we put after a question?
+    choices:
+      - id: a
+        text:
+          nb: Punktum
+          en: Full stop
+      - id: b
+        text:
+          nb: Spørsmålstegn
+          en: Question mark
+        correct: true
+      - id: c
+        text:
+          nb: Utropstegn
+          en: Exclamation mark
+    explanation:
+      nb: Spørsmålstegnet viser at noen spør om noe. Punktum avslutter en vanlig
+        setning.
+      en: A question mark shows that someone is asking something. A full stop
+        ends an ordinary sentence.
+    reviewed: false
+
+  - id: KM14144-02
+    goal: KM14144
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Her står det ola har en hund. Hvilket ord skal ha stor bokstav?
+      en: Here it says "ola har en hund". Which word needs a capital letter?
+    choices:
+      - id: a
+        text:
+          nb: ola
+          en: ola
+        correct: true
+      - id: b
+        text:
+          nb: har
+          en: har
+      - id: c
+        text:
+          nb: hund
+          en: hund
+    explanation:
+      nb: Ola er et navn, og navn skal ha stor bokstav. Ordet står også først i
+        setningen.
+      en: >-
+        "Ola" is a name, and names take a capital letter. It is also the first
+        word in the sentence.
+    reviewed: false
+
+  - id: KM14148-01
+    goal: KM14148
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Ordet snømann er satt sammen av to ord. Hvilke?
+      en: The word "snømann" is made of two words. Which ones?
+    choices:
+      - id: a
+        text:
+          nb: Snø og mann
+          en: Snø (snow) and mann (man)
+        correct: true
+      - id: b
+        text:
+          nb: Snø og hus
+          en: Snø (snow) and hus (house)
+      - id: c
+        text:
+          nb: Sol og mann
+          en: Sol (sun) and mann (man)
+    explanation:
+      nb: Vi kan dele ordet i snø og mann. Mange norske ord er satt sammen av to
+        små ord.
+      en: The word splits into "snø" and "mann". Many Norwegian words are two
+        small words joined together.
+    reviewed: false
+
+  - id: KM14148-02
+    goal: KM14148
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva betyr ordet kald?
+      en: What does the word "kald" mean?
+    choices:
+      - id: a
+        text:
+          nb: Ikke varm
+          en: Not warm
+        correct: true
+      - id: b
+        text:
+          nb: Veldig stor
+          en: Very big
+      - id: c
+        text:
+          nb: Veldig rask
+          en: Very fast
+    explanation:
+      nb: Kald er det motsatte av varm. Snø og is er kalde.
+      en: >-
+        "Kald" is the opposite of warm. Snow and ice are cold.
+    reviewed: false
+
+# Goals that no written question can honestly test. Most of this goal set is
+# about doing: talking, listening, drawing, writing by hand, visiting the
+# library. Recorded here rather than faked with an adjacent question.
+not_assessable:
+  - goal: KM14139
+    reason: >-
+      Asks the pupil to listen to and talk about fiction and non-fiction in both
+      bokmål and nynorsk. Both halves are oral and happen with a teacher and a
+      class; a written question could only check whether a text had been read,
+      not whether the pupil listened and took part in the conversation.
+
+  - goal: KM14151
+    reason: >-
+      Asks the pupil to borrow and read books from the library. This is a habit
+      formed over time and observed by a teacher or a parent, not knowledge a
+      quiz can check. Asking about library rules would test something else
+      entirely.
+
+  - goal: KM14141
+    reason: >-
+      Asks the pupil to express what they got out of a text through play, song,
+      drawing, writing and other creative activity. The whole goal is
+      production, and none of it survives being turned into a question with one
+      correct answer.
+
+  - goal: KM14149
+    reason: >-
+      Asks the pupil to talk about and describe how the words we use can affect
+      other people. This is a conversation about the pupil's own experience and
+      judgement, and there is no single correct answer that a quiz may award a
+      mark for.
+
+  - goal: KM14142
+    reason: >-
+      Asks the pupil to listen, take turns speaking and give reasons for their
+      own opinions in conversation. Turn-taking is observable only in a real
+      conversation, and the pupil's own opinions are theirs, not something a
+      quiz scores.
+
+  - goal: KM14143
+    reason: >-
+      Asks the pupil to describe and tell, orally and in writing. A pupil this
+      age is only just beginning to write, and the goal is about producing text
+      and speech, which a multiple-choice question cannot elicit.
+
+  - goal: KM14147
+    reason: >-
+      Asks the pupil to write texts by hand and with a keyboard. Handwriting and
+      keyboard use are physical skills, and nothing about them can be seen in
+      the answer to a quiz question.
+
+  - goal: KM14152
+    reason: >-
+      Asks the pupil to make texts that combine writing with pictures. This is a
+      creative product the pupil makes; a quiz can neither prompt it nor judge
+      it.
+
+  - goal: KM14150
+    reason: >-
+      Asks the pupil to explore their own spoken language and talk about
+      differences and similarities between speech and writing. Dialects vary
+      across Norway and every pupil's own speech is correct, so there is no
+      single right answer here — and the exploring and the talking are both done
+      aloud.

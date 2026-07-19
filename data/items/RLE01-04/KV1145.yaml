@@ -1,0 +1,1244 @@
+# KRLE, kompetansemål etter 10. trinn (RLE01-04 / KV1145).
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+#
+# KRLE is taught to pupils of every faith and none, and these items are written
+# on that assumption. They test knowledge *about* religions, worldviews and
+# philosophical positions -- what a tradition holds, what a thinker argued, what
+# a term means -- and never adherence, belief, or what the pupil thinks is right.
+# Where a goal's substance is the pupil's own reflection, discussion or conduct,
+# it is recorded under not_assessable instead.
+---
+subject: RLE01-04
+goal_set: KV1145
+
+items:
+  # KM14612 -- sentrale trekk ved religions- og livssynstradisjoner og utbredelse
+  - id: KM14612-01
+    goal: KM14612
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvilken religion har flest tilhengere i verden i dag?
+      en: Which religion has the most adherents in the world today?
+    choices:
+      - id: a
+        text:
+          nb: Kristendom
+          en: Christianity
+        correct: true
+      - id: b
+        text:
+          nb: Hinduisme
+          en: Hinduism
+      - id: c
+        text:
+          nb: Buddhisme
+          en: Buddhism
+      - id: d
+        text:
+          nb: Jødedom
+          en: Judaism
+    explanation:
+      nb: >-
+        Kristendommen er den største religionen i verden med rundt 2,4
+        milliarder tilhengere. Islam er nest størst med rundt 1,9 milliarder.
+        Hinduismen er tredje størst, mens jødedommen er en av de minste
+        verdensreligionene i antall.
+      en: >-
+        Christianity is the world's largest religion, with around 2.4 billion
+        adherents. Islam is second with around 1.9 billion, and Hinduism third.
+        Judaism is one of the smallest of the world religions by numbers.
+    reviewed: false
+
+  - id: KM14612-02
+    goal: KM14612
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Sikhismen ble grunnlagt i Punjab-området rundt år 1500. Hva heter den
+        første guruen i sikhismen?
+      en: >-
+        Sikhism was founded in the Punjab region around the year 1500. What is
+        the name of the first Guru of Sikhism?
+    choices:
+      - id: a
+        text:
+          nb: Guru Nanak
+          en: Guru Nanak
+        correct: true
+      - id: b
+        text:
+          nb: Siddharta Gautama
+          en: Siddhartha Gautama
+      - id: c
+        text:
+          nb: Zarathustra
+          en: Zoroaster
+    explanation:
+      nb: >-
+        Guru Nanak (1469-1539) regnes som den første av sikhismens ti guruer.
+        Siddharta Gautama er buddhismens grunnlegger, og Zarathustra grunnla
+        zoroastrismen i det gamle Persia.
+      en: >-
+        Guru Nanak (1469-1539) is counted as the first of Sikhism's ten Gurus.
+        Siddhartha Gautama founded Buddhism, and Zoroaster founded
+        Zoroastrianism in ancient Persia.
+    reviewed: false
+
+  - id: KM14612-03
+    goal: KM14612
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilken av islams fem søyler handler om faste?
+      en: Which of the five pillars of Islam concerns fasting?
+    choices:
+      - id: a
+        text:
+          nb: Sawm
+          en: Sawm
+        correct: true
+      - id: b
+        text:
+          nb: Zakat
+          en: Zakat
+      - id: c
+        text:
+          nb: Hajj
+          en: Hajj
+    explanation:
+      nb: >-
+        Sawm er fasten i måneden ramadan. Zakat er den årlige gaven til
+        fellesskapet, og hajj er pilegrimsreisen til Mekka. De to andre søylene
+        er trosbekjennelsen (shahada) og bønnen (salat).
+      en: >-
+        Sawm is the fast during the month of Ramadan. Zakat is the yearly gift
+        to the community, and hajj is the pilgrimage to Mecca. The other two
+        pillars are the declaration of faith (shahada) and prayer (salat).
+    reviewed: false
+
+  # KM14623 -- religion i historiske endringsprosesser
+  - id: KM14623-01
+    goal: KM14623
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        I hvilket år ble reformasjonen innført i Norge, slik at landet gikk fra
+        katolsk til luthersk kirke?
+      en: >-
+        In which year was the Reformation introduced in Norway, moving the
+        country from a Catholic to a Lutheran church?
+    choices:
+      - id: a
+        text:
+          nb: "1349"
+          en: "1349"
+      - id: b
+        text:
+          nb: "1537"
+          en: "1537"
+        correct: true
+      - id: c
+        text:
+          nb: "1814"
+          en: "1814"
+    explanation:
+      nb: >-
+        Reformasjonen ble innført i Norge i 1537 av kongen i København.
+        1349 er året svartedauden kom til Norge, og 1814 er året Norge fikk
+        sin egen grunnlov.
+      en: >-
+        The Reformation was imposed on Norway in 1537 by the king in
+        Copenhagen. 1349 is the year the Black Death reached Norway, and 1814
+        is the year Norway got its own constitution.
+    reviewed: false
+
+  - id: KM14623-02
+    goal: KM14623
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: >-
+        Grunnloven av 1814 hadde en paragraf som nektet jøder adgang til riket.
+        Denne "jødeparagrafen" ble opphevet i 1851. Hvem arbeidet særlig for at
+        den skulle fjernes?
+      en: >-
+        The Norwegian constitution of 1814 contained a clause barring Jews from
+        the realm. This clause was repealed in 1851. Who campaigned especially
+        hard for its removal?
+    choices:
+      - id: a
+        text:
+          nb: Henrik Wergeland
+          en: Henrik Wergeland
+        correct: true
+      - id: b
+        text:
+          nb: Henrik Ibsen
+          en: Henrik Ibsen
+      - id: c
+        text:
+          nb: Hans Nielsen Hauge
+          en: Hans Nielsen Hauge
+    explanation:
+      nb: >-
+        Dikteren Henrik Wergeland kjempet i mange år for å oppheve
+        jødeparagrafen, men døde i 1845, seks år før Stortinget vedtok
+        endringen. Hans Nielsen Hauge var lekmannspredikant på begynnelsen av
+        1800-tallet, og Ibsen var dramatiker senere i århundret.
+      en: >-
+        The poet Henrik Wergeland campaigned for years to repeal the clause,
+        but died in 1845, six years before parliament passed the change. Hans
+        Nielsen Hauge was a lay preacher in the early 1800s, and Ibsen was a
+        playwright later in the century.
+    reviewed: false
+
+  # KM14624 -- livssynshumanisme og andre ikke-religiøse livssyn
+  - id: KM14624-01
+    goal: KM14624
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: >-
+        Hva er et sentralt kjennetegn ved livssynshumanismen slik den
+        presenteres av Human-Etisk Forbund?
+      en: >-
+        What is a central feature of secular humanism as presented by the
+        Norwegian Humanist Association?
+    choices:
+      - id: a
+        text:
+          nb: >-
+            At mennesker selv må finne mening og sette etiske normer, uten å
+            bygge på en gud eller åpenbaring
+          en: >-
+            That humans must find meaning and set ethical norms themselves,
+            without basing them on a god or a revelation
+        correct: true
+      - id: b
+        text:
+          nb: At etikk bare kan begrunnes i hellige skrifter
+          en: That ethics can only be grounded in sacred scriptures
+      - id: c
+        text:
+          nb: At mennesket ikke har noen fri vilje
+          en: That human beings have no free will
+    explanation:
+      nb: >-
+        Livssynshumanismen er et ikke-religiøst livssyn. Den bygger på
+        menneskelig erfaring, fornuft og vitenskap i stedet for på en gud, og
+        legger vekt på at mennesker har ansvar for hverandre og for verden.
+      en: >-
+        Secular humanism is a non-religious worldview. It builds on human
+        experience, reason and science rather than on a god, and stresses that
+        people have a responsibility for one another and for the world.
+    reviewed: false
+
+  - id: KM14624-02
+    goal: KM14624
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva betyr det at en person er agnostiker?
+      en: What does it mean that a person is an agnostic?
+    choices:
+      - id: a
+        text:
+          nb: >-
+            At personen mener det ikke er mulig å vite om det finnes en gud
+            eller ikke
+          en: >-
+            That the person holds it is not possible to know whether a god
+            exists or not
+        correct: true
+      - id: b
+        text:
+          nb: At personen er sikker på at det ikke finnes noen gud
+          en: That the person is certain no god exists
+      - id: c
+        text:
+          nb: At personen tror på flere guder
+          en: That the person believes in several gods
+    explanation:
+      nb: >-
+        Agnostisisme handler om kunnskap: en agnostiker mener spørsmålet om
+        Guds eksistens ikke lar seg avgjøre. Den som er sikker på at ingen gud
+        finnes, kalles ateist, og den som tror på flere guder, er polyteist.
+      en: >-
+        Agnosticism is about knowledge: an agnostic holds that the question of
+        God's existence cannot be settled. Someone certain that no god exists
+        is called an atheist, and someone who believes in several gods is a
+        polytheist.
+    reviewed: false
+
+  # KM14613 -- religiøsitet utenfor etablerte religionssamfunn
+  - id: KM14613-01
+    goal: KM14613
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Hva bruker religionsvitere ofte begrepet nyreligiøsitet om?
+      en: >-
+        What do scholars of religion typically use the term "new religiosity"
+        about?
+    choices:
+      - id: a
+        text:
+          nb: >-
+            Religiøse ideer og praksiser som ofte settes sammen individuelt og
+            uten tilknytning til et etablert trossamfunn
+          en: >-
+            Religious ideas and practices often assembled individually and
+            without ties to an established religious community
+        correct: true
+      - id: b
+        text:
+          nb: Nye menigheter som er startet innenfor Den norske kirke
+          en: New congregations started within the Church of Norway
+      - id: c
+        text:
+          nb: Religioner som er yngre enn hundre år, uansett organisering
+          en: Any religion less than a hundred years old, however it is organised
+    explanation:
+      nb: >-
+        Nyreligiøsitet beskriver et mangfoldig felt der enkeltmennesker
+        kombinerer ideer fra ulike kilder, for eksempel healing, astrologi
+        eller meditasjon, gjerne uten medlemskap noe sted. Alderen på ideene
+        er ikke det avgjørende; mange av dem er svært gamle.
+      en: >-
+        New religiosity describes a diverse field in which individuals combine
+        ideas from several sources, such as healing, astrology or meditation,
+        often without membership anywhere. The age of the ideas is not what
+        defines it; many of them are very old.
+    reviewed: false
+
+  - id: KM14613-02
+    goal: KM14613
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: >-
+        I norsk religionsstatistikk brukes uttrykket "tro uten tilhørighet".
+        Hva beskriver det?
+      en: >-
+        Norwegian statistics on religion use the expression "believing without
+        belonging". What does it describe?
+    choices:
+      - id: a
+        text:
+          nb: >-
+            Mennesker som har religiøse forestillinger, men ikke er medlem av
+            noe trossamfunn
+          en: >-
+            People who hold religious beliefs but are not members of any
+            religious community
+        correct: true
+      - id: b
+        text:
+          nb: >-
+            Mennesker som er medlem av et trossamfunn, men ikke tror på noe av
+            det
+          en: >-
+            People who are members of a religious community but believe none
+            of it
+      - id: c
+        text:
+          nb: Mennesker som bytter trossamfunn flere ganger i livet
+          en: People who change religious community several times in life
+    explanation:
+      nb: >-
+        Uttrykket peker på at medlemstall ikke forteller hele historien. En del
+        mennesker har religiøse forestillinger eller praksiser uten å tilhøre
+        en organisasjon, og noen er medlemmer uten å praktisere. Derfor må
+        statistikk over trossamfunn leses med forsiktighet.
+      en: >-
+        The expression points out that membership figures do not tell the whole
+        story. Some people hold religious beliefs or practices without
+        belonging to an organisation, and some are members without practising.
+        Membership statistics must therefore be read with care.
+    reviewed: false
+
+  # KM14614 -- samiske og andre urfolks religions- og livssynstradisjoner
+  - id: KM14614-01
+    goal: KM14614
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        I førkristen samisk religion hadde noaiden en sentral rolle. Hva var
+        noaidens oppgave?
+      en: >-
+        In pre-Christian Sami religion the noaidi held a central role. What was
+        the noaidi's task?
+    choices:
+      - id: a
+        text:
+          nb: >-
+            Å være et bindeledd mellom menneskene og åndeverdenen, blant annet
+            ved å helbrede og gi råd
+          en: >-
+            To act as a link between people and the spirit world, including
+            healing and giving counsel
+        correct: true
+      - id: b
+        text:
+          nb: Å lede reinflokken under flyttingen mellom årstidsbeitene
+          en: To lead the reindeer herd between the seasonal pastures
+      - id: c
+        text:
+          nb: Å kreve inn skatt fra samiske familier på vegne av kongen
+          en: To collect taxes from Sami families on behalf of the king
+    explanation:
+      nb: >-
+        Noaiden var den religiøse spesialisten i samisk førkristen religion og
+        formidlet mellom menneskene og åndeverdenen. Runebomma (gievrie) ble
+        brukt i dette arbeidet. Fra 1600-tallet ble noaider forfulgt av
+        myndighetene og kirken, og mange trommer ble brent eller beslaglagt.
+      en: >-
+        The noaidi was the religious specialist in pre-Christian Sami religion,
+        mediating between people and the spirit world. The drum (gievrie) was
+        used in this work. From the 1600s noaidis were persecuted by the
+        authorities and the church, and many drums were burned or confiscated.
+    reviewed: false
+
+  - id: KM14614-02
+    goal: KM14614
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva er en sieidi i samisk religionshistorie?
+      en: What is a sieidi in Sami religious history?
+    choices:
+      - id: a
+        text:
+          nb: En hellig stein eller naturformasjon der man ga offergaver
+          en: A sacred stone or rock formation where offerings were given
+        correct: true
+      - id: b
+        text:
+          nb: En fortelling om hvordan verden ble til
+          en: A story about how the world came into being
+      - id: c
+        text:
+          nb: En sang som framføres på samisk språk
+          en: A song performed in the Sami language
+    explanation:
+      nb: >-
+        En sieidi er et hellig sted i landskapet, ofte en stein eller
+        bergformasjon, knyttet til offer og til bestemte slekter eller
+        områder. Mange sieidi-steder er kjent og respektert den dag i dag.
+        Sangen du kanskje tenkte på, heter joik.
+      en: >-
+        A sieidi is a sacred place in the landscape, often a stone or rock
+        formation, connected to offerings and to particular families or areas.
+        Many sieidi sites are known and respected to this day. The song you may
+        have thought of is called a joik.
+    reviewed: false
+
+  - id: KM14614-03
+    goal: KM14614
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: >-
+        Læstadianismen er en kristen vekkelsesbevegelse med sterk stilling i
+        nordlige samiske områder. Hvem er den oppkalt etter?
+      en: >-
+        Laestadianism is a Christian revival movement with a strong position in
+        northern Sami areas. Who is it named after?
+    choices:
+      - id: a
+        text:
+          nb: Lars Levi Læstadius, en svensk-samisk prest på 1800-tallet
+          en: Lars Levi Laestadius, a Swedish-Sami priest of the 1800s
+        correct: true
+      - id: b
+        text:
+          nb: Elsa Laula Renberg, en samisk politisk pioner
+          en: Elsa Laula Renberg, a Sami political pioneer
+      - id: c
+        text:
+          nb: Isak Saba, den første samiske stortingsrepresentanten
+          en: Isak Saba, the first Sami member of the Norwegian parliament
+    explanation:
+      nb: >-
+        Lars Levi Læstadius (1800-1861) var prest i Sverige og hadde samisk
+        mor. Vekkelsen etter ham spredte seg i Nordkalotten og forkynte blant
+        annet på samisk og finsk. Elsa Laula Renberg og Isak Saba var samiske
+        politiske pionerer på 1900-tallet.
+      en: >-
+        Lars Levi Laestadius (1800-1861) was a priest in Sweden with a Sami
+        mother. The revival that followed him spread across the North Calotte
+        and preached in Sami and Finnish among other languages. Elsa Laula
+        Renberg and Isak Saba were Sami political pioneers of the 1900s.
+    reviewed: false
+
+  # KM14616 -- fagbegreper om religioner og livssyn
+  - id: KM14616-01
+    goal: KM14616
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva betyr fagbegrepet monoteisme?
+      en: What does the term monotheism mean?
+    choices:
+      - id: a
+        text:
+          nb: Troen på én gud
+          en: The belief in one god
+        correct: true
+      - id: b
+        text:
+          nb: Troen på mange guder
+          en: The belief in many gods
+      - id: c
+        text:
+          nb: Troen på at guddommen finnes i alt som er
+          en: The belief that the divine is present in everything that exists
+    explanation:
+      nb: >-
+        Mono betyr én og teos betyr gud. Troen på mange guder heter polyteisme,
+        og synet på at det guddommelige finnes i alt, kalles panteisme.
+      en: >-
+        "Mono" means one and "theos" means god. Belief in many gods is called
+        polytheism, and the view that the divine is present in everything is
+        called pantheism.
+    reviewed: false
+
+  - id: KM14616-02
+    goal: KM14616
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva mener religionsvitere vanligvis med sekularisering?
+      en: What do scholars of religion usually mean by secularisation?
+    choices:
+      - id: a
+        text:
+          nb: >-
+            At religion får mindre innflytelse over samfunnsinstitusjoner og
+            offentlig liv
+          en: >-
+            That religion comes to have less influence over social institutions
+            and public life
+        correct: true
+      - id: b
+        text:
+          nb: At en religion sprer seg til nye land
+          en: That a religion spreads to new countries
+      - id: c
+        text:
+          nb: At en religion deler seg i flere retninger
+          en: That a religion splits into several branches
+    explanation:
+      nb: >-
+        Sekularisering beskriver at religionen mister posisjoner i skole,
+        rettsvesen, politikk og offentlighet. Det er ikke det samme som at
+        enkeltmennesker slutter å tro. At en religion deler seg i retninger,
+        kalles gjerne konfesjonsdannelse eller skisma.
+      en: >-
+        Secularisation describes religion losing ground in schooling, law,
+        politics and public life. It is not the same as individuals ceasing to
+        believe. A religion splitting into branches is usually called
+        denominational division or schism.
+    reviewed: false
+
+  - id: KM14616-03
+    goal: KM14616
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: >-
+        Religionsvitere skiller mellom ortodoksi og ortopraksi. Hva legger de
+        vekt på med ortopraksi?
+      en: >-
+        Scholars of religion distinguish orthodoxy from orthopraxy. What does
+        orthopraxy emphasise?
+    choices:
+      - id: a
+        text:
+          nb: At det er den rette handlingen og praksisen som står i sentrum
+          en: That correct action and practice are what stand at the centre
+        correct: true
+      - id: b
+        text:
+          nb: At det er den rette læren og troen som står i sentrum
+          en: That correct doctrine and belief are what stand at the centre
+      - id: c
+        text:
+          nb: At det er den eldste utgaven av et hellig skrift som gjelder
+          en: That the oldest version of a sacred text is the authoritative one
+    explanation:
+      nb: >-
+        Orto betyr rett. Ortodoksi handler om rett lære, ortopraksi om rett
+        praksis. Begrepene er verktøy for å beskrive hva en tradisjon
+        vektlegger, ikke en rangering av hvilken tradisjon som er best.
+      en: >-
+        "Ortho" means correct. Orthodoxy concerns correct doctrine, orthopraxy
+        correct practice. The terms are tools for describing what a tradition
+        emphasises, not a ranking of which tradition is better.
+    reviewed: false
+
+  # KM14617 -- kilder til kunnskap om religioner og livssyn
+  - id: KM14617-01
+    goal: KM14617
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Du skal finne ut hva et trossamfunn selv lærer. Hvilken av disse er en
+        primærkilde?
+      en: >-
+        You want to find out what a religious community itself teaches. Which
+        of these is a primary source?
+    choices:
+      - id: a
+        text:
+          nb: Trossamfunnets egen trosbekjennelse
+          en: The community's own statement of faith
+        correct: true
+      - id: b
+        text:
+          nb: En avisartikkel som oppsummerer hva trossamfunnet lærer
+          en: A newspaper article summarising what the community teaches
+      - id: c
+        text:
+          nb: En lærebok i KRLE som beskriver trossamfunnet
+          en: A KRLE textbook describing the community
+    explanation:
+      nb: >-
+        En primærkilde kommer fra kilden selv. Avisartikkelen og læreboka er
+        sekundærkilder: de gjengir og tolker. Begge deler er nyttige, men de
+        svarer på ulike spørsmål, og en primærkilde er heller ikke nøytral -
+        den forteller hva et trossamfunn ønsker å si om seg selv.
+      en: >-
+        A primary source comes from the source itself. The newspaper article
+        and the textbook are secondary sources: they retell and interpret. Both
+        are useful, but they answer different questions, and a primary source
+        is not neutral either - it says what a community wishes to say about
+        itself.
+    reviewed: false
+
+  - id: KM14617-02
+    goal: KM14617
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: >-
+        I religionsfaget skilles det mellom innenfraperspektiv og
+        utenfraperspektiv. Hva kjennetegner et utenfraperspektiv?
+      en: >-
+        Religious studies distinguishes an insider perspective from an outsider
+        perspective. What characterises an outsider perspective?
+    choices:
+      - id: a
+        text:
+          nb: >-
+            At religionen beskrives og analyseres uten at forskeren tar
+            stilling til om troen er sann
+          en: >-
+            The religion is described and analysed without the researcher
+            taking a position on whether the belief is true
+        correct: true
+      - id: b
+        text:
+          nb: At religionen beskrives slik en troende selv opplever den
+          en: The religion is described as a believer experiences it
+      - id: c
+        text:
+          nb: At religionen beskrives av noen som mener den er feil
+          en: The religion is described by someone who thinks it is wrong
+    explanation:
+      nb: >-
+        Utenfraperspektivet er religionsvitenskapens arbeidsmåte: den beskriver
+        hva mennesker tror og gjør, uten å avgjøre om det er sant. Det er ikke
+        det samme som å være kritisk eller negativ. Innenfraperspektivet er
+        beskrivelsen slik den troende selv erfarer den, og begge trengs for et
+        helt bilde.
+      en: >-
+        The outsider perspective is how religious studies works: it describes
+        what people believe and do without ruling on whether it is true. That
+        is not the same as being critical or negative. The insider perspective
+        is the description as the believer experiences it, and both are needed
+        for a full picture.
+    reviewed: false
+
+  # KM14615 -- syn på kjønn og seksualitet
+  - id: KM14615-01
+    goal: KM14615
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Kirkemøtet i Den norske kirke vedtok en vigselsliturgi som gjør at
+        likekjønnede par kan gifte seg i kirken. I hvilket år ble den tatt i
+        bruk?
+      en: >-
+        The General Synod of the Church of Norway adopted a marriage liturgy
+        allowing same-sex couples to marry in church. In which year did it come
+        into use?
+    choices:
+      - id: a
+        text:
+          nb: "1997"
+          en: "1997"
+      - id: b
+        text:
+          nb: "2017"
+          en: "2017"
+        correct: true
+      - id: c
+        text:
+          nb: "2023"
+          en: "2023"
+    explanation:
+      nb: >-
+        Liturgien ble vedtatt av Kirkemøtet i januar 2017 og tatt i bruk samme
+        år. Kirkemøtet slo samtidig fast at det finnes to syn på dette
+        spørsmålet i kirken, og at begge kan komme til uttrykk. Andre kristne
+        kirkesamfunn i Norge har gjort andre vedtak.
+      en: >-
+        The liturgy was adopted by the General Synod in January 2017 and came
+        into use the same year. The Synod also stated that two views on this
+        question exist within the church and that both may be voiced. Other
+        Christian denominations in Norway have decided differently.
+    reviewed: false
+
+  - id: KM14615-02
+    goal: KM14615
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: >-
+        Når religionsvitere studerer synet på kjønn og seksualitet i en
+        religion, hva finner de vanligvis?
+      en: >-
+        When scholars of religion study views on gender and sexuality within a
+        religion, what do they usually find?
+    choices:
+      - id: a
+        text:
+          nb: >-
+            At det finnes flere ulike syn innenfor samme religion, og at de har
+            endret seg over tid
+          en: >-
+            That several different views exist within the same religion, and
+            that they have changed over time
+        correct: true
+      - id: b
+        text:
+          nb: >-
+            At hver religion har nøyaktig ett syn som alle tilhengere deler
+          en: >-
+            That each religion has exactly one view shared by all its adherents
+      - id: c
+        text:
+          nb: >-
+            At spørsmålet er uten betydning i religiøse tradisjoner
+          en: >-
+            That the question is of no importance in religious traditions
+    explanation:
+      nb: >-
+        Store religioner rommer mange retninger, land og tidsepoker, og synet
+        på kjønn og seksualitet varierer mellom dem og har endret seg gjennom
+        historien. Derfor er det upresist å si "hva religionen X mener" som om
+        det var ett svar. Spørsmålet er tvert imot mye diskutert i mange
+        tradisjoner.
+      en: >-
+        Large religions span many branches, countries and eras, and views on
+        gender and sexuality vary between them and have changed through
+        history. Saying "what religion X thinks" as if there were one answer is
+        therefore imprecise. On the contrary, the question is much debated
+        within many traditions.
+    reviewed: false
+
+  # KM14622 -- religion i medier og populærkultur
+  - id: KM14622-01
+    goal: KM14622
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: >-
+        Marvel-filmene om Thor og Loke henter figurene sine fra en gammel
+        religiøs tradisjon. Hvilken?
+      en: >-
+        The Marvel films about Thor and Loki take their characters from an old
+        religious tradition. Which one?
+    choices:
+      - id: a
+        text:
+          nb: Norrøn religion
+          en: Norse religion
+        correct: true
+      - id: b
+        text:
+          nb: Gresk religion
+          en: Greek religion
+      - id: c
+        text:
+          nb: Egyptisk religion
+          en: Egyptian religion
+    explanation:
+      nb: >-
+        Tor, Odin og Loke er guder og vetter fra norrøn religion, kjent fra
+        blant annet Edda-diktningen. Filmene endrer mye på fortellingene, så de
+        er populærkultur og ikke en kilde til hva folk faktisk trodde i
+        vikingtiden.
+      en: >-
+        Thor, Odin and Loki are gods and beings from Norse religion, known from
+        the Eddas among other sources. The films change the stories a great
+        deal, so they are popular culture and not a source for what people
+        actually believed in the Viking Age.
+    reviewed: false
+
+  - id: KM14622-02
+    goal: KM14622
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: >-
+        C.S. Lewis skrev bøkene om Narnia. Han fortalte selv at løven Aslan var
+        tenkt som en skikkelse hentet fra hans egen tro. Hvilken religion var
+        det?
+      en: >-
+        C.S. Lewis wrote the Narnia books. He said himself that the lion Aslan
+        was conceived as a figure drawn from his own faith. Which religion was
+        that?
+    choices:
+      - id: a
+        text:
+          nb: Kristendom
+          en: Christianity
+        correct: true
+      - id: b
+        text:
+          nb: Buddhisme
+          en: Buddhism
+      - id: c
+        text:
+          nb: Hinduisme
+          en: Hinduism
+    explanation:
+      nb: >-
+        Lewis var kristen og beskrev Aslan som et bilde på hvordan Kristus
+        kunne tenkes å framtre i en annen verden. Aslans død og oppstandelse i
+        den første boka følger et kristent fortellingsmønster. Slike lån fra
+        religiøse fortellinger er vanlige i film og litteratur.
+      en: >-
+        Lewis was a Christian and described Aslan as an image of how Christ
+        might appear in another world. Aslan's death and return in the first
+        book follow a Christian narrative pattern. Borrowings from religious
+        stories like this are common in film and literature.
+    reviewed: false
+
+  # KM14625 -- etiske ideer fra sentrale skikkelser i religiøse tradisjoner
+  - id: KM14625-01
+    goal: KM14625
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: >-
+        Den gylne regel finnes i mange religioner og livssyn. Hvilken av disse
+        formuleringene er den gylne regel?
+      en: >-
+        The golden rule is found in many religions and worldviews. Which of
+        these formulations is the golden rule?
+    choices:
+      - id: a
+        text:
+          nb: Gjør mot andre det du vil at andre skal gjøre mot deg
+          en: Do to others as you would have them do to you
+        correct: true
+      - id: b
+        text:
+          nb: Gjør det som gir deg selv størst fordel
+          en: Do whatever gives you the greatest advantage
+      - id: c
+        text:
+          nb: Gjør bare det du er blitt fortalt av andre
+          en: Do only what others have told you to do
+    explanation:
+      nb: >-
+        Den gylne regel finnes i beslektede former i blant annet kristendom,
+        jødedom, islam, buddhisme, hinduisme og livssynshumanisme. Noen
+        tradisjoner formulerer den negativt: ikke gjør mot andre det du ikke
+        vil at de skal gjøre mot deg.
+      en: >-
+        The golden rule appears in related forms in Christianity, Judaism,
+        Islam, Buddhism, Hinduism and secular humanism, among others. Some
+        traditions state it negatively: do not do to others what you would not
+        want done to you.
+    reviewed: false
+
+  - id: KM14625-02
+    goal: KM14625
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Mahatma Gandhi bygde sin politiske kamp på prinsippet ahimsa, hentet
+        fra indisk religiøs tradisjon. Hva betyr ahimsa?
+      en: >-
+        Mahatma Gandhi built his political struggle on the principle of ahimsa,
+        drawn from Indian religious tradition. What does ahimsa mean?
+    choices:
+      - id: a
+        text:
+          nb: Ikkevold, å ikke skade levende vesener
+          en: Non-violence, not harming living beings
+        correct: true
+      - id: b
+        text:
+          nb: Rettferdig fordeling av eiendom
+          en: Fair distribution of property
+      - id: c
+        text:
+          nb: Plikten til å adlyde myndighetene
+          en: The duty to obey the authorities
+    explanation:
+      nb: >-
+        Ahimsa betyr ikkevold og står sentralt i hinduisme, buddhisme og
+        særlig jainisme. Gandhi brukte prinsippet i kampen for indisk
+        selvstendighet, blant annet gjennom sivil ulydighet uten vold.
+      en: >-
+        Ahimsa means non-violence and is central to Hinduism, Buddhism and
+        especially Jainism. Gandhi used the principle in the struggle for
+        Indian independence, including non-violent civil disobedience.
+    reviewed: false
+
+  - id: KM14625-03
+    goal: KM14625
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Buddhismens fire edle sannheter starter med en påstand om tilværelsen.
+        Hva sier den første edle sannheten?
+      en: >-
+        Buddhism's four noble truths begin with a claim about existence. What
+        does the first noble truth say?
+    choices:
+      - id: a
+        text:
+          nb: At tilværelsen inneholder lidelse
+          en: That existence contains suffering
+        correct: true
+      - id: b
+        text:
+          nb: At verden ble skapt av én gud
+          en: That the world was created by a single god
+      - id: c
+        text:
+          nb: At mennesket bare lever én gang
+          en: That a human being lives only once
+    explanation:
+      nb: >-
+        Den første edle sannheten sier at tilværelsen inneholder lidelse
+        (dukkha). De tre neste handler om lidelsens årsak, om at den kan
+        opphøre, og om veien dit - den åttedelte veien. Buddhismen har ikke en
+        skapergud, og læren om gjenfødelse innebærer at livet ikke leves bare
+        én gang.
+      en: >-
+        The first noble truth says existence contains suffering (dukkha). The
+        next three concern its cause, that it can cease, and the path there -
+        the eightfold path. Buddhism has no creator god, and the teaching of
+        rebirth means life is not lived only once.
+    reviewed: false
+
+  # KM14626 -- etiske ideer fra filosofihistorien
+  - id: KM14626-01
+    goal: KM14626
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Immanuel Kants kategoriske imperativ sier at du skal handle slik at
+        regelen for handlingen din kunne gjelde for alle. Hva slags etisk
+        teori er dette et eksempel på?
+      en: >-
+        Immanuel Kant's categorical imperative says you should act so that the
+        rule behind your action could hold for everyone. What kind of ethical
+        theory is this an example of?
+    choices:
+      - id: a
+        text:
+          nb: Pliktetikk
+          en: Duty ethics
+        correct: true
+      - id: b
+        text:
+          nb: Konsekvensetikk
+          en: Consequentialist ethics
+      - id: c
+        text:
+          nb: Dydsetikk
+          en: Virtue ethics
+    explanation:
+      nb: >-
+        Pliktetikken vurderer handlingen ut fra regelen den følger, ikke ut fra
+        hva den fører til. Konsekvensetikken vurderer resultatet, og dydsetikken
+        spør hva slags menneske handlingen gjør deg til.
+      en: >-
+        Duty ethics judges an action by the rule it follows, not by what it
+        leads to. Consequentialist ethics judges the outcome, and virtue ethics
+        asks what kind of person the action makes you.
+    reviewed: false
+
+  - id: KM14626-02
+    goal: KM14626
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Jeremy Bentham og John Stuart Mill er kjent for utilitarismen. Hva
+        avgjør ifølge denne teorien om en handling er god?
+      en: >-
+        Jeremy Bentham and John Stuart Mill are known for utilitarianism.
+        According to this theory, what determines whether an action is good?
+    choices:
+      - id: a
+        text:
+          nb: Hvor mye lykke eller nytte handlingen skaper for flest mulig
+          en: How much happiness or benefit the action creates for the greatest number
+        correct: true
+      - id: b
+        text:
+          nb: Om handlingen følger en regel som gjelder uten unntak
+          en: Whether the action follows a rule that holds without exception
+      - id: c
+        text:
+          nb: Om den som handler, har gode karakteregenskaper
+          en: Whether the person acting has good character traits
+    explanation:
+      nb: >-
+        Utilitarismen er en form for konsekvensetikk: en handling vurderes
+        etter følgene den får. Alternativ b beskriver pliktetikk, og alternativ
+        c beskriver dydsetikk.
+      en: >-
+        Utilitarianism is a form of consequentialist ethics: an action is
+        judged by its results. Option b describes duty ethics and option c
+        describes virtue ethics.
+    reviewed: false
+
+  - id: KM14626-03
+    goal: KM14626
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: >-
+        Aristoteles mente at en dyd ofte ligger mellom to ytterpunkter, for
+        eksempel mot mellom feighet og dumdristighet. Hva kalles dette
+        prinsippet?
+      en: >-
+        Aristotle held that a virtue often lies between two extremes, for
+        example courage between cowardice and recklessness. What is this
+        principle called?
+    choices:
+      - id: a
+        text:
+          nb: Den gylne middelvei
+          en: The golden mean
+        correct: true
+      - id: b
+        text:
+          nb: Det kategoriske imperativ
+          en: The categorical imperative
+      - id: c
+        text:
+          nb: Nytteprinsippet
+          en: The principle of utility
+    explanation:
+      nb: >-
+        Den gylne middelvei er sentral i Aristoteles' dydsetikk. Det
+        kategoriske imperativ er Kants, og nytteprinsippet hører til
+        utilitarismen.
+      en: >-
+        The golden mean is central to Aristotle's virtue ethics. The
+        categorical imperative is Kant's, and the principle of utility belongs
+        to utilitarianism.
+    reviewed: false
+
+  # KM14620 -- etiske problemstillinger knyttet til kommunikasjon
+  - id: KM14620-01
+    goal: KM14620
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Hvilken paragraf i Grunnloven slår fast at det skal være ytringsfrihet
+        i Norge?
+      en: >-
+        Which article of the Norwegian constitution establishes freedom of
+        expression?
+    choices:
+      - id: a
+        text:
+          nb: Paragraf 100
+          en: Article 100
+        correct: true
+      - id: b
+        text:
+          nb: Paragraf 1
+          en: Article 1
+      - id: c
+        text:
+          nb: Paragraf 112
+          en: Article 112
+    explanation:
+      nb: >-
+        Grunnloven paragraf 100 sier at ytringsfrihet bør finne sted. Paragraf
+        112 handler om retten til et sunt miljø, og paragraf 1 slår fast at
+        Norge er et fritt og selvstendig rike.
+      en: >-
+        Article 100 of the constitution states that there shall be freedom of
+        expression. Article 112 concerns the right to a healthy environment,
+        and Article 1 states that Norway is a free and independent realm.
+    reviewed: false
+
+  - id: KM14620-02
+    goal: KM14620
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: >-
+        Norsk straffelov har en egen bestemmelse om hatefulle ytringer. Hva må
+        en ytring rette seg mot for å rammes av den?
+      en: >-
+        Norwegian criminal law has a specific provision on hate speech. What
+        must an utterance target to fall under it?
+    choices:
+      - id: a
+        text:
+          nb: >-
+            Noen på grunn av hudfarge eller opprinnelse, religion eller
+            livssyn, seksuell orientering, kjønnsidentitet eller nedsatt
+            funksjonsevne
+          en: >-
+            Someone because of skin colour or origin, religion or belief,
+            sexual orientation, gender identity or disability
+        correct: true
+      - id: b
+        text:
+          nb: Hvilken som helst person som blir lei seg av ytringen
+          en: Any person who is made sad by the utterance
+      - id: c
+        text:
+          nb: Bare offentlige personer som politikere og journalister
+          en: Only public figures such as politicians and journalists
+    explanation:
+      nb: >-
+        Straffeloven paragraf 185 rammer ytringer som truer eller håner noen ut
+        fra bestemte kjennetegn, blant annet hudfarge, opprinnelse, religion,
+        seksuell orientering, kjønnsidentitet og funksjonsevne. Terskelen er
+        høy: å være uenig, eller å si noe andre blir lei seg av, er ikke i seg
+        selv straffbart i Norge.
+      en: >-
+        Section 185 of the Criminal Code covers utterances that threaten or
+        deride someone on the basis of specified characteristics, including
+        skin colour, origin, religion, sexual orientation, gender identity and
+        disability. The threshold is high: disagreeing, or saying something
+        that upsets someone, is not in itself a crime in Norway.
+    reviewed: false
+
+  # KM14621 -- menneskerettigheter, bærekraft og fattigdom
+  - id: KM14621-01
+    goal: KM14621
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: >-
+        I hvilket år vedtok FNs generalforsamling Verdenserklæringen om
+        menneskerettighetene?
+      en: >-
+        In which year did the UN General Assembly adopt the Universal
+        Declaration of Human Rights?
+    choices:
+      - id: a
+        text:
+          nb: "1919"
+          en: "1919"
+      - id: b
+        text:
+          nb: "1948"
+          en: "1948"
+        correct: true
+      - id: c
+        text:
+          nb: "1989"
+          en: "1989"
+    explanation:
+      nb: >-
+        Verdenserklæringen ble vedtatt 10. desember 1948, tre år etter andre
+        verdenskrig. 1989 er året FNs barnekonvensjon ble vedtatt.
+      en: >-
+        The Universal Declaration was adopted on 10 December 1948, three years
+        after the Second World War. 1989 is the year the UN Convention on the
+        Rights of the Child was adopted.
+    reviewed: false
+
+  - id: KM14621-02
+    goal: KM14621
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Brundtland-kommisjonen ga i 1987 en mye brukt definisjon av bærekraftig
+        utvikling. Hva går den ut på?
+      en: >-
+        In 1987 the Brundtland Commission gave a widely used definition of
+        sustainable development. What does it say?
+    choices:
+      - id: a
+        text:
+          nb: >-
+            Utvikling som dekker dagens behov uten å ødelegge mulighetene for
+            at kommende generasjoner skal få dekket sine
+          en: >-
+            Development that meets the needs of the present without
+            compromising the ability of future generations to meet theirs
+        correct: true
+      - id: b
+        text:
+          nb: Utvikling som gir høyest mulig økonomisk vekst hvert år
+          en: Development that produces the highest possible economic growth each year
+      - id: c
+        text:
+          nb: Utvikling som bare foregår i de fattigste landene
+          en: Development that takes place only in the poorest countries
+    explanation:
+      nb: >-
+        Definisjonen kom i rapporten "Vår felles framtid" fra 1987, ledet av
+        Gro Harlem Brundtland. Den knytter miljø, økonomi og sosiale forhold
+        sammen, og den etiske kjernen er ansvaret for mennesker som ennå ikke
+        er født.
+      en: >-
+        The definition comes from the 1987 report "Our Common Future", chaired
+        by Gro Harlem Brundtland. It ties environment, economy and social
+        conditions together, and its ethical core is responsibility towards
+        people not yet born.
+    reviewed: false
+
+# Goals that no written question can honestly test, and goals where a question
+# would have to take a side on something no quiz should decide for a child.
+not_assessable:
+  - goal: KM14618
+    reason: >-
+      Asks the pupil to explore other people's perspectives and to handle
+      disagreement and the clash of opinions. This is a way of acting towards
+      other people, practised in conversation over time. A written question
+      could only ask what the pupil says they would do, which tests neither the
+      skill nor any knowledge, and would reward the answer the pupil thinks the
+      test wants.
+
+  - goal: KM14619
+    reason: >-
+      Asks the pupil to reflect on existential questions about growing up and
+      living in a diverse and global society. The substance of the goal is the
+      pupil's own reflection on meaning, belonging and identity. There is no
+      correct answer to mark, and marking one would amount to telling a child
+      what to conclude about their own life and beliefs.

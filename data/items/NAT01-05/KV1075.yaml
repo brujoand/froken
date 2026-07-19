@@ -1,0 +1,397 @@
+# Naturfag, kompetansemål etter 2. trinn (NAT01-05 / KV1075).
+#
+# Written for 6- and 7-year-olds: one short sentence per prompt, concrete
+# nouns, no subordinate clauses, multiple choice throughout. Only settled
+# science; goals about exploring, presenting and discussing are recorded as
+# not assessable rather than answered with a proxy question.
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+---
+subject: NAT01-05
+goal_set: KV1075
+
+items:
+  - id: KM13809-01
+    goal: KM13809
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Per legger sammen alle tingene som er harde. Hvilken ting hører med?
+      en: Per is putting together all the things that are hard. Which one belongs?
+    choices:
+      - id: a
+        text:
+          nb: En stein
+          en: A stone
+        correct: true
+      - id: b
+        text:
+          nb: En ullsokk
+          en: A wool sock
+      - id: c
+        text:
+          nb: En svamp
+          en: A sponge
+    explanation:
+      nb: En stein er hard når du klemmer på den. Ullsokken og svampen er myke.
+      en: A stone is hard when you squeeze it. The sock and the sponge are soft.
+    reviewed: false
+
+  - id: KM13809-02
+    goal: KM13809
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Du setter et glass med vann i fryseren. Hva skjer med vannet?
+      en: You put a glass of water in the freezer. What happens to the water?
+    choices:
+      - id: a
+        text:
+          nb: Det blir til is
+          en: It turns into ice
+        correct: true
+      - id: b
+        text:
+          nb: Det blir borte
+          en: It disappears
+      - id: c
+        text:
+          nb: Det blir til sand
+          en: It turns into sand
+    explanation:
+      nb: Vann blir hardt og til is når det blir kaldt nok. Blir det varmt igjen,
+        smelter isen og blir vann.
+      en: Water becomes hard ice when it gets cold enough. Warm it up again and
+        the ice melts back into water.
+    reviewed: false
+
+  - id: KM13810-01
+    goal: KM13810
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Haren i fjellet har hvit pels om vinteren. Hvorfor er det bra for haren?
+      en: The mountain hare has white fur in winter. Why is that good for the hare?
+    choices:
+      - id: a
+        text:
+          nb: Den er vanskelig å se i snøen
+          en: It is hard to see in the snow
+        correct: true
+      - id: b
+        text:
+          nb: Den løper fortere
+          en: It runs faster
+      - id: c
+        text:
+          nb: Den blir større
+          en: It grows bigger
+    explanation:
+      nb: Hvit pels gjør at haren gjemmer seg godt i snøen. Da er det vanskeligere
+        for rev og ørn å finne den.
+      en: White fur lets the hare hide well in the snow, so foxes and eagles have
+        a harder time finding it.
+    reviewed: false
+
+  - id: KM13810-02
+    goal: KM13810
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvor finner du meitemarken?
+      en: Where do you find the earthworm?
+    choices:
+      - id: a
+        text:
+          nb: I jorda
+          en: In the soil
+        correct: true
+      - id: b
+        text:
+          nb: Høyt oppe i treet
+          en: High up in the tree
+      - id: c
+        text:
+          nb: På himmelen
+          en: In the sky
+    explanation:
+      nb: Meitemarken graver ganger i jorda og spiser gamle blader. Den har verken
+        bein eller vinger.
+      en: The earthworm digs tunnels in the soil and eats old leaves. It has
+        neither legs nor wings.
+    reviewed: false
+
+  - id: KM13811-01
+    goal: KM13811
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Bladene på trærne blir gule og faller av. Hvilken årstid er det?
+      en: The leaves on the trees turn yellow and fall off. Which season is it?
+    choices:
+      - id: a
+        text:
+          nb: Høst
+          en: Autumn
+        correct: true
+      - id: b
+        text:
+          nb: Vår
+          en: Spring
+      - id: c
+        text:
+          nb: Sommer
+          en: Summer
+    explanation:
+      nb: Om høsten blir det kaldere og mørkere, og mange trær mister bladene sine.
+      en: In autumn it gets colder and darker, and many trees lose their leaves.
+    reviewed: false
+
+  - id: KM13811-02
+    goal: KM13811
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: I samisk tradisjon deler man året inn i åtte årstider. Hvor mange
+        årstider deler vi året inn i ellers i Norge?
+      en: Sami tradition divides the year into eight seasons. How many seasons do
+        we otherwise divide the year into in Norway?
+    choices:
+      - id: a
+        text:
+          nb: "Fire"
+          en: "Four"
+        correct: true
+      - id: b
+        text:
+          nb: "To"
+          en: "Two"
+      - id: c
+        text:
+          nb: "Tolv"
+          en: "Twelve"
+    explanation:
+      nb: Vi snakker vanligvis om vår, sommer, høst og vinter. I samisk tradisjon
+        er året delt i åtte årstider, som følger reinen og arbeidet gjennom året.
+      en: We usually speak of spring, summer, autumn and winter. Sami tradition
+        divides the year into eight seasons, following the reindeer and the work
+        of the year.
+    reviewed: false
+
+  - id: KM13812-01
+    goal: KM13812
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva bruker vi et termometer til?
+      en: What do we use a thermometer for?
+    choices:
+      - id: a
+        text:
+          nb: Å måle hvor varmt eller kaldt det er
+          en: To measure how warm or cold it is
+        correct: true
+      - id: b
+        text:
+          nb: Å måle hvor tungt noe er
+          en: To measure how heavy something is
+      - id: c
+        text:
+          nb: Å måle hvor lang tid noe tar
+          en: To measure how long something takes
+    explanation:
+      nb: Termometeret viser temperaturen. Vekt måler hvor tungt noe er, og klokka
+        måler tid.
+      en: A thermometer shows the temperature. Scales measure weight, and a clock
+        measures time.
+    reviewed: false
+
+  - id: KM13812-02
+    goal: KM13812
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva er det som gir oss lys og varme om dagen?
+      en: What gives us light and warmth during the day?
+    choices:
+      - id: a
+        text:
+          nb: Sola
+          en: The Sun
+        correct: true
+      - id: b
+        text:
+          nb: Månen
+          en: The Moon
+      - id: c
+        text:
+          nb: Skyene
+          en: The clouds
+    explanation:
+      nb: Sola er en stjerne som gir lys og varme. Månen lyser ikke selv, og skyer
+        gir bare skygge og regn.
+      en: The Sun is a star that gives light and warmth. The Moon does not shine
+        by itself, and clouds only give shade and rain.
+    reviewed: false
+
+  - id: KM13813-01
+    goal: KM13813
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Du kjenner at eplet smaker søtt. Hvilken sans bruker du?
+      en: You notice that the apple tastes sweet. Which sense are you using?
+    choices:
+      - id: a
+        text:
+          nb: Smakssansen
+          en: Taste
+        correct: true
+      - id: b
+        text:
+          nb: Hørselen
+          en: Hearing
+      - id: c
+        text:
+          nb: Synet
+          en: Sight
+    explanation:
+      nb: Vi smaker med tunga. Med ørene hører vi, og med øynene ser vi.
+      en: We taste with the tongue. We hear with our ears and see with our eyes.
+    reviewed: false
+
+  - id: KM13813-02
+    goal: KM13813
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Du lukker øynene og kjenner at genseren er myk. Hvilken sans bruker du?
+      en: You close your eyes and feel that the jumper is soft. Which sense are
+        you using?
+    choices:
+      - id: a
+        text:
+          nb: Følesansen
+          en: Touch
+        correct: true
+      - id: b
+        text:
+          nb: Luktesansen
+          en: Smell
+      - id: c
+        text:
+          nb: Synet
+          en: Sight
+    explanation:
+      nb: Med huden kjenner vi om noe er mykt, hardt, varmt eller kaldt. Det
+        kalles følesansen.
+      en: With our skin we feel whether something is soft, hard, warm or cold.
+        That is the sense of touch.
+    reviewed: false
+
+  - id: KM13814-01
+    goal: KM13814
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva er lurt å gjøre før du spiser, så du ikke blir syk av bakterier?
+      en: What is a good thing to do before you eat, so germs do not make you ill?
+    choices:
+      - id: a
+        text:
+          nb: Vaske hendene med såpe og vann
+          en: Wash your hands with soap and water
+        correct: true
+      - id: b
+        text:
+          nb: Tørke hendene på buksa
+          en: Wipe your hands on your trousers
+      - id: c
+        text:
+          nb: Puste dypt inn
+          en: Take a deep breath
+    explanation:
+      nb: Såpe og vann fjerner bakterier og virus fra hendene. Da er det mindre
+        sjanse for at de kommer inn i munnen med maten.
+      en: Soap and water remove bacteria and viruses from your hands, so they are
+        less likely to reach your mouth with the food.
+    reviewed: false
+
+  - id: KM13814-02
+    goal: KM13814
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Du er forkjølet og må hoste. Hvor bør du hoste?
+      en: You have a cold and need to cough. Where should you cough?
+    choices:
+      - id: a
+        text:
+          nb: I albuen
+          en: Into your elbow
+        correct: true
+      - id: b
+        text:
+          nb: I hendene
+          en: Into your hands
+      - id: c
+        text:
+          nb: Rett ut i lufta
+          en: Straight out into the air
+    explanation:
+      nb: Når du hoster i albuen, blir smitten der. Hoster du i hendene, tar du
+        på dørhåndtak og leker etterpå og sprer den videre.
+      en: Coughing into your elbow keeps the germs there. If you cough into your
+        hands, you then touch door handles and toys and spread them further.
+    reviewed: false
+
+  - id: KM13815-01
+    goal: KM13815
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Du finner et sjokoladepapir på bakken i skogen. Hva er best å gjøre?
+      en: You find a chocolate wrapper on the ground in the forest. What is the
+        best thing to do?
+    choices:
+      - id: a
+        text:
+          nb: Ta det med og kaste det i en søppelbøtte
+          en: Take it with you and put it in a bin
+        correct: true
+      - id: b
+        text:
+          nb: Grave det ned under et tre
+          en: Bury it under a tree
+      - id: c
+        text:
+          nb: La det ligge
+          en: Leave it lying there
+    explanation:
+      nb: Papir og plast blir liggende lenge i naturen og kan skade dyr. Søppel
+        hører hjemme i en søppelbøtte.
+      en: Paper and plastic stay in nature for a long time and can harm animals.
+        Litter belongs in a bin.
+    reviewed: false
+
+# Goals that no written question can honestly test. Recorded rather than
+# omitted, so the gap is a stated judgement instead of a silent one.
+not_assessable:
+  - goal: KM13806
+    reason: >-
+      Asks the pupil to wonder, explore and pose their own questions, tied to
+      their own or others' experiences. The goal is the asking, not the
+      answering; a question with one correct answer inverts it entirely.
+
+  - goal: KM13807
+    reason: >-
+      Asks the pupil to present their own findings and describe how they arrived
+      at them. There are no findings without an investigation the pupil actually
+      carried out, and presenting is an oral performance a teacher observes.
+
+  - goal: KM13808
+    reason: >-
+      Asks the pupil to present their own ideas for technological inventions.
+      An invented idea is by definition the pupil's own, so there is nothing for
+      a quiz to mark right or wrong.

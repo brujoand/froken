@@ -1,0 +1,566 @@
+# Samfunnsfag, kompetansemål etter 2. trinn (SAF01-05 / KV1152).
+#
+# Written for 6- and 7-year-olds, so prompts are one short sentence where they
+# can be. Much of this goal set is discussion, reflection and the pupil's own
+# life; those goals are recorded under not_assessable rather than turned into
+# questions. Nothing here asks a child about their own family, feelings or
+# circumstances, and nothing treats one kind of family or life as the normal one.
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+---
+subject: SAF01-05
+goal_set: KV1152
+
+items:
+  - id: KM14718-01
+    goal: KM14718
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva kan du finne ut ved å se på et kart?
+      en: What can you find out by looking at a map?
+    choices:
+      - id: a
+        text:
+          nb: Hvilken vei du skal gå
+          en: Which way to go
+        correct: true
+      - id: b
+        text:
+          nb: Hva klokka er
+          en: What time it is
+      - id: c
+        text:
+          nb: Hva været blir i morgen
+          en: What the weather will be tomorrow
+    explanation:
+      nb: Et kart viser hvor ting ligger, som veier, hus og vann. Klokka og været
+        må vi finne ut på andre måter.
+      en: A map shows where things are, like roads, houses and water. Time and
+        weather have to be found out in other ways.
+    reviewed: false
+
+  - id: KM14718-02
+    goal: KM14718
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: På et kart er noen områder farget blå. Hva betyr det som oftest?
+      en: On a map, some areas are coloured blue. What does that usually mean?
+    choices:
+      - id: a
+        text:
+          nb: Det er vann der
+          en: There is water there
+        correct: true
+      - id: b
+        text:
+          nb: Det er skog der
+          en: There is forest there
+      - id: c
+        text:
+          nb: Det er kaldt der
+          en: It is cold there
+    explanation:
+      nb: På kart brukes blått for vann, som sjøer, elver og hav. Skog er ofte
+        grønn.
+      en: Maps use blue for water, such as lakes, rivers and the sea. Forest is
+        often green.
+    reviewed: false
+
+  - id: KM14720-01
+    goal: KM14720
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: For hundre år siden fantes det ingen mobiltelefoner. Hvordan kunne folk
+        sende en beskjed til noen langt unna?
+      en: A hundred years ago there were no mobile phones. How could people send
+        a message to someone far away?
+    choices:
+      - id: a
+        text:
+          nb: De skrev brev
+          en: They wrote letters
+        correct: true
+      - id: b
+        text:
+          nb: De sendte melding
+          en: They sent a text
+      - id: c
+        text:
+          nb: De ropte høyt
+          en: They shouted loudly
+    explanation:
+      nb: Brev ble sendt med posten og kunne bruke mange dager. Meldinger på
+        telefon er noe som kom mye senere.
+      en: Letters went by post and could take many days. Phone messages came much
+        later.
+    reviewed: false
+
+  - id: KM14720-02
+    goal: KM14720
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: For hundre år siden hadde de fleste hjem i Norge ingen vaskemaskin.
+        Hvordan ble klærne da vasket?
+      en: A hundred years ago most homes in Norway had no washing machine. How
+        were clothes washed then?
+    choices:
+      - id: a
+        text:
+          nb: For hånd i en balje med vann
+          en: By hand in a tub of water
+        correct: true
+      - id: b
+        text:
+          nb: I en vaskemaskin på skolen
+          en: In a washing machine at school
+      - id: c
+        text:
+          nb: Klærne ble ikke vasket
+          en: Clothes were not washed
+    explanation:
+      nb: Klærne ble vasket for hånd i vann, ofte med et vaskebrett. Det tok lang
+        tid og var tungt arbeid.
+      en: Clothes were washed by hand in water, often with a washboard. It took a
+        long time and was hard work.
+    reviewed: false
+
+  - id: KM14728-01
+    goal: KM14728
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvem er urfolket i Norge?
+      en: Who are the Indigenous people of Norway?
+    choices:
+      - id: a
+        text:
+          nb: Samene
+          en: The Sami
+        correct: true
+      - id: b
+        text:
+          nb: Vikingene
+          en: The Vikings
+      - id: c
+        text:
+          nb: Bøndene
+          en: Farmers
+    explanation:
+      nb: Samene er urfolket i Norge. De har bodd her siden lenge før Norge fikk
+        grensene sine.
+      en: The Sami are the Indigenous people of Norway. They have lived here since
+        long before Norway had its borders.
+    reviewed: false
+
+  - id: KM14728-02
+    goal: KM14728
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva er samisk?
+      en: What is Sami?
+    choices:
+      - id: a
+        text:
+          nb: Et språk som snakkes i Norge
+          en: A language spoken in Norway
+        correct: true
+      - id: b
+        text:
+          nb: En by i Norge
+          en: A town in Norway
+      - id: c
+        text:
+          nb: En årstid
+          en: A season
+    explanation:
+      nb: Samisk er språket til samene, og det er et av språkene som snakkes i
+        Norge. Det finnes flere samiske språk.
+      en: Sami is the language of the Sami people, and one of the languages spoken
+        in Norway. There are several Sami languages.
+    reviewed: false
+
+  - id: KM14728-03
+    goal: KM14728
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilken setning er riktig om familier i Norge?
+      en: Which sentence is true about families in Norway?
+    choices:
+      - id: a
+        text:
+          nb: Familier kan se veldig ulike ut
+          en: Families can look very different from one another
+        correct: true
+      - id: b
+        text:
+          nb: Alle familier er like store
+          en: All families are the same size
+      - id: c
+        text:
+          nb: Alle familier bor i samme by
+          en: All families live in the same town
+    explanation:
+      nb: Noen bor med én voksen, noen med to, noen med besteforeldre, søsken
+        eller fosterforeldre. Alle disse er familier.
+      en: Some live with one adult, some with two, some with grandparents,
+        siblings or foster parents. All of these are families.
+    reviewed: false
+
+  - id: KM14723-01
+    goal: KM14723
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva kan skje hvis folk kaster søppel i skogen?
+      en: What can happen if people throw rubbish in the forest?
+    choices:
+      - id: a
+        text:
+          nb: Dyr kan bli syke av søpla
+          en: Animals can get sick from the rubbish
+        correct: true
+      - id: b
+        text:
+          nb: Søpla blir borte av seg selv
+          en: The rubbish disappears by itself
+      - id: c
+        text:
+          nb: Trærne vokser fortere
+          en: The trees grow faster
+    explanation:
+      nb: Plast og glass blir liggende i naturen i mange år. Dyr kan skade seg
+        eller spise søppel de blir syke av.
+      en: Plastic and glass stay in nature for many years. Animals can hurt
+        themselves or eat rubbish that makes them ill.
+    reviewed: false
+
+  - id: KM14723-02
+    goal: KM14723
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvor bør en tom plastflaske havne?
+      en: Where should an empty plastic bottle end up?
+    choices:
+      - id: a
+        text:
+          nb: I pantemaskinen i butikken
+          en: In the bottle return machine at the shop
+        correct: true
+      - id: b
+        text:
+          nb: På bakken utenfor
+          en: On the ground outside
+      - id: c
+        text:
+          nb: Nedgravd i sandkassa
+          en: Buried in the sandpit
+    explanation:
+      nb: Flasker med pantemerke kan leveres i pantemaskinen. Da blir plasten
+        brukt om igjen i stedet for å bli søppel.
+      en: Bottles with a deposit mark can go in the return machine. The plastic is
+        then used again instead of becoming waste.
+    reviewed: false
+
+  - id: KM14724-01
+    goal: KM14724
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvem har rett til å gå på skole i Norge?
+      en: Who has the right to go to school in Norway?
+    choices:
+      - id: a
+        text:
+          nb: Alle barn
+          en: All children
+        correct: true
+      - id: b
+        text:
+          nb: Bare barn som er født i Norge
+          en: Only children born in Norway
+      - id: c
+        text:
+          nb: Bare barn som bor i en by
+          en: Only children who live in a town
+    explanation:
+      nb: Alle barn som bor i Norge har rett til å gå på skole. Det gjelder uansett
+        hvor de er født.
+      en: Every child living in Norway has the right to go to school, no matter
+        where they were born.
+    reviewed: false
+
+  - id: KM14724-02
+    goal: KM14724
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Et barn blir behandlet dårlig. Hva kan barnet gjøre?
+      en: A child is being treated badly. What can the child do?
+    choices:
+      - id: a
+        text:
+          nb: Si fra til en voksen barnet stoler på
+          en: Tell an adult the child trusts
+        correct: true
+      - id: b
+        text:
+          nb: Holde det helt hemmelig
+          en: Keep it a complete secret
+      - id: c
+        text:
+          nb: Vente til barnet blir voksent
+          en: Wait until the child grows up
+    explanation:
+      nb: Barn har rett til hjelp. Det er alltid lov å si fra, for eksempel til en
+        lærer eller helsesykepleier.
+      en: Children have a right to help. It is always allowed to speak up, for
+        example to a teacher or a school nurse.
+    reviewed: false
+
+  - id: KM14724-03
+    goal: KM14724
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Hva heter reglene om hva alle barn i verden har rett til?
+      en: What are the rules about what every child in the world has a right to
+        called?
+    choices:
+      - id: a
+        text:
+          nb: Barnekonvensjonen
+          en: The Convention on the Rights of the Child
+        correct: true
+      - id: b
+        text:
+          nb: Skoleboka
+          en: The school book
+      - id: c
+        text:
+          nb: Klasseregler
+          en: Class rules
+    explanation:
+      nb: Barnekonvensjonen er en avtale mellom nesten alle land i verden om hva
+        barn har rett til, som skole, mat og å bli hørt.
+      en: The Convention on the Rights of the Child is an agreement between almost
+        every country about what children are entitled to, such as school, food
+        and being listened to.
+    reviewed: false
+
+  - id: KM14725-01
+    goal: KM14725
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva heter gruppa av elever som er valgt til å snakke for elevene på
+        skolen?
+      en: What is the group of pupils chosen to speak for the pupils at a school
+        called?
+    choices:
+      - id: a
+        text:
+          nb: Elevrådet
+          en: The pupil council
+        correct: true
+      - id: b
+        text:
+          nb: Foreldremøtet
+          en: The parents' meeting
+      - id: c
+        text:
+          nb: Skolekjøkkenet
+          en: The school kitchen
+    explanation:
+      nb: I elevrådet sitter elever som er valgt av klassene sine. De tar opp saker
+        elevene er opptatt av.
+      en: The pupil council is made up of pupils chosen by their classes. They
+        raise the matters pupils care about.
+    reviewed: false
+
+  - id: KM14725-02
+    goal: KM14725
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Klassen stemmer over hvilken lek de skal ha. Hvilken lek blir det?
+      en: A class votes on which game to play. Which game wins?
+    choices:
+      - id: a
+        text:
+          nb: Den leken flest stemte på
+          en: The game most people voted for
+        correct: true
+      - id: b
+        text:
+          nb: Den leken færrest stemte på
+          en: The game fewest people voted for
+      - id: c
+        text:
+          nb: Alle lekene samtidig
+          en: All the games at once
+    explanation:
+      nb: Når vi stemmer, vinner det flest har stemt på. Det kalles flertall.
+      en: When we vote, the option with the most votes wins. That is called a
+        majority.
+    reviewed: false
+
+  - id: KM14726-01
+    goal: KM14726
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Du vil legge ut et bilde av en venn på nettet. Hva må du gjøre først?
+      en: You want to post a picture of a friend online. What must you do first?
+    choices:
+      - id: a
+        text:
+          nb: Spørre vennen om lov
+          en: Ask your friend for permission
+        correct: true
+      - id: b
+        text:
+          nb: Legge det ut med en gang
+          en: Post it straight away
+      - id: c
+        text:
+          nb: Vente til i morgen
+          en: Wait until tomorrow
+    explanation:
+      nb: Alle bestemmer over bilder av seg selv. Derfor må du spørre om lov før du
+        legger ut et bilde av noen andre.
+      en: Everyone decides about pictures of themselves. So you have to ask before
+        posting a picture of someone else.
+    reviewed: false
+
+  - id: KM14726-02
+    goal: KM14726
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Noen du ikke kjenner spør om passordet ditt i et spill. Hva gjør du?
+      en: Someone you do not know asks for your password in a game. What do you do?
+    choices:
+      - id: a
+        text:
+          nb: Ikke gi det bort, og si fra til en voksen
+          en: Do not give it away, and tell an adult
+        correct: true
+      - id: b
+        text:
+          nb: Gi det bort hvis personen er hyggelig
+          en: Give it away if the person seems nice
+      - id: c
+        text:
+          nb: Skrive passordet i chatten
+          en: Write the password in the chat
+    explanation:
+      nb: Et passord er hemmelig og skal ikke deles med andre. Si fra til en voksen
+        hvis noen spør om det.
+      en: A password is secret and should not be shared. Tell an adult if someone
+        asks for yours.
+    reviewed: false
+
+  - id: KM14729-01
+    goal: KM14729
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Bananer vokser ikke i Norge. Hvordan kommer de hit?
+      en: Bananas do not grow in Norway. How do they get here?
+    choices:
+      - id: a
+        text:
+          nb: De fraktes hit med skip fra varme land
+          en: They are shipped here from warm countries
+        correct: true
+      - id: b
+        text:
+          nb: De vokser i norske skoger om sommeren
+          en: They grow in Norwegian forests in summer
+      - id: c
+        text:
+          nb: De lages på fabrikk i Norge
+          en: They are made in a factory in Norway
+    explanation:
+      nb: Bananer trenger varme for å vokse. Bønder i varme land dyrker dem, og så
+        blir de fraktet langt med skip.
+      en: Bananas need heat to grow. Farmers in warm countries grow them, and they
+        travel a long way by ship.
+    reviewed: false
+
+  - id: KM14729-02
+    goal: KM14729
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvordan kan folk i Norge snakke med folk i et land langt unna?
+      en: How can people in Norway talk with people in a country far away?
+    choices:
+      - id: a
+        text:
+          nb: Med telefon og internett
+          en: By phone and internet
+        correct: true
+      - id: b
+        text:
+          nb: Det går ikke an
+          en: It is not possible
+      - id: c
+        text:
+          nb: Bare ved å rope
+          en: Only by shouting
+    explanation:
+      nb: Telefon og internett gjør at folk i ulike land kan snakke sammen med en
+        gang, selv om de bor tusenvis av kilometer fra hverandre.
+      en: Phones and the internet let people in different countries talk right
+        away, even thousands of kilometres apart.
+    reviewed: false
+
+# Goals that no written question can honestly test. Recorded rather than
+# omitted, so the gap is a stated judgement instead of a silent one.
+not_assessable:
+  - goal: KM14717
+    reason: >-
+      Asks the pupil to develop and present social-science questions of their
+      own. What is assessed is the pupil producing and presenting something, and
+      a multiple-choice question can at best check whether they recognise someone
+      else's question. That is a different skill.
+
+  - goal: KM14719
+    reason: >-
+      Asks the pupil to explore and describe cultural heritage sites and the
+      cultural and natural landscape in their own local area. The answers depend
+      entirely on where the pupil lives, so no centrally written question can have
+      one correct answer, and the exploring itself happens outdoors.
+
+  - goal: KM14721
+    reason: >-
+      Asks the pupil to reflect on why people hold different opinions and make
+      different choices. The substance of the goal is the pupil's own reasoning
+      about difference; turning it into a question with one correct answer would
+      mean declaring some opinions right and others wrong, which this goal
+      explicitly does not do.
+
+  - goal: KM14722
+    reason: >-
+      Asks the pupil to talk about friendship, belonging and what affects
+      relationships. This is classroom conversation about the pupil's own social
+      life. A quiz cannot check it without asking a child about their own friends
+      or standing in the group, which we will not do.
+
+  - goal: KM14727
+    reason: >-
+      Asks the pupil to talk about feelings, the body, gender and sexuality, and
+      about how their own and others' boundaries are expressed and respected.
+      This belongs in a conversation with a trusted adult who can respond to the
+      individual child. A written question would either ask a child about their
+      own body and feelings, or reduce boundaries to a single right answer, and
+      both are wrong here.

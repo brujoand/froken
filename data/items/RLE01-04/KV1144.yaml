@@ -1,0 +1,581 @@
+# KRLE, kompetansemål etter 7. trinn (RLE01-04 / KV1144).
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+#
+# KRLE is knowledge *about* religions and worldviews. Nothing here asks what a
+# pupil believes, whether a belief is true, or which tradition is right. Goals
+# whose substance is the pupil's own reflection, conversation or exploration are
+# recorded under not_assessable rather than approximated.
+---
+subject: RLE01-04
+goal_set: KV1144
+
+items:
+  - id: KM14599-01
+    goal: KM14599
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvilken religion var utbredt i Norge før kristendommen kom hit?
+      en: Which religion was widespread in Norway before Christianity arrived?
+    choices:
+      - id: a
+        text:
+          nb: Norrøn religion
+          en: Norse religion
+        correct: true
+      - id: b
+        text:
+          nb: Buddhisme
+          en: Buddhism
+      - id: c
+        text:
+          nb: Hinduisme
+          en: Hinduism
+    explanation:
+      nb: >-
+        Før kristendommen ble innført rundt år 1000, trodde mange i Norge på de
+        norrøne gudene, som Odin og Tor.
+      en: >-
+        Before Christianity was introduced around the year 1000, many people in
+        Norway believed in the Norse gods, such as Odin and Thor.
+    reviewed: false
+
+  - id: KM14599-02
+    goal: KM14599
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        I 1537 ble Norge et luthersk land i stedet for et katolsk. Hva kalles
+        denne omveltningen?
+      en: >-
+        In 1537 Norway became a Lutheran country instead of a Catholic one. What
+        is this upheaval called?
+    choices:
+      - id: a
+        text:
+          nb: Reformasjonen
+          en: The Reformation
+        correct: true
+      - id: b
+        text:
+          nb: Folkevandringen
+          en: The Migration Period
+      - id: c
+        text:
+          nb: Opplysningstiden
+          en: The Enlightenment
+    explanation:
+      nb: >-
+        Reformasjonen startet i Tyskland med Martin Luther. I 1537 ble den
+        gjennomført i Danmark-Norge, og Norge fikk en luthersk kirke.
+      en: >-
+        The Reformation began in Germany with Martin Luther. In 1537 it was
+        carried through in Denmark-Norway, and Norway got a Lutheran church.
+    reviewed: false
+
+  - id: KM14599-03
+    goal: KM14599
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva var en noaidi i samisk førkristen religion?
+      en: What was a noaidi in pre-Christian Sami religion?
+    choices:
+      - id: a
+        text:
+          nb: En religiøs spesialist som brukte en tromme
+          en: A religious specialist who used a drum
+        correct: true
+      - id: b
+        text:
+          nb: En høytid om vinteren
+          en: A winter festival
+      - id: c
+        text:
+          nb: En bolig av never og torv
+          en: A dwelling made of birch bark and turf
+    explanation:
+      nb: >-
+        Noaidien hadde en sentral rolle i samisk førkristen religion og brukte en
+        tromme, ofte kalt runebomme, i ritualene sine. Fra 1600-tallet ble mange
+        av trommene beslaglagt av misjonærer.
+      en: >-
+        The noaidi held a central role in pre-Christian Sami religion and used a
+        drum, often called a rune drum, in rituals. From the 1600s many of the
+        drums were confiscated by missionaries.
+    reviewed: false
+
+  - id: KM14601-01
+    goal: KM14601
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvilket rituale markerer i kristendommen at noen blir tatt opp i kirken?
+      en: >-
+        In Christianity, which ritual marks that someone is received into the
+        church?
+    choices:
+      - id: a
+        text:
+          nb: Dåpen
+          en: Baptism
+        correct: true
+      - id: b
+        text:
+          nb: Nattverden
+          en: Communion
+      - id: c
+        text:
+          nb: Julaften
+          en: Christmas Eve
+    explanation:
+      nb: >-
+        Dåpen er opptaksritualet i kristendommen. Nattverden er et måltid med
+        brød og vin som minner om Jesu siste måltid, og jul er en høytid.
+      en: >-
+        Baptism is the ritual of entry in Christianity. Communion is a meal of
+        bread and wine recalling Jesus' last supper, and Christmas is a festival.
+    reviewed: false
+
+  - id: KM14601-02
+    goal: KM14601
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Den gylne regel står i Bibelen og finnes også i andre religioner. Hva
+        sier den?
+      en: >-
+        The golden rule appears in the Bible and is found in other religions too.
+        What does it say?
+    choices:
+      - id: a
+        text:
+          nb: Gjør mot andre det du vil at andre skal gjøre mot deg
+          en: Do to others what you want others to do to you
+        correct: true
+      - id: b
+        text:
+          nb: Hjelp bare dem som har hjulpet deg
+          en: Help only those who have helped you
+      - id: c
+        text:
+          nb: Gjør alltid som de eldste i familien sier
+          en: Always do what the oldest in the family says
+    explanation:
+      nb: >-
+        Den gylne regel er en av de mest kjente etiske normene i kristendommen.
+        Liknende regler finnes blant annet i jødedommen, islam, buddhismen og i
+        humanismen.
+      en: >-
+        The golden rule is one of the best known ethical norms in Christianity.
+        Similar rules are found in Judaism, Islam, Buddhism and humanism, among
+        others.
+    reviewed: false
+
+  - id: KM14609-01
+    goal: KM14609
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva markerer høytiden id al-fitr for muslimer?
+      en: What does the festival of Eid al-Fitr mark for Muslims?
+    choices:
+      - id: a
+        text:
+          nb: Slutten på fastemåneden ramadan
+          en: The end of the fasting month of Ramadan
+        correct: true
+      - id: b
+        text:
+          nb: Starten på fastemåneden ramadan
+          en: The start of the fasting month of Ramadan
+      - id: c
+        text:
+          nb: Starten på et nytt skoleår
+          en: The start of a new school year
+    explanation:
+      nb: >-
+        Id al-fitr feires når fastemåneden ramadan er over. Mange muslimer
+        feirer med festmåltid, nye klær og gaver.
+      en: >-
+        Eid al-Fitr is celebrated when the fasting month of Ramadan is over. Many
+        Muslims celebrate with a festive meal, new clothes and gifts.
+    reviewed: false
+
+  - id: KM14609-02
+    goal: KM14609
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Divali er en høytid som blant andre hinduer feirer. Hva kalles den ofte?
+      en: >-
+        Divali is a festival celebrated by Hindus among others. What is it often
+        called?
+    choices:
+      - id: a
+        text:
+          nb: Lysfesten
+          en: The festival of lights
+        correct: true
+      - id: b
+        text:
+          nb: Vannfesten
+          en: The festival of water
+      - id: c
+        text:
+          nb: Stillhetsfesten
+          en: The festival of silence
+    explanation:
+      nb: >-
+        Under divali tennes lamper og lys, og lyset står for det gode. Høytiden
+        feires også av sikher og jainer.
+      en: >-
+        During Divali lamps and lights are lit, and the light stands for what is
+        good. The festival is also celebrated by Sikhs and Jains.
+    reviewed: false
+
+  - id: KM14609-03
+    goal: KM14609
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Hvilket livssyn bygger på menneskelig fornuft og erfaring, og har ingen
+        tro på en gud?
+      en: >-
+        Which worldview is built on human reason and experience, and has no
+        belief in a god?
+    choices:
+      - id: a
+        text:
+          nb: Humanisme
+          en: Humanism
+        correct: true
+      - id: b
+        text:
+          nb: Hinduisme
+          en: Hinduism
+      - id: c
+        text:
+          nb: Jødedom
+          en: Judaism
+    explanation:
+      nb: >-
+        Humanisme er et livssyn uten gudstro, der mennesker selv må finne svar
+        og ta ansvar. I Norge er Human-Etisk Forbund den største organisasjonen
+        for humanister.
+      en: >-
+        Humanism is a worldview without belief in a god, where people themselves
+        must find answers and take responsibility. In Norway the Norwegian
+        Humanist Association is the largest organisation for humanists.
+    reviewed: false
+
+  - id: KM14610-01
+    goal: KM14610
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Islam har flere retninger. Hvilke to er de største?
+      en: Islam has several branches. Which two are the largest?
+    choices:
+      - id: a
+        text:
+          nb: Sunni og sjia
+          en: Sunni and Shia
+        correct: true
+      - id: b
+        text:
+          nb: Katolsk og ortodoks
+          en: Catholic and Orthodox
+      - id: c
+        text:
+          nb: Theravada og mahayana
+          en: Theravada and Mahayana
+    explanation:
+      nb: >-
+        Sunni og sjia er de to største retningene i islam. Katolsk og ortodoks er
+        retninger i kristendommen, mens theravada og mahayana hører til
+        buddhismen.
+      en: >-
+        Sunni and Shia are the two largest branches of Islam. Catholic and
+        Orthodox are branches of Christianity, while Theravada and Mahayana
+        belong to Buddhism.
+    reviewed: false
+
+  - id: KM14610-02
+    goal: KM14610
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: >-
+        Den norske kirke er ett kristent trossamfunn i Norge. Hvilket av disse er
+        også et kristent trossamfunn?
+      en: >-
+        The Church of Norway is one Christian denomination in Norway. Which of
+        these is also a Christian denomination?
+    choices:
+      - id: a
+        text:
+          nb: Den katolske kirke
+          en: The Catholic Church
+        correct: true
+      - id: b
+        text:
+          nb: Human-Etisk Forbund
+          en: The Norwegian Humanist Association
+      - id: c
+        text:
+          nb: Det Mosaiske Trossamfund
+          en: The Mosaic Community (Jewish congregation)
+    explanation:
+      nb: >-
+        I Norge finnes flere kristne trossamfunn, blant annet Den norske kirke,
+        Den katolske kirke, ortodokse kirker og pinsemenigheter. Human-Etisk
+        Forbund er en livssynsorganisasjon, og Det Mosaiske Trossamfund er et
+        jødisk trossamfunn.
+      en: >-
+        Norway has several Christian denominations, including the Church of
+        Norway, the Catholic Church, Orthodox churches and Pentecostal
+        congregations. The Humanist Association is a worldview organisation, and
+        the Mosaic Community is a Jewish congregation.
+    reviewed: false
+
+  - id: KM14607-01
+    goal: KM14607
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva kalles bygningen der jøder samles til gudstjeneste?
+      en: What is the building called where Jews gather for worship?
+    choices:
+      - id: a
+        text:
+          nb: Synagoge
+          en: Synagogue
+        correct: true
+      - id: b
+        text:
+          nb: Moské
+          en: Mosque
+      - id: c
+        text:
+          nb: Katedral
+          en: Cathedral
+    explanation:
+      nb: >-
+        Synagogen er jødenes forsamlingshus. Moskeen er muslimenes bygning for
+        bønn, og en katedral er en stor kristen kirke.
+      en: >-
+        The synagogue is the Jewish house of assembly. The mosque is the Muslim
+        building for prayer, and a cathedral is a large Christian church.
+    reviewed: false
+
+  - id: KM14607-02
+    goal: KM14607
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Hva betyr fagbegrepet monoteisme?
+      en: What does the term monotheism mean?
+    choices:
+      - id: a
+        text:
+          nb: Troen på én gud
+          en: Belief in one god
+        correct: true
+      - id: b
+        text:
+          nb: Troen på mange guder
+          en: Belief in many gods
+      - id: c
+        text:
+          nb: At man ikke tror på noen gud
+          en: Not believing in any god
+    explanation:
+      nb: >-
+        Mono betyr én, og teisme betyr gudstro. Troen på mange guder kalles
+        polyteisme, og det å ikke tro på noen gud kalles ateisme.
+      en: >-
+        Mono means one and theism means belief in a god. Belief in many gods is
+        called polytheism, and not believing in any god is called atheism.
+    reviewed: false
+
+  - id: KM14606-01
+    goal: KM14606
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Både Den norske kirke og Human-Etisk Forbund har en markering for
+        ungdommer rundt 15 år. Hva kalles den begge steder?
+      en: >-
+        Both the Church of Norway and the Norwegian Humanist Association have a
+        ceremony for young people around 15. What is it called in both?
+    choices:
+      - id: a
+        text:
+          nb: Konfirmasjon
+          en: Confirmation
+        correct: true
+      - id: b
+        text:
+          nb: Dåp
+          en: Baptism
+      - id: c
+        text:
+          nb: Navnefest
+          en: Name-giving ceremony
+    explanation:
+      nb: >-
+        Kirken har kirkelig konfirmasjon, og Human-Etisk Forbund har humanistisk
+        konfirmasjon. Begge markerer overgangen fra barn til ungdom, men de
+        bygger på ulike livssyn.
+      en: >-
+        The church has church confirmation, and the Humanist Association has
+        humanist confirmation. Both mark the move from child to young person, but
+        they rest on different worldviews.
+    reviewed: false
+
+  - id: KM14608-01
+    goal: KM14608
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva betyr religionsfrihet?
+      en: What does freedom of religion mean?
+    choices:
+      - id: a
+        text:
+          nb: At hver enkelt selv velger hva han eller hun vil tro på, eller ikke tro på
+          en: That each person chooses what to believe, or not to believe
+        correct: true
+      - id: b
+        text:
+          nb: At alle i et land må tilhøre den samme religionen
+          en: That everyone in a country must belong to the same religion
+      - id: c
+        text:
+          nb: At bare de største religionene er tillatt
+          en: That only the largest religions are allowed
+    explanation:
+      nb: >-
+        Religionsfrihet er en menneskerettighet. Den gjelder både retten til å
+        tro, retten til å skifte tro og retten til å la være å tro.
+      en: >-
+        Freedom of religion is a human right. It covers the right to believe, the
+        right to change belief and the right not to believe at all.
+    reviewed: false
+
+  - id: KM14608-02
+    goal: KM14608
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva betyr ytringsfrihet?
+      en: What does freedom of expression mean?
+    choices:
+      - id: a
+        text:
+          nb: At man har rett til å si og skrive det man mener
+          en: That you have the right to say and write what you think
+        correct: true
+      - id: b
+        text:
+          nb: At man må si det de fleste er enige i
+          en: That you must say what most people agree with
+      - id: c
+        text:
+          nb: At aviser bestemmer hva folk får mene
+          en: That newspapers decide what people are allowed to think
+    explanation:
+      nb: >-
+        Ytringsfriheten står i Grunnloven og verner også meninger andre er uenige
+        i. Den er likevel ikke helt uten grenser, for eksempel er trusler mot
+        andre forbudt.
+      en: >-
+        Freedom of expression is in the Constitution and protects opinions others
+        disagree with too. It is not entirely without limits, though: threats
+        against others are forbidden.
+    reviewed: false
+
+  - id: KM14608-03
+    goal: KM14608
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: >-
+        I Grunnloven fra 1814 sto det at jøder ikke hadde adgang til Norge. Når
+        ble denne bestemmelsen opphevet?
+      en: >-
+        The Constitution of 1814 stated that Jews were not allowed into Norway.
+        When was this provision repealed?
+    choices:
+      - id: a
+        text:
+          nb: "1851"
+          en: "1851"
+        correct: true
+      - id: b
+        text:
+          nb: "1905"
+          en: "1905"
+      - id: c
+        text:
+          nb: "1945"
+          en: "1945"
+    explanation:
+      nb: >-
+        Bestemmelsen kalles ofte jødeparagrafen. Dikteren Henrik Wergeland
+        arbeidet for å få den fjernet, men han døde i 1845, seks år før den ble
+        opphevet i 1851.
+      en: >-
+        The provision is often called the Jew clause. The poet Henrik Wergeland
+        campaigned to have it removed, but died in 1845, six years before it was
+        repealed in 1851.
+    reviewed: false
+
+# Goals whose substance is the pupil's own exploring, reasoning or conversation.
+# A written question could only test something adjacent and call it the goal.
+not_assessable:
+  - goal: KM14600
+    reason: >-
+      Asks the pupil to explore and compare texts and material expressions as
+      sources of knowledge about cultural heritage. The goal is the act of
+      comparing sources; a quiz can only ask which text belongs to which
+      religion, which is a different and much smaller thing.
+
+  - goal: KM14602
+    reason: >-
+      Asks the pupil to use philosophical ways of thinking in conversation and
+      wondering. Wondering aloud with others cannot be captured by a question
+      with one correct answer, and philosophical positions are not facts.
+
+  - goal: KM14603
+    reason: >-
+      Asks the pupil to discuss and convey ethical ideas from central figures in
+      religious and worldview traditions. Conveying an idea in one's own words is
+      the skill; asking who said what would test recall of attributions instead,
+      and the ideas themselves are contested rather than correct.
+
+  - goal: KM14611
+    reason: >-
+      The same as KM14603, for figures from the history of philosophy. The verbs
+      are discussing and conveying, and a philosopher's ethical ideas are
+      positions to be weighed, not answers to be marked right or wrong.
+
+  - goal: KM14604
+    reason: >-
+      Asks the pupil to explore and describe their own and others' perspectives
+      in ethical dilemmas. A dilemma has no correct option by definition, and
+      marking a child's moral perspective right or wrong would be exactly the
+      wrong thing for this subject to do.
+
+  - goal: KM14605
+    reason: >-
+      Asks the pupil to reflect on existential questions about how people live
+      and about the future of the planet. Reflection is the goal, and existential
+      questions do not have answers a quiz can score.

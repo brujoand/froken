@@ -1,0 +1,1050 @@
+# Engelsk, kompetansemål etter 10. trinn (ENG01-06 / KV1033).
+#
+# The pupil is a Norwegian 13-15-year-old learning English. The `nb` prompt is
+# the instruction; the English inside an item is the material under test. The
+# two locales are therefore not translations of each other: an item about an
+# English word never names that word in Norwegian, in either locale.
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+---
+subject: ENG01-06
+goal_set: KV1033
+
+items:
+  # KM13374 - strategies in language learning
+  - id: KM13374-01
+    goal: KM13374
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Du leser setningen "The path was so slippery that she had to walk very
+        slowly." Du kjenner ikke ordet slippery. Hva betyr det mest sannsynlig
+        her?
+      en: >-
+        You read the sentence "The path was so slippery that she had to walk
+        very slowly." You do not know the word slippery. What does it most
+        likely mean here?
+    choices:
+      - id: a
+        text:
+          nb: Easy to slip on
+          en: Easy to slip on
+        correct: true
+      - id: b
+        text:
+          nb: Very wide
+          en: Very wide
+      - id: c
+        text:
+          nb: Full of people
+          en: Full of people
+    explanation:
+      nb: >-
+        Resten av setningen sier at hun måtte gå veldig sakte. Det peker mot at
+        stien var glatt. Å lese hele setningen før du slår opp er en av de mest
+        nyttige strategiene når du møter et ukjent ord.
+      en: >-
+        The rest of the sentence says she had to walk very slowly, which points
+        to the path being slippery. Reading the whole sentence before looking a
+        word up is one of the most useful strategies for an unknown word.
+    reviewed: false
+
+  - id: KM13374-02
+    goal: KM13374
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: >-
+        Du skal lese en lengre engelsk tekst og møter mange ukjente ord. Hvilken
+        framgangsmåte gir best forståelse av teksten?
+      en: >-
+        You are about to read a longer English text and you meet many unknown
+        words. Which approach gives you the best understanding of the text?
+    choices:
+      - id: a
+        text:
+          nb: >-
+            Les hele avsnittet først, og slå så opp bare de ordene du fortsatt
+            trenger
+          en: >-
+            Read the whole paragraph first, then look up only the words you
+            still need
+        correct: true
+      - id: b
+        text:
+          nb: Slå opp hvert ord i rekkefølge før du leser setningen
+          en: Look up every word in order before reading the sentence
+      - id: c
+        text:
+          nb: Hopp over alle setningene som har ukjente ord i seg
+          en: Skip every sentence that contains an unknown word
+    explanation:
+      nb: >-
+        Sammenhengen forklarer ofte ordet for deg, og mange ukjente ord er ikke
+        viktige for hovedinnholdet. Å slå opp alt ord for ord tar lang tid og
+        gjør det lettere å miste tråden i teksten.
+      en: >-
+        Context often explains a word for you, and many unknown words do not
+        matter for the main content. Looking up every word in turn is slow and
+        makes it easier to lose the thread of the text.
+    reviewed: false
+
+  # KM13371 - words and expressions in varieties of English
+  - id: KM13371-01
+    goal: KM13371
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: >-
+        En britisk ungdom sier "Take the lift to the third floor." Hvilket ord
+        ville en amerikaner mest sannsynlig brukt i stedet for lift?
+      en: >-
+        A British teenager says "Take the lift to the third floor." Which word
+        would an American speaker most likely use instead of lift?
+    choices:
+      - id: a
+        text:
+          nb: Elevator
+          en: Elevator
+        correct: true
+      - id: b
+        text:
+          nb: Ladder
+          en: Ladder
+      - id: c
+        text:
+          nb: Escalator
+          en: Escalator
+    explanation:
+      nb: >-
+        Lift og elevator er det samme rommet som frakter deg mellom etasjer.
+        Ladder er en stige, og escalator er en rulletrapp - begge finnes i begge
+        variantene av engelsk.
+      en: >-
+        Lift and elevator are the same thing. A ladder is something you climb,
+        and an escalator is a moving staircase; both words exist in British and
+        American English alike.
+    reviewed: false
+
+  - id: KM13371-02
+    goal: KM13371
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        I en amerikansk tekst står det "We moved here in the fall." Hvilket ord
+        brukes oftest om den samme årstiden i britisk engelsk?
+      en: >-
+        An American text says "We moved here in the fall." Which word is most
+        often used for the same season in British English?
+    choices:
+      - id: a
+        text:
+          nb: Autumn
+          en: Autumn
+        correct: true
+      - id: b
+        text:
+          nb: Spring
+          en: Spring
+      - id: c
+        text:
+          nb: Harvest
+          en: Harvest
+    explanation:
+      nb: >-
+        Fall og autumn betegner samme årstid. Spring er en annen årstid, og
+        harvest betyr innhøsting, ikke selve årstiden.
+      en: >-
+        Fall and autumn name the same season. Spring is a different season, and
+        harvest means the gathering of crops rather than the season itself.
+    reviewed: false
+
+  # KM13372 - varied vocabulary and idiomatic expressions, fitted to purpose
+  - id: KM13372-01
+    goal: KM13372
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Noen sier "It's raining cats and dogs." Hva betyr uttrykket?
+      en: >-
+        Someone says "It's raining cats and dogs." What does the expression
+        mean?
+    choices:
+      - id: a
+        text:
+          nb: It is raining very heavily
+          en: It is raining very heavily
+        correct: true
+      - id: b
+        text:
+          nb: There are many animals outside
+          en: There are many animals outside
+      - id: c
+        text:
+          nb: The weather keeps changing
+          en: The weather keeps changing
+    explanation:
+      nb: >-
+        Dette er et idiom, altså et fast uttrykk der betydningen ikke kommer av
+        de enkelte ordene. Det betyr rett og slett at det regner kraftig.
+      en: >-
+        This is an idiom, a fixed expression whose meaning does not come from
+        the separate words. It simply means that it is raining hard.
+    reviewed: false
+
+  - id: KM13372-02
+    goal: KM13372
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Du skriver en e-post på engelsk til rektor ved en skole du aldri har
+        vært i kontakt med. Hvilken innledning passer best?
+      en: >-
+        You are writing an English email to the head teacher of a school you
+        have never been in contact with. Which opening fits best?
+    choices:
+      - id: a
+        text:
+          nb: Dear Ms Owen,
+          en: Dear Ms Owen,
+        correct: true
+      - id: b
+        text:
+          nb: Hey, what's up?
+          en: Hey, what's up?
+      - id: c
+        text:
+          nb: Yo!
+          en: Yo!
+    explanation:
+      nb: >-
+        Til en du ikke kjenner, i en formell sammenheng, passer Dear + etternavn.
+        De to andre er uformelle hilsener du bruker til venner.
+      en: >-
+        For someone you do not know, in a formal setting, Dear plus a surname is
+        the fitting choice. The other two are informal greetings for friends.
+    reviewed: false
+
+  # KM13376 - similarities and differences between English and other languages
+  - id: KM13376-01
+    goal: KM13376
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: >-
+        Det engelske ordet eventually ligner på et norsk ord, men betyr noe
+        annet. Hva betyr eventually?
+      en: >-
+        The English word eventually looks like a Norwegian word but means
+        something else. What does eventually mean?
+    choices:
+      - id: a
+        text:
+          nb: In the end, after some time
+          en: In the end, after some time
+        correct: true
+      - id: b
+        text:
+          nb: Possibly, if it is needed
+          en: Possibly, if it is needed
+      - id: c
+        text:
+          nb: Every single time
+          en: Every single time
+    explanation:
+      nb: >-
+        Eventually betyr til slutt. Ord som ligner på hverandre i to språk, men
+        betyr noe forskjellig, kalles falske venner, og de er verdt å legge
+        merke til når du sammenligner engelsk med norsk.
+      en: >-
+        Eventually means in the end. Words that look alike across two languages
+        but mean different things are called false friends, and they are worth
+        noticing when you compare English with Norwegian.
+    reviewed: false
+
+  - id: KM13376-02
+    goal: KM13376
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        På norsk lager vi bestemt form ved å henge en endelse bakpå ordet, som i
+        huset. Hvordan gjøres det samme på engelsk?
+      en: >-
+        Norwegian makes a noun definite by adding an ending to the word itself,
+        as in huset. How is the same thing done in English?
+    choices:
+      - id: a
+        text:
+          nb: Med et eget ord foran substantivet, the house
+          en: With a separate word in front of the noun, the house
+        correct: true
+      - id: b
+        text:
+          nb: Med endelsen -s bakpå, houses
+          en: With the ending -s on the end, houses
+      - id: c
+        text:
+          nb: Engelsk har ingen bestemt form
+          en: English has no definite form
+    explanation:
+      nb: >-
+        Engelsk bruker artikkelen the foran substantivet der norsk bruker en
+        endelse. Endelsen -s i houses lager flertall, ikke bestemt form.
+      en: >-
+        English uses the article the in front of the noun where Norwegian uses
+        an ending. The -s in houses makes a plural, not a definite form.
+    reviewed: false
+
+  # KM13389 - word classes and sentence structure
+  - id: KM13389-01
+    goal: KM13389
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: >-
+        I setningen "The old dog slept quietly on the floor." - hvilket ord er et
+        adjektiv?
+      en: >-
+        In the sentence "The old dog slept quietly on the floor." - which word is
+        an adjective?
+    choices:
+      - id: a
+        text:
+          nb: old
+          en: old
+        correct: true
+      - id: b
+        text:
+          nb: quietly
+          en: quietly
+      - id: c
+        text:
+          nb: slept
+          en: slept
+    explanation:
+      nb: >-
+        Et adjektiv beskriver et substantiv, og old beskriver dog. Quietly er et
+        adverb som beskriver hvordan hunden sov, og slept er et verb.
+      en: >-
+        An adjective describes a noun, and old describes dog. Quietly is an
+        adverb describing how the dog slept, and slept is a verb.
+    reviewed: false
+
+  - id: KM13389-02
+    goal: KM13389
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: >-
+        Hvilken setning har riktig ordstilling på engelsk?
+      en: >-
+        Which sentence has the correct English word order?
+    choices:
+      - id: a
+        text:
+          nb: She often goes to the library.
+          en: She often goes to the library.
+        correct: true
+      - id: b
+        text:
+          nb: She goes often to the library.
+          en: She goes often to the library.
+      - id: c
+        text:
+          nb: Often goes she to the library.
+          en: Often goes she to the library.
+    explanation:
+      nb: >-
+        På engelsk står adverb som often mellom subjektet og verbet. Norsk
+        setter det gjerne etter verbet, og det er derfor alternativ b og c
+        kjennes riktige ut, men de er det ikke på engelsk.
+      en: >-
+        In English, adverbs like often go between the subject and the verb.
+        Norwegian tends to put them after the verb, which is why the other two
+        options can feel right to a Norwegian speaker even though they are not.
+    reviewed: false
+
+  # KM13375 - spelling, inflection, sentence and text structure
+  - id: KM13375-01
+    goal: KM13375
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilket av ordene er stavet riktig?
+      en: Which of these words is spelled correctly?
+    choices:
+      - id: a
+        text:
+          nb: necessary
+          en: necessary
+        correct: true
+      - id: b
+        text:
+          nb: neccessary
+          en: neccessary
+      - id: c
+        text:
+          nb: necesary
+          en: necesary
+    explanation:
+      nb: >-
+        Ordet skrives necessary, med én c og to s-er. Et huskeknep er at det er
+        én kolbe og to ermer på en skjorte.
+      en: >-
+        The word is spelled necessary, with one c and two s letters. One way to
+        remember it is one collar and two sleeves on a shirt.
+    reviewed: false
+
+  - id: KM13375-02
+    goal: KM13375
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Hvilken form av verbet write hører hjemme i setningen "Yesterday I ___ a
+        letter to my grandmother."?
+      en: >-
+        Which form of the verb write belongs in the sentence "Yesterday I ___ a
+        letter to my grandmother."?
+    choices:
+      - id: a
+        text:
+          nb: wrote
+          en: wrote
+        correct: true
+      - id: b
+        text:
+          nb: writed
+          en: writed
+      - id: c
+        text:
+          nb: written
+          en: written
+    explanation:
+      nb: >-
+        Write er et uregelrett verb, og preteritum er wrote. Formen writed
+        finnes ikke, og written trenger et hjelpeverb, som i I have written.
+      en: >-
+        Write is an irregular verb and its past tense is wrote. The form writed
+        does not exist, and written needs an auxiliary, as in I have written.
+    reviewed: false
+
+  - id: KM13375-03
+    goal: KM13375
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: >-
+        Hvilket bindeord passer i luken? "I wanted to go for a run. ___, it was
+        pouring with rain."
+      en: >-
+        Which linking word fits the gap? "I wanted to go for a run. ___, it was
+        pouring with rain."
+    choices:
+      - id: a
+        text:
+          nb: However
+          en: However
+        correct: true
+      - id: b
+        text:
+          nb: Therefore
+          en: Therefore
+      - id: c
+        text:
+          nb: For example
+          en: For example
+    explanation:
+      nb: >-
+        De to setningene står i motsetning til hverandre, og however markerer en
+        motsetning. Therefore innleder en følge, og for example innleder et
+        eksempel.
+      en: >-
+        The two sentences contrast with each other, and however marks a
+        contrast. Therefore introduces a consequence, and for example introduces
+        an example.
+    reviewed: false
+
+  # KM13377 - reading and conveying content from different kinds of texts
+  - id: KM13377-01
+    goal: KM13377
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Les oppslaget fra et skolebibliotek. "The library is open from 8 to 15 on
+        weekdays. Books can be borrowed for three weeks. If you need a book for
+        longer, ask at the desk to renew it." Hva skal du gjøre hvis du trenger
+        boka lenger enn tre uker?
+      en: >-
+        Read this notice from a school library. "The library is open from 8 to 15
+        on weekdays. Books can be borrowed for three weeks. If you need a book
+        for longer, ask at the desk to renew it." What should you do if you need
+        the book for longer than three weeks?
+    choices:
+      - id: a
+        text:
+          nb: Ask at the desk to renew it
+          en: Ask at the desk to renew it
+        correct: true
+      - id: b
+        text:
+          nb: Return it and borrow a different book
+          en: Return it and borrow a different book
+      - id: c
+        text:
+          nb: Keep it and pay when you return it
+          en: Keep it and pay when you return it
+    explanation:
+      nb: >-
+        Den siste setningen i oppslaget svarer direkte på spørsmålet. I korte
+        bruksteksten står svaret ofte i én bestemt setning, så det lønner seg å
+        finne den setningen som handler om det du lurer på.
+      en: >-
+        The last sentence of the notice answers the question directly. In short
+        practical texts the answer usually sits in one particular sentence, so
+        it pays to find the sentence that is about what you are asking.
+    reviewed: false
+
+  - id: KM13377-02
+    goal: KM13377
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: >-
+        Fra hvilken type tekst er dette utdraget hentet? "Mix the flour and the
+        sugar, then add the eggs one at a time."
+      en: >-
+        What kind of text is this extract from? "Mix the flour and the sugar,
+        then add the eggs one at a time."
+    choices:
+      - id: a
+        text:
+          nb: A recipe
+          en: A recipe
+        correct: true
+      - id: b
+        text:
+          nb: A news report
+          en: A news report
+      - id: c
+        text:
+          nb: A poem
+          en: A poem
+    explanation:
+      nb: >-
+        Teksten gir instruksjoner i rekkefølge og nevner ingredienser. Det er
+        typisk for en oppskrift, og å kjenne igjen teksttypen hjelper deg å vite
+        hva du skal se etter i teksten.
+      en: >-
+        The text gives instructions in order and names ingredients, which is
+        typical of a recipe. Recognising the text type helps you know what to
+        look for as you read.
+    reviewed: false
+
+  # KM13378 - reading and interpreting English-language fiction
+  - id: KM13378-01
+    goal: KM13378
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: >-
+        Les utdraget. "Mia read the letter twice. Then she folded it, put it in
+        her pocket and said nothing for the rest of the evening." Hva antyder
+        teksten om Mia?
+      en: >-
+        Read this extract. "Mia read the letter twice. Then she folded it, put it
+        in her pocket and said nothing for the rest of the evening." What does
+        the text suggest about Mia?
+    choices:
+      - id: a
+        text:
+          nb: The letter affected her, and she does not want to talk about it
+          en: The letter affected her, and she does not want to talk about it
+        correct: true
+      - id: b
+        text:
+          nb: She could not read the letter at all
+          en: She could not read the letter at all
+      - id: c
+        text:
+          nb: She was eager to tell everyone the news
+          en: She was eager to tell everyone the news
+    explanation:
+      nb: >-
+        Teksten sier ikke hva Mia føler, men handlingene viser det. Hun leser
+        brevet to ganger og tier resten av kvelden. Å lese slike hint kalles å
+        tolke, og forfattere lar ofte handling vise det de ikke skriver rett ut.
+      en: >-
+        The text never states what Mia feels, but her actions show it. She reads
+        the letter twice and stays silent all evening. Reading such hints is
+        called interpreting, and writers often let actions show what they do not
+        say outright.
+    reviewed: false
+
+  - id: KM13378-02
+    goal: KM13378
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        En roman inneholder setningen "The wind whispered through the trees."
+        Hvilket virkemiddel er dette et eksempel på?
+      en: >-
+        A novel contains the sentence "The wind whispered through the trees."
+        Which literary device is this an example of?
+    choices:
+      - id: a
+        text:
+          nb: Personification
+          en: Personification
+        correct: true
+      - id: b
+        text:
+          nb: Simile
+          en: Simile
+      - id: c
+        text:
+          nb: Rhyme
+          en: Rhyme
+    explanation:
+      nb: >-
+        Vinden får en menneskelig egenskap, den hvisker. Det kalles
+        personification. En simile sammenligner med like eller as, som i as cold
+        as ice, og rhyme handler om ord som rimer.
+      en: >-
+        The wind is given a human quality, whispering, which is called
+        personification. A simile compares using like or as, as in as cold as
+        ice, and rhyme is about words that sound alike at the end.
+    reviewed: false
+
+  # KM13379 - reading non-fiction and judging how reliable sources are
+  - id: KM13379-01
+    goal: KM13379
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Du skal finne tall for hvor mye det regner i Bergen. Hvilken kilde er
+        mest pålitelig?
+      en: >-
+        You need figures for how much rain falls in Bergen. Which source is the
+        most reliable?
+    choices:
+      - id: a
+        text:
+          nb: A report from the national meteorological institute
+          en: A report from the national meteorological institute
+        correct: true
+      - id: b
+        text:
+          nb: A comment under a video about Norway
+          en: A comment under a video about Norway
+      - id: c
+        text:
+          nb: An advertisement for a hotel in Bergen
+          en: An advertisement for a hotel in Bergen
+    explanation:
+      nb: >-
+        Meteorologisk institutt måler nedbør selv og publiserer tallene. En
+        kommentar er en enkeltpersons påstand uten dokumentasjon, og en annonse
+        skal selge noe, så den velger gjerne de tallene som passer best.
+      en: >-
+        A meteorological institute measures rainfall itself and publishes the
+        figures. A comment is one person's claim with nothing behind it, and an
+        advertisement is trying to sell something, so it picks the figures that
+        suit it.
+    reviewed: false
+
+  - id: KM13379-02
+    goal: KM13379
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: >-
+        Hva gir deg mest grunn til å tvile på en engelskspråklig nettside du har
+        funnet?
+      en: >-
+        Which of these gives you the most reason to doubt an English-language
+        website you have found?
+    choices:
+      - id: a
+        text:
+          nb: >-
+            It names no author and no date, and it is selling the product it
+            writes about
+          en: >-
+            It names no author and no date, and it is selling the product it
+            writes about
+        correct: true
+      - id: b
+        text:
+          nb: It has photographs and a lot of text
+          en: It has photographs and a lot of text
+      - id: c
+        text:
+          nb: It was updated last month
+          en: It was updated last month
+    explanation:
+      nb: >-
+        En kilde bør si hvem som står bak og når den ble skrevet, så du kan
+        vurdere den. At noen tjener penger på konklusjonen er også en grunn til å
+        være kritisk. Bilder og oppdateringsdato sier lite alene.
+      en: >-
+        A source should say who wrote it and when, so you can weigh it up. If
+        someone profits from the conclusion, that is another reason for caution.
+        Photographs and a recent update date say little on their own.
+    reviewed: false
+
+  # KM13381 - using sources critically and honestly
+  - id: KM13381-01
+    goal: KM13381
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Du vil bruke en setning ordrett fra en nettside i en engelsk innlevering.
+        Hva må du gjøre?
+      en: >-
+        You want to use a sentence word for word from a website in an English
+        assignment. What must you do?
+    choices:
+      - id: a
+        text:
+          nb: >-
+            Mark it as a quotation and say where it comes from
+          en: >-
+            Mark it as a quotation and say where it comes from
+        correct: true
+      - id: b
+        text:
+          nb: Change two or three words so it is not identical
+          en: Change two or three words so it is not identical
+      - id: c
+        text:
+          nb: Nothing, as long as the website is free to read
+          en: Nothing, as long as the website is free to read
+    explanation:
+      nb: >-
+        Å bruke andres ord uten å oppgi kilden er plagiat. Å bytte ut noen ord
+        hjelper ikke, for innholdet er fortsatt hentet fra andre. Kildehenvisning
+        gjør også teksten din sterkere, fordi leseren kan sjekke den.
+      en: >-
+        Using someone else's words without naming the source is plagiarism.
+        Swapping a few words does not help, because the content still comes from
+        someone else. Citing also makes your own text stronger, since the reader
+        can check it.
+    reviewed: false
+
+  - id: KM13381-02
+    goal: KM13381
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: >-
+        Du oversetter et avsnitt fra en engelsk nettside til norsk og bruker det
+        i oppgaven din. Må du oppgi kilden?
+      en: >-
+        You translate a paragraph from an English website into Norwegian and use
+        it in your assignment. Do you have to name the source?
+    choices:
+      - id: a
+        text:
+          nb: Yes, translating does not make the content yours
+          en: Yes, translating does not make the content yours
+        correct: true
+      - id: b
+        text:
+          nb: No, because the words are now your own
+          en: No, because the words are now your own
+      - id: c
+        text:
+          nb: No, because the source is in another language
+          en: No, because the source is in another language
+    explanation:
+      nb: >-
+        Det er innholdet og tankene som tilhører kilden, ikke bare de nøyaktige
+        ordene. En oversettelse skal derfor ha kildehenvisning på samme måte som
+        et sitat.
+      en: >-
+        It is the content and the ideas that belong to the source, not only the
+        exact words. A translation therefore needs a reference just as a
+        quotation does.
+    reviewed: false
+
+  # KM13384 - the role of English in Norway and in the world
+  - id: KM13384-01
+    goal: KM13384
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Engelsk blir ofte kalt et lingua franca. Hva betyr det?
+      en: >-
+        English is often called a lingua franca. What does that mean?
+    choices:
+      - id: a
+        text:
+          nb: >-
+            A shared language used by people who do not have the same first
+            language
+          en: >-
+            A shared language used by people who do not have the same first
+            language
+        correct: true
+      - id: b
+        text:
+          nb: A language that no one speaks at home any more
+          en: A language that no one speaks at home any more
+      - id: c
+        text:
+          nb: The oldest language in a country
+          en: The oldest language in a country
+    explanation:
+      nb: >-
+        Et lingua franca er et felles språk folk møtes i når morsmålene er
+        forskjellige. Det er derfor en norsk og en japansk forsker gjerne
+        snakker engelsk sammen, selv om ingen av dem har engelsk som morsmål.
+      en: >-
+        A lingua franca is a common language people meet in when their first
+        languages differ. It is why a Norwegian and a Japanese researcher often
+        speak English together even though neither grew up with it.
+    reviewed: false
+
+  - id: KM13384-02
+    goal: KM13384
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Språk låner ord av hverandre. Hvilket av disse engelske ordene er lånt
+        fra norsk?
+      en: >-
+        Languages borrow words from each other. Which of these English words was
+        borrowed from Norwegian?
+    choices:
+      - id: a
+        text:
+          nb: ski
+          en: ski
+        correct: true
+      - id: b
+        text:
+          nb: garden
+          en: garden
+      - id: c
+        text:
+          nb: kitchen
+          en: kitchen
+    explanation:
+      nb: >-
+        Ski kom inn i engelsk fra norsk på 1800-tallet, sammen med sporten.
+        Lånord går begge veier, selv om vi i Norge merker best de engelske
+        ordene som kommer inn i norsk.
+      en: >-
+        Ski entered English from Norwegian in the nineteenth century, along with
+        the sport. Borrowing runs both ways, even though in Norway we notice the
+        English words coming into Norwegian most.
+    reviewed: false
+
+  # KM13385 - indigenous peoples in the English-speaking world and in Norway
+  - id: KM13385-01
+    goal: KM13385
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: >-
+        Hvem er urfolket i New Zealand?
+      en: >-
+        Who are the indigenous people of New Zealand?
+    choices:
+      - id: a
+        text:
+          nb: The Māori
+          en: The Māori
+        correct: true
+      - id: b
+        text:
+          nb: The Inuit
+          en: The Inuit
+      - id: c
+        text:
+          nb: The Sámi
+          en: The Sámi
+    explanation:
+      nb: >-
+        Māori er urfolket i New Zealand, og māori er et av landets offisielle
+        språk ved siden av engelsk. Inuittene er urfolk i Arktis, blant annet i
+        Canada og på Grønland, og samene er urfolk i Norge, Sverige, Finland og
+        Russland.
+      en: >-
+        The Māori are the indigenous people of New Zealand, and Māori is one of
+        the country's official languages alongside English. The Inuit are
+        indigenous to the Arctic, including Canada and Greenland, and the Sámi
+        are indigenous to Norway, Sweden, Finland and Russia.
+    reviewed: false
+
+  - id: KM13385-02
+    goal: KM13385
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Samene er anerkjent som urfolk i Norge. Hvilket av disse er et samisk
+        språk som snakkes i Norge?
+      en: >-
+        The Sámi are recognised as an indigenous people in Norway. Which of
+        these is a Sámi language spoken in Norway?
+    choices:
+      - id: a
+        text:
+          nb: Northern Sámi
+          en: Northern Sámi
+        correct: true
+      - id: b
+        text:
+          nb: Finnish
+          en: Finnish
+      - id: c
+        text:
+          nb: Icelandic
+          en: Icelandic
+    explanation:
+      nb: >-
+        Nordsamisk er det største av flere samiske språk i Norge; lulesamisk og
+        sørsamisk snakkes også her. Finsk og islandsk er nabospråk, men ikke
+        samiske språk.
+      en: >-
+        Northern Sámi is the largest of several Sámi languages in Norway; Lule
+        Sámi and Southern Sámi are spoken here too. Finnish and Icelandic are
+        neighbouring languages, but they are not Sámi languages.
+    reviewed: false
+
+  # KM13387 - ways of living, communication patterns and diversity
+  - id: KM13387-01
+    goal: KM13387
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Du er på utveksling og vil be en medelev om å sende deg en bok. Hvilken
+        formulering er den høfligste på engelsk?
+      en: >-
+        You are on an exchange and want to ask a classmate to pass you a book.
+        Which wording is the most polite in English?
+    choices:
+      - id: a
+        text:
+          nb: Could you pass me the book, please?
+          en: Could you pass me the book, please?
+        correct: true
+      - id: b
+        text:
+          nb: Give me the book.
+          en: Give me the book.
+      - id: c
+        text:
+          nb: I want the book now.
+          en: I want the book now.
+    explanation:
+      nb: >-
+        På engelsk pakkes forespørsler ofte inn i could you og please. Norsk
+        klarer seg oftere med en direkte imperativ uten at det virker uhøflig, så
+        en direkte oversettelse fra norsk kan lyde brattere enn du mener.
+      en: >-
+        English usually wraps requests in could you and please. Norwegian more
+        often manages with a plain imperative without sounding rude, so a direct
+        translation from Norwegian can come across as blunter than you intend.
+    reviewed: false
+
+  - id: KM13387-02
+    goal: KM13387
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Engelsk er offisielt språk i mange land utenfor Storbritannia og USA. I
+        hvilket av disse landene er engelsk et offisielt språk?
+      en: >-
+        English is an official language in many countries beyond Britain and the
+        United States. In which of these countries is English an official
+        language?
+    choices:
+      - id: a
+        text:
+          nb: India
+          en: India
+        correct: true
+      - id: b
+        text:
+          nb: Brazil
+          en: Brazil
+      - id: c
+        text:
+          nb: Japan
+          en: Japan
+    explanation:
+      nb: >-
+        India har engelsk som offisielt språk ved siden av hindi og en rekke
+        andre språk. I Brasil er portugisisk offisielt språk, og i Japan er det
+        japansk. Engelsk brukes altså av mange flere enn de som har det som
+        morsmål.
+      en: >-
+        India has English as an official language alongside Hindi and many
+        others. Brazil's official language is Portuguese and Japan's is
+        Japanese. English is therefore used by far more people than those who
+        grew up with it.
+    reviewed: false
+
+# Goals that no written question can honestly test. Recorded rather than
+# omitted, so the gap is a stated judgement instead of a silent one.
+not_assessable:
+  - goal: KM13380
+    reason: >-
+      Asks the pupil to use digital resources and other aids in language
+      learning, text creation and interaction. Whether a pupil reaches for a
+      dictionary, a spellchecker or a shared document is observable only while
+      they work; a question could at best test what such a tool is, which is not
+      what the goal asks for.
+
+  - goal: KM13388
+    reason: >-
+      Concerns using central pronunciation patterns in communication. Speech
+      cannot be captured by a written question, and the app grades typed and
+      selected answers only. Testing spelling as a stand-in would measure a
+      different skill and quietly misreport it as pronunciation.
+
+  - goal: KM13373
+    reason: >-
+      Asks the pupil to ask questions and follow up what others say in
+      conversations, adapted to purpose, audience and situation. Following up in
+      a live conversation depends on what the other person just said, so no
+      fixed question can check it; testing question word order instead would
+      measure grammar, not interaction.
+
+  - goal: KM13382
+    reason: >-
+      Asks the pupil to write formal and informal texts, including composite
+      ones, with structure and coherence. Producing a text is exactly what a
+      multiple-choice or one-word answer cannot do, and there is no model
+      grading free writing at runtime.
+
+  - goal: KM13383
+    reason: >-
+      Asks the pupil to revise their own texts on the basis of feedback. It
+      presupposes a text the pupil wrote and feedback a teacher gave, neither of
+      which exists inside a quiz.
+
+  - goal: KM13386
+    reason: >-
+      Asks the pupil to explore and convey content from English-language
+      cultural expressions in different media, tied to their own interests. The
+      goal is deliberately open about which film, song, game or book the pupil
+      chooses, so any question would have to pick one for them and would test
+      familiarity with our choice rather than the skill.
