@@ -49,19 +49,22 @@ a rewrite.
 ## Running it
 
 ```bash
-docker run -p 8000:8000 ghcr.io/brujoand/froken
+docker run -p 8000:8000 ghcr.io/brujoand/froken:1.0.0
 ```
 
 No credentials needed — the image is public, like the repo. It carries the
 curriculum baked in and needs no network access, no API key and no
 configuration.
 
-Images are published on release, tagged with the version and `latest`, with a
-[provenance attestation](https://docs.github.com/en/actions/security-guides/using-artifact-attestations):
+There is deliberately **no `latest` tag**. A deployment should name the version
+it wants; a moving tag makes that impossible to do honestly. Published tags are
+`{major}.{minor}.{patch}`, `{major}.{minor}`, `{major}` and the full commit sha.
+Releases are cut from Conventional Commits — see
+[releases](https://github.com/brujoand/froken/releases) for what each version
+changed.
 
-```bash
-gh attestation verify oci://ghcr.io/brujoand/froken:latest --owner brujoand
-```
+The running app reports its version at `/healthz`. An image that says `dev` was
+built outside the release pipeline.
 
 ## Development
 
