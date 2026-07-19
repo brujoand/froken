@@ -36,4 +36,7 @@ EXPOSE 8000
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
     CMD python -c "import urllib.request;urllib.request.urlopen('http://127.0.0.1:8000/healthz').read()"
 
-CMD ["uv", "run", "--no-dev", "uvicorn", "froken.web.app:app", "--host", "0.0.0.0", "--port", "8000"]
+# The venv binary directly, not `uv run`: uv would re-check the lockfile at
+# container start, which is a resolution step -- and potentially a network call
+# -- on a path that should do nothing but exec the server.
+CMD ["/app/.venv/bin/uvicorn", "froken.web.app:app", "--host", "0.0.0.0", "--port", "8000"]
