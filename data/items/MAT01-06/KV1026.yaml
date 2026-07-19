@@ -1,0 +1,468 @@
+# Matematikk, kompetansemål etter 7. trinn (MAT01-06 / KV1026).
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+---
+subject: MAT01-06
+goal_set: KV1026
+
+items:
+  - id: KM13286-01
+    goal: KM13286
+    type: numeric
+    difficulty: 1
+    prompt:
+      nb: Hvor mange prosent er det samme som brøken 1/4?
+      en: How many percent is the same as the fraction 1/4?
+    answer: 25
+    explanation:
+      nb: En hel er 100 prosent. En firedel av 100 er 25, så 1/4 er 25 prosent.
+      en: A whole is 100 percent. A quarter of 100 is 25, so 1/4 is 25 percent.
+    reviewed: false
+
+  - id: KM13286-02
+    goal: KM13286
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilken prosent er like mye som desimaltallet 0,6?
+      en: Which percentage is the same as the decimal 0.6?
+    choices:
+      - id: a
+        text:
+          nb: "6 %"
+          en: "6%"
+      - id: b
+        text:
+          nb: "60 %"
+          en: "60%"
+        correct: true
+      - id: c
+        text:
+          nb: "600 %"
+          en: "600%"
+    explanation:
+      nb: Prosent betyr hundredeler. 0,6 er det samme som 60 hundredeler, altså
+        60 prosent.
+      en: Percent means hundredths. 0.6 is the same as 60 hundredths, which is
+        60 percent.
+    reviewed: false
+
+  - id: KM13288-01
+    goal: KM13288
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: En kasse veier 80 kilo. Hvor mange kilo er 25 prosent av kassa?
+      en: A crate weighs 80 kilos. How many kilos is 25 percent of the crate?
+    answer: 20
+    explanation:
+      nb: 25 prosent er det samme som en firedel. 80 delt på 4 er 20.
+      en: 25 percent is the same as one quarter. 80 divided by 4 is 20.
+    reviewed: false
+
+  - id: KM13288-02
+    goal: KM13288
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Hva blir 1/2 + 1/4?
+      en: What is 1/2 + 1/4?
+    choices:
+      - id: a
+        text:
+          nb: "2/6"
+          en: "2/6"
+      - id: b
+        text:
+          nb: "3/4"
+          en: "3/4"
+        correct: true
+      - id: c
+        text:
+          nb: "1/6"
+          en: "1/6"
+    explanation:
+      nb: Gjør om 1/2 til 2/4 først, så begge brøkene har firedeler. Da blir
+        2/4 + 1/4 = 3/4.
+      en: Rewrite 1/2 as 2/4 so both fractions are in quarters. Then
+        2/4 + 1/4 = 3/4.
+    reviewed: false
+
+  - id: KM13292-01
+    goal: KM13292
+    type: numeric
+    difficulty: 1
+    prompt:
+      nb: Om morgenen er det minus 6 grader. Utover dagen stiger temperaturen 9
+        grader. Hvor mange grader er det da?
+      en: In the morning it is minus 6 degrees. During the day the temperature
+        rises 9 degrees. How many degrees is it then?
+    answer: 3
+    explanation:
+      nb: Fra minus 6 er det 6 grader opp til null, og da er det 3 grader igjen
+        av de 9. Svaret er 3 grader.
+      en: From minus 6 it is 6 degrees up to zero, leaving 3 of the 9 degrees.
+        The answer is 3 degrees.
+    reviewed: false
+
+  - id: KM13292-02
+    goal: KM13292
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilket av tallene er minst?
+      en: Which of these numbers is the smallest?
+    choices:
+      - id: a
+        text:
+          nb: "-8"
+          en: "-8"
+        correct: true
+      - id: b
+        text:
+          nb: "-3"
+          en: "-3"
+      - id: c
+        text:
+          nb: "2"
+          en: "2"
+    explanation:
+      nb: På tallinja ligger de negative tallene til venstre for null, og minus 8
+        ligger lengst til venstre. Jo større siffer etter minustegnet, desto
+        mindre er tallet.
+      en: On the number line negative numbers sit left of zero, and minus 8 sits
+        furthest left. The bigger the digit after the minus sign, the smaller
+        the number.
+    reviewed: false
+
+  - id: KM13287-01
+    goal: KM13287
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: "Regn ut: 4 + 3 × 5"
+      en: "Work out: 4 + 3 × 5"
+    answer: 19
+    explanation:
+      nb: Gange kommer før pluss. Først 3 × 5 = 15, så 4 + 15 = 19.
+      en: Multiplication comes before addition. First 3 × 5 = 15, then
+        4 + 15 = 19.
+    reviewed: false
+
+  - id: KM13287-02
+    goal: KM13287
+    type: numeric
+    difficulty: 3
+    prompt:
+      nb: "Regn ut: 20 - 2 × (3 + 4)"
+      en: "Work out: 20 - 2 × (3 + 4)"
+    answer: 6
+    explanation:
+      nb: Parentesen først, altså 3 + 4 = 7. Så gange, altså 2 × 7 = 14. Til
+        slutt 20 - 14 = 6.
+      en: Brackets first, 3 + 4 = 7. Then multiply, 2 × 7 = 14. Finally
+        20 - 14 = 6.
+    reviewed: false
+
+  - id: KM13291-01
+    goal: KM13291
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: "Hvilket tall er x når 3x + 4 = 19?"
+      en: "What number is x when 3x + 4 = 19?"
+    answer: 5
+    explanation:
+      nb: Trekk fra 4 på begge sider, så står det 3x = 15. Del så begge sider på
+        3, og du får x = 5.
+      en: Subtract 4 from both sides to get 3x = 15. Then divide both sides by 3
+        to get x = 5.
+    reviewed: false
+
+  - id: KM13291-02
+    goal: KM13291
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Ola løser ligningen x + 7 = 12 og får x = 19. Stemmer svaret hans?
+      en: Ola solves the equation x + 7 = 12 and gets x = 19. Is his answer
+        right?
+    choices:
+      - id: a
+        text:
+          nb: Nei, for 19 + 7 blir 26, ikke 12
+          en: No, because 19 + 7 is 26, not 12
+        correct: true
+      - id: b
+        text:
+          nb: Ja, for 19 - 7 blir 12
+          en: Yes, because 19 - 7 is 12
+      - id: c
+        text:
+          nb: Ja, for x kan være hvilket som helst tall
+          en: Yes, because x can be any number
+    explanation:
+      nb: Du sjekker en løsning ved å sette den inn i ligningen. 19 + 7 = 26, så
+        løsningen er ugyldig. Riktig svar er x = 5.
+      en: You check a solution by putting it back into the equation. 19 + 7 = 26,
+        so the solution is invalid. The right answer is x = 5.
+    reviewed: false
+
+  - id: KM13294-01
+    goal: KM13294
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: Et tall blir ganget med 4, og så legger vi til 7. Da får vi 39. Hvilket
+        tall startet vi med?
+      en: A number is multiplied by 4, and then 7 is added. The result is 39.
+        Which number did we start with?
+    answer: 8
+    explanation:
+      nb: Regn baklengs. 39 - 7 = 32, og 32 delt på 4 er 8. Sjekk etterpå at
+        8 × 4 + 7 = 39.
+      en: Work backwards. 39 - 7 = 32, and 32 divided by 4 is 8. Check
+        afterwards that 8 × 4 + 7 = 39.
+    reviewed: false
+
+  - id: KM13294-02
+    goal: KM13294
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Kari har 3 poser med like mange nøtter i hver, og 5 løse nøtter. Til
+        sammen har hun 26 nøtter. Hvilken ligning passer?
+      en: Kari has 3 bags with the same number of nuts in each, plus 5 loose
+        nuts. Altogether she has 26 nuts. Which equation fits?
+    choices:
+      - id: a
+        text:
+          nb: "3n + 5 = 26"
+          en: "3n + 5 = 26"
+        correct: true
+      - id: b
+        text:
+          nb: "3n - 5 = 26"
+          en: "3n - 5 = 26"
+      - id: c
+        text:
+          nb: "n + 3 = 26"
+          en: "n + 3 = 26"
+    explanation:
+      nb: La n være antall nøtter i én pose. Tre poser er 3n, og de 5 løse legges
+        til. Til sammen blir det 26, altså 3n + 5 = 26.
+      en: Let n be the number of nuts in one bag. Three bags is 3n, and the 5
+        loose nuts are added. The total is 26, so 3n + 5 = 26.
+    reviewed: false
+
+  - id: KM13296-01
+    goal: KM13296
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: For hvilket tall stemmer det at x er større enn 12?
+      en: For which number is it true that x is greater than 12?
+    choices:
+      - id: a
+        text:
+          nb: "9"
+          en: "9"
+      - id: b
+        text:
+          nb: "12"
+          en: "12"
+      - id: c
+        text:
+          nb: "15"
+          en: "15"
+        correct: true
+    explanation:
+      nb: Større enn 12 betyr at tallet må ligge over 12. 12 selv er ikke større
+        enn 12, men 15 er det.
+      en: Greater than 12 means the number must be above 12. 12 itself is not
+        greater than 12, but 15 is.
+    reviewed: false
+
+  - id: KM13296-02
+    goal: KM13296
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Ei bru tåler høyst 3500 kilo. Hvilken lastebil kan kjøre over?
+      en: A bridge can take at most 3500 kilos. Which lorry may drive across?
+    choices:
+      - id: a
+        text:
+          nb: En som veier 3400 kilo
+          en: One weighing 3400 kilos
+        correct: true
+      - id: b
+        text:
+          nb: En som veier 3600 kilo
+          en: One weighing 3600 kilos
+      - id: c
+        text:
+          nb: En som veier 4000 kilo
+          en: One weighing 4000 kilos
+    explanation:
+      nb: Vekta må være mindre enn eller lik 3500 kilo. Bare 3400 kilo oppfyller
+        det; de to andre er for tunge.
+      en: The weight must be less than or equal to 3500 kilos. Only 3400 kilos
+        meets that; the other two are too heavy.
+    reviewed: false
+
+  - id: KM13289-01
+    goal: KM13289
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: "Fem elever leste så mange bøker i vinter: 4, 7, 9, 8 og 2. Hva er
+        gjennomsnittet?"
+      en: "Five pupils read this many books over the winter: 4, 7, 9, 8 and 2.
+        What is the mean?"
+    answer: 6
+    explanation:
+      nb: Legg sammen alle tallene, altså 4 + 7 + 9 + 8 + 2 = 30. Del så på
+        antallet, og 30 delt på 5 er 6.
+      en: Add all the numbers, so 4 + 7 + 9 + 8 + 2 = 30. Then divide by how
+        many there are, and 30 divided by 5 is 6.
+    reviewed: false
+
+  - id: KM13289-02
+    goal: KM13289
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Ni elever samler tomflasker. Åtte av dem samler mellom 10 og 15
+        flasker, mens én samler 200. Hvilket sentralmål beskriver best hva en
+        vanlig elev samlet?
+      en: Nine pupils collect empty bottles. Eight of them collect between 10 and
+        15 bottles, while one collects 200. Which measure best describes what a
+        typical pupil collected?
+    choices:
+      - id: a
+        text:
+          nb: Medianen
+          en: The median
+        correct: true
+      - id: b
+        text:
+          nb: Gjennomsnittet
+          en: The mean
+      - id: c
+        text:
+          nb: Det høyeste tallet
+          en: The highest value
+    explanation:
+      nb: Ett svært høyt tall drar gjennomsnittet langt opp. Medianen er tallet
+        på midten når du sorterer, og den påvirkes ikke av det ene ytterpunktet.
+      en: One very high value pulls the mean far up. The median is the middle
+        value once you sort the data, and it is not affected by that one
+        outlier.
+    reviewed: false
+
+  - id: KM13290-01
+    goal: KM13290
+    type: numeric
+    difficulty: 1
+    prompt:
+      nb: "Tabellen viser regnværsdager: mai 8, juni 5, juli 12, august 9. Hvor
+        mange flere regnværsdager var det i juli enn i mai?"
+      en: "The table shows rainy days: May 8, June 5, July 12, August 9. How many
+        more rainy days were there in July than in May?"
+    answer: 4
+    explanation:
+      nb: Les av juli, som er 12, og mai, som er 8. Differansen er 12 - 8 = 4.
+      en: Read off July, which is 12, and May, which is 8. The difference is
+        12 - 8 = 4.
+    reviewed: false
+
+  - id: KM13290-02
+    goal: KM13290
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Du vil vise hvordan temperaturen endret seg time for time gjennom et
+        døgn. Hvilken framstilling passer best?
+      en: You want to show how the temperature changed hour by hour over a day.
+        Which kind of chart fits best?
+    choices:
+      - id: a
+        text:
+          nb: Linjediagram
+          en: A line graph
+        correct: true
+      - id: b
+        text:
+          nb: Kakediagram
+          en: A pie chart
+      - id: c
+        text:
+          nb: Piktogram
+          en: A pictogram
+    explanation:
+      nb: Et linjediagram viser endring over tid, fordi punktene henger sammen i
+        rekkefølge. Et kakediagram viser andeler av en helhet i stedet.
+      en: A line graph shows change over time, because the points are joined in
+        order. A pie chart shows shares of a whole instead.
+    reviewed: false
+
+  - id: KM13295-01
+    goal: KM13295
+    type: numeric
+    difficulty: 2
+    tolerance: 25
+    prompt:
+      nb: En sekk fuglemat koster 197 kroner. Gjør et overslag - omtrent hvor
+        mye koster 4 sekker?
+      en: A sack of bird feed costs 197 kroner. Make an estimate - roughly how
+        much do 4 sacks cost?
+    answer: 800
+    explanation:
+      nb: Rund 197 opp til 200, som er lett å gange med. 4 × 200 = 800 kroner, og
+        det virkelige svaret ligger like under.
+      en: Round 197 up to 200, which is easy to multiply. 4 × 200 = 800 kroner,
+        and the true answer sits just below that.
+    reviewed: false
+
+  - id: KM13295-02
+    goal: KM13295
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Klassen skal kjøpe 9 baller til 120 kroner stykket. Ali regner ut at
+        det koster 108 kroner. Hva er mest sannsynlig feil?
+      en: The class is buying 9 balls at 120 kroner each. Ali works out that this
+        costs 108 kroner. What has most likely gone wrong?
+    choices:
+      - id: a
+        text:
+          nb: Han har mistet en null; svaret bør være rundt 1080 kroner
+          en: He has dropped a zero; the answer should be about 1080 kroner
+        correct: true
+      - id: b
+        text:
+          nb: Han har lagt sammen i stedet for å gange
+          en: He has added instead of multiplied
+      - id: c
+        text:
+          nb: Ingenting, 108 kroner stemmer
+          en: Nothing, 108 kroner is right
+    explanation:
+      nb: Et raskt overslag sier at 9 baller til rundt 100 kroner må koste rundt
+        900 kroner. Svaret 108 er altfor lite, og 9 × 120 = 1080.
+      en: A quick estimate says 9 balls at around 100 kroner must cost around 900
+        kroner. The answer 108 is far too small, and 9 × 120 = 1080.
+    reviewed: false
+
+# Goals that no written question can honestly test. Recorded rather than
+# omitted, so the gap is a stated judgement instead of a silent one.
+not_assessable:
+  - goal: KM13293
+    reason: >-
+      Asks the pupil to use programming to explore data in tables and data sets.
+      That is work done at a keyboard in a programming environment, where the
+      pupil writes and runs code; a quiz can at best ask what some code would
+      print, which tests reading code rather than using programming to explore
+      data.

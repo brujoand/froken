@@ -1,0 +1,379 @@
+# Matematikk, kompetansemål etter 4. trinn (MAT01-06 / KV1023).
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+#
+# Written for 9-year-olds: one or two short sentences, everyday Norwegian
+# contexts, numbers small enough to hold in the head.
+---
+subject: MAT01-06
+goal_set: KV1023
+
+items:
+  - id: KM13255-01
+    goal: KM13255
+    type: numeric
+    difficulty: 1
+    prompt:
+      nb: 12 epler skal deles likt på 4 barn. Hvor mange epler får hvert barn?
+      en: 12 apples are shared equally between 4 children. How many apples does
+        each child get?
+    answer: 3
+    explanation:
+      nb: Vi deler 12 i 4 like grupper. Hver gruppe blir 3, fordi 4 · 3 = 12.
+      en: We split 12 into 4 equal groups. Each group is 3, because 4 · 3 = 12.
+    reviewed: false
+
+  - id: KM13255-02
+    goal: KM13255
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: Du har 20 kuler. Du legger 5 kuler i hver pose. Hvor mange poser
+        trenger du?
+      en: You have 20 marbles. You put 5 marbles in each bag. How many bags do
+        you need?
+    answer: 4
+    explanation:
+      nb: Her vet vi hvor mange som skal i hver pose, og leter etter antall
+        poser. 5 + 5 + 5 + 5 = 20, så du trenger 4 poser.
+      en: Here we know how many go in each bag and look for the number of bags.
+        5 + 5 + 5 + 5 = 20, so you need 4 bags.
+    reviewed: false
+
+  - id: KM13256-01
+    goal: KM13256
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: "Tegningen viser 3 rader med 6 klosser i hver rad. Hvilket regnestykke
+        passer til å finne hvor mange klosser det er i hver rad?"
+      en: "The drawing shows 3 rows with 6 blocks in each row. Which calculation
+        finds how many blocks there are in each row?"
+    choices:
+      - id: a
+        text:
+          nb: "18 : 3"
+          en: "18 : 3"
+        correct: true
+      - id: b
+        text:
+          nb: "18 + 3"
+          en: "18 + 3"
+      - id: c
+        text:
+          nb: "18 · 3"
+          en: "18 · 3"
+    explanation:
+      nb: Til sammen er det 18 klosser. Deler vi 18 på 3 rader, får vi 6 klosser
+        i hver rad.
+      en: There are 18 blocks in total. Dividing 18 by 3 rows gives 6 blocks in
+        each row.
+    reviewed: false
+
+  - id: KM13257-01
+    goal: KM13257
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: "Regn ut: 24 : 2"
+      en: "Work out: 24 : 2"
+    answer: 12
+    explanation:
+      nb: Å dele på 2 er det samme som å halvere. Halvparten av 24 er 12.
+      en: Dividing by 2 is the same as halving. Half of 24 is 12.
+    reviewed: false
+
+  - id: KM13257-02
+    goal: KM13257
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: "Ola skal regne ut 36 : 3. Han deler først 30 : 3 og så 6 : 3. Hva blir
+        svaret?"
+      en: "Ola works out 36 : 3. He first does 30 : 3 and then 6 : 3. What is the
+        answer?"
+    choices:
+      - id: a
+        text:
+          nb: "12"
+          en: "12"
+        correct: true
+      - id: b
+        text:
+          nb: "13"
+          en: "13"
+      - id: c
+        text:
+          nb: "18"
+          en: "18"
+    explanation:
+      nb: "30 : 3 er 10 og 6 : 3 er 2. Legger vi sammen delsvarene, blir 36 : 3
+        lik 12."
+      en: "30 : 3 is 10 and 6 : 3 is 2. Adding the part answers gives 36 : 3 =
+        12."
+    reviewed: false
+
+  - id: KM13258-01
+    goal: KM13258
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: "Du vet at 7 · 4 = 28. Hva blir 28 : 4?"
+      en: "You know that 7 · 4 = 28. What is 28 : 4?"
+    answer: 7
+    explanation:
+      nb: "Divisjon er motsatt av multiplikasjon. Når 7 · 4 = 28, må 28 : 4 være
+        7."
+      en: "Division undoes multiplication. Since 7 · 4 = 28, 28 : 4 must be 7."
+    reviewed: false
+
+  - id: KM13258-02
+    goal: KM13258
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilket regnestykke gir det samme svaret som 5 + 5 + 5?
+      en: Which calculation gives the same answer as 5 + 5 + 5?
+    choices:
+      - id: a
+        text:
+          nb: "3 · 5"
+          en: "3 · 5"
+        correct: true
+      - id: b
+        text:
+          nb: "15 : 5"
+          en: "15 : 5"
+      - id: c
+        text:
+          nb: "5 - 3"
+          en: "5 - 3"
+    explanation:
+      nb: Å legge sammen tre femmere er det samme som å gange 3 med 5. Begge blir
+        15.
+      en: Adding three fives is the same as multiplying 3 by 5. Both give 15.
+    reviewed: false
+
+  - id: KM13259-01
+    goal: KM13259
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Omtrent hvor mye er 198 + 203?
+      en: Roughly how much is 198 + 203?
+    choices:
+      - id: a
+        text:
+          nb: "Omtrent 400"
+          en: "About 400"
+        correct: true
+      - id: b
+        text:
+          nb: "Omtrent 300"
+          en: "About 300"
+      - id: c
+        text:
+          nb: "Omtrent 600"
+          en: "About 600"
+    explanation:
+      nb: 198 er nesten 200, og 203 er nesten 200. To ganger 200 er 400.
+      en: 198 is nearly 200 and 203 is nearly 200. Two hundreds make 400.
+    reviewed: false
+
+  - id: KM13259-02
+    goal: KM13259
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Kari regner ut 9 · 8 og får 27. Hvordan kan hun se at svaret er feil
+        uten å regne på nytt?
+      en: Kari works out 9 · 8 and gets 27. How can she see the answer is wrong
+        without redoing the sum?
+    choices:
+      - id: a
+        text:
+          nb: 9 · 8 må bli større enn 9 · 5, som er 45
+          en: 9 · 8 must be bigger than 9 · 5, which is 45
+        correct: true
+      - id: b
+        text:
+          nb: 27 er et oddetall, og svar kan ikke være oddetall
+          en: 27 is odd, and answers cannot be odd
+      - id: c
+        text:
+          nb: Hun kan ikke se det uten å regne på nytt
+          en: She cannot see it without redoing the sum
+    explanation:
+      nb: "Et overslag avslører feilen: 9 · 8 er mer enn 9 · 5 = 45, så 27 er
+        altfor lite. Riktig svar er 72."
+      en: "An estimate reveals the error: 9 · 8 is more than 9 · 5 = 45, so 27 is
+        far too small. The right answer is 72."
+    reviewed: false
+
+  - id: KM13260-01
+    goal: KM13260
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Det er 6 bord i klasserommet. Ved hvert bord sitter 4 elever. Hvilket
+        regneuttrykk viser hvor mange elever det er?
+      en: There are 6 tables in the classroom. 4 pupils sit at each table. Which
+        expression shows how many pupils there are?
+    choices:
+      - id: a
+        text:
+          nb: "6 · 4"
+          en: "6 · 4"
+        correct: true
+      - id: b
+        text:
+          nb: "6 + 4"
+          en: "6 + 4"
+      - id: c
+        text:
+          nb: "6 : 4"
+          en: "6 : 4"
+    explanation:
+      nb: Seks like grupper med 4 i hver skrives 6 · 4. Det blir 24 elever.
+      en: Six equal groups of 4 is written 6 · 4. That makes 24 pupils.
+    reviewed: false
+
+  - id: KM13260-02
+    goal: KM13260
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: "Hvilken fortelling passer til regnestykket 15 : 3?"
+      en: "Which story fits the calculation 15 : 3?"
+    choices:
+      - id: a
+        text:
+          nb: 15 kaker deles likt på 3 barn
+          en: 15 buns are shared equally between 3 children
+        correct: true
+      - id: b
+        text:
+          nb: Vi har 15 kaker og baker 3 til
+          en: We have 15 buns and bake 3 more
+      - id: c
+        text:
+          nb: 3 barn får 15 kaker hver
+          en: 3 children get 15 buns each
+    explanation:
+      nb: "Divisjon betyr å dele i like grupper. 15 : 3 er 15 kaker fordelt på 3
+        barn, altså 5 til hver."
+      en: "Division means splitting into equal groups. 15 : 3 is 15 buns shared
+        between 3 children, so 5 each."
+    reviewed: false
+
+  - id: KM13261-01
+    goal: KM13261
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: Hvor mange flater har en terning?
+      en: How many faces does a cube have?
+    answer: 6
+    explanation:
+      nb: En terning har seks flater, én for hvert øyetall fra 1 til 6.
+      en: A cube has six faces, one for each number from 1 to 6.
+    reviewed: false
+
+  - id: KM13261-02
+    goal: KM13261
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilken figur har fire like lange sider og fire rette vinkler?
+      en: Which shape has four equal sides and four right angles?
+    choices:
+      - id: a
+        text:
+          nb: Kvadrat
+          en: Square
+        correct: true
+      - id: b
+        text:
+          nb: Trekant
+          en: Triangle
+      - id: c
+        text:
+          nb: Sirkel
+          en: Circle
+    explanation:
+      nb: Et kvadrat har fire like sider og fire hjørner med rette vinkler. En
+        trekant har tre sider, og en sirkel har ingen hjørner.
+      en: A square has four equal sides and four right-angled corners. A triangle
+        has three sides, and a circle has no corners.
+    reviewed: false
+
+  - id: KM13264-01
+    goal: KM13264
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilken enhet passer best når du skal måle hvor mye melk det er i en
+        kartong?
+      en: Which unit fits best for measuring how much milk is in a carton?
+    choices:
+      - id: a
+        text:
+          nb: Liter
+          en: Litres
+        correct: true
+      - id: b
+        text:
+          nb: Meter
+          en: Metres
+      - id: c
+        text:
+          nb: Kilogram
+          en: Kilograms
+    explanation:
+      nb: Volum måler vi i liter. Meter måler lengde, og kilogram måler vekt.
+      en: Volume is measured in litres. Metres measure length and kilograms
+        measure weight.
+    reviewed: false
+
+  - id: KM13264-02
+    goal: KM13264
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: En bøtte rommer like mye som 8 like glass. Hvor mange glass trengs for
+        å fylle 2 bøtter?
+      en: A bucket holds as much as 8 equal glasses. How many glasses are needed
+        to fill 2 buckets?
+    answer: 16
+    explanation:
+      nb: Én bøtte er 8 glass, så to bøtter er 8 + 8 = 16 glass. Vi kan måle
+        volum med glass som enhet.
+      en: One bucket is 8 glasses, so two buckets are 8 + 8 = 16 glasses. A glass
+        works as a unit of volume.
+    reviewed: false
+
+  - id: KM13262-01
+    goal: KM13262
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: "På et spillebrett står det 3, 6, 9, 12 … Hvilket tall står på neste
+        rute?"
+      en: "A game board reads 3, 6, 9, 12 … which number is on the next square?"
+    answer: 15
+    explanation:
+      nb: Tallene øker med 3 hver gang. Etter 12 kommer 15.
+      en: The numbers go up by 3 each time, so after 12 comes 15.
+    reviewed: false
+
+# Goals that no written question can honestly test. Recorded rather than
+# omitted, so the gap is a stated judgement instead of a silent one.
+not_assessable:
+  - goal: KM13263
+    reason: >-
+      Asks the pupil to make algorithms and express them using variables,
+      conditions and loops. The verb is "lage" — the pupil constructs something,
+      usually in a programming tool or on paper. A quiz can at best ask them to
+      read someone else's algorithm, which tests comprehension rather than the
+      making, so the goal is left to classroom work.

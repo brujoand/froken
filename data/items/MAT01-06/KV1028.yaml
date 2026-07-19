@@ -1,0 +1,466 @@
+# Matematikk, kompetansemål etter 9. trinn (MAT01-06 / KV1028).
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+---
+subject: MAT01-06
+goal_set: KV1028
+
+items:
+  - id: KM13316-01
+    goal: KM13316
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: En sykkeltur på 18 km tok 45 minutter. Hva var gjennomsnittsfarten i
+        kilometer i timen?
+      en: A bike ride of 18 km took 45 minutes. What was the average speed in
+        kilometres per hour?
+    answer: 24
+    explanation:
+      nb: 45 minutter er 0,75 time. Fart er strekning delt på tid, altså
+        18 delt på 0,75 blir 24 km/t.
+      en: 45 minutes is 0.75 hours. Speed is distance divided by time, so
+        18 ÷ 0.75 = 24 km/h.
+    reviewed: false
+
+  - id: KM13316-02
+    goal: KM13316
+    type: numeric
+    difficulty: 3
+    prompt:
+      nb: En bil holder 72 km/t. Hvor mange meter per sekund er det?
+      en: A car is doing 72 km/h. How many metres per second is that?
+    answer: 20
+    explanation:
+      nb: 72 km er 72 000 meter, og én time er 3600 sekunder.
+        72 000 delt på 3600 blir 20 m/s. En snarvei er å dele km/t på 3,6.
+      en: 72 km is 72,000 metres and one hour is 3600 seconds.
+        72,000 ÷ 3600 = 20 m/s. A shortcut is to divide km/h by 3.6.
+    reviewed: false
+
+  - id: KM13308-01
+    goal: KM13308
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: To trekanter har nøyaktig like store vinkler, men sidene i den ene er
+        dobbelt så lange. Hva er riktig?
+      en: Two triangles have exactly the same angles, but the sides of one are
+        twice as long. Which statement is right?
+    choices:
+      - id: a
+        text:
+          nb: De er formlike, men ikke kongruente
+          en: They are similar, but not congruent
+        correct: true
+      - id: b
+        text:
+          nb: De er kongruente
+          en: They are congruent
+      - id: c
+        text:
+          nb: De er verken formlike eller kongruente
+          en: They are neither similar nor congruent
+    explanation:
+      nb: Formlik betyr samme form, altså like vinkler og sider i samme forhold.
+        Kongruent betyr i tillegg samme størrelse, og det er de ikke her.
+      en: Similar means the same shape, with equal angles and sides in the same ratio.
+        Congruent also requires the same size, which these do not have.
+    reviewed: false
+
+  - id: KM13308-02
+    goal: KM13308
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilken påstand gjelder for alle parallellogrammer?
+      en: Which statement is true for every parallelogram?
+    choices:
+      - id: a
+        text:
+          nb: Motstående sider er parallelle og like lange
+          en: Opposite sides are parallel and equally long
+        correct: true
+      - id: b
+        text:
+          nb: Alle fire sidene er like lange
+          en: All four sides are equally long
+      - id: c
+        text:
+          nb: Alle vinklene er 90 grader
+          en: All the angles are 90 degrees
+    explanation:
+      nb: Det som definerer et parallellogram er at motstående sider er
+        parallelle, og da blir de også like lange. Like sider hører til
+        romben, og rette vinkler til rektangelet.
+      en: A parallelogram is defined by its opposite sides being parallel, which
+        also makes them equal in length. Equal sides belong to the rhombus and
+        right angles to the rectangle.
+    reviewed: false
+
+  - id: KM13317-01
+    goal: KM13317
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: En stige står 1,5 m fra veggen og når 3,6 m opp. Hvor lang er stigen i
+        meter?
+      en: A ladder stands 1.5 m from the wall and reaches 3.6 m up it. How long
+        is the ladder, in metres?
+    answer: 3.9
+    tolerance: 0.05
+    explanation:
+      nb: Stigen er hypotenusen. 1,5² + 3,6² = 2,25 + 12,96 = 15,21, og
+        kvadratroten av 15,21 er 3,9.
+      en: The ladder is the hypotenuse. 1.5² + 3.6² = 2.25 + 12.96 = 15.21, and
+        the square root of 15.21 is 3.9.
+    reviewed: false
+
+  - id: KM13317-02
+    goal: KM13317
+    type: numeric
+    difficulty: 3
+    prompt:
+      nb: En person på 1,6 m kaster en skygge på 2 m. Samtidig kaster et tre en
+        skygge på 7,5 m. Hvor høyt er treet i meter?
+      en: A person 1.6 m tall casts a 2 m shadow. At the same moment a tree casts
+        a 7.5 m shadow. How tall is the tree, in metres?
+    answer: 6
+    tolerance: 0.05
+    explanation:
+      nb: Sola gir samme vinkel for begge, så trekantene er formlike. Skyggen til
+        treet er 7,5 delt på 2, altså 3,75 ganger så lang, og 1,6 · 3,75 = 6 m.
+      en: The sun gives both the same angle, so the triangles are similar. The
+        tree's shadow is 7.5 ÷ 2 = 3.75 times as long, and 1.6 × 3.75 = 6 m.
+    reviewed: false
+
+  - id: KM13307-01
+    goal: KM13307
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Går det an å lage en trekant med sider på 3 cm, 4 cm og 8 cm?
+      en: Can you make a triangle with sides of 3 cm, 4 cm and 8 cm?
+    choices:
+      - id: a
+        text:
+          nb: Nei, fordi 3 + 4 er kortere enn 8
+          en: No, because 3 + 4 is shorter than 8
+        correct: true
+      - id: b
+        text:
+          nb: Ja, alle tre lengder kan alltid brukes
+          en: Yes, any three lengths always work
+      - id: c
+        text:
+          nb: Nei, fordi alle sidene må være like lange
+          en: No, because all the sides have to be the same length
+    explanation:
+      nb: De to korteste sidene må til sammen være lengre enn den lengste, ellers
+        rekker de ikke fram til hverandre. 3 + 4 = 7, og det er mindre enn 8.
+      en: The two shortest sides must together be longer than the longest one, or
+        they cannot meet. 3 + 4 = 7, which is less than 8.
+    reviewed: false
+
+  - id: KM13307-02
+    goal: KM13307
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: I en trekant er vinkel A den største vinkelen. Hvilken side er da den
+        lengste?
+      en: In a triangle, angle A is the largest angle. Which side is then the
+        longest?
+    choices:
+      - id: a
+        text:
+          nb: Siden som ligger rett overfor vinkel A
+          en: The side directly opposite angle A
+        correct: true
+      - id: b
+        text:
+          nb: En av de to sidene som møtes i vinkel A
+          en: One of the two sides that meet at angle A
+      - id: c
+        text:
+          nb: Det kommer an på hvor stor trekanten er
+          en: It depends on how big the triangle is
+    explanation:
+      nb: Jo større en vinkel er, jo lenger fra hverandre skyver den de to sidene
+        som møtes der. Derfor hører den lengste siden alltid til den største
+        vinkelen, uansett størrelse på trekanten.
+      en: The bigger an angle is, the further apart it pushes the two sides that
+        meet there. So the longest side always belongs to the largest angle, no
+        matter how big the triangle is.
+    reviewed: false
+
+  - id: KM13309-01
+    goal: KM13309
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Et kvadrat har sider på 4 cm. Hva skjer med arealet hvis du dobler
+        sidelengden?
+      en: A square has sides of 4 cm. What happens to the area if you double the
+        side length?
+    choices:
+      - id: a
+        text:
+          nb: Det blir dobbelt så stort
+          en: It becomes twice as big
+      - id: b
+        text:
+          nb: Det blir fire ganger så stort
+          en: It becomes four times as big
+        correct: true
+      - id: c
+        text:
+          nb: Det blir like stort som før
+          en: It stays the same
+    explanation:
+      nb: Arealet er s · s. Med 4 cm blir det 16 cm², med 8 cm blir det 64 cm².
+        Når begge faktorene dobles, blir produktet 2 · 2 = 4 ganger så stort.
+      en: The area is s × s. At 4 cm that is 16 cm², at 8 cm it is 64 cm². When
+        both factors double, the product grows by 2 × 2 = 4.
+    reviewed: false
+
+  - id: KM13309-02
+    goal: KM13309
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: Arealet av en trekant er g · h delt på 2. Du tredobler høyden og lar
+        grunnlinja være som før. Hvor mange ganger så stort blir arealet?
+      en: The area of a triangle is b × h ÷ 2. You triple the height and leave the
+        base unchanged. How many times as big does the area get?
+    answer: 3
+    explanation:
+      nb: Høyden er én faktor i formelen. Ganger du bare den med 3, blir hele
+        produktet 3 ganger så stort. Grunnlinja endrer ingenting her.
+      en: The height is one factor in the formula. Multiplying only that by 3
+        makes the whole product 3 times as big. The base changes nothing here.
+    reviewed: false
+
+  - id: KM13310-01
+    goal: KM13310
+    type: numeric
+    difficulty: 1
+    prompt:
+      nb: En terning har sider på 4 cm. Hvor stort er overflatearealet i
+        kvadratcentimeter?
+      en: A cube has sides of 4 cm. What is its surface area in square
+        centimetres?
+    answer: 96
+    explanation:
+      nb: En terning har 6 like flater. Hver flate er 4 · 4 = 16 cm², så
+        overflaten er 6 · 16 = 96 cm².
+      en: A cube has 6 identical faces. Each face is 4 × 4 = 16 cm², so the
+        surface is 6 × 16 = 96 cm².
+    reviewed: false
+
+  - id: KM13310-02
+    goal: KM13310
+    type: numeric
+    difficulty: 3
+    prompt:
+      nb: En sylinder har radius 5 cm og høyde 10 cm. Hvor stort er volumet i
+        kubikkcentimeter? Rund av til nærmeste hele tall.
+      en: A cylinder has a radius of 5 cm and a height of 10 cm. What is its
+        volume in cubic centimetres? Round to the nearest whole number.
+    answer: 785
+    tolerance: 1
+    explanation:
+      nb: Volumet er grunnflaten ganger høyden. Grunnflaten er π · 5² ≈ 78,5 cm²,
+        og 78,5 · 10 ≈ 785 cm³.
+      en: The volume is the base area times the height. The base is π × 5² ≈ 78.5
+        cm², and 78.5 × 10 ≈ 785 cm³.
+    reviewed: false
+
+  - id: KM13312-01
+    goal: KM13312
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: I et søylediagram i avisa starter y-aksen på 95 i stedet for 0. Hva
+        gjør det med inntrykket?
+      en: In a newspaper bar chart the y-axis starts at 95 instead of 0. What does
+        that do to the impression?
+    choices:
+      - id: a
+        text:
+          nb: Små forskjeller ser mye større ut
+          en: Small differences look much bigger
+        correct: true
+      - id: b
+        text:
+          nb: Små forskjeller ser mindre ut
+          en: Small differences look smaller
+      - id: c
+        text:
+          nb: Det endrer ikke inntrykket
+          en: It does not change the impression
+    explanation:
+      nb: Når aksen begynner høyt oppe, vises bare toppen av søylene. En forskjell
+        på to enheter kan da fylle hele diagrammet og se dramatisk ut.
+      en: When the axis starts high up, only the tops of the bars are shown. A
+        difference of two units can then fill the whole chart and look dramatic.
+    reviewed: false
+
+  - id: KM13312-02
+    goal: KM13312
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: En nettavis skriver at dobbelt så mange sykler til skolen. De har spurt
+        8 elever. Hva er den viktigste innvendingen?
+      en: A news site writes that twice as many pupils cycle to school. They asked
+        8 pupils. What is the main objection?
+    choices:
+      - id: a
+        text:
+          nb: Utvalget er for lite til å si noe om alle
+          en: The sample is too small to say anything about everyone
+        correct: true
+      - id: b
+        text:
+          nb: Man kan ikke bruke tallet 2 i statistikk
+          en: You cannot use the number 2 in statistics
+      - id: c
+        text:
+          nb: Sykling kan ikke telles
+          en: Cycling cannot be counted
+    explanation:
+      nb: Med bare 8 svar kan én eller to elever snu hele resultatet. Da sier
+        tallet mest om tilfeldigheter, ikke om skolen som helhet.
+      en: With only 8 answers, one or two pupils can flip the whole result. The
+        number then says more about chance than about the school as a whole.
+    reviewed: false
+
+  - id: KM13313-01
+    goal: KM13313
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: "Sju elever brukte disse minuttene på skoleveien: 5, 7, 8, 8, 10, 12,
+        60. Hva er medianen?"
+      en: "Seven pupils spent these numbers of minutes getting to school: 5, 7, 8,
+        8, 10, 12, 60. What is the median?"
+    answer: 8
+    explanation:
+      nb: Medianen er tallet midt i den sorterte rekka. Med sju tall er det det
+        fjerde, altså 8.
+      en: The median is the middle number of the sorted list. With seven numbers
+        that is the fourth one, which is 8.
+    reviewed: false
+
+  - id: KM13313-02
+    goal: KM13313
+    type: numeric
+    difficulty: 1
+    prompt:
+      nb: "Fire målinger av temperatur: 4, 9, 12 og 15 grader. Hva er
+        variasjonsbredden?"
+      en: "Four temperature readings: 4, 9, 12 and 15 degrees. What is the range?"
+    answer: 11
+    explanation:
+      nb: Variasjonsbredden er største verdi minus minste verdi, altså 15 − 4 = 11.
+        Den forteller hvor spredt målingene er.
+      en: The range is the largest value minus the smallest, so 15 − 4 = 11. It says
+        how spread out the readings are.
+    reviewed: false
+
+  - id: KM13313-03
+    goal: KM13313
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: "I tallene 5, 7, 8, 8, 10, 12, 60 er gjennomsnittet 15,7 og medianen 8.
+        Hvilket sentralmål beskriver gruppa best?"
+      en: "For the numbers 5, 7, 8, 8, 10, 12, 60 the mean is 15.7 and the median
+        is 8. Which measure describes the group best?"
+    choices:
+      - id: a
+        text:
+          nb: Medianen, fordi den ene store verdien ikke drar den opp
+          en: The median, because the one large value does not drag it up
+        correct: true
+      - id: b
+        text:
+          nb: Gjennomsnittet, fordi det bruker alle tallene
+          en: The mean, because it uses all the numbers
+      - id: c
+        text:
+          nb: Begge beskriver gruppa like godt
+          en: Both describe the group equally well
+    explanation:
+      nb: Gjennomsnittet på 15,7 er høyere enn seks av de sju tallene, fordi
+        verdien 60 trekker det opp. Medianen på 8 ligger der de fleste ligger.
+      en: The mean of 15.7 is higher than six of the seven numbers, because the
+        value 60 pulls it up. The median of 8 sits where most of the data sits.
+    reviewed: false
+
+  - id: KM13315-01
+    goal: KM13315
+    type: numeric
+    difficulty: 1
+    prompt:
+      nb: En pose har 5 røde og 15 blå kuler. Du trekker én uten å se. Hvor mange
+        prosent er sjansen for rød?
+      en: A bag holds 5 red and 15 blue marbles. You draw one without looking.
+        What is the chance of red, as a percentage?
+    answer: 25
+    explanation:
+      nb: Det er 20 kuler til sammen, og 5 av dem er røde. 5 delt på 20 blir 0,25, altså
+        25 prosent.
+      en: There are 20 marbles in all and 5 of them are red. 5 ÷ 20 = 0.25, which
+        is 25 per cent.
+    reviewed: false
+
+  - id: KM13315-02
+    goal: KM13315
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Du kaster to terninger og legger sammen øynene. Hvor stor er sjansen
+        for å få 12?
+      en: You roll two dice and add the pips. What is the chance of getting 12?
+    choices:
+      - id: a
+        text:
+          nb: "1 av 36"
+          en: "1 in 36"
+        correct: true
+      - id: b
+        text:
+          nb: "1 av 12"
+          en: "1 in 12"
+      - id: c
+        text:
+          nb: "1 av 6"
+          en: "1 in 6"
+    explanation:
+      nb: To terninger gir 6 · 6 = 36 like sannsynlige utfall. Bare ett av dem,
+        sekser og sekser, gir summen 12.
+      en: Two dice give 6 × 6 = 36 equally likely outcomes. Only one of them, six
+        and six, adds up to 12.
+    reviewed: false
+
+# Goals that no written question can honestly test. Recorded rather than
+# omitted, so the gap is a stated judgement instead of a silent one.
+not_assessable:
+  - goal: KM13311
+    reason: >-
+      Asks the pupil to simulate outcomes of random trials and compute
+      probabilities by writing a program. The probability half is already tested
+      under KM13315; what is distinctive here is producing working code, which a
+      multiple-choice or numeric question cannot check. Asking about code the
+      pupil has not run would test reading a listing, not programming.
+
+  - goal: KM13314
+    reason: >-
+      Asks the pupil to compare presentations of the same data and argue how each
+      one promotes a particular viewpoint. Judging a single presentation is
+      covered by KM13312; what remains here is the argument itself, which has to
+      be written or spoken by the pupil. A question with one right answer would
+      reward guessing the intended reading rather than reasoning.
