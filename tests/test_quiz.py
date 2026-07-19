@@ -270,3 +270,50 @@ def test_unanswered_items_do_not_count_toward_the_total() -> None:
     result = score(session)
     assert (result.correct, result.total) == (1, 1)
     assert result.percentage == 100
+
+
+# Showing the answer back --------------------------------------------------
+
+
+def test_multiple_choice_echoes_the_choice_text_not_its_id() -> None:
+    """A child who picked "En bok" must not be told they answered "b"."""
+    item = QuizItem(
+        id="x",
+        goal="KM1",
+        type="multiple_choice",
+        difficulty=1,
+        prompt=text(),
+        explanation=text(),
+        choices=(
+            Choice(id="a", text=AuthoredText(nb="En bok", en="A book")),
+            Choice(id="b", text=AuthoredText(nb="En mynt", en="A coin"), correct=True),
+        )
+        + (Choice(id="c", text=text("c")),),
+    )
+    assert item.response_text("a") == "En bok"
+    assert item.response_text("a", "en") == "A book"
+    assert item.correct_text() == "En mynt"
+
+
+def test_unknown_choice_id_falls_back_to_the_raw_value() -> None:
+    assert mc().response_text("zzz") == "zzz"
+
+
+def test_numeric_answers_display_without_a_spurious_decimal() -> None:
+    """A child asked for a whole number should not see "7.0" as the answer."""
+    assert numeric(7).correct_text() == "7"
+    assert numeric(3.5).correct_text() == "3,5"
+
+
+def test_short_text_shows_the_first_accepted_answer() -> None:
+    item = QuizItem(
+        id="x",
+        goal="KM1",
+        type="short_text",
+        difficulty=1,
+        prompt=text(),
+        explanation=text(),
+        accept={"nb": ("trekant", "tre kant"), "en": ("triangle",)},
+    )
+    assert item.correct_text() == "trekant"
+    assert item.response_text("  Trekant ") == "Trekant"

@@ -26,7 +26,8 @@
   {% endif %}
 
   {% if result.strong %}
-    <h2>{{ t("result.strong_heading") }}</h2>
+    <details class="goals">
+      <summary><h2>{{ t("result.strong_heading") }}</h2></summary>
     <ul class="curriculum goal-list">
       {% for entry in result.strong %}
         <li class="goal">
@@ -34,6 +35,7 @@
         </li>
       {% endfor %}
     </ul>
+    </details>
   {% endif %}
 
   <p class="actions">

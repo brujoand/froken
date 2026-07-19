@@ -163,3 +163,53 @@ def test_quiz_questions_are_marked_as_ours(client: TestClient) -> None:
     session_id = start.headers["location"].rsplit("/", 1)[-1]
     body = text_of(client.get(f"/nb/quiz/{session_id}").text)
     assert "laget av Frøken" in body
+
+
+def test_a_wrong_answer_shows_what_was_given_and_what_was_right(client: TestClient) -> None:
+    """Without both, a pupil cannot tell whether they misread, mistyped, or
+    genuinely did not know."""
+    start = client.post("/nb/klasse/2/MAT01-06/quiz", follow_redirects=False)
+    session_id = start.headers["location"].rsplit("/", 1)[-1]
+    session = client.app.state.sessions._sessions[session_id]
+
+    item = next(i for i in session.items if i.type == "multiple_choice")
+    wrong = next(c for c in item.choices if not c.correct)
+
+    body = client.post(
+        f"/nb/quiz/{session_id}/answer", data={"item_id": item.id, "response": wrong.id}
+    ).text
+
+    assert "Du svarte" in body
+    assert wrong.text.get("nb") in body, "the choice they picked should be shown, not its id"
+    assert item.correct_text("nb") in body
+    assert item.explanation.get("nb") in body
+
+
+def test_a_correct_answer_does_not_belabour_it(client: TestClient) -> None:
+    """No point echoing an answer back to someone who got it right."""
+    start = client.post("/nb/klasse/2/MAT01-06/quiz", follow_redirects=False)
+    session_id = start.headers["location"].rsplit("/", 1)[-1]
+    session = client.app.state.sessions._sessions[session_id]
+
+    item = next(i for i in session.items if i.type == "multiple_choice")
+    right = next(c for c in item.choices if c.correct)
+
+    body = client.post(
+        f"/nb/quiz/{session_id}/answer", data={"item_id": item.id, "response": right.id}
+    ).text
+
+    assert "Riktig!" in body
+    assert "Du svarte" not in body
+
+
+def test_goals_are_collapsible_on_the_subject_page(client: TestClient) -> None:
+    """Twenty-odd goals shown at once bury everything below them."""
+    body = client.get("/nb/klasse/2/MAT01-06").text
+    assert "<details" in body and "<summary" in body
+
+
+def test_the_quiz_call_to_action_precedes_the_goal_list(client: TestClient) -> None:
+    """Collapsing the goals is what lets the quiz button surface; if the list
+    came first that would be undone."""
+    body = client.get("/nb/klasse/2/MAT01-06").text
+    assert body.index('class="quiz-cta"') < body.index('class="goals"')

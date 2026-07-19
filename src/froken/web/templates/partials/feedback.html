@@ -2,6 +2,18 @@
    teach something, not just score zero. #}
 <div class="feedback feedback--{{ 'correct' if correct else 'incorrect' }}">
   <p class="verdict">{{ t("quiz.correct") if correct else t("quiz.incorrect") }}</p>
+
+  {% if not correct %}
+    {# Show what they actually put. Without it a pupil cannot tell whether they
+       misread the question, mistyped, or genuinely did not know. #}
+    <dl class="answers">
+      <dt>{{ t("quiz.your_answer") }}</dt>
+      <dd class="answers__given">{{ item.response_text(given, locale) or "—" }}</dd>
+      <dt>{{ t("quiz.correct_answer") }}</dt>
+      <dd class="answers__correct">{{ item.correct_text(locale) }}</dd>
+    </dl>
+  {% endif %}
+
   <p class="explanation">{{ item.explanation.get(locale) }}</p>
 </div>
 

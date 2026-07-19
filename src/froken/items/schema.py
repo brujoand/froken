@@ -100,6 +100,30 @@ class QuizItem(BaseModel):
 
         return self
 
+    def response_text(self, response: str, locale: str = BOKMAAL) -> str:
+        """A response as the pupil would recognise it.
+
+        Multiple-choice answers are stored as choice ids, so echoing the raw
+        value back would show "b" to a child who picked "En bok".
+        """
+        answer = response.strip()
+        if self.type != "multiple_choice":
+            return answer
+        choice = next((c for c in self.choices if c.id == answer), None)
+        return choice.text.get(locale) if choice else answer
+
+    def correct_text(self, locale: str = BOKMAAL) -> str:
+        """The right answer, phrased for display."""
+        if self.type == "multiple_choice":
+            choice = next((c for c in self.choices if c.correct), None)
+            return choice.text.get(locale) if choice else ""
+        if self.type == "numeric":
+            # Render 7.0 as "7" -- a child asked for a whole number should not
+            # be shown a decimal point they did not use.
+            value = float(self.answer)
+            return str(int(value)) if value.is_integer() else str(value).replace(".", ",")
+        return next((c[0] for c in self.accept.values() if c), "")
+
     def is_correct(self, response: str) -> bool:
         """Grade a response. Deterministic and offline by construction."""
         answer = response.strip()

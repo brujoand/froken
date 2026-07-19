@@ -57,23 +57,6 @@ parse_args() {
   [[ ${PORT} =~ ^[0-9]+$ ]] || die "port must be a number, got: ${PORT}"
 }
 
-# Waits for the app to answer rather than sleeping a fixed amount: a cold start
-# and a warm one differ by seconds, and a guess is wrong in both directions.
-wait_for_health() {
-  local url="http://localhost:${PORT}/healthz"
-
-  # 30 seconds of half-second polls. The loop variable is unused on purpose --
-  # it is a bounded retry, not an iteration over anything.
-  for _ in $(seq 1 60); do
-    if curl -sf "${url}" >/dev/null 2>&1; then
-      return 0
-    fi
-    sleep 0.5
-  done
-
-  return 1
-}
-
 announce() {
   log ""
   log "Frøken is running at http://localhost:${PORT}"
@@ -106,23 +89,19 @@ run_container() {
     die "${IMAGE} does not exist yet; run without --no-build"
   fi
 
+  # A container left over from a previous run would hold the name and the port.
   docker rm -f "${CONTAINER}" >/dev/null 2>&1 || true
 
-  log "Starting ${CONTAINER} on port ${PORT} ..."
+  announce
+  log "Logs follow. Ctrl-C to stop."
+  log ""
+
+  # Foreground, so Ctrl-C stops it and the container's logs are simply this
+  # terminal's output. --rm leaves nothing behind to clean up next time.
+  #
   # No -e, no -v, no --network: the image is expected to need none of them, and
   # keeping this line bare is what makes that visible.
-  docker run -d --name "${CONTAINER}" -p "${PORT}:8000" "${IMAGE}" >/dev/null
-
-  if ! wait_for_health; then
-    log "The container did not become healthy. Last output:"
-    docker logs --tail 40 "${CONTAINER}" >&2 || true
-    docker rm -f "${CONTAINER}" >/dev/null 2>&1 || true
-    exit 1
-  fi
-
-  announce
-  log "  docker logs -f ${CONTAINER}"
-  log "  docker rm -f ${CONTAINER}"
+  exec docker run --rm --name "${CONTAINER}" -p "${PORT}:8000" "${IMAGE}"
 }
 
 main() {

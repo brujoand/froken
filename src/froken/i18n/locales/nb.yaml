@@ -67,7 +67,8 @@ quiz:
   check: Sjekk svaret
   next: Neste spørsmål
   see_result: Se resultatet
-  your_answer: Svaret ditt
+  your_answer: Du svarte
+  correct_answer: Riktig svar
   correct: Riktig!
   incorrect: Ikke helt.
   numeric_placeholder: Skriv et tall

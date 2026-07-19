@@ -385,3 +385,77 @@ a {
 .actions {
   margin-top: 2rem;
 }
+
+/* Collapsible goal lists --------------------------------------------------
+   A checkpoint can carry twenty-odd competence goals. Shown all at once they
+   push everything else off the screen, so they fold. */
+
+.goals > summary {
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 650;
+  margin: 2rem 0 0.75rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.goals > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* A rotating caret rather than the default marker, so the control reads the
+   same in both browsers and both themes. */
+.goals > summary::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 0.4rem solid currentColor;
+  border-top: 0.3rem solid transparent;
+  border-bottom: 0.3rem solid transparent;
+  transition: transform 0.15s ease;
+}
+
+.goals[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+.goals > summary h2 {
+  display: inline;
+  margin: 0;
+  font-size: inherit;
+}
+
+.goals .count {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-radius: 999px;
+  padding: 0.05rem 0.5rem;
+}
+
+/* What the pupil answered, next to what was right. */
+
+.answers {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.2rem 0.6rem;
+  margin: 0 0 0.6rem;
+  font-size: 0.9rem;
+}
+
+.answers dt {
+  color: var(--ink-soft);
+}
+
+.answers dd {
+  margin: 0;
+  font-weight: 600;
+}
+
+.answers__given {
+  text-decoration: line-through;
+  text-decoration-color: var(--ink-soft);
+}

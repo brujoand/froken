@@ -24,25 +24,8 @@
     <p class="note note--maalform">{{ t("curriculum.nynorsk_notice") }}</p>
   {% endif %}
 
-  <section aria-labelledby="goals-heading">
-    <h2 id="goals-heading">{{ t("subject.goals_heading") }}</h2>
-
-    {# Everything inside .curriculum is Udir's wording, reproduced verbatim and
-       marked as such. NLOD requires the data not be presented in a misleading
-       way, so official text must never be mistakable for ours. #}
-    <p class="verbatim-note">{{ t("curriculum.verbatim_note") }}</p>
-    <ol class="curriculum goal-list">
-      {% for goal in checkpoint.goal_set.goals %}
-        <li class="goal">
-          <blockquote cite="{{ goal.source_url }}">{{ goal.text.get(lang) }}</blockquote>
-          <a class="source-link" href="{{ goal.source_url }}" rel="external">
-            {{ t("subject.source_link") }} ({{ goal.code }})
-          </a>
-        </li>
-      {% endfor %}
-    </ol>
-  </section>
-
+  {# The quiz sits above the goal list. A checkpoint can carry twenty-odd goals,
+     and with the list first the button was pushed off the screen on a phone. #}
   <section class="quiz-cta">
     {% if has_quiz %}
       <p>{{ t("quiz.intro", count=question_count) }}</p>
@@ -54,5 +37,31 @@
          that leads nowhere. #}
       <p>{{ t("subject.quiz_unavailable") }}</p>
     {% endif %}
+  </section>
+
+  <section>
+    {# Collapsible, and open by default on the page whose whole purpose is
+       showing them -- folding is for getting past them, not hiding them. #}
+    <details class="goals" open>
+      <summary id="goals-heading">
+        {{ t("subject.goals_heading") }}
+        <span class="count">{{ checkpoint.goal_set.goals | length }}</span>
+      </summary>
+
+      {# Everything inside .curriculum is Udir's wording, reproduced verbatim and
+         marked as such. NLOD requires the data not be presented in a misleading
+         way, so official text must never be mistakable for ours. #}
+      <p class="verbatim-note">{{ t("curriculum.verbatim_note") }}</p>
+      <ol class="curriculum goal-list">
+        {% for goal in checkpoint.goal_set.goals %}
+          <li class="goal">
+            <blockquote cite="{{ goal.source_url }}">{{ goal.text.get(lang) }}</blockquote>
+            <a class="source-link" href="{{ goal.source_url }}" rel="external">
+              {{ t("subject.source_link") }} ({{ goal.code }})
+            </a>
+          </li>
+        {% endfor %}
+      </ol>
+    </details>
   </section>
 {% endblock %}

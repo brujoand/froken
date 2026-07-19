@@ -61,7 +61,8 @@ quiz:
   check: Check answer
   next: Next question
   see_result: See the result
-  your_answer: Your answer
+  your_answer: You answered
+  correct_answer: Correct answer
   correct: Correct!
   incorrect: Not quite.
   numeric_placeholder: Type a number
