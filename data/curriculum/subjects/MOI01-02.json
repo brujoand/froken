@@ -99,6 +99,12 @@
   "replaces": [
     "MOI1-01"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Medier og kommunikasjon",
+      "nob": "Medier og kommunikasjon"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i valgfaget medier og kommunikasjon",

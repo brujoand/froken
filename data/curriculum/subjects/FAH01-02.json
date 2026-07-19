@@ -81,6 +81,12 @@
   "replaces": [
     "FAH1-01"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Fysisk aktivitet og helse",
+      "nob": "Fysisk aktivitet og helse"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i valgfaget fysisk aktivitet og helse",

@@ -1309,6 +1309,15 @@
   "replaces": [
     "SFS1-04"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Sámegiella vuosttašgiellan",
+      "nob": "Samisk som førstespråk",
+      "sma": "Saemiengïelesne voestesgïeline",
+      "sme": "Sámegiella vuosttašgiellan",
+      "smj": "Sámegielan vuostasjgiellan"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Oahppoplána – sámegiella vuosttašgiellan",

@@ -82,6 +82,12 @@
   "replaces": [
     "LKA1-01"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Kulturarv",
+      "nno": "Kulturarv"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i valfaget kulturarv",

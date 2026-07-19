@@ -258,6 +258,12 @@
   "replaces": [
     "ENG3-01"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Engelsk fordypning",
+      "nob": "Engelsk fordypning"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i fordypning i engelsk",

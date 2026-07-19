@@ -82,6 +82,12 @@
   "replaces": [
     "FIP1-01"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Ideer og praktisk forskning",
+      "nob": "Ideer og praktisk forskning"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i valgfaget ideer og praktisk forskning",

@@ -1048,6 +1048,12 @@
   "replaces": [
     "NOR7-01"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Grunnleggende norsk",
+      "nob": "Grunnleggende norsk"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i grunnleggende norsk for språklige minoriteter",

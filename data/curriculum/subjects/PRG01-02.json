@@ -114,6 +114,12 @@
   "replaces": [
     "PRG1-01"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Programmering",
+      "nob": "Programmering"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i valgfaget programmering",

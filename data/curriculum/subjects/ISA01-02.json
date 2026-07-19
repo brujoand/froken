@@ -84,6 +84,12 @@
   "replaces": [
     "ISA1-01"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Internasjonalt samarbeid",
+      "nob": "Internasjonalt samarbeid"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i valgfaget internasjonalt samarbeid",

@@ -110,6 +110,12 @@
   "replaces": [
     "PVT1-01"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Utvikling av produkter og tjenester",
+      "nob": "Utvikling av produkter og tjenester"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i valgfaget utvikling av produkter og tjenester",

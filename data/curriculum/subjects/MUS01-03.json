@@ -736,6 +736,14 @@
   "replaces": [
     "MUS01-02"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Musikk",
+      "eng": "Music",
+      "nno": "Musikk",
+      "nob": "Musikk"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i musikk",

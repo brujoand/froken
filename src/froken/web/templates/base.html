@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% block title %}{{ t("site.name") }}{% endblock %}</title>
+    <meta name="description" content="{{ t('site.description') }}" />
+    <link rel="stylesheet" href="/static/froken.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="/{{ locale }}/">{{ t("site.name") }}</a>
+      <nav aria-label="{{ t('nav.language') }}">
+        <ul class="locale-switch">
+          {% for code in locales %}
+            <li>
+              {% if code == locale %}
+                <span aria-current="true">{{ code }}</span>
+              {% else %}
+                <a href="{{ request.url.path | replace('/' ~ locale ~ '/', '/' ~ code ~ '/') }}">{{ code }}</a>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </header>
+
+    <main>{% block content %}{% endblock %}</main>
+
+    <footer class="site-footer">
+      <p class="disclaimer">{{ t("disclaimer.long") }}</p>
+      {# NLOD requires the source credit to be shown, not merely recorded. #}
+      <p class="attribution">
+        {{ t("curriculum.attribution") }}
+        <a href="https://data.udir.no">data.udir.no</a> ·
+        <a href="https://data.norge.no/nlod/no">NLOD</a>
+      </p>
+    </footer>
+  </body>
+</html>

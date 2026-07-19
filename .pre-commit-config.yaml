@@ -61,6 +61,15 @@ repos:
         files: ^(data/curriculum/|src/froken/(domain|catalogue)/)
         pass_filenames: false
 
-# Two more local hooks land with the milestones that need them: `validate-items`
-# (quiz item schema + goal-code references) with the item schema, and
-# `i18n-key-parity` with the UI locale files.
+      # A new UI string added to bokmål but not English degrades silently at
+      # runtime -- the English page quietly shows a Norwegian sentence. Nobody
+      # files that bug, so it gets a deterministic check.
+      - id: i18n-key-parity
+        name: Check UI locale files have identical key sets
+        entry: uv run python -m froken.i18n.check
+        language: system
+        files: ^src/froken/i18n/
+        pass_filenames: false
+
+# `validate-items` (quiz item schema + goal-code references) lands with the item
+# schema in the quiz milestone.

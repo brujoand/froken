@@ -109,6 +109,12 @@
   "replaces": [
     "TRA1-01"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Trafikk",
+      "nob": "Trafikk"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i valgfaget trafikk",

@@ -745,6 +745,15 @@
   "replaces": [
     "SAS1-04"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Sámegiella nubbingiellan 2",
+      "nob": "Samisk som andrespråk 2",
+      "sma": "Saemiengïelesne mubpiengïeline 2",
+      "sme": "Sámegiella nubbingiellan 2",
+      "smj": "Sámegielan nubbengiellan 2"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Oahppoplána – sámegiella nubbingiellan, sámegiella 2",

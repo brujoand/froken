@@ -215,6 +215,15 @@
   "replaces": [
     "SFS2-01"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Čiekŋudeapmi sámegielas",
+      "nob": "Samisk fordypning",
+      "sma": "Goerehtimmie saemiengïelesne",
+      "sme": "Čiekŋudeapmi sámegielas",
+      "smj": "Sámegiela tjiegŋodibme"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Oahppoplána – Čiekŋudeapmi sámegielas",

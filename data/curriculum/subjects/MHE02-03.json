@@ -783,6 +783,15 @@
   "replaces": [
     "MHE02-02"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Mat og helse samisk",
+      "nob": "Mat og helse samisk",
+      "sma": "Beapmoe jïh healsoe, saemien soejkesj",
+      "sme": "Biepmu ja dearvvašvuođa",
+      "smj": "Biebbmo ja varresvuoda, sáme pládna"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i mat og helse, samisk plan",

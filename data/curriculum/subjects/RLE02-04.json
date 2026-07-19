@@ -1107,6 +1107,15 @@
   "replaces": [
     "RLE02-03"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "KRLE samisk",
+      "nob": "KRLE samisk",
+      "sma": "KRJE, saemien soejkesje",
+      "sme": "KOEE, sámi plána",
+      "smj": "RÅIE, sáme pládna"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i kristendom, religion, livssyn og etikk (KRLE), samisk plan",

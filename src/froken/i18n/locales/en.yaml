@@ -1,0 +1,55 @@
+# Mirrors nb.yaml key for key. The i18n-key-parity check enforces it.
+---
+site:
+  name: Frøken
+  tagline: What should you know in Norwegian school?
+  description: >-
+    Competence goals from the national curriculum, and quizzes to practise them.
+
+nav:
+  home: Home
+  language: Language
+  about: About Frøken
+
+home:
+  heading: Which year are you in?
+  intro: >-
+    Pick a year group to see what you should know, and try a quiz.
+  grade: "Year {grade}"
+
+grade:
+  heading: "Year {grade}"
+  subjects_heading: Subjects
+  goal_count: "{count} competence goals"
+  no_subjects: We have no content for this year group yet.
+
+subject:
+  mastery_now: What you should know by the end of year {year}
+  working_towards: What you are working towards by year {year}
+  working_towards_note: >-
+    You are in year {grade}, and the goals below apply through to the end of
+    year {year}. You are not expected to know all of it yet.
+  goals_heading: Competence goals
+  source_link: View this goal at Udir
+  quiz_cta: Take the quiz
+  quiz_unavailable: A quiz for this subject is coming soon.
+
+curriculum:
+  verbatim_note: >-
+    The text below is reproduced verbatim from the national curriculum.
+  attribution: >-
+    Contains data under NLOD, made available on data.udir.no.
+  nynorsk_notice: >-
+    This subject is established in nynorsk, and is shown in nynorsk.
+
+disclaimer:
+  short: Frøken is an unofficial study aid, not an assessment tool.
+  long: >-
+    Frøken is built for practice, not assessment. Passing a quiz here does not
+    mean you pass a year group, and getting answers wrong does not mean you
+    fail one. Frøken is not affiliated with Utdanningsdirektoratet.
+
+footer:
+  source: Source
+  licence: Licence
+  code: Source code

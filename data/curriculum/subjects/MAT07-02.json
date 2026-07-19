@@ -190,6 +190,12 @@
   "replaces": [
     "MAT7-01"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Matematikk fordypning",
+      "nob": "Matematikk fordypning"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i fordypning i matematikk",

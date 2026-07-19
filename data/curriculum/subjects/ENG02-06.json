@@ -1229,6 +1229,12 @@
   "last_modified": "2026-07-08T15:42:03.7020496",
   "replaced_by": [],
   "replaces": [],
+  "short_title": {
+    "by_language": {
+      "default": "Engelsk for elever med tegnspråk",
+      "nob": "Engelsk for elever med tegnspråk"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i engelsk for elever med tegnspråk",

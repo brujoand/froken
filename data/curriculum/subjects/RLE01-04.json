@@ -1021,6 +1021,13 @@
   "replaces": [
     "RLE01-03"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "KRLE",
+      "nno": "KRLE",
+      "nob": "KRLE"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i kristendom, religion, livssyn og etikk (KRLE)",

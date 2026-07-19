@@ -901,6 +901,12 @@
   "replaces": [
     "NOR04-05"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Norsk tegnspråk",
+      "nob": "Norsk tegnspråk"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i norsk tegnspråk",

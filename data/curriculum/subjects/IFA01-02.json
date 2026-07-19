@@ -81,6 +81,12 @@
   "replaces": [
     "IFA1-01"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Innsats for andre",
+      "nob": "Innsats for andre"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i valgfaget innsats for andre",

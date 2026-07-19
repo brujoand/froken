@@ -42,6 +42,29 @@ def test_v1_subject_covers_every_grunnskole_grade(catalogue: Catalogue, code: st
     assert not missing, f"{code} has no checkpoint for grades {missing}"
 
 
+def test_overlapping_checkpoints_resolve_to_the_nearer_one(catalogue: Catalogue) -> None:
+    """A school year can legitimately belong to two goal sets at once.
+
+    The 2026 naturfag adds a checkpoint after 5. trinn that NAT01-04 did not
+    have, and year 5 sits in both the 5. trinn set (years 4-5) and the 7. trinn
+    set (years 5-7) -- a pupil finishing one checkpoint as they start the next.
+    Resolving to the nearer checkpoint is deliberate: it tells a 5th-grader what
+    they should master now rather than what they have two more years to learn.
+    Goal sets are ordered by `after_year`, so this is deterministic rather than
+    incidental.
+    """
+    naturfag = catalogue.subject("NAT01-05")
+    checkpoints = {gs.after_year: gs.applies_to_years for gs in naturfag.goal_sets}
+    assert 5 in checkpoints, "NAT01-05 is expected to define a 5. trinn checkpoint"
+
+    overlapping = [year for year in checkpoints[5] if year in checkpoints[7]]
+    assert overlapping == [5], "expected year 5 to sit in both the 5. and 7. trinn sets"
+
+    resolved = checkpoint_for(naturfag, 5)
+    assert resolved.goal_set.after_year == 5
+    assert resolved.is_final_year is True
+
+
 def test_no_subject_is_superseded_by_another_in_the_catalogue(catalogue: Catalogue) -> None:
     """Two generations of one subject would give a grade competing goal sets.
 

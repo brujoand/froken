@@ -111,6 +111,10 @@ class Subject(Frozen):
 
     code: str
     title: LocalisedText
+    # Udir's own `kortform` -- "Matematikk 1.-10. trinn" rather than the full
+    # "Laereplan i matematikk 1.-10. trinn". Their abbreviation, not ours, so
+    # using it shortens nothing we are not entitled to shorten.
+    short_title: LocalisedText = LocalisedText()
     valid_from: date | None = None
     valid_to: date | None = None
     replaces: tuple[str, ...] = ()
@@ -122,6 +126,17 @@ class Subject(Frozen):
     def base_code(self) -> str:
         """The revision-independent part, e.g. MAT01-06 -> MAT01."""
         return self.code.rsplit("-", 1)[0]
+
+    @property
+    def display_title(self) -> LocalisedText:
+        """What to show in headings and cards.
+
+        Udir's `kortform` ("Matematikk 1.-10. trinn") reads better than the full
+        `tittel` ("Læreplan i matematikk 1.-10. trinn"), and being their own
+        abbreviation it shortens nothing we are not entitled to shorten. Falls
+        back to the full title where `kortform` is absent.
+        """
+        return self.short_title if self.short_title.by_language else self.title
 
     def is_in_force(self, on: date) -> bool:
         not_yet = self.valid_from is not None and on < self.valid_from

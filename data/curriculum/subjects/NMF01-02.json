@@ -123,6 +123,12 @@
   "replaces": [
     "NMF1-01"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Friluftsliv",
+      "nob": "Friluftsliv"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i valgfaget friluftsliv",

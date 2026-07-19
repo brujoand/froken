@@ -1623,6 +1623,14 @@
   "replaces": [
     "NAT01-04"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Naturfag",
+      "eng": "Natural science",
+      "nno": "Naturfag",
+      "nob": "Naturfag"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i naturfag",

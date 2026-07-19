@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %}{{ subject.display_title.get(lang) }} · {{ t("grade.heading", grade=grade) }}{% endblock %}
+
+{% block content %}
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="/{{ locale }}/">{{ t("nav.home") }}</a> ›
+    <a href="/{{ locale }}/klasse/{{ grade }}">{{ t("grade.heading", grade=grade) }}</a>
+  </nav>
+
+  <h1>{{ subject.display_title.get(lang) }}</h1>
+
+  {% set year = checkpoint.goal_set.after_year %}
+  {% if checkpoint.is_final_year %}
+    <p class="checkpoint checkpoint--now">{{ t("subject.mastery_now", year=year) }}</p>
+  {% else %}
+    {# A pupil below the checkpoint year is not behind. Saying so plainly is the
+       difference between encouragement and a false verdict. #}
+    <p class="checkpoint checkpoint--upcoming">{{ t("subject.working_towards", year=year) }}</p>
+    <p class="note">{{ t("subject.working_towards_note", grade=grade, year=year) }}</p>
+  {% endif %}
+
+  {% if shows_nynorsk %}
+    <p class="note note--maalform">{{ t("curriculum.nynorsk_notice") }}</p>
+  {% endif %}
+
+  <section aria-labelledby="goals-heading">
+    <h2 id="goals-heading">{{ t("subject.goals_heading") }}</h2>
+
+    {# Everything inside .curriculum is Udir's wording, reproduced verbatim and
+       marked as such. NLOD requires the data not be presented in a misleading
+       way, so official text must never be mistakable for ours. #}
+    <p class="verbatim-note">{{ t("curriculum.verbatim_note") }}</p>
+    <ol class="curriculum goal-list">
+      {% for goal in checkpoint.goal_set.goals %}
+        <li class="goal">
+          <blockquote cite="{{ goal.source_url }}">{{ goal.text.get(lang) }}</blockquote>
+          <a class="source-link" href="{{ goal.source_url }}" rel="external">
+            {{ t("subject.source_link") }} ({{ goal.code }})
+          </a>
+        </li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  {# The quiz call to action lands with the quiz engine. Until then every
+     subject says so, rather than offering a button that goes nowhere. #}
+  <section class="quiz-cta">
+    <p>{{ t("subject.quiz_unavailable") }}</p>
+  </section>
+{% endblock %}

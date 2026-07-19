@@ -272,6 +272,17 @@
   "replaces": [
     "UTV1-02"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Utdanningsvalg",
+      "eng": "Selection of education",
+      "nno": "Utdanningsval",
+      "nob": "Utdanningsvalg",
+      "sma": "Ööhpehtimmieveeljeme",
+      "sme": "Oahppoválljen",
+      "smj": "Oahppoválljima"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan for utdanningsvalg på ungdomstrinnet",

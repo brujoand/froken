@@ -1354,6 +1354,14 @@
   "replaces": [
     "NOR01-07"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Norsk",
+      "eng": "Norwegian",
+      "nno": "Norsk",
+      "nob": "Norsk"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i norsk",

@@ -24,13 +24,17 @@ _AARSTRINN = re.compile(r"^aarstrinn(\d+)$")
 
 
 def localised(value: Any) -> LocalisedText:
-    """Read a Udir `tittel`-shaped value in every language it carries."""
+    """Read a Udir localised value in every language it carries.
+
+    Three shapes in the wild: a bare string (goal-set titles), a `{"tekst": [...]}`
+    wrapper (`tittel`), and a bare list of language entries (`kortform`).
+    """
     if value is None:
         return LocalisedText()
     if isinstance(value, str):
         return LocalisedText(by_language={"default": value})
 
-    entries = value.get("tekst") if isinstance(value, dict) else None
+    entries = value if isinstance(value, list) else value.get("tekst")
     if not entries:
         return LocalisedText()
 
@@ -129,6 +133,7 @@ def subject_from(payload: dict[str, Any], goal_sets: list[GoalSet]) -> Subject:
     return Subject(
         code=payload["kode"],
         title=localised(payload.get("tittel")),
+        short_title=localised(payload.get("kortform")),
         valid_from=_period("gyldig-fra"),
         valid_to=_period("gyldig-til"),
         replaces=_refs(payload, "erstatter"),

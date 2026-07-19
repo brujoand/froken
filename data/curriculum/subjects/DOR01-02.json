@@ -82,6 +82,12 @@
   "replaces": [
     "DOR1-01"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Design og redesign",
+      "nob": "Design og redesign"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i valgfaget design og redesign",

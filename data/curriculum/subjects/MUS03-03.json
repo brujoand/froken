@@ -880,6 +880,13 @@
   "replaces": [
     "MUS03-02"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Drama og rytmikk",
+      "nob": "Drama og rytmikk",
+      "sme": "Drámá ja rytmihka"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i drama og rytmikk for elever med tegnspråk",

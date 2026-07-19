@@ -109,6 +109,12 @@
     "ADI2-01",
     "DIP1-01"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Demokrati i praksis",
+      "nob": "Demokrati i praksis"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i valgfaget demokrati i praksis",

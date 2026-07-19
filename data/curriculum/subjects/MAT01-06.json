@@ -2399,6 +2399,15 @@
   "replaces": [
     "MAT01-05"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Matematikk 1.-10. trinn",
+      "eng": "Mathematics year 1-10",
+      "nno": "Matematikk 1.-10. trinn",
+      "nob": "Matematikk 1.-10. trinn",
+      "sme": "Matematihka 1.–10. ceahkki"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i matematikk 1.–10. trinn",

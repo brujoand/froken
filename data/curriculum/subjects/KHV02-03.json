@@ -1017,6 +1017,15 @@
   "replaces": [
     "KHV02-02"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Duodji",
+      "nob": "Duodji",
+      "sma": "Duedtie",
+      "sme": "Duoji",
+      "smj": "Duodje"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i duodji",

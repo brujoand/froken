@@ -213,6 +213,14 @@
   "replaces": [
     "FSP01-03"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Fremmedspråk",
+      "eng": "Foreign Languages",
+      "nno": "Framandspråk",
+      "nob": "Fremmedspråk"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i fremmedspråk",

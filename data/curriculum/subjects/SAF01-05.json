@@ -1494,6 +1494,14 @@
   "replaces": [
     "SAF01-04"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Samfunnsfag",
+      "eng": "Social Studies",
+      "nno": "Samfunnsfag",
+      "nob": "Samfunnsfag"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i samfunnsfag",

@@ -870,6 +870,12 @@
   "replaces": [
     "NOR05-06"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Norsk for elever med tegnspråk",
+      "nob": "Norsk for elever med tegnspråk"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i norsk for elever med tegnspråk",

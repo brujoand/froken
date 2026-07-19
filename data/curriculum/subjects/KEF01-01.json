@@ -403,6 +403,12 @@
   "replaces": [
     "FIN1-03"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Kvensk eller finsk som andrespråk",
+      "nob": "Kvensk eller finsk som andrespråk"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i kvensk eller finsk som andrespråk",

@@ -1560,6 +1560,15 @@
   "replaces": [
     "SAF02-04"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Samfunnsfag samisk",
+      "nob": "Samfunnsfag samisk",
+      "sma": "Seabradahkefaage saemien",
+      "sme": "Servodatfága sámegillii",
+      "smj": "Sebrudakfáhka sáme"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i samfunnsfag samisk",

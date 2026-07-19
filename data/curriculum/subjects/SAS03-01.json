@@ -448,6 +448,15 @@
   "replaces": [
     "SAS1-04"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Sámegiella nubbingiellan 3",
+      "nob": "Samisk som andrespråk 3",
+      "sma": "Saemiengïelesne mubpiengïeline 3",
+      "sme": "Sámegiella nubbingiellan 3",
+      "smj": "Sámegielan nubbengiellan, sámegiella 3"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Oahppoplána – sámegiella nubbingiellan, sámegiella 3",

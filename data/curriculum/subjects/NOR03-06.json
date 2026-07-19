@@ -1110,6 +1110,12 @@
   "replaces": [
     "NOR03-05"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Norsk for elever med samisk",
+      "nob": "Norsk for elever med samisk"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i norsk for elever med samisk som førstespråk",

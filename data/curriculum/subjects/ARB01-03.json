@@ -177,6 +177,13 @@
   "replaces": [
     "ARB1-02"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Arbeidslivsfag",
+      "nob": "Arbeidslivsfag",
+      "sme": "Bargoeallinfága"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan for arbeidslivsfag på ungdomstrinnet",

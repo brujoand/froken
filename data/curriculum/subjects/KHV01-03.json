@@ -1014,6 +1014,14 @@
   "replaces": [
     "KHV01-02"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Kunst og håndverk",
+      "eng": "Art and crafts",
+      "nno": "Kunst og handverk",
+      "nob": "Kunst og håndverk"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i kunst og håndverk",

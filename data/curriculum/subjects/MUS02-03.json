@@ -768,6 +768,15 @@
   "replaces": [
     "MUS02-02"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Musikk samisk",
+      "nob": "Musikk samisk",
+      "sma": "Musihke saemien",
+      "sme": "Musihka sámegillii",
+      "smj": "Musihkka sáme"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i musikk samisk",

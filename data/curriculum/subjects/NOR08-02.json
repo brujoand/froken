@@ -825,6 +825,12 @@
   "replaces": [
     "NOR8-01"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Morsmål språklige minoriteter",
+      "nob": "Morsmål språklige minoriteter"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i morsmål for språklige minoriteter",

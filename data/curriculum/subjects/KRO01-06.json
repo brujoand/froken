@@ -1168,6 +1168,17 @@
   "replaces": [
     "KRO01-05"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Kroppsøving",
+      "eng": "Physical education",
+      "nno": "Kroppsøving",
+      "nob": "Kroppsøving",
+      "sma": "Vitnedimmie",
+      "sme": "Lášmmohallama oahppoplána",
+      "smj": "Lásjmudallama"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i kroppsøving",

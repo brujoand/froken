@@ -1376,6 +1376,14 @@
   "replaces": [
     "ENG01-05"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Engelsk",
+      "eng": "English",
+      "nno": "Engelsk",
+      "nob": "Engelsk"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i engelsk",

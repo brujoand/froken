@@ -88,6 +88,12 @@
   "replaces": [
     "SOS1-01"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Produksjon for scene",
+      "nob": "Produksjon for scene"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i valgfaget produksjon for scene",

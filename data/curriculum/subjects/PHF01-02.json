@@ -109,6 +109,12 @@
   "last_modified": "2024-11-07T12:51:55.1104332",
   "replaced_by": [],
   "replaces": [],
+  "short_title": {
+    "by_language": {
+      "default": "Praktisk håndverksfag",
+      "nob": "Praktisk håndverksfag"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i valgfaget praktisk håndverksfag",

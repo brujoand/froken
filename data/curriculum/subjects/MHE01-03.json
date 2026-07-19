@@ -676,6 +676,14 @@
   "replaces": [
     "MHE01-02"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Mat og helse",
+      "eng": "Food and health",
+      "nno": "Mat og helse",
+      "nob": "Mat og helse"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i mat og helse",

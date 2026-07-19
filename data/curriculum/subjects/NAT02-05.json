@@ -1734,6 +1734,15 @@
   "replaces": [
     "NAT02-04"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Naturfag samisk",
+      "nob": "Naturfag samisk",
+      "sma": "Eatnemefaage saemien",
+      "sme": "Luonddufága sámegillii",
+      "smj": "Luonndofáhka sáme"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i naturfag samisk",

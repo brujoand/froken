@@ -81,6 +81,12 @@
   "replaces": [
     "RSL1-01"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Reiseliv",
+      "nno": "Reiseliv"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i valfaget reiseliv",

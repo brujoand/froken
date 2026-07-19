@@ -83,6 +83,12 @@
   "replaces": [
     "TPR1-01"
   ],
+  "short_title": {
+    "by_language": {
+      "default": "Teknologi og design",
+      "nno": "Teknologi og design"
+    }
+  },
   "title": {
     "by_language": {
       "default": "Læreplan i valfaget teknologi og design",
