@@ -4,6 +4,10 @@ name: Release
 on:
   push:
     branches: [main]
+  # A release can fail for reasons unrelated to the commit -- a registry outage,
+  # a rate limit. Being able to re-run it beats pushing an empty commit to
+  # retrigger.
+  workflow_dispatch:
 
 permissions:
   contents: read
