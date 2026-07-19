@@ -10,6 +10,7 @@ from __future__ import annotations
 from fastapi import APIRouter, HTTPException, Request
 from fastapi.responses import HTMLResponse, RedirectResponse
 
+from froken import __version__
 from froken.catalogue.loader import Catalogue
 from froken.domain.grades import FIRST_GRADE, LAST_GRADE, checkpoint_for, subjects_for_grade
 from froken.domain.models import NYNORSK
@@ -40,7 +41,10 @@ def _items(request: Request) -> ItemBank:
 
 @router.get("/healthz", include_in_schema=False)
 async def healthz() -> dict[str, str]:
-    return {"status": "ok"}
+    # The version comes back too, so what is deployed can be checked without
+    # inspecting the image. "dev" means it was built outside the release
+    # pipeline.
+    return {"status": "ok", "version": __version__}
 
 
 @router.get("/", include_in_schema=False)

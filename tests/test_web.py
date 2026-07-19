@@ -29,8 +29,15 @@ def text_of(html: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", body)).strip()
 
 
-def test_healthz(client: TestClient) -> None:
-    assert client.get("/healthz").json() == {"status": "ok"}
+def test_healthz_reports_status_and_version(client: TestClient) -> None:
+    """The version is how you check what is actually deployed.
+
+    "dev" is the honest answer outside the release pipeline -- the real value is
+    injected into the image from the tag it was published under.
+    """
+    body = client.get("/healthz").json()
+    assert body["status"] == "ok"
+    assert body["version"] == "dev"
 
 
 def test_root_redirects_to_norwegian(client: TestClient) -> None:

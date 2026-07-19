@@ -29,6 +29,11 @@ RUN useradd --uid 65532 --create-home --shell /usr/sbin/nologin froken \
     && chown -R froken:froken /app
 USER 65532
 
+# The same version the image is TAGGED with, so the tag in the registry and the
+# version the app reports come from one source.
+ARG VERSION=dev
+ENV APP_VERSION=${VERSION}
+
 EXPOSE 8000
 
 # No secrets, no network egress, no configuration required. If this container
