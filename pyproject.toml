@@ -74,7 +74,11 @@ asyncio_mode = "auto"
 [tool.semantic_release]
 # Version lives in one place and is set by tooling, never by hand.
 version_variables = ["src/froken/__init__.py:__version__"]
-build_command = "uv build"
+# No build step. Frøken is distributed as a container image, never as a wheel on
+# PyPI, so there is no distribution for semantic-release to produce. It ran
+# `uv build` inside its own action container, where uv does not exist, and the
+# release aborted on exit 127 -- for an artifact nothing would have consumed.
+build_command = ""
 commit_message = "chore(release): {version}\n\n[skip ci]"
 tag_format = "v{version}"
 
