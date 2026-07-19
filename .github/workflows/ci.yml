@@ -25,8 +25,13 @@ jobs:
         with:
           path: ~/.cache/pre-commit
           key: pre-commit-${{ hashFiles('.pre-commit-config.yaml') }}
+      # The local hooks shell out to `uv run`, so the project environment has
+      # to exist before pre-commit starts.
       - run: uv sync --group dev
-      - run: uv run pre-commit run --all-files --show-diff-on-failure
+      # pre-commit is a mise tool here, not a Python dependency, so `uv run`
+      # cannot find it. uvx fetches it at the version mise pins, keeping CI and
+      # a developer's machine on the same one.
+      - run: uvx pre-commit@4.6.0 run --all-files --show-diff-on-failure
 
   test:
     runs-on: ubuntu-latest
