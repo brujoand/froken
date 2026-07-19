@@ -52,8 +52,16 @@ a rewrite.
 docker run -p 8000:8000 ghcr.io/brujoand/froken
 ```
 
-The image carries the curriculum baked in. It needs no network access, no API
-key, and no configuration.
+No credentials needed — the image is public, like the repo. It carries the
+curriculum baked in and needs no network access, no API key and no
+configuration.
+
+Images are published on release, tagged with the version and `latest`, with a
+[provenance attestation](https://docs.github.com/en/actions/security-guides/using-artifact-attestations):
+
+```bash
+gh attestation verify oci://ghcr.io/brujoand/froken:latest --owner brujoand
+```
 
 ## Development
 

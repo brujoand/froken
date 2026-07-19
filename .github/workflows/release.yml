@@ -8,6 +8,12 @@ on:
 permissions:
   contents: read
 
+# One-time manual step after the first release: GHCR packages start private and
+# do NOT inherit visibility from the repository, so the package must be set to
+# public by hand under Package settings -> Change visibility. There is no API or
+# CLI for it. The repo is public and the image is meant to be pullable without
+# credentials, so this is not optional -- and it cannot be undone once done.
+
 concurrency:
   group: release
   cancel-in-progress: false
