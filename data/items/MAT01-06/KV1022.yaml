@@ -1,0 +1,446 @@
+# Matematikk, kompetansemål etter 3. trinn (MAT01-06 / KV1022).
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+---
+subject: MAT01-06
+goal_set: KV1022
+
+items:
+  - id: KM13243-01
+    goal: KM13243
+    type: numeric
+    difficulty: 1
+    prompt:
+      nb: Det var 25 barn i gymsalen. 8 gikk ut. Hvor mange er igjen?
+      en: There were 25 children in the gym. 8 went out. How many are left?
+    answer: 17
+    explanation:
+      nb: Vi trekker fra. 25 minus 8 er 17. Du kan ta 25 minus 5 først, det er
+        20, og så 3 til.
+      en: We subtract. 25 minus 8 is 17. You can take 25 minus 5 first, which
+        is 20, then 3 more.
+    reviewed: false
+
+  - id: KM13243-02
+    goal: KM13243
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: "Lise skal regne 8 + 7. Hun tenker: 8 + 2 = 10, og så 5 til. Hva blir
+        svaret?"
+      en: "Lise is working out 8 + 7. She thinks: 8 + 2 = 10, then 5 more. What
+        is the answer?"
+    answer: 15
+    explanation:
+      nb: Lise deler 7 i 2 og 5. Først fyller hun opp til 10, så legger hun til
+        de 5 siste. 10 + 5 er 15.
+      en: Lise splits 7 into 2 and 5. First she fills up to 10, then adds the
+        last 5. 10 + 5 is 15.
+    reviewed: false
+
+  - id: KM13244-01
+    goal: KM13244
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: Du vet at 7 + 8 = 15. Hva er 15 − 8?
+      en: You know that 7 + 8 = 15. What is 15 − 8?
+    answer: 7
+    explanation:
+      nb: Pluss og minus hører sammen. Når 7 + 8 er 15, må 15 − 8 være 7.
+      en: Addition and subtraction belong together. Since 7 + 8 is 15, 15 − 8
+        must be 7.
+    reviewed: false
+
+  - id: KM13244-02
+    goal: KM13244
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilket regnestykke kan du bruke for å sjekke at 20 − 6 = 14?
+      en: Which calculation can you use to check that 20 − 6 = 14?
+    choices:
+      - id: a
+        text:
+          nb: "14 + 6"
+          en: "14 + 6"
+        correct: true
+      - id: b
+        text:
+          nb: "20 + 6"
+          en: "20 + 6"
+      - id: c
+        text:
+          nb: "14 − 6"
+          en: "14 − 6"
+    explanation:
+      nb: Du sjekker et minusstykke ved å plusse tilbake. 14 + 6 er 20, og da
+        stemmer svaret.
+      en: You check a subtraction by adding back. 14 + 6 is 20, so the answer
+        is right.
+    reviewed: false
+
+  - id: KM13245-01
+    goal: KM13245
+    type: numeric
+    difficulty: 1
+    prompt:
+      nb: Det står 4 sykler i skuret. Hver sykkel har 2 hjul. Hvor mange hjul er
+        det til sammen?
+      en: There are 4 bikes in the shed. Each bike has 2 wheels. How many wheels
+        are there altogether?
+    answer: 8
+    explanation:
+      nb: Fire grupper med 2 er 2 + 2 + 2 + 2, altså 4 × 2 = 8.
+      en: Four groups of 2 is 2 + 2 + 2 + 2, which is 4 × 2 = 8.
+    reviewed: false
+
+  - id: KM13245-02
+    goal: KM13245
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: "Vi teller i femmere: 5, 10, 15, 20. Hvor mange femmere har vi telt?"
+      en: "Counting in fives: 5, 10, 15, 20. How many fives have we counted?"
+    answer: 4
+    explanation:
+      nb: Vi telte 5 fire ganger. Derfor er 4 × 5 = 20.
+      en: We counted 5 four times. That is why 4 × 5 = 20.
+    reviewed: false
+
+  - id: KM13254-01
+    goal: KM13254
+    type: numeric
+    difficulty: 1
+    prompt:
+      nb: Hva er det dobbelte av 14?
+      en: What is double 14?
+    answer: 28
+    explanation:
+      nb: Å doble er å legge tallet til seg selv. 14 + 14 er 28.
+      en: Doubling means adding the number to itself. 14 + 14 is 28.
+    reviewed: false
+
+  - id: KM13254-02
+    goal: KM13254
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: Hva er halvparten av 18?
+      en: What is half of 18?
+    answer: 9
+    explanation:
+      nb: Halvparten er to like grupper. 9 + 9 er 18, så halvparten av 18 er 9.
+      en: Half means two equal groups. 9 + 9 is 18, so half of 18 is 9.
+    reviewed: false
+
+  - id: KM13246-01
+    goal: KM13246
+    type: numeric
+    difficulty: 1
+    prompt:
+      nb: En eske har 6 egg. Hvor mange egg er det i 3 esker?
+      en: A box holds 6 eggs. How many eggs are in 3 boxes?
+    answer: 18
+    explanation:
+      nb: Tre grupper med 6 er 3 × 6 = 18.
+      en: Three groups of 6 is 3 × 6 = 18.
+    reviewed: false
+
+  - id: KM13246-02
+    goal: KM13246
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: 12 kjeks skal deles likt på 3 barn. Hvor mange kjeks får hvert barn?
+      en: 12 biscuits are shared equally between 3 children. How many does each
+        child get?
+    answer: 4
+    explanation:
+      nb: Vi deler 12 i 3 like grupper. 12 delt på 3 er 4, fordi 3 × 4 = 12.
+      en: We split 12 into 3 equal groups. 12 ÷ 3 = 4, because 3 × 4 = 12.
+    reviewed: false
+
+  - id: KM13247-01
+    goal: KM13247
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: En tegning viser 4 rader med 3 epler i hver rad. Hvilket regnestykke
+        passer?
+      en: A drawing shows 4 rows with 3 apples in each row. Which calculation
+        fits?
+    choices:
+      - id: a
+        text:
+          nb: "4 × 3"
+          en: "4 × 3"
+        correct: true
+      - id: b
+        text:
+          nb: "4 + 3"
+          en: "4 + 3"
+      - id: c
+        text:
+          nb: "4 − 3"
+          en: "4 − 3"
+    explanation:
+      nb: Fire rader med 3 i hver er fire like grupper. Det skriver vi 4 × 3,
+        og svaret er 12.
+      en: Four rows of 3 is four equal groups. We write that 4 × 3, and the
+        answer is 12.
+    reviewed: false
+
+  - id: KM13247-02
+    goal: KM13247
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva betyr 5 × 2?
+      en: What does 5 × 2 mean?
+    choices:
+      - id: a
+        text:
+          nb: "5 grupper med 2 i hver"
+          en: "5 groups with 2 in each"
+        correct: true
+      - id: b
+        text:
+          nb: "5 pluss 2"
+          en: "5 plus 2"
+      - id: c
+        text:
+          nb: "5 minus 2"
+          en: "5 minus 2"
+    explanation:
+      nb: Gangetegnet betyr like grupper. 5 × 2 er 2 + 2 + 2 + 2 + 2 = 10.
+      en: The times sign means equal groups. 5 × 2 is 2 + 2 + 2 + 2 + 2 = 10.
+    reviewed: false
+
+  - id: KM13248-01
+    goal: KM13248
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Du vet at 6 × 4 = 24. Hva er 4 × 6?
+      en: You know that 6 × 4 = 24. What is 4 × 6?
+    choices:
+      - id: a
+        text:
+          nb: "24"
+          en: "24"
+        correct: true
+      - id: b
+        text:
+          nb: "10"
+          en: "10"
+      - id: c
+        text:
+          nb: "26"
+          en: "26"
+    explanation:
+      nb: Rekkefølgen betyr ingenting når vi ganger. 4 × 6 er også 24.
+      en: Order does not matter when multiplying. 4 × 6 is 24 as well.
+    reviewed: false
+
+  - id: KM13248-02
+    goal: KM13248
+    type: numeric
+    difficulty: 3
+    prompt:
+      nb: "Hvilket tall skal stå i ruta? 7 × 5 = 5 × 5 + ▢ × 5"
+      en: "Which number goes in the box? 7 × 5 = 5 × 5 + ▢ × 5"
+    answer: 2
+    explanation:
+      nb: Vi deler 7 femmere i 5 femmere og 2 femmere. 25 + 10 er 35, akkurat
+        som 7 × 5.
+      en: We split 7 fives into 5 fives and 2 fives. 25 + 10 is 35, the same as
+        7 × 5.
+    reviewed: false
+
+  - id: KM13249-01
+    goal: KM13249
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: "Hvilket tegn passer i ruta? 4 + 5 ▢ 10"
+      en: "Which sign fits in the box? 4 + 5 ▢ 10"
+    choices:
+      - id: a
+        text:
+          nb: "<"
+          en: "<"
+        correct: true
+      - id: b
+        text:
+          nb: ">"
+          en: ">"
+      - id: c
+        text:
+          nb: "="
+          en: "="
+    explanation:
+      nb: 4 + 5 er 9, og 9 er mindre enn 10. Den spisse enden peker mot det
+        minste tallet.
+      en: 4 + 5 is 9, and 9 is less than 10. The pointed end aims at the
+        smaller number.
+    reviewed: false
+
+  - id: KM13249-02
+    goal: KM13249
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilket utsagn er riktig?
+      en: Which statement is true?
+    choices:
+      - id: a
+        text:
+          nb: "3 × 4 = 12"
+          en: "3 × 4 = 12"
+        correct: true
+      - id: b
+        text:
+          nb: "3 × 4 > 12"
+          en: "3 × 4 > 12"
+      - id: c
+        text:
+          nb: "3 × 4 < 12"
+          en: "3 × 4 < 12"
+    explanation:
+      nb: 3 × 4 er nøyaktig 12. Da er de to sidene like mye, og vi bruker
+        likhetstegnet.
+      en: 3 × 4 is exactly 12. The two sides are worth the same, so we use the
+        equals sign.
+    reviewed: false
+
+  - id: KM13250-01
+    goal: KM13250
+    type: numeric
+    difficulty: 3
+    prompt:
+      nb: En vekt er i likevekt. På den ene sida ligger 3 like klosser. På den
+        andre ligger 12 kuler. Hvor mange kuler veier én kloss?
+      en: A balance scale is level. One side holds 3 identical blocks. The other
+        holds 12 marbles. How many marbles does one block weigh?
+    answer: 4
+    explanation:
+      nb: Likevekt betyr like mye på begge sider. 12 kuler fordelt på 3 klosser
+        blir 4 kuler per kloss.
+      en: Balance means both sides weigh the same. 12 marbles shared over 3
+        blocks is 4 marbles each.
+    reviewed: false
+
+  - id: KM13253-01
+    goal: KM13253
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: Et rektangel er dekket av like ruter. Det er 3 rader med 4 ruter i
+        hver. Hvor mange ruter dekker rektangelet?
+      en: A rectangle is covered by equal squares. There are 3 rows with 4
+        squares in each. How many squares cover the rectangle?
+    answer: 12
+    explanation:
+      nb: Arealet er hvor mange ruter som dekker figuren. 3 rader med 4 ruter er
+        3 × 4 = 12 ruter.
+      en: Area is how many squares cover the shape. 3 rows of 4 squares is
+        3 × 4 = 12 squares.
+    reviewed: false
+
+  - id: KM13253-02
+    goal: KM13253
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva passer best å måle arealet av gulvet i klasserommet med?
+      en: What is the best unit for measuring the area of the classroom floor?
+    choices:
+      - id: a
+        text:
+          nb: "Kvadratmeter"
+          en: "Square metres"
+        correct: true
+      - id: b
+        text:
+          nb: "Kvadratmillimeter"
+          en: "Square millimetres"
+      - id: c
+        text:
+          nb: "Kvadratkilometer"
+          en: "Square kilometres"
+    explanation:
+      nb: Et klassegulv er noen få meter langt hver vei. Da passer kvadratmeter.
+        Kvadratmillimeter blir altfor lite og kvadratkilometer altfor stort.
+      en: A classroom floor is a few metres each way, so square metres fit.
+        Square millimetres are far too small and square kilometres far too big.
+    reviewed: false
+
+  - id: KM13251-01
+    goal: KM13251
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Du starter der de to aksene møtes. Du går 3 til høyre og 2 opp.
+        Hvilket punkt står du på?
+      en: You start where the two axes meet. You go 3 to the right and 2 up.
+        Which point are you standing on?
+    choices:
+      - id: a
+        text:
+          nb: "(3, 2)"
+          en: "(3, 2)"
+        correct: true
+      - id: b
+        text:
+          nb: "(2, 3)"
+          en: "(2, 3)"
+      - id: c
+        text:
+          nb: "(3, 3)"
+          en: "(3, 3)"
+    explanation:
+      nb: Vi skriver først hvor langt vi går bortover, så hvor langt opp. Derfor
+        blir det (3, 2).
+      en: We write how far across first, then how far up. That makes it (3, 2).
+    reviewed: false
+
+  - id: KM13251-02
+    goal: KM13251
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: I punktet (5, 1), hva forteller tallet 5?
+      en: In the point (5, 1), what does the number 5 tell you?
+    choices:
+      - id: a
+        text:
+          nb: "Hvor langt bortover punktet ligger"
+          en: "How far across the point lies"
+        correct: true
+      - id: b
+        text:
+          nb: "Hvor langt opp punktet ligger"
+          en: "How far up the point lies"
+      - id: c
+        text:
+          nb: "Hvor mange punkter det er"
+          en: "How many points there are"
+    explanation:
+      nb: Det første tallet viser alltid hvor langt bortover vi går. Det andre
+        tallet viser hvor langt opp.
+      en: The first number always shows how far across you go. The second shows
+        how far up.
+    reviewed: false
+
+# Goals that no written question can honestly test. Recorded rather than
+# omitted, so the gap is a stated judgement instead of a silent one.
+not_assessable:
+  - goal: KM13252
+    reason: >-
+      Asks the pupil to make and follow rules and step-by-step instructions in
+      play and games tied to the coordinate system. Making a rule and following
+      it with a partner is something a teacher observes during an activity; a
+      written question could only check whether the pupil can read a set of
+      instructions, which is not the goal.

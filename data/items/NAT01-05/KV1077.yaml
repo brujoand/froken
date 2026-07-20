@@ -1,0 +1,1094 @@
+# Naturfag, kompetansemål etter 7. trinn (NAT01-05 / KV1077).
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+#
+# Written for 10-12-year-olds: at most two sentences, everyday Norwegian
+# contexts, and no question that depends on having done a particular experiment.
+# Goals whose substance is practical work, design or discussion are recorded
+# under not_assessable rather than tested by proxy.
+---
+subject: NAT01-05
+goal_set: KV1077
+
+items:
+  # KM13833 - questions, hypotheses, variables, data
+  - id: KM13833-01
+    goal: KM13833
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Ida vil finne ut om planter vokser bedre med mye lys. Hva må hun
+        endre på mellom de to plantene?
+      en: Ida wants to find out whether plants grow better with a lot of light.
+        What must she change between the two plants?
+    choices:
+      - id: a
+        text:
+          nb: Hvor mye lys plantene får
+          en: How much light the plants get
+        correct: true
+      - id: b
+        text:
+          nb: Hvor mye vann plantene får
+          en: How much water the plants get
+      - id: c
+        text:
+          nb: Hvor store pottene er
+          en: How big the pots are
+    explanation:
+      nb: I et forsøk endrer vi bare det vi vil undersøke. Ida endrer lyset og
+        holder alt annet likt, ellers vet hun ikke hva forskjellen kommer av.
+      en: In an experiment you change only the thing you are investigating. Ida
+        changes the light and keeps everything else the same, otherwise she
+        cannot tell what caused the difference.
+    reviewed: false
+
+  - id: KM13833-02
+    goal: KM13833
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva er en hypotese?
+      en: What is a hypothesis?
+    choices:
+      - id: a
+        text:
+          nb: En gjetning vi kan teste, satt fram før vi undersøker
+          en: A testable guess, put forward before you investigate
+        correct: true
+      - id: b
+        text:
+          nb: Et resultat som er bevist en gang for alle
+          en: A result that has been proven once and for all
+      - id: c
+        text:
+          nb: En tabell over tallene vi har målt
+          en: A table of the numbers you have measured
+    explanation:
+      nb: En hypotese er et forslag til svar som kan sjekkes med et forsøk.
+        Forsøket kan vise at hypotesen stemmer eller ikke stemmer.
+      en: A hypothesis is a proposed answer that can be checked by an
+        experiment. The experiment may support it or not.
+    reviewed: false
+
+  # KM13834 - observations vs inferences, sources of error
+  - id: KM13834-01
+    goal: KM13834
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilken av setningene er en observasjon, og ikke en slutning?
+      en: Which sentence is an observation, not an inference?
+    choices:
+      - id: a
+        text:
+          nb: Vannet i begeret er 12 grader
+          en: The water in the beaker is 12 degrees
+        correct: true
+      - id: b
+        text:
+          nb: Vannet er kaldt fordi vinduet står åpent
+          en: The water is cold because the window is open
+      - id: c
+        text:
+          nb: Vannet kommer til å fryse i natt
+          en: The water is going to freeze tonight
+    explanation:
+      nb: En observasjon er noe vi ser eller måler. De to andre setningene
+        forklarer eller spår, og det er slutninger vi trekker selv.
+      en: An observation is something you see or measure. The other two explain
+        or predict, which are inferences you draw yourself.
+    reviewed: false
+
+  - id: KM13834-02
+    goal: KM13834
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: En gruppe måler temperaturen ute, men holder termometeret i hånda
+        mens de leser av. Hva er feilkilden?
+      en: A group measures the outdoor temperature, but holds the thermometer
+        in their hand while reading it. What is the source of error?
+    choices:
+      - id: a
+        text:
+          nb: Varmen fra hånda gjør at termometeret viser for høy temperatur
+          en: Heat from the hand makes the thermometer read too high
+        correct: true
+      - id: b
+        text:
+          nb: Termometeret viser alltid feil utendørs
+          en: A thermometer is always wrong outdoors
+      - id: c
+        text:
+          nb: De burde ha målt flere ganger på samme sted
+          en: They should have measured several times in the same spot
+    explanation:
+      nb: Hånda er varmere enn lufta, og varmen smitter over på termometeret.
+        En feilkilde er noe som gjør målingen skjev på en bestemt måte.
+      en: A hand is warmer than the air, and that heat passes to the
+        thermometer. A source of error is something that skews a measurement in
+        a particular direction.
+    reviewed: false
+
+  # KM13835 - models
+  - id: KM13835-01
+    goal: KM13835
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvorfor bruker vi modeller i naturfag?
+      en: Why do we use models in science?
+    choices:
+      - id: a
+        text:
+          nb: Fordi de viser noe vi ikke kan se direkte, på en enklere måte
+          en: Because they show something we cannot see directly, in a simpler
+            way
+        correct: true
+      - id: b
+        text:
+          nb: Fordi en modell alltid er helt lik det den viser
+          en: Because a model is always exactly like the thing it shows
+      - id: c
+        text:
+          nb: Fordi modeller gjør forsøk unødvendige
+          en: Because models make experiments unnecessary
+    explanation:
+      nb: En modell er en forenkling som gjør det lettere å forstå noe som er
+        for lite, for stort eller for langt unna til å se. Den er aldri helt lik
+        virkeligheten.
+      en: A model is a simplification that makes something too small, too big or
+        too far away easier to understand. It is never exactly like the real
+        thing.
+    reviewed: false
+
+  - id: KM13835-02
+    goal: KM13835
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: En modell av solsystemet står på et bord i klasserommet. Hva ved
+        modellen er ikke riktig?
+      en: A model of the solar system stands on a table in the classroom. What
+        about the model is not true to reality?
+    choices:
+      - id: a
+        text:
+          nb: Avstandene mellom planetene er mye mindre enn i virkeligheten
+          en: The distances between the planets are far smaller than in reality
+        correct: true
+      - id: b
+        text:
+          nb: Rekkefølgen på planetene er feil
+          en: The order of the planets is wrong
+      - id: c
+        text:
+          nb: Sola står i midten
+          en: The Sun is in the middle
+    explanation:
+      nb: Modellen viser rekkefølgen riktig, men avstandene måtte krympes for å
+        få plass på bordet. Slik er det med modeller, de gjengir noen ting
+        riktig og andre ting ikke.
+      en: The model gets the order right, but the distances had to be shrunk to
+        fit on a table. That is how models work, with some features faithful
+        and others not.
+    reviewed: false
+
+  # KM13836 - hazard labelling
+  - id: KM13836-01
+    goal: KM13836
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: På en flaske står det et faremerke med en flamme. Hva betyr det?
+      en: A bottle carries a hazard symbol showing a flame. What does it mean?
+    choices:
+      - id: a
+        text:
+          nb: Innholdet er brannfarlig
+          en: The contents are flammable
+        correct: true
+      - id: b
+        text:
+          nb: Innholdet må varmes opp før bruk
+          en: The contents must be heated before use
+      - id: c
+        text:
+          nb: Innholdet er varmt akkurat nå
+          en: The contents are hot right now
+    explanation:
+      nb: Flammemerket betyr at stoffet lett tar fyr. Slike stoffer skal holdes
+        unna varme og åpen ild.
+      en: The flame symbol means the substance catches fire easily. Such
+        substances must be kept away from heat and open flames.
+    reviewed: false
+
+  - id: KM13836-02
+    goal: KM13836
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva er hensikten med faremerkene på vaskemidler og kjemikalier?
+      en: What is the purpose of the hazard symbols on cleaning products and
+        chemicals?
+    choices:
+      - id: a
+        text:
+          nb: De advarer om faren, så alle skjønner den uten å lese mye
+          en: They warn about the danger, so anyone understands it without
+            reading much
+        correct: true
+      - id: b
+        text:
+          nb: De viser hvem som har laget produktet
+          en: They show who made the product
+      - id: c
+        text:
+          nb: De forteller hvor mye produktet koster
+          en: They tell you how much the product costs
+    explanation:
+      nb: Faremerkene er de samme i mange land og bruker bilder i stedet for
+        ord. Da kan alle se faren raskt, uansett språk og alder.
+      en: Hazard symbols are the same across many countries and use pictures
+        instead of words, so anyone can spot the danger quickly whatever their
+        language or age.
+    reviewed: false
+
+  # KM13837 - how scientific knowledge develops
+  - id: KM13837-01
+    goal: KM13837
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Før i tida trodde folk at sola gikk rundt jorda. Hvorfor mener vi noe
+        annet i dag?
+      en: People once believed the Sun went around the Earth. Why do we think
+        otherwise today?
+    choices:
+      - id: a
+        text:
+          nb: Nye observasjoner og målinger passet bedre med at jorda går rundt
+            sola
+          en: New observations and measurements fitted better with the Earth
+            going around the Sun
+        correct: true
+      - id: b
+        text:
+          nb: Folk ble enige om å bytte mening
+          en: People agreed to change their minds
+      - id: c
+        text:
+          nb: Sola har flyttet seg siden den gang
+          en: The Sun has moved since then
+    explanation:
+      nb: Naturvitenskapelig kunnskap endrer seg når nye observasjoner ikke
+        passer med den gamle forklaringen. Da lager forskerne en forklaring som
+        passer bedre.
+      en: Scientific knowledge changes when new observations do not fit the old
+        explanation. Scientists then build an explanation that fits better.
+    reviewed: false
+
+  # KM13851 - traditional knowledge
+  - id: KM13851-01
+    goal: KM13851
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Samiske reingjetere har mange ord for ulike typer snø. Hvordan kan
+        slik kunnskap være nyttig for forskere?
+      en: Sami reindeer herders have many words for different kinds of snow. How
+        can such knowledge be useful to researchers?
+    choices:
+      - id: a
+        text:
+          nb: Den bygger på observasjoner gjennom mange generasjoner og sier noe
+            om snø og klima
+          en: It rests on observations over many generations and says something
+            about snow and climate
+        correct: true
+      - id: b
+        text:
+          nb: Den erstatter behovet for å måle noe som helst
+          en: It removes the need to measure anything
+      - id: c
+        text:
+          nb: Den gjelder bare for folk som bor i nord
+          en: It only applies to people who live in the north
+    explanation:
+      nb: Tradisjonell kunnskap er samlet opp ved å følge naturen tett over lang
+        tid. Forskere bruker den sammen med egne målinger, for eksempel når de
+        studerer hvordan snø og klima endrer seg.
+      en: Traditional knowledge is built up by watching nature closely over a
+        long time. Researchers use it alongside their own measurements, for
+        instance when studying how snow and climate are changing.
+    reviewed: false
+
+  # KM13841 - phase transitions and chemical reactions
+  - id: KM13841-01
+    goal: KM13841
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilket av disse er en kjemisk reaksjon, og ikke en faseovergang?
+      en: Which of these is a chemical reaction, not a change of state?
+    choices:
+      - id: a
+        text:
+          nb: En spiker ruster
+          en: A nail rusts
+        correct: true
+      - id: b
+        text:
+          nb: Is smelter til vann
+          en: Ice melts into water
+      - id: c
+        text:
+          nb: Vanndamp blir til dugg på et vindu
+          en: Water vapour turns into dew on a window
+    explanation:
+      nb: Når en spiker ruster, dannes et helt nytt stoff, og det kan ikke
+        gjøres om ved å varme eller kjøle. Smelting og kondensering er
+        faseoverganger, der stoffet er det samme hele tida.
+      en: When a nail rusts a brand new substance forms, and heating or cooling
+        will not undo it. Melting and condensing are changes of state, where the
+        substance stays the same throughout.
+    reviewed: false
+
+  - id: KM13841-02
+    goal: KM13841
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva kalles det når en væske går over til gass?
+      en: What is it called when a liquid turns into a gas?
+    choices:
+      - id: a
+        text:
+          nb: Fordamping
+          en: Evaporation
+        correct: true
+      - id: b
+        text:
+          nb: Kondensering
+          en: Condensation
+      - id: c
+        text:
+          nb: Størkning
+          en: Solidification
+    explanation:
+      nb: Fordamping er veien fra væske til gass, for eksempel når vann i en
+        vannpytt forsvinner. Kondensering går motsatt vei, fra gass til væske.
+      en: Evaporation is the route from liquid to gas, for example when a puddle
+        disappears. Condensation goes the other way, from gas to liquid.
+    reviewed: false
+
+  # KM13852 - the particle model
+  - id: KM13852-01
+    goal: KM13852
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvordan er partiklene i et fast stoff, ifølge partikkelmodellen?
+      en: According to the particle model, how are the particles arranged in a
+        solid?
+    choices:
+      - id: a
+        text:
+          nb: De ligger tett og ordnet, og vibrerer på plassen sin
+          en: Close together and ordered, vibrating in place
+        correct: true
+      - id: b
+        text:
+          nb: De ligger langt fra hverandre og farer fritt omkring
+          en: Far apart and moving about freely
+      - id: c
+        text:
+          nb: De står helt stille og rører seg aldri
+          en: Completely still, never moving at all
+    explanation:
+      nb: I et fast stoff sitter partiklene fast i forhold til hverandre, men de
+        vibrerer. Derfor har faste stoffer sin egen form.
+      en: In a solid the particles are locked in place relative to each other,
+        but they still vibrate. That is why a solid keeps its own shape.
+    reviewed: false
+
+  - id: KM13852-02
+    goal: KM13852
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Hva skjer med partiklene når is smelter?
+      en: What happens to the particles when ice melts?
+    choices:
+      - id: a
+        text:
+          nb: De får mer energi og kan gli forbi hverandre
+          en: They gain energy and can slide past each other
+        correct: true
+      - id: b
+        text:
+          nb: De blir til andre partikler
+          en: They turn into different particles
+      - id: c
+        text:
+          nb: De blir større hver for seg
+          en: Each particle grows bigger
+    explanation:
+      nb: Varme gir partiklene mer bevegelsesenergi, så de river seg løs fra de
+        faste plassene sine og kan gli. Det er de samme partiklene før og etter,
+        bare ordnet på en annen måte.
+      en: Heat gives the particles more energy of motion, so they break free of
+        their fixed positions and can slide. They are the same particles before
+        and after, just arranged differently.
+    reviewed: false
+
+  # KM13843 - main groups of organisms
+  - id: KM13843-01
+    goal: KM13843
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilket særtrekk har pattedyr?
+      en: Which feature is characteristic of mammals?
+    choices:
+      - id: a
+        text:
+          nb: De gir melk til ungene sine
+          en: They feed their young with milk
+        correct: true
+      - id: b
+        text:
+          nb: De legger alltid egg
+          en: They always lay eggs
+      - id: c
+        text:
+          nb: De puster med gjeller
+          en: They breathe with gills
+    explanation:
+      nb: Pattedyr har melkekjertler og gir melk til ungene. De har også hår
+        eller pels, og de holder jevn kroppstemperatur.
+      en: Mammals have mammary glands and feed their young with milk. They also
+        have hair or fur and keep a steady body temperature.
+    reviewed: false
+
+  - id: KM13843-02
+    goal: KM13843
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: En frosk legger egg i vann, og ungene puster med gjeller før de blir
+        landdyr. Hvilken gruppe hører frosken til?
+      en: A frog lays eggs in water, and its young breathe with gills before
+        becoming land animals. Which group does the frog belong to?
+    choices:
+      - id: a
+        text:
+          nb: Amfibier
+          en: Amphibians
+        correct: true
+      - id: b
+        text:
+          nb: Krypdyr
+          en: Reptiles
+      - id: c
+        text:
+          nb: Fisk
+          en: Fish
+    explanation:
+      nb: Amfibier lever både i vann og på land, og de fleste starter livet som
+        larver med gjeller. Krypdyr legger egg på land, og fisk lever i vann
+        hele livet.
+      en: Amphibians live both in water and on land, and most begin life as
+        larvae with gills. Reptiles lay their eggs on land, and fish stay in
+        water their whole lives.
+    reviewed: false
+
+  # KM13853 - biological diversity
+  - id: KM13853-01
+    goal: KM13853
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva betyr biologisk mangfold?
+      en: What does biological diversity mean?
+    choices:
+      - id: a
+        text:
+          nb: At det finnes mange ulike arter og livsmiljøer
+          en: That there are many different species and habitats
+        correct: true
+      - id: b
+        text:
+          nb: At det er mange individer av én art
+          en: That there are many individuals of one species
+      - id: c
+        text:
+          nb: At dyrene i et område er store
+          en: That the animals in an area are large
+    explanation:
+      nb: Biologisk mangfold handler om variasjon, både mellom arter og mellom
+        naturtyper. Mange like individer gir ikke stort mangfold.
+      en: Biological diversity is about variation, both between species and
+        between habitats. Many identical individuals do not make for much
+        diversity.
+    reviewed: false
+
+  - id: KM13853-02
+    goal: KM13853
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Hva skjer med et økosystem som har mange ulike arter, hvis én av
+        artene forsvinner?
+      en: What happens to an ecosystem with many different species if one of the
+        species disappears?
+    choices:
+      - id: a
+        text:
+          nb: Andre arter kan ofte ta over oppgaven, så økosystemet tåler tapet
+            bedre
+          en: Other species can often take over the role, so the ecosystem
+            copes better with the loss
+        correct: true
+      - id: b
+        text:
+          nb: Alle de andre artene forsvinner også med en gang
+          en: All the other species disappear immediately as well
+      - id: c
+        text:
+          nb: Ingenting endrer seg, fordi arter ikke påvirker hverandre
+          en: Nothing changes, because species do not affect each other
+    explanation:
+      nb: Et økosystem med mange arter tåler forandringer bedre, fordi flere
+        arter kan gjøre lignende jobb. Med få arter kan hele nettet rakne når én
+        art forsvinner.
+      en: An ecosystem with many species copes better with change, because
+        several species can do similar jobs. With few species the whole web can
+        unravel when one disappears.
+    reviewed: false
+
+  # KM13844 - the northern regions
+  - id: KM13844-01
+    goal: KM13844
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvorfor kan naturen i nordområdene være ekstra sårbar?
+      en: Why can nature in the northern regions be especially vulnerable?
+    choices:
+      - id: a
+        text:
+          nb: Fordi det er kaldt og kort vekstsesong, så naturen bruker lang tid
+            på å komme seg
+          en: Because it is cold with a short growing season, so nature takes a
+            long time to recover
+        correct: true
+      - id: b
+        text:
+          nb: Fordi det bor svært mange mennesker der
+          en: Because a great many people live there
+      - id: c
+        text:
+          nb: Fordi det finnes flere arter der enn andre steder
+          en: Because there are more species there than anywhere else
+    explanation:
+      nb: I nord vokser planter sakte, og det er få arter i hvert ledd av
+        næringsnettet. Skader i naturen kan derfor ta mange tiår å reparere.
+      en: In the north plants grow slowly and there are few species at each
+        level of the food web. Damage can therefore take decades to repair.
+    reviewed: false
+
+  - id: KM13844-02
+    goal: KM13844
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvorfor spør forvaltningen ofte reindriftssamer til råds når det skal
+        bygges veier eller hytter i fjellet?
+      en: Why do the authorities often ask Sami reindeer herders for advice
+        before roads or cabins are built in the mountains?
+    choices:
+      - id: a
+        text:
+          nb: Fordi de kjenner beiteområdene og trekkveiene til reinen godt
+          en: Because they know the reindeer's grazing areas and migration
+            routes well
+        correct: true
+      - id: b
+        text:
+          nb: Fordi de eier all grunnen i fjellet
+          en: Because they own all the land in the mountains
+      - id: c
+        text:
+          nb: Fordi de bestemmer hvor mange dyr som finnes i Norge
+          en: Because they decide how many animals exist in Norway
+    explanation:
+      nb: Kunnskap som er bygd opp gjennom generasjoner med reindrift viser hvor
+        reinen beiter og trekker gjennom året. Naturforvaltningen bruker denne
+        kunnskapen sammen med forskning når inngrep skal planlegges.
+      en: Knowledge built up over generations of reindeer herding shows where
+        the reindeer graze and migrate through the year. Nature management uses
+        it alongside research when planning developments.
+    reviewed: false
+
+  # KM13845 - food webs
+  - id: KM13845-01
+    goal: KM13845
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: I et næringsnett spiser haren gress, og reven spiser hare. Hva kalles
+        gresset?
+      en: In a food web the hare eats grass and the fox eats the hare. What is
+        the grass called?
+    choices:
+      - id: a
+        text:
+          nb: Produsent
+          en: Producer
+        correct: true
+      - id: b
+        text:
+          nb: Forbruker
+          en: Consumer
+      - id: c
+        text:
+          nb: Nedbryter
+          en: Decomposer
+    explanation:
+      nb: Planter lager sin egen næring ved hjelp av lys, og kalles derfor
+        produsenter. Dyr som spiser andre er forbrukere, mens sopp og bakterier
+        er nedbrytere.
+      en: Plants make their own food using light, so they are called producers.
+        Animals that eat others are consumers, while fungi and bacteria are
+        decomposers.
+    reviewed: false
+
+  - id: KM13845-02
+    goal: KM13845
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: I et område blir det nesten ingen harer igjen etter en hard vinter.
+        Hva skjer trolig med revene i området?
+      en: After a hard winter almost no hares are left in an area. What is
+        likely to happen to the foxes there?
+    choices:
+      - id: a
+        text:
+          nb: Det blir færre rever, eller de må finne annen mat
+          en: There will be fewer foxes, or they must find other food
+        correct: true
+      - id: b
+        text:
+          nb: Det blir flere rever, fordi de får bedre plass
+          en: There will be more foxes, because they get more room
+      - id: c
+        text:
+          nb: Revene blir upåvirket, siden de ikke spiser hare
+          en: The foxes are unaffected, since they do not eat hares
+    explanation:
+      nb: Artene i et næringsnett henger sammen, så når en byttedyrart går ned,
+        merker rovdyrene det. Rever spiser flere slags mat, så noen klarer seg
+        ved å spise smågnagere eller fugl i stedet.
+      en: Species in a food web are linked, so when a prey species declines the
+        predators feel it. Foxes eat several kinds of food, so some manage by
+        switching to voles or birds instead.
+    reviewed: false
+
+  # KM13846 - day and night, moon phases, seasons
+  - id: KM13846-01
+    goal: KM13846
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva er årsaken til at vi har dag og natt?
+      en: What causes day and night?
+    choices:
+      - id: a
+        text:
+          nb: Jorda snurrer rundt sin egen akse på ett døgn
+          en: The Earth spins on its own axis once a day
+        correct: true
+      - id: b
+        text:
+          nb: Jorda går rundt sola på ett døgn
+          en: The Earth goes around the Sun once a day
+      - id: c
+        text:
+          nb: Sola slukner om natta
+          en: The Sun switches off at night
+    explanation:
+      nb: Jorda roterer rundt seg selv én gang i døgnet. Den siden som vender
+        mot sola har dag, og den andre siden har natt.
+      en: The Earth rotates once every 24 hours. The side facing the Sun has
+        day, and the other side has night.
+    reviewed: false
+
+  - id: KM13846-02
+    goal: KM13846
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvorfor har vi årstider i Norge?
+      en: Why does Norway have seasons?
+    choices:
+      - id: a
+        text:
+          nb: Fordi jordaksen heller, så sola står ulikt høyt gjennom året
+          en: Because the Earth's axis is tilted, so the Sun sits at different
+            heights through the year
+        correct: true
+      - id: b
+        text:
+          nb: Fordi jorda er nærmere sola om sommeren
+          en: Because the Earth is closer to the Sun in summer
+      - id: c
+        text:
+          nb: Fordi sola gir fra seg mer varme om sommeren
+          en: Because the Sun gives off more heat in summer
+    explanation:
+      nb: Jordaksen heller, så nordlige deler av jorda vender mot sola om
+        sommeren og bort fra sola om vinteren. Derfor står sola høyere og dagen
+        er lengre om sommeren.
+      en: The Earth's axis is tilted, so northern parts of the planet lean
+        towards the Sun in summer and away in winter. That makes the Sun higher
+        and the day longer in summer.
+    reviewed: false
+
+  - id: KM13846-03
+    goal: KM13846
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Hvorfor ser månen forskjellig ut fra kveld til kveld?
+      en: Why does the Moon look different from one evening to the next?
+    choices:
+      - id: a
+        text:
+          nb: Vi ser ulike deler av den opplyste siden mens månen går rundt jorda
+          en: We see different parts of its lit side as the Moon orbits the
+            Earth
+        correct: true
+      - id: b
+        text:
+          nb: Jordas skygge dekker månen hver natt
+          en: The Earth's shadow covers the Moon every night
+      - id: c
+        text:
+          nb: Månen lager mindre lys noen kvelder
+          en: The Moon makes less light on some evenings
+    explanation:
+      nb: Månen lyser ikke selv, den speiler sollys. Etter hvert som månen går
+        rundt jorda, ser vi den opplyste halvdelen fra ulike vinkler, og det gir
+        månefasene.
+      en: The Moon does not shine by itself; it reflects sunlight. As it orbits
+        the Earth we see its lit half from different angles, and that gives the
+        phases.
+    reviewed: false
+
+  # KM13847 - conditions for life, other bodies in space
+  - id: KM13847-01
+    goal: KM13847
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva er en viktig grunn til at det finnes liv på jorda, men ikke på
+        månen?
+      en: What is one important reason there is life on Earth but not on the
+        Moon?
+    choices:
+      - id: a
+        text:
+          nb: Jorda har atmosfære og flytende vann
+          en: The Earth has an atmosphere and liquid water
+        correct: true
+      - id: b
+        text:
+          nb: Jorda er mye eldre enn månen
+          en: The Earth is much older than the Moon
+      - id: c
+        text:
+          nb: Månen får aldri lys fra sola
+          en: The Moon never gets any light from the Sun
+    explanation:
+      nb: Liv slik vi kjenner det trenger flytende vann, passe temperatur og en
+        atmosfære. Månen har ingen atmosfære og ikke flytende vann på
+        overflaten.
+      en: Life as we know it needs liquid water, a suitable temperature and an
+        atmosphere. The Moon has no atmosphere and no liquid water on its
+        surface.
+    reviewed: false
+
+  - id: KM13847-02
+    goal: KM13847
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvorfor er det så kaldt på Neptun sammenlignet med jorda?
+      en: Why is it so cold on Neptune compared with Earth?
+    choices:
+      - id: a
+        text:
+          nb: Neptun er mye lenger fra sola
+          en: Neptune is much further from the Sun
+        correct: true
+      - id: b
+        text:
+          nb: Neptun snurrer for sakte rundt seg selv
+          en: Neptune spins too slowly on its axis
+      - id: c
+        text:
+          nb: Neptun har for mange måner
+          en: Neptune has too many moons
+    explanation:
+      nb: Varmen fra sola blir svakere jo lenger ut i solsystemet man kommer.
+        Neptun er den ytterste planeten, og der er det langt under null grader.
+      en: The Sun's warmth grows weaker the further out in the solar system you
+        go. Neptune is the outermost planet, and there it is far below zero.
+    reviewed: false
+
+  # KM13848 - geology, plate tectonics, weathering and erosion
+  - id: KM13848-01
+    goal: KM13848
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva er hovedgrunnen til at det er jordskjelv og vulkaner noen steder
+        på jorda?
+      en: What is the main reason some places on Earth have earthquakes and
+        volcanoes?
+    choices:
+      - id: a
+        text:
+          nb: Jordskorpa er delt i plater som beveger seg i forhold til hverandre
+          en: The crust is split into plates that move relative to each other
+        correct: true
+      - id: b
+        text:
+          nb: Jorda er varmest ved ekvator
+          en: The Earth is warmest at the equator
+      - id: c
+        text:
+          nb: Havet presser hardere enkelte steder
+          en: The ocean presses harder in certain places
+    explanation:
+      nb: Jordskorpa består av plater som sakte skyves mot, fra eller forbi
+        hverandre. Jordskjelv og vulkaner samler seg der platene møtes.
+      en: The crust consists of plates that are slowly pushed towards, away from
+        or past each other. Earthquakes and volcanoes cluster where the plates
+        meet.
+    reviewed: false
+
+  - id: KM13848-02
+    goal: KM13848
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: De norske fjordene har bratte sider og bunn under havnivå. Hvilken
+        ytre kraft har formet dem?
+      en: Norwegian fjords have steep sides and a floor below sea level. Which
+        external force shaped them?
+    choices:
+      - id: a
+        text:
+          nb: Isbreer som gravde ut dalene i istidene
+          en: Glaciers that carved out the valleys during the ice ages
+        correct: true
+      - id: b
+        text:
+          nb: Vulkanutbrudd langs kysten
+          en: Volcanic eruptions along the coast
+      - id: c
+        text:
+          nb: Jordskjelv som åpnet sprekker i fjellet
+          en: Earthquakes that opened cracks in the rock
+    explanation:
+      nb: Tunge isbreer skled ut mot havet og slipte dalene brede og dype. Da
+        isen smeltet, steg havet inn i dalene, og vi fikk fjorder.
+      en: Heavy glaciers slid towards the sea and ground the valleys wide and
+        deep. When the ice melted the sea flowed into them, and fjords were the
+        result.
+    reviewed: false
+
+  # KM13849 - puberty (factual half of the goal)
+  - id: KM13849-01
+    goal: KM13849
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Når starter puberteten vanligvis?
+      en: When does puberty usually begin?
+    choices:
+      - id: a
+        text:
+          nb: Et sted mellom 9 og 14 år, og det varierer fra person til person
+          en: Somewhere between the ages of 9 and 14, varying from person to
+            person
+        correct: true
+      - id: b
+        text:
+          nb: Nøyaktig samme år for alle
+          en: In exactly the same year for everyone
+      - id: c
+        text:
+          nb: Først etter at man har fylt 18 år
+          en: Only after turning 18
+    explanation:
+      nb: Puberteten starter til ulik tid hos ulike mennesker, vanligvis en gang
+        mellom 9 og 14 år. Det er helt normalt å starte tidlig eller sent.
+      en: Puberty starts at different times for different people, usually
+        somewhere between 9 and 14. Starting early or late is entirely normal.
+    reviewed: false
+
+  - id: KM13849-02
+    goal: KM13849
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva er det som setter i gang forandringene i puberteten?
+      en: What sets the changes of puberty in motion?
+    choices:
+      - id: a
+        text:
+          nb: Hormoner som kroppen begynner å lage mer av
+          en: Hormones that the body starts producing more of
+        correct: true
+      - id: b
+        text:
+          nb: Maten man spiser den dagen
+          en: The food you eat that day
+      - id: c
+        text:
+          nb: At man begynner på ungdomsskolen
+          en: Starting lower secondary school
+    explanation:
+      nb: Hjernen signaliserer til kroppen at den skal lage mer kjønnshormoner.
+        Disse hormonene styrer både de fysiske forandringene og at humøret kan
+        svinge mer enn før.
+      en: The brain signals the body to produce more sex hormones. Those
+        hormones drive both the physical changes and the fact that moods can
+        swing more than before.
+    reviewed: false
+
+  # KM13850 - organ systems
+  - id: KM13850-01
+    goal: KM13850
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvilken oppgave har lungene?
+      en: What job do the lungs do?
+    choices:
+      - id: a
+        text:
+          nb: De tar opp oksygen fra lufta og kvitter seg med karbondioksid
+          en: They take up oxygen from the air and get rid of carbon dioxide
+        correct: true
+      - id: b
+        text:
+          nb: De pumper blodet rundt i kroppen
+          en: They pump blood around the body
+      - id: c
+        text:
+          nb: De bryter ned maten vi spiser
+          en: They break down the food we eat
+    explanation:
+      nb: Lungene er en del av åndedrettssystemet. Oksygen går fra lufta over i
+        blodet, og karbondioksid går motsatt vei og pustes ut.
+      en: The lungs are part of the respiratory system. Oxygen passes from the
+        air into the blood, and carbon dioxide goes the other way and is
+        breathed out.
+    reviewed: false
+
+  - id: KM13850-02
+    goal: KM13850
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Hvordan virker åndedrettssystemet og blodomløpet sammen?
+      en: How do the respiratory system and the circulatory system work
+        together?
+    choices:
+      - id: a
+        text:
+          nb: Blodet henter oksygen i lungene og frakter det ut til cellene
+          en: The blood picks up oxygen in the lungs and carries it out to the
+            cells
+        correct: true
+      - id: b
+        text:
+          nb: Lungene pumper blodet videre til musklene
+          en: The lungs pump the blood onwards to the muscles
+      - id: c
+        text:
+          nb: Blodet lager oksygen selv når vi puster
+          en: The blood makes its own oxygen when we breathe
+    explanation:
+      nb: Lungene tar inn oksygen, og hjertet pumper blodet gjennom lungene og
+        videre ut i kroppen. Cellene får oksygenet de trenger via blodet, og
+        avfallsgassen følger blodet tilbake til lungene.
+      en: The lungs take in oxygen, and the heart pumps blood through the lungs
+        and out into the body. Cells get the oxygen they need via the blood, and
+        the waste gas travels back to the lungs.
+    reviewed: false
+
+  - id: KM13850-03
+    goal: KM13850
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilket organsystem hører magesekken og tarmene til?
+      en: Which organ system do the stomach and intestines belong to?
+    choices:
+      - id: a
+        text:
+          nb: Fordøyelsessystemet
+          en: The digestive system
+        correct: true
+      - id: b
+        text:
+          nb: Nervesystemet
+          en: The nervous system
+      - id: c
+        text:
+          nb: Skjelettet
+          en: The skeleton
+    explanation:
+      nb: Fordøyelsessystemet bryter maten ned til små deler kroppen kan ta opp.
+        Næringen går videre ut i blodet og fram til cellene.
+      en: The digestive system breaks food down into small parts the body can
+        absorb. The nutrients then pass into the blood and on to the cells.
+    reviewed: false
+
+# Goals that no written question can honestly test. Recorded rather than
+# omitted, so the gap is a stated judgement instead of a silent one.
+not_assessable:
+  - goal: KM13838
+    reason: >-
+      Asks the pupil to explore, build and program technological systems made of
+      parts that work together. The whole goal is a making activity with a
+      physical or coded result; a written question could only ask about
+      technology in the abstract, which is a different skill.
+
+  - goal: KM13839
+    reason: >-
+      Asks the pupil to design and make a product based on a user need. Design
+      work is judged by the artefact and the process behind it, and no
+      multiple-choice question can stand in for either.
+
+  - goal: KM13840
+    reason: >-
+      Asks the pupil to reflect on how technology can solve challenges, create
+      opportunities and lead to new dilemmas. A dilemma has no single correct
+      answer by definition, so scoring one would mean rewarding a particular
+      opinion rather than knowledge.
+
+  - goal: KM13842
+    reason: >-
+      Asks the pupil to explore electric and magnetic forces through experiments
+      and to talk about how we use electrical energy in everyday life. Both
+      halves are practical or conversational; a question about circuits would
+      test recall the goal does not ask for.

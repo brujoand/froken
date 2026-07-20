@@ -1,0 +1,782 @@
+# Naturfag, kompetansemål etter 5. trinn (NAT01-05 / KV1076).
+#
+# Written for 9- to 10-year-olds: at most two sentences per prompt, everyday
+# Norwegian contexts, and only settled science. Goals whose verb is utforske,
+# delta i, designe or drøfte are recorded under not_assessable rather than
+# tested through a proxy question.
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+---
+subject: NAT01-05
+goal_set: KV1076
+
+items:
+  - id: KM13817-01
+    goal: KM13817
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: >-
+        En klasse målte nedbøren i en uke. Mandag 4 mm, tirsdag 0 mm, onsdag
+        7 mm og torsdag 2 mm. Hvilken dag regnet det mest?
+      en: >-
+        A class measured the rainfall for a week. Monday 4 mm, Tuesday 0 mm,
+        Wednesday 7 mm and Thursday 2 mm. Which day had the most rain?
+    choices:
+      - id: a
+        text:
+          nb: Mandag
+          en: Monday
+      - id: b
+        text:
+          nb: Onsdag
+          en: Wednesday
+        correct: true
+      - id: c
+        text:
+          nb: Torsdag
+          en: Thursday
+    explanation:
+      nb: >-
+        Vi sammenligner tallene i tabellen. 7 mm er det største tallet, og det
+        ble målt onsdag.
+      en: >-
+        Compare the numbers in the table. 7 mm is the largest, and it was
+        measured on Wednesday.
+    reviewed: false
+
+  - id: KM13817-02
+    goal: KM13817
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        To like bønneplanter fikk like mye vann. Den i vinduskarmen vokste
+        18 cm, den i skapet vokste 4 cm. Hva kan vi si ut fra dette?
+      en: >-
+        Two identical bean plants got the same amount of water. The one on the
+        windowsill grew 18 cm, the one in the cupboard grew 4 cm. What can we
+        say from this?
+    choices:
+      - id: a
+        text:
+          nb: Planten som fikk lys, vokste mest
+          en: The plant that got light grew the most
+        correct: true
+      - id: b
+        text:
+          nb: Planter trenger ikke vann
+          en: Plants do not need water
+      - id: c
+        text:
+          nb: Planten i skapet fikk for mye vann
+          en: The plant in the cupboard got too much water
+    explanation:
+      nb: >-
+        Begge plantene fikk like mye vann, så vannet kan ikke forklare
+        forskjellen. Det eneste som var ulikt, var lyset.
+      en: >-
+        Both plants got the same water, so water cannot explain the difference.
+        Light was the only thing that differed.
+    reviewed: false
+
+  - id: KM13818-01
+    goal: KM13818
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvorfor bruker vi modeller i naturfag?
+      en: Why do we use models in science?
+    choices:
+      - id: a
+        text:
+          nb: For å vise noe som er for stort, for lite eller for tregt til å
+            observeres direkte
+          en: To show something too big, too small or too slow to observe
+            directly
+        correct: true
+      - id: b
+        text:
+          nb: Fordi en modell alltid er helt lik virkeligheten
+          en: Because a model is always exactly like reality
+      - id: c
+        text:
+          nb: Fordi modeller er finere å se på enn ekte ting
+          en: Because models look nicer than real things
+    explanation:
+      nb: >-
+        En modell er en forenkling som gjør noe lettere å forstå, for eksempel
+        solsystemet eller en celle.
+      en: >-
+        A model is a simplification that makes something easier to understand,
+        such as the solar system or a cell.
+    reviewed: false
+
+  - id: KM13818-02
+    goal: KM13818
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: >-
+        I en modell av solsystemet er planetene like store kuler på like lang
+        avstand fra hverandre. Hva er galt sammenlignet med virkeligheten?
+      en: >-
+        In a model of the solar system the planets are equal-sized balls spaced
+        equally apart. What is wrong compared with reality?
+    choices:
+      - id: a
+        text:
+          nb: Planetene er i virkeligheten ulike store og har ulik avstand til sola
+          en: In reality the planets differ in size and in distance from the Sun
+        correct: true
+      - id: b
+        text:
+          nb: Planetene går ikke i bane rundt sola
+          en: The planets do not orbit the Sun
+      - id: c
+        text:
+          nb: Det finnes bare tre planeter
+          en: There are only three planets
+    explanation:
+      nb: >-
+        Modellen viser rekkefølgen riktig, men ikke størrelse og avstand. En
+        modell er alltid forenklet, og da må vi vite hva den ikke viser.
+      en: >-
+        The model gets the order right but not size or distance. A model is
+        always simplified, so we need to know what it leaves out.
+    reviewed: false
+
+  - id: KM13820-01
+    goal: KM13820
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva er oppgaven til kjedet på en sykkel?
+      en: What is the job of the chain on a bicycle?
+    choices:
+      - id: a
+        text:
+          nb: Å overføre kraften fra pedalene til bakhjulet
+          en: To transfer the force from the pedals to the rear wheel
+        correct: true
+      - id: b
+        text:
+          nb: Å holde styret på plass
+          en: To hold the handlebars in place
+      - id: c
+        text:
+          nb: Å bremse sykkelen
+          en: To brake the bicycle
+    explanation:
+      nb: >-
+        Når du tråkker, dreier pedalene et tannhjul. Kjedet drar rundt et
+        tannhjul på bakhjulet, og sykkelen ruller.
+      en: >-
+        When you pedal, the pedals turn a sprocket. The chain pulls a sprocket
+        on the rear wheel, and the bicycle rolls.
+    reviewed: false
+
+  - id: KM13820-02
+    goal: KM13820
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        En lommelykt har batteri, bryter, ledninger og pære. Hva skjer hvis du
+        tar ut batteriet?
+      en: >-
+        A torch has a battery, a switch, wires and a bulb. What happens if you
+        take out the battery?
+    choices:
+      - id: a
+        text:
+          nb: Lykta slutter å lyse, fordi kretsen mangler energikilden
+          en: The torch stops shining, because the circuit has lost its energy
+            source
+        correct: true
+      - id: b
+        text:
+          nb: Lykta lyser like sterkt som før
+          en: The torch shines just as brightly as before
+      - id: c
+        text:
+          nb: Pæra lyser bare hvis bryteren står av
+          en: The bulb only shines when the switch is off
+    explanation:
+      nb: >-
+        Delene i et teknologisk system virker sammen. Batteriet gir energien,
+        og uten den kan ikke strømmen gå gjennom kretsen.
+      en: >-
+        The parts of a technological system work together. The battery supplies
+        the energy, and without it no current can flow through the circuit.
+    reviewed: false
+
+  - id: KM13822-01
+    goal: KM13822
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Du rører en skje salt ut i et glass vann. Hva skjer med saltet?
+      en: You stir a spoon of salt into a glass of water. What happens to the salt?
+    choices:
+      - id: a
+        text:
+          nb: Det løser seg opp, men er fortsatt i vannet
+          en: It dissolves, but it is still in the water
+        correct: true
+      - id: b
+        text:
+          nb: Det blir borte for alltid
+          en: It disappears for good
+      - id: c
+        text:
+          nb: Det blir til vann
+          en: It turns into water
+    explanation:
+      nb: >-
+        Saltet fordeler seg i så små biter at vi ikke ser dem. Vannet smaker
+        fortsatt salt, og lar du vannet fordampe, ligger saltet igjen.
+      en: >-
+        The salt spreads out into pieces too small to see. The water still
+        tastes salty, and if the water evaporates the salt is left behind.
+    reviewed: false
+
+  - id: KM13822-02
+    goal: KM13822
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Du heller eddik over natron, og det begynner å bruse kraftig. Hva er
+        boblene?
+      en: >-
+        You pour vinegar over baking soda and it fizzes up. What are the
+        bubbles?
+    choices:
+      - id: a
+        text:
+          nb: En gass som blir dannet av de to stoffene
+          en: A gas formed by the two substances
+        correct: true
+      - id: b
+        text:
+          nb: Luft som var gjemt i natronet
+          en: Air that was hidden inside the baking soda
+      - id: c
+        text:
+          nb: Vann som koker
+          en: Water that is boiling
+    explanation:
+      nb: >-
+        Når eddik og natron blandes, blir det dannet nye stoffer. Ett av dem er
+        en gass, og det er den vi ser som bobler.
+      en: >-
+        When vinegar and baking soda mix, new substances form. One of them is a
+        gas, and that is what we see as bubbles.
+    reviewed: false
+
+  - id: KM13823-01
+    goal: KM13823
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        To like kopper står på bordet. I den ene er vannet 60 °C, i den andre
+        10 °C. Hva er riktig?
+      en: >-
+        Two identical cups are on the table. One holds water at 60 °C, the
+        other at 10 °C. Which is correct?
+    choices:
+      - id: a
+        text:
+          nb: Vannet på 60 °C har mest varmeenergi
+          en: The water at 60 °C has the most heat energy
+        correct: true
+      - id: b
+        text:
+          nb: Vannet på 10 °C har mest varmeenergi
+          en: The water at 10 °C has the most heat energy
+      - id: c
+        text:
+          nb: Temperaturen sier ingenting om energien
+          en: Temperature says nothing about energy
+    explanation:
+      nb: >-
+        Temperatur er noe vi kan måle med termometer, og den forteller oss hvor
+        mye varmeenergi som er i vannet. Høyere temperatur betyr mer energi.
+      en: >-
+        Temperature is something we can measure with a thermometer, and it tells
+        us how much heat energy the water holds. Higher temperature means more
+        energy.
+    reviewed: false
+
+  - id: KM13823-02
+    goal: KM13823
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        To like akebrett kjører ned bakken. Det ene går fort, det andre går
+        sakte. Hva er sant om bevegelsesenergien?
+      en: >-
+        Two identical sledges go down the hill. One moves fast, the other slowly.
+        What is true about their movement energy?
+    choices:
+      - id: a
+        text:
+          nb: Det som går fort, har mest bevegelsesenergi
+          en: The fast one has the most movement energy
+        correct: true
+      - id: b
+        text:
+          nb: Det som går sakte, har mest bevegelsesenergi
+          en: The slow one has the most movement energy
+      - id: c
+        text:
+          nb: De har akkurat like mye
+          en: They have exactly the same
+    explanation:
+      nb: >-
+        Fart er en størrelse vi kan måle. Jo større farten er, desto mer
+        bevegelsesenergi har tingen.
+      en: >-
+        Speed is a quantity we can measure. The greater the speed, the more
+        movement energy the object has.
+    reviewed: false
+
+  - id: KM13824-01
+    goal: KM13824
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        En energikjede kan være sol, gress, ku. Hvor kommer energien i gresset
+        opprinnelig fra?
+      en: >-
+        An energy chain can be Sun, grass, cow. Where does the energy in the
+        grass originally come from?
+    choices:
+      - id: a
+        text:
+          nb: Fra sola
+          en: From the Sun
+        correct: true
+      - id: b
+        text:
+          nb: Fra kua
+          en: From the cow
+      - id: c
+        text:
+          nb: Fra jorda under gresset
+          en: From the soil under the grass
+    explanation:
+      nb: >-
+        Planter fanger energi fra sollyset og lager sin egen næring. Dyr som
+        spiser planter, får energien videre.
+      en: >-
+        Plants capture energy from sunlight and make their own food. Animals
+        that eat plants get that energy passed on.
+    reviewed: false
+
+  - id: KM13824-02
+    goal: KM13824
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Du slår på en lommelykt. Hvilken energikjede passer best?
+      en: You switch on a torch. Which energy chain fits best?
+    choices:
+      - id: a
+        text:
+          nb: Kjemisk energi i batteriet, elektrisk energi, lys og varme
+          en: Chemical energy in the battery, electrical energy, light and heat
+        correct: true
+      - id: b
+        text:
+          nb: Lys, elektrisk energi, kjemisk energi i batteriet
+          en: Light, electrical energy, chemical energy in the battery
+      - id: c
+        text:
+          nb: Lyden fra bryteren, lys, varme
+          en: The sound of the switch, light, heat
+    explanation:
+      nb: >-
+        Energien starter som kjemisk energi i batteriet. Den går som elektrisk
+        energi gjennom ledningene, og pæra gjør den om til lys og litt varme.
+      en: >-
+        The energy starts as chemical energy in the battery. It travels as
+        electrical energy through the wires, and the bulb turns it into light
+        and a little heat.
+    reviewed: false
+
+  - id: KM13825-01
+    goal: KM13825
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Haren skifter til hvit pels om vinteren. Hvorfor er det en fordel?
+      en: The mountain hare changes to a white coat in winter. Why is that an
+        advantage?
+    choices:
+      - id: a
+        text:
+          nb: Den blir vanskeligere å se i snøen
+          en: It is harder to spot in the snow
+        correct: true
+      - id: b
+        text:
+          nb: Hvit pels gjør at den løper fortere
+          en: A white coat makes it run faster
+      - id: c
+        text:
+          nb: Hvit pels gjør at den ikke trenger mat
+          en: A white coat means it does not need food
+    explanation:
+      nb: >-
+        Hvit pels er kamuflasje mot snø. Da er det vanskeligere for rev og ørn
+        å oppdage haren.
+      en: >-
+        A white coat is camouflage against snow, making it harder for foxes and
+        eagles to spot the hare.
+    reviewed: false
+
+  - id: KM13825-02
+    goal: KM13825
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva er en vanlig grunn til at en art kan dø ut?
+      en: What is a common reason a species can die out?
+    choices:
+      - id: a
+        text:
+          nb: Levestedet arten trenger, forsvinner
+          en: The habitat the species needs disappears
+        correct: true
+      - id: b
+        text:
+          nb: Arten blir lei av å bo på samme sted
+          en: The species gets bored of living in the same place
+      - id: c
+        text:
+          nb: Det blir for mange andre arter i verden
+          en: There get to be too many other species in the world
+    explanation:
+      nb: >-
+        Hver art er tilpasset et bestemt levested. Blir skogen, myra eller
+        korallrevet borte, finner arten verken mat eller skjulesteder.
+      en: >-
+        Each species is adapted to a particular habitat. If the forest, bog or
+        coral reef goes, the species finds neither food nor shelter.
+    reviewed: false
+
+  - id: KM13826-01
+    goal: KM13826
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva er et eksempel på god dyrevelferd for høner?
+      en: What is an example of good animal welfare for hens?
+    choices:
+      - id: a
+        text:
+          nb: De har rent vann, nok mat og plass til å bevege seg
+          en: They have clean water, enough food and room to move
+        correct: true
+      - id: b
+        text:
+          nb: De står i et lite bur så de ikke blir slitne
+          en: They stay in a small cage so they do not get tired
+      - id: c
+        text:
+          nb: De får mat bare én gang i uka
+          en: They are fed only once a week
+    explanation:
+      nb: >-
+        God dyrevelferd betyr at dyret får dekket behovene sine, som mat, vann,
+        plass, stell og mulighet til naturlig atferd.
+      en: >-
+        Good animal welfare means the animal's needs are met: food, water,
+        space, care and the chance to behave naturally.
+    reviewed: false
+
+  - id: KM13828-01
+    goal: KM13828
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Sola varmer opp havet, og vann stiger opp i lufta som vanndamp. Hva
+        kalles dette?
+      en: The Sun warms the sea and water rises into the air as water vapour.
+        What is this called?
+    choices:
+      - id: a
+        text:
+          nb: Fordamping
+          en: Evaporation
+        correct: true
+      - id: b
+        text:
+          nb: Kondensering
+          en: Condensation
+      - id: c
+        text:
+          nb: Nedbør
+          en: Precipitation
+    explanation:
+      nb: >-
+        Fordamping er når vann går fra væske til gass. Det er første steget i
+        vannets kretsløp.
+      en: >-
+        Evaporation is water going from liquid to gas. It is the first step in
+        the water cycle.
+    reviewed: false
+
+  - id: KM13828-02
+    goal: KM13828
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvorfor er vann viktig for livet på jorda?
+      en: Why is water important for life on Earth?
+    choices:
+      - id: a
+        text:
+          nb: Alle levende ting trenger vann for å leve og vokse
+          en: Every living thing needs water to live and grow
+        correct: true
+      - id: b
+        text:
+          nb: Vann er viktig bare for fisk og andre dyr i havet
+          en: Water matters only for fish and other sea animals
+      - id: c
+        text:
+          nb: Vann trengs bare når det er varmt ute
+          en: Water is only needed when the weather is hot
+    explanation:
+      nb: >-
+        Mennesker, dyr og planter består for det meste av vann, og alt liv
+        trenger vann for å fungere. Kretsløpet sørger for at vannet brukes om
+        igjen.
+      en: >-
+        People, animals and plants are mostly water, and all life needs water to
+        function. The cycle keeps that water in use over and over.
+    reviewed: false
+
+  - id: KM13832-01
+    goal: KM13832
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva betyr det å ha god psykisk helse?
+      en: What does it mean to have good mental health?
+    choices:
+      - id: a
+        text:
+          nb: Å ha det stort sett bra med seg selv og andre, også når noe er
+            vanskelig
+          en: Generally feeling all right with yourself and others, also when
+            something is hard
+        correct: true
+      - id: b
+        text:
+          nb: Å aldri være lei seg eller sint
+          en: Never being sad or angry
+      - id: c
+        text:
+          nb: Å være best i klassen i idrett
+          en: Being the best in the class at sport
+    explanation:
+      nb: >-
+        Alle er lei seg eller sinte iblant, og det er normalt. God psykisk helse
+        handler om å ha det bra i hverdagen og klare å håndtere følelsene sine.
+      en: >-
+        Everyone feels sad or angry sometimes, and that is normal. Good mental
+        health is about being all right day to day and coping with your
+        feelings.
+    reviewed: false
+
+  - id: KM13829-01
+    goal: KM13829
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Et nytt menneskeliv starter når to celler smelter sammen. Hvilke to
+        celler er det?
+      en: A new human life begins when two cells join. Which two cells are they?
+    choices:
+      - id: a
+        text:
+          nb: En eggcelle og en sædcelle
+          en: An egg cell and a sperm cell
+        correct: true
+      - id: b
+        text:
+          nb: To eggceller
+          en: Two egg cells
+      - id: c
+        text:
+          nb: En blodcelle og en eggcelle
+          en: A blood cell and an egg cell
+    explanation:
+      nb: >-
+        Når en sædcelle og en eggcelle smelter sammen, kalles det befruktning.
+        Den befruktede eggcellen vokser til et foster i livmoren.
+      en: >-
+        When a sperm cell and an egg cell join, it is called fertilisation. The
+        fertilised egg grows into a foetus in the womb.
+    reviewed: false
+
+  - id: KM13831-01
+    goal: KM13831
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva er en av oppgavene til skjelettet?
+      en: What is one of the jobs of the skeleton?
+    choices:
+      - id: a
+        text:
+          nb: Å gi kroppen form og beskytte organer som hjernen og hjertet
+          en: To give the body shape and protect organs such as the brain and
+            heart
+        correct: true
+      - id: b
+        text:
+          nb: Å lage maten om til energi
+          en: To turn food into energy
+      - id: c
+        text:
+          nb: Å sende lyd til ørene
+          en: To send sound to the ears
+    explanation:
+      nb: >-
+        Skjelettet holder kroppen oppe og gir feste til musklene. Hodeskallen
+        beskytter hjernen, og ribbeina beskytter hjertet og lungene.
+      en: >-
+        The skeleton holds the body up and gives the muscles something to pull
+        on. The skull protects the brain, and the ribs protect the heart and
+        lungs.
+    reviewed: false
+
+  - id: KM13831-02
+    goal: KM13831
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva skjer i armen når du bøyer den opp?
+      en: What happens in your arm when you bend it upwards?
+    choices:
+      - id: a
+        text:
+          nb: En muskel trekker seg sammen og drar i beinet gjennom en sene
+          en: A muscle contracts and pulls on the bone through a tendon
+        correct: true
+      - id: b
+        text:
+          nb: Beinet blir mykt så armen kan bøyes
+          en: The bone goes soft so the arm can bend
+      - id: c
+        text:
+          nb: Musklene blir lengre og skyver beinet oppover
+          en: The muscles get longer and push the bone upwards
+    explanation:
+      nb: >-
+        Muskler kan bare dra, ikke skyve. Derfor jobber de i par: en muskel
+        bøyer armen, og en annen retter den ut igjen.
+      en: >-
+        Muscles can only pull, never push. That is why they work in pairs: one
+        muscle bends the arm and another straightens it again.
+    reviewed: false
+
+  - id: KM13830-01
+    goal: KM13830
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva er den største delen av kroppens ytre forsvar mot bakterier?
+      en: What is the largest part of the body's outer defence against bacteria?
+    choices:
+      - id: a
+        text:
+          nb: Huden
+          en: The skin
+        correct: true
+      - id: b
+        text:
+          nb: Hjertet
+          en: The heart
+      - id: c
+        text:
+          nb: Skjelettet
+          en: The skeleton
+    explanation:
+      nb: >-
+        Hel hud er en tett vegg som bakterier ikke kommer gjennom. Derfor er det
+        lurt å vaske og dekke til sår.
+      en: >-
+        Unbroken skin is a tight wall that bacteria cannot get through. That is
+        why it is wise to clean and cover a cut.
+    reviewed: false
+
+  - id: KM13830-02
+    goal: KM13830
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvorfor har vi slim i nesa?
+      en: Why do we have mucus in the nose?
+    choices:
+      - id: a
+        text:
+          nb: Slimet fanger støv og bakterier i lufta vi puster inn
+          en: The mucus traps dust and bacteria in the air we breathe in
+        correct: true
+      - id: b
+        text:
+          nb: Slimet gjør at vi lukter bedre
+          en: The mucus makes us smell better
+      - id: c
+        text:
+          nb: Slimet varmer opp blodet
+          en: The mucus warms up the blood
+    explanation:
+      nb: >-
+        Slim og nesehår er en del av det ytre forsvaret. De stopper mye av det
+        som ellers hadde kommet ned i lungene.
+      en: >-
+        Mucus and nose hairs are part of the outer defence. They stop much of
+        what would otherwise reach the lungs.
+    reviewed: false
+
+# Goals that no written question can honestly test. Recorded rather than
+# omitted, so the gap is a stated judgement instead of a silent one.
+not_assessable:
+  - goal: KM13816
+    reason: >-
+      Asks the pupil to wonder, ask questions, form hypotheses and explore them
+      to find answers. The goal is the act of inquiry itself, carried out over
+      time; a written question could only ask what a hypothesis is, which is
+      vocabulary rather than the skill the goal describes.
+
+  - goal: KM13821
+    reason: >-
+      Asks the pupil to design and build a product from a specification. The
+      whole goal is making something, and the result is a physical object a
+      teacher assesses against the specification. No question can stand in for
+      that.
+
+  - goal: KM13819
+    reason: >-
+      Asks the pupil to explore a natural area and discuss sustainable use of
+      it. The exploration is fieldwork in a specific local place, and the
+      discussion is the pupil's own reasoning about trade-offs, where reasonable
+      people disagree. Neither belongs in a quiz with one correct answer.
+
+  - goal: KM13827
+    reason: >-
+      Asks the pupil to take part in harvesting and using natural resources and
+      discuss sustainable use. Participation cannot be checked in writing, and
+      what counts as sustainable use of a given resource is a live disagreement,
+      not a settled fact to be tested.

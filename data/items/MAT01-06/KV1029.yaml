@@ -1,0 +1,447 @@
+# Matematikk, kompetansemål etter 10. trinn (MAT01-06 / KV1029).
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+---
+subject: MAT01-06
+goal_set: KV1029
+
+items:
+  - id: KM13328-01
+    goal: KM13328
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva blir 3(2a + 4) − 2a skrevet så enkelt som mulig?
+      en: What is 3(2a + 4) − 2a written as simply as possible?
+    choices:
+      - id: a
+        text:
+          nb: 4a + 12
+          en: 4a + 12
+        correct: true
+      - id: b
+        text:
+          nb: 6a + 12
+          en: 6a + 12
+      - id: c
+        text:
+          nb: 4a + 4
+          en: 4a + 4
+      - id: d
+        text:
+          nb: 8a + 12
+          en: 8a + 12
+    explanation:
+      nb: Først ganger du 3 inn i parentesen, 3 · 2a = 6a og 3 · 4 = 12. Så
+        trekker du fra 2a, og 6a − 2a = 4a. Svaret blir 4a + 12.
+      en: First multiply 3 into the bracket, 3 · 2a = 6a and 3 · 4 = 12. Then
+        subtract 2a, and 6a − 2a = 4a, giving 4a + 12.
+    reviewed: false
+
+  - id: KM13328-02
+    goal: KM13328
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Du legger sammen tre tall som følger rett etter hverandre, for
+        eksempel 6, 7 og 8. Hvis det midterste tallet er n, hva blir summen?
+      en: You add three numbers that follow directly after one another, for
+        example 6, 7 and 8. If the middle number is n, what is the sum?
+    choices:
+      - id: a
+        text:
+          nb: 3n
+          en: 3n
+        correct: true
+      - id: b
+        text:
+          nb: n + 3
+          en: n + 3
+      - id: c
+        text:
+          nb: 3n + 1
+          en: 3n + 1
+      - id: d
+        text:
+          nb: n³
+          en: n³
+    explanation:
+      nb: Tallene er n − 1, n og n + 1. Summen blir n − 1 + n + n + 1 = 3n, for
+        −1 og +1 opphever hverandre. Prøv med 6 + 7 + 8 = 21, som er 3 · 7.
+      en: The numbers are n − 1, n and n + 1. The sum is n − 1 + n + n + 1 = 3n,
+        because −1 and +1 cancel. Check it with 6 + 7 + 8 = 21, which is 3 · 7.
+    reviewed: false
+
+  - id: KM13318-01
+    goal: KM13318
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva blir (x + 5)² skrevet ut?
+      en: What is (x + 5)² written out?
+    choices:
+      - id: a
+        text:
+          nb: x² + 10x + 25
+          en: x² + 10x + 25
+        correct: true
+      - id: b
+        text:
+          nb: x² + 25
+          en: x² + 25
+      - id: c
+        text:
+          nb: x² + 5x + 25
+          en: x² + 5x + 25
+      - id: d
+        text:
+          nb: x² + 10x + 10
+          en: x² + 10x + 10
+    explanation:
+      nb: Første kvadratsetning sier at (a + b)² = a² + 2ab + b². Her er a = x
+        og b = 5, så du får x² + 2 · x · 5 + 5² = x² + 10x + 25. Midtleddet
+        forsvinner aldri.
+      en: The first binomial rule says (a + b)² = a² + 2ab + b². Here a = x and
+        b = 5, giving x² + 2 · x · 5 + 5² = x² + 10x + 25. The middle term never
+        disappears.
+    reviewed: false
+
+  - id: KM13318-02
+    goal: KM13318
+    type: numeric
+    difficulty: 3
+    prompt:
+      nb: Bruk kvadratsetningen til å regne ut 98² i hodet. Hva blir svaret?
+      en: Use the binomial rule to work out 98² in your head. What is the answer?
+    answer: 9604
+    explanation:
+      nb: Skriv 98 som 100 − 2. Da er 98² = (100 − 2)² = 100² − 2 · 100 · 2 + 2²
+        = 10000 − 400 + 4 = 9604.
+      en: Write 98 as 100 − 2. Then 98² = (100 − 2)² = 100² − 2 · 100 · 2 + 2²
+        = 10000 − 400 + 4 = 9604.
+    reviewed: false
+
+  - id: KM13324-01
+    goal: KM13324
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: To tall har til sammen 30. Det ene tallet er 8 større enn det andre.
+        Hvilket tall er størst?
+      en: Two numbers add up to 30. One number is 8 larger than the other. Which
+        number is the larger one?
+    answer: 19
+    explanation:
+      nb: Kall tallene x og y. Da er x + y = 30 og x − y = 8. Legger du de to
+        ligningene sammen, får du 2x = 38, altså x = 19. Det andre tallet er 11.
+      en: Call the numbers x and y. Then x + y = 30 and x − y = 8. Adding the two
+        equations gives 2x = 38, so x = 19. The other number is 11.
+    reviewed: false
+
+  - id: KM13324-02
+    goal: KM13324
+    type: numeric
+    difficulty: 3
+    prompt:
+      nb: På en gård er det høner og sauer, til sammen 24 dyr. Til sammen har de
+        68 bein. Hvor mange sauer er det?
+      en: A farm has hens and sheep, 24 animals in all. Together they have 68
+        legs. How many sheep are there?
+    answer: 10
+    explanation:
+      nb: La h være høner og s sauer. Da er h + s = 24 og 2h + 4s = 68. Setter du
+        h = 24 − s inn i den andre, får du 48 − 2s + 4s = 68, altså 2s = 20 og
+        s = 10. Det er 10 sauer og 14 høner.
+      en: Let h be hens and s sheep. Then h + s = 24 and 2h + 4s = 68.
+        Substituting h = 24 − s into the second gives 48 − 2s + 4s = 68, so
+        2s = 20 and s = 10. There are 10 sheep and 14 hens.
+    reviewed: false
+
+  - id: KM13320-01
+    goal: KM13320
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: En rett linje går gjennom punktene (2, 5) og (6, 13). Hva er
+        stigningstallet til linja?
+      en: A straight line passes through the points (2, 5) and (6, 13). What is
+        the slope of the line?
+    answer: 2
+    explanation:
+      nb: Stigningstallet er endringen i y delt på endringen i x. Fra 5 til 13 er
+        det 8 opp, og fra 2 til 6 er det 4 bortover. 8 delt på 4 er 2, så linja
+        stiger med 2 for hver enhet.
+      en: The slope is the change in y divided by the change in x. From 5 to 13
+        is 8 up, and from 2 to 6 is 4 across. 8 divided by 4 is 2, so the line
+        rises by 2 per unit.
+    reviewed: false
+
+  - id: KM13320-02
+    goal: KM13320
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Et basseng fylles med vann, og mengden er V = 200 + 25t liter etter t
+        minutter. Hva forteller tallet 25?
+      en: A pool is being filled, and the amount is V = 200 + 25t litres after t
+        minutes. What does the number 25 tell you?
+    choices:
+      - id: a
+        text:
+          nb: Det kommer 25 liter vann i bassenget hvert minutt
+          en: 25 litres of water enter the pool each minute
+        correct: true
+      - id: b
+        text:
+          nb: Det var 25 liter i bassenget da fyllingen startet
+          en: There were 25 litres in the pool when the filling started
+      - id: c
+        text:
+          nb: Bassenget rommer 25 liter til sammen
+          en: The pool holds 25 litres in total
+      - id: d
+        text:
+          nb: Det tar 25 minutter å fylle bassenget
+          en: It takes 25 minutes to fill the pool
+    explanation:
+      nb: Tallet foran t er endring per enhet. Her øker V med 25 for hvert minutt
+        som går. Tallet 200 er det som allerede var der ved starten.
+      en: The number in front of t is the change per unit. Here V grows by 25 for
+        every minute that passes. The 200 is what was already there at the start.
+    reviewed: false
+
+  - id: KM13322-01
+    goal: KM13322
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: En vare settes ned med 12 prosent. Hvilken vekstfaktor svarer det til?
+      en: A price is reduced by 12 per cent. What growth factor does that
+        correspond to?
+    answer: 0.88
+    explanation:
+      nb: Etter et fall på 12 prosent er det 88 prosent igjen. Vekstfaktoren er
+        88 prosent skrevet som desimaltall, altså 0,88. Du ganger med 0,88 for
+        hver nedgang på 12 prosent.
+      en: After a 12 per cent fall, 88 per cent is left. The growth factor is 88
+        per cent as a decimal, that is 0.88. You multiply by 0.88 for each 12 per
+        cent decrease.
+    reviewed: false
+
+  - id: KM13322-02
+    goal: KM13322
+    type: numeric
+    difficulty: 3
+    prompt:
+      nb: En bestand på 400 rådyr vokser med 10 prosent hvert år. Hvor mange er
+        det etter 2 år?
+      en: A population of 400 deer grows by 10 per cent each year. How many are
+        there after 2 years?
+    answer: 484
+    explanation:
+      nb: Vekstfaktoren er 1,10. Etter to år er antallet 400 · 1,10² = 400 · 1,21
+        = 484. Legg merke til at det ikke blir 480, for det andre året vokser
+        også de 40 dyrene som kom til det første året.
+      en: The growth factor is 1.10. After two years the number is
+        400 · 1.10² = 400 · 1.21 = 484. Note that it is not 480, because in the
+        second year the 40 animals added in the first year grow too.
+    reviewed: false
+
+  - id: KM13321-01
+    goal: KM13321
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: En sykkel koster 8000 kroner hvis du betaler alt med en gang. På kreditt
+        betaler du 12 avdrag på 750 kroner. Hvor mange kroner dyrere blir
+        kredittkjøpet?
+      en: A bicycle costs 8000 kroner if you pay it all at once. On credit you pay
+        12 instalments of 750 kroner. How many kroner more expensive is the credit
+        purchase?
+    answer: 1000
+    explanation:
+      nb: 12 avdrag på 750 kroner blir 12 · 750 = 9000 kroner. Det er 9000 − 8000
+        = 1000 kroner mer enn kontantprisen. Differansen er det renter og gebyrer
+        koster deg.
+      en: 12 instalments of 750 kroner come to 12 · 750 = 9000 kroner. That is
+        9000 − 8000 = 1000 kroner more than the cash price. The difference is what
+        interest and fees cost you.
+    reviewed: false
+
+  - id: KM13321-02
+    goal: KM13321
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: To lån har begge 5 prosent nominell rente, men ulik effektiv rente. Hva
+        er grunnen til det?
+      en: Two loans both have 5 per cent nominal interest, but different effective
+        interest rates. What is the reason?
+    choices:
+      - id: a
+        text:
+          nb: Den effektive renta tar med gebyrer og hvor ofte renta legges til
+          en: The effective rate includes fees and how often interest is added
+        correct: true
+      - id: b
+        text:
+          nb: Den effektive renta er alltid det dobbelte av den nominelle
+          en: The effective rate is always double the nominal rate
+      - id: c
+        text:
+          nb: Den effektive renta avhenger av hvor gammel låntakeren er
+          en: The effective rate depends on how old the borrower is
+      - id: d
+        text:
+          nb: Den effektive renta er den samme, men skrives på en annen måte
+          en: The effective rate is the same, just written differently
+    explanation:
+      nb: Nominell rente er bare renta i seg selv. Effektiv rente er den samlede
+        prisen på lånet, der etableringsgebyr, termingebyr og antall terminer i
+        året er regnet med. Derfor er det den effektive renta du bør sammenligne.
+      en: The nominal rate is only the interest itself. The effective rate is the
+        total cost of the loan, counting set-up fees, instalment fees and how many
+        instalments there are per year. That is why you compare effective rates.
+    reviewed: false
+
+  - id: KM13323-01
+    goal: KM13323
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: En solsikkeplante er 10 cm høy og vokser 3 cm i uka. Modellen
+        h = 10 + 3u gir høyden etter u uker. Hvorfor holder ikke modellen for
+        u = 200?
+      en: A sunflower is 10 cm tall and grows 3 cm a week. The model h = 10 + 3u
+        gives the height after u weeks. Why does the model fail for u = 200?
+    choices:
+      - id: a
+        text:
+          nb: Planten slutter å vokse lenge før det, så modellen gir en høyde
+            som ikke er mulig
+          en: The plant stops growing long before then, so the model gives an
+            impossible height
+        correct: true
+      - id: b
+        text:
+          nb: Modellen kan ikke brukes for tall større enn 100
+          en: The model cannot be used for numbers larger than 100
+      - id: c
+        text:
+          nb: 3 cm i uka er for lite til at modellen blir riktig
+          en: 3 cm a week is too small for the model to be right
+      - id: d
+        text:
+          nb: Modellen mangler et stigningstall
+          en: The model is missing a slope
+    explanation:
+      nb: Regnestykket går fint, 10 + 3 · 200 = 610 cm, men over seks meter er
+        ikke en solsikke. En modell gjelder bare i et område der den beskriver
+        virkeligheten, og her er den lineære veksten bare gyldig den første tiden.
+      en: The arithmetic works, 10 + 3 · 200 = 610 cm, but a sunflower is not over
+        six metres. A model only holds in a range where it describes reality, and
+        here the linear growth is valid only for the early weeks.
+    reviewed: false
+
+  - id: KM13327-01
+    goal: KM13327
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: |-
+        Hva skriver dette Python-programmet ut?
+
+        sum = 0
+        for i in range(1, 5):
+            sum = sum + i
+        print(sum)
+      en: |-
+        What does this Python program print?
+
+        sum = 0
+        for i in range(1, 5):
+            sum = sum + i
+        print(sum)
+    answer: 10
+    explanation:
+      nb: range(1, 5) gir tallene 1, 2, 3 og 4. Det siste tallet, 5, er ikke med.
+        Løkka legger dem sammen, og 1 + 2 + 3 + 4 = 10.
+      en: range(1, 5) gives the numbers 1, 2, 3 and 4. The last number, 5, is not
+        included. The loop adds them up, and 1 + 2 + 3 + 4 = 10.
+    reviewed: false
+
+  - id: KM13327-02
+    goal: KM13327
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: |-
+        Hva gjør dette Python-programmet?
+
+        tall = [4, 9, 2, 7]
+        n = 0
+        for t in tall:
+            if t > n:
+                n = t
+        print(n)
+      en: |-
+        What does this Python program do?
+
+        tall = [4, 9, 2, 7]
+        n = 0
+        for t in tall:
+            if t > n:
+                n = t
+        print(n)
+    choices:
+      - id: a
+        text:
+          nb: Det skriver ut det største tallet i lista, 9
+          en: It prints the largest number in the list, 9
+        correct: true
+      - id: b
+        text:
+          nb: Det skriver ut summen av tallene, 22
+          en: It prints the sum of the numbers, 22
+      - id: c
+        text:
+          nb: Det skriver ut hvor mange tall lista har, 4
+          en: It prints how many numbers the list has, 4
+      - id: d
+        text:
+          nb: Det skriver ut det siste tallet i lista, 7
+          en: It prints the last number in the list, 7
+    explanation:
+      nb: n husker den største verdien programmet har sett så langt. For hvert
+        tall sjekker det om tallet er større enn n, og bytter i så fall. Etter
+        4, 9, 2 og 7 står n igjen på 9.
+      en: n remembers the largest value seen so far. For each number it checks
+        whether that number is bigger than n, and swaps if it is. After 4, 9, 2
+        and 7, n is left at 9.
+    reviewed: false
+
+# Goals that no written question can honestly test. Recorded rather than
+# omitted, so the gap is a stated judgement instead of a silent one.
+not_assessable:
+  - goal: KM13319
+    reason: >-
+      Asks the pupil to explore and compare linear, exponential, fractional and
+      quadratic functions using digital tools. The digital exploration is the
+      goal, not a means to it, and a fair comparison of function families needs
+      plotted graphs the pupil manipulates. A text question could only ask for
+      remembered facts about the function types, which is a different skill.
+
+  - goal: KM13325
+    reason: >-
+      Asks the pupil to plan, carry out and present an investigative piece of
+      work on personal finance. Every verb in it describes a project the pupil
+      runs over time and presents to others; a single question cannot observe
+      planning, execution or presentation.
+
+  - goal: KM13326
+    reason: >-
+      Asks the pupil to explore mathematical properties and relationships by
+      programming. That means writing and running code and seeing what falls
+      out, which a written question cannot check. Reading given code is covered
+      separately by KM13327, so the assessable part of this area is not lost.

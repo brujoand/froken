@@ -1,0 +1,643 @@
+# Samfunnsfag, kompetansemål etter 4. trinn (SAF01-05 / KV1149).
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+#
+# Written for 8-9-year-olds. Samfunnsfag at this checkpoint is largely made of
+# verbs a quiz cannot reach — samtale om, reflektere over, utforske, presentere.
+# Where a goal has a factual core underneath the discussion, that core is tested
+# and nothing more. Where it does not, the goal is excused rather than faked.
+# No item asks the pupil what to think, or presents a contested claim as having
+# one right answer.
+---
+subject: SAF01-05
+goal_set: KV1149
+
+items:
+  # KM14673 - the exploring and presenting is not testable; judging whether a
+  # source is useful for a question has a factual core, so that is what is asked.
+  - id: KM14673-01
+    goal: KM14673
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Du vil vite når bussen går i morgen. Hvor finner du det sikreste svaret?
+      en: You want to know when the bus leaves tomorrow. Where do you find the
+        most reliable answer?
+    choices:
+      - id: a
+        text:
+          nb: I rutetabellen til bussen
+          en: In the bus timetable
+        correct: true
+      - id: b
+        text:
+          nb: En venn tror han husker det
+          en: A friend thinks he remembers it
+      - id: c
+        text:
+          nb: Du gjetter
+          en: You guess
+    explanation:
+      nb: Rutetabellen er laget av dem som kjører bussene, og den viser de
+        faktiske tidene. Noe en venn husker, kan være feil.
+      en: The timetable comes from the people who run the buses and shows the
+        actual times. What a friend remembers may be wrong.
+    reviewed: false
+
+  - id: KM14673-02
+    goal: KM14673
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Du skal finne ut hvor mange som bor i kommunen din. Hvilken kilde
+        passer best?
+      en: You need to find out how many people live in your municipality. Which
+        source fits best?
+    choices:
+      - id: a
+        text:
+          nb: Nettsidene til kommunen
+          en: The municipality's website
+        correct: true
+      - id: b
+        text:
+          nb: En eventyrbok
+          en: A book of fairy tales
+      - id: c
+        text:
+          nb: Et gammelt turkart
+          en: An old hiking map
+    explanation:
+      nb: Kommunen har tall over hvor mange som bor der, og oppdaterer dem. En
+        eventyrbok handler ikke om virkelige tall, og et gammelt kart viser
+        landskap, ikke folketall.
+      en: The municipality keeps and updates figures on how many people live
+        there. A fairy tale book is not about real numbers, and an old map shows
+        landscape, not population.
+    reviewed: false
+
+  - id: KM14669-01
+    goal: KM14669
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva er et kulturminne?
+      en: What is a cultural heritage site?
+    choices:
+      - id: a
+        text:
+          nb: Et spor etter mennesker som levde før oss
+          en: A trace left by people who lived before us
+        correct: true
+      - id: b
+        text:
+          nb: Et fjell som er høyere enn 1000 meter
+          en: A mountain higher than 1000 metres
+      - id: c
+        text:
+          nb: Et dyr som er fredet
+          en: A protected animal
+    explanation:
+      nb: Kulturminner er ting mennesker har laget eller brukt før i tiden, for
+        eksempel helleristninger, gravhauger og gamle hus.
+      en: Cultural heritage sites are things people made or used long ago, such
+        as rock carvings, burial mounds and old houses.
+    reviewed: false
+
+  - id: KM14669-02
+    goal: KM14669
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: For 200 år siden hadde de fleste hjem i Norge ikke vann i springen.
+        Hvor hentet folk vann?
+      en: 200 years ago most homes in Norway had no tap water. Where did people
+        get their water?
+    choices:
+      - id: a
+        text:
+          nb: Fra en brønn eller en bekk
+          en: From a well or a stream
+        correct: true
+      - id: b
+        text:
+          nb: Fra en vannflaske i butikken
+          en: From a water bottle in a shop
+      - id: c
+        text:
+          nb: Fra et vannrør under gulvet
+          en: From a water pipe under the floor
+    explanation:
+      nb: Før i tiden bar folk vann hjem i bøtter fra en brønn eller en bekk. I
+        dag kommer vannet i rør helt inn i huset.
+      en: In the past people carried water home in buckets from a well or a
+        stream. Today water comes into the house through pipes.
+    reviewed: false
+
+  - id: KM14672-01
+    goal: KM14672
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva er et kulturlandskap?
+      en: What is a cultural landscape?
+    choices:
+      - id: a
+        text:
+          nb: Et landskap som mennesker har formet, for eksempel med jorder og
+            beitemark
+          en: A landscape shaped by people, for example with fields and pasture
+        correct: true
+      - id: b
+        text:
+          nb: Et landskap uten planter
+          en: A landscape without plants
+      - id: c
+        text:
+          nb: Et landskap som bare finnes i byer
+          en: A landscape found only in cities
+    explanation:
+      nb: I et kulturlandskap har mennesker satt spor, for eksempel ved å dyrke
+        jorda eller la dyr beite. Et naturlandskap er lite påvirket av
+        mennesker.
+      en: In a cultural landscape people have left their mark, for example by
+        farming or grazing animals. A natural landscape is little affected by
+        people.
+    reviewed: false
+
+  - id: KM14672-02
+    goal: KM14672
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: På et vanlig norsk kart er noen områder blå. Hva viser den blå fargen?
+      en: On an ordinary Norwegian map some areas are blue. What does the blue
+        colour show?
+    choices:
+      - id: a
+        text:
+          nb: Vann, som sjø, elv og hav
+          en: Water, such as lakes, rivers and sea
+        correct: true
+      - id: b
+        text:
+          nb: Skog
+          en: Forest
+      - id: c
+        text:
+          nb: Veier
+          en: Roads
+    explanation:
+      nb: Kart bruker faste farger og tegn. Blått betyr vann, grønt betyr som
+        regel skog, og veier tegnes som streker.
+      en: Maps use fixed colours and symbols. Blue means water, green usually
+        means forest, and roads are drawn as lines.
+    reviewed: false
+
+  # KM14670 - the "reflektere over hvorfor" half is the pupil's own reasoning
+  # and is not tested. What the rights say is a fact, and that is what is asked.
+  - id: KM14670-01
+    goal: KM14670
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvem gjelder menneskerettighetene for?
+      en: Who do human rights apply to?
+    choices:
+      - id: a
+        text:
+          nb: Alle mennesker
+          en: All people
+        correct: true
+      - id: b
+        text:
+          nb: Bare voksne
+          en: Only adults
+      - id: c
+        text:
+          nb: Bare de som bor i Norge
+          en: Only people living in Norway
+    explanation:
+      nb: Menneskerettighetene gjelder for alle mennesker, uansett hvor de bor,
+        hvor gamle de er eller hvor de kommer fra.
+      en: Human rights apply to every person, no matter where they live, how old
+        they are or where they come from.
+    reviewed: false
+
+  - id: KM14670-02
+    goal: KM14670
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: FNs barnekonvensjon sier hvilke rettigheter barn har. Hva er en av dem?
+      en: The UN Convention on the Rights of the Child says what rights children
+        have. What is one of them?
+    choices:
+      - id: a
+        text:
+          nb: Alle barn har rett til å gå på skole
+          en: Every child has the right to go to school
+        correct: true
+      - id: b
+        text:
+          nb: Alle barn har rett til å eie en mobiltelefon
+          en: Every child has the right to own a mobile phone
+      - id: c
+        text:
+          nb: Alle barn har rett til å kjøre bil
+          en: Every child has the right to drive a car
+    explanation:
+      nb: Barnekonvensjonen gir barn rett til blant annet skole, mat, helsehjelp,
+        hvile og lek, og til å bli beskyttet. Den sier ingenting om mobiltelefon
+        eller bil.
+      en: The convention gives children rights to things like school, food,
+        health care, rest and play, and to be protected. It says nothing about
+        phones or cars.
+    reviewed: false
+
+  - id: KM14671-01
+    goal: KM14671
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Samene er et urfolk i Norge. Hva betyr det?
+      en: The Sami are an indigenous people in Norway. What does that mean?
+    choices:
+      - id: a
+        text:
+          nb: Samene bodde i området lenge før landegrensene ble trukket
+          en: The Sami lived in the area long before the national borders were
+            drawn
+        correct: true
+      - id: b
+        text:
+          nb: Samene flyttet til Norge for hundre år siden
+          en: The Sami moved to Norway a hundred years ago
+      - id: c
+        text:
+          nb: Samene bor bare i Norge
+          en: The Sami live only in Norway
+    explanation:
+      nb: Samene har bodd i området sitt fra lenge før statene Norge, Sverige,
+        Finland og Russland ble til, og har holdt på sitt eget språk og sin egen
+        kultur. Derfor er de anerkjent som urfolk. Samer bor i alle disse fire
+        landene.
+      en: The Sami lived in their area long before the states of Norway, Sweden,
+        Finland and Russia existed, and have kept their own language and
+        culture. That is why they are recognised as an indigenous people. Sami
+        people live in all four of those countries.
+    reviewed: false
+
+  - id: KM14671-02
+    goal: KM14671
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Når er samenes nasjonaldag?
+      en: When is the Sami National Day?
+    choices:
+      - id: a
+        text:
+          nb: 6. februar
+          en: 6 February
+        correct: true
+      - id: b
+        text:
+          nb: 17. mai
+          en: 17 May
+      - id: c
+        text:
+          nb: 1. januar
+          en: 1 January
+    explanation:
+      nb: 6. februar er samenes nasjonaldag. Da er det minne om det første samiske
+        landsmøtet, som ble holdt i Trondheim i 1917. 17. mai er Norges
+        grunnlovsdag.
+      en: 6 February is the Sami National Day, marking the first Sami congress,
+        held in Trondheim in 1917. 17 May is Norway's Constitution Day.
+    reviewed: false
+
+  - id: KM14671-03
+    goal: KM14671
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Hva jobber samer med i dag?
+      en: What kind of work do Sami people do today?
+    choices:
+      - id: a
+        text:
+          nb: Alle slags yrker, som andre folk i Norge
+          en: All kinds of jobs, like other people in Norway
+        correct: true
+      - id: b
+        text:
+          nb: Alle samer driver med rein
+          en: All Sami people herd reindeer
+      - id: c
+        text:
+          nb: Samer jobber bare om vinteren
+          en: Sami people only work in winter
+    explanation:
+      nb: Reindrift er en viktig del av samisk kultur, men bare noen få samer
+        driver med rein. Samer er lærere, sykepleiere, fiskere, sjåfører og alt
+        annet, og bor både i byer og på bygda.
+      en: Reindeer herding is an important part of Sami culture, but only a small
+        number of Sami people herd reindeer. Sami people are teachers, nurses,
+        fishers, drivers and everything else, and live both in towns and in the
+        countryside.
+    reviewed: false
+
+  - id: KM14679-01
+    goal: KM14679
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva skjer med glasset når vi leverer tomme glassflasker på et
+        returpunkt?
+      en: What happens to the glass when we hand in empty glass bottles at a
+        recycling point?
+    choices:
+      - id: a
+        text:
+          nb: Det smeltes om og blir til nye glass
+          en: It is melted down and made into new glass
+        correct: true
+      - id: b
+        text:
+          nb: Det blir til drikkevann
+          en: It becomes drinking water
+      - id: c
+        text:
+          nb: Det blir til strøm i stikkontakten
+          en: It becomes electricity in the socket
+    explanation:
+      nb: Glass kan smeltes om og brukes på nytt mange ganger. Da trenger vi
+        mindre nytt råstoff.
+      en: Glass can be melted down and reused many times over. That way we need
+        less new raw material.
+    reviewed: false
+
+  - id: KM14679-02
+    goal: KM14679
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Hva menes med en fornybar energikilde?
+      en: What is meant by a renewable source of energy?
+    choices:
+      - id: a
+        text:
+          nb: En kilde som ikke tar slutt, som sol og vind
+          en: A source that does not run out, such as sun and wind
+        correct: true
+      - id: b
+        text:
+          nb: En kilde som bare finnes i Norge
+          en: A source found only in Norway
+      - id: c
+        text:
+          nb: En kilde som er gratis for alle
+          en: A source that is free for everyone
+    explanation:
+      nb: Sol, vind og rennende vann kommer igjen hele tiden, så de kalles
+        fornybare. Olje og kull tar det millioner av år å lage, så de er ikke
+        fornybare.
+      en: Sun, wind and running water keep coming back, so they are called
+        renewable. Oil and coal take millions of years to form, so they are not.
+    reviewed: false
+
+  - id: KM14675-01
+    goal: KM14675
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvem er det greit å gi passordet sitt til?
+      en: Who is it all right to give your password to?
+    choices:
+      - id: a
+        text:
+          nb: En voksen hjemme som hjelper deg
+          en: An adult at home who helps you
+        correct: true
+      - id: b
+        text:
+          nb: Alle i klassen
+          en: Everyone in the class
+      - id: c
+        text:
+          nb: En du bare har snakket med i et spill
+          en: Someone you have only talked to in a game
+    explanation:
+      nb: Passordet ditt er ditt eget. Bare en voksen du stoler på hjemme, kan
+        trenge det for å hjelpe deg. Deler du det med andre, kan de bruke kontoen
+        din.
+      en: Your password is yours. Only a trusted adult at home might need it to
+        help you. If you share it with others, they can use your account.
+    reviewed: false
+
+  - id: KM14675-02
+    goal: KM14675
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Du har tatt et bilde av en venn. Hva må du gjøre før du legger det ut
+        på nettet?
+      en: You have taken a photo of a friend. What must you do before posting it
+        online?
+    choices:
+      - id: a
+        text:
+          nb: Spørre vennen om lov
+          en: Ask your friend for permission
+        correct: true
+      - id: b
+        text:
+          nb: Legge det ut med en gang
+          en: Post it straight away
+      - id: c
+        text:
+          nb: Bare fortelle det etterpå
+          en: Just tell them afterwards
+    explanation:
+      nb: I Norge har alle rett til å bestemme over bilder av seg selv. Derfor må
+        du spørre om lov først, også når bildet er fint.
+      en: In Norway everyone has the right to decide over pictures of themselves.
+        So you must ask permission first, even when the photo is a nice one.
+    reviewed: false
+
+  # KM14676 - only the "hvor man kan få hjelp" half is quizzed, with no scenario
+  # and nothing depicted. What vold and seksuelle overgrep are, and the pupil's
+  # own boundaries, belong in a conversation with an adult, not a practice app.
+  - id: KM14676-01
+    goal: KM14676
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvem kan du snakke med hvis noe er vanskelig eller vondt?
+      en: Who can you talk to if something is difficult or hurts?
+    choices:
+      - id: a
+        text:
+          nb: En voksen du stoler på, for eksempel hjemme, på skolen eller
+            helsesykepleieren
+          en: An adult you trust, for example at home, at school or the school
+            nurse
+        correct: true
+      - id: b
+        text:
+          nb: Ingen, det må du klare alene
+          en: Nobody, you have to manage on your own
+      - id: c
+        text:
+          nb: Bare de som er like gamle som deg
+          en: Only people your own age
+    explanation:
+      nb: Du skal aldri måtte være alene om noe som er vanskelig. Snakk med en
+        voksen du stoler på. Barn og unge kan også ringe Alarmtelefonen på
+        116 111. Den er gratis og åpen hele døgnet.
+      en: You should never have to deal with something difficult alone. Talk to
+        an adult you trust. Children and young people in Norway can also call the
+        Alarmtelefonen helpline on 116 111. It is free and open around the clock.
+    reviewed: false
+
+  - id: KM14677-01
+    goal: KM14677
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva betyr demokrati?
+      en: What does democracy mean?
+    choices:
+      - id: a
+        text:
+          nb: Folket bestemmer, blant annet ved å stemme
+          en: The people decide, among other things by voting
+        correct: true
+      - id: b
+        text:
+          nb: Én person bestemmer alt
+          en: One person decides everything
+      - id: c
+        text:
+          nb: Ingen bestemmer noe
+          en: Nobody decides anything
+    explanation:
+      nb: Demokrati betyr folkestyre. I et demokrati er det innbyggerne som
+        bestemmer, for eksempel ved å velge hvem som skal sitte på Stortinget.
+      en: Democracy means rule by the people. In a democracy the inhabitants
+        decide, for example by choosing who sits in parliament.
+    reviewed: false
+
+  - id: KM14677-02
+    goal: KM14677
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvem velger elevrådsrepresentanten i en klasse?
+      en: Who chooses the student council representative in a class?
+    choices:
+      - id: a
+        text:
+          nb: Elevene i klassen
+          en: The pupils in the class
+        correct: true
+      - id: b
+        text:
+          nb: Rektor alene
+          en: The head teacher alone
+      - id: c
+        text:
+          nb: Den som er eldst i klassen
+          en: Whoever is oldest in the class
+    explanation:
+      nb: Elevene stemmer selv på hvem som skal representere klassen i elevrådet.
+        Det er demokrati i det små.
+      en: The pupils themselves vote for who will represent the class on the
+        student council. That is democracy on a small scale.
+    reviewed: false
+
+  - id: KM14678-01
+    goal: KM14678
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva kan du gjøre på et folkebibliotek?
+      en: What can you do at a public library?
+    choices:
+      - id: a
+        text:
+          nb: Låne bøker gratis
+          en: Borrow books for free
+        correct: true
+      - id: b
+        text:
+          nb: Kjøpe bøkene du liker best
+          en: Buy the books you like best
+      - id: c
+        text:
+          nb: Bytte bøker mot penger
+          en: Trade books for money
+    explanation:
+      nb: Alle kommuner i Norge skal ha et folkebibliotek, og der er det gratis å
+        låne bøker. Du leverer dem tilbake når du er ferdig.
+      en: Every municipality in Norway must have a public library, and borrowing
+        books there is free. You return them when you are done.
+    reviewed: false
+
+  - id: KM14678-02
+    goal: KM14678
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: I Norge ringer du 110 hvis det brenner. Hvem svarer da?
+      en: In Norway you call 110 if there is a fire. Who answers?
+    choices:
+      - id: a
+        text:
+          nb: Brannvesenet
+          en: The fire service
+        correct: true
+      - id: b
+        text:
+          nb: Biblioteket
+          en: The library
+      - id: c
+        text:
+          nb: Posten
+          en: The postal service
+    explanation:
+      nb: 110 er brann, 112 er politi og 113 er ambulanse. Dette er tjenester som
+        alle kan bruke, hele døgnet.
+      en: 110 is fire, 112 is police and 113 is ambulance. These are services
+        everyone can use, around the clock.
+    reviewed: false
+
+# Goals that no written question can honestly test. Recorded rather than
+# omitted, so the gap is a stated judgement instead of a silent one.
+not_assessable:
+  - goal: KM14674
+    reason: >-
+      Asks the pupil to talk about why conflicts arise at school and nearby, to
+      listen to other people's opinions and to work with others on constructive
+      solutions. Every part of it is something the pupil does with other people
+      in a real situation. A quiz could only ask which resolution is "correct",
+      and there is no single correct way to settle a disagreement between
+      children.
+
+  - goal: KM14680
+    reason: >-
+      Asks the pupil to reflect on the connection between their own personal
+      finances and their own consumption. The substance is the pupil's own
+      reasoning about their own circumstances, which a graded question cannot
+      reach. It would also require assuming the pupil has money to spend, and a
+      child whose family has little should not meet a question that quietly
+      assumes otherwise.
+
+  - goal: KM14668
+    reason: >-
+      Asks the pupil to talk about identity, diversity and belonging, and to
+      reflect on how it can feel to be left out of a community. This is a
+      conversation, and the answers are personal. Marking a child right or wrong
+      on how exclusion feels would be both false and unkind.

@@ -1,0 +1,492 @@
+# Engelsk, kompetansemål etter 4. trinn (ENG01-06 / KV1031).
+#
+# The pupil is a Norwegian child in 3.-4. klasse learning English, so the `nb`
+# text is the instruction and the English inside it is the material under test.
+# The two locales are therefore not translations of each other: where an item
+# asks what an English word means, the answer is never spelled out in the
+# prompt of either locale.
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+---
+subject: ENG01-06
+goal_set: KV1031
+
+items:
+  - id: KM13343-01
+    goal: KM13343
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: I en ordbok står ordene i alfabetisk rekkefølge. Hvilket av disse
+        engelske ordene står først i ordboka?
+      en: In a dictionary the words are in alphabetical order. Which of these
+        English words comes first?
+    choices:
+      - id: a
+        text:
+          nb: apple
+          en: apple
+        correct: true
+      - id: b
+        text:
+          nb: banana
+          en: banana
+      - id: c
+        text:
+          nb: cat
+          en: cat
+    explanation:
+      nb: Ordboka følger alfabetet. A kommer før b, og b kommer før c, så
+        "apple" står først.
+      en: A dictionary follows the alphabet. A comes before b, and b before c,
+        so "apple" comes first.
+    reviewed: false
+
+  - id: KM13340-01
+    goal: KM13340
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvilken bokstav kommer rett etter W i det engelske alfabetet?
+      en: Which letter comes right after W in the English alphabet?
+    choices:
+      - id: a
+        text:
+          nb: V
+          en: V
+      - id: b
+        text:
+          nb: X
+          en: X
+        correct: true
+      - id: c
+        text:
+          nb: Y
+          en: Y
+    explanation:
+      nb: Slutten av alfabetet er u, v, w, x, y, z. Etter w kommer x. V kommer
+        rett før w.
+      en: The end of the alphabet is u, v, w, x, y, z. After w comes x. V comes
+        just before w.
+    reviewed: false
+
+  - id: KM13340-02
+    goal: KM13340
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilket engelsk ord rimer på "cat"?
+      en: Which English word rhymes with "cat"?
+    choices:
+      - id: a
+        text:
+          nb: car
+          en: car
+      - id: b
+        text:
+          nb: hat
+          en: hat
+        correct: true
+      - id: c
+        text:
+          nb: cup
+          en: cup
+    explanation:
+      nb: "\"Cat\" og \"hat\" slutter på den samme lyden -at, og da rimer de.
+        \"Car\" begynner likt, men slutter på en annen lyd."
+      en: "\"Cat\" and \"hat\" end in the same -at sound, so they rhyme. \"Car\"
+        starts the same way but ends differently."
+    reviewed: false
+
+  - id: KM13341-01
+    goal: KM13341
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Du hørte ikke hva læreren sa. Hva sier du på engelsk?
+      en: You did not hear what the teacher said. What do you say in English?
+    choices:
+      - id: a
+        text:
+          nb: Can you say that again, please?
+          en: Can you say that again, please?
+        correct: true
+      - id: b
+        text:
+          nb: Here you are.
+          en: Here you are.
+      - id: c
+        text:
+          nb: Good night.
+          en: Good night.
+    explanation:
+      nb: Du ber om å få høre det en gang til. "Here you are" sier man når man
+        gir noen noe, og "good night" sier man om kvelden.
+      en: You are asking to hear it once more. "Here you are" is for handing
+        something over, and "good night" is for the evening.
+    reviewed: false
+
+  - id: KM13341-02
+    goal: KM13341
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Noen sier "Thank you" til deg. Hva er et høflig svar på engelsk?
+      en: Someone says "Thank you" to you. What is a polite reply in English?
+    choices:
+      - id: a
+        text:
+          nb: You are welcome.
+          en: You are welcome.
+        correct: true
+      - id: b
+        text:
+          nb: Excuse me.
+          en: Excuse me.
+      - id: c
+        text:
+          nb: See you.
+          en: See you.
+    explanation:
+      nb: "\"You are welcome\" er svaret på takk. \"Excuse me\" bruker man for
+        å få oppmerksomhet, og \"see you\" sier man når man går."
+      en: "\"You are welcome\" is the reply to thanks. \"Excuse me\" gets
+        someone's attention, and \"see you\" is for leaving."
+    reviewed: false
+
+  - id: KM13346-01
+    goal: KM13346
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Mange engelske og norske ord ligner på hverandre. Hvilket engelsk ord
+        ligner mest på det norske ordet "sommer"?
+      en: Many English and Norwegian words look alike. Which English word looks
+        most like the Norwegian word "sommer"?
+    choices:
+      - id: a
+        text:
+          nb: winter
+          en: winter
+      - id: b
+        text:
+          nb: summer
+          en: summer
+        correct: true
+      - id: c
+        text:
+          nb: autumn
+          en: autumn
+    explanation:
+      nb: "\"Sommer\" og \"summer\" har nesten de samme bokstavene og den samme
+        lyden. Slike ord er lette å kjenne igjen når du leser engelsk."
+      en: "\"Sommer\" and \"summer\" share almost the same letters and sound.
+        Words like that are easy to recognise when you read English."
+    reviewed: false
+
+  - id: KM13344-01
+    goal: KM13344
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvilket av disse engelske ordene er et substantiv, altså navnet på
+        noe?
+      en: Which of these English words is a noun, the name of a thing?
+    choices:
+      - id: a
+        text:
+          nb: book
+          en: book
+        correct: true
+      - id: b
+        text:
+          nb: jump
+          en: jump
+      - id: c
+        text:
+          nb: happy
+          en: happy
+    explanation:
+      nb: "\"Book\" er en ting, altså et substantiv. \"Jump\" er noe du gjør,
+        og \"happy\" forteller hvordan noen er."
+      en: "\"Book\" is a thing, so it is a noun. \"Jump\" is something you do,
+        and \"happy\" tells you how someone is."
+    reviewed: false
+
+  - id: KM13344-02
+    goal: KM13344
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilket ord er verbet i setningen "The dog runs fast"?
+      en: Which word is the verb in the sentence "The dog runs fast"?
+    choices:
+      - id: a
+        text:
+          nb: dog
+          en: dog
+      - id: b
+        text:
+          nb: runs
+          en: runs
+        correct: true
+      - id: c
+        text:
+          nb: fast
+          en: fast
+    explanation:
+      nb: Verbet forteller hva som skjer. Her er det hunden som løper, så
+        "runs" er verbet.
+      en: The verb tells you what happens. Here the dog is running, so "runs"
+        is the verb.
+    reviewed: false
+
+  - id: KM13345-01
+    goal: KM13345
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilket ord er stavet riktig på engelsk?
+      en: Which word is spelled correctly in English?
+    choices:
+      - id: a
+        text:
+          nb: frend
+          en: frend
+      - id: b
+        text:
+          nb: friend
+          en: friend
+        correct: true
+      - id: c
+        text:
+          nb: freind
+          en: freind
+    explanation:
+      nb: "\"Friend\" skrives med i før e. Det er et ord du må lære utenat,
+        for du hører ikke alle bokstavene når du sier det."
+      en: "\"Friend\" is written with i before e. It is a word to learn by
+        heart, because you cannot hear every letter when you say it."
+    reviewed: false
+
+  - id: KM13345-02
+    goal: KM13345
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilken setning er skrevet riktig på engelsk?
+      en: Which sentence is written correctly in English?
+    choices:
+      - id: a
+        text:
+          nb: i have a cat.
+          en: i have a cat.
+      - id: b
+        text:
+          nb: I have a cat.
+          en: I have a cat.
+        correct: true
+      - id: c
+        text:
+          nb: I Have A Cat.
+          en: I Have A Cat.
+    explanation:
+      nb: På engelsk skrives ordet "I" alltid med stor bokstav. Ellers er det
+        bare det første ordet i setningen som har stor bokstav.
+      en: In English the word "I" is always capitalised. Otherwise only the
+        first word of the sentence takes a capital letter.
+    reviewed: false
+
+  - id: KM13347-01
+    goal: KM13347
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Les det engelske ordet "pig". Hvilket dyr er det?
+      en: Read the English word "pig". Which animal is it?
+    choices:
+      - id: a
+        text:
+          nb: En gris
+          en: A pig
+        correct: true
+      - id: b
+        text:
+          nb: En ku
+          en: A cow
+      - id: c
+        text:
+          nb: En sau
+          en: A sheep
+    explanation:
+      nb: "\"Pig\" er et lydrett ord: p-i-g. Det betyr gris."
+      en: "\"Pig\" is spelled just as it sounds: p-i-g. It is the farm animal
+        that says oink."
+    reviewed: false
+
+  - id: KM13347-02
+    goal: KM13347
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilket ord passer i setningen "___ name is Anna"?
+      en: Which word fits in the sentence "___ name is Anna"?
+    choices:
+      - id: a
+        text:
+          nb: My
+          en: My
+        correct: true
+      - id: b
+        text:
+          nb: Me
+          en: Me
+      - id: c
+        text:
+          nb: I
+          en: I
+    explanation:
+      nb: "\"My\" betyr at noe er mitt, og her er det navnet mitt. \"My name is
+        Anna\" er et ordbilde du møter ofte."
+      en: "\"My\" shows that something belongs to you, and here it is your
+        name. \"My name is Anna\" is a phrase you meet often."
+    reviewed: false
+
+  - id: KM13348-01
+    goal: KM13348
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Les setningen "Sara was thirsty, so she drank a big glass of water".
+        Hva betyr "thirsty"?
+      en: Read the sentence "Sara was thirsty, so she drank a big glass of
+        water". What does "thirsty" mean?
+    choices:
+      - id: a
+        text:
+          nb: At du har lyst til å drikke
+          en: That you want to drink
+        correct: true
+      - id: b
+        text:
+          nb: At du har lyst til å spise
+          en: That you want to eat
+      - id: c
+        text:
+          nb: At du har lyst til å sove
+          en: That you want to sleep
+    explanation:
+      nb: Du trenger ikke kunne ordet fra før. Resten av setningen sier at Sara
+        drakk et stort glass vann, og da må "thirsty" ha med drikke å gjøre.
+      en: You do not need to know the word beforehand. The rest of the sentence
+        says Sara drank a big glass of water, so "thirsty" must be about
+        drinking.
+    reviewed: false
+
+  - id: KM13349-01
+    goal: KM13349
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Les teksten "Ben has a red bike. He rides it to school every day".
+        Hvor drar Ben med sykkelen?
+      en: Read the text "Ben has a red bike. He rides it to school every day".
+        Where does Ben ride the bike?
+    choices:
+      - id: a
+        text:
+          nb: Til skolen
+          en: To school
+        correct: true
+      - id: b
+        text:
+          nb: Til butikken
+          en: To the shop
+      - id: c
+        text:
+          nb: Til stranda
+          en: To the beach
+    explanation:
+      nb: Teksten sier "to school". Butikk og strand står ikke nevnt i det hele
+        tatt.
+      en: The text says "to school". The shop and the beach are not mentioned
+        at all.
+    reviewed: false
+
+  - id: KM13349-02
+    goal: KM13349
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Les teksten "It is cold outside. The snow is deep, and the children
+        make a snowman". Hvilken årstid er det i teksten?
+      en: Read the text "It is cold outside. The snow is deep, and the children
+        make a snowman". Which season is the text about?
+    choices:
+      - id: a
+        text:
+          nb: Vinter
+          en: Winter
+        correct: true
+      - id: b
+        text:
+          nb: Sommer
+          en: Summer
+      - id: c
+        text:
+          nb: Vår
+          en: Spring
+    explanation:
+      nb: Teksten sier ikke årstiden rett ut, men "cold", "snow" og "snowman"
+        hører til vinteren.
+      en: The text never names the season, but "cold", "snow" and "snowman" all
+        belong to winter.
+    reviewed: false
+
+# Goals that no written question can honestly test. Recorded rather than
+# omitted, so the gap is a stated judgement instead of a silent one.
+not_assessable:
+  - goal: KM13351
+    reason: >-
+      Asks the pupil to use digital resources to explore the language and
+      interact with others. Both halves are activities that happen at a device
+      with other people present; a written question could only ask which tool a
+      pupil would pick, which tests neither the exploring nor the interacting.
+
+  - goal: KM13354
+    reason: >-
+      Asks the pupil to listen to and understand words and expressions in
+      adapted texts. Frøken serves text only, so there is nothing to listen to;
+      rendering the audio as written English would turn a listening goal into a
+      reading one.
+
+  - goal: KM13342
+    reason: >-
+      Asks the pupil to take part in conversations about needs, feelings, daily
+      life and interests, and to use the rules of conversation. Taking turns and
+      responding to a real partner is observable in a classroom and invisible in
+      a quiz. Asking which phrase is polite would test vocabulary instead, which
+      KM13341 already covers.
+
+  - goal: KM13352
+    reason: >-
+      Asks the pupil to write simple texts expressing thoughts and opinions.
+      Nothing here can grade free writing offline, and an opinion has no correct
+      answer to grade against in the first place.
+
+  - goal: KM13353
+    reason: >-
+      Asks the pupil to talk about ways of living, traditions and customs in the
+      English-speaking world and in Norway. The goal is the conversation, and
+      the substance is comparison rather than fact. Reducing it to trivia about
+      a holiday would both miss the goal and quietly assume which traditions a
+      given pupil's family keeps.
+
+  - goal: KM13350
+    reason: >-
+      Asks the pupil to pick up words, phrases and cultural knowledge through
+      English-language literature and children's culture. Which books, songs and
+      rhymes a class has met varies from school to school, so any question would
+      test whether the pupil happened to meet that particular text rather than
+      what they learned from the ones they did.

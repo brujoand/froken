@@ -1,0 +1,1262 @@
+# Samfunnsfag, kompetansemål etter 10. trinn (SAF01-05 / KV1151).
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+#
+# This is the most politically loaded goal set in the catalogue. The rule
+# applied throughout: test verifiable facts and institutional knowledge — what a
+# law says, how the Storting is composed, what a treaty established, what a term
+# means. Never ask a pupil to endorse a position, and never dress a contested
+# political or moral question as one with a single right answer. Where a goal's
+# substance is the pupil's own reasoning, discussion or self-reflection, it is
+# recorded under not_assessable rather than reduced to a correct option.
+---
+subject: SAF01-05
+goal_set: KV1151
+
+items:
+  # KM14701 — kilder, algoritmer, ensrettede kilder
+  - id: KM14701-01
+    goal: KM14701
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Du finner en artikkel på nett og skal vurdere hvor troverdig den er.
+        Hvilket spørsmål er mest nyttig å stille først?
+      en: You find an article online and want to judge how trustworthy it is.
+        Which question is most useful to ask first?
+    choices:
+      - id: a
+        text:
+          nb: Hvem står bak teksten, og hva vil de oppnå med den?
+          en: Who is behind the text, and what do they want to achieve with it?
+        correct: true
+      - id: b
+        text:
+          nb: Hvor mange bilder er det i artikkelen?
+          en: How many pictures does the article contain?
+      - id: c
+        text:
+          nb: Hvor lang tid tar det å lese den?
+          en: How long does it take to read?
+      - id: d
+        text:
+          nb: Hvor mange andre har delt den?
+          en: How many other people have shared it?
+    explanation:
+      nb: Kildekritikk starter med avsender og formål. Hvem som har laget en
+        tekst, og hva de vil oppnå, sier mye om hva slags informasjon du får.
+        At mange deler noe, sier ingenting om det er riktig.
+      en: Source criticism starts with the sender and the purpose. Who made a
+        text, and what they want from it, says a lot about the information you
+        get. Many shares say nothing about whether it is true.
+    reviewed: false
+
+  - id: KM14701-02
+    goal: KM14701
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva menes med en filterboble?
+      en: What is meant by a filter bubble?
+    choices:
+      - id: a
+        text:
+          nb: At algoritmer viser deg mest av det du allerede er enig i, slik at
+            du ser lite av andre syn
+          en: That algorithms mostly show you what you already agree with, so
+            you see little of other views
+        correct: true
+      - id: b
+        text:
+          nb: At en nettside laster sakte fordi den har for mange bilder
+          en: That a website loads slowly because it has too many images
+      - id: c
+        text:
+          nb: At en avis krever betaling for å lese artiklene
+          en: That a newspaper charges money to read its articles
+      - id: d
+        text:
+          nb: At en app samler inn posisjonen din
+          en: That an app collects your location
+    explanation:
+      nb: En filterboble oppstår når algoritmer sorterer innhold etter hva du
+        har likt og klikket på før. Da blir strømmen ensrettet, og du møter
+        sjeldnere informasjon som utfordrer det du tror fra før.
+      en: A filter bubble arises when algorithms sort content by what you have
+        liked and clicked before. The feed becomes one-sided, and you meet
+        information that challenges you less often.
+    reviewed: false
+
+  # KM14702 — teknologi som endringsfaktor
+  - id: KM14702-01
+    goal: KM14702
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Boktrykkerkunsten ble tatt i bruk i Europa på 1400-tallet. Hva var den
+        viktigste samfunnsendringen den førte til?
+      en: The printing press came into use in Europe in the 1400s. What was the
+        most important social change it brought?
+    choices:
+      - id: a
+        text:
+          nb: Tekster kunne spres raskt og billig, så kunnskap og nye ideer nådde
+            langt flere mennesker
+          en: Texts could spread quickly and cheaply, so knowledge and new ideas
+            reached far more people
+        correct: true
+      - id: b
+        text:
+          nb: Folk sluttet å skrive brev til hverandre
+          en: People stopped writing letters to each other
+      - id: c
+        text:
+          nb: Alle land innførte skoleplikt med en gang
+          en: Every country introduced compulsory schooling immediately
+      - id: d
+        text:
+          nb: Papir ble forbudt i store deler av Europa
+          en: Paper was banned in much of Europe
+    explanation:
+      nb: Før trykkpressen ble bøker skrevet av for hånd, én om gangen. Etter
+        den kunne samme tekst trykkes i mange eksemplarer. Det gjorde bøker
+        billigere og bidro over tid til at lesekyndighet spredte seg.
+      en: Before the press, books were copied by hand, one at a time. After it,
+        the same text could be printed in many copies. That made books cheaper
+        and, over time, helped literacy spread.
+    reviewed: false
+
+  - id: KM14702-02
+    goal: KM14702
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Under industrialiseringen på 1800-tallet flyttet mange mennesker i
+        Europa fra bygd til by. Hva kalles denne flyttingen?
+      en: During industrialisation in the 1800s, many people in Europe moved
+        from the countryside into towns. What is this movement called?
+    choices:
+      - id: a
+        text:
+          nb: Urbanisering
+          en: Urbanisation
+        correct: true
+      - id: b
+        text:
+          nb: Globalisering
+          en: Globalisation
+      - id: c
+        text:
+          nb: Digitalisering
+          en: Digitalisation
+      - id: d
+        text:
+          nb: Sekularisering
+          en: Secularisation
+    explanation:
+      nb: Urbanisering betyr at en økende andel av befolkningen bor i byer.
+        Fabrikkene lå i byene og trengte arbeidskraft, samtidig som nye maskiner
+        gjorde at jordbruket trengte færre hender.
+      en: Urbanisation means a growing share of the population living in towns.
+        The factories were in the towns and needed workers, while new machinery
+        meant farming needed fewer hands.
+    reviewed: false
+
+  # KM14714 — kamp for forandring
+  - id: KM14714-01
+    goal: KM14714
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Etter mange års kamp fra kvinnesaksbevegelsen fikk kvinner i Norge
+        allmenn stemmerett ved stortingsvalg. Hvilket år skjedde det?
+      en: After many years of campaigning by the women's movement, women in
+        Norway gained universal suffrage in parliamentary elections. In which
+        year?
+    choices:
+      - id: a
+        text:
+          nb: "1884"
+          en: "1884"
+      - id: b
+        text:
+          nb: "1913"
+          en: "1913"
+        correct: true
+      - id: c
+        text:
+          nb: "1945"
+          en: "1945"
+      - id: d
+        text:
+          nb: "1972"
+          en: "1972"
+    explanation:
+      nb: Stortinget vedtok allmenn stemmerett for kvinner i 1913. Menn hadde
+        fått allmenn stemmerett i 1898. Retten kom ikke av seg selv, men etter
+        tiår med organisering, underskriftskampanjer og forslag som ble nedstemt
+        flere ganger.
+      en: The Storting granted women universal suffrage in 1913. Men had gained
+        it in 1898. The right did not arrive on its own, but after decades of
+        organising, petitions and proposals voted down several times.
+    reviewed: false
+
+  - id: KM14714-02
+    goal: KM14714
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Alta-aksjonen mellom 1979 og 1981 var en av de største
+        protestaksjonene i norsk etterkrigstid. Hva handlet konflikten om?
+      en: The Alta controversy between 1979 and 1981 was one of the largest
+        protest movements in post-war Norway. What was the conflict about?
+    choices:
+      - id: a
+        text:
+          nb: Utbygging av et vannkraftverk i Alta-Kautokeino-vassdraget, som
+            berørte samisk reindrift og naturområder
+          en: A hydroelectric development in the Alta-Kautokeino watercourse,
+            which affected Sami reindeer herding and natural areas
+        correct: true
+      - id: b
+        text:
+          nb: Bygging av en flyplass utenfor Oslo
+          en: The building of an airport outside Oslo
+      - id: c
+        text:
+          nb: Innføring av bompenger i norske byer
+          en: The introduction of road tolls in Norwegian cities
+      - id: d
+        text:
+          nb: Nedleggelse av jernbanestrekninger i Sør-Norge
+          en: The closure of railway lines in southern Norway
+    explanation:
+      nb: Aksjonen mot kraftutbyggingen i Alta samlet både miljøvernere og samer,
+        og geografien var selve saken — vassdraget lå i et område brukt til
+        reindrift. Kraftverket ble bygd, men konflikten førte til at samiske
+        rettigheter kom høyt på den politiske dagsordenen, og Sametinget ble
+        åpnet i 1989.
+      en: The protest against the Alta hydropower scheme drew both
+        environmentalists and Sami people, and the geography was the issue
+        itself — the watercourse lay in reindeer herding land. The plant was
+        built, but the conflict pushed Sami rights up the political agenda, and
+        the Sami Parliament opened in 1989.
+    reviewed: false
+
+  # KM14704 — levekår, bosettingsmønstre og demografi
+  - id: KM14704-01
+    goal: KM14704
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: FNs indeks for menneskelig utvikling (HDI) brukes til å sammenligne
+        levekår mellom land. Hva måler den?
+      en: The UN Human Development Index (HDI) is used to compare living
+        conditions between countries. What does it measure?
+    choices:
+      - id: a
+        text:
+          nb: Forventet levealder, utdanningsnivå og inntekt
+          en: Life expectancy, level of education and income
+        correct: true
+      - id: b
+        text:
+          nb: Bare hvor mye landet produserer i året
+          en: Only how much the country produces in a year
+      - id: c
+        text:
+          nb: Antall innbyggere i landet
+          en: The number of inhabitants in the country
+      - id: d
+        text:
+          nb: Hvor stort landarealet er
+          en: How large the land area is
+    explanation:
+      nb: HDI kombinerer tre mål — hvor lenge folk lever, hvor mye utdanning de
+        får, og inntekt per innbygger. Poenget med indeksen er nettopp at
+        økonomisk produksjon alene ikke sier nok om hvordan folk faktisk har det.
+      en: The HDI combines three measures — how long people live, how much
+        schooling they get, and income per inhabitant. The point of the index is
+        precisely that economic output alone says too little about how people
+        actually live.
+    reviewed: false
+
+  - id: KM14704-02
+    goal: KM14704
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: En befolkningspyramide for et land er bred nederst og smal på toppen.
+        Hva forteller det om befolkningen?
+      en: A population pyramid for a country is wide at the bottom and narrow at
+        the top. What does that tell you about the population?
+    choices:
+      - id: a
+        text:
+          nb: Det er mange barn og unge, og forholdsvis få eldre
+          en: There are many children and young people, and relatively few
+            elderly
+        correct: true
+      - id: b
+        text:
+          nb: Det er flere menn enn kvinner i landet
+          en: There are more men than women in the country
+      - id: c
+        text:
+          nb: Landet har et stort areal, men få innbyggere
+          en: The country has a large area but few inhabitants
+      - id: d
+        text:
+          nb: Alle aldersgrupper er nøyaktig like store
+          en: All age groups are exactly the same size
+    explanation:
+      nb: I en befolkningspyramide står de yngste nederst og de eldste øverst.
+        Bred bunn betyr høye fødselstall, og smal topp betyr at få lever til høy
+        alder. Land med god helsetjeneste og lave fødselstall får en pyramide
+        som er jevnere eller til og med smalest nederst.
+      en: In a population pyramid the youngest are at the bottom and the oldest
+        at the top. A wide base means high birth rates; a narrow top means few
+        live to old age. Countries with good healthcare and low birth rates get
+        a pyramid that is more even, or even narrowest at the bottom.
+    reviewed: false
+
+  # KM14699 — årsaker til og konsekvenser av konflikter
+  - id: KM14699-01
+    goal: KM14699
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Versaillestraktaten ble undertegnet i 1919. Hva innebar den for
+        Tyskland?
+      en: The Treaty of Versailles was signed in 1919. What did it mean for
+        Germany?
+    choices:
+      - id: a
+        text:
+          nb: Tyskland måtte ta skylden for krigen, betale store erstatninger og
+            avstå landområder
+          en: Germany had to accept blame for the war, pay large reparations and
+            give up territory
+        correct: true
+      - id: b
+        text:
+          nb: Tyskland fikk nye landområder og slapp å betale erstatning
+          en: Germany gained new territory and paid no reparations
+      - id: c
+        text:
+          nb: Tyskland ble delt i to stater med hver sin regjering
+          en: Germany was divided into two states with separate governments
+      - id: d
+        text:
+          nb: Tyskland ble medlem av Folkeforbundet med en gang
+          en: Germany joined the League of Nations immediately
+    explanation:
+      nb: Fredsoppgjøret etter første verdenskrig påla Tyskland krigsskyld,
+        erstatninger og tap av områder. Historikere peker på at misnøyen med
+        traktaten ble en av flere faktorer bak den politiske uroen i Tyskland på
+        1920- og 1930-tallet. Delingen i to stater kom først etter andre
+        verdenskrig.
+      en: The peace settlement after the First World War imposed war guilt,
+        reparations and loss of territory on Germany. Historians point to
+        resentment of the treaty as one of several factors behind the political
+        turmoil in Germany in the 1920s and 1930s. The division into two states
+        came only after the Second World War.
+    reviewed: false
+
+  - id: KM14699-02
+    goal: KM14699
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvilken hendelse regnes vanligvis som starten på andre verdenskrig i
+        Europa?
+      en: Which event is usually counted as the start of the Second World War in
+        Europe?
+    choices:
+      - id: a
+        text:
+          nb: Tyskland angrep Polen 1. september 1939
+          en: Germany attacked Poland on 1 September 1939
+        correct: true
+      - id: b
+        text:
+          nb: Tyskland angrep Norge 9. april 1940
+          en: Germany attacked Norway on 9 April 1940
+      - id: c
+        text:
+          nb: Børskrakket i New York i 1929
+          en: The New York stock market crash of 1929
+      - id: d
+        text:
+          nb: Grunnleggelsen av FN i 1945
+          en: The founding of the UN in 1945
+    explanation:
+      nb: Angrepet på Polen 1. september 1939 fikk Storbritannia og Frankrike til
+        å erklære krig mot Tyskland to dager senere. Angrepet på Norge kom
+        senere i krigen, og børskrakket i 1929 er en bakenforliggende årsak til
+        krisene på 1930-tallet, ikke selve krigsutbruddet.
+      en: The attack on Poland on 1 September 1939 led Britain and France to
+        declare war on Germany two days later. The attack on Norway came later
+        in the war, and the 1929 crash is an underlying cause of the crises of
+        the 1930s, not the outbreak itself.
+    reviewed: false
+
+  # KM14705 — terror og folkemord
+  - id: KM14705-01
+    goal: KM14705
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: FN vedtok en konvensjon mot folkemord i 1948. Hva kjennetegner et
+        folkemord etter denne definisjonen?
+      en: The UN adopted a convention against genocide in 1948. What
+        characterises genocide under that definition?
+    choices:
+      - id: a
+        text:
+          nb: Handlinger utført med hensikt om å utrydde en nasjonal, etnisk,
+            rasemessig eller religiøs gruppe helt eller delvis
+          en: Acts carried out with intent to destroy, in whole or in part, a
+            national, ethnic, racial or religious group
+        correct: true
+      - id: b
+        text:
+          nb: Enhver krig mellom to land
+          en: Any war between two countries
+      - id: c
+        text:
+          nb: At et land bryter en handelsavtale
+          en: A country breaking a trade agreement
+      - id: d
+        text:
+          nb: At en regjering går av etter et valg
+          en: A government stepping down after an election
+    explanation:
+      nb: Det avgjørende i folkemordkonvensjonen er hensikten om å utslette en
+        bestemt gruppe mennesker, helt eller delvis. Konvensjonen kom i 1948, i
+        årene rett etter Holocaust, og gjorde folkemord til en forbrytelse etter
+        folkeretten som stater kan straffes for.
+      en: What is decisive in the genocide convention is the intent to destroy a
+        particular group of people, in whole or in part. It was adopted in 1948,
+        in the years just after the Holocaust, and made genocide a crime under
+        international law for which states can be held responsible.
+    reviewed: false
+
+  - id: KM14705-02
+    goal: KM14705
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: I november 1942 ble norske jøder arrestert og deportert med skipet
+        Donau. Hvor ble de sendt?
+      en: In November 1942 Norwegian Jews were arrested and deported on the ship
+        Donau. Where were they sent?
+    choices:
+      - id: a
+        text:
+          nb: Til utryddelsesleiren Auschwitz i det tyskokkuperte Polen
+          en: To the Auschwitz extermination camp in German-occupied Poland
+        correct: true
+      - id: b
+        text:
+          nb: Til Sverige, som tok imot flyktninger
+          en: To Sweden, which received refugees
+      - id: c
+        text:
+          nb: Til Storbritannia
+          en: To Britain
+      - id: d
+        text:
+          nb: Til Island
+          en: To Iceland
+    explanation:
+      nb: Deportasjonen med Donau 26. november 1942 sendte over 500 norske jøder
+        til Auschwitz. De aller fleste ble drept. Arrestasjonene ble utført av
+        norsk politi under tysk okkupasjon. Andre norske jøder klarte å flykte
+        til Sverige, ofte med hjelp fra naboer og motstandsfolk.
+      en: The Donau deportation of 26 November 1942 sent more than 500 Norwegian
+        Jews to Auschwitz. Almost all were murdered. The arrests were carried
+        out by Norwegian police under German occupation. Other Norwegian Jews
+        managed to escape to Sweden, often helped by neighbours and members of
+        the resistance.
+    reviewed: false
+
+  # KM14703 — menneskerettigheter og urfolksrettigheter
+  - id: KM14703-01
+    goal: KM14703
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: FNs verdenserklæring om menneskerettighetene ble vedtatt i 1948. Hvem
+        gjelder rettighetene i erklæringen for?
+      en: The UN Universal Declaration of Human Rights was adopted in 1948. Who
+        do the rights in it apply to?
+    choices:
+      - id: a
+        text:
+          nb: Alle mennesker, uansett land, kjønn, religion eller bakgrunn
+          en: All people, regardless of country, gender, religion or background
+        correct: true
+      - id: b
+        text:
+          nb: Bare innbyggere i land som er medlem av FN
+          en: Only inhabitants of countries that are UN members
+      - id: c
+        text:
+          nb: Bare voksne over 18 år
+          en: Only adults over 18
+      - id: d
+        text:
+          nb: Bare mennesker som er født i Europa
+          en: Only people born in Europe
+    explanation:
+      nb: Verdenserklæringens artikkel 1 slår fast at alle mennesker er født frie
+        og like i verdighet og rettigheter. At rettighetene er universelle er
+        selve kjernen i dem — de følger av å være menneske, ikke av statsborgerskap.
+      en: Article 1 of the declaration states that all human beings are born free
+        and equal in dignity and rights. Universality is the core of the idea —
+        the rights follow from being human, not from citizenship.
+    reviewed: false
+
+  - id: KM14703-02
+    goal: KM14703
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Norge var i 1990 det første landet som ratifiserte ILO-konvensjon
+        nr. 169. Hva handler denne konvensjonen om?
+      en: In 1990 Norway became the first country to ratify ILO Convention
+        No. 169. What is that convention about?
+    choices:
+      - id: a
+        text:
+          nb: Urfolks rettigheter, blant annet til språk, kultur og land de
+            tradisjonelt har brukt
+          en: The rights of indigenous peoples, including to language, culture
+            and land they have traditionally used
+        correct: true
+      - id: b
+        text:
+          nb: Regler for internasjonal handel med varer
+          en: Rules for international trade in goods
+      - id: c
+        text:
+          nb: Vern av truede dyrearter
+          en: Protection of endangered animal species
+      - id: d
+        text:
+          nb: Felles regler for utslipp av klimagasser
+          en: Common rules for greenhouse gas emissions
+    explanation:
+      nb: ILO-konvensjon nr. 169 forplikter staten til å anerkjenne urfolks
+        rettigheter og til å konsultere dem i saker som berører dem. For Norge
+        gjelder den samene. Konvensjonen er et eksempel på at en internasjonal
+        avtale får direkte følger for nasjonal politikk.
+      en: ILO Convention No. 169 obliges the state to recognise indigenous
+        peoples' rights and to consult them in matters that affect them. In
+        Norway it applies to the Sami. It is an example of an international
+        agreement with direct consequences for national policy.
+    reviewed: false
+
+  - id: KM14703-03
+    goal: KM14703
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: FNs barnekonvensjon gjelder som norsk lov. Hvilken av disse
+        rettighetene står i konvensjonen?
+      en: The UN Convention on the Rights of the Child applies as Norwegian law.
+        Which of these rights is in the convention?
+    choices:
+      - id: a
+        text:
+          nb: Barn har rett til å si sin mening i saker som gjelder dem, og til å
+            bli hørt
+          en: Children have the right to express their views in matters that
+            concern them, and to be heard
+        correct: true
+      - id: b
+        text:
+          nb: Barn har rett til å stemme ved stortingsvalg
+          en: Children have the right to vote in parliamentary elections
+      - id: c
+        text:
+          nb: Barn har rett til å velge hvilket land de vil bo i
+          en: Children have the right to choose which country to live in
+      - id: d
+        text:
+          nb: Barn har rett til å bestemme over foreldrenes økonomi
+          en: Children have the right to decide their parents' finances
+    explanation:
+      nb: Retten til å bli hørt står i barnekonvensjonens artikkel 12 og gjelder
+        blant annet i saker hos domstoler og offentlige myndigheter. Barn har
+        ikke stemmerett ved stortingsvalg — der er aldersgrensen 18 år.
+      en: The right to be heard is in Article 12 of the convention and applies in
+        court cases and before public authorities, among others. Children do not
+        have the vote in parliamentary elections; there the age limit is 18.
+    reviewed: false
+
+  # KM14706 — fornorskning av samer og nasjonale minoriteter
+  - id: KM14706-01
+    goal: KM14706
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Fornorskingspolitikken overfor samer og kvener varte fra midten av
+        1800-tallet til langt ut på 1900-tallet. Hva gikk den ut på?
+      en: The Norwegianisation policy towards Sami and Kven people ran from the
+        mid-1800s well into the 1900s. What did it involve?
+    choices:
+      - id: a
+        text:
+          nb: Staten forsøkte å få samer og kvener til å bli norske i språk og
+            kultur, blant annet ved at undervisningen bare foregikk på norsk
+          en: The state sought to make Sami and Kven people Norwegian in
+            language and culture, including by teaching only in Norwegian
+        correct: true
+      - id: b
+        text:
+          nb: Staten støttet samisk og kvensk språkopplæring i skolen
+          en: The state supported Sami and Kven language teaching in schools
+      - id: c
+        text:
+          nb: Staten flyttet norsktalende familier nordover for å lære samisk
+          en: The state moved Norwegian-speaking families north to learn Sami
+      - id: d
+        text:
+          nb: Staten opprettet egne samiske skoler med samisk som hovedspråk
+          en: The state set up separate Sami schools with Sami as the main
+            language
+    explanation:
+      nb: Fornorskingen var en bevisst statlig politikk. Barn ble ofte plassert
+        på internatskoler der de ikke fikk snakke morsmålet sitt, og jord kunne
+        bare kjøpes av folk som kunne norsk. Følgen ble at mange familier mistet
+        språket sitt over én eller to generasjoner.
+      en: Norwegianisation was a deliberate state policy. Children were often
+        placed in boarding schools where they were not allowed to speak their
+        mother tongue, and land could only be bought by people who knew
+        Norwegian. As a result many families lost their language within one or
+        two generations.
+    reviewed: false
+
+  - id: KM14706-02
+    goal: KM14706
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Norge har fem anerkjente nasjonale minoriteter. Hvilken gruppe er en av
+        dem?
+      en: Norway has five recognised national minorities. Which group is one of
+        them?
+    choices:
+      - id: a
+        text:
+          nb: Kvener og norskfinner
+          en: Kven and Norwegian Finns
+        correct: true
+      - id: b
+        text:
+          nb: Samer
+          en: Sami people
+      - id: c
+        text:
+          nb: Svensker
+          en: Swedes
+      - id: d
+        text:
+          nb: Islendinger
+          en: Icelanders
+    explanation:
+      nb: De fem nasjonale minoritetene er kvener/norskfinner, jøder,
+        skogfinner, rom og romanifolk/tatere. Samene har en annen status — de er
+        anerkjent som urfolk i Norge, med rettigheter som følger av Grunnloven
+        § 108 og ILO-konvensjon nr. 169.
+      en: The five national minorities are Kven/Norwegian Finns, Jews, Forest
+        Finns, Roma and Romani people/Tater. The Sami have a different status —
+        they are recognised as an indigenous people in Norway, with rights
+        following from Article 108 of the Constitution and ILO Convention
+        No. 169.
+    reviewed: false
+
+  # KM14708 — bærekraftig utvikling
+  - id: KM14708-01
+    goal: KM14708
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Bærekraftig utvikling beskrives ofte med tre dimensjoner. Hvilke er de?
+      en: Sustainable development is often described with three dimensions.
+        Which are they?
+    choices:
+      - id: a
+        text:
+          nb: Klima og miljø, økonomi og sosiale forhold
+          en: Climate and environment, economy and social conditions
+        correct: true
+      - id: b
+        text:
+          nb: Fortid, nåtid og framtid
+          en: Past, present and future
+      - id: c
+        text:
+          nb: Land, hav og luft
+          en: Land, sea and air
+      - id: d
+        text:
+          nb: Stat, kommune og fylke
+          en: State, municipality and county
+    explanation:
+      nb: De tre dimensjonene henger sammen, og det er nettopp poenget — et tiltak
+        som er bra for miljøet kan ramme arbeidsplasser, og fattigdom gjør det
+        vanskeligere å prioritere naturen. Bærekraft handler om å ta hensyn til
+        alle tre samtidig.
+      en: The three dimensions are connected, and that is the point — a measure
+        that is good for the environment can cost jobs, and poverty makes it
+        harder to prioritise nature. Sustainability means weighing all three at
+        once.
+    reviewed: false
+
+  - id: KM14708-02
+    goal: KM14708
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Brundtlandkommisjonen definerte bærekraftig utvikling i 1987. Hva
+        gikk definisjonen ut på?
+      en: The Brundtland Commission defined sustainable development in 1987.
+        What did the definition say?
+    choices:
+      - id: a
+        text:
+          nb: Utvikling som dekker dagens behov uten å ødelegge mulighetene for
+            at kommende generasjoner skal få dekket sine
+          en: Development that meets today's needs without destroying the ability
+            of future generations to meet theirs
+        correct: true
+      - id: b
+        text:
+          nb: Utvikling som gir høyest mulig økonomisk vekst hvert år
+          en: Development that gives the highest possible economic growth each
+            year
+      - id: c
+        text:
+          nb: Utvikling som stanser all bruk av naturressurser
+          en: Development that stops all use of natural resources
+      - id: d
+        text:
+          nb: Utvikling som bare gjelder de rikeste landene
+          en: Development that applies only to the richest countries
+    explanation:
+      nb: Definisjonen kom i rapporten «Vår felles framtid» i 1987. Den binder
+        sammen dagens behov og framtidas — den sier verken at vi skal slutte å
+        bruke ressurser eller at vekst alltid er svaret, men at bruken må kunne
+        fortsette over tid.
+      en: The definition came in the report "Our Common Future" in 1987. It ties
+        today's needs to those of the future — it says neither that we must stop
+        using resources nor that growth is always the answer, but that the use
+        must be able to continue over time.
+    reviewed: false
+
+  # KM14710 — arbeid, inntekt og forbruk
+  - id: KM14710-01
+    goal: KM14710
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva er forskjellen på bruttolønn og nettolønn?
+      en: What is the difference between gross pay and net pay?
+    choices:
+      - id: a
+        text:
+          nb: Bruttolønn er lønnen før skatt, nettolønn er det som står igjen
+            etter at skatten er trukket
+          en: Gross pay is pay before tax; net pay is what is left after tax has
+            been deducted
+        correct: true
+      - id: b
+        text:
+          nb: Bruttolønn er lønn for overtid, nettolønn er vanlig lønn
+          en: Gross pay is overtime pay; net pay is ordinary pay
+      - id: c
+        text:
+          nb: Bruttolønn utbetales månedlig, nettolønn utbetales årlig
+          en: Gross pay is paid monthly; net pay is paid yearly
+      - id: d
+        text:
+          nb: Det er to ord for det samme
+          en: They are two words for the same thing
+    explanation:
+      nb: På lønnsslippen står bruttolønnen øverst. Arbeidsgiveren trekker skatt
+        før pengene utbetales, og det du får inn på konto er nettolønnen. Det er
+        nettolønnen du kan bruke, så det er den et budsjett må ta utgangspunkt i.
+      en: On a payslip, gross pay is at the top. The employer deducts tax before
+        payment, and what reaches your account is net pay. Net pay is what you
+        can actually spend, so it is what a budget has to start from.
+    reviewed: false
+
+  - id: KM14710-02
+    goal: KM14710
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Når du sammenligner lån, oppgir bankene både nominell og effektiv
+        rente. Hva viser den effektive renten?
+      en: When you compare loans, banks state both the nominal and the effective
+        interest rate. What does the effective rate show?
+    choices:
+      - id: a
+        text:
+          nb: Den samlede kostnaden ved lånet, altså renten pluss gebyrer
+          en: The total cost of the loan, that is the interest plus fees
+        correct: true
+      - id: b
+        text:
+          nb: Renten banken selv betaler for å låne penger
+          en: The interest the bank itself pays to borrow money
+      - id: c
+        text:
+          nb: Hvor mye du kan låne
+          en: How much you are allowed to borrow
+      - id: d
+        text:
+          nb: Hvor lang tid det tar å betale tilbake
+          en: How long it takes to repay
+    explanation:
+      nb: Nominell rente er bare renten. Den effektive renten tar med
+        etableringsgebyr og termingebyrer, og blir derfor høyere. Det er den
+        effektive renten som gjør at to lån kan sammenlignes.
+      en: The nominal rate is interest alone. The effective rate includes set-up
+        and instalment fees, and so is higher. It is the effective rate that
+        makes two loans comparable.
+    reviewed: false
+
+  # KM14709 — digitale spor, personvern og opphavsrett
+  - id: KM14709-01
+    goal: KM14709
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Personvernreglene gir deg noen rettigheter overfor tjenester som lagrer
+        opplysninger om deg. Hvilken av disse er en slik rettighet?
+      en: Data protection rules give you certain rights towards services that
+        store information about you. Which of these is such a right?
+    choices:
+      - id: a
+        text:
+          nb: Du kan kreve innsyn i hvilke opplysninger de har om deg, og kreve
+            at feil rettes eller opplysninger slettes
+          en: You can demand to see what information they hold about you, and
+            require errors to be corrected or data deleted
+        correct: true
+      - id: b
+        text:
+          nb: Du kan kreve at tjenesten sletter opplysninger om andre brukere
+          en: You can demand that the service delete information about other
+            users
+      - id: c
+        text:
+          nb: Du kan kreve å få betalt hver gang du bruker tjenesten
+          en: You can demand payment every time you use the service
+      - id: d
+        text:
+          nb: Du kan kreve at alt du har publisert forsvinner fra hele internett
+          en: You can demand that everything you have published disappears from
+            the entire internet
+    explanation:
+      nb: Retten til innsyn, retting og sletting gjelder dine egne
+        personopplysninger. Merk at retten til sletting gjelder overfor den
+        enkelte tjenesten. Har innholdet blitt kopiert videre av andre, er det
+        ofte ikke mulig å få det bort alle steder — derfor er det som legges ut,
+        vanskelig å ta tilbake.
+      en: The rights of access, correction and deletion cover your own personal
+        data. Note that deletion applies to the individual service. If the
+        content has been copied on by others, it is often impossible to remove
+        everywhere — which is why what is posted is hard to take back.
+    reviewed: false
+
+  - id: KM14709-02
+    goal: KM14709
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Du finner et bilde på nett som en annen person har tatt, og vil bruke
+        det i en presentasjon du legger ut offentlig. Hva sier opphavsretten?
+      en: You find a photo online taken by someone else and want to use it in a
+        presentation you publish publicly. What does copyright law say?
+    choices:
+      - id: a
+        text:
+          nb: Du må som hovedregel ha tillatelse, eller bruke et bilde med en
+            lisens som tillater bruken, og oppgi hvem som har laget det
+          en: As a rule you need permission, or an image with a licence allowing
+            the use, and you must credit the creator
+        correct: true
+      - id: b
+        text:
+          nb: Alt som ligger åpent på nett er fritt å bruke til hva som helst
+          en: Anything openly available online is free to use for anything
+      - id: c
+        text:
+          nb: Det er lov så lenge du ikke tjener penger på det
+          en: It is allowed as long as you do not make money from it
+      - id: d
+        text:
+          nb: Det er lov så lenge du endrer fargene på bildet
+          en: It is allowed as long as you change the colours of the image
+    explanation:
+      nb: Den som har laget et bilde, har opphavsrett til det, også når bildet
+        ligger åpent på nett. Noen bilder er merket med lisenser, for eksempel
+        Creative Commons, som sier hva du får lov til. At bruken er gratis eller
+        litt endret, gir ikke i seg selv rett til å bruke den.
+      en: Whoever made an image holds copyright in it, even when it lies openly
+        online. Some images carry licences, such as Creative Commons, stating
+        what you may do. That the use is unpaid, or the image slightly altered,
+        does not in itself grant the right to use it.
+    reviewed: false
+
+  # KM14712 — aktører med makt
+  - id: KM14712-01
+    goal: KM14712
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Mediene omtales ofte som «den fjerde statsmakt». Hva sikter uttrykket
+        til?
+      en: The media are often called "the fourth estate". What does the term
+        refer to?
+    choices:
+      - id: a
+        text:
+          nb: At mediene har innflytelse ved å granske og informere om hva de
+            tre statsmaktene gjør
+          en: That the media hold influence by scrutinising and informing about
+            what the three branches of government do
+        correct: true
+      - id: b
+        text:
+          nb: At mediene vedtar lover sammen med Stortinget
+          en: That the media pass laws together with the Storting
+      - id: c
+        text:
+          nb: At mediene er en avdeling i regjeringen
+          en: That the media are a department of the government
+      - id: d
+        text:
+          nb: At mediene dømmer i rettssaker
+          en: That the media pass judgment in court cases
+    explanation:
+      nb: De tre formelle statsmaktene er Stortinget, regjeringen og domstolene.
+        Mediene har ingen formell makt, men påvirker gjennom å avdekke
+        kritikkverdige forhold og sette saker på dagsordenen. Derfor kalles de
+        den fjerde statsmakt — som et bilde, ikke som en juridisk rolle.
+      en: The three formal branches are the Storting, the government and the
+        courts. The media have no formal power, but influence events by exposing
+        wrongdoing and setting the agenda. Hence "the fourth estate" — a
+        metaphor, not a legal role.
+    reviewed: false
+
+  - id: KM14712-02
+    goal: KM14712
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: LO og NHO er to store organisasjoner i norsk arbeidsliv. Hvem
+        representerer de?
+      en: LO and NHO are two large organisations in Norwegian working life. Whom
+        do they represent?
+    choices:
+      - id: a
+        text:
+          nb: LO representerer arbeidstakere, NHO representerer arbeidsgivere
+          en: LO represents employees; NHO represents employers
+        correct: true
+      - id: b
+        text:
+          nb: LO representerer arbeidsgivere, NHO representerer arbeidstakere
+          en: LO represents employers; NHO represents employees
+      - id: c
+        text:
+          nb: Begge er avdelinger i Arbeids- og inkluderingsdepartementet
+          en: Both are departments of the Ministry of Labour
+      - id: d
+        text:
+          nb: Begge er politiske partier på Stortinget
+          en: Both are political parties in the Storting
+    explanation:
+      nb: LO er en hovedsammenslutning av fagforeninger, mens NHO organiserer
+        bedriftene. De forhandler mot hverandre om lønn og arbeidsvilkår i
+        tariffoppgjørene. Slike interesseorganisasjoner er eksempler på aktører
+        som har innflytelse uten å være valgt inn i noe politisk organ.
+      en: LO is a confederation of trade unions, while NHO organises companies.
+        They negotiate against each other over pay and conditions in the
+        collective bargaining rounds. Such interest organisations are examples
+        of actors with influence without being elected to any political body.
+    reviewed: false
+
+  # KM14715 — lover, regler og normer
+  - id: KM14715-01
+    goal: KM14715
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva er forskjellen på en lov og en norm?
+      en: What is the difference between a law and a norm?
+    choices:
+      - id: a
+        text:
+          nb: En lov er vedtatt av Stortinget og kan håndheves av politi og
+            domstoler, mens en norm er en uskreven forventning i et fellesskap
+          en: A law is passed by the Storting and can be enforced by police and
+            courts, while a norm is an unwritten expectation in a community
+        correct: true
+      - id: b
+        text:
+          nb: En norm er skriftlig, mens en lov er muntlig
+          en: A norm is written down, while a law is spoken
+      - id: c
+        text:
+          nb: Lover gjelder bare voksne, normer gjelder bare barn
+          en: Laws apply only to adults, norms only to children
+      - id: d
+        text:
+          nb: Det er to ord for det samme
+          en: They are two words for the same thing
+    explanation:
+      nb: Brudd på en lov kan gi straff. Brudd på en norm gir andre reaksjoner,
+        som at folk blir irriterte eller holder avstand. Mange normer er ikke
+        lovfestet, og hva som regnes som normalt kan variere mellom miljøer og
+        endre seg over tid.
+      en: Breaking a law can bring punishment. Breaking a norm brings other
+        reactions, such as irritation or being kept at a distance. Many norms
+        are not written into law, and what counts as normal can vary between
+        settings and change over time.
+    reviewed: false
+
+  - id: KM14715-02
+    goal: KM14715
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva er den kriminelle lavalderen i Norge?
+      en: What is the age of criminal responsibility in Norway?
+    choices:
+      - id: a
+        text:
+          nb: "13 år"
+          en: "13 years"
+      - id: b
+        text:
+          nb: "15 år"
+          en: "15 years"
+        correct: true
+      - id: c
+        text:
+          nb: "16 år"
+          en: "16 years"
+      - id: d
+        text:
+          nb: "18 år"
+          en: "18 years"
+    explanation:
+      nb: Man kan ikke straffes for en handling begått før fylte 15 år. Yngre
+        barn kan likevel møtes med andre tiltak, for eksempel gjennom
+        barnevernet, og erstatningsansvar kan komme uansett alder.
+      en: You cannot be punished for an act committed before the age of 15.
+        Younger children may still meet other measures, for instance through
+        child welfare services, and liability for damages can apply at any age.
+    reviewed: false
+
+  - id: KM14715-03
+    goal: KM14715
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: En straffesak i Norge starter vanligvis i tingretten. Hvilken domstol
+        er den øverste?
+      en: A criminal case in Norway usually starts in the district court. Which
+        court is the highest?
+    choices:
+      - id: a
+        text:
+          nb: Høyesterett
+          en: The Supreme Court
+        correct: true
+      - id: b
+        text:
+          nb: Lagmannsretten
+          en: The court of appeal
+      - id: c
+        text:
+          nb: Forliksrådet
+          en: The conciliation board
+      - id: d
+        text:
+          nb: Riksrevisjonen
+          en: The Office of the Auditor General
+    explanation:
+      nb: Rekkefølgen er tingrett, lagmannsrett og Høyesterett. At en dom kan
+        ankes oppover, er en viktig rettssikkerhetsgaranti. Riksrevisjonen er
+        ikke en domstol, men kontrollerer hvordan staten bruker penger.
+      en: The order is district court, court of appeal, Supreme Court. That a
+        judgment can be appealed upwards is an important safeguard. The Office
+        of the Auditor General is not a court, but checks how the state spends
+        money.
+    reviewed: false
+
+  # KM14716 — det politiske systemet og velferdssamfunnet
+  - id: KM14716-01
+    goal: KM14716
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvor mange representanter sitter på Stortinget?
+      en: How many representatives sit in the Storting?
+    choices:
+      - id: a
+        text:
+          nb: "99"
+          en: "99"
+      - id: b
+        text:
+          nb: "169"
+          en: "169"
+        correct: true
+      - id: c
+        text:
+          nb: "300"
+          en: "300"
+      - id: d
+        text:
+          nb: "435"
+          en: "435"
+    explanation:
+      nb: Stortinget har 169 representanter, valgt fra de 19 valgdistriktene.
+        Stortinget er den lovgivende makten og bestemmer også statsbudsjettet.
+      en: The Storting has 169 representatives, elected from the 19 electoral
+        districts. It is the legislative branch and also decides the national
+        budget.
+    reviewed: false
+
+  - id: KM14716-02
+    goal: KM14716
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Ved stortingsvalg i Norge finnes en sperregrense. Hva innebærer den?
+      en: Norwegian parliamentary elections have an electoral threshold. What
+        does it mean?
+    choices:
+      - id: a
+        text:
+          nb: Et parti må ha minst 4 prosent av stemmene på landsbasis for å være
+            med i fordelingen av utjevningsmandatene
+          en: A party must get at least 4 per cent of the national vote to take
+            part in the distribution of levelling seats
+        correct: true
+      - id: b
+        text:
+          nb: Et parti må ha minst 4 prosent for å få lov til å stille til valg
+          en: A party must have at least 4 per cent to be allowed to stand at all
+      - id: c
+        text:
+          nb: Minst 4 prosent av velgerne må stemme for at valget skal være
+            gyldig
+          en: At least 4 per cent of voters must vote for the election to be
+            valid
+      - id: d
+        text:
+          nb: Et parti kan ikke få mer enn 4 prosent av mandatene
+          en: A party cannot receive more than 4 per cent of the seats
+    explanation:
+      nb: Sperregrensen på 4 prosent gjelder utjevningsmandatene. Et lite parti
+        kan fortsatt vinne et distriktsmandat uten å nå grensen, men går glipp
+        av utjevningsmandatene som skal gjøre fordelingen mer forholdsmessig.
+      en: The 4 per cent threshold applies to the levelling seats. A small party
+        can still win a district seat without reaching it, but misses out on the
+        levelling seats meant to make the distribution more proportional.
+    reviewed: false
+
+  - id: KM14716-03
+    goal: KM14716
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Velferdsordninger som sykehus, skole, barnetrygd og pensjon koster
+        penger. Hvordan finansieres de i hovedsak i Norge?
+      en: Welfare services such as hospitals, schools, child benefit and pensions
+        cost money. How are they mainly funded in Norway?
+    choices:
+      - id: a
+        text:
+          nb: Gjennom skatter og avgifter som innbyggere og bedrifter betaler
+          en: Through taxes and duties paid by inhabitants and businesses
+        correct: true
+      - id: b
+        text:
+          nb: Gjennom gaver fra private givere
+          en: Through gifts from private donors
+      - id: c
+        text:
+          nb: Gjennom medlemskontingent i politiske partier
+          en: Through membership fees in political parties
+      - id: d
+        text:
+          nb: Gjennom lån fra andre land
+          en: Through loans from other countries
+    explanation:
+      nb: Velferdsstaten bygger på at fellesskapet betaler skatt, og at pengene
+        brukes på tjenester alle kan bruke. I tillegg får Norge inntekter fra
+        oljevirksomheten, der en del settes av i Statens pensjonsfond utland.
+      en: The welfare state rests on the community paying tax, with the money
+        spent on services everyone can use. Norway also has income from
+        petroleum, part of which is set aside in the Government Pension Fund
+        Global.
+    reviewed: false
+
+# Goals where no written question can honestly stand in for the goal. Recorded
+# rather than omitted, so each gap is a stated judgement instead of a silence.
+not_assessable:
+  - goal: KM14698
+    reason: >-
+      The goal is entirely about work the pupil carries out — using
+      social-science methods and digital resources in their own investigation,
+      presenting the findings with digital tools, and discussing how valid and
+      relevant those findings are. There are no findings to discuss unless the
+      pupil made them, so any question here would test a definition instead of
+      the goal.
+
+  - goal: KM14700
+    reason: >-
+      Asks the pupil to discuss how portrayals of the past, of events and of
+      groups have shaped, and still shape, people's attitudes and actions. The
+      substance is the pupil's own argument about contested representations. A
+      multiple-choice item would either be a vocabulary question in disguise or,
+      worse, declare one reading of a disputed historical portrayal correct.
+
+  - goal: KM14707
+    reason: >-
+      Asks the pupil to reflect on similarities and differences in identities,
+      ways of living and cultural expression, and to discuss the opportunities
+      and challenges of diversity. Both halves are open questions where
+      reasonable people disagree. Marking one answer correct would amount to
+      asking a pupil to endorse a position on how they and their classmates
+      should live, which a quiz must not do.
+
+  - goal: KM14711
+    reason: >-
+      Asks the pupil to reflect on how their own identity, self-image and
+      personal boundaries develop and are challenged, and to propose ways of
+      handling pressure and unwanted incidents. This is about the pupil's own
+      inner life; there is no correct answer, and putting a child's sense of
+      self or their experience of boundary-crossing into a graded question would
+      be intrusive as well as invalid.
+
+  - goal: KM14713
+    reason: >-
+      Asks the pupil to explore platforms for digital interaction and reflect on
+      how digital participation shapes the form and content of public debate.
+      The exploring is an activity, and the reflection is an open judgement
+      about a phenomenon still being argued over. The one clearly factual corner
+      of it, how algorithmic curation narrows what we see, is covered by items
+      under KM14701 rather than duplicated here.

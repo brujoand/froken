@@ -1,0 +1,531 @@
+# Norsk, kompetansemål etter 4. trinn (NOR01-08 / KV1108).
+#
+# Written for 8-9-year-olds in 3.-4. klasse: one short sentence per prompt,
+# concrete words, no subordinate clauses. Where a text is quoted for the pupil
+# to read, it is kept to two short lines.
+#
+# Norsk is a subject where much of the curriculum is doing rather than knowing.
+# Grammar, punctuation, reading comprehension and vocabulary are tested here;
+# writing, presenting, discussing and exploring are recorded in not_assessable
+# instead of being faked with adjacent questions.
+#
+# Where a goal touches hovedmål and sidemål, the questions ask the pupil to
+# recognise a form, never to produce one, since the pupil may have either
+# bokmål or nynorsk as their hovedmål.
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+---
+subject: NOR01-08
+goal_set: KV1108
+
+items:
+  # --- Lese med flyt og forståelse, og bruke lesestrategier ---------------
+  - id: KM14164-01
+    goal: KM14164
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: >-
+        Les: "Ida fant et pinnsvin i hagen. Det lå under en busk, og Ida lot det
+        være i fred." Hvor lå pinnsvinet?
+      en: >-
+        Read: "Ida found a hedgehog in the garden. It was lying under a bush, and
+        Ida left it alone." Where was the hedgehog lying?
+    choices:
+      - id: a
+        text:
+          nb: Under en busk
+          en: Under a bush
+        correct: true
+      - id: b
+        text:
+          nb: I et tre
+          en: In a tree
+      - id: c
+        text:
+          nb: På trappa
+          en: On the steps
+    explanation:
+      nb: >-
+        Svaret står rett i teksten. Når du leser for å finne noe, kan du lete
+        etter ordene i spørsmålet inne i teksten.
+      en: >-
+        The answer is stated in the text. When you read to find something, look
+        for the words from the question inside the text.
+    reviewed: false
+
+  - id: KM14164-02
+    goal: KM14164
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Les: "Jonas tok på seg støvler og regnjakke før han gikk ut." Hvordan var
+        været?
+      en: >-
+        Read: "Jonas put on boots and a raincoat before he went out." What was
+        the weather like?
+    choices:
+      - id: a
+        text:
+          nb: Det regnet
+          en: It was raining
+        correct: true
+      - id: b
+        text:
+          nb: Det var sol og varmt
+          en: It was sunny and warm
+      - id: c
+        text:
+          nb: Det snødde
+          en: It was snowing
+    explanation:
+      nb: >-
+        Teksten sier ikke at det regner, men støvler og regnjakke forteller det.
+        Å tenke seg til noe teksten ikke sier rett ut, kalles å lese mellom
+        linjene.
+      en: >-
+        The text never says it is raining, but boots and a raincoat tell you.
+        Working out something the text does not say outright is called reading
+        between the lines.
+    reviewed: false
+
+  - id: KM14164-03
+    goal: KM14164
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        Du skal finne ut hva en tykk faktabok sier om ulv. Hva lønner det seg å
+        gjøre først?
+      en: >-
+        You want to find out what a thick non-fiction book says about wolves.
+        What is the best thing to do first?
+    choices:
+      - id: a
+        text:
+          nb: Se i innholdsfortegnelsen
+          en: Look in the table of contents
+        correct: true
+      - id: b
+        text:
+          nb: Lese hele boka fra første side
+          en: Read the whole book from page one
+      - id: c
+        text:
+          nb: Begynne på siste side
+          en: Start at the last page
+    explanation:
+      nb: >-
+        Innholdsfortegnelsen viser hvilken side hvert kapittel starter på. Da
+        finner du ulven uten å lese alt annet.
+      en: >-
+        The table of contents shows which page each chapter starts on, so you can
+        find the wolves without reading everything else.
+    reviewed: false
+
+  # --- Fakta og meninger i tekster ----------------------------------------
+  - id: KM14163-01
+    goal: KM14163
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvilken setning er en mening?
+      en: Which sentence is an opinion?
+    choices:
+      - id: a
+        text:
+          nb: Katter er de fineste dyrene som finnes
+          en: Cats are the finest animals there are
+        correct: true
+      - id: b
+        text:
+          nb: Katter har fire bein
+          en: Cats have four legs
+      - id: c
+        text:
+          nb: Katter kan klatre i trær
+          en: Cats can climb trees
+    explanation:
+      nb: >-
+        En mening er noe én person synes, og andre kan synes noe annet. At katter
+        har fire bein kan alle sjekke, så det er et faktum.
+      en: >-
+        An opinion is what one person thinks, and someone else may think
+        differently. That cats have four legs can be checked by anyone, so it is
+        a fact.
+    reviewed: false
+
+  - id: KM14163-02
+    goal: KM14163
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: >-
+        I en tekst står det: "Jeg synes vinteren er den beste årstiden." Hva er
+        dette?
+      en: >-
+        A text says: "I think winter is the best season." What is this?
+    choices:
+      - id: a
+        text:
+          nb: En mening
+          en: An opinion
+        correct: true
+      - id: b
+        text:
+          nb: Et faktum
+          en: A fact
+      - id: c
+        text:
+          nb: En regel
+          en: A rule
+    explanation:
+      nb: >-
+        Ordet "synes" røper at noen forteller hva de mener. Ord som "synes",
+        "tror" og "best" er ofte tegn på en mening.
+      en: >-
+        The word "synes" (think) shows that someone is stating what they believe.
+        Words like "think", "believe" and "best" often signal an opinion.
+    reviewed: false
+
+  # --- Komma og andre skilletegn ------------------------------------------
+  - id: KM14157-01
+    goal: KM14157
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilken setning har komma på riktig plass?
+      en: Which sentence has the commas in the right places?
+    choices:
+      - id: a
+        text:
+          nb: Jeg kjøpte epler, bananer og pærer.
+          en: I bought apples, bananas and pears.
+        correct: true
+      - id: b
+        text:
+          nb: Jeg kjøpte epler bananer, og pærer.
+          en: I bought apples bananas, and pears.
+      - id: c
+        text:
+          nb: Jeg, kjøpte epler bananer og pærer.
+          en: I, bought apples bananas and pears.
+    explanation:
+      nb: >-
+        Når vi ramser opp flere ting, setter vi komma mellom dem. Foran det siste
+        "og" trenger vi ikke komma.
+      en: >-
+        When we list several things, we put a comma between them. No comma is
+        needed before the final "and".
+    reviewed: false
+
+  - id: KM14157-02
+    goal: KM14157
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: 'Hvilket skilletegn skal stå til slutt? "Hvor er sekken min"'
+      en: 'Which punctuation mark belongs at the end? "Where is my backpack"'
+    choices:
+      - id: a
+        text:
+          nb: Spørsmålstegn
+          en: Question mark
+        correct: true
+      - id: b
+        text:
+          nb: Punktum
+          en: Full stop
+      - id: c
+        text:
+          nb: Komma
+          en: Comma
+    explanation:
+      nb: >-
+        Setningen spør om noe, og da bruker vi spørsmålstegn. Punktum bruker vi
+        når setningen bare forteller.
+      en: >-
+        The sentence asks something, so it takes a question mark. A full stop is
+        for a sentence that simply tells you something.
+    reviewed: false
+
+  # --- Fagspråk om setninger og bøying ------------------------------------
+  - id: KM14159-01
+    goal: KM14159
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: 'Hvilket ord er verbet i denne setningen? "Gutten løper fort."'
+      en: 'Which word is the verb in this sentence? "Gutten løper fort."'
+    choices:
+      - id: a
+        text:
+          nb: løper
+          en: løper (runs)
+        correct: true
+      - id: b
+        text:
+          nb: gutten
+          en: gutten (the boy)
+      - id: c
+        text:
+          nb: fort
+          en: fort (fast)
+    explanation:
+      nb: >-
+        Verbet forteller hva noen gjør. Gutten er et substantiv, og fort forteller
+        hvordan han løper.
+      en: >-
+        The verb says what someone does. "Gutten" is a noun, and "fort" says how
+        he runs.
+    reviewed: false
+
+  - id: KM14159-02
+    goal: KM14159
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: 'Hvilket ord er et adjektiv? "Vi så en stor hund."'
+      en: 'Which word is an adjective? "Vi så en stor hund."'
+    choices:
+      - id: a
+        text:
+          nb: stor
+          en: stor (big)
+        correct: true
+      - id: b
+        text:
+          nb: hund
+          en: hund (dog)
+      - id: c
+        text:
+          nb: så
+          en: så (saw)
+    explanation:
+      nb: >-
+        Et adjektiv forteller hvordan noe er. Hunden er stor, så stor er
+        adjektivet. Hund er et substantiv, og så er et verb.
+      en: >-
+        An adjective says what something is like. The dog is big, so "stor" is
+        the adjective. "Hund" is a noun and "så" is a verb.
+    reviewed: false
+
+  - id: KM14159-03
+    goal: KM14159
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: 'Hvilket ord passer i setningen? "I går ___ vi fotball."'
+      en: 'Which word fits the sentence? "I går ___ vi fotball." (Yesterday we
+        ___ football.)'
+    choices:
+      - id: a
+        text:
+          nb: spilte
+          en: spilte (played)
+        correct: true
+      - id: b
+        text:
+          nb: spiller
+          en: spiller (play)
+      - id: c
+        text:
+          nb: spille
+          en: spille (to play)
+    explanation:
+      nb: >-
+        "I går" forteller at det skjedde før. Da bøyer vi verbet i fortid, og
+        spille blir spilte.
+      en: >-
+        "I går" (yesterday) tells you it already happened, so the verb goes into
+        the past tense: "spille" becomes "spilte".
+    reviewed: false
+
+  # --- Ord og uttrykk i norsk og andre språk ------------------------------
+  - id: KM14168-01
+    goal: KM14168
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Det engelske ordet "house" betyr det samme som hvilket norsk ord?
+      en: The English word "house" means the same as which Norwegian word?
+    choices:
+      - id: a
+        text:
+          nb: hus
+          en: hus
+        correct: true
+      - id: b
+        text:
+          nb: hest
+          en: hest (horse)
+      - id: c
+        text:
+          nb: hage
+          en: hage (garden)
+    explanation:
+      nb: >-
+        Hus og house betyr det samme og ligner på hverandre. Mange norske og
+        engelske ord er i slekt fordi språkene har felles opphav.
+      en: >-
+        "Hus" and "house" mean the same and look alike. Many Norwegian and
+        English words are related because the languages share an origin.
+    reviewed: false
+
+  - id: KM14168-02
+    goal: KM14168
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilket norsk ord ligner mest på det engelske ordet "winter"?
+      en: Which Norwegian word is most like the English word "winter"?
+    choices:
+      - id: a
+        text:
+          nb: vinter
+          en: vinter
+        correct: true
+      - id: b
+        text:
+          nb: vind
+          en: vind (wind)
+      - id: c
+        text:
+          nb: vinne
+          en: vinne (to win)
+    explanation:
+      nb: >-
+        Vinter og winter skrives nesten likt og betyr det samme. Vind og vinne
+        begynner likt, men betyr noe helt annet.
+      en: >-
+        "Vinter" and "winter" are spelled almost the same and mean the same.
+        "Vind" and "vinne" start alike but mean something quite different.
+    reviewed: false
+
+  # --- Hovedmål og sidemål: kjenne igjen formene --------------------------
+  - id: KM14161-01
+    goal: KM14161
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilken setning er skrevet på nynorsk?
+      en: Which sentence is written in nynorsk?
+    choices:
+      - id: a
+        text:
+          nb: Eg er glad i å lese bøker.
+          en: Eg er glad i å lese bøker.
+        correct: true
+      - id: b
+        text:
+          nb: Jeg er glad i å lese bøker.
+          en: Jeg er glad i å lese bøker.
+      - id: c
+        text:
+          nb: Vi spiller fotball etter skolen.
+          en: Vi spiller fotball etter skolen.
+    explanation:
+      nb: >-
+        På nynorsk heter det "eg", på bokmål "jeg". De to skriftspråkene ligner
+        mye, men noen småord er forskjellige.
+      en: >-
+        Nynorsk uses "eg" where bokmål uses "jeg". The two written forms are very
+        similar, but some small words differ.
+    reviewed: false
+
+  - id: KM14161-02
+    goal: KM14161
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Ordet "ikke" på bokmål skrives hvordan på nynorsk?
+      en: The bokmål word "ikke" (not) is written how in nynorsk?
+    choices:
+      - id: a
+        text:
+          nb: ikkje
+          en: ikkje
+        correct: true
+      - id: b
+        text:
+          nb: ingen
+          en: ingen (nobody)
+      - id: c
+        text:
+          nb: inte
+          en: inte (Swedish for "not")
+    explanation:
+      nb: >-
+        Bokmål "ikke" blir "ikkje" på nynorsk. "Inte" er svensk, og "ingen"
+        betyr noe annet i begge målformene.
+      en: >-
+        Bokmål "ikke" becomes "ikkje" in nynorsk. "Inte" is Swedish, and "ingen"
+        means something else in both written forms.
+    reviewed: false
+
+# Goals that no written question can honestly test. Recorded rather than
+# omitted, so the gap is a stated judgement instead of a silent one.
+not_assessable:
+  - goal: KM14153
+    reason: >-
+      The knowing part of this goal is reading and listening to a wide range of
+      texts; the rest asks the pupil to talk about what those texts mean to them
+      personally. A pupil's own response to a story has no correct answer, and
+      the reading itself is already covered by the comprehension items under
+      KM14164.
+
+  - goal: KM14166
+    reason: >-
+      Asks the pupil to choose library books based on their own interests and
+      reading level. The choice is personal and happens in a library; a quiz can
+      only ask about libraries in general, which is a different thing.
+
+  - goal: KM14158
+    reason: >-
+      Asks the pupil to explore and convey texts through conversation, writing,
+      play, movement and other creative expression. These are things a pupil does
+      in a classroom over time, and none of them leaves an answer a question can
+      mark.
+
+  - goal: KM14154
+    reason: >-
+      Asks the pupil to give oral presentations, with and without digital
+      resources. Speaking in front of others can only be observed, not answered.
+
+  - goal: KM14155
+    reason: >-
+      Asks the pupil to combine different forms of expression in composite texts.
+      This is a making task; a question could at best ask about someone else's
+      composite text, which would not check whether the pupil can build one.
+
+  - goal: KM14167
+    reason: >-
+      Asks the pupil to follow up on others' contributions in subject
+      conversations and ask clarifying questions. It describes behaviour in a
+      live discussion, which no written item can stand in for.
+
+  - goal: KM14162
+    reason: >-
+      Asks the pupil to describe, narrate and argue orally and in writing, and to
+      use language creatively. Producing text is the goal; a multiple-choice
+      question would only test recognising someone else's writing.
+
+  - goal: KM14156
+    reason: >-
+      Asks the pupil to write with functional handwriting and on a keyboard. This
+      is a motor and production skill, and the quiz has no way to see a pupil's
+      handwriting or typing.
+
+  - goal: KM14160
+    reason: >-
+      Asks the pupil to reflect on how our use of language affects others and how
+      we adapt it to different situations. Reflection is the goal, and the honest
+      answers are personal rather than right or wrong.
+
+  - goal: KM14165
+    reason: >-
+      Asks the pupil to explore and talk about linguistic variety in their own
+      local community. The content depends entirely on where the pupil lives, so
+      no shared question could have one correct answer.

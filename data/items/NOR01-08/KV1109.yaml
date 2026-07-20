@@ -1,0 +1,621 @@
+# Norsk, kompetansemål etter 7. trinn (NOR01-08 / KV1109).
+#
+# Written for pupils in 5.-7. klasse. A pupil at this level may have either
+# bokmål or nynorsk as hovedmål, so nothing here assumes one of them is the
+# pupil's own; where a form differs between målformene, the item is built on a
+# rule that holds in both.
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+---
+subject: NOR01-08
+goal_set: KV1109
+
+items:
+  # Lesing av ulike teksttyper, og av nabospråk.
+  - id: KM14176-01
+    goal: KM14176
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: En tekst er satt opp i korte linjer og vers, og flere av linjene rimer.
+        Hvilken teksttype er dette?
+      en: A text is set out in short lines and verses, and several of the lines
+        rhyme. What kind of text is this?
+    choices:
+      - id: a
+        text:
+          nb: Et dikt
+          en: A poem
+        correct: true
+      - id: b
+        text:
+          nb: En fagtekst
+          en: A factual text
+      - id: c
+        text:
+          nb: Et intervju
+          en: An interview
+    explanation:
+      nb: Dikt er satt opp i linjer og vers, og bruker ofte rim og rytme.
+        Fagtekster og intervjuer skrives i vanlige avsnitt.
+      en: Poems are laid out in lines and verses and often use rhyme and rhythm.
+        Factual texts and interviews are written in ordinary paragraphs.
+    reviewed: false
+
+  - id: KM14176-02
+    goal: KM14176
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: "I en svensk tekst står det: «Det var en rolig film.» Hva betyr det
+        svenske ordet «rolig»?"
+      en: "A Swedish text says: «Det var en rolig film.» What does the Swedish
+        word «rolig» mean?"
+    choices:
+      - id: a
+        text:
+          nb: Morsom
+          en: Funny
+        correct: true
+      - id: b
+        text:
+          nb: Stille
+          en: Quiet
+      - id: c
+        text:
+          nb: Lang
+          en: Long
+    explanation:
+      nb: "«Rolig» ser likt ut på svensk og norsk, men betyr ikke det samme: på
+        svensk betyr det morsom. Slike ord kalles lureord, og de er verdt å
+        stoppe ved når vi leser svensk og dansk."
+      en: "«Rolig» looks the same in Swedish and Norwegian but does not mean the
+        same thing: in Swedish it means funny. Words like these are false
+        friends, and worth pausing at when reading Swedish or Danish."
+    reviewed: false
+
+  - id: KM14176-03
+    goal: KM14176
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: En tekst i naturfagboka forklarer hvordan regn blir til. Hva er
+        hovedformålet med teksten?
+      en: A text in the science book explains how rain is formed. What is the
+        main purpose of the text?
+    choices:
+      - id: a
+        text:
+          nb: Å gi leseren kunnskap om noe som er sant
+          en: To give the reader knowledge about something true
+        correct: true
+      - id: b
+        text:
+          nb: Å underholde med en oppdiktet historie
+          en: To entertain with a made-up story
+      - id: c
+        text:
+          nb: Å få leseren til å kjøpe noe
+          en: To get the reader to buy something
+    explanation:
+      nb: Dette er en fagtekst. Formålet er å forklare og informere, ikke å
+        dikte eller reklamere.
+      en: This is a factual text. Its purpose is to explain and inform, not to
+        invent a story or advertise.
+    reviewed: false
+
+  # Samiske tekster, stedsnavn og bokstaver.
+  - id: KM14184-01
+    goal: KM14184
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Flere samiske navn skrives med bokstaven š, for eksempel Áillohaš.
+        Hvordan uttales š?
+      en: Several Sami names are written with the letter š, for example
+        Áillohaš. How is š pronounced?
+    choices:
+      - id: a
+        text:
+          nb: Som «sj» i «sjø»
+          en: Like the «sh» sound in «shoe»
+        correct: true
+      - id: b
+        text:
+          nb: Som «k» i «kort»
+          en: Like the «k» in «kite»
+      - id: c
+        text:
+          nb: Som «v» i «vann»
+          en: Like the «v» in «van»
+    explanation:
+      nb: Samisk bruker egne bokstaver som ikke finnes i det norske alfabetet.
+        š uttales som sj-lyden i «sjø».
+      en: Sami uses letters that are not part of the Norwegian alphabet. š is
+        pronounced like the sh sound in «sjø» (shoe).
+    reviewed: false
+
+  - id: KM14184-02
+    goal: KM14184
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Mange steder i Norge har både et samisk og et norsk navn.
+        Guovdageaidnu er det samiske navnet på hvilken kommune?
+      en: Many places in Norway have both a Sami and a Norwegian name.
+        Guovdageaidnu is the Sami name of which municipality?
+    choices:
+      - id: a
+        text:
+          nb: Kautokeino
+          en: Kautokeino
+        correct: true
+      - id: b
+        text:
+          nb: Karasjok
+          en: Karasjok
+      - id: c
+        text:
+          nb: Alta
+          en: Alta
+    explanation:
+      nb: Guovdageaidnu er Kautokeino. Karasjok heter Kárášjohka på samisk.
+        Begge navnene er offisielle.
+      en: Guovdageaidnu is Kautokeino. Karasjok is Kárášjohka in Sami. Both
+        names are official.
+    reviewed: false
+
+  # Kilder og kildekritikk.
+  - id: KM14173-01
+    goal: KM14173
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Du skal finne ut hvor høyt Galdhøpiggen er. Hvilken kilde er mest
+        pålitelig?
+      en: You need to find out how tall Galdhøpiggen is. Which source is the
+        most reliable?
+    choices:
+      - id: a
+        text:
+          nb: Et oppslagsverk fra biblioteket
+          en: A reference book from the library
+        correct: true
+      - id: b
+        text:
+          nb: En kommentar fra en ukjent bruker i et kommentarfelt
+          en: A comment from an unknown user in a comment section
+      - id: c
+        text:
+          nb: Noe en i klassen mener å huske
+          en: Something a classmate thinks they remember
+    explanation:
+      nb: Et oppslagsverk er skrevet av fagfolk og kontrollert før det ble
+        utgitt. Kommentarer og løse minner er ikke kontrollert av noen.
+      en: A reference book is written by experts and checked before publication.
+        Comments and vague memories have not been checked by anyone.
+    reviewed: false
+
+  - id: KM14173-02
+    goal: KM14173
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Du bruker opplysninger fra en nettside i din egen tekst. Hva kaller vi
+        det når du skriver i teksten hvor opplysningene kommer fra?
+      en: You use information from a website in your own text. What do we call
+        it when you state in the text where the information came from?
+    choices:
+      - id: a
+        text:
+          nb: En kildehenvisning
+          en: A source reference
+        correct: true
+      - id: b
+        text:
+          nb: En innholdsfortegnelse
+          en: A table of contents
+      - id: c
+        text:
+          nb: En overskrift
+          en: A heading
+    explanation:
+      nb: En kildehenvisning viser hvor du har opplysningene fra. Da kan leseren
+        selv sjekke kilden, og du tar ikke æren for andres arbeid.
+      en: A source reference shows where you got the information. The reader can
+        then check it, and you are not taking credit for someone else's work.
+    reviewed: false
+
+  # Lesestrategier.
+  - id: KM14185-01
+    goal: KM14185
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Du skal finne ut når biblioteket åpner, på en nettside med mye tekst.
+        Hvilken lesemåte passer best?
+      en: You need to find out when the library opens, on a web page with a lot
+        of text. Which way of reading fits best?
+    choices:
+      - id: a
+        text:
+          nb: Skumme raskt over siden og lete etter åpningstidene
+          en: Skim the page quickly and look for the opening hours
+        correct: true
+      - id: b
+        text:
+          nb: Lese hele siden nøye fra første til siste ord
+          en: Read the whole page carefully from the first word to the last
+      - id: c
+        text:
+          nb: Lese siste avsnitt høyt to ganger
+          en: Read the last paragraph aloud twice
+    explanation:
+      nb: Når du bare skal finne én opplysning, lønner det seg å skumlese og
+        lete etter nøkkelord. Nærlesing sparer du til tekster du skal forstå
+        i dybden.
+      en: When you only need one piece of information, skimming for key words is
+        the efficient choice. Close reading is for texts you need to understand
+        in depth.
+    reviewed: false
+
+  - id: KM14185-02
+    goal: KM14185
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Du skal lese et kapittel i samfunnsfagboka og huske innholdet til en
+        prøve. Hva er lurt å gjøre mens du leser?
+      en: You are going to read a chapter in the social studies book and
+        remember it for a test. What is a good thing to do while reading?
+    choices:
+      - id: a
+        text:
+          nb: Stoppe underveis og notere det viktigste med egne ord
+          en: Stop along the way and note the main points in your own words
+        correct: true
+      - id: b
+        text:
+          nb: Lese så fort som mulig uten å stoppe
+          en: Read as fast as possible without stopping
+      - id: c
+        text:
+          nb: Hoppe over overskriftene
+          en: Skip the headings
+    explanation:
+      nb: Å stoppe opp og skrive med egne ord gjør at du må forstå stoffet, ikke
+        bare se på det. Overskriftene er dessuten en gratis oversikt over
+        kapitlet.
+      en: Stopping to write in your own words forces you to understand the
+        material rather than just look at it. Headings also give you a free
+        overview of the chapter.
+    reviewed: false
+
+  # Rettskriving, ordbøying og tegnsetting.
+  - id: KM14172-01
+    goal: KM14172
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: I hvilken setning står kommaet riktig?
+      en: In which sentence is the comma in the right place?
+    choices:
+      - id: a
+        text:
+          nb: "Jeg ville bli med, men jeg måtte hjem."
+          en: "Jeg ville bli med, men jeg måtte hjem."
+        correct: true
+      - id: b
+        text:
+          nb: "Jeg ville bli med men, jeg måtte hjem."
+          en: "Jeg ville bli med men, jeg måtte hjem."
+      - id: c
+        text:
+          nb: "Jeg ville, bli med men jeg måtte hjem."
+          en: "Jeg ville, bli med men jeg måtte hjem."
+    explanation:
+      nb: Når to hele setninger bindes sammen med «men», settes kommaet foran
+        bindeordet. Regelen er den samme på bokmål og nynorsk.
+      en: When two full clauses are joined by «men» (but), the comma goes before
+        the connecting word. The rule is the same in bokmål and nynorsk.
+    reviewed: false
+
+  - id: KM14172-02
+    goal: KM14172
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: "Ett hus, mange ___. Hvilket ord er riktig i ubestemt flertall?"
+      en: "One house, many ___. Which word is correct in the indefinite plural?"
+    choices:
+      - id: a
+        text:
+          nb: hus
+          en: hus
+        correct: true
+      - id: b
+        text:
+          nb: huser
+          en: huser
+      - id: c
+        text:
+          nb: husene
+          en: husene
+    explanation:
+      nb: Korte intetkjønnsord får ingen ending i ubestemt flertall. Det heter
+        ett hus, mange hus. «Husene» er bestemt flertall.
+      en: Short neuter nouns take no ending in the indefinite plural, so it is
+        «ett hus, mange hus». «Husene» is the definite plural.
+    reviewed: false
+
+  - id: KM14172-03
+    goal: KM14172
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilket ord er stavet riktig?
+      en: Which word is spelled correctly?
+    choices:
+      - id: a
+        text:
+          nb: kjøkken
+          en: kjøkken
+        correct: true
+      - id: b
+        text:
+          nb: sjøkken
+          en: sjøkken
+      - id: c
+        text:
+          nb: kjøken
+          en: kjøken
+    explanation:
+      nb: Ordet skrives kjøkken, med kj og med dobbel k. Mange uttaler kj- og
+        sj-lyden likt, men i skrift må vi holde dem fra hverandre.
+      en: The word is spelled kjøkken, with kj and a double k. Many speakers
+        pronounce kj and sj alike, but in writing they must be kept apart.
+    reviewed: false
+
+  # Ordklasser og setningsoppbygning.
+  - id: KM14177-01
+    goal: KM14177
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: "Hvilket ord er verbet i setningen: «Lisa sykler til skolen»?"
+      en: "Which word is the verb in the sentence: «Lisa sykler til skolen»
+        (Lisa cycles to school)?"
+    choices:
+      - id: a
+        text:
+          nb: Lisa
+          en: Lisa
+      - id: b
+        text:
+          nb: sykler
+          en: sykler
+        correct: true
+      - id: c
+        text:
+          nb: skolen
+          en: skolen
+    explanation:
+      nb: Verbet forteller hva som skjer. Her er det «sykler». «Lisa» og
+        «skolen» er substantiv.
+      en: The verb tells you what is happening; here that is «sykler» (cycles).
+        «Lisa» and «skolen» are nouns.
+    reviewed: false
+
+  - id: KM14177-02
+    goal: KM14177
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilken ordklasse hører ordet «gul» til?
+      en: Which word class does the word «gul» (yellow) belong to?
+    choices:
+      - id: a
+        text:
+          nb: Adjektiv
+          en: Adjective
+        correct: true
+      - id: b
+        text:
+          nb: Substantiv
+          en: Noun
+      - id: c
+        text:
+          nb: Verb
+          en: Verb
+    explanation:
+      nb: Adjektiv beskriver hvordan noe er. «Gul» sier noe om en egenskap,
+        for eksempel en gul jakke.
+      en: Adjectives describe what something is like. «Gul» names a property,
+        as in a yellow jacket.
+    reviewed: false
+
+  - id: KM14177-03
+    goal: KM14177
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: "Hva er subjektet i setningen: «Den store hunden sov på matta»?"
+      en: "What is the subject in the sentence: «Den store hunden sov på matta»
+        (The big dog slept on the mat)?"
+    choices:
+      - id: a
+        text:
+          nb: Den store hunden
+          en: Den store hunden
+        correct: true
+      - id: b
+        text:
+          nb: sov
+          en: sov
+      - id: c
+        text:
+          nb: på matta
+          en: på matta
+    explanation:
+      nb: Subjektet er den som gjør noe i setningen. Spør «hvem sov?» — svaret
+        er den store hunden. «Sov» er verbet.
+      en: The subject is the one doing something. Ask «who slept?» and the
+        answer is the big dog. «Sov» is the verb.
+    reviewed: false
+
+  # Talespråk, dialekter og nabospråk.
+  - id: KM14178-01
+    goal: KM14178
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvilke to språk kaller vi nabospråkene våre?
+      en: Which two languages do we call our neighbouring languages?
+    choices:
+      - id: a
+        text:
+          nb: Svensk og dansk
+          en: Swedish and Danish
+        correct: true
+      - id: b
+        text:
+          nb: Tysk og engelsk
+          en: German and English
+      - id: c
+        text:
+          nb: Finsk og islandsk
+          en: Finnish and Icelandic
+    explanation:
+      nb: Norsk, svensk og dansk ligner så mye på hverandre at vi ofte forstår
+        hverandre uten å bytte språk. Derfor kalles svensk og dansk
+        nabospråkene våre.
+      en: Norwegian, Swedish and Danish resemble each other closely enough that
+        we often understand each other without switching languages. That is why
+        Swedish and Danish are called our neighbouring languages.
+    reviewed: false
+
+  - id: KM14178-02
+    goal: KM14178
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Noen steder i Norge sier folk «eg» og «ikkje», andre steder «jeg» og
+        «ikke». Hva er dette et eksempel på?
+      en: In some parts of Norway people say «eg» and «ikkje», in other parts
+        «jeg» and «ikke». What is this an example of?
+    choices:
+      - id: a
+        text:
+          nb: At talemålet er ulikt fra sted til sted i Norge
+          en: That spoken language differs from place to place in Norway
+        correct: true
+      - id: b
+        text:
+          nb: At ordene betyr forskjellige ting
+          en: That the words mean different things
+      - id: c
+        text:
+          nb: At den ene teksten er skrevet på dansk
+          en: That one of the texts is written in Danish
+    explanation:
+      nb: Dette er dialektforskjeller. Ordene betyr det samme, men uttales og
+        sies ulikt der folk bor. Alle dialekter er like riktige.
+      en: These are dialect differences. The words mean the same thing but are
+        said differently depending on where people live. All dialects are
+        equally correct.
+    reviewed: false
+
+  # Samspill mellom skrift og bilde.
+  - id: KM14183-01
+    goal: KM14183
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: I en avisartikkel står det en kort tekst rett under bildet som
+        forteller hva bildet viser. Hva kalles denne teksten?
+      en: In a newspaper article there is a short text right below the picture
+        saying what the picture shows. What is this text called?
+    choices:
+      - id: a
+        text:
+          nb: Bildetekst
+          en: Caption
+        correct: true
+      - id: b
+        text:
+          nb: Overskrift
+          en: Headline
+      - id: c
+        text:
+          nb: Innholdsfortegnelse
+          en: Table of contents
+    explanation:
+      nb: Bildeteksten knytter bildet til artikkelen og forklarer hva vi ser.
+        Uten den må leseren gjette hva bildet har med saken å gjøre.
+      en: The caption ties the picture to the article and explains what we are
+        looking at. Without it, the reader has to guess how the picture relates
+        to the story.
+    reviewed: false
+
+# Goals that no written question can honestly test. Recorded rather than
+# omitted, so the gap is a stated judgement instead of a silent one.
+not_assessable:
+  - goal: KM14169
+    reason: >-
+      Asks the pupil to listen, build on what others contribute and justify
+      their own standpoints in conversation. Whether a pupil actually takes up
+      someone else's point is only visible in a live conversation; a written
+      question could at best ask what one ought to do, which is not the goal.
+
+  - goal: KM14170
+    reason: >-
+      Asks the pupil to present academic topics orally, with and without
+      digital resources. Presenting is a performance, and no quiz question can
+      observe it.
+
+  - goal: KM14171
+    reason: >-
+      Asks the pupil to play with language and try out different devices and
+      ways of expressing things in their own spoken and written texts. Trying
+      out is production; a question could only ask the pupil to recognise a
+      device someone else used, which is a different skill.
+
+  - goal: KM14174
+    reason: >-
+      Asks the pupil to give feedback on classmates' texts against criteria and
+      to use feedback when revising their own. Both halves are things the pupil
+      does over time with real texts, and neither survives being turned into a
+      single question.
+
+  - goal: KM14175
+    reason: >-
+      Asks the pupil to try out writing texts in sidemål. It is a writing goal,
+      and which målform counts as sidemål differs from pupil to pupil, so even
+      a proxy question would test the wrong thing for half the class.
+
+  - goal: KM14179
+    reason: >-
+      Asks the pupil to explore and reflect on the connection between language
+      and identity. This is the pupil's own reflection about their own
+      language, and there is no answer that is correct for everyone; scoring
+      one would be scoring an opinion.
+
+  - goal: KM14180
+    reason: >-
+      Asks the pupil to write with functional handwriting and with fluency on a
+      keyboard. Both are motor skills observed while the pupil writes, not
+      knowledge a question can check.
+
+  - goal: KM14181
+    reason: >-
+      Asks the pupil to describe, narrate, argue and reflect in various spoken
+      and written genres and for various purposes. It is a production goal
+      across every genre at once, and no single answer can stand in for it.
+
+  - goal: KM14182
+    reason: >-
+      Asks the pupil to reflect ethically on how they portray themselves and
+      others in digital media. The substance is the pupil's own ethical
+      reasoning about their own conduct, and a quiz that scored it would be
+      scoring agreement rather than knowledge.

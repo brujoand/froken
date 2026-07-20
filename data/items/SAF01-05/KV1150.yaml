@@ -1,0 +1,771 @@
+# Samfunnsfag, kompetansemål etter 7. trinn (SAF01-05 / KV1150).
+#
+# Written for 10-12-åringer. Spørsmålene prøver kunnskap om samfunnet, aldri
+# holdninger, meninger eller verdier. Der kompetansemålet handler om elevens
+# egen refleksjon, drøfting eller presentasjon, er målet ført opp under
+# not_assessable i stedet for å bli testet med et spørsmål som later som.
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+---
+subject: SAF01-05
+goal_set: KV1150
+
+items:
+  # Fakta, meninger og reklame i mediebildet.
+  - id: KM14687-01
+    goal: KM14687
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvilken av setningene er en mening, og ikke et faktum?
+      en: Which of these sentences is an opinion rather than a fact?
+    choices:
+      - id: a
+        text:
+          nb: Norge har kyst mot Atlanterhavet.
+          en: Norway has a coastline on the Atlantic Ocean.
+      - id: b
+        text:
+          nb: Vinteren er den fineste årstiden.
+          en: Winter is the nicest season.
+        correct: true
+      - id: c
+        text:
+          nb: Det bor mer enn fem millioner mennesker i Norge.
+          en: More than five million people live in Norway.
+    explanation:
+      nb: Et faktum kan sjekkes og vises å være riktig eller galt. Hva som er
+        finest, er noe folk mener ulikt om, og det kan ikke sjekkes.
+      en: A fact can be checked and shown to be right or wrong. Which season is
+        nicest is something people disagree about, and it cannot be checked.
+    reviewed: false
+
+  - id: KM14687-02
+    goal: KM14687
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: En influenser legger ut et bilde med ordet «annonse» øverst. Hva
+        betyr det?
+      en: An influencer posts a picture with the word "annonse" (advert) at the
+        top. What does that mean?
+    choices:
+      - id: a
+        text:
+          nb: Innlegget er reklame som noen har betalt for.
+          en: The post is advertising that someone has paid for.
+        correct: true
+      - id: b
+        text:
+          nb: Innlegget er skrevet av en journalist.
+          en: The post was written by a journalist.
+      - id: c
+        text:
+          nb: Innlegget er kontrollert av staten.
+          en: The post has been checked by the government.
+    explanation:
+      nb: I Norge må reklame merkes, slik at du vet at avsenderen vil selge deg
+        noe. Da kan du lese innlegget med det i bakhodet.
+      en: In Norway advertising must be labelled, so you know the sender wants to
+        sell you something and can read the post with that in mind.
+    reviewed: false
+
+  # Kilder.
+  - id: KM14686-01
+    goal: KM14686
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Du skal finne ut hvor mye det regner i Bergen. Hvilken kilde er best
+        egnet?
+      en: You want to find out how much rain falls in Bergen. Which source is
+        best suited?
+    choices:
+      - id: a
+        text:
+          nb: Målingene til Meteorologisk institutt.
+          en: The measurements from the Norwegian Meteorological Institute.
+        correct: true
+      - id: b
+        text:
+          nb: En kommentar under et bilde på sosiale medier.
+          en: A comment under a picture on social media.
+      - id: c
+        text:
+          nb: En reklamefilm for regnjakker.
+          en: An advert for rain jackets.
+    explanation:
+      nb: Meteorologisk institutt måler nedbør og legger fram tallene sine. En
+        kommentar er et enkeltinntrykk, og en reklame vil selge deg noe.
+      en: The Meteorological Institute measures rainfall and publishes the
+        figures. A comment is one person's impression, and an advert wants to
+        sell you something.
+    reviewed: false
+
+  - id: KM14686-02
+    goal: KM14686
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvorfor er det lurt å sjekke hvem som står bak en nettside?
+      en: Why is it wise to check who is behind a website?
+    choices:
+      - id: a
+        text:
+          nb: Fordi avsenderen kan ha et mål med det som står der.
+          en: Because the sender may have a purpose with what is written there.
+        correct: true
+      - id: b
+        text:
+          nb: Fordi nettsider uten bilder alltid er feil.
+          en: Because websites without pictures are always wrong.
+      - id: c
+        text:
+          nb: Fordi den nyeste nettsiden alltid har rett.
+          en: Because the newest website is always right.
+    explanation:
+      nb: To kilder kan skrive ulikt om det samme. Vet du hvem avsenderen er og
+        hva de vil, er du bedre rustet til å vurdere det du leser.
+      en: Two sources can write differently about the same thing. Knowing who the
+        sender is and what they want helps you judge what you read.
+    reviewed: false
+
+  # Livnæring og teknologi i fortiden.
+  - id: KM14685-01
+    goal: KM14685
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvordan skaffet menneskene i steinalderen seg mat før jordbruket kom?
+      en: How did people in the Stone Age get food before farming arrived?
+    choices:
+      - id: a
+        text:
+          nb: De jaktet, fisket og samlet planter.
+          en: They hunted, fished and gathered plants.
+        correct: true
+      - id: b
+        text:
+          nb: De kjøpte mat i butikker.
+          en: They bought food in shops.
+      - id: c
+        text:
+          nb: De dyrket korn på store åkrer.
+          en: They grew grain in large fields.
+    explanation:
+      nb: Før jordbruket levde folk som jegere og samlere. De flyttet etter
+        dyrene og etter det som vokste der de var.
+      en: Before farming, people lived as hunters and gatherers. They moved with
+        the animals and with whatever grew where they were.
+    reviewed: false
+
+  - id: KM14685-02
+    goal: KM14685
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva skjedde med bosettingen da menneskene begynte å dyrke jorda og
+        holde husdyr?
+      en: What happened to settlement when people began to farm the land and keep
+        livestock?
+    choices:
+      - id: a
+        text:
+          nb: Flere ble boende på samme sted året rundt.
+          en: More people stayed in the same place all year round.
+        correct: true
+      - id: b
+        text:
+          nb: Alle sluttet å bo i hus.
+          en: Everyone stopped living in houses.
+      - id: c
+        text:
+          nb: Folk begynte å flytte oftere enn før.
+          en: People began to move more often than before.
+    explanation:
+      nb: Åkrer og husdyr må stelles hele året. Derfor ble folk bofaste, og det
+        vokste fram landsbyer der mange bodde sammen.
+      en: Fields and livestock need tending all year, so people settled down, and
+        villages grew up where many lived together.
+    reviewed: false
+
+  # Geografiske hovedtrekk.
+  - id: KM14688-01
+    goal: KM14688
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Sahara er den største varme ørkenen i verden. I hvilken verdensdel
+        ligger den?
+      en: The Sahara is the world's largest hot desert. Which continent is it in?
+    choices:
+      - id: a
+        text:
+          nb: Afrika
+          en: Africa
+        correct: true
+      - id: b
+        text:
+          nb: Sør-Amerika
+          en: South America
+      - id: c
+        text:
+          nb: Asia
+          en: Asia
+    explanation:
+      nb: Sahara dekker store deler av Nord-Afrika. Der er det svært lite nedbør,
+        og folk bor helst nær vann.
+      en: The Sahara covers much of North Africa. There is very little rainfall
+        there, and people mostly live near water.
+    reviewed: false
+
+  - id: KM14688-02
+    goal: KM14688
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: I tørre strøk ligger byer og landsbyer ofte langs elver. Hva er den
+        viktigste grunnen til det?
+      en: In dry regions, towns and villages often lie along rivers. What is the
+        main reason?
+    choices:
+      - id: a
+        text:
+          nb: Elva gir vann til folk, dyr og åkrer.
+          en: The river provides water for people, animals and fields.
+        correct: true
+      - id: b
+        text:
+          nb: Det er kaldere ved elva.
+          en: It is colder by the river.
+      - id: c
+        text:
+          nb: Elver gjør at det snør mer.
+          en: Rivers make it snow more.
+    explanation:
+      nb: Naturen legger føringer for hvor det er lett å bo. Uten regn må vannet
+        komme et annet sted fra, og da blir elva livsgrunnlaget.
+      en: Nature shapes where it is easy to live. Without rain the water must come
+        from somewhere else, and then the river becomes the lifeline.
+    reviewed: false
+
+  # Menneskerettigheter.
+  - id: KM14689-01
+    goal: KM14689
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: FNs verdenserklæring om menneskerettighetene ble vedtatt i 1948. Hvem
+        gjelder rettighetene for?
+      en: The UN Universal Declaration of Human Rights was adopted in 1948. Who do
+        the rights apply to?
+    choices:
+      - id: a
+        text:
+          nb: Alle mennesker.
+          en: All human beings.
+        correct: true
+      - id: b
+        text:
+          nb: Bare voksne.
+          en: Adults only.
+      - id: c
+        text:
+          nb: Bare de som bor i Europa.
+          en: Only people living in Europe.
+    explanation:
+      nb: Erklæringen slår fast at alle mennesker er født frie og med samme
+        verdi. Den gjelder uansett hvor du bor og hvem du er.
+      en: The declaration states that all human beings are born free and equal in
+        worth. It applies wherever you live and whoever you are.
+    reviewed: false
+
+  - id: KM14689-02
+    goal: KM14689
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: FNs barnekonvensjon gir barn egne rettigheter. Hvilken av disse er en
+        av dem?
+      en: The UN Convention on the Rights of the Child gives children their own
+        rights. Which of these is one of them?
+    choices:
+      - id: a
+        text:
+          nb: Rett til skolegang.
+          en: The right to education.
+        correct: true
+      - id: b
+        text:
+          nb: Rett til å stemme ved valg.
+          en: The right to vote in elections.
+      - id: c
+        text:
+          nb: Rett til å kjøre bil.
+          en: The right to drive a car.
+    explanation:
+      nb: Barnekonvensjonen gir blant annet rett til skole, helsehjelp, hvile og
+        til å bli hørt. Stemmerett og førerkort følger av alder, ikke av
+        konvensjonen.
+      en: The convention grants rights to education, health care, rest and to be
+        heard, among others. Voting and driving follow from age, not from the
+        convention.
+    reviewed: false
+
+  # Samer og nasjonale minoriteter.
+  - id: KM14690-01
+    goal: KM14690
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Sametinget ble åpnet i 1989. Hva er Sametinget?
+      en: The Sámi Parliament opened in 1989. What is it?
+    choices:
+      - id: a
+        text:
+          nb: Samenes folkevalgte forsamling i Norge.
+          en: The elected assembly of the Sámi people in Norway.
+        correct: true
+      - id: b
+        text:
+          nb: Et museum om samisk historie.
+          en: A museum about Sámi history.
+      - id: c
+        text:
+          nb: En skole for samisk språk.
+          en: A school for the Sámi language.
+    explanation:
+      nb: Samer med samemanntall kan stemme ved sametingsvalget. Sametinget
+        holder til i Karasjok og arbeider med saker som gjelder samene.
+      en: Sámi people on the Sámi electoral roll can vote in its elections. The
+        Sámi Parliament sits in Karasjok and works on matters concerning the Sámi.
+    reviewed: false
+
+  - id: KM14690-02
+    goal: KM14690
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Samene er anerkjent som urfolk i Norge. Hva betyr det å være urfolk?
+      en: The Sámi are recognised as an indigenous people in Norway. What does
+        indigenous mean here?
+    choices:
+      - id: a
+        text:
+          nb: At folket bodde i området før dagens landegrenser ble trukket.
+          en: That the people lived in the area before today's state borders were
+            drawn.
+        correct: true
+      - id: b
+        text:
+          nb: At folket flyttet til landet i nyere tid.
+          en: That the people moved to the country in recent times.
+      - id: c
+        text:
+          nb: At folket bor i bare ett land.
+          en: That the people live in only one country.
+    explanation:
+      nb: Samene har bodd i Sápmi lenge før grensene mellom Norge, Sverige,
+        Finland og Russland kom. Som urfolk har de rett til å ta vare på språket
+        og kulturen sin.
+      en: The Sámi lived in Sápmi long before the borders between Norway, Sweden,
+        Finland and Russia existed. As an indigenous people they have the right to
+        maintain their language and culture.
+    reviewed: false
+
+  - id: KM14690-03
+    goal: KM14690
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Norge har fem nasjonale minoriteter. Hvilken av disse gruppene er en
+        av dem?
+      en: Norway has five national minorities. Which of these groups is one of
+        them?
+    choices:
+      - id: a
+        text:
+          nb: Kvener/norskfinner
+          en: Kven/Norwegian Finns
+        correct: true
+      - id: b
+        text:
+          nb: Islendinger
+          en: Icelanders
+      - id: c
+        text:
+          nb: Nordmenn i utlandet
+          en: Norwegians living abroad
+    explanation:
+      nb: De fem nasjonale minoritetene er kvener/norskfinner, jøder,
+        skogfinner, romanifolket/taterne og rom. De har lang historie i Norge og
+        rett til å ta vare på språket og kulturen sin.
+      en: The five national minorities are Kven/Norwegian Finns, Jews, Forest
+        Finns, Romani/Tater people and Roma. They have a long history in Norway
+        and the right to maintain their language and culture.
+    reviewed: false
+
+  - id: KM14690-04
+    goal: KM14690
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: I omtrent hundre år førte norske myndigheter en fornorskingspolitikk
+        overfor samer og kvener. Hva gikk den ut på?
+      en: For about a hundred years the Norwegian authorities pursued a policy of
+        Norwegianisation towards the Sámi and Kven. What did it involve?
+    choices:
+      - id: a
+        text:
+          nb: At de skulle slutte å bruke sitt eget språk og bli mest mulig
+            norske.
+          en: That they should stop using their own language and become as
+            Norwegian as possible.
+        correct: true
+      - id: b
+        text:
+          nb: At de fikk egne skoler på sitt eget språk.
+          en: That they were given their own schools in their own language.
+      - id: c
+        text:
+          nb: At de fikk flytte fritt mellom landene i nord.
+          en: That they were allowed to move freely between the countries in the
+            north.
+    explanation:
+      nb: Blant annet skulle undervisningen på skolen foregå på norsk, og barn
+        fikk ikke bruke morsmålet sitt. I dag er samisk og kvensk anerkjente
+        språk i Norge, og politikken er forlatt.
+      en: Teaching in school was to be in Norwegian, and children were not allowed
+        to use their mother tongue. Today Sámi and Kven are recognised languages in
+        Norway, and the policy has been abandoned.
+    reviewed: false
+
+  # Kommersiell påvirkning.
+  - id: KM14691-01
+    goal: KM14691
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva er hovedhensikten med reklame?
+      en: What is the main purpose of advertising?
+    choices:
+      - id: a
+        text:
+          nb: Å få folk til å kjøpe noe.
+          en: To get people to buy something.
+        correct: true
+      - id: b
+        text:
+          nb: Å fortelle nyheter fra hele verden.
+          en: To report news from around the world.
+      - id: c
+        text:
+          nb: Å undervise i skolefag.
+          en: To teach school subjects.
+    explanation:
+      nb: Reklame lages av noen som vil selge en vare eller en tjeneste. Derfor
+        viser den fram det som er bra, og ikke det som er dårlig.
+      en: Advertising is made by someone who wants to sell a product or service,
+        so it shows the good sides and not the bad ones.
+    reviewed: false
+
+  # Bærekraftig utvikling.
+  - id: KM14692-01
+    goal: KM14692
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva menes med bærekraftig utvikling?
+      en: What is meant by sustainable development?
+    choices:
+      - id: a
+        text:
+          nb: At vi dekker behovene våre uten å ødelegge for dem som kommer
+            etter oss.
+          en: That we meet our needs without spoiling things for those who come
+            after us.
+        correct: true
+      - id: b
+        text:
+          nb: At alle land bruker like mye strøm.
+          en: That every country uses the same amount of electricity.
+      - id: c
+        text:
+          nb: At vi bruker opp ressursene så fort som mulig.
+          en: That we use up resources as fast as possible.
+    explanation:
+      nb: Bærekraftig utvikling handler om å ta vare på natur, mennesker og
+        økonomi samtidig. FN har satt opp bærekraftsmål som landene samarbeider
+        om.
+      en: Sustainable development means caring for nature, people and the economy
+        at the same time. The UN has set sustainable development goals that
+        countries work on together.
+    reviewed: false
+
+  # Digital samhandling.
+  - id: KM14693-01
+    goal: KM14693
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Du har tatt et bilde av en venn. Hva sier norske regler om å legge det
+        ut på nett?
+      en: You have taken a photo of a friend. What do Norwegian rules say about
+        posting it online?
+    choices:
+      - id: a
+        text:
+          nb: Du må ha lov av den som er på bildet.
+          en: You need permission from the person in the picture.
+        correct: true
+      - id: b
+        text:
+          nb: Du kan legge det ut fritt, siden du tok bildet.
+          en: You can post it freely, since you took the picture.
+      - id: c
+        text:
+          nb: Du kan legge det ut hvis du sletter det etterpå.
+          en: You can post it if you delete it afterwards.
+    explanation:
+      nb: Den som er på et bilde, bestemmer selv om det kan deles. Å spørre først
+        er både regelen og den enkleste måten å være trygg på.
+      en: The person in a picture decides whether it may be shared. Asking first is
+        both the rule and the simplest way to be sure.
+    reviewed: false
+
+  # Demokratiets historie i Norge.
+  - id: KM14695-01
+    goal: KM14695
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Grunnloven ble vedtatt på Eidsvoll. Hvilket år var det?
+      en: The Norwegian Constitution was adopted at Eidsvoll. In which year?
+    choices:
+      - id: a
+        text:
+          nb: "1814"
+          en: "1814"
+        correct: true
+      - id: b
+        text:
+          nb: "1905"
+          en: "1905"
+      - id: c
+        text:
+          nb: "1945"
+          en: "1945"
+    explanation:
+      nb: Grunnloven ble underskrevet 17. mai 1814. Den slo fast at Norge skulle
+        styres etter lover og ikke av kongen alene.
+      en: The Constitution was signed on 17 May 1814. It established that Norway
+        would be governed by laws, not by the king alone.
+    reviewed: false
+
+  - id: KM14695-02
+    goal: KM14695
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: I 1913 fikk kvinner i Norge stemmerett på samme vilkår som menn. Hva
+        betyr stemmerett?
+      en: In 1913 women in Norway gained the vote on the same terms as men. What
+        does having the vote mean?
+    choices:
+      - id: a
+        text:
+          nb: Retten til å være med og velge hvem som skal styre.
+          en: The right to take part in choosing who governs.
+        correct: true
+      - id: b
+        text:
+          nb: Retten til å bestemme hva som skal stå i avisene.
+          en: The right to decide what the newspapers write.
+      - id: c
+        text:
+          nb: Retten til å slippe å betale skatt.
+          en: The right to avoid paying tax.
+    explanation:
+      nb: Med stemmerett kan innbyggerne velge representanter til Stortinget og
+        kommunestyret. I 1913 gjaldt den for første gang alle voksne kvinner og
+        menn.
+      en: With the vote, citizens choose representatives to parliament and the
+        municipal council. In 1913 it applied for the first time to all adult
+        women and men.
+    reviewed: false
+
+  - id: KM14695-03
+    goal: KM14695
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: I et demokrati kan innbyggerne velge dem som styrer. Hvordan er det i
+        et diktatur?
+      en: In a democracy the people choose those who govern. What is it like in a
+        dictatorship?
+    choices:
+      - id: a
+        text:
+          nb: Makten ligger hos én person eller én gruppe som ikke kan stemmes
+            bort.
+          en: Power lies with one person or group who cannot be voted out.
+        correct: true
+      - id: b
+        text:
+          nb: Innbyggerne stemmer over hver eneste lov.
+          en: The people vote on every single law.
+      - id: c
+        text:
+          nb: Landet har ingen lover i det hele tatt.
+          en: The country has no laws at all.
+    explanation:
+      nb: Forskjellen ligger i hvem som har makten og om den kan skiftes ut. I et
+        demokrati kan velgerne bytte ut de styrende ved valg.
+      en: The difference lies in who holds power and whether it can be replaced. In
+        a democracy voters can change those in charge at an election.
+    reviewed: false
+
+  # Lover, regler og normer.
+  - id: KM14696-01
+    goal: KM14696
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvem vedtar lovene i Norge?
+      en: Who passes the laws in Norway?
+    choices:
+      - id: a
+        text:
+          nb: Stortinget
+          en: The Storting (parliament)
+        correct: true
+      - id: b
+        text:
+          nb: Politiet
+          en: The police
+      - id: c
+        text:
+          nb: Høyesterett
+          en: The Supreme Court
+    explanation:
+      nb: Stortinget er valgt av folket og vedtar lovene. Politiet passer på at
+        de blir fulgt, og domstolene avgjør saker etter dem.
+      en: The Storting is elected by the people and passes the laws. The police see
+        that they are followed, and the courts decide cases under them.
+    reviewed: false
+
+  - id: KM14696-02
+    goal: KM14696
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva er forskjellen på en lov og en norm?
+      en: What is the difference between a law and a social norm?
+    choices:
+      - id: a
+        text:
+          nb: En lov er skrevet ned og gjelder for alle, mens en norm er en
+            uskreven regel for hva som er vanlig.
+          en: A law is written down and applies to everyone, while a norm is an
+            unwritten rule about what is usual.
+        correct: true
+      - id: b
+        text:
+          nb: En norm er skrevet ned, mens en lov er uskreven.
+          en: A norm is written down, while a law is unwritten.
+      - id: c
+        text:
+          nb: Lover gjelder bare i skolen, mens normer gjelder hjemme.
+          en: Laws apply only at school, while norms apply at home.
+    explanation:
+      nb: Å bryte en lov kan gi straff. Å bryte en norm, som å snike i køen, gir
+        ingen straff, men folk reagerer likevel.
+      en: Breaking a law can bring punishment. Breaking a norm, such as jumping the
+        queue, brings no punishment, but people still react.
+    reviewed: false
+
+  # Møter mellom mennesker.
+  - id: KM14697-01
+    goal: KM14697
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Nordboere reiste i vikingtiden til England, Irland og lenger sør. Hva
+        førte disse møtene med seg tilbake til Norden?
+      en: In the Viking Age, Norse people travelled to England, Ireland and further
+        south. What did these encounters bring back to the North?
+    choices:
+      - id: a
+        text:
+          nb: Nye varer, nye ord og nye ideer, blant annet kristendommen.
+          en: New goods, new words and new ideas, including Christianity.
+        correct: true
+      - id: b
+        text:
+          nb: Ingen endringer i det hele tatt.
+          en: No changes at all.
+      - id: c
+        text:
+          nb: Bare nye typer stein.
+          en: Only new kinds of stone.
+    explanation:
+      nb: Når folk møtes, følger ideer med varene. Kristendommen kom til Norge
+        gjennom slike møter og endret etter hvert både lover og levemåte.
+      en: When people meet, ideas travel with the goods. Christianity reached Norway
+        through such encounters and in time changed both laws and ways of life.
+    reviewed: false
+
+# Kompetansemål der selve substansen er elevens egen refleksjon, drøfting,
+# undersøkelse eller presentasjon. Et skriftlig spørsmål kan ikke prøve dem, og
+# et spørsmål som later som ville prøvd noe annet enn målet.
+not_assessable:
+  - goal: KM14681
+    reason: >-
+      Krever at eleven gjennomfører en samfunnsfaglig undersøkelse og presenterer
+      resultatene med digitale verktøy. Det er et arbeid som strekker seg over
+      tid og vurderes av en lærer som ser prosessen og produktet; ingen
+      quizoppgave kan erstatte det.
+
+  - goal: KM14682
+    reason: >-
+      Ber eleven reflektere over hvorfor konflikter oppstår og drøfte hvordan den
+      enkelte og samfunnet kan håndtere dem. Årsakene til konflikt er omstridte,
+      og hvordan de bør håndteres, er en drøfting uten ett fasitsvar. Å tvinge
+      det inn i et flervalgsspørsmål ville gjort en meningsytring om til en
+      riktig avkryssing.
+
+  - goal: KM14683
+    reason: >-
+      Handler om å utforske mangfold i Norge og reflektere over menneskers behov
+      for å være seg selv og høre til i fellesskap. Det er elevens egen
+      refleksjon om egne og andres liv. Et spørsmål her ville enten testet
+      lesing eller bedt eleven bekrefte en bestemt holdning, og ingen av delene
+      er målet.
+
+  - goal: KM14684
+    reason: >-
+      Ber eleven drøfte hva likeverd og likestilling betyr for et demokrati og
+      utvikle egne forslag mot fordommer, rasisme og diskriminering. Forslagene
+      er elevens eget arbeid, og hvilke tiltak som virker, er det politisk
+      uenighet om. Kunnskapsdelen om menneskeverd og rettigheter er dekket av
+      KM14689.
+
+  - goal: KM14694
+    reason: >-
+      Handler om variasjoner i identitet, seksuell orientering og kjønnsuttrykk,
+      om egne og andres grenser knyttet til følelser, kropp og seksualitet, og om
+      hva man kan gjøre om grenser blir brutt. Dette er samtale og refleksjon i
+      trygge rammer med en voksen til stede, ikke noe en elev skal krysse av på
+      alene foran en skjerm. Et flervalgsspørsmål om egne grenser ville dessuten
+      antydet at det finnes ett riktig svar på hva et menneske skal føle.
+
+# Delvis dekkede mål, notert her fordi de har spørsmål og derfor ikke hører
+# hjemme over:
+#   KM14691 - reklamens hensikt er faktakunnskap, men virkningen på selvbilde og
+#     egen økonomi er elevens egen refleksjon og er ikke prøvd.
+#   KM14692 - begrepet bærekraftig utvikling er prøvd, men å utforske og
+#     presentere en global utfordring og utvikle egne forslag er et arbeid, ikke
+#     et spørsmål.
+#   KM14693 - reglene for digital deling er prøvd, men å reflektere over egen og
+#     andres nettbruk og drøfte dømmekraft forutsetter at noen kjenner eleven.

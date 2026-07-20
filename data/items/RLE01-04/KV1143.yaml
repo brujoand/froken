@@ -1,0 +1,486 @@
+# KRLE, kompetansemål etter 4. trinn (RLE01-04 / KV1143).
+#
+# Written for pupils in 1.-4. klasse, so prompts are one short sentence with
+# concrete nouns. Children of every faith and none read these: the questions ask
+# what a tradition does, says or is called -- never what is true, never what the
+# pupil believes, and never which tradition is the ordinary one.
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+---
+subject: RLE01-04
+goal_set: KV1143
+
+items:
+  # Hvordan religioner og livssyn kommer til uttrykk lokalt og regionalt.
+  - id: KM14586-01
+    goal: KM14586
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvem samles til bønn i en moské?
+      en: Who gathers to pray in a mosque?
+    choices:
+      - id: a
+        text:
+          nb: Muslimer
+          en: Muslims
+        correct: true
+      - id: b
+        text:
+          nb: Buddhister
+          en: Buddhists
+      - id: c
+        text:
+          nb: Hinduer
+          en: Hindus
+    explanation:
+      nb: En moské er bygningen der muslimer samles til bønn. Mange norske byer
+        har en moské.
+      en: A mosque is the building where Muslims gather to pray. Many Norwegian
+        towns have one.
+    reviewed: false
+
+  - id: KM14586-02
+    goal: KM14586
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva er Human-Etisk Forbund?
+      en: What is Human-Etisk Forbund?
+    choices:
+      - id: a
+        text:
+          nb: Et livssynssamfunn for humanister
+          en: A life stance community for humanists
+        correct: true
+      - id: b
+        text:
+          nb: En skole for lærere
+          en: A school for teachers
+      - id: c
+        text:
+          nb: Et fotballag
+          en: A football team
+    explanation:
+      nb: Human-Etisk Forbund er et livssynssamfunn i Norge. De arrangerer blant
+        annet humanistisk konfirmasjon mange steder i landet.
+      en: Human-Etisk Forbund is a Norwegian humanist life stance organisation.
+        Among other things it arranges humanist confirmations around the country.
+    reviewed: false
+
+  # Sentrale fortellinger i kristen tradisjon.
+  - id: KM14597-01
+    goal: KM14597
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: I juleevangeliet blir Jesus født. Hvor skjer det?
+      en: In the Christmas gospel Jesus is born. Where does that happen?
+    choices:
+      - id: a
+        text:
+          nb: I Betlehem
+          en: In Bethlehem
+        correct: true
+      - id: b
+        text:
+          nb: I Roma
+          en: In Rome
+      - id: c
+        text:
+          nb: I Egypt
+          en: In Egypt
+    explanation:
+      nb: Juleevangeliet står i Bibelen og forteller at Jesus blir født i
+        Betlehem. Det er denne fortellingen kristne feirer i julen.
+      en: The Christmas gospel is in the Bible and tells of Jesus being born in
+        Bethlehem. It is the story Christians celebrate at Christmas.
+    reviewed: false
+
+  - id: KM14597-02
+    goal: KM14597
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilken bibelfortelling handler om en stor båt full av dyr?
+      en: Which Bible story is about a big boat full of animals?
+    choices:
+      - id: a
+        text:
+          nb: Fortellingen om Noahs ark
+          en: The story of Noah's ark
+        correct: true
+      - id: b
+        text:
+          nb: Fortellingen om den barmhjertige samaritanen
+          en: The story of the Good Samaritan
+      - id: c
+        text:
+          nb: Fortellingen om Davids kamp mot Goliat
+          en: The story of David and Goliath
+    explanation:
+      nb: I fortellingen om Noahs ark bygger Noah en stor båt og tar med dyr da
+        det kommer en flom. Fortellingen finnes også i jødedommen og i islam.
+      en: In the story of Noah's ark, Noah builds a big boat and brings animals
+        aboard when a flood comes. The story is found in Judaism and Islam too.
+    reviewed: false
+
+  # Fortellinger i østlige og vestlige religiøse tradisjoner.
+  - id: KM14598-01
+    goal: KM14598
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvem ledet israelittene ut av Egypt i den jødiske fortellingen?
+      en: In the Jewish story, who led the Israelites out of Egypt?
+    choices:
+      - id: a
+        text:
+          nb: Moses
+          en: Moses
+        correct: true
+      - id: b
+        text:
+          nb: Noah
+          en: Noah
+      - id: c
+        text:
+          nb: Salomo
+          en: Solomon
+    explanation:
+      nb: Fortellingen om Moses forteller at han ledet folket sitt ut av Egypt.
+        Jøder minnes denne fortellingen i høytiden pesach.
+      en: The story of Moses tells how he led his people out of Egypt. Jews
+        remember this story at the festival of Pesach.
+    reviewed: false
+
+  - id: KM14598-02
+    goal: KM14598
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: I fortellingen om Buddha var Siddhartha en prins. Hva gjorde han?
+      en: In the story of the Buddha, Siddhartha was a prince. What did he do?
+    choices:
+      - id: a
+        text:
+          nb: Han forlot slottet for å lete etter svar
+          en: He left the palace to look for answers
+        correct: true
+      - id: b
+        text:
+          nb: Han bygde en stor båt
+          en: He built a big boat
+      - id: c
+        text:
+          nb: Han ble konge over hele verden
+          en: He became king of the whole world
+    explanation:
+      nb: Fortellingen sier at Siddhartha forlot slottet for å finne ut hvorfor
+        mennesker har det vondt. Buddhister kaller ham Buddha.
+      en: The story says Siddhartha left the palace to find out why people
+        suffer. Buddhists call him the Buddha.
+    reviewed: false
+
+  # Høytider som kulturarv.
+  - id: KM14587-01
+    goal: KM14587
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva feirer muslimer under id al-fitr?
+      en: What do Muslims celebrate at Eid al-Fitr?
+    choices:
+      - id: a
+        text:
+          nb: At fastemåneden ramadan er over
+          en: That the fasting month of Ramadan is over
+        correct: true
+      - id: b
+        text:
+          nb: At det er nyttår
+          en: That it is New Year
+      - id: c
+        text:
+          nb: At sommerferien begynner
+          en: That the summer holiday is starting
+    explanation:
+      nb: Id al-fitr er festen når fastemåneden ramadan er slutt. Mange spiser
+        god mat sammen med familien og gir gaver.
+      en: Eid al-Fitr is the feast marking the end of the fasting month of
+        Ramadan. Many eat good food with family and give gifts.
+    reviewed: false
+
+  - id: KM14587-02
+    goal: KM14587
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva gjør jøder hver kveld under hanukka?
+      en: What do Jews do each evening during Hanukkah?
+    choices:
+      - id: a
+        text:
+          nb: De tenner et lys til
+          en: They light one more candle
+        correct: true
+      - id: b
+        text:
+          nb: De planter et tre
+          en: They plant a tree
+      - id: c
+        text:
+          nb: De slukker alle lampene
+          en: They turn off all the lamps
+    explanation:
+      nb: Hanukka varer i åtte dager, og det tennes ett lys mer for hver kveld i
+        en egen lysestake.
+      en: Hanukkah lasts eight days, and one more candle is lit each evening in a
+        special candelabrum.
+    reviewed: false
+
+  - id: KM14587-03
+    goal: KM14587
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Divali er en høytid med mange lys. Hvem feirer divali?
+      en: Diwali is a festival with many lights. Who celebrates Diwali?
+    choices:
+      - id: a
+        text:
+          nb: Hinduer
+          en: Hindus
+        correct: true
+      - id: b
+        text:
+          nb: Muslimer
+          en: Muslims
+      - id: c
+        text:
+          nb: Kristne
+          en: Christians
+    explanation:
+      nb: Divali er en hinduistisk lysfest. Mange setter ut små lamper og
+        pynter hjemme. Sikher og jainer feirer også divali.
+      en: Diwali is a Hindu festival of lights. Many set out small lamps and
+        decorate their homes. Sikhs and Jains celebrate Diwali too.
+    reviewed: false
+
+  # Estetiske uttrykk.
+  - id: KM14588-01
+    goal: KM14588
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Davidsstjernen har seks tagger. Hvilken religion brukes den i?
+      en: The Star of David has six points. Which religion uses it?
+    choices:
+      - id: a
+        text:
+          nb: Jødedommen
+          en: Judaism
+        correct: true
+      - id: b
+        text:
+          nb: Buddhismen
+          en: Buddhism
+      - id: c
+        text:
+          nb: Islam
+          en: Islam
+    explanation:
+      nb: Davidsstjernen er et kjent jødisk symbol. Du kan se den på synagoger
+        og på Israels flagg.
+      en: The Star of David is a well-known Jewish symbol. You can see it on
+        synagogues and on the flag of Israel.
+    reviewed: false
+
+  - id: KM14588-02
+    goal: KM14588
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva kalles sangene som blir sunget i en kirke?
+      en: What are the songs sung in a church called?
+    choices:
+      - id: a
+        text:
+          nb: Salmer
+          en: Hymns
+        correct: true
+      - id: b
+        text:
+          nb: Sagn
+          en: Legends
+      - id: c
+        text:
+          nb: Regler
+          en: Rhymes
+    explanation:
+      nb: Salmer er sanger som synges i kirken, ofte til orgel. Mange salmer er
+        flere hundre år gamle.
+      en: Hymns are songs sung in church, often with an organ. Many hymns are
+        several hundred years old.
+    reviewed: false
+
+  # Enkle fagbegreper.
+  - id: KM14596-01
+    goal: KM14596
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva kalles bygningen der jøder samles?
+      en: What is the building where Jews gather called?
+    choices:
+      - id: a
+        text:
+          nb: En synagoge
+          en: A synagogue
+        correct: true
+      - id: b
+        text:
+          nb: Et tempel
+          en: A temple
+      - id: c
+        text:
+          nb: En moské
+          en: A mosque
+    explanation:
+      nb: En synagoge er huset der jøder samles. Muslimer samles i en moské, og
+        hinduer og buddhister i et tempel.
+      en: A synagogue is the house where Jews gather. Muslims gather in a mosque,
+        and Hindus and Buddhists in a temple.
+    reviewed: false
+
+  - id: KM14596-02
+    goal: KM14596
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva heter den hellige boka i islam?
+      en: What is the holy book of Islam called?
+    choices:
+      - id: a
+        text:
+          nb: Koranen
+          en: The Quran
+        correct: true
+      - id: b
+        text:
+          nb: Bibelen
+          en: The Bible
+      - id: c
+        text:
+          nb: Eventyrboka
+          en: The book of fairy tales
+    explanation:
+      nb: Koranen er den hellige boka i islam. I kristendommen heter den hellige
+        boka Bibelen.
+      en: The Quran is the holy book of Islam. In Christianity the holy book is
+        called the Bible.
+    reviewed: false
+
+  # Kilder til kunnskap om religioner og livssyn.
+  - id: KM14589-01
+    goal: KM14589
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Amina vil vite hva som står i den hellige boka til muslimer. Hvor bør
+        hun lete?
+      en: Amina wants to know what the Muslim holy book says. Where should she
+        look?
+    choices:
+      - id: a
+        text:
+          nb: I Koranen
+          en: In the Quran
+        correct: true
+      - id: b
+        text:
+          nb: I en bok om fotball
+          en: In a book about football
+      - id: c
+        text:
+          nb: I en tegneserie om romvesener
+          en: In a comic about aliens
+    explanation:
+      nb: Vil du vite hva en hellig bok sier, må du bruke selve boka eller noen
+        som kjenner den godt. Andre bøker handler om noe helt annet.
+      en: To find out what a holy book says, use the book itself or someone who
+        knows it well. Other books are about something else entirely.
+    reviewed: false
+
+  - id: KM14589-02
+    goal: KM14589
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Klassen skal lære om buddhismen. Hvilken kilde er best?
+      en: The class is learning about Buddhism. Which source is best?
+    choices:
+      - id: a
+        text:
+          nb: Et besøk i et buddhistisk tempel
+          en: A visit to a Buddhist temple
+        correct: true
+      - id: b
+        text:
+          nb: En matoppskrift på ris
+          en: A recipe for rice
+      - id: c
+        text:
+          nb: En film om drager som flyr
+          en: A film about flying dragons
+    explanation:
+      nb: Et tempelbesøk eller en fagbok gir kunnskap om buddhismen. En oppskrift
+        eller en fantasifilm handler ikke om religionen, selv om den kan komme
+        fra samme land.
+      en: A temple visit or a non-fiction book gives knowledge about Buddhism. A
+        recipe or a fantasy film is not about the religion, even if it comes from
+        the same part of the world.
+    reviewed: false
+
+# Goals whose substance is the pupil's own reflection, conversation or life.
+# A written question could only test something adjacent and call it the goal.
+not_assessable:
+  - goal: KM14594
+    reason: >-
+      Asks the pupil to describe and talk about different ways of living
+      together in families and in society. Any question would have to sort real
+      pupils' own homes into right and wrong answers, and the goal is a
+      conversation a teacher leads, not a fact to be recalled.
+
+  - goal: KM14590
+    reason: >-
+      Asks the pupil to cooperate with others in philosophical conversation.
+      Cooperation happens between people in a room; nothing written can observe
+      whether it took place.
+
+  - goal: KM14591
+    reason: >-
+      Asks the pupil to identify and reflect on ethical questions. The whole
+      point is that ethical questions do not have one correct answer, so marking
+      a pupil's reflection right or wrong would misrepresent both the goal and
+      the subject.
+
+  - goal: KM14593
+    reason: >-
+      Asks the pupil to explore and discuss ethical aspects of how people live
+      and use resources. These are contested questions about how one ought to
+      live; a quiz that scored them would be teaching an opinion as a fact.
+
+  - goal: KM14592
+    reason: >-
+      Asks the pupil to take in and convey their own and others' thoughts,
+      feelings and experiences. There is no correct answer to what a pupil
+      feels, and a question that implied one would be worse than no question.
+
+  - goal: KM14595
+    reason: >-
+      Asks the pupil to talk about what human dignity, respect and tolerance
+      mean and what they imply for living together. The learning is in the
+      conversation; a multiple-choice version would reward recognising the
+      expected phrase rather than understanding it.

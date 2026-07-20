@@ -1,0 +1,1116 @@
+# Naturfag, kompetansemål etter 10. trinn (NAT01-05 / KV1078).
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+#
+# Written for 13-15-year-olds: normal prose, still plain. Goals about health,
+# sexuality and climate are tested on settled science only, and stated as fact
+# without moralising. Goals whose substance is the pupil's own discussion,
+# practical investigation or programming are recorded under not_assessable.
+---
+subject: NAT01-05
+goal_set: KV1078
+
+items:
+  - id: KM13854-01
+    goal: KM13854
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: En elev vil finne ut om planter vokser raskere med mer lys. Hun setter
+        like planter i ulik avstand fra en lampe og måler høyden etter to uker.
+        Hva er den uavhengige variabelen?
+      en: A pupil wants to find out whether plants grow faster with more light.
+        She puts identical plants at different distances from a lamp and
+        measures their height after two weeks. What is the independent variable?
+    choices:
+      - id: a
+        text:
+          nb: Mengden lys plantene får
+          en: The amount of light the plants get
+        correct: true
+      - id: b
+        text:
+          nb: Høyden på plantene etter to uker
+          en: The height of the plants after two weeks
+      - id: c
+        text:
+          nb: Hvor mye vann plantene får
+          en: How much water the plants get
+    explanation:
+      nb: Den uavhengige variabelen er den forskeren selv endrer på. Her er det
+        lysmengden. Høyden er den avhengige variabelen, altså det som måles,
+        og vannmengden holdes lik for alle plantene.
+      en: The independent variable is the one the investigator changes on
+        purpose - here the amount of light. Height is the dependent variable,
+        the thing being measured, and watering is kept the same for all plants.
+    reviewed: false
+
+  - id: KM13854-02
+    goal: KM13854
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilken av disse er formulert som en hypotese som kan testes?
+      en: Which of these is stated as a hypothesis that can be tested?
+    choices:
+      - id: a
+        text:
+          nb: Salt vann fryser ved lavere temperatur enn ferskvann
+          en: Salt water freezes at a lower temperature than fresh water
+        correct: true
+      - id: b
+        text:
+          nb: Vinter er den fineste årstiden
+          en: Winter is the nicest season
+      - id: c
+        text:
+          nb: Hvorfor blir vann til is?
+          en: Why does water turn into ice?
+    explanation:
+      nb: En hypotese er en påstand som kan vise seg å være feil når vi måler.
+        Alternativ a kan testes med et termometer. Alternativ b er en mening,
+        og alternativ c er et spørsmål, ikke en påstand.
+      en: A hypothesis is a claim that measurement could show to be wrong.
+        Option a can be tested with a thermometer. Option b is an opinion and
+        option c is a question, not a claim.
+    reviewed: false
+
+  - id: KM13855-01
+    goal: KM13855
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: To elever måler hvor fort en isbit smelter, men gjør bare én måling
+        hver. De får svært ulike svar. Hva er den beste måten å bedre kvaliteten
+        på undersøkelsen?
+      en: Two pupils measure how fast an ice cube melts, but each takes only one
+        measurement. They get very different answers. What is the best way to
+        improve the quality of the investigation?
+    choices:
+      - id: a
+        text:
+          nb: Gjenta målingen flere ganger under like forhold
+          en: Repeat the measurement several times under the same conditions
+        correct: true
+      - id: b
+        text:
+          nb: Velge den målingen som passer best med det de trodde
+          en: Pick whichever measurement best fits what they expected
+      - id: c
+        text:
+          nb: Skrive resultatet med flere desimaler
+          en: Write the result with more decimal places
+    explanation:
+      nb: Enkeltmålinger kan slå tilfeldig ut. Flere målinger under like forhold
+        viser hvor mye resultatet varierer, og gir et sikrere gjennomsnitt. Å
+        velge bort data som ikke passer, er ikke forskning, og flere desimaler
+        gjør ikke en usikker måling sikrere.
+      en: A single measurement can come out oddly by chance. Repeating under the
+        same conditions shows how much the result varies and gives a more
+        reliable average. Discarding data that does not fit is not science, and
+        extra decimals do not make an uncertain measurement more certain.
+    reviewed: false
+
+  - id: KM13856-01
+    goal: KM13856
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: En modell av solsystemet i klasserommet viser planetene som kuler på
+        pinner. Hva er den viktigste begrensningen ved en slik modell?
+      en: A classroom model of the solar system shows the planets as balls on
+        sticks. What is the most important limitation of such a model?
+    choices:
+      - id: a
+        text:
+          nb: Avstandene og størrelsene er ikke i riktig forhold til hverandre
+          en: The distances and sizes are not in the right proportion
+        correct: true
+      - id: b
+        text:
+          nb: Den viser at planetene går rundt sola
+          en: It shows that the planets orbit the sun
+      - id: c
+        text:
+          nb: Den er laget av andre materialer enn planetene
+          en: It is made of different materials than the planets
+    explanation:
+      nb: En modell forenkler. Denne får fram rekkefølgen og banene, men
+        avstandene i verdensrommet er så enorme at de ikke kan vises i riktig
+        skala i et klasserom. At planetene går rundt sola er en styrke ved
+        modellen, ikke en svakhet.
+      en: A model simplifies. This one captures the order and the orbits, but the
+        distances in space are so vast they cannot be shown to scale in a
+        classroom. Showing the planets orbiting the sun is a strength of the
+        model, not a weakness.
+    reviewed: false
+
+  - id: KM13859-01
+    goal: KM13859
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: I en trådløs mikrofon som brukes på en skolescene, hva er senderen og
+        hva er mottakeren?
+      en: In a wireless microphone used on a school stage, what is the
+        transmitter and what is the receiver?
+    choices:
+      - id: a
+        text:
+          nb: Mikrofonen sender, og mottakeren ved høyttaleranlegget mottar
+          en: The microphone transmits, and the receiver by the speaker system
+            picks it up
+        correct: true
+      - id: b
+        text:
+          nb: Høyttaleren sender, og mikrofonen mottar
+          en: The loudspeaker transmits and the microphone receives
+      - id: c
+        text:
+          nb: Begge deler sender, og ingen mottar
+          en: Both transmit and neither receives
+    explanation:
+      nb: Et sender-mottaker-system trenger noe som gjør informasjon om til et
+        signal, og noe som fanger opp signalet og gjør det om igjen. Mikrofonen
+        gjør lyd om til et radiosignal, og mottakeren gjør signalet om til lyd i
+        høyttaleren.
+      en: A transmitter-receiver system needs something that turns information
+        into a signal and something that picks the signal up and converts it
+        back. The microphone turns sound into a radio signal, and the receiver
+        turns the signal back into sound in the loudspeaker.
+    reviewed: false
+
+  - id: KM13861-01
+    goal: KM13861
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: I en lukket beholder reagerer 4 gram hydrogen med 32 gram oksygen og
+        danner vann. Hvor mange gram vann blir det?
+      en: In a sealed container, 4 grams of hydrogen react with 32 grams of
+        oxygen to form water. How many grams of water are produced?
+    answer: 36
+    explanation:
+      nb: Masse blir verken borte eller til i en kjemisk reaksjon. Atomene blir
+        bare satt sammen på nye måter, så massen av produktene er lik massen av
+        det som reagerte, altså 4 + 32 = 36 gram.
+      en: Mass is neither lost nor created in a chemical reaction. The atoms are
+        just rearranged, so the mass of the products equals the mass of the
+        reactants, 4 + 32 = 36 grams.
+    reviewed: false
+
+  - id: KM13861-02
+    goal: KM13861
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilke stoffer dannes når rent metan brenner med rikelig oksygen?
+      en: Which substances are formed when pure methane burns with plenty of
+        oxygen?
+    choices:
+      - id: a
+        text:
+          nb: Karbondioksid og vann
+          en: Carbon dioxide and water
+        correct: true
+      - id: b
+        text:
+          nb: Bare karbondioksid
+          en: Carbon dioxide only
+      - id: c
+        text:
+          nb: Hydrogen og oksygen
+          en: Hydrogen and oxygen
+    explanation:
+      nb: Metan består av karbon og hydrogen. Ved fullstendig forbrenning binder
+        karbonet seg til oksygen og blir karbondioksid, mens hydrogenet binder
+        seg til oksygen og blir vann.
+      en: Methane is made of carbon and hydrogen. In complete combustion the
+        carbon combines with oxygen to form carbon dioxide, and the hydrogen
+        combines with oxygen to form water.
+    reviewed: false
+
+  - id: KM13861-03
+    goal: KM13861
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Stålull veies, brennes i luft og veies igjen. Vekta har økt. Betyr
+        det at massebevaring ikke gjelder?
+      en: A piece of steel wool is weighed, burned in air, and weighed again. It
+        has gained mass. Does this mean mass conservation does not hold?
+    choices:
+      - id: a
+        text:
+          nb: Nei, jernet har bundet oksygen fra lufta, og den massen kom med
+          en: No, the iron has bound oxygen from the air, and that mass came with
+            it
+        correct: true
+      - id: b
+        text:
+          nb: Ja, forbrenning lager ny masse
+          en: Yes, burning creates new mass
+      - id: c
+        text:
+          nb: Nei, vekta viser feil når noe er varmt
+          en: No, scales read wrong when something is hot
+    explanation:
+      nb: Massebevaring gjelder for alle stoffene som er med i reaksjonen, også
+        gassene. Jernet reagerer med oksygen fra lufta, og oksygenatomene blir
+        værende i det nye stoffet. Da veier asken mer enn stålulla gjorde.
+      en: Mass conservation covers every substance taking part, gases included.
+        The iron reacts with oxygen from the air, and those oxygen atoms stay in
+        the new substance, so the product weighs more than the steel wool did.
+    reviewed: false
+
+  - id: KM13862-01
+    goal: KM13862
+    type: numeric
+    difficulty: 1
+    prompt:
+      nb: Et litiumatom har atomnummer 3. Hvor mange protoner har det i kjernen?
+      en: A lithium atom has atomic number 3. How many protons does it have in
+        its nucleus?
+    answer: 3
+    explanation:
+      nb: Atomnummeret i periodesystemet forteller hvor mange protoner atomet
+        har. Det er protontallet som bestemmer hvilket grunnstoff det er.
+      en: The atomic number in the periodic table tells you how many protons the
+        atom has. The proton count is what decides which element it is.
+    reviewed: false
+
+  - id: KM13862-02
+    goal: KM13862
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvorfor reagerer edelgassene helt til høyre i periodesystemet nesten
+        ikke med andre stoffer?
+      en: Why do the noble gases on the far right of the periodic table hardly
+        react with other substances?
+    choices:
+      - id: a
+        text:
+          nb: De har fullt ytterste elektronskall
+          en: Their outermost electron shell is full
+        correct: true
+      - id: b
+        text:
+          nb: De er tyngre enn andre grunnstoffer
+          en: They are heavier than other elements
+      - id: c
+        text:
+          nb: De har ingen protoner i kjernen
+          en: They have no protons in the nucleus
+    explanation:
+      nb: Kjemiske reaksjoner handler om elektronene i det ytterste skallet.
+        Edelgassene har allerede fullt ytterskall og har derfor lite å vinne på
+        å dele eller bytte elektroner.
+      en: Chemical reactions are about the electrons in the outermost shell. The
+        noble gases already have a full outer shell, so they have little to gain
+        from sharing or swapping electrons.
+    reviewed: false
+
+  - id: KM13862-03
+    goal: KM13862
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Natrium er et mykt metall som reagerer kraftig med vann, og klor er en
+        giftig gass. Hva er natriumklorid, forbindelsen de danner sammen?
+      en: Sodium is a soft metal that reacts violently with water, and chlorine
+        is a poisonous gas. What is sodium chloride, the compound they form
+        together?
+    choices:
+      - id: a
+        text:
+          nb: Vanlig salt, som vi bruker i mat
+          en: Ordinary salt, the kind used in food
+        correct: true
+      - id: b
+        text:
+          nb: En gass som er like giftig som klor
+          en: A gas just as poisonous as chlorine
+      - id: c
+        text:
+          nb: Et metall som reagerer kraftig med vann
+          en: A metal that reacts violently with water
+    explanation:
+      nb: En kjemisk forbindelse har egne egenskaper som ikke er en blanding av
+        egenskapene til grunnstoffene. Natrium og klor danner natriumklorid,
+        altså vanlig salt.
+      en: A chemical compound has properties of its own, not a mixture of the
+        properties of its elements. Sodium and chlorine form sodium chloride,
+        ordinary table salt.
+    reviewed: false
+
+  - id: KM13863-01
+    goal: KM13863
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva beskriver drivhuseffekten best?
+      en: Which of these best describes the greenhouse effect?
+    choices:
+      - id: a
+        text:
+          nb: Gasser i atmosfæren tar opp varmestråling fra jorda og sender noe
+            av den tilbake
+          en: Gases in the atmosphere absorb heat radiation from the Earth and
+            send some of it back
+        correct: true
+      - id: b
+        text:
+          nb: Hull i ozonlaget slipper inn mer sollys
+          en: Holes in the ozone layer let in more sunlight
+      - id: c
+        text:
+          nb: Sola sender ut mer energi enn før
+          en: The sun gives off more energy than it used to
+    explanation:
+      nb: Sollys varmer opp jordoverflata, som stråler varme ut igjen.
+        Klimagasser som karbondioksid, metan og vanndamp tar opp en del av denne
+        varmestrålingen og stråler den tilbake. Uten drivhuseffekten ville jorda
+        vært langt kaldere. Ozonlaget er en annen sak, det stopper UV-stråling.
+      en: Sunlight warms the surface, which radiates heat back out. Greenhouse
+        gases such as carbon dioxide, methane and water vapour absorb some of
+        that heat radiation and radiate it back. Without the greenhouse effect
+        the Earth would be far colder. The ozone layer is a separate matter - it
+        blocks UV radiation.
+    reviewed: false
+
+  - id: KM13863-02
+    goal: KM13863
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilken menneskeskapt faktor bidrar mest til at mengden karbondioksid i
+        atmosfæren har økt de siste 150 årene?
+      en: Which human activity has contributed most to the rise in atmospheric
+        carbon dioxide over the past 150 years?
+    choices:
+      - id: a
+        text:
+          nb: Forbrenning av fossilt brensel som kull, olje og gass
+          en: Burning fossil fuels such as coal, oil and gas
+        correct: true
+      - id: b
+        text:
+          nb: Bruk av vannkraft
+          en: Use of hydropower
+      - id: c
+        text:
+          nb: Vulkanutbrudd
+          en: Volcanic eruptions
+    explanation:
+      nb: Fossilt brensel er karbon som har ligget lagret i bakken i millioner av
+        år. Når det brennes, går karbonet ut i atmosfæren som karbondioksid.
+        Vulkaner slipper også ut CO2, men langt mindre enn menneskelig
+        forbrenning, og vannkraft slipper ikke ut CO2 under drift.
+      en: Fossil fuels are carbon that lay stored underground for millions of
+        years. Burning them releases that carbon into the atmosphere as carbon
+        dioxide. Volcanoes emit CO2 too, but far less than human combustion, and
+        hydropower emits none while running.
+    reviewed: false
+
+  - id: KM13864-01
+    goal: KM13864
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: En sykkellykt drives av en dynamo på hjulet. Hvilken energiomdanning
+        skjer i dynamoen?
+      en: A bicycle lamp is powered by a dynamo on the wheel. Which energy
+        conversion happens in the dynamo?
+    choices:
+      - id: a
+        text:
+          nb: Bevegelsesenergi blir til elektrisk energi
+          en: Kinetic energy becomes electrical energy
+        correct: true
+      - id: b
+        text:
+          nb: Elektrisk energi blir til bevegelsesenergi
+          en: Electrical energy becomes kinetic energy
+      - id: c
+        text:
+          nb: Kjemisk energi blir til lysenergi
+          en: Chemical energy becomes light energy
+    explanation:
+      nb: Dynamoen drives rundt av hjulet og lager strøm, altså går
+        bevegelsesenergi over til elektrisk energi. I lyspæra går den elektriske
+        energien videre til lys og varme.
+      en: The wheel turns the dynamo, which generates current, so kinetic energy
+        becomes electrical energy. In the bulb that electrical energy goes on to
+        become light and heat.
+    reviewed: false
+
+  - id: KM13864-02
+    goal: KM13864
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: En lyspære bruker 100 J elektrisk energi og gir 10 J som lys. Hva
+        skjedde med de siste 90 J?
+      en: A light bulb uses 100 J of electrical energy and gives out 10 J as
+        light. What happened to the other 90 J?
+    choices:
+      - id: a
+        text:
+          nb: De ble til varme, som er energi med lavere kvalitet
+          en: They became heat, which is lower-quality energy
+        correct: true
+      - id: b
+        text:
+          nb: De forsvant helt
+          en: They disappeared entirely
+      - id: c
+        text:
+          nb: De ble lagret inne i pæra til neste gang
+          en: They were stored inside the bulb for next time
+    explanation:
+      nb: Energi kan ikke forsvinne, bare gå over i andre former. Her spres 90 J
+        som varme til omgivelsene. Varme som er spredt utover er vanskelig å
+        bruke til noe nytt, og derfor sier vi at energikvaliteten er lav.
+      en: Energy cannot disappear, only change form. Here 90 J spreads into the
+        surroundings as heat. Heat that has spread out is hard to put to further
+        use, which is why we call its energy quality low.
+    reviewed: false
+
+  - id: KM13865-01
+    goal: KM13865
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Et vannkraftverk slipper ikke ut klimagasser når det er i drift. Hvilken
+        miljøpåvirkning har utbygging av vannkraft likevel lokalt?
+      en: A hydropower plant emits no greenhouse gases while running. What local
+        environmental impact does building it still have?
+    choices:
+      - id: a
+        text:
+          nb: Elver og landskap endres, og leveområder for fisk og planter blir
+            påvirket
+          en: Rivers and landscapes are altered, affecting habitats for fish and
+            plants
+        correct: true
+      - id: b
+        text:
+          nb: Lufta i området blir sur av svovel
+          en: The air nearby turns acidic from sulphur
+      - id: c
+        text:
+          nb: Det oppstår radioaktivt avfall
+          en: Radioactive waste is produced
+    explanation:
+      nb: Ulike energikilder har ulike virkninger. Vannkraft gir ikke utslipp til
+        lufta under drift, men demninger og rørgater endrer vannføringen i elva
+        og landskapet rundt. Sur nedbør kommer fra svovel i fossilt brensel, og
+        radioaktivt avfall kommer fra kjernekraft.
+      en: Different energy sources have different effects. Hydropower emits
+        nothing to the air while running, but dams and pipelines change a
+        river's flow and the landscape around it. Acid rain comes from sulphur
+        in fossil fuels, and radioactive waste comes from nuclear power.
+    reviewed: false
+
+  - id: KM13866-01
+    goal: KM13866
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilken observasjon var viktig for Darwin da han utviklet
+        evolusjonsteorien?
+      en: Which observation was important to Darwin as he developed the theory of
+        evolution?
+    choices:
+      - id: a
+        text:
+          nb: Beslektede arter på ulike øyer hadde ulike trekk som passet til
+            maten der
+          en: Related species on different islands had different traits suited to
+            the food available there
+        correct: true
+      - id: b
+        text:
+          nb: Alle individer i en art er helt like
+          en: All individuals of a species are exactly alike
+      - id: c
+        text:
+          nb: Dyr endrer seg i løpet av livet og gir endringene videre
+          en: Animals change during their lifetime and pass those changes on
+    explanation:
+      nb: Darwin la merke til at beslektede arter varierte fra sted til sted på
+        måter som passet til miljøet. Variasjon mellom individer er selve
+        forutsetningen for naturlig utvalg. At egenskaper man skaffer seg i løpet
+        av livet arves, var en eldre idé som ikke holdt.
+      en: Darwin noticed that related species varied from place to place in ways
+        that matched their surroundings. Variation between individuals is the
+        very basis of natural selection. The idea that traits acquired during
+        life are inherited was an older one that did not hold up.
+    reviewed: false
+
+  - id: KM13866-02
+    goal: KM13866
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: I et område blir bakkene mørkere av sot. Etter mange generasjoner er de
+        fleste billene i området mørke, mens de før var lyse. Hva forklarer
+        endringen best?
+      en: In one area the ground turns darker with soot. After many generations
+        most beetles there are dark, where before they were pale. What best
+        explains the change?
+    choices:
+      - id: a
+        text:
+          nb: Mørke biller ble sjeldnere spist og fikk flere avkom, så genene
+            deres ble vanligere
+          en: Dark beetles were eaten less often and had more offspring, so their
+            genes became more common
+        correct: true
+      - id: b
+        text:
+          nb: De lyse billene ble mørkere fordi de ville skjule seg
+          en: The pale beetles turned darker because they wanted to hide
+      - id: c
+        text:
+          nb: Sot festet seg til billene og farget dem
+          en: Soot stuck to the beetles and coloured them
+    explanation:
+      nb: Naturlig utvalg virker på variasjon som allerede finnes i bestanden.
+        Enkeltbiller endrer ikke farge etter behov, men de som tilfeldigvis var
+        mørke, overlevde oftere og fikk flere avkom. Over generasjoner blir da
+        mørk farge vanligere.
+      en: Natural selection acts on variation already present in the population.
+        Individual beetles do not change colour on demand, but the ones that
+        happened to be dark survived more often and had more offspring, so over
+        generations dark colouring became common.
+    reviewed: false
+
+  - id: KM13867-01
+    goal: KM13867
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvilken celledel finnes i plantecellen, men ikke i dyrecellen?
+      en: Which cell part is found in a plant cell but not in an animal cell?
+    choices:
+      - id: a
+        text:
+          nb: Kloroplast
+          en: Chloroplast
+        correct: true
+      - id: b
+        text:
+          nb: Cellekjerne
+          en: Nucleus
+      - id: c
+        text:
+          nb: Cellemembran
+          en: Cell membrane
+    explanation:
+      nb: Kloroplastene er der fotosyntesen skjer, og bare planteceller og noen
+        alger har dem. Cellekjerne og cellemembran finnes i både plante- og
+        dyreceller.
+      en: Chloroplasts are where photosynthesis happens, and only plant cells and
+        some algae have them. A nucleus and a cell membrane are found in both
+        plant and animal cells.
+    reviewed: false
+
+  - id: KM13867-02
+    goal: KM13867
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: En muskelcelle har mange flere mitokondrier enn en hudcelle. Hva
+        forteller det om funksjonen til muskelcellen?
+      en: A muscle cell has many more mitochondria than a skin cell. What does
+        that tell you about the muscle cell's function?
+    choices:
+      - id: a
+        text:
+          nb: Den bruker mye energi og trenger mye celleånding
+          en: It uses a lot of energy and needs plenty of cellular respiration
+        correct: true
+      - id: b
+        text:
+          nb: Den deler seg oftere enn andre celler
+          en: It divides more often than other cells
+      - id: c
+        text:
+          nb: Den lagrer mer vann enn andre celler
+          en: It stores more water than other cells
+    explanation:
+      nb: Mitokondriene er der celleåndingen frigjør energi fra næringsstoffer.
+        Celler som jobber hardt, som muskelceller, har derfor mange av dem.
+        Oppbygningen henger sammen med funksjonen.
+      en: Mitochondria are where cellular respiration releases energy from
+        nutrients. Cells that work hard, such as muscle cells, therefore have
+        many of them. Structure follows function.
+    reviewed: false
+
+  - id: KM13868-01
+    goal: KM13868
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvilken av disse er en abiotisk faktor i et økosystem?
+      en: Which of these is an abiotic factor in an ecosystem?
+    choices:
+      - id: a
+        text:
+          nb: Temperaturen i jorda
+          en: The temperature of the soil
+        correct: true
+      - id: b
+        text:
+          nb: Meitemarkene i jorda
+          en: The earthworms in the soil
+      - id: c
+        text:
+          nb: Soppen på trestammen
+          en: The fungus on the tree trunk
+    explanation:
+      nb: Abiotiske faktorer er de ikke-levende delene av økosystemet, som
+        temperatur, lys, vann og pH. Meitemark og sopp er levende, altså
+        biotiske faktorer.
+      en: Abiotic factors are the non-living parts of an ecosystem - temperature,
+        light, water, pH. Earthworms and fungi are alive, so they are biotic
+        factors.
+    reviewed: false
+
+  - id: KM13868-02
+    goal: KM13868
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: I en næringskjede går bare en liten del av energien videre fra ett ledd
+        til det neste. Hvorfor blir det mindre energi høyere opp i kjeden?
+      en: In a food chain only a small part of the energy passes from one level
+        to the next. Why is there less energy higher up the chain?
+    choices:
+      - id: a
+        text:
+          nb: Mesteparten av energien brukes til livsprosesser og forsvinner som
+            varme
+          en: Most of the energy is spent on life processes and leaves as heat
+        correct: true
+      - id: b
+        text:
+          nb: Energien blir borte fordi den brytes ned til ingenting
+          en: The energy is destroyed and becomes nothing
+      - id: c
+        text:
+          nb: Rovdyrene spiser for lite til å få med seg energien
+          en: The predators eat too little to take the energy with them
+    explanation:
+      nb: Hvert ledd bruker mesteparten av energien selv, til bevegelse, vekst og
+        varme. Bare det som er lagret i kroppen, kan spises videre. Energien blir
+        ikke borte, den går over til varme som ikke kan brukes på nytt. Stoffer
+        som karbon og nitrogen går derimot i kretsløp og kommer tilbake.
+      en: Each level uses most of the energy itself, for movement, growth and
+        heat. Only what is stored in the body can be eaten on. The energy is not
+        destroyed; it turns into heat that cannot be reused. Matter such as
+        carbon and nitrogen, by contrast, cycles round and comes back.
+    reviewed: false
+
+  - id: KM13869-01
+    goal: KM13869
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Samisk språk har mange presise ord for ulike typer snø og
+        beiteforhold. Hvorfor er slik kunnskap nyttig i reindrifta?
+      en: The Sami languages have many precise words for different kinds of snow
+        and grazing conditions. Why is such knowledge useful in reindeer
+        herding?
+    choices:
+      - id: a
+        text:
+          nb: Snøens tilstand avgjør om reinen kommer ned til laven den beiter på
+          en: The state of the snow decides whether the reindeer can reach the
+            lichen they graze on
+        correct: true
+      - id: b
+        text:
+          nb: Ordene brukes bare i sanger og fortellinger
+          en: The words are used only in songs and stories
+      - id: c
+        text:
+          nb: Snøtypen forteller hvor mange rein en flokk kan ha
+          en: The type of snow tells you how many reindeer a herd may have
+    explanation:
+      nb: Reinen graver seg ned til lav under snøen. Er snøen løs, går det lett;
+        er den islagt eller hardpakket, kommer ikke dyra ned til maten. Å kunne
+        skille snøtyper presist er derfor praktisk kunnskap om beite og
+        flytting, bygd opp gjennom generasjoner.
+      en: Reindeer dig down to lichen beneath the snow. Loose snow makes that
+        easy; icy or hard-packed snow can keep the animals from the food below.
+        Telling snow types apart precisely is therefore practical knowledge about
+        grazing and moving herds, built up over generations.
+    reviewed: false
+
+  - id: KM13870-01
+    goal: KM13870
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilke stoffer bruker planten i fotosyntesen, og hva blir resultatet?
+      en: Which substances does a plant use in photosynthesis, and what is
+        produced?
+    choices:
+      - id: a
+        text:
+          nb: Karbondioksid og vann blir til druesukker og oksygen
+          en: Carbon dioxide and water become glucose and oxygen
+        correct: true
+      - id: b
+        text:
+          nb: Oksygen og druesukker blir til karbondioksid og vann
+          en: Oxygen and glucose become carbon dioxide and water
+      - id: c
+        text:
+          nb: Nitrogen og vann blir til protein og oksygen
+          en: Nitrogen and water become protein and oxygen
+    explanation:
+      nb: I fotosyntesen bruker planten energi fra sollys til å sette sammen
+        karbondioksid og vann til druesukker, og oksygen blir til overs.
+        Alternativ b beskriver celleånding, som er den motsatte prosessen.
+      en: In photosynthesis the plant uses energy from sunlight to build glucose
+        from carbon dioxide and water, with oxygen left over. Option b describes
+        cellular respiration, the reverse process.
+    reviewed: false
+
+  - id: KM13870-02
+    goal: KM13870
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Karbonatomene i musklene dine har vært innom en plante. Hvordan kom de
+        inn i det levende kretsløpet?
+      en: The carbon atoms in your muscles have passed through a plant. How did
+        they enter the living carbon cycle?
+    choices:
+      - id: a
+        text:
+          nb: Planten tok dem opp som karbondioksid fra lufta i fotosyntesen
+          en: The plant took them up as carbon dioxide from the air during
+            photosynthesis
+        correct: true
+      - id: b
+        text:
+          nb: Planten tok dem opp som karbon fra jorda gjennom røttene
+          en: The plant took them up as carbon from the soil through its roots
+      - id: c
+        text:
+          nb: Planten lagde karbonatomene selv
+          en: The plant made the carbon atoms itself
+    explanation:
+      nb: Karbonet i alt levende kommer opprinnelig fra karbondioksid i lufta,
+        som planter binder i fotosyntesen. Røttene tar opp vann og næringssalter,
+        ikke karbon. Ved celleånding går karbonet tilbake til lufta som CO2, og
+        kretsløpet er sluttet.
+      en: The carbon in every living thing originally comes from carbon dioxide
+        in the air, which plants fix during photosynthesis. Roots take up water
+        and mineral nutrients, not carbon. Cellular respiration returns the
+        carbon to the air as CO2, closing the cycle.
+    reviewed: false
+
+  - id: KM13871-01
+    goal: KM13871
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvilken observasjon støtter teorien om at kontinentene har flyttet seg?
+      en: Which observation supports the theory that the continents have moved?
+    choices:
+      - id: a
+        text:
+          nb: Like fossiler finnes på kyster som i dag er skilt av et hav
+          en: Matching fossils are found on coasts now separated by an ocean
+        correct: true
+      - id: b
+        text:
+          nb: Det er kaldere ved polene enn ved ekvator
+          en: It is colder at the poles than at the equator
+      - id: c
+        text:
+          nb: Månen går i bane rundt jorda
+          en: The moon orbits the Earth
+    explanation:
+      nb: Samme fossile arter på begge sider av Atlanterhavet er vanskelig å
+        forklare hvis kontinentene alltid har ligget der de ligger nå. Kystlinjer
+        som passer sammen, og at havbunnen er yngst midt i havet, peker samme
+        vei.
+      en: The same fossil species on both sides of the Atlantic is hard to
+        explain if the continents had always been where they are now. Coastlines
+        that fit together, and seafloor that is youngest in mid-ocean, point the
+        same way.
+    reviewed: false
+
+  - id: KM13871-02
+    goal: KM13871
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hvorfor er det så mange jordskjelv og vulkaner rundt Stillehavet?
+      en: Why are there so many earthquakes and volcanoes around the Pacific
+        Ocean?
+    choices:
+      - id: a
+        text:
+          nb: Der møtes flere jordplater som beveger seg mot hverandre
+          en: Several tectonic plates meet and move against each other there
+        correct: true
+      - id: b
+        text:
+          nb: Havet der er dypere enn andre steder
+          en: The ocean there is deeper than elsewhere
+      - id: c
+        text:
+          nb: Det regner mer der enn andre steder
+          en: It rains more there than elsewhere
+    explanation:
+      nb: Jordskorpa er delt i plater som beveger seg noen få centimeter i året.
+        Der plater skyves mot hverandre, bygges det opp spenninger som utløses
+        som jordskjelv, og materiale som presses ned kan smelte og gi vulkaner.
+      en: The crust is split into plates that move a few centimetres a year.
+        Where plates push against each other, stress builds up and is released as
+        earthquakes, and material forced downwards can melt and feed volcanoes.
+    reviewed: false
+
+  - id: KM13872-01
+    goal: KM13872
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hvilket prevensjonsmiddel beskytter både mot graviditet og mot
+        seksuelt overførbare infeksjoner?
+      en: Which method of contraception protects both against pregnancy and
+        against sexually transmitted infections?
+    choices:
+      - id: a
+        text:
+          nb: Kondom
+          en: A condom
+        correct: true
+      - id: b
+        text:
+          nb: P-piller
+          en: The contraceptive pill
+      - id: c
+        text:
+          nb: Hormonspiral
+          en: A hormonal IUD
+    explanation:
+      nb: P-piller og hormonspiral virker på eggløsning og livmor og hindrer
+        graviditet, men de er ingen barriere mot smitte. Kondom er det eneste
+        alminnelige prevensjonsmidlet som også hindrer at smittestoffer overføres
+        mellom slimhinner.
+      en: The pill and a hormonal IUD act on ovulation and the uterus and prevent
+        pregnancy, but they are no barrier to infection. A condom is the only
+        common contraceptive that also stops pathogens passing between mucous
+        membranes.
+    reviewed: false
+
+  - id: KM13872-02
+    goal: KM13872
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Fra hvilken alder kan man i Norge oppsøke helsestasjon for ungdom og få
+        veiledning om seksuell helse uten at foreldrene må samtykke?
+      en: In Norway, from what age can you visit a youth health clinic and get
+        guidance on sexual health without a parent's consent?
+    choices:
+      - id: a
+        text:
+          nb: Fra 16 år, som er den helserettslige myndighetsalderen
+          en: From 16, the age of medical consent
+        correct: true
+      - id: b
+        text:
+          nb: Fra 18 år
+          en: From 18
+      - id: c
+        text:
+          nb: Bare med skriftlig samtykke fra foreldre, uansett alder
+          en: Only with written parental consent, at any age
+    explanation:
+      nb: I Norge er den helserettslige myndighetsalderen 16 år. Da bestemmer man
+        selv over egen helsehjelp. Helsestasjon for ungdom er gratis og har
+        taushetsplikt, og yngre kan også komme dit og få hjelp og veiledning.
+      en: In Norway the age of medical consent is 16, from which you decide about
+        your own health care. Youth health clinics are free and bound by
+        confidentiality, and younger people can go there for help and advice too.
+    reviewed: false
+
+  - id: KM13873-01
+    goal: KM13873
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva er den viktigste forskjellen mellom nervesystemet og
+        hormonsystemet?
+      en: What is the main difference between the nervous system and the hormone
+        system?
+    choices:
+      - id: a
+        text:
+          nb: Nervesystemet sender raske elektriske signaler, mens hormoner går
+            saktere med blodet
+          en: The nervous system sends fast electrical signals, while hormones
+            travel more slowly in the blood
+        correct: true
+      - id: b
+        text:
+          nb: Hormonsystemet virker raskere enn nervesystemet
+          en: The hormone system acts faster than the nervous system
+      - id: c
+        text:
+          nb: Bare nervesystemet kan påvirke flere organer samtidig
+          en: Only the nervous system can affect several organs at once
+    explanation:
+      nb: Nerveimpulser går på brøkdelen av et sekund og treffer bestemte celler,
+        for eksempel når du trekker hånda til deg. Hormoner skilles ut i blodet
+        og virker saktere, men bredere og lenger, som ved vekst og pubertet.
+      en: Nerve impulses travel in fractions of a second and reach specific
+        cells - pulling your hand back, for instance. Hormones are released into
+        the blood and act more slowly, but more widely and for longer, as in
+        growth and puberty.
+    reviewed: false
+
+  - id: KM13873-02
+    goal: KM13873
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Hvordan virker rusmidler, legemidler og doping på kroppens
+        signalsystemer?
+      en: How do drugs, medicines and doping substances act on the body's
+        signalling systems?
+    choices:
+      - id: a
+        text:
+          nb: De etterligner eller forstyrrer kroppens egne signalstoffer
+          en: They mimic or interfere with the body's own signalling substances
+        correct: true
+      - id: b
+        text:
+          nb: De virker bare på musklene, ikke på signalstoffene
+          en: They act only on the muscles, not on signalling substances
+      - id: c
+        text:
+          nb: De endrer arvestoffet i alle cellene
+          en: They change the DNA in every cell
+    explanation:
+      nb: Nerveceller snakker sammen med signalstoffer som binder seg til
+        reseptorer. Mange rusmidler og legemidler ligner nok på disse stoffene
+        til å binde seg i stedet, eller de endrer hvor mye signalstoff som
+        finnes. Anabole steroider ligner på testosteron og virker på
+        hormonsystemet på samme måte.
+      en: Nerve cells communicate using signalling substances that bind to
+        receptors. Many drugs and medicines resemble those substances closely
+        enough to bind in their place, or they change how much signalling
+        substance is present. Anabolic steroids resemble testosterone and act on
+        the hormone system the same way.
+    reviewed: false
+
+  - id: KM13874-01
+    goal: KM13874
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva skjer i kroppen når du får en vaksine?
+      en: What happens in the body when you are given a vaccine?
+    choices:
+      - id: a
+        text:
+          nb: Immunforsvaret møter en ufarlig del av smittestoffet og lager
+            antistoffer og hukommelsesceller
+          en: The immune system meets a harmless part of the pathogen and makes
+            antibodies and memory cells
+        correct: true
+      - id: b
+        text:
+          nb: Kroppen får ferdige antistoffer som varer livet ut
+          en: The body receives ready-made antibodies that last for life
+      - id: c
+        text:
+          nb: Vaksinen dreper bakterier som allerede finnes i kroppen
+          en: The vaccine kills bacteria already in the body
+    explanation:
+      nb: En vaksine viser immunforsvaret et kjennetegn ved smittestoffet uten at
+        du blir syk. Kroppen lager antistoffer og hukommelsesceller, og møter du
+        det ekte smittestoffet senere, reagerer immunforsvaret raskt.
+      en: A vaccine shows the immune system a marker from the pathogen without
+        making you ill. The body makes antibodies and memory cells, so if the
+        real pathogen turns up later the immune system responds quickly.
+    reviewed: false
+
+  - id: KM13874-02
+    goal: KM13874
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: Hva menes med flokkimmunitet?
+      en: What is meant by herd immunity?
+    choices:
+      - id: a
+        text:
+          nb: Når nok mennesker er immune, får smitten vanskelig for å spre seg,
+            og også de som ikke kan vaksineres, beskyttes indirekte
+          en: When enough people are immune, the infection struggles to spread,
+            and those who cannot be vaccinated are protected indirectly
+        correct: true
+      - id: b
+        text:
+          nb: At immunforsvaret blir sterkere av å være mange sammen
+          en: That the immune system grows stronger when people are together
+      - id: c
+        text:
+          nb: At en vaksine gir immunitet til dem som står i nærheten
+          en: That a vaccine gives immunity to those standing nearby
+    explanation:
+      nb: Et smittestoff trenger nye mottakelige personer for å spre seg videre.
+        Er en stor nok andel immune, stopper smittekjedene opp. Det beskytter
+        blant annet spedbarn og personer med svekket immunforsvar, som selv ikke
+        kan ta alle vaksiner.
+      en: A pathogen needs new susceptible people to keep spreading. If a large
+        enough share of the population is immune, chains of transmission break.
+        That protects infants and people with weakened immune systems, who cannot
+        take every vaccine themselves.
+    reviewed: false
+
+# Goals that no written question can honestly test. Recorded rather than
+# omitted, so the gap is a stated judgement instead of a silent one.
+not_assessable:
+  - goal: KM13857
+    reason: >-
+      Asks the pupil to take part in risk assessments for experiments and follow
+      the safety measures. Both halves are conduct in a lab, observed by a
+      teacher over time. A written question could at best ask which safety rule
+      is sensible, which tests neither participation nor compliance.
+
+  - goal: KM13858
+    reason: >-
+      Asks for examples of current research and a discussion of how new
+      knowledge is generated. "Dagsaktuell" means the material goes stale within
+      months, so any fixed question would be wrong by the time a pupil met it,
+      and the assessed part is the pupil's own discussion rather than a fact.
+
+  - goal: KM13860
+    reason: >-
+      Asks the pupil to use programming to explore scientific phenomena. That is
+      something done at a keyboard - writing, running and adjusting code. A quiz
+      could ask what a printed program outputs, but that would test code
+      reading, not the use of programming as an investigative tool.
+
+  - goal: KM13875
+    reason: >-
+      Asks the pupil to give examples of and discuss current dilemmas around use
+      of natural resources and loss of biodiversity. A dilemma has competing
+      legitimate interests by definition; marking one side correct would present
+      a contested policy question as settled science. The weighing is the goal,
+      and it belongs in a classroom discussion, not a quiz key.

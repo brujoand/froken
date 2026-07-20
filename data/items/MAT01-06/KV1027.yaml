@@ -1,0 +1,506 @@
+# Matematikk, kompetansemål etter 8. trinn (MAT01-06 / KV1027).
+#
+# Questions here are ours, not Udir's. The competence goals they test are quoted
+# verbatim elsewhere; nothing in this file is official curriculum text.
+---
+subject: MAT01-06
+goal_set: KV1027
+
+items:
+  # KM13297 -- potenser og kvadratrøtter
+  - id: KM13297-01
+    goal: KM13297
+    type: numeric
+    difficulty: 1
+    prompt:
+      nb: "Hva er 2⁵?"
+      en: "What is 2⁵?"
+    answer: 32
+    explanation:
+      nb: 2⁵ betyr 2 · 2 · 2 · 2 · 2. Ganger du deg gjennom, får du 32.
+      en: 2⁵ means 2 · 2 · 2 · 2 · 2. Multiplying through gives 32.
+    reviewed: false
+
+  - id: KM13297-02
+    goal: KM13297
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: "Regn ut √81 + 2³."
+      en: "Work out √81 + 2³."
+    answer: 17
+    explanation:
+      nb: √81 er 9, fordi 9 · 9 = 81. 2³ er 8. Til sammen blir det 17.
+      en: √81 is 9, because 9 · 9 = 81. 2³ is 8. Together that makes 17.
+    reviewed: false
+
+  - id: KM13297-03
+    goal: KM13297
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: "Hvilket uttrykk er det samme som 3² · 3⁴?"
+      en: "Which expression is the same as 3² · 3⁴?"
+    choices:
+      - id: a
+        text:
+          nb: "3⁶"
+          en: "3⁶"
+        correct: true
+      - id: b
+        text:
+          nb: "3⁸"
+          en: "3⁸"
+      - id: c
+        text:
+          nb: "9⁶"
+          en: "9⁶"
+    explanation:
+      nb: 3² er to treere og 3⁴ er fire treere. Til sammen ganger du seks treere,
+        altså 3⁶. Når du ganger potenser med samme grunntall, legger du sammen
+        eksponentene.
+      en: 3² is two threes and 3⁴ is four threes. Together you multiply six
+        threes, which is 3⁶. Multiplying powers with the same base means adding
+        the exponents.
+    reviewed: false
+
+  # KM13303 -- kommutative, assosiative og distributive egenskaper
+  - id: KM13303-01
+    goal: KM13303
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Sondre regner ut 4 · 27 i hodet ved å tenke 4 · 25 + 4 · 2. Hvilken
+        egenskap bruker han?
+      en: Sondre works out 4 · 27 in his head by thinking 4 · 25 + 4 · 2. Which
+        property is he using?
+    choices:
+      - id: a
+        text:
+          nb: Den distributive egenskapen
+          en: The distributive property
+        correct: true
+      - id: b
+        text:
+          nb: Den kommutative egenskapen
+          en: The commutative property
+      - id: c
+        text:
+          nb: Den assosiative egenskapen
+          en: The associative property
+    explanation:
+      nb: Han deler 27 i 25 + 2 og ganger 4 med hver del for seg. Å fordele
+        gangingen over en sum er den distributive egenskapen.
+      en: He splits 27 into 25 + 2 and multiplies each part by 4. Distributing
+        the multiplication over a sum is the distributive property.
+    reviewed: false
+
+  - id: KM13303-02
+    goal: KM13303
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: Regn ut 25 · 17 · 4 i hodet. Bytt om rekkefølgen så regnestykket blir
+        enkelt.
+      en: Work out 25 · 17 · 4 in your head. Reorder the factors to make it easy.
+    answer: 1700
+    explanation:
+      nb: Rekkefølgen betyr ingenting når du ganger. Ta 25 · 4 = 100 først, og
+        gang så med 17. Da får du 1700.
+      en: Order does not matter when multiplying. Take 25 · 4 = 100 first, then
+        multiply by 17, giving 1700.
+    reviewed: false
+
+  # KM13298 -- faktorisering og primtallsfaktorisering
+  - id: KM13298-01
+    goal: KM13298
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Hva er primtallsfaktoriseringen av 60?
+      en: What is the prime factorisation of 60?
+    choices:
+      - id: a
+        text:
+          nb: "2 · 2 · 3 · 5"
+          en: "2 · 2 · 3 · 5"
+        correct: true
+      - id: b
+        text:
+          nb: "2 · 3 · 10"
+          en: "2 · 3 · 10"
+      - id: c
+        text:
+          nb: "4 · 15"
+          en: "4 · 15"
+    explanation:
+      nb: I en primtallsfaktorisering skal alle faktorene være primtall. 10, 4 og
+        15 er ikke primtall. 60 = 2 · 2 · 3 · 5.
+      en: In a prime factorisation every factor must be a prime. 10, 4 and 15 are
+        not primes. 60 = 2 · 2 · 3 · 5.
+    reviewed: false
+
+  - id: KM13298-02
+    goal: KM13298
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Forkort brøken 24/36 så mye som mulig.
+      en: Reduce the fraction 24/36 as far as it will go.
+    choices:
+      - id: a
+        text:
+          nb: "2/3"
+          en: "2/3"
+        correct: true
+      - id: b
+        text:
+          nb: "12/18"
+          en: "12/18"
+      - id: c
+        text:
+          nb: "6/9"
+          en: "6/9"
+    explanation:
+      nb: 24 = 2 · 2 · 2 · 3 og 36 = 2 · 2 · 3 · 3. Felles faktorer er 2 · 2 · 3
+        = 12. Deler du med 12 over og under, står du igjen med 2/3. De andre
+        svarene kan forkortes videre.
+      en: 24 = 2 · 2 · 2 · 3 and 36 = 2 · 2 · 3 · 3. The common factors are
+        2 · 2 · 3 = 12. Dividing top and bottom by 12 leaves 2/3. The other
+        answers can still be reduced.
+    reviewed: false
+
+  - id: KM13298-03
+    goal: KM13298
+    type: numeric
+    difficulty: 3
+    prompt:
+      nb: Hva er minste felles nevner for 1/6 og 1/8?
+      en: What is the lowest common denominator of 1/6 and 1/8?
+    answer: 24
+    explanation:
+      nb: 6 = 2 · 3 og 8 = 2 · 2 · 2. Nevneren må ha nok faktorer for begge, altså
+        2 · 2 · 2 · 3 = 24.
+      en: 6 = 2 · 3 and 8 = 2 · 2 · 2. The denominator needs enough factors for
+        both, so 2 · 2 · 2 · 3 = 24.
+    reviewed: false
+
+  # KM13299 -- generalisere mønstre
+  - id: KM13299-01
+    goal: KM13299
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: "Figur 1 har 4 fyrstikker, figur 2 har 7, figur 3 har 10 og figur 4 har
+        13. Hvilket uttrykk gir antall fyrstikker i figur n?"
+      en: "Figure 1 uses 4 matchsticks, figure 2 uses 7, figure 3 uses 10 and
+        figure 4 uses 13. Which expression gives the number in figure n?"
+    choices:
+      - id: a
+        text:
+          nb: "3n + 1"
+          en: "3n + 1"
+        correct: true
+      - id: b
+        text:
+          nb: "3n"
+          en: "3n"
+      - id: c
+        text:
+          nb: "n + 3"
+          en: "n + 3"
+    explanation:
+      nb: Det kommer 3 nye fyrstikker for hver figur, så uttrykket må inneholde
+        3n. Figur 1 har 4, og 3 · 1 = 3, så du må legge til 1. Da blir det 3n + 1.
+      en: Each figure adds 3 more matchsticks, so the expression must contain 3n.
+        Figure 1 has 4 and 3 · 1 = 3, so you add 1, giving 3n + 1.
+    reviewed: false
+
+  - id: KM13299-02
+    goal: KM13299
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: "Tallmønsteret er 2, 6, 10, 14 … Hvilket tall er nummer 10 i rekka?"
+      en: "The number pattern is 2, 6, 10, 14 … which number is the 10th in the
+        sequence?"
+    answer: 38
+    explanation:
+      nb: Rekka øker med 4 hver gang. Fra tall nummer 1 til tall nummer 10 er det
+        9 steg, så 2 + 9 · 4 = 38.
+      en: The sequence goes up by 4 each time. From the 1st to the 10th term is 9
+        steps, so 2 + 9 · 4 = 38.
+    reviewed: false
+
+  # KM13301 -- regneuttrykk med tall, variabler og konstanter
+  - id: KM13301-01
+    goal: KM13301
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Å låne kajakk på klubben koster 50 kroner i startpris og 30 kroner for
+        hver time. Hvilket uttrykk viser prisen for t timer?
+      en: Borrowing a kayak at the club costs 50 kroner to start plus 30 kroner
+        per hour. Which expression gives the price for t hours?
+    choices:
+      - id: a
+        text:
+          nb: "50 + 30t"
+          en: "50 + 30t"
+        correct: true
+      - id: b
+        text:
+          nb: "30 + 50t"
+          en: "30 + 50t"
+      - id: c
+        text:
+          nb: "80t"
+          en: "80t"
+    explanation:
+      nb: Startprisen på 50 betales én gang og er en konstant. De 30 kronene
+        gjentas for hver time, så de ganges med t. Uttrykket blir 50 + 30t.
+      en: The 50 kroner start fee is paid once and is a constant. The 30 kroner
+        repeats every hour, so it is multiplied by t, giving 50 + 30t.
+    reviewed: false
+
+  - id: KM13301-02
+    goal: KM13301
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: Et kvadrat har sidelengde s. Hva forteller uttrykket 4s?
+      en: A square has side length s. What does the expression 4s tell you?
+    choices:
+      - id: a
+        text:
+          nb: Omkretsen av kvadratet
+          en: The perimeter of the square
+        correct: true
+      - id: b
+        text:
+          nb: Arealet av kvadratet
+          en: The area of the square
+      - id: c
+        text:
+          nb: Lengden av diagonalen
+          en: The length of the diagonal
+    explanation:
+      nb: Kvadratet har fire like lange sider, så du går 4 · s rundt hele figuren.
+        Arealet ville vært s · s.
+      en: The square has four equal sides, so going all the way round is 4 · s.
+        The area would be s · s.
+    reviewed: false
+
+  # KM13304 -- ligninger, og kritisk vurdering av løsninger
+  - id: KM13304-01
+    goal: KM13304
+    type: numeric
+    difficulty: 1
+    prompt:
+      nb: "Løs ligningen: 3x + 7 = 25. Hva er x?"
+      en: "Solve the equation: 3x + 7 = 25. What is x?"
+    answer: 6
+    explanation:
+      nb: Trekk fra 7 på begge sider, så står det 3x = 18. Del begge sider på 3,
+        og du får x = 6.
+      en: Subtract 7 from both sides to get 3x = 18. Divide both sides by 3 and
+        you get x = 6.
+    reviewed: false
+
+  - id: KM13304-02
+    goal: KM13304
+    type: multiple_choice
+    difficulty: 3
+    prompt:
+      nb: En klasse skal fraktes i busser. Ida setter opp en ligning der x er
+        antall busser, og regner ut x = 7,5. Hva er det riktige svaret på
+        oppgaven?
+      en: A class is to travel by bus. Ida sets up an equation where x is the
+        number of buses and works out x = 7.5. What is the right answer to the
+        question?
+    choices:
+      - id: a
+        text:
+          nb: 8 busser
+          en: 8 buses
+        correct: true
+      - id: b
+        text:
+          nb: "7,5 busser"
+          en: "7.5 buses"
+      - id: c
+        text:
+          nb: 7 busser
+          en: 7 buses
+    explanation:
+      nb: Regningen er riktig, men en halv buss finnes ikke. Siden alle skal være
+        med, må du runde opp til 8. Løsningen på ligningen må alltid sjekkes mot
+        situasjonen den kom fra.
+      en: The arithmetic is right, but half a bus does not exist. Since everyone
+        has to fit, you round up to 8. An equation's solution must always be
+        checked against the situation it came from.
+    reviewed: false
+
+  # KM13305 -- ulikheter
+  - id: KM13305-01
+    goal: KM13305
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: "Hvilke tall x løser ulikheten 2x + 3 < 11?"
+      en: "Which numbers x solve the inequality 2x + 3 < 11?"
+    choices:
+      - id: a
+        text:
+          nb: "x < 4"
+          en: "x < 4"
+        correct: true
+      - id: b
+        text:
+          nb: "x > 4"
+          en: "x > 4"
+      - id: c
+        text:
+          nb: "x < 7"
+          en: "x < 7"
+    explanation:
+      nb: Trekk fra 3 på begge sider, så står det 2x < 8. Del på 2, og du får
+        x < 4. Du kan sjekke med x = 3, som gir 9, og det er mindre enn 11.
+      en: Subtract 3 from both sides to get 2x < 8. Divide by 2 and you get x < 4.
+        Check with x = 3, which gives 9, and 9 is less than 11.
+    reviewed: false
+
+  - id: KM13305-02
+    goal: KM13305
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: "Hva er det største hele tallet x som gjør at 5x ≤ 42?"
+      en: "What is the largest whole number x for which 5x ≤ 42?"
+    answer: 8
+    explanation:
+      nb: 5 · 8 = 40, som er mindre enn 42. 5 · 9 = 45, som er for mye. Da er 8
+        det største hele tallet som er gyldig.
+      en: 5 · 8 = 40, which is under 42. 5 · 9 = 45, which is too much. So 8 is
+        the largest whole number that works.
+    reviewed: false
+
+  # KM13302 -- funksjoner knyttet til praktiske situasjoner
+  - id: KM13302-01
+    goal: KM13302
+    type: numeric
+    difficulty: 2
+    prompt:
+      nb: Plante A er 10 cm høy og vokser 2 cm i uka. Plante B er 4 cm høy og
+        vokser 4 cm i uka. Etter hvor mange uker er plantene like høye?
+      en: Plant A is 10 cm tall and grows 2 cm a week. Plant B is 4 cm tall and
+        grows 4 cm a week. After how many weeks are the plants the same height?
+    answer: 3
+    explanation:
+      nb: Plante B tar igjen 2 cm i uka, og ligger 6 cm bak. 6 delt på 2 er 3
+        uker. Da er begge 16 cm høye.
+      en: Plant B gains 2 cm a week and starts 6 cm behind. 6 divided by 2 is 3
+        weeks. Both are then 16 cm tall.
+    reviewed: false
+
+  - id: KM13302-02
+    goal: KM13302
+    type: multiple_choice
+    difficulty: 1
+    prompt:
+      nb: Hva kjennetegner grafen til en lineær funksjon?
+      en: What does the graph of a linear function look like?
+    choices:
+      - id: a
+        text:
+          nb: Den er en rett linje
+          en: It is a straight line
+        correct: true
+      - id: b
+        text:
+          nb: Den er en sirkel
+          en: It is a circle
+      - id: c
+        text:
+          nb: Den blir brattere og brattere
+          en: It gets steeper and steeper
+    explanation:
+      nb: En lineær funksjon endrer seg like mye for hvert steg. Når endringen er
+        den samme hele veien, blir grafen en rett linje.
+      en: A linear function changes by the same amount at every step. When the
+        change stays the same throughout, the graph is a straight line.
+    reviewed: false
+
+  # KM13306 -- tabell, graf og uttrykk som representasjoner
+  - id: KM13306-01
+    goal: KM13306
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: "I tabellen hører x-verdiene 0, 1, 2, 3 sammen med y-verdiene 5, 8, 11,
+        14. Hvilket uttrykk passer?"
+      en: "In the table, the x-values 0, 1, 2, 3 pair with the y-values 5, 8, 11,
+        14. Which expression fits?"
+    choices:
+      - id: a
+        text:
+          nb: "y = 3x + 5"
+          en: "y = 3x + 5"
+        correct: true
+      - id: b
+        text:
+          nb: "y = 5x + 3"
+          en: "y = 5x + 3"
+      - id: c
+        text:
+          nb: "y = x + 5"
+          en: "y = x + 5"
+    explanation:
+      nb: Når x er 0, er y 5, så konstanten er 5. y øker med 3 hver gang x øker
+        med 1, så x ganges med 3. Uttrykket blir y = 3x + 5.
+      en: When x is 0, y is 5, so the constant is 5. y goes up by 3 each time x
+        goes up by 1, so x is multiplied by 3, giving y = 3x + 5.
+    reviewed: false
+
+  - id: KM13306-02
+    goal: KM13306
+    type: multiple_choice
+    difficulty: 2
+    prompt:
+      nb: "Hvilket punkt ligger på grafen til y = 2x − 1?"
+      en: "Which point lies on the graph of y = 2x − 1?"
+    choices:
+      - id: a
+        text:
+          nb: "(3, 5)"
+          en: "(3, 5)"
+        correct: true
+      - id: b
+        text:
+          nb: "(3, 7)"
+          en: "(3, 7)"
+      - id: c
+        text:
+          nb: "(2, 5)"
+          en: "(2, 5)"
+    explanation:
+      nb: Sett x = 3 inn i uttrykket, og du får 2 · 3 − 1 = 5. Punktet (3, 5)
+        ligger derfor
+        på grafen. Et punkt ligger på grafen bare hvis tallene passer i uttrykket.
+      en: Put x = 3 into the expression and you get 2 · 3 − 1 = 5. So the point
+        (3, 5) lies
+        on the graph. A point is on the graph only if the numbers fit the
+        expression.
+    reviewed: false
+
+# Goals that no written question can honestly test. Recorded rather than
+# omitted, so the gap is a stated judgement instead of a silent one.
+not_assessable:
+  - goal: KM13300
+    reason: >-
+      Asks the pupil to explore how algorithms are created, tested and improved
+      using programming. The goal is about the loop of writing code, running it,
+      seeing it fail and fixing it — work that happens at a computer over time.
+      A written question could at best ask about a printed code listing, which
+      would test reading code rather than the practice of building and improving
+      an algorithm.
