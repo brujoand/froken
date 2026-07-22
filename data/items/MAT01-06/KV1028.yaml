@@ -22,7 +22,8 @@ items:
         18 delt på 0,75 blir 24 km/t.
       en: 45 minutes is 0.75 hours. Speed is distance divided by time, so
         18 ÷ 0.75 = 24 km/h.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13316-02
     goal: KM13316
@@ -37,7 +38,8 @@ items:
         72 000 delt på 3600 blir 20 m/s. En snarvei er å dele km/t på 3,6.
       en: 72 km is 72,000 metres and one hour is 3600 seconds.
         72,000 ÷ 3600 = 20 m/s. A shortcut is to divide km/h by 3.6.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13308-01
     goal: KM13308
@@ -67,7 +69,8 @@ items:
         Kongruent betyr i tillegg samme størrelse, og det er de ikke her.
       en: Similar means the same shape, with equal angles and sides in the same ratio.
         Congruent also requires the same size, which these do not have.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13308-02
     goal: KM13308
@@ -97,7 +100,8 @@ items:
       en: A parallelogram is defined by its opposite sides being parallel, which
         also makes them equal in length. Equal sides belong to the rhombus and
         right angles to the rectangle.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13317-01
     goal: KM13317
@@ -115,7 +119,8 @@ items:
         kvadratroten av 15,21 er 3,9.
       en: The ladder is the hypotenuse. 1.5² + 3.6² = 2.25 + 12.96 = 15.21, and
         the square root of 15.21 is 3.9.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13317-02
     goal: KM13317
@@ -133,7 +138,8 @@ items:
         treet er 7,5 delt på 2, altså 3,75 ganger så lang, og 1,6 · 3,75 = 6 m.
       en: The sun gives both the same angle, so the triangles are similar. The
         tree's shadow is 7.5 ÷ 2 = 3.75 times as long, and 1.6 × 3.75 = 6 m.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13307-01
     goal: KM13307
@@ -161,7 +167,8 @@ items:
         rekker de ikke fram til hverandre. 3 + 4 = 7, og det er mindre enn 8.
       en: The two shortest sides must together be longer than the longest one, or
         they cannot meet. 3 + 4 = 7, which is less than 8.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13307-02
     goal: KM13307
@@ -193,7 +200,8 @@ items:
       en: The bigger an angle is, the further apart it pushes the two sides that
         meet there. So the longest side always belongs to the largest angle, no
         matter how big the triangle is.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13309-01
     goal: KM13309
@@ -223,7 +231,8 @@ items:
         Når begge faktorene dobles, blir produktet 2 · 2 = 4 ganger så stort.
       en: The area is s × s. At 4 cm that is 16 cm², at 8 cm it is 64 cm². When
         both factors double, the product grows by 2 × 2 = 4.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13309-02
     goal: KM13309
@@ -240,7 +249,8 @@ items:
         produktet 3 ganger så stort. Grunnlinja endrer ingenting her.
       en: The height is one factor in the formula. Multiplying only that by 3
         makes the whole product 3 times as big. The base changes nothing here.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13310-01
     goal: KM13310
@@ -257,7 +267,8 @@ items:
         overflaten er 6 · 16 = 96 cm².
       en: A cube has 6 identical faces. Each face is 4 × 4 = 16 cm², so the
         surface is 6 × 16 = 96 cm².
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13310-02
     goal: KM13310
@@ -275,7 +286,8 @@ items:
         og 78,5 · 10 ≈ 785 cm³.
       en: The volume is the base area times the height. The base is π × 5² ≈ 78.5
         cm², and 78.5 × 10 ≈ 785 cm³.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13312-01
     goal: KM13312
@@ -305,7 +317,8 @@ items:
         på to enheter kan da fylle hele diagrammet og se dramatisk ut.
       en: When the axis starts high up, only the tops of the bars are shown. A
         difference of two units can then fill the whole chart and look dramatic.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13312-02
     goal: KM13312
@@ -335,7 +348,8 @@ items:
         tallet mest om tilfeldigheter, ikke om skolen som helhet.
       en: With only 8 answers, one or two pupils can flip the whole result. The
         number then says more about chance than about the school as a whole.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13313-01
     goal: KM13313
@@ -352,7 +366,8 @@ items:
         fjerde, altså 8.
       en: The median is the middle number of the sorted list. With seven numbers
         that is the fourth one, which is 8.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13313-02
     goal: KM13313
@@ -368,7 +383,8 @@ items:
         Den forteller hvor spredt målingene er.
       en: The range is the largest value minus the smallest, so 15 − 4 = 11. It says
         how spread out the readings are.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13313-03
     goal: KM13313
@@ -398,7 +414,8 @@ items:
         verdien 60 trekker det opp. Medianen på 8 ligger der de fleste ligger.
       en: The mean of 15.7 is higher than six of the seven numbers, because the
         value 60 pulls it up. The median of 8 sits where most of the data sits.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13315-01
     goal: KM13315
@@ -415,7 +432,8 @@ items:
         25 prosent.
       en: There are 20 marbles in all and 5 of them are red. 5 ÷ 20 = 0.25, which
         is 25 per cent.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13315-02
     goal: KM13315
@@ -444,7 +462,8 @@ items:
         sekser og sekser, gir summen 12.
       en: Two dice give 6 × 6 = 36 equally likely outcomes. Only one of them, six
         and six, adds up to 12.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
 # Goals that no written question can honestly test. Recorded rather than
 # omitted, so the gap is a stated judgement instead of a silent one.

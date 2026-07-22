@@ -39,7 +39,8 @@ items:
         finest, er noe folk mener ulikt om, og det kan ikke sjekkes.
       en: A fact can be checked and shown to be right or wrong. Which season is
         nicest is something people disagree about, and it cannot be checked.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14687-02
     goal: KM14687
@@ -69,7 +70,8 @@ items:
         noe. Da kan du lese innlegget med det i bakhodet.
       en: In Norway advertising must be labelled, so you know the sender wants to
         sell you something and can read the post with that in mind.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # Kilder.
   - id: KM14686-01
@@ -101,7 +103,8 @@ items:
       en: The Meteorological Institute measures rainfall and publishes the
         figures. A comment is one person's impression, and an advert wants to
         sell you something.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14686-02
     goal: KM14686
@@ -129,7 +132,8 @@ items:
         hva de vil, er du bedre rustet til å vurdere det du leser.
       en: Two sources can write differently about the same thing. Knowing who the
         sender is and what they want helps you judge what you read.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # Livnæring og teknologi i fortiden.
   - id: KM14685-01
@@ -158,7 +162,8 @@ items:
         dyrene og etter det som vokste der de var.
       en: Before farming, people lived as hunters and gatherers. They moved with
         the animals and with whatever grew where they were.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14685-02
     goal: KM14685
@@ -188,7 +193,8 @@ items:
         vokste fram landsbyer der mange bodde sammen.
       en: Fields and livestock need tending all year, so people settled down, and
         villages grew up where many lived together.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # Geografiske hovedtrekk.
   - id: KM14688-01
@@ -218,7 +224,8 @@ items:
         og folk bor helst nær vann.
       en: The Sahara covers much of North Africa. There is very little rainfall
         there, and people mostly live near water.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14688-02
     goal: KM14688
@@ -248,7 +255,8 @@ items:
         komme et annet sted fra, og da blir elva livsgrunnlaget.
       en: Nature shapes where it is easy to live. Without rain the water must come
         from somewhere else, and then the river becomes the lifeline.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # Menneskerettigheter.
   - id: KM14689-01
@@ -279,7 +287,8 @@ items:
         verdi. Den gjelder uansett hvor du bor og hvem du er.
       en: The declaration states that all human beings are born free and equal in
         worth. It applies wherever you live and whoever you are.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14689-02
     goal: KM14689
@@ -311,7 +320,8 @@ items:
       en: The convention grants rights to education, health care, rest and to be
         heard, among others. Voting and driving follow from age, not from the
         convention.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # Samer og nasjonale minoriteter.
   - id: KM14690-01
@@ -340,7 +350,8 @@ items:
         holder til i Karasjok og arbeider med saker som gjelder samene.
       en: Sámi people on the Sámi electoral roll can vote in its elections. The
         Sámi Parliament sits in Karasjok and works on matters concerning the Sámi.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14690-02
     goal: KM14690
@@ -372,7 +383,8 @@ items:
       en: The Sámi lived in Sápmi long before the borders between Norway, Sweden,
         Finland and Russia existed. As an indigenous people they have the right to
         maintain their language and culture.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14690-03
     goal: KM14690
@@ -404,7 +416,8 @@ items:
       en: The five national minorities are Kven/Norwegian Finns, Jews, Forest
         Finns, Romani/Tater people and Roma. They have a long history in Norway
         and the right to maintain their language and culture.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14690-04
     goal: KM14690
@@ -439,7 +452,8 @@ items:
       en: Teaching in school was to be in Norwegian, and children were not allowed
         to use their mother tongue. Today Sámi and Kven are recognised languages in
         Norway, and the policy has been abandoned.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # Kommersiell påvirkning.
   - id: KM14691-01
@@ -468,7 +482,8 @@ items:
         viser den fram det som er bra, og ikke det som er dårlig.
       en: Advertising is made by someone who wants to sell a product or service,
         so it shows the good sides and not the bad ones.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # Bærekraftig utvikling.
   - id: KM14692-01
@@ -501,7 +516,8 @@ items:
       en: Sustainable development means caring for nature, people and the economy
         at the same time. The UN has set sustainable development goals that
         countries work on together.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # Digital samhandling.
   - id: KM14693-01
@@ -532,7 +548,8 @@ items:
         er både regelen og den enkleste måten å være trygg på.
       en: The person in a picture decides whether it may be shared. Asking first is
         both the rule and the simplest way to be sure.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # Demokratiets historie i Norge.
   - id: KM14695-01
@@ -561,7 +578,8 @@ items:
         styres etter lover og ikke av kongen alene.
       en: The Constitution was signed on 17 May 1814. It established that Norway
         would be governed by laws, not by the king alone.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14695-02
     goal: KM14695
@@ -593,7 +611,8 @@ items:
       en: With the vote, citizens choose representatives to parliament and the
         municipal council. In 1913 it applied for the first time to all adult
         women and men.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14695-03
     goal: KM14695
@@ -624,7 +643,8 @@ items:
         demokrati kan velgerne bytte ut de styrende ved valg.
       en: The difference lies in who holds power and whether it can be replaced. In
         a democracy voters can change those in charge at an election.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # Lover, regler og normer.
   - id: KM14696-01
@@ -653,7 +673,8 @@ items:
         de blir fulgt, og domstolene avgjør saker etter dem.
       en: The Storting is elected by the people and passes the laws. The police see
         that they are followed, and the courts decide cases under them.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14696-02
     goal: KM14696
@@ -683,7 +704,8 @@ items:
         ingen straff, men folk reagerer likevel.
       en: Breaking a law can bring punishment. Breaking a norm, such as jumping the
         queue, brings no punishment, but people still react.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # Møter mellom mennesker.
   - id: KM14697-01
@@ -714,7 +736,8 @@ items:
         gjennom slike møter og endret etter hvert både lover og levemåte.
       en: When people meet, ideas travel with the goods. Christianity reached Norway
         through such encounters and in time changed both laws and ways of life.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
 # Kompetansemål der selve substansen er elevens egen refleksjon, drøfting,
 # undersøkelse eller presentasjon. Et skriftlig spørsmål kan ikke prøve dem, og

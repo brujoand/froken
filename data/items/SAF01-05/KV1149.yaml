@@ -43,7 +43,8 @@ items:
         faktiske tidene. Noe en venn husker, kan være feil.
       en: The timetable comes from the people who run the buses and shows the
         actual times. What a friend remembers may be wrong.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14673-02
     goal: KM14673
@@ -75,7 +76,8 @@ items:
       en: The municipality keeps and updates figures on how many people live
         there. A fairy tale book is not about real numbers, and an old map shows
         landscape, not population.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14669-01
     goal: KM14669
@@ -103,7 +105,8 @@ items:
         eksempel helleristninger, gravhauger og gamle hus.
       en: Cultural heritage sites are things people made or used long ago, such
         as rock carvings, burial mounds and old houses.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14669-02
     goal: KM14669
@@ -133,7 +136,8 @@ items:
         dag kommer vannet i rør helt inn i huset.
       en: In the past people carried water home in buckets from a well or a
         stream. Today water comes into the house through pipes.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14672-01
     goal: KM14672
@@ -164,7 +168,8 @@ items:
       en: In a cultural landscape people have left their mark, for example by
         farming or grazing animals. A natural landscape is little affected by
         people.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14672-02
     goal: KM14672
@@ -193,7 +198,8 @@ items:
         regel skog, og veier tegnes som streker.
       en: Maps use fixed colours and symbols. Blue means water, green usually
         means forest, and roads are drawn as lines.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14670 - the "reflektere over hvorfor" half is the pupil's own reasoning
   # and is not tested. What the rights say is a fact, and that is what is asked.
@@ -223,7 +229,8 @@ items:
         hvor gamle de er eller hvor de kommer fra.
       en: Human rights apply to every person, no matter where they live, how old
         they are or where they come from.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14670-02
     goal: KM14670
@@ -254,7 +261,8 @@ items:
       en: The convention gives children rights to things like school, food,
         health care, rest and play, and to be protected. It says nothing about
         phones or cars.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14671-01
     goal: KM14671
@@ -287,7 +295,8 @@ items:
         Finland and Russia existed, and have kept their own language and
         culture. That is why they are recognised as an indigenous people. Sami
         people live in all four of those countries.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14671-02
     goal: KM14671
@@ -316,7 +325,8 @@ items:
         grunnlovsdag.
       en: 6 February is the Sami National Day, marking the first Sami congress,
         held in Trondheim in 1917. 17 May is Norway's Constitution Day.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14671-03
     goal: KM14671
@@ -347,7 +357,8 @@ items:
         number of Sami people herd reindeer. Sami people are teachers, nurses,
         fishers, drivers and everything else, and live both in towns and in the
         countryside.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14679-01
     goal: KM14679
@@ -377,7 +388,8 @@ items:
         mindre nytt råstoff.
       en: Glass can be melted down and reused many times over. That way we need
         less new raw material.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14679-02
     goal: KM14679
@@ -406,7 +418,8 @@ items:
         fornybare.
       en: Sun, wind and running water keep coming back, so they are called
         renewable. Oil and coal take millions of years to form, so they are not.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14675-01
     goal: KM14675
@@ -435,7 +448,8 @@ items:
         din.
       en: Your password is yours. Only a trusted adult at home might need it to
         help you. If you share it with others, they can use your account.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14675-02
     goal: KM14675
@@ -465,7 +479,8 @@ items:
         du spørre om lov først, også når bildet er fint.
       en: In Norway everyone has the right to decide over pictures of themselves.
         So you must ask permission first, even when the photo is a nice one.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14676 - only the "hvor man kan få hjelp" half is quizzed, with no scenario
   # and nothing depicted. What vold and seksuelle overgrep are, and the pupil's
@@ -500,7 +515,8 @@ items:
       en: You should never have to deal with something difficult alone. Talk to
         an adult you trust. Children and young people in Norway can also call the
         Alarmtelefonen helpline on 116 111. It is free and open around the clock.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14677-01
     goal: KM14677
@@ -528,7 +544,8 @@ items:
         bestemmer, for eksempel ved å velge hvem som skal sitte på Stortinget.
       en: Democracy means rule by the people. In a democracy the inhabitants
         decide, for example by choosing who sits in parliament.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14677-02
     goal: KM14677
@@ -556,7 +573,8 @@ items:
         Det er demokrati i det små.
       en: The pupils themselves vote for who will represent the class on the
         student council. That is democracy on a small scale.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14678-01
     goal: KM14678
@@ -584,7 +602,8 @@ items:
         låne bøker. Du leverer dem tilbake når du er ferdig.
       en: Every municipality in Norway must have a public library, and borrowing
         books there is free. You return them when you are done.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14678-02
     goal: KM14678
@@ -612,7 +631,8 @@ items:
         alle kan bruke, hele døgnet.
       en: 110 is fire, 112 is police and 113 is ambulance. These are services
         everyone can use, around the clock.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
 # Goals that no written question can honestly test. Recorded rather than
 # omitted, so the gap is a stated judgement instead of a silent one.

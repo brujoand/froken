@@ -39,7 +39,8 @@ items:
         har en moské.
       en: A mosque is the building where Muslims gather to pray. Many Norwegian
         towns have one.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14586-02
     goal: KM14586
@@ -67,7 +68,8 @@ items:
         annet humanistisk konfirmasjon mange steder i landet.
       en: Human-Etisk Forbund is a Norwegian humanist life stance organisation.
         Among other things it arranges humanist confirmations around the country.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # Sentrale fortellinger i kristen tradisjon.
   - id: KM14597-01
@@ -96,7 +98,8 @@ items:
         Betlehem. Det er denne fortellingen kristne feirer i julen.
       en: The Christmas gospel is in the Bible and tells of Jesus being born in
         Bethlehem. It is the story Christians celebrate at Christmas.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14597-02
     goal: KM14597
@@ -124,7 +127,8 @@ items:
         det kommer en flom. Fortellingen finnes også i jødedommen og i islam.
       en: In the story of Noah's ark, Noah builds a big boat and brings animals
         aboard when a flood comes. The story is found in Judaism and Islam too.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # Fortellinger i østlige og vestlige religiøse tradisjoner.
   - id: KM14598-01
@@ -153,7 +157,8 @@ items:
         Jøder minnes denne fortellingen i høytiden pesach.
       en: The story of Moses tells how he led his people out of Egypt. Jews
         remember this story at the festival of Pesach.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14598-02
     goal: KM14598
@@ -181,7 +186,8 @@ items:
         mennesker har det vondt. Buddhister kaller ham Buddha.
       en: The story says Siddhartha left the palace to find out why people
         suffer. Buddhists call him the Buddha.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # Høytider som kulturarv.
   - id: KM14587-01
@@ -210,7 +216,8 @@ items:
         god mat sammen med familien og gir gaver.
       en: Eid al-Fitr is the feast marking the end of the fasting month of
         Ramadan. Many eat good food with family and give gifts.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14587-02
     goal: KM14587
@@ -238,7 +245,8 @@ items:
         en egen lysestake.
       en: Hanukkah lasts eight days, and one more candle is lit each evening in a
         special candelabrum.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14587-03
     goal: KM14587
@@ -266,7 +274,8 @@ items:
         pynter hjemme. Sikher og jainer feirer også divali.
       en: Diwali is a Hindu festival of lights. Many set out small lamps and
         decorate their homes. Sikhs and Jains celebrate Diwali too.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # Estetiske uttrykk.
   - id: KM14588-01
@@ -291,11 +300,11 @@ items:
           nb: Islam
           en: Islam
     explanation:
-      nb: Davidsstjernen er et kjent jødisk symbol. Du kan se den på synagoger
-        og på Israels flagg.
+      nb: Davidsstjernen er et kjent jødisk symbol. Du kan se den på synagoger.
       en: The Star of David is a well-known Jewish symbol. You can see it on
-        synagogues and on the flag of Israel.
-    reviewed: false
+        synagogues.
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14588-02
     goal: KM14588
@@ -323,7 +332,8 @@ items:
         flere hundre år gamle.
       en: Hymns are songs sung in church, often with an organ. Many hymns are
         several hundred years old.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # Enkle fagbegreper.
   - id: KM14596-01
@@ -352,7 +362,8 @@ items:
         hinduer og buddhister i et tempel.
       en: A synagogue is the house where Jews gather. Muslims gather in a mosque,
         and Hindus and Buddhists in a temple.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14596-02
     goal: KM14596
@@ -380,7 +391,8 @@ items:
         boka Bibelen.
       en: The Quran is the holy book of Islam. In Christianity the holy book is
         called the Bible.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # Kilder til kunnskap om religioner og livssyn.
   - id: KM14589-01
@@ -411,7 +423,8 @@ items:
         som kjenner den godt. Andre bøker handler om noe helt annet.
       en: To find out what a holy book says, use the book itself or someone who
         knows it well. Other books are about something else entirely.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14589-02
     goal: KM14589
@@ -441,7 +454,8 @@ items:
       en: A temple visit or a non-fiction book gives knowledge about Buddhism. A
         recipe or a fantasy film is not about the religion, even if it comes from
         the same part of the world.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
 # Goals whose substance is the pupil's own reflection, conversation or life.
 # A written question could only test something adjacent and call it the goal.

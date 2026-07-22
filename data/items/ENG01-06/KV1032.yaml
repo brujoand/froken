@@ -49,7 +49,8 @@ items:
         You do not need a dictionary. Tom walks slowly and holds on, so the
         ground must be slippery. Guessing from the rest of the sentence is one
         of the best strategies when you meet an unknown word.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13359-02
     goal: KM13359
@@ -85,7 +86,8 @@ items:
         "un-" means "not", so "unfriendly" is the opposite of "friendly".
         Looking for familiar word parts is a strategy that unlocks many new
         words without help.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13364-01
     goal: KM13364
@@ -120,7 +122,8 @@ items:
         Dictionaries list verbs in their base form. "running" is an inflected
         form of "run", so "run" is the entry you will find. "runned" is not a
         word.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13364-02
     goal: KM13364
@@ -156,7 +159,8 @@ items:
         Dictionaries use short labels for word class. "adj." stands for
         adjective. The same word can appear several times with different
         labels, and you pick the one that fits your sentence.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13356-01
     goal: KM13356
@@ -191,7 +195,8 @@ items:
         This is a fixed expression, so the words do not mean what they usually
         mean on their own. "It's raining cats and dogs" means it is pouring
         down.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13356-02
     goal: KM13356
@@ -225,7 +230,8 @@ items:
       en: >-
         "Closed" is the key word, and it is followed by "Sundays". Friday is in
         the list of open days, and 9 is when the shop opens.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13357-01
     goal: KM13357
@@ -261,7 +267,8 @@ items:
         "Could you ... please?" is a polite formula that makes the request
         friendly. The other two are commands, which fit badly when you speak to
         an adult or someone you do not know well.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13357-02
     goal: KM13357
@@ -295,7 +302,8 @@ items:
       en: >-
         "You're welcome" is the standard reply when someone thanks you. The
         other two are English, but they do not answer a thank you.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13361-01
     goal: KM13361
@@ -331,7 +339,8 @@ items:
         English "gift" means a present. Words that look alike in two languages
         but mean different things are called false friends. The similarity
         usually helps you, but here it misleads.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13370-01
     goal: KM13370
@@ -363,7 +372,8 @@ items:
       en: >-
         The verb says what happens. Here it is "chased", which tells you what
         the dog did. "dog" and "ball" are nouns.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13370-02
     goal: KM13370
@@ -397,7 +407,8 @@ items:
         Most English nouns take -s in the plural, but "child" is irregular and
         becomes "children". "children" is already plural, so it takes no extra
         -s.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13370-03
     goal: KM13370
@@ -431,7 +442,8 @@ items:
         When you compare two things, short adjectives take -er, so "bigger".
         Short adjectives do not use "more". "biggest" is only for when
         something is the largest of all.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13360-01
     goal: KM13360
@@ -461,7 +473,8 @@ items:
       en: >-
         "because" is written be-cause. The ending sounds nothing like it looks,
         which is why it is worth learning by heart.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13360-02
     goal: KM13360
@@ -493,7 +506,8 @@ items:
         English questions need the helper verb "do" before the subject.
         Norwegian puts the main verb first instead, which is why this word
         order is easy to get wrong.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13360-03
     goal: KM13360
@@ -524,7 +538,8 @@ items:
       en: >-
         A sentence starts with a capital letter, and place names like Bergen
         always take one. "friend" is an ordinary noun and stays lowercase.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13362-01
     goal: KM13362
@@ -559,7 +574,8 @@ items:
       en: >-
         The bird has a hurt wing, and Lisa puts it somewhere safe and calls her
         mum. The tree and the box are details, not what the text is about.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13362-02
     goal: KM13362
@@ -594,7 +610,8 @@ items:
       en: >-
         Step 2 follows step 1, and it says "Add the rice". The waiting is step
         3, and the recipe never mentions turning off the heat.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13363-01
     goal: KM13363
@@ -630,7 +647,8 @@ items:
       en: >-
         The text says it directly: "The black skin helps them stay warm". The
         fur is white, but the text never says the skin is what makes it white.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13363-02
     goal: KM13363
@@ -666,7 +684,8 @@ items:
         The author never writes that Tom is scared, but shows it: shaking
         hands, hearing his own heart, opening the door slowly. Clues like these
         are worth looking for in any story.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13365-01
     goal: KM13365
@@ -702,7 +721,8 @@ items:
         An encyclopaedia has named editors who check numbers before publishing.
         A comment or a message is one person's memory, and nobody has checked
         it.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13369-01
     goal: KM13369
@@ -734,7 +754,8 @@ items:
         English is an official language in New Zealand. Brazil uses Portuguese
         and Japan uses Japanese. English is official in countries on every
         continent.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13369-02
     goal: KM13369
@@ -770,7 +791,8 @@ items:
         School uniforms are common in the UK, while Norwegian pupils wear their
         own clothes. Summer holidays and mathematics exist in both countries,
         so neither of them tells the two apart.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
 # Goals whose substance is speaking, writing or personal reflection. No written
 # question can check them, and a proxy question would test something else while

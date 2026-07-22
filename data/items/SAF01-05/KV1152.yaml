@@ -39,7 +39,8 @@ items:
         må vi finne ut på andre måter.
       en: A map shows where things are, like roads, houses and water. Time and
         weather have to be found out in other ways.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14718-02
     goal: KM14718
@@ -67,7 +68,8 @@ items:
         grønn.
       en: Maps use blue for water, such as lakes, rivers and the sea. Forest is
         often green.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14720-01
     goal: KM14720
@@ -97,7 +99,8 @@ items:
         telefon er noe som kom mye senere.
       en: Letters went by post and could take many days. Phone messages came much
         later.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14720-02
     goal: KM14720
@@ -127,7 +130,8 @@ items:
         tid og var tungt arbeid.
       en: Clothes were washed by hand in water, often with a washboard. It took a
         long time and was hard work.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14728-01
     goal: KM14728
@@ -155,7 +159,8 @@ items:
         grensene sine.
       en: The Sami are the Indigenous people of Norway. They have lived here since
         long before Norway had its borders.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14728-02
     goal: KM14728
@@ -183,7 +188,8 @@ items:
         Norge. Det finnes flere samiske språk.
       en: Sami is the language of the Sami people, and one of the languages spoken
         in Norway. There are several Sami languages.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14728-03
     goal: KM14728
@@ -211,7 +217,8 @@ items:
         eller fosterforeldre. Alle disse er familier.
       en: Some live with one adult, some with two, some with grandparents,
         siblings or foster parents. All of these are families.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14723-01
     goal: KM14723
@@ -239,7 +246,8 @@ items:
         eller spise søppel de blir syke av.
       en: Plastic and glass stay in nature for many years. Animals can hurt
         themselves or eat rubbish that makes them ill.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14723-02
     goal: KM14723
@@ -267,7 +275,8 @@ items:
         brukt om igjen i stedet for å bli søppel.
       en: Bottles with a deposit mark can go in the return machine. The plastic is
         then used again instead of becoming waste.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14724-01
     goal: KM14724
@@ -295,7 +304,8 @@ items:
         hvor de er født.
       en: Every child living in Norway has the right to go to school, no matter
         where they were born.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14724-02
     goal: KM14724
@@ -323,7 +333,8 @@ items:
         lærer eller helsesykepleier.
       en: Children have a right to help. It is always allowed to speak up, for
         example to a teacher or a school nurse.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14724-03
     goal: KM14724
@@ -353,7 +364,8 @@ items:
       en: The Convention on the Rights of the Child is an agreement between almost
         every country about what children are entitled to, such as school, food
         and being listened to.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14725-01
     goal: KM14725
@@ -383,7 +395,8 @@ items:
         elevene er opptatt av.
       en: The pupil council is made up of pupils chosen by their classes. They
         raise the matters pupils care about.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14725-02
     goal: KM14725
@@ -410,7 +423,8 @@ items:
       nb: Når vi stemmer, vinner det flest har stemt på. Det kalles flertall.
       en: When we vote, the option with the most votes wins. That is called a
         majority.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14726-01
     goal: KM14726
@@ -438,7 +452,8 @@ items:
         legger ut et bilde av noen andre.
       en: Everyone decides about pictures of themselves. So you have to ask before
         posting a picture of someone else.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14726-02
     goal: KM14726
@@ -466,7 +481,8 @@ items:
         hvis noen spør om det.
       en: A password is secret and should not be shared. Tell an adult if someone
         asks for yours.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14729-01
     goal: KM14729
@@ -494,7 +510,8 @@ items:
         blir de fraktet langt med skip.
       en: Bananas need heat to grow. Farmers in warm countries grow them, and they
         travel a long way by ship.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14729-02
     goal: KM14729
@@ -522,7 +539,8 @@ items:
         gang, selv om de bor tusenvis av kilometer fra hverandre.
       en: Phones and the internet let people in different countries talk right
         away, even thousands of kilometres apart.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
 # Goals that no written question can honestly test. Recorded rather than
 # omitted, so the gap is a stated judgement instead of a silent one.

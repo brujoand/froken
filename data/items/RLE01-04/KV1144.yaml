@@ -40,7 +40,8 @@ items:
       en: >-
         Before Christianity was introduced around the year 1000, many people in
         Norway believed in the Norse gods, such as Odin and Thor.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14599-02
     goal: KM14599
@@ -74,7 +75,8 @@ items:
       en: >-
         The Reformation began in Germany with Martin Luther. In 1537 it was
         carried through in Denmark-Norway, and Norway got a Lutheran church.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14599-03
     goal: KM14599
@@ -106,7 +108,8 @@ items:
         The noaidi held a central role in pre-Christian Sami religion and used a
         drum, often called a rune drum, in rituals. From the 1600s many of the
         drums were confiscated by missionaries.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14601-01
     goal: KM14601
@@ -138,7 +141,8 @@ items:
       en: >-
         Baptism is the ritual of entry in Christianity. Communion is a meal of
         bread and wine recalling Jesus' last supper, and Christmas is a festival.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14601-02
     goal: KM14601
@@ -174,7 +178,8 @@ items:
         The golden rule is one of the best known ethical norms in Christianity.
         Similar rules are found in Judaism, Islam, Buddhism and humanism, among
         others.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14609-01
     goal: KM14609
@@ -204,7 +209,8 @@ items:
       en: >-
         Eid al-Fitr is celebrated when the fasting month of Ramadan is over. Many
         Muslims celebrate with a festive meal, new clothes and gifts.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14609-02
     goal: KM14609
@@ -236,7 +242,8 @@ items:
       en: >-
         During Divali lamps and lights are lit, and the light stands for what is
         good. The festival is also celebrated by Sikhs and Jains.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14609-03
     goal: KM14609
@@ -272,7 +279,8 @@ items:
         Humanism is a worldview without belief in a god, where people themselves
         must find answers and take responsibility. In Norway the Norwegian
         Humanist Association is the largest organisation for humanists.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14610-01
     goal: KM14610
@@ -304,7 +312,8 @@ items:
         Sunni and Shia are the two largest branches of Islam. Catholic and
         Orthodox are branches of Christianity, while Theravada and Mahayana
         belong to Buddhism.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14610-02
     goal: KM14610
@@ -342,7 +351,8 @@ items:
         Norway, the Catholic Church, Orthodox churches and Pentecostal
         congregations. The Humanist Association is a worldview organisation, and
         the Mosaic Community is a Jewish congregation.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14607-01
     goal: KM14607
@@ -372,7 +382,8 @@ items:
       en: >-
         The synagogue is the Jewish house of assembly. The mosque is the Muslim
         building for prayer, and a cathedral is a large Christian church.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14607-02
     goal: KM14607
@@ -402,7 +413,8 @@ items:
       en: >-
         Mono means one and theism means belief in a god. Belief in many gods is
         called polytheism, and not believing in any god is called atheism.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14606-01
     goal: KM14606
@@ -438,7 +450,8 @@ items:
         The church has church confirmation, and the Humanist Association has
         humanist confirmation. Both mark the move from child to young person, but
         they rest on different worldviews.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14608-01
     goal: KM14608
@@ -468,7 +481,8 @@ items:
       en: >-
         Freedom of religion is a human right. It covers the right to believe, the
         right to change belief and the right not to believe at all.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14608-02
     goal: KM14608
@@ -500,7 +514,8 @@ items:
         Freedom of expression is in the Constitution and protects opinions others
         disagree with too. It is not entirely without limits, though: threats
         against others are forbidden.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14608-03
     goal: KM14608
@@ -536,7 +551,8 @@ items:
         The provision is often called the Jew clause. The poet Henrik Wergeland
         campaigned to have it removed, but died in 1845, six years before it was
         repealed in 1851.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
 # Goals whose substance is the pupil's own exploring, reasoning or conversation.
 # A written question could only test something adjacent and call it the goal.

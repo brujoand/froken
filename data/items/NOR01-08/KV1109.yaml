@@ -41,7 +41,8 @@ items:
         Fagtekster og intervjuer skrives i vanlige avsnitt.
       en: Poems are laid out in lines and verses and often use rhyme and rhythm.
         Factual texts and interviews are written in ordinary paragraphs.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14176-02
     goal: KM14176
@@ -73,7 +74,8 @@ items:
       en: "«Rolig» looks the same in Swedish and Norwegian but does not mean the
         same thing: in Swedish it means funny. Words like these are false
         friends, and worth pausing at when reading Swedish or Danish."
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14176-03
     goal: KM14176
@@ -103,7 +105,8 @@ items:
         dikte eller reklamere.
       en: This is a factual text. Its purpose is to explain and inform, not to
         invent a story or advertise.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # Samiske tekster, stedsnavn og bokstaver.
   - id: KM14184-01
@@ -134,7 +137,8 @@ items:
         š uttales som sj-lyden i «sjø».
       en: Sami uses letters that are not part of the Norwegian alphabet. š is
         pronounced like the sh sound in «sjø» (shoe).
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14184-02
     goal: KM14184
@@ -164,7 +168,8 @@ items:
         Begge navnene er offisielle.
       en: Guovdageaidnu is Kautokeino. Karasjok is Kárášjohka in Sami. Both
         names are official.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # Kilder og kildekritikk.
   - id: KM14173-01
@@ -195,7 +200,8 @@ items:
         utgitt. Kommentarer og løse minner er ikke kontrollert av noen.
       en: A reference book is written by experts and checked before publication.
         Comments and vague memories have not been checked by anyone.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14173-02
     goal: KM14173
@@ -225,7 +231,8 @@ items:
         selv sjekke kilden, og du tar ikke æren for andres arbeid.
       en: A source reference shows where you got the information. The reader can
         then check it, and you are not taking credit for someone else's work.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # Lesestrategier.
   - id: KM14185-01
@@ -258,7 +265,8 @@ items:
       en: When you only need one piece of information, skimming for key words is
         the efficient choice. Close reading is for texts you need to understand
         in depth.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14185-02
     goal: KM14185
@@ -290,7 +298,8 @@ items:
       en: Stopping to write in your own words forces you to understand the
         material rather than just look at it. Headings also give you a free
         overview of the chapter.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # Rettskriving, ordbøying og tegnsetting.
   - id: KM14172-01
@@ -319,7 +328,8 @@ items:
         bindeordet. Regelen er den samme på bokmål og nynorsk.
       en: When two full clauses are joined by «men» (but), the comma goes before
         the connecting word. The rule is the same in bokmål and nynorsk.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14172-02
     goal: KM14172
@@ -347,7 +357,8 @@ items:
         ett hus, mange hus. «Husene» er bestemt flertall.
       en: Short neuter nouns take no ending in the indefinite plural, so it is
         «ett hus, mange hus». «Husene» is the definite plural.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14172-03
     goal: KM14172
@@ -375,7 +386,8 @@ items:
         sj-lyden likt, men i skrift må vi holde dem fra hverandre.
       en: The word is spelled kjøkken, with kj and a double k. Many speakers
         pronounce kj and sj alike, but in writing they must be kept apart.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # Ordklasser og setningsoppbygning.
   - id: KM14177-01
@@ -405,7 +417,8 @@ items:
         «skolen» er substantiv.
       en: The verb tells you what is happening; here that is «sykler» (cycles).
         «Lisa» and «skolen» are nouns.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14177-02
     goal: KM14177
@@ -433,7 +446,8 @@ items:
         for eksempel en gul jakke.
       en: Adjectives describe what something is like. «Gul» names a property,
         as in a yellow jacket.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14177-03
     goal: KM14177
@@ -462,7 +476,8 @@ items:
         er den store hunden. «Sov» er verbet.
       en: The subject is the one doing something. Ask «who slept?» and the
         answer is the big dog. «Sov» is the verb.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # Talespråk, dialekter og nabospråk.
   - id: KM14178-01
@@ -493,7 +508,8 @@ items:
       en: Norwegian, Swedish and Danish resemble each other closely enough that
         we often understand each other without switching languages. That is why
         Swedish and Danish are called our neighbouring languages.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14178-02
     goal: KM14178
@@ -524,7 +540,8 @@ items:
       en: These are dialect differences. The words mean the same thing but are
         said differently depending on where people live. All dialects are
         equally correct.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # Samspill mellom skrift og bilde.
   - id: KM14183-01
@@ -556,7 +573,8 @@ items:
       en: The caption ties the picture to the article and explains what we are
         looking at. Without it, the reader has to guess how the picture relates
         to the story.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
 # Goals that no written question can honestly test. Recorded rather than
 # omitted, so the gap is a stated judgement instead of a silent one.

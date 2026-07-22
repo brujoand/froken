@@ -39,7 +39,8 @@ items:
       nb: Hus og mus slutter likt, på -us. Da rimer de.
       en: >-
         "Hus" and "mus" end with the same sound, -us, so they rhyme.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14145-02
     goal: KM14145
@@ -65,7 +66,8 @@ items:
     explanation:
       nb: Vi klapper ordet syk-kel. Det blir to klapp, altså to stavelser.
       en: Clap the word syk-kel. That is two claps, so two syllables.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14145-03
     goal: KM14145
@@ -92,7 +94,8 @@ items:
       nb: Måne starter med m. Sol starter med s, og katt starter med k.
       en: >-
         "Måne" starts with m. "Sol" starts with s and "katt" starts with k.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14146-01
     goal: KM14146
@@ -118,7 +121,8 @@ items:
     explanation:
       nb: Lydene kommer i rekkefølgen s, o, l. Da blir ordet sol.
       en: The sounds come in the order s, o, l, which makes the word "sol".
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14146-02
     goal: KM14146
@@ -144,7 +148,8 @@ items:
     explanation:
       nb: Vi tar lydene i tur og orden, m, a, t. Da blir ordet mat.
       en: Take the sounds in order, m, a, t, and the word is "mat".
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14140-01
     goal: KM14140
@@ -170,7 +175,8 @@ items:
     explanation:
       nb: Det står rød ball i setningen. Svaret står rett i teksten.
       en: The sentence says "rød ball". The answer is right there in the text.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14140-02
     goal: KM14140
@@ -199,7 +205,8 @@ items:
         lesetriks.
       en: The title tells you what the book is about. Reading the title first is
         a good reading trick.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14144-01
     goal: KM14144
@@ -227,7 +234,8 @@ items:
         setning.
       en: A question mark shows that someone is asking something. A full stop
         ends an ordinary sentence.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14144-02
     goal: KM14144
@@ -256,7 +264,8 @@ items:
       en: >-
         "Ola" is a name, and names take a capital letter. It is also the first
         word in the sentence.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14148-01
     goal: KM14148
@@ -284,7 +293,8 @@ items:
         små ord.
       en: The word splits into "snø" and "mann". Many Norwegian words are two
         small words joined together.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14148-02
     goal: KM14148
@@ -311,7 +321,8 @@ items:
       nb: Kald er det motsatte av varm. Snø og is er kalde.
       en: >-
         "Kald" is the opposite of warm. Snow and ice are cold.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
 # Goals that no written question can honestly test. Most of this goal set is
 # about doing: talking, listening, drawing, writing by hand, visiting the

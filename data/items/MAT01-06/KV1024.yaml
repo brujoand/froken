@@ -31,7 +31,8 @@ items:
     explanation:
       nb: Prosent betyr hundredeler. En halv er 50 av 100, altså 50 %.
       en: Percent means hundredths. One half is 50 out of 100, so 50%.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13265-02
     goal: KM13265
@@ -58,7 +59,8 @@ items:
       nb: En firedel av 100 er 25. Derfor er 1/4 det samme som 25 hundredeler,
         som skrives 0,25.
       en: A quarter of 100 is 25, so 1/4 is 25 hundredths, written 0.25.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13266-01
     goal: KM13266
@@ -73,7 +75,8 @@ items:
         3 · 3 = 9.
       en: Split 12 into four equal parts of 3. Three of those parts is
         3 · 3 = 9.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13266-02
     goal: KM13266
@@ -101,7 +104,8 @@ items:
     explanation:
       nb: Halvparten av en halv er en firedel. Derfor står merket på 1/4.
       en: Half of a half is a quarter, so the mark is at 1/4.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13267-01
     goal: KM13267
@@ -131,7 +135,8 @@ items:
         Telleren forteller hvor mange du tok, altså 3.
       en: The denominator says how many equal parts the whole is split into,
         which is 8. The numerator says how many you took, which is 3.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13267-02
     goal: KM13267
@@ -159,7 +164,8 @@ items:
         teller og nevner er delt på 2.
       en: Two of four equal parts is the same as one of two equal parts. Both
         numerator and denominator are divided by 2.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13268-01
     goal: KM13268
@@ -187,7 +193,8 @@ items:
         pluss 2 åttedeler er 5 åttedeler. Nevneren står stille.
       en: The pieces are the same size, so just count them. 3 eighths plus 2
         eighths is 5 eighths. The denominator stays put.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13268-02
     goal: KM13268
@@ -202,7 +209,8 @@ items:
         tallene to og to er ofte raskere enn å plusse fire ganger.
       en: Four 25s is the same as two 50s, and 50 + 50 = 100. Pairing the numbers
         up is often quicker than adding four times.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13269-01
     goal: KM13269
@@ -219,7 +227,8 @@ items:
         som er igjen når 3/4 er drukket.
       en: 2 litres is 20 decilitres. A quarter of 20 is 5, and that is what is
         left once 3/4 has been drunk.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13270-01
     goal: KM13270
@@ -247,7 +256,8 @@ items:
         en sekser. Da er sjansen 1 av 6.
       en: The die has 6 equally likely faces and only one of them is a six, so
         the chance is 1 out of 6.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13270-02
     goal: KM13270
@@ -277,7 +287,8 @@ items:
         alltid alt du kan trekke, ikke bare resten.
       en: There are 3 + 5 = 8 balls in total and 3 of them are red. The
         denominator is everything you could draw, not just the rest.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13274-01
     goal: KM13274
@@ -292,7 +303,8 @@ items:
         12 - 7 = 5. Sett inn 5 og sjekk at 5 + 7 = 12.
       en: We want the number that makes 12 when 7 is added. Work backwards,
         12 - 7 = 5. Then check that 5 + 7 = 12.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13274-02
     goal: KM13274
@@ -307,7 +319,8 @@ items:
         3, altså 6. Sjekk at 3 · 6 = 18.
       en: Three equal groups make 18 altogether, so each group is 18 divided by
         3, which is 6. Check that 3 · 6 = 18.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13273-01
     goal: KM13273
@@ -324,7 +337,8 @@ items:
         til. Én time og 30 minutter er 90 minutter.
       en: From 17:45 to 18:45 is one hour, and on to 19:15 is 30 minutes more.
         One hour and 30 minutes is 90 minutes.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13273-02
     goal: KM13273
@@ -354,7 +368,8 @@ items:
         15 minutter til er 07.45.
       en: Count 25 minutes back from 08:10. Ten minutes back is 08:00, and 15
         more is 07:45.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
 # Goals that no written question can honestly test. Recorded rather than
 # omitted, so the gap is a stated judgement instead of a silent one.
