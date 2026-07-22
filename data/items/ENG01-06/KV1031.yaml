@@ -41,7 +41,8 @@ items:
         "apple" står først.
       en: A dictionary follows the alphabet. A comes before b, and b before c,
         so "apple" comes first.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13340-01
     goal: KM13340
@@ -69,7 +70,8 @@ items:
         rett før w.
       en: The end of the alphabet is u, v, w, x, y, z. After w comes x. V comes
         just before w.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13340-02
     goal: KM13340
@@ -97,7 +99,8 @@ items:
         \"Car\" begynner likt, men slutter på en annen lyd."
       en: "\"Cat\" and \"hat\" end in the same -at sound, so they rhyme. \"Car\"
         starts the same way but ends differently."
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13341-01
     goal: KM13341
@@ -125,7 +128,8 @@ items:
         gir noen noe, og "good night" sier man om kvelden.
       en: You are asking to hear it once more. "Here you are" is for handing
         something over, and "good night" is for the evening.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13341-02
     goal: KM13341
@@ -153,7 +157,8 @@ items:
         å få oppmerksomhet, og \"see you\" sier man når man går."
       en: "\"You are welcome\" is the reply to thanks. \"Excuse me\" gets
         someone's attention, and \"see you\" is for leaving."
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13346-01
     goal: KM13346
@@ -183,7 +188,8 @@ items:
         lyden. Slike ord er lette å kjenne igjen når du leser engelsk."
       en: "\"Sommer\" and \"summer\" share almost the same letters and sound.
         Words like that are easy to recognise when you read English."
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13344-01
     goal: KM13344
@@ -212,7 +218,8 @@ items:
         og \"happy\" forteller hvordan noen er."
       en: "\"Book\" is a thing, so it is a noun. \"Jump\" is something you do,
         and \"happy\" tells you how someone is."
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13344-02
     goal: KM13344
@@ -240,7 +247,8 @@ items:
         "runs" er verbet.
       en: The verb tells you what happens. Here the dog is running, so "runs"
         is the verb.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13345-01
     goal: KM13345
@@ -268,7 +276,8 @@ items:
         for du hører ikke alle bokstavene når du sier det."
       en: "\"Friend\" is written with i before e. It is a word to learn by
         heart, because you cannot hear every letter when you say it."
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13345-02
     goal: KM13345
@@ -296,7 +305,8 @@ items:
         bare det første ordet i setningen som har stor bokstav.
       en: In English the word "I" is always capitalised. Otherwise only the
         first word of the sentence takes a capital letter.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13347-01
     goal: KM13347
@@ -323,7 +333,8 @@ items:
       nb: "\"Pig\" er et lydrett ord: p-i-g. Det betyr gris."
       en: "\"Pig\" is spelled just as it sounds: p-i-g. It is the farm animal
         that says oink."
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13347-02
     goal: KM13347
@@ -351,7 +362,8 @@ items:
         Anna\" er et ordbilde du møter ofte."
       en: "\"My\" shows that something belongs to you, and here it is your
         name. \"My name is Anna\" is a phrase you meet often."
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13348-01
     goal: KM13348
@@ -382,7 +394,8 @@ items:
       en: You do not need to know the word beforehand. The rest of the sentence
         says Sara drank a big glass of water, so "thirsty" must be about
         drinking.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13349-01
     goal: KM13349
@@ -412,7 +425,8 @@ items:
         tatt.
       en: The text says "to school". The shop and the beach are not mentioned
         at all.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13349-02
     goal: KM13349
@@ -442,7 +456,8 @@ items:
         hører til vinteren.
       en: The text never names the season, but "cold", "snow" and "snowman" all
         belong to winter.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
 # Goals that no written question can honestly test. Recorded rather than
 # omitted, so the gap is a stated judgement instead of a silent one.

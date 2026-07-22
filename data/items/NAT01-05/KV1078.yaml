@@ -44,7 +44,8 @@ items:
       en: The independent variable is the one the investigator changes on
         purpose - here the amount of light. Height is the dependent variable,
         the thing being measured, and watering is kept the same for all plants.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13854-02
     goal: KM13854
@@ -74,7 +75,8 @@ items:
       en: A hypothesis is a claim that measurement could show to be wrong.
         Option a can be tested with a thermometer. Option b is an opinion and
         option c is a question, not a claim.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13855-01
     goal: KM13855
@@ -110,7 +112,8 @@ items:
         same conditions shows how much the result varies and gives a more
         reliable average. Discarding data that does not fit is not science, and
         extra decimals do not make an uncertain measurement more certain.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13856-01
     goal: KM13856
@@ -144,7 +147,8 @@ items:
         distances in space are so vast they cannot be shown to scale in a
         classroom. Showing the planets orbiting the sun is a strength of the
         model, not a weakness.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13859-01
     goal: KM13859
@@ -179,7 +183,8 @@ items:
         into a signal and something that picks the signal up and converts it
         back. The microphone turns sound into a radio signal, and the receiver
         turns the signal back into sound in the loudspeaker.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13861-01
     goal: KM13861
@@ -198,7 +203,8 @@ items:
       en: Mass is neither lost nor created in a chemical reaction. The atoms are
         just rearranged, so the mass of the products equals the mass of the
         reactants, 4 + 32 = 36 grams.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13861-02
     goal: KM13861
@@ -229,7 +235,8 @@ items:
       en: Methane is made of carbon and hydrogen. In complete combustion the
         carbon combines with oxygen to form carbon dioxide, and the hydrogen
         combines with oxygen to form water.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13861-03
     goal: KM13861
@@ -262,7 +269,8 @@ items:
       en: Mass conservation covers every substance taking part, gases included.
         The iron reacts with oxygen from the air, and those oxygen atoms stay in
         the new substance, so the product weighs more than the steel wool did.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13862-01
     goal: KM13862
@@ -278,7 +286,8 @@ items:
         har. Det er protontallet som bestemmer hvilket grunnstoff det er.
       en: The atomic number in the periodic table tells you how many protons the
         atom has. The proton count is what decides which element it is.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13862-02
     goal: KM13862
@@ -310,7 +319,8 @@ items:
       en: Chemical reactions are about the electrons in the outermost shell. The
         noble gases already have a full outer shell, so they have little to gain
         from sharing or swapping electrons.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13862-03
     goal: KM13862
@@ -343,7 +353,8 @@ items:
       en: A chemical compound has properties of its own, not a mixture of the
         properties of its elements. Sodium and chlorine form sodium chloride,
         ordinary table salt.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13863-01
     goal: KM13863
@@ -378,7 +389,8 @@ items:
         that heat radiation and radiate it back. Without the greenhouse effect
         the Earth would be far colder. The ozone layer is a separate matter - it
         blocks UV radiation.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13863-02
     goal: KM13863
@@ -412,7 +424,8 @@ items:
         years. Burning them releases that carbon into the atmosphere as carbon
         dioxide. Volcanoes emit CO2 too, but far less than human combustion, and
         hydropower emits none while running.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13864-01
     goal: KM13864
@@ -444,7 +457,8 @@ items:
       en: The wheel turns the dynamo, which generates current, so kinetic energy
         becomes electrical energy. In the bulb that electrical energy goes on to
         become light and heat.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13864-02
     goal: KM13864
@@ -476,7 +490,8 @@ items:
       en: Energy cannot disappear, only change form. Here 90 J spreads into the
         surroundings as heat. Heat that has spread out is hard to put to further
         use, which is why we call its energy quality low.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13865-01
     goal: KM13865
@@ -512,7 +527,8 @@ items:
         nothing to the air while running, but dams and pipelines change a
         river's flow and the landscape around it. Acid rain comes from sulphur
         in fossil fuels, and radioactive waste comes from nuclear power.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13866-01
     goal: KM13866
@@ -548,7 +564,8 @@ items:
         that matched their surroundings. Variation between individuals is the
         very basis of natural selection. The idea that traits acquired during
         life are inherited was an older one that did not hold up.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13866-02
     goal: KM13866
@@ -586,7 +603,8 @@ items:
         Individual beetles do not change colour on demand, but the ones that
         happened to be dark survived more often and had more offspring, so over
         generations dark colouring became common.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13867-01
     goal: KM13867
@@ -616,7 +634,8 @@ items:
       en: Chloroplasts are where photosynthesis happens, and only plant cells and
         some algae have them. A nucleus and a cell membrane are found in both
         plant and animal cells.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13867-02
     goal: KM13867
@@ -648,7 +667,8 @@ items:
       en: Mitochondria are where cellular respiration releases energy from
         nutrients. Cells that work hard, such as muscle cells, therefore have
         many of them. Structure follows function.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13868-01
     goal: KM13868
@@ -678,7 +698,8 @@ items:
       en: Abiotic factors are the non-living parts of an ecosystem - temperature,
         light, water, pH. Earthworms and fungi are alive, so they are biotic
         factors.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13868-02
     goal: KM13868
@@ -713,7 +734,8 @@ items:
         heat. Only what is stored in the body can be eaten on. The energy is not
         destroyed; it turns into heat that cannot be reused. Matter such as
         carbon and nitrogen, by contrast, cycles round and comes back.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13869-01
     goal: KM13869
@@ -749,7 +771,8 @@ items:
         easy; icy or hard-packed snow can keep the animals from the food below.
         Telling snow types apart precisely is therefore practical knowledge about
         grazing and moving herds, built up over generations.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13870-01
     goal: KM13870
@@ -780,7 +803,8 @@ items:
       en: In photosynthesis the plant uses energy from sunlight to build glucose
         from carbon dioxide and water, with oxygen left over. Option b describes
         cellular respiration, the reverse process.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13870-02
     goal: KM13870
@@ -815,7 +839,8 @@ items:
         in the air, which plants fix during photosynthesis. Roots take up water
         and mineral nutrients, not carbon. Cellular respiration returns the
         carbon to the air as CO2, closing the cycle.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13871-01
     goal: KM13871
@@ -847,7 +872,8 @@ items:
         explain if the continents had always been where they are now. Coastlines
         that fit together, and seafloor that is youngest in mid-ocean, point the
         same way.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13871-02
     goal: KM13871
@@ -878,7 +904,8 @@ items:
       en: The crust is split into plates that move a few centimetres a year.
         Where plates push against each other, stress builds up and is released as
         earthquakes, and material forced downwards can melt and feed volcanoes.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13872-01
     goal: KM13872
@@ -912,7 +939,8 @@ items:
         pregnancy, but they are no barrier to infection. A condom is the only
         common contraceptive that also stops pathogens passing between mucous
         membranes.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13872-02
     goal: KM13872
@@ -944,7 +972,8 @@ items:
       en: In Norway the age of medical consent is 16, from which you decide about
         your own health care. Youth health clinics are free and bound by
         confidentiality, and younger people can go there for help and advice too.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13873-01
     goal: KM13873
@@ -979,7 +1008,8 @@ items:
         cells - pulling your hand back, for instance. Hormones are released into
         the blood and act more slowly, but more widely and for longer, as in
         growth and puberty.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13873-02
     goal: KM13873
@@ -1015,7 +1045,8 @@ items:
         enough to bind in their place, or they change how much signalling
         substance is present. Anabolic steroids resemble testosterone and act on
         the hormone system the same way.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13874-01
     goal: KM13874
@@ -1047,7 +1078,8 @@ items:
       en: A vaccine shows the immune system a marker from the pathogen without
         making you ill. The body makes antibodies and memory cells, so if the
         real pathogen turns up later the immune system responds quickly.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13874-02
     goal: KM13874
@@ -1081,7 +1113,8 @@ items:
         enough share of the population is immune, chains of transmission break.
         That protects infants and people with weakened immune systems, who cannot
         take every vaccine themselves.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
 # Goals that no written question can honestly test. Recorded rather than
 # omitted, so the gap is a stated judgement instead of a silent one.

@@ -35,7 +35,10 @@ def smells(item: QuizItem, after_year: int) -> list[str]:
         found.append(f"prompt is {len(item.prompt.nb)} chars for year {after_year} (>{limit})")
 
     if item.type == "multiple_choice":
-        texts = [c.text.nb.strip().casefold() for c in item.choices]
+        # Case-sensitive on purpose: spelling and capitalisation items
+        # deliberately offer options that differ only in case ("i have" vs
+        # "I have"), and casefolding here would flag the exact thing they test.
+        texts = [c.text.nb.strip() for c in item.choices]
         if len(set(texts)) != len(texts):
             found.append("duplicate choice text")
         # An answer noticeably longer than its distractors is a giveaway.

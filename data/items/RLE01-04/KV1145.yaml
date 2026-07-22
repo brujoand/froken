@@ -50,7 +50,8 @@ items:
         Christianity is the world's largest religion, with around 2.4 billion
         adherents. Islam is second with around 1.9 billion, and Hinduism third.
         Judaism is one of the smallest of the world religions by numbers.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14612-02
     goal: KM14612
@@ -86,7 +87,8 @@ items:
         Guru Nanak (1469-1539) is counted as the first of Sikhism's ten Gurus.
         Siddhartha Gautama founded Buddhism, and Zoroaster founded
         Zoroastrianism in ancient Persia.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14612-03
     goal: KM14612
@@ -118,7 +120,8 @@ items:
         Sawm is the fast during the month of Ramadan. Zakat is the yearly gift
         to the community, and hajj is the pilgrimage to Mecca. The other two
         pillars are the declaration of faith (shahada) and prayer (salat).
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14623 -- religion i historiske endringsprosesser
   - id: KM14623-01
@@ -155,7 +158,8 @@ items:
         The Reformation was imposed on Norway in 1537 by the king in
         Copenhagen. 1349 is the year the Black Death reached Norway, and 1814
         is the year Norway got its own constitution.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14623-02
     goal: KM14623
@@ -195,7 +199,8 @@ items:
         but died in 1845, six years before parliament passed the change. Hans
         Nielsen Hauge was a lay preacher in the early 1800s, and Ibsen was a
         playwright later in the century.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14624 -- livssynshumanisme og andre ikke-religiøse livssyn
   - id: KM14624-01
@@ -236,7 +241,8 @@ items:
         Secular humanism is a non-religious worldview. It builds on human
         experience, reason and science rather than on a god, and stresses that
         people have a responsibility for one another and for the world.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14624-02
     goal: KM14624
@@ -273,7 +279,8 @@ items:
         God's existence cannot be settled. Someone certain that no god exists
         is called an atheist, and someone who believes in several gods is a
         polytheist.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14613 -- religiøsitet utenfor etablerte religionssamfunn
   - id: KM14613-01
@@ -315,7 +322,8 @@ items:
         ideas from several sources, such as healing, astrology or meditation,
         often without membership anywhere. The age of the ideas is not what
         defines it; many of them are very old.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14613-02
     goal: KM14613
@@ -361,7 +369,8 @@ items:
         story. Some people hold religious beliefs or practices without
         belonging to an organisation, and some are members without practising.
         Membership statistics must therefore be read with care.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14614 -- samiske og andre urfolks religions- og livssynstradisjoner
   - id: KM14614-01
@@ -404,7 +413,8 @@ items:
         mediating between people and the spirit world. The drum (gievrie) was
         used in this work. From the 1600s noaidis were persecuted by the
         authorities and the church, and many drums were burned or confiscated.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14614-02
     goal: KM14614
@@ -438,7 +448,8 @@ items:
         formation, connected to offerings and to particular families or areas.
         Many sieidi sites are known and respected to this day. The song you may
         have thought of is called a joik.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14614-03
     goal: KM14614
@@ -476,7 +487,8 @@ items:
         mother. The revival that followed him spread across the North Calotte
         and preached in Sami and Finnish among other languages. Elsa Laula
         Renberg and Isak Saba were Sami political pioneers of the 1900s.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14616 -- fagbegreper om religioner og livssyn
   - id: KM14616-01
@@ -508,7 +520,8 @@ items:
         "Mono" means one and "theos" means god. Belief in many gods is called
         polytheism, and the view that the divine is present in everything is
         called pantheism.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14616-02
     goal: KM14616
@@ -546,7 +559,8 @@ items:
         politics and public life. It is not the same as individuals ceasing to
         believe. A religion splitting into branches is usually called
         denominational division or schism.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14616-03
     goal: KM14616
@@ -582,7 +596,8 @@ items:
         "Ortho" means correct. Orthodoxy concerns correct doctrine, orthopraxy
         correct practice. The terms are tools for describing what a tradition
         emphasises, not a ranking of which tradition is better.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14617 -- kilder til kunnskap om religioner og livssyn
   - id: KM14617-01
@@ -622,7 +637,8 @@ items:
         are useful, but they answer different questions, and a primary source
         is not neutral either - it says what a community wishes to say about
         itself.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14617-02
     goal: KM14617
@@ -666,7 +682,8 @@ items:
         is not the same as being critical or negative. The insider perspective
         is the description as the believer experiences it, and both are needed
         for a full picture.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14615 -- syn på kjønn og seksualitet
   - id: KM14615-01
@@ -707,7 +724,8 @@ items:
         into use the same year. The Synod also stated that two views on this
         question exist within the church and that both may be voiced. Other
         Christian denominations in Norway have decided differently.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14615-02
     goal: KM14615
@@ -755,7 +773,8 @@ items:
         history. Saying "what religion X thinks" as if there were one answer is
         therefore imprecise. On the contrary, the question is much debated
         within many traditions.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14622 -- religion i medier og populærkultur
   - id: KM14622-01
@@ -794,7 +813,8 @@ items:
         the Eddas among other sources. The films change the stories a great
         deal, so they are popular culture and not a source for what people
         actually believed in the Viking Age.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14622-02
     goal: KM14622
@@ -834,7 +854,8 @@ items:
         might appear in another world. Aslan's death and return in the first
         book follow a Christian narrative pattern. Borrowings from religious
         stories like this are common in film and literature.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14625 -- etiske ideer fra sentrale skikkelser i religiøse tradisjoner
   - id: KM14625-01
@@ -873,7 +894,8 @@ items:
         Islam, Buddhism, Hinduism and secular humanism, among others. Some
         traditions state it negatively: do not do to others what you would not
         want done to you.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14625-02
     goal: KM14625
@@ -909,7 +931,8 @@ items:
         Ahimsa means non-violence and is central to Hinduism, Buddhism and
         especially Jainism. Gandhi used the principle in the struggle for
         Indian independence, including non-violent civil disobedience.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14625-03
     goal: KM14625
@@ -948,7 +971,8 @@ items:
         next three concern its cause, that it can cease, and the path there -
         the eightfold path. Buddhism has no creator god, and the teaching of
         rebirth means life is not lived only once.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14626 -- etiske ideer fra filosofihistorien
   - id: KM14626-01
@@ -987,7 +1011,8 @@ items:
         Duty ethics judges an action by the rule it follows, not by what it
         leads to. Consequentialist ethics judges the outcome, and virtue ethics
         asks what kind of person the action makes you.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14626-02
     goal: KM14626
@@ -1023,7 +1048,8 @@ items:
         Utilitarianism is a form of consequentialist ethics: an action is
         judged by its results. Option b describes duty ethics and option c
         describes virtue ethics.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14626-03
     goal: KM14626
@@ -1061,7 +1087,8 @@ items:
         The golden mean is central to Aristotle's virtue ethics. The
         categorical imperative is Kant's, and the principle of utility belongs
         to utilitarianism.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14620 -- etiske problemstillinger knyttet til kommunikasjon
   - id: KM14620-01
@@ -1098,7 +1125,8 @@ items:
         Article 100 of the constitution states that there shall be freedom of
         expression. Article 112 concerns the right to a healthy environment,
         and Article 1 states that Norway is a free and independent realm.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14620-02
     goal: KM14620
@@ -1143,7 +1171,8 @@ items:
         skin colour, origin, religion, sexual orientation, gender identity and
         disability. The threshold is high: disagreeing, or saying something
         that upsets someone, is not in itself a crime in Norway.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14621 -- menneskerettigheter, bærekraft og fattigdom
   - id: KM14621-01
@@ -1179,7 +1208,8 @@ items:
         The Universal Declaration was adopted on 10 December 1948, three years
         after the Second World War. 1989 is the year the UN Convention on the
         Rights of the Child was adopted.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14621-02
     goal: KM14621
@@ -1221,7 +1251,8 @@ items:
         by Gro Harlem Brundtland. It ties environment, economy and social
         conditions together, and its ethical core is responsibility towards
         people not yet born.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
 # Goals that no written question can honestly test, and goals where a question
 # would have to take a side on something no quiz should decide for a child.

@@ -50,7 +50,8 @@ items:
       en: Source criticism starts with the sender and the purpose. Who made a
         text, and what they want from it, says a lot about the information you
         get. Many shares say nothing about whether it is true.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14701-02
     goal: KM14701
@@ -86,7 +87,8 @@ items:
       en: A filter bubble arises when algorithms sort content by what you have
         liked and clicked before. The feed becomes one-sided, and you meet
         information that challenges you less often.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14702 — teknologi som endringsfaktor
   - id: KM14702-01
@@ -125,7 +127,8 @@ items:
       en: Before the press, books were copied by hand, one at a time. After it,
         the same text could be printed in many copies. That made books cheaper
         and, over time, helped literacy spread.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14702-02
     goal: KM14702
@@ -161,7 +164,8 @@ items:
       en: Urbanisation means a growing share of the population living in towns.
         The factories were in the towns and needed workers, while new machinery
         meant farming needed fewer hands.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14714 — kamp for forandring
   - id: KM14714-01
@@ -200,7 +204,8 @@ items:
       en: The Storting granted women universal suffrage in 1913. Men had gained
         it in 1898. The right did not arrive on its own, but after decades of
         organising, petitions and proposals voted down several times.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14714-02
     goal: KM14714
@@ -242,7 +247,8 @@ items:
         itself — the watercourse lay in reindeer herding land. The plant was
         built, but the conflict pushed Sami rights up the political agenda, and
         the Sami Parliament opened in 1989.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14704 — levekår, bosettingsmønstre og demografi
   - id: KM14704-01
@@ -280,7 +286,8 @@ items:
         schooling they get, and income per inhabitant. The point of the index is
         precisely that economic output alone says too little about how people
         actually live.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14704-02
     goal: KM14704
@@ -319,7 +326,8 @@ items:
         at the top. A wide base means high birth rates; a narrow top means few
         live to old age. Countries with good healthcare and low birth rates get
         a pyramid that is more even, or even narrowest at the bottom.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14699 — årsaker til og konsekvenser av konflikter
   - id: KM14699-01
@@ -362,7 +370,8 @@ items:
         resentment of the treaty as one of several factors behind the political
         turmoil in Germany in the 1920s and 1930s. The division into two states
         came only after the Second World War.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14699-02
     goal: KM14699
@@ -400,7 +409,8 @@ items:
         declare war on Germany two days later. The attack on Norway came later
         in the war, and the 1929 crash is an underlying cause of the crises of
         the 1930s, not the outbreak itself.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14705 — terror og folkemord
   - id: KM14705-01
@@ -441,7 +451,8 @@ items:
         particular group of people, in whole or in part. It was adopted in 1948,
         in the years just after the Holocaust, and made genocide a crime under
         international law for which states can be held responsible.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14705-02
     goal: KM14705
@@ -480,7 +491,8 @@ items:
         out by Norwegian police under German occupation. Other Norwegian Jews
         managed to escape to Sweden, often helped by neighbours and members of
         the resistance.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14703 — menneskerettigheter og urfolksrettigheter
   - id: KM14703-01
@@ -517,7 +529,8 @@ items:
       en: Article 1 of the declaration states that all human beings are born free
         and equal in dignity and rights. Universality is the core of the idea —
         the rights follow from being human, not from citizenship.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14703-02
     goal: KM14703
@@ -557,7 +570,8 @@ items:
         peoples' rights and to consult them in matters that affect them. In
         Norway it applies to the Sami. It is an example of an international
         agreement with direct consequences for national policy.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14703-03
     goal: KM14703
@@ -595,7 +609,8 @@ items:
       en: The right to be heard is in Article 12 of the convention and applies in
         court cases and before public authorities, among others. Children do not
         have the vote in parliamentary elections; there the age limit is 18.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14706 — fornorskning av samer og nasjonale minoriteter
   - id: KM14706-01
@@ -638,46 +653,8 @@ items:
         mother tongue, and land could only be bought by people who knew
         Norwegian. As a result many families lost their language within one or
         two generations.
-    reviewed: false
-
-  - id: KM14706-02
-    goal: KM14706
-    type: multiple_choice
-    difficulty: 3
-    prompt:
-      nb: Norge har fem anerkjente nasjonale minoriteter. Hvilken gruppe er en av
-        dem?
-      en: Norway has five recognised national minorities. Which group is one of
-        them?
-    choices:
-      - id: a
-        text:
-          nb: Kvener og norskfinner
-          en: Kven and Norwegian Finns
-        correct: true
-      - id: b
-        text:
-          nb: Samer
-          en: Sami people
-      - id: c
-        text:
-          nb: Svensker
-          en: Swedes
-      - id: d
-        text:
-          nb: Islendinger
-          en: Icelanders
-    explanation:
-      nb: De fem nasjonale minoritetene er kvener/norskfinner, jøder,
-        skogfinner, rom og romanifolk/tatere. Samene har en annen status — de er
-        anerkjent som urfolk i Norge, med rettigheter som følger av Grunnloven
-        § 108 og ILO-konvensjon nr. 169.
-      en: The five national minorities are Kven/Norwegian Finns, Jews, Forest
-        Finns, Roma and Romani people/Tater. The Sami have a different status —
-        they are recognised as an indigenous people in Norway, with rights
-        following from Article 108 of the Constitution and ILO Convention
-        No. 169.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14708 — bærekraftig utvikling
   - id: KM14708-01
@@ -715,7 +692,8 @@ items:
         that is good for the environment can cost jobs, and poverty makes it
         harder to prioritise nature. Sustainability means weighing all three at
         once.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14708-02
     goal: KM14708
@@ -756,7 +734,8 @@ items:
         today's needs to those of the future — it says neither that we must stop
         using resources nor that growth is always the answer, but that the use
         must be able to continue over time.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14710 — arbeid, inntekt og forbruk
   - id: KM14710-01
@@ -793,7 +772,8 @@ items:
       en: On a payslip, gross pay is at the top. The employer deducts tax before
         payment, and what reaches your account is net pay. Net pay is what you
         can actually spend, so it is what a budget has to start from.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14710-02
     goal: KM14710
@@ -829,7 +809,8 @@ items:
       en: The nominal rate is interest alone. The effective rate includes set-up
         and instalment fees, and so is higher. It is the effective rate that
         makes two loans comparable.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14709 — digitale spor, personvern og opphavsrett
   - id: KM14709-01
@@ -873,7 +854,8 @@ items:
         data. Note that deletion applies to the individual service. If the
         content has been copied on by others, it is often impossible to remove
         everywhere — which is why what is posted is hard to take back.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14709-02
     goal: KM14709
@@ -913,7 +895,8 @@ items:
         online. Some images carry licences, such as Creative Commons, stating
         what you may do. That the use is unpaid, or the image slightly altered,
         does not in itself grant the right to use it.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14712 — aktører med makt
   - id: KM14712-01
@@ -954,7 +937,8 @@ items:
         courts. The media have no formal power, but influence events by exposing
         wrongdoing and setting the agenda. Hence "the fourth estate" — a
         metaphor, not a legal role.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14712-02
     goal: KM14712
@@ -992,7 +976,8 @@ items:
         They negotiate against each other over pay and conditions in the
         collective bargaining rounds. Such interest organisations are examples
         of actors with influence without being elected to any political body.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14715 — lover, regler og normer
   - id: KM14715-01
@@ -1031,7 +1016,8 @@ items:
         reactions, such as irritation or being kept at a distance. Many norms
         are not written into law, and what counts as normal can vary between
         settings and change over time.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14715-02
     goal: KM14715
@@ -1065,7 +1051,8 @@ items:
       en: You cannot be punished for an act committed before the age of 15.
         Younger children may still meet other measures, for instance through
         child welfare services, and liability for damages can apply at any age.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14715-03
     goal: KM14715
@@ -1102,7 +1089,8 @@ items:
         judgment can be appealed upwards is an important safeguard. The Office
         of the Auditor General is not a court, but checks how the state spends
         money.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM14716 — det politiske systemet og velferdssamfunnet
   - id: KM14716-01
@@ -1136,7 +1124,8 @@ items:
       en: The Storting has 169 representatives, elected from the 19 electoral
         districts. It is the legislative branch and also decides the national
         budget.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14716-02
     goal: KM14716
@@ -1175,7 +1164,8 @@ items:
       en: The 4 per cent threshold applies to the levelling seats. A small party
         can still win a district seat without reaching it, but misses out on the
         levelling seats meant to make the distribution more proportional.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM14716-03
     goal: KM14716
@@ -1212,7 +1202,8 @@ items:
         spent on services everyone can use. Norway also has income from
         petroleum, part of which is set aside in the Government Pension Fund
         Global.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
 # Goals where no written question can honestly stand in for the goal. Recorded
 # rather than omitted, so each gap is a stated judgement instead of a silence.

@@ -49,7 +49,8 @@ items:
         The rest of the sentence says she had to walk very slowly, which points
         to the path being slippery. Reading the whole sentence before looking a
         word up is one of the most useful strategies for an unknown word.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13374-02
     goal: KM13374
@@ -89,7 +90,8 @@ items:
         Context often explains a word for you, and many unknown words do not
         matter for the main content. Looking up every word in turn is slow and
         makes it easier to lose the thread of the text.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13371 - words and expressions in varieties of English
   - id: KM13371-01
@@ -126,7 +128,8 @@ items:
         Lift and elevator are the same thing. A ladder is something you climb,
         and an escalator is a moving staircase; both words exist in British and
         American English alike.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13371-02
     goal: KM13371
@@ -160,7 +163,8 @@ items:
       en: >-
         Fall and autumn name the same season. Spring is a different season, and
         harvest means the gathering of crops rather than the season itself.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13372 - varied vocabulary and idiomatic expressions, fitted to purpose
   - id: KM13372-01
@@ -194,7 +198,8 @@ items:
       en: >-
         This is an idiom, a fixed expression whose meaning does not come from
         the separate words. It simply means that it is raining hard.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13372-02
     goal: KM13372
@@ -228,7 +233,8 @@ items:
       en: >-
         For someone you do not know, in a formal setting, Dear plus a surname is
         the fitting choice. The other two are informal greetings for friends.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13376 - similarities and differences between English and other languages
   - id: KM13376-01
@@ -265,7 +271,8 @@ items:
         Eventually means in the end. Words that look alike across two languages
         but mean different things are called false friends, and they are worth
         noticing when you compare English with Norwegian.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13376-02
     goal: KM13376
@@ -299,7 +306,8 @@ items:
       en: >-
         English uses the article the in front of the noun where Norwegian uses
         an ending. The -s in houses makes a plural, not a definite form.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13389 - word classes and sentence structure
   - id: KM13389-01
@@ -334,7 +342,8 @@ items:
       en: >-
         An adjective describes a noun, and old describes dog. Quietly is an
         adverb describing how the dog slept, and slept is a verb.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13389-02
     goal: KM13389
@@ -368,7 +377,8 @@ items:
         In English, adverbs like often go between the subject and the verb.
         Norwegian tends to put them after the verb, which is why the other two
         options can feel right to a Norwegian speaker even though they are not.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13375 - spelling, inflection, sentence and text structure
   - id: KM13375-01
@@ -399,7 +409,8 @@ items:
       en: >-
         The word is spelled necessary, with one c and two s letters. One way to
         remember it is one collar and two sleeves on a shirt.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13375-02
     goal: KM13375
@@ -433,7 +444,8 @@ items:
       en: >-
         Write is an irregular verb and its past tense is wrote. The form writed
         does not exist, and written needs an auxiliary, as in I have written.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13375-03
     goal: KM13375
@@ -469,7 +481,8 @@ items:
         The two sentences contrast with each other, and however marks a
         contrast. Therefore introduces a consequence, and for example introduces
         an example.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13377 - reading and conveying content from different kinds of texts
   - id: KM13377-01
@@ -510,7 +523,8 @@ items:
         The last sentence of the notice answers the question directly. In short
         practical texts the answer usually sits in one particular sentence, so
         it pays to find the sentence that is about what you are asking.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13377-02
     goal: KM13377
@@ -546,7 +560,8 @@ items:
         The text gives instructions in order and names ingredients, which is
         typical of a recipe. Recognising the text type helps you know what to
         look for as you read.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13378 - reading and interpreting English-language fiction
   - id: KM13378-01
@@ -586,7 +601,8 @@ items:
         the letter twice and stays silent all evening. Reading such hints is
         called interpreting, and writers often let actions show what they do not
         say outright.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13378-02
     goal: KM13378
@@ -622,7 +638,8 @@ items:
         The wind is given a human quality, whispering, which is called
         personification. A simile compares using like or as, as in as cold as
         ice, and rhyme is about words that sound alike at the end.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13379 - reading non-fiction and judging how reliable sources are
   - id: KM13379-01
@@ -660,7 +677,8 @@ items:
         figures. A comment is one person's claim with nothing behind it, and an
         advertisement is trying to sell something, so it picks the figures that
         suit it.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13379-02
     goal: KM13379
@@ -700,7 +718,8 @@ items:
         A source should say who wrote it and when, so you can weigh it up. If
         someone profits from the conclusion, that is another reason for caution.
         Photographs and a recent update date say little on their own.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13381 - using sources critically and honestly
   - id: KM13381-01
@@ -740,7 +759,8 @@ items:
         Swapping a few words does not help, because the content still comes from
         someone else. Citing also makes your own text stronger, since the reader
         can check it.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13381-02
     goal: KM13381
@@ -776,7 +796,8 @@ items:
         It is the content and the ideas that belong to the source, not only the
         exact words. A translation therefore needs a reference just as a
         quotation does.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13384 - the role of English in Norway and in the world
   - id: KM13384-01
@@ -815,7 +836,8 @@ items:
         A lingua franca is a common language people meet in when their first
         languages differ. It is why a Norwegian and a Japanese researcher often
         speak English together even though neither grew up with it.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13384-02
     goal: KM13384
@@ -851,7 +873,8 @@ items:
         Ski entered English from Norwegian in the nineteenth century, along with
         the sport. Borrowing runs both ways, even though in Norway we notice the
         English words coming into Norwegian most.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13385 - indigenous peoples in the English-speaking world and in Norway
   - id: KM13385-01
@@ -888,7 +911,8 @@ items:
         the country's official languages alongside English. The Inuit are
         indigenous to the Arctic, including Canada and Greenland, and the Sámi
         are indigenous to Norway, Sweden, Finland and Russia.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13385-02
     goal: KM13385
@@ -924,7 +948,8 @@ items:
         Northern Sámi is the largest of several Sámi languages in Norway; Lule
         Sámi and Southern Sámi are spoken here too. Finnish and Icelandic are
         neighbouring languages, but they are not Sámi languages.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13387 - ways of living, communication patterns and diversity
   - id: KM13387-01
@@ -961,7 +986,8 @@ items:
         English usually wraps requests in could you and please. Norwegian more
         often manages with a plain imperative without sounding rude, so a direct
         translation from Norwegian can come across as blunter than you intend.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13387-02
     goal: KM13387
@@ -1000,7 +1026,8 @@ items:
         others. Brazil's official language is Portuguese and Japan's is
         Japanese. English is therefore used by far more people than those who
         grew up with it.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
 # Goals that no written question can honestly test. Recorded rather than
 # omitted, so the gap is a stated judgement instead of a silent one.

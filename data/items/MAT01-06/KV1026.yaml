@@ -18,7 +18,8 @@ items:
     explanation:
       nb: En hel er 100 prosent. En firedel av 100 er 25, så 1/4 er 25 prosent.
       en: A whole is 100 percent. A quarter of 100 is 25, so 1/4 is 25 percent.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13286-02
     goal: KM13286
@@ -46,7 +47,8 @@ items:
         60 prosent.
       en: Percent means hundredths. 0.6 is the same as 60 hundredths, which is
         60 percent.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13288-01
     goal: KM13288
@@ -59,7 +61,8 @@ items:
     explanation:
       nb: 25 prosent er det samme som en firedel. 80 delt på 4 er 20.
       en: 25 percent is the same as one quarter. 80 divided by 4 is 20.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13288-02
     goal: KM13288
@@ -87,7 +90,8 @@ items:
         2/4 + 1/4 = 3/4.
       en: Rewrite 1/2 as 2/4 so both fractions are in quarters. Then
         2/4 + 1/4 = 3/4.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13292-01
     goal: KM13292
@@ -104,7 +108,8 @@ items:
         av de 9. Svaret er 3 grader.
       en: From minus 6 it is 6 degrees up to zero, leaving 3 of the 9 degrees.
         The answer is 3 degrees.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13292-02
     goal: KM13292
@@ -134,7 +139,8 @@ items:
       en: On the number line negative numbers sit left of zero, and minus 8 sits
         furthest left. The bigger the digit after the minus sign, the smaller
         the number.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13287-01
     goal: KM13287
@@ -148,7 +154,8 @@ items:
       nb: Gange kommer før pluss. Først 3 × 5 = 15, så 4 + 15 = 19.
       en: Multiplication comes before addition. First 3 × 5 = 15, then
         4 + 15 = 19.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13287-02
     goal: KM13287
@@ -163,7 +170,8 @@ items:
         slutt 20 - 14 = 6.
       en: Brackets first, 3 + 4 = 7. Then multiply, 2 × 7 = 14. Finally
         20 - 14 = 6.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13291-01
     goal: KM13291
@@ -178,7 +186,8 @@ items:
         3, og du får x = 5.
       en: Subtract 4 from both sides to get 3x = 15. Then divide both sides by 3
         to get x = 5.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13291-02
     goal: KM13291
@@ -207,7 +216,8 @@ items:
         løsningen er ugyldig. Riktig svar er x = 5.
       en: You check a solution by putting it back into the equation. 19 + 7 = 26,
         so the solution is invalid. The right answer is x = 5.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13294-01
     goal: KM13294
@@ -224,7 +234,8 @@ items:
         8 × 4 + 7 = 39.
       en: Work backwards. 39 - 7 = 32, and 32 divided by 4 is 8. Check
         afterwards that 8 × 4 + 7 = 39.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13294-02
     goal: KM13294
@@ -254,7 +265,8 @@ items:
         til. Til sammen blir det 26, altså 3n + 5 = 26.
       en: Let n be the number of nuts in one bag. Three bags is 3n, and the 5
         loose nuts are added. The total is 26, so 3n + 5 = 26.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13296-01
     goal: KM13296
@@ -282,7 +294,8 @@ items:
         enn 12, men 15 er det.
       en: Greater than 12 means the number must be above 12. 12 itself is not
         greater than 12, but 15 is.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13296-02
     goal: KM13296
@@ -310,7 +323,8 @@ items:
         det; de to andre er for tunge.
       en: The weight must be less than or equal to 3500 kilos. Only 3400 kilos
         meets that; the other two are too heavy.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13289-01
     goal: KM13289
@@ -327,7 +341,8 @@ items:
         antallet, og 30 delt på 5 er 6.
       en: Add all the numbers, so 4 + 7 + 9 + 8 + 2 = 30. Then divide by how
         many there are, and 30 divided by 5 is 6.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13289-02
     goal: KM13289
@@ -360,7 +375,8 @@ items:
       en: One very high value pulls the mean far up. The median is the middle
         value once you sort the data, and it is not affected by that one
         outlier.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13290-01
     goal: KM13290
@@ -376,7 +392,8 @@ items:
       nb: Les av juli, som er 12, og mai, som er 8. Differansen er 12 - 8 = 4.
       en: Read off July, which is 12, and May, which is 8. The difference is
         12 - 8 = 4.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13290-02
     goal: KM13290
@@ -406,7 +423,8 @@ items:
         rekkefølge. Et kakediagram viser andeler av en helhet i stedet.
       en: A line graph shows change over time, because the points are joined in
         order. A pie chart shows shares of a whole instead.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13295-01
     goal: KM13295
@@ -424,7 +442,8 @@ items:
         det virkelige svaret ligger like under.
       en: Round 197 up to 200, which is easy to multiply. 4 × 200 = 800 kroner,
         and the true answer sits just below that.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13295-02
     goal: KM13295
@@ -454,7 +473,8 @@ items:
         900 kroner. Svaret 108 er altfor lite, og 9 × 120 = 1080.
       en: A quick estimate says 9 balls at around 100 kroner must cost around 900
         kroner. The answer 108 is far too small, and 9 × 120 = 1080.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
 # Goals that no written question can honestly test. Recorded rather than
 # omitted, so the gap is a stated judgement instead of a silent one.

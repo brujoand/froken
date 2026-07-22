@@ -22,7 +22,8 @@ items:
     explanation:
       nb: Vi deler 12 i 4 like grupper. Hver gruppe blir 3, fordi 4 · 3 = 12.
       en: We split 12 into 4 equal groups. Each group is 3, because 4 · 3 = 12.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13255-02
     goal: KM13255
@@ -39,7 +40,8 @@ items:
         poser. 5 + 5 + 5 + 5 = 20, så du trenger 4 poser.
       en: Here we know how many go in each bag and look for the number of bags.
         5 + 5 + 5 + 5 = 20, so you need 4 bags.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13256-01
     goal: KM13256
@@ -69,7 +71,8 @@ items:
         i hver rad.
       en: There are 18 blocks in total. Dividing 18 by 3 rows gives 6 blocks in
         each row.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13257-01
     goal: KM13257
@@ -82,7 +85,8 @@ items:
     explanation:
       nb: Å dele på 2 er det samme som å halvere. Halvparten av 24 er 12.
       en: Dividing by 2 is the same as halving. Half of 24 is 12.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13257-02
     goal: KM13257
@@ -112,7 +116,8 @@ items:
         lik 12."
       en: "30 : 3 is 10 and 6 : 3 is 2. Adding the part answers gives 36 : 3 =
         12."
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13258-01
     goal: KM13258
@@ -126,7 +131,8 @@ items:
       nb: "Divisjon er motsatt av multiplikasjon. Når 7 · 4 = 28, må 28 : 4 være
         7."
       en: "Division undoes multiplication. Since 7 · 4 = 28, 28 : 4 must be 7."
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13258-02
     goal: KM13258
@@ -153,7 +159,8 @@ items:
       nb: Å legge sammen tre femmere er det samme som å gange 3 med 5. Begge blir
         15.
       en: Adding three fives is the same as multiplying 3 by 5. Both give 15.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13259-01
     goal: KM13259
@@ -179,7 +186,8 @@ items:
     explanation:
       nb: 198 er nesten 200, og 203 er nesten 200. To ganger 200 er 400.
       en: 198 is nearly 200 and 203 is nearly 200. Two hundreds make 400.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13259-02
     goal: KM13259
@@ -209,7 +217,8 @@ items:
         altfor lite. Riktig svar er 72."
       en: "An estimate reveals the error: 9 · 8 is more than 9 · 5 = 45, so 27 is
         far too small. The right answer is 72."
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13260-01
     goal: KM13260
@@ -237,7 +246,8 @@ items:
     explanation:
       nb: Seks like grupper med 4 i hver skrives 6 · 4. Det blir 24 elever.
       en: Six equal groups of 4 is written 6 · 4. That makes 24 pupils.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13260-02
     goal: KM13260
@@ -265,7 +275,8 @@ items:
         barn, altså 5 til hver."
       en: "Division means splitting into equal groups. 15 : 3 is 15 buns shared
         between 3 children, so 5 each."
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13261-01
     goal: KM13261
@@ -278,7 +289,8 @@ items:
     explanation:
       nb: En terning har seks flater, én for hvert øyetall fra 1 til 6.
       en: A cube has six faces, one for each number from 1 to 6.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13261-02
     goal: KM13261
@@ -306,7 +318,8 @@ items:
         trekant har tre sider, og en sirkel har ingen hjørner.
       en: A square has four equal sides and four right-angled corners. A triangle
         has three sides, and a circle has no corners.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13264-01
     goal: KM13264
@@ -334,7 +347,8 @@ items:
       nb: Volum måler vi i liter. Meter måler lengde, og kilogram måler vekt.
       en: Volume is measured in litres. Metres measure length and kilograms
         measure weight.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13264-02
     goal: KM13264
@@ -351,7 +365,8 @@ items:
         volum med glass som enhet.
       en: One bucket is 8 glasses, so two buckets are 8 + 8 = 16 glasses. A glass
         works as a unit of volume.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13262-01
     goal: KM13262
@@ -365,7 +380,8 @@ items:
     explanation:
       nb: Tallene øker med 3 hver gang. Etter 12 kommer 15.
       en: The numbers go up by 3 each time, so after 12 comes 15.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
 # Goals that no written question can honestly test. Recorded rather than
 # omitted, so the gap is a stated judgement instead of a silent one.

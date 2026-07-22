@@ -20,7 +20,8 @@ items:
         20, og så 3 til.
       en: We subtract. 25 minus 8 is 17. You can take 25 minus 5 first, which
         is 20, then 3 more.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13243-02
     goal: KM13243
@@ -37,7 +38,8 @@ items:
         de 5 siste. 10 + 5 er 15.
       en: Lise splits 7 into 2 and 5. First she fills up to 10, then adds the
         last 5. 10 + 5 is 15.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13244-01
     goal: KM13244
@@ -51,7 +53,8 @@ items:
       nb: Pluss og minus hører sammen. Når 7 + 8 er 15, må 15 − 8 være 7.
       en: Addition and subtraction belong together. Since 7 + 8 is 15, 15 − 8
         must be 7.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13244-02
     goal: KM13244
@@ -79,7 +82,8 @@ items:
         stemmer svaret.
       en: You check a subtraction by adding back. 14 + 6 is 20, so the answer
         is right.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13245-01
     goal: KM13245
@@ -94,7 +98,8 @@ items:
     explanation:
       nb: Fire grupper med 2 er 2 + 2 + 2 + 2, altså 4 × 2 = 8.
       en: Four groups of 2 is 2 + 2 + 2 + 2, which is 4 × 2 = 8.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13245-02
     goal: KM13245
@@ -107,7 +112,8 @@ items:
     explanation:
       nb: Vi telte 5 fire ganger. Derfor er 4 × 5 = 20.
       en: We counted 5 four times. That is why 4 × 5 = 20.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13254-01
     goal: KM13254
@@ -120,7 +126,8 @@ items:
     explanation:
       nb: Å doble er å legge tallet til seg selv. 14 + 14 er 28.
       en: Doubling means adding the number to itself. 14 + 14 is 28.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13254-02
     goal: KM13254
@@ -133,7 +140,8 @@ items:
     explanation:
       nb: Halvparten er to like grupper. 9 + 9 er 18, så halvparten av 18 er 9.
       en: Half means two equal groups. 9 + 9 is 18, so half of 18 is 9.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13246-01
     goal: KM13246
@@ -146,7 +154,8 @@ items:
     explanation:
       nb: Tre grupper med 6 er 3 × 6 = 18.
       en: Three groups of 6 is 3 × 6 = 18.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13246-02
     goal: KM13246
@@ -160,7 +169,8 @@ items:
     explanation:
       nb: Vi deler 12 i 3 like grupper. 12 delt på 3 er 4, fordi 3 × 4 = 12.
       en: We split 12 into 3 equal groups. 12 ÷ 3 = 4, because 3 × 4 = 12.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13247-01
     goal: KM13247
@@ -190,7 +200,8 @@ items:
         og svaret er 12.
       en: Four rows of 3 is four equal groups. We write that 4 × 3, and the
         answer is 12.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13247-02
     goal: KM13247
@@ -216,7 +227,8 @@ items:
     explanation:
       nb: Gangetegnet betyr like grupper. 5 × 2 er 2 + 2 + 2 + 2 + 2 = 10.
       en: The times sign means equal groups. 5 × 2 is 2 + 2 + 2 + 2 + 2 = 10.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13248-01
     goal: KM13248
@@ -242,7 +254,8 @@ items:
     explanation:
       nb: Rekkefølgen betyr ingenting når vi ganger. 4 × 6 er også 24.
       en: Order does not matter when multiplying. 4 × 6 is 24 as well.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13248-02
     goal: KM13248
@@ -257,7 +270,8 @@ items:
         som 7 × 5.
       en: We split 7 fives into 5 fives and 2 fives. 25 + 10 is 35, the same as
         7 × 5.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13249-01
     goal: KM13249
@@ -285,7 +299,8 @@ items:
         minste tallet.
       en: 4 + 5 is 9, and 9 is less than 10. The pointed end aims at the
         smaller number.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13249-02
     goal: KM13249
@@ -313,7 +328,8 @@ items:
         likhetstegnet.
       en: 3 × 4 is exactly 12. The two sides are worth the same, so we use the
         equals sign.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13250-01
     goal: KM13250
@@ -330,7 +346,8 @@ items:
         blir 4 kuler per kloss.
       en: Balance means both sides weigh the same. 12 marbles shared over 3
         blocks is 4 marbles each.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13253-01
     goal: KM13253
@@ -347,7 +364,8 @@ items:
         3 × 4 = 12 ruter.
       en: Area is how many squares cover the shape. 3 rows of 4 squares is
         3 × 4 = 12 squares.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13253-02
     goal: KM13253
@@ -375,7 +393,8 @@ items:
         Kvadratmillimeter blir altfor lite og kvadratkilometer altfor stort.
       en: A classroom floor is a few metres each way, so square metres fit.
         Square millimetres are far too small and square kilometres far too big.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13251-01
     goal: KM13251
@@ -404,7 +423,8 @@ items:
       nb: Vi skriver først hvor langt vi går bortover, så hvor langt opp. Derfor
         blir det (3, 2).
       en: We write how far across first, then how far up. That makes it (3, 2).
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
   - id: KM13251-02
     goal: KM13251
@@ -432,7 +452,8 @@ items:
         tallet viser hvor langt opp.
       en: The first number always shows how far across you go. The second shows
         how far up.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22; arithmetic verified'
 
 # Goals that no written question can honestly test. Recorded rather than
 # omitted, so the gap is a stated judgement instead of a silent one.

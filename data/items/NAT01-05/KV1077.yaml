@@ -42,7 +42,8 @@ items:
       en: In an experiment you change only the thing you are investigating. Ida
         changes the light and keeps everything else the same, otherwise she
         cannot tell what caused the difference.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13833-02
     goal: KM13833
@@ -70,7 +71,8 @@ items:
         Forsøket kan vise at hypotesen stemmer eller ikke stemmer.
       en: A hypothesis is a proposed answer that can be checked by an
         experiment. The experiment may support it or not.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13834 - observations vs inferences, sources of error
   - id: KM13834-01
@@ -99,7 +101,8 @@ items:
         forklarer eller spår, og det er slutninger vi trekker selv.
       en: An observation is something you see or measure. The other two explain
         or predict, which are inferences you draw yourself.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13834-02
     goal: KM13834
@@ -130,7 +133,8 @@ items:
       en: A hand is warmer than the air, and that heat passes to the
         thermometer. A source of error is something that skews a measurement in
         a particular direction.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13835 - models
   - id: KM13835-01
@@ -162,7 +166,8 @@ items:
       en: A model is a simplification that makes something too small, too big or
         too far away easier to understand. It is never exactly like the real
         thing.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13835-02
     goal: KM13835
@@ -194,7 +199,8 @@ items:
       en: The model gets the order right, but the distances had to be shrunk to
         fit on a table. That is how models work, with some features faithful
         and others not.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13836 - hazard labelling
   - id: KM13836-01
@@ -223,7 +229,8 @@ items:
         unna varme og åpen ild.
       en: The flame symbol means the substance catches fire easily. Such
         substances must be kept away from heat and open flames.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13836-02
     goal: KM13836
@@ -254,7 +261,8 @@ items:
       en: Hazard symbols are the same across many countries and use pictures
         instead of words, so anyone can spot the danger quickly whatever their
         language or age.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13837 - how scientific knowledge develops
   - id: KM13837-01
@@ -288,7 +296,8 @@ items:
         passer bedre.
       en: Scientific knowledge changes when new observations do not fit the old
         explanation. Scientists then build an explanation that fits better.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13851 - traditional knowledge
   - id: KM13851-01
@@ -323,7 +332,8 @@ items:
       en: Traditional knowledge is built up by watching nature closely over a
         long time. Researchers use it alongside their own measurements, for
         instance when studying how snow and climate are changing.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13841 - phase transitions and chemical reactions
   - id: KM13841-01
@@ -354,7 +364,8 @@ items:
       en: When a nail rusts a brand new substance forms, and heating or cooling
         will not undo it. Melting and condensing are changes of state, where the
         substance stays the same throughout.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13841-02
     goal: KM13841
@@ -382,7 +393,8 @@ items:
         vannpytt forsvinner. Kondensering går motsatt vei, fra gass til væske.
       en: Evaporation is the route from liquid to gas, for example when a puddle
         disappears. Condensation goes the other way, from gas to liquid.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13852 - the particle model
   - id: KM13852-01
@@ -412,7 +424,8 @@ items:
         vibrerer. Derfor har faste stoffer sin egen form.
       en: In a solid the particles are locked in place relative to each other,
         but they still vibrate. That is why a solid keeps its own shape.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13852-02
     goal: KM13852
@@ -442,7 +455,8 @@ items:
       en: Heat gives the particles more energy of motion, so they break free of
         their fixed positions and can slide. They are the same particles before
         and after, just arranged differently.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13843 - main groups of organisms
   - id: KM13843-01
@@ -471,7 +485,8 @@ items:
         eller pels, og de holder jevn kroppstemperatur.
       en: Mammals have mammary glands and feed their young with milk. They also
         have hair or fur and keep a steady body temperature.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13843-02
     goal: KM13843
@@ -503,7 +518,8 @@ items:
       en: Amphibians live both in water and on land, and most begin life as
         larvae with gills. Reptiles lay their eggs on land, and fish stay in
         water their whole lives.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13853 - biological diversity
   - id: KM13853-01
@@ -533,7 +549,8 @@ items:
       en: Biological diversity is about variation, both between species and
         between habitats. Many identical individuals do not make for much
         diversity.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13853-02
     goal: KM13853
@@ -567,7 +584,8 @@ items:
       en: An ecosystem with many species copes better with change, because
         several species can do similar jobs. With few species the whole web can
         unravel when one disappears.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13844 - the northern regions
   - id: KM13844-01
@@ -598,7 +616,8 @@ items:
         næringsnettet. Skader i naturen kan derfor ta mange tiår å reparere.
       en: In the north plants grow slowly and there are few species at each
         level of the food web. Damage can therefore take decades to repair.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13844-02
     goal: KM13844
@@ -631,7 +650,8 @@ items:
       en: Knowledge built up over generations of reindeer herding shows where
         the reindeer graze and migrate through the year. Nature management uses
         it alongside research when planning developments.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13845 - food webs
   - id: KM13845-01
@@ -664,7 +684,8 @@ items:
       en: Plants make their own food using light, so they are called producers.
         Animals that eat others are consumers, while fungi and bacteria are
         decomposers.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13845-02
     goal: KM13845
@@ -696,7 +717,8 @@ items:
       en: Species in a food web are linked, so when a prey species declines the
         predators feel it. Foxes eat several kinds of food, so some manage by
         switching to voles or birds instead.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13846 - day and night, moon phases, seasons
   - id: KM13846-01
@@ -725,7 +747,8 @@ items:
         mot sola har dag, og den andre siden har natt.
       en: The Earth rotates once every 24 hours. The side facing the Sun has
         day, and the other side has night.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13846-02
     goal: KM13846
@@ -756,7 +779,8 @@ items:
       en: The Earth's axis is tilted, so northern parts of the planet lean
         towards the Sun in summer and away in winter. That makes the Sun higher
         and the day longer in summer.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13846-03
     goal: KM13846
@@ -787,7 +811,8 @@ items:
       en: The Moon does not shine by itself; it reflects sunlight. As it orbits
         the Earth we see its lit half from different angles, and that gives the
         phases.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13847 - conditions for life, other bodies in space
   - id: KM13847-01
@@ -820,7 +845,8 @@ items:
       en: Life as we know it needs liquid water, a suitable temperature and an
         atmosphere. The Moon has no atmosphere and no liquid water on its
         surface.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13847-02
     goal: KM13847
@@ -848,7 +874,8 @@ items:
         Neptun er den ytterste planeten, og der er det langt under null grader.
       en: The Sun's warmth grows weaker the further out in the solar system you
         go. Neptune is the outermost planet, and there it is far below zero.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13848 - geology, plate tectonics, weathering and erosion
   - id: KM13848-01
@@ -880,7 +907,8 @@ items:
       en: The crust consists of plates that are slowly pushed towards, away from
         or past each other. Earthquakes and volcanoes cluster where the plates
         meet.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13848-02
     goal: KM13848
@@ -911,7 +939,8 @@ items:
       en: Heavy glaciers slid towards the sea and ground the valleys wide and
         deep. When the ice melted the sea flowed into them, and fjords were the
         result.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13849 - puberty (factual half of the goal)
   - id: KM13849-01
@@ -941,7 +970,8 @@ items:
         mellom 9 og 14 år. Det er helt normalt å starte tidlig eller sent.
       en: Puberty starts at different times for different people, usually
         somewhere between 9 and 14. Starting early or late is entirely normal.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13849-02
     goal: KM13849
@@ -971,7 +1001,8 @@ items:
       en: The brain signals the body to produce more sex hormones. Those
         hormones drive both the physical changes and the fact that moods can
         swing more than before.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   # KM13850 - organ systems
   - id: KM13850-01
@@ -1001,7 +1032,8 @@ items:
       en: The lungs are part of the respiratory system. Oxygen passes from the
         air into the blood, and carbon dioxide goes the other way and is
         breathed out.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13850-02
     goal: KM13850
@@ -1033,7 +1065,8 @@ items:
       en: The lungs take in oxygen, and the heart pumps blood through the lungs
         and out into the body. Cells get the oxygen they need via the blood, and
         the waste gas travels back to the lungs.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
   - id: KM13850-03
     goal: KM13850
@@ -1061,7 +1094,8 @@ items:
         Næringen går videre ut i blodet og fram til cellene.
       en: The digestive system breaks food down into small parts the body can
         absorb. The nutrients then pass into the blood and on to the cells.
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-07-22'
 
 # Goals that no written question can honestly test. Recorded rather than
 # omitted, so the gap is a stated judgement instead of a silent one.

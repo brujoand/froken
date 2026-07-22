@@ -149,11 +149,17 @@ def test_unknown_session_is_404(client: TestClient) -> None:
     assert client.get("/nb/quiz/does-not-exist").status_code == 404
 
 
-def test_subject_without_items_offers_no_quiz(client: TestClient) -> None:
-    """Better to say a quiz is coming than to show a button that 404s."""
-    body = text_of(client.get("/nb/klasse/10/NOR01-08").text)
+def test_subject_without_items_offers_no_quiz() -> None:
+    """Better to say a quiz is coming than to show a button that 404s.
+
+    Uses an empty item bank rather than a real route: every checkpoint now has
+    reviewed items, so the "coming soon" path can only be exercised against a
+    catalogue with no items for the set.
+    """
+    empty = TestClient(create_app(Catalogue.load(), ItemBank([])))
+    body = text_of(empty.get("/nb/klasse/2/MAT01-06").text)
     assert "Quiz kommer snart" in body
-    assert client.post("/nb/klasse/10/NOR01-08/quiz").status_code == 404
+    assert empty.post("/nb/klasse/2/MAT01-06/quiz").status_code == 404
 
 
 def test_quiz_questions_are_marked_as_ours(client: TestClient) -> None:
