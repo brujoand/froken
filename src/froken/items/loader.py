@@ -7,6 +7,8 @@ from pathlib import Path
 
 import yaml
 
+from froken.domain.models import GoalSet
+from froken.items.coverage import Coverage, coverage
 from froken.items.schema import ItemSet, QuizItem
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
@@ -47,6 +49,14 @@ class ItemBank:
 
     def has_quiz(self, code: str) -> bool:
         return bool(self.for_goal_set(code))
+
+    def tested_goals(self, code: str) -> set[str]:
+        """Goal codes a served item actually tests, for the given goal set."""
+        return {item.goal for item in self.for_goal_set(code)}
+
+    def coverage(self, goal_set: GoalSet) -> Coverage:
+        """How much of `goal_set` its quiz reaches, goal by goal."""
+        return coverage(goal_set, self.tested_goals(goal_set.code))
 
     @cached_property
     def goal_codes(self) -> set[str]:

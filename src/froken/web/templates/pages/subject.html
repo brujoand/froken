@@ -29,6 +29,15 @@
   <section class="quiz-cta">
     {% if has_quiz %}
       <p>{{ t("quiz.intro", count=question_count) }}</p>
+      {# Honest about reach before the pupil starts: the quiz covers only the
+         goals a written question can test, and the count says how many. #}
+      {% if coverage.complete %}
+        <p class="coverage-line">{{ t("coverage.all") }}</p>
+      {% else %}
+        <p class="coverage-line">
+          {{ t("coverage.summary", tested=coverage.tested, total=coverage.total) }}
+        </p>
+      {% endif %}
       <form method="post" action="/{{ locale }}/klasse/{{ grade }}/{{ subject.code }}/quiz">
         <button class="button" type="submit">{{ t("quiz.start") }}</button>
       </form>
@@ -52,12 +61,22 @@
          marked as such. NLOD requires the data not be presented in a misleading
          way, so official text must never be mistakable for ours. #}
       <p class="verbatim-note">{{ t("curriculum.verbatim_note") }}</p>
+      {% if has_quiz and not coverage.complete %}
+        <p class="coverage-note">{{ t("coverage.note") }}</p>
+      {% endif %}
       <ol class="curriculum goal-list">
-        {% for goal in checkpoint.goal_set.goals %}
-          <li class="goal">
-            <blockquote cite="{{ goal.source_url }}">{{ goal.text.get(lang) }}</blockquote>
-            <a class="source-link" href="{{ goal.source_url }}" rel="external">
-              {{ t("subject.source_link") }} ({{ goal.code }})
+        {% for entry in coverage.entries %}
+          {# Each goal is tagged with whether the quiz reaches it, so the gap is
+             visible against the official text rather than hidden behind a count. #}
+          <li class="goal {{ 'goal--in-quiz' if entry.in_quiz else 'goal--not-in-quiz' }}">
+            {% if has_quiz %}
+              <span class="goal-tag">
+                {{ t("coverage.in_quiz") if entry.in_quiz else t("coverage.not_in_quiz") }}
+              </span>
+            {% endif %}
+            <blockquote cite="{{ entry.goal.source_url }}">{{ entry.goal.text.get(lang) }}</blockquote>
+            <a class="source-link" href="{{ entry.goal.source_url }}" rel="external">
+              {{ t("subject.source_link") }} ({{ entry.goal.code }})
             </a>
           </li>
         {% endfor %}
