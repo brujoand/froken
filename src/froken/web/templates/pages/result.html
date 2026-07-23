@@ -12,6 +12,13 @@
      on the result page, not only in the footer, is the honest placement. #}
   <p class="note">{{ t("result.not_a_verdict") }}</p>
 
+  {# A score means less if you do not know it covered only part of the trinn. #}
+  {% if not coverage.complete %}
+    <p class="note">
+      {{ t("coverage.result_note", tested=coverage.tested, total=coverage.total) }}
+    </p>
+  {% endif %}
+
   {% if result.needs_practice %}
     <h2>{{ t("result.practice_heading") }}</h2>
     <p class="verbatim-note">{{ t("curriculum.verbatim_note") }}</p>

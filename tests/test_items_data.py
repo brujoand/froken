@@ -219,3 +219,37 @@ def test_the_quiz_call_to_action_precedes_the_goal_list(client: TestClient) -> N
     came first that would be undone."""
     body = client.get("/nb/klasse/2/MAT01-06").text
     assert body.index('class="quiz-cta"') < body.index('class="goals"')
+
+
+def test_subject_page_states_partial_coverage(client: TestClient) -> None:
+    """Norsk 2. trinn tests a minority of its goals; the page must say so."""
+    body = text_of(client.get("/nb/klasse/2/NOR01-08").text)
+    assert "Quizen dekker 5 av 14" in body
+    assert "Ikke i quizen" in body
+    # The untestable goals are named as a category, not hidden behind the count.
+    assert "kan ikke testes i en quiz" in body
+
+
+def test_subject_page_marks_which_goals_are_in_the_quiz(client: TestClient) -> None:
+    body = client.get("/nb/klasse/2/MAT01-06").text
+    assert "goal--in-quiz" in body
+    assert "goal--not-in-quiz" in body
+
+
+def test_result_page_notes_partial_coverage(client: TestClient) -> None:
+    """A score should read against what the quiz reached, not the whole trinn."""
+    start = client.post("/nb/klasse/2/NOR01-08/quiz", follow_redirects=False)
+    session_id = start.headers["location"].rsplit("/", 1)[-1]
+    session = client.app.state.sessions._sessions[session_id]
+    for item in list(session.items):
+        response = (
+            next(c.id for c in item.choices if c.correct)
+            if item.type == "multiple_choice"
+            else str(item.answer)
+        )
+        client.post(
+            f"/nb/quiz/{session_id}/answer", data={"item_id": item.id, "response": response}
+        )
+
+    body = text_of(client.get(f"/nb/quiz/{session_id}/result").text)
+    assert "Quizen dekket" in body and "kompetansemål" in body

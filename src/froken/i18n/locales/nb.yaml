@@ -38,6 +38,22 @@ subject:
   quiz_cta: Ta quizen
   quiz_unavailable: Quiz kommer snart for dette faget.
 
+coverage:
+  # Honest about reach: a quiz cannot test every kompetansemål, and the count
+  # says how many it does. Kept subject-neutral -- norsk leaves out writing and
+  # speaking, matematikk leaves out programming, so the note names the LK20 verbs
+  # that recur rather than any one skill.
+  summary: Quizen dekker {tested} av {total} kompetansemål på dette trinnet.
+  all: Quizen dekker alle kompetansemålene på dette trinnet.
+  note: >-
+    Noen kompetansemål kan ikke testes i en quiz — for eksempel å utforske,
+    samtale om eller lage noe selv. De er merket nedenfor.
+  in_quiz: I quizen
+  not_in_quiz: Ikke i quizen
+  result_note: >-
+    Quizen dekket {tested} av {total} kompetansemål på dette trinnet. Noen mål
+    kan ikke testes i en quiz.
+
 curriculum:
   # Shown wherever official text appears, so Udir's words are never mistaken for
   # ours. This is an NLOD condition, not decoration.

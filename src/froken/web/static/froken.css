@@ -459,3 +459,45 @@ a {
   text-decoration: line-through;
   text-decoration-color: var(--ink-soft);
 }
+
+/* Quiz coverage ------------------------------------------------------------
+   A quiz cannot test every competence goal. These make the gap visible against
+   the official text rather than hiding it behind a bare count. */
+
+.coverage-line {
+  margin: 0 0 0.75rem;
+  font-weight: 600;
+}
+
+.coverage-note {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  margin: 0 0 0.75rem;
+}
+
+.goal-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+  margin-bottom: 0.3rem;
+}
+
+.goal--in-quiz > .goal-tag {
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.goal--not-in-quiz > .goal-tag {
+  color: var(--ink-soft);
+  background: var(--quote);
+}
+
+/* A goal the quiz cannot reach is dimmed, so the eye lands on what is tested. */
+.goal--not-in-quiz > blockquote {
+  border-left-color: var(--line);
+  opacity: 0.8;
+}

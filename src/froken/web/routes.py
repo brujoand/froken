@@ -126,5 +126,6 @@ async def subject_page(
             shows_nynorsk=shows_nynorsk,
             has_quiz=_items(request).has_quiz(checkpoint.goal_set.code),
             question_count=len(_items(request).for_goal_set(checkpoint.goal_set.code)),
+            coverage=_items(request).coverage(checkpoint.goal_set),
         ),
     )

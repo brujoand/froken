@@ -141,5 +141,8 @@ async def result(request: Request, locale: str, session_id: str) -> HTMLResponse
             subject=subject,
             result=outcome,
             goals=goals,
+            # So a score reads against what the quiz actually reached, not the
+            # whole checkpoint.
+            coverage=_bank(request).coverage(goal_set),
         ),
     )

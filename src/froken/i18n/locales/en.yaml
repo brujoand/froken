@@ -34,6 +34,18 @@ subject:
   quiz_cta: Take the quiz
   quiz_unavailable: A quiz for this subject is coming soon.
 
+coverage:
+  summary: The quiz covers {tested} of {total} competence goals for this checkpoint.
+  all: The quiz covers every competence goal for this checkpoint.
+  note: >-
+    Some competence goals can't be tested in a quiz — for example exploring,
+    discussing or making something yourself. They are marked below.
+  in_quiz: In the quiz
+  not_in_quiz: Not in the quiz
+  result_note: >-
+    The quiz covered {tested} of {total} competence goals for this checkpoint.
+    Some goals can't be tested in a quiz.
+
 curriculum:
   verbatim_note: >-
     The text below is reproduced verbatim from the national curriculum.
