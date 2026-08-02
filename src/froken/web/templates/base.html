@@ -26,9 +26,36 @@
           {% endfor %}
         </ul>
       </nav>
+
+      {# Absent entirely when sign-in is not configured. A visitor to an
+         unconfigured Frøken should see no trace of accounts, because there
+         are none. #}
+      {% if auth_enabled %}
+        <nav class="account" aria-label="{{ t('auth.account') }}">
+          {% if user %}
+            {% if is_admin and history_enabled %}
+              <a href="/{{ locale }}/admin">{{ t("admin.link") }}</a>
+            {% endif %}
+            <span class="signed-in">{{ t("auth.signed_in_as", name=user.name) }}</span>
+            {# POST, so no other page can sign a pupil out with an image tag. #}
+            <form method="post" action="/auth/logout?next={{ request.url.path | urlencode }}">
+              <button type="submit" class="linklike">{{ t("auth.sign_out") }}</button>
+            </form>
+          {% else %}
+            <a href="/auth/login?next={{ request.url.path | urlencode }}">{{ t("auth.sign_in") }}</a>
+          {% endif %}
+        </nav>
+      {% endif %}
     </header>
 
-    <main>{% block content %}{% endblock %}</main>
+    <main>
+      {% if request.query_params.get("signin") == "failed" %}
+        {# Sign-in is optional, so a failed one is a notice rather than an error
+           page: every quiz on the site still works from here. #}
+        <p class="notice notice-error">{{ t("auth.failed") }}</p>
+      {% endif %}
+      {% block content %}{% endblock %}
+    </main>
 
     <footer class="site-footer">
       <p class="disclaimer">{{ t("disclaimer.long") }}</p>

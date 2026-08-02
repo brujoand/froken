@@ -14,8 +14,10 @@ from fastapi.responses import HTMLResponse, RedirectResponse
 
 from froken.domain.grades import checkpoint_for
 from froken.items.loader import ItemBank
-from froken.quiz.scoring import score, select
-from froken.quiz.session import SessionStore
+from froken.quiz.scoring import Result, score, select
+from froken.quiz.session import QuizSession, SessionStore
+from froken.scores.store import Attempt, GoalTally, attempt_key
+from froken.web.deps import current_user, get_store
 from froken.web.rendering import context, templates, validate_locale
 
 router = APIRouter()
@@ -36,6 +38,35 @@ def _session_or_404(request: Request, session_id: str):
         # overnight is the common case, not an error worth alarming them about.
         raise HTTPException(status_code=404, detail="quiz session not found")
     return session
+
+
+def _remember(request: Request, session: QuizSession, outcome: Result, now: datetime) -> None:
+    """Record a finished attempt, if there is anywhere and anyone to record.
+
+    Three conditions, all of which must hold, and none of which is the default:
+    a store is configured, the pupil was signed in when they started, and they
+    actually finished. An abandoned quiz is not a result and is not kept.
+    """
+    store = get_store(request)
+    if store is None or not session.attributed or not session.finished:
+        return
+
+    store.record(
+        Attempt(
+            key=attempt_key(session.id),
+            user_sub=str(session.user_sub),
+            user_name=session.user_name or str(session.user_sub),
+            subject=session.subject,
+            goal_set=session.goal_set,
+            grade=session.grade,
+            correct=outcome.correct,
+            total=outcome.total,
+            by_goal=tuple(
+                GoalTally(goal=g.goal, correct=g.correct, total=g.total) for g in outcome.by_goal
+            ),
+            finished_at=now,
+        )
+    )
 
 
 @router.post("/{locale}/klasse/{grade}/{subject_code}/quiz")
@@ -61,6 +92,7 @@ async def start_quiz(
         grade=grade,
         items=items,
         now=datetime.now(UTC),
+        user=current_user(request),
     )
     return RedirectResponse(f"/{locale}/quiz/{session.id}", status_code=303)
 
@@ -127,6 +159,8 @@ async def result(request: Request, locale: str, session_id: str) -> HTMLResponse
     goal_set = subject.goal_set(session.goal_set)
 
     outcome = score(session)
+    _remember(request, session, outcome, datetime.now(UTC))
+
     # The per-goal breakdown is the useful half of the result, and it only reads
     # as useful if it shows the goal text rather than a KM code.
     goals = {goal.code: goal for goal in goal_set.goals}

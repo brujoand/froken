@@ -95,3 +95,36 @@ result:
   practice_heading: Worth practising more
   try_again: Try again
   back_to_subject: Back to the subject
+
+auth:
+  # Signing in is optional. No string here may imply a quiz needs an account,
+  # because none of them do.
+  account: Account
+  sign_in: Sign in
+  sign_out: Sign out
+  signed_in_as: "Signed in as {name}"
+  failed: >-
+    Signing in did not go through. You can still take every quiz without
+    signing in.
+  recorded_note: >-
+    You are signed in, so this result is saved and can be seen by an adult with
+    access.
+
+admin:
+  link: Results
+  heading: Results
+  intro: >-
+    Pupils who were signed in and have finished at least one quiz.
+  not_a_verdict: >-
+    This is practice, not assessment. The numbers say how these particular
+    questions went, not whether a pupil has met the competence goals.
+  share: "{percentage}% ({correct} of {total})"
+  no_attempts: Nobody has finished a quiz while signed in yet.
+  back: Back to the list
+  grade: "Year {grade}"
+  goals_heading: Competence goals in this quiz
+  column:
+    pupil: Pupil
+    attempts: Quizzes
+    average: Average
+    latest: Last

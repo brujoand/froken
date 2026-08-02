@@ -54,7 +54,9 @@ docker run -p 8000:8000 ghcr.io/brujoand/froken:1.0.0
 
 No credentials needed — the image is public, like the repo. It carries the
 curriculum baked in and needs no network access, no API key and no
-configuration.
+configuration. Optional sign-in and score history are the one exception, and
+they stay off until configured: see [Accounts and score
+history](#accounts-and-score-history).
 
 There is deliberately **no `latest` tag**. A deployment should name the version
 it wants; a moving tag makes that impossible to do honestly. Published tags are
@@ -65,6 +67,91 @@ changed.
 
 The running app reports its version at `/healthz`. An image that says `dev` was
 built outside the release pipeline.
+
+## Accounts and score history
+
+**Off unless you turn it on.** Run the image as above and Frøken has no accounts,
+writes nothing to disk, and forgets every quiz the moment the tab closes. Point
+it at an OIDC provider and two things become possible: a pupil can sign in, and
+an adult in a nominated group can see how the signed-in pupils have done.
+
+Four properties hold whenever it *is* configured, and they are enforced in code
+rather than documented as intent:
+
+- **Signing in is optional, always.** Every quiz works signed out, and an
+  anonymous attempt is never recorded — there is nobody to record it against.
+  There is no page on the site that requires an account except the admin ones.
+- **Only finished quizzes are kept.** An abandoned attempt is not a result and
+  leaves nothing behind.
+- **A summary, not a transcript.** What is stored is the checkpoint, the score
+  and the per-goal tally the pupil's own result page shows. Not which answer was
+  given to which question. The tally is what an adult can act on; a log of a
+  seven-year-old's individual mistakes is not.
+- **The pupil is told.** A signed-in pupil's result page says their score was
+  saved and that an adult with access can see it.
+
+Nothing is recorded until **both** switches are on: an OIDC client *and* a
+database path. Sign-in without a database is still a site that forgets.
+
+### Configuring it
+
+| Variable | What it does |
+|---|---|
+| `FROKEN_OIDC_ISSUER` | Provider base URL, e.g. `https://id.example.com`. Discovery is read from `/.well-known/openid-configuration`. |
+| `FROKEN_OIDC_CLIENT_ID` | The client you registered for Frøken. |
+| `FROKEN_OIDC_CLIENT_SECRET` | Its secret. |
+| `FROKEN_BASE_URL` | Frøken's own public origin, e.g. `https://froken.example.com`. Required behind a TLS-terminating proxy — the redirect URI is built from it. |
+| `FROKEN_ADMIN_GROUP` | Group whose members may read other people's scores. Default `froken-admins`. |
+| `FROKEN_DATABASE_PATH` | SQLite file for finished attempts, e.g. `/data/froken.db`. Unset means nothing is recorded. |
+| `FROKEN_SESSION_SECRET` | Signs the login cookie. Generated per process when unset, so a restart signs everyone out. |
+
+Sign-in needs all three OIDC values; any fewer and the feature stays off rather
+than half-on.
+
+```bash
+docker run -p 8000:8000 \
+  -e FROKEN_OIDC_ISSUER=https://id.example.com \
+  -e FROKEN_OIDC_CLIENT_ID=froken \
+  -e FROKEN_OIDC_CLIENT_SECRET=... \
+  -e FROKEN_BASE_URL=https://froken.example.com \
+  -e FROKEN_ADMIN_GROUP=froken-admins \
+  -e FROKEN_DATABASE_PATH=/data/froken.db \
+  -e FROKEN_SESSION_SECRET=... \
+  -v froken-data:/data \
+  ghcr.io/brujoand/froken:1.0.0
+```
+
+The container runs as uid 65532, so the mounted volume has to be writable by it.
+Without the volume the history is real but lasts until the container is replaced.
+
+### On the provider side
+
+Register a confidential client with:
+
+- redirect URI `https://froken.example.com/auth/callback` — one, exactly
+- scopes `openid profile email groups`
+- PKCE (S256) — Frøken always sends a challenge
+
+Then make a group matching `FROKEN_ADMIN_GROUP` and put the adults in it.
+Membership is read from the `groups` claim, so granting or revoking admin is done
+in the provider and never needs Frøken redeployed. It takes effect when the
+person's session next refreshes, not instantly — the group list is read from the
+signed login cookie rather than from the provider on every page load.
+
+Any OIDC provider emitting a `groups` claim works; pocket-id is what it is
+developed against. For providers that expose groups only from `/userinfo`, Frøken
+falls back to asking there once, at sign-in.
+
+### What an admin sees
+
+`/{locale}/admin` lists everyone who has finished at least one quiz while signed
+in: name, how many quizzes, an average weighted by question rather than by quiz,
+and the date of the last one. Each row opens that pupil's history, with every
+attempt broken down by competence goal.
+
+The pages are read-only. There is nothing there to re-grade or delete a child's
+record with — for that, the database is one SQLite file and `sqlite3` is a better
+tool than a web form anyone can misclick.
 
 ## Development
 
@@ -128,9 +215,14 @@ and re-verified against the official source.
   committed as readable YAML so every one of them is reviewable, and the released
   build serves only reviewed items. The curriculum text itself is never
   generated — it is quoted verbatim from Udir.
-- **No accounts, no tracking, no analytics.** Frøken stores nothing about who is
-  using it. Quiz progress lives in memory for the length of a session and is
-  gone afterwards.
+- **No accounts and no analytics unless a deployment adds them.** Out of the
+  box Frøken stores nothing about who is using it: quiz progress lives in memory
+  for the length of a session and is gone afterwards, and there is no third-party
+  script on any page in any configuration. A deployment can enable sign-in and
+  keep a score history — see [Accounts and score
+  history](#accounts-and-score-history) for exactly what that stores and what it
+  still refuses to. If you run the published image with no environment set, none
+  of it applies to you.
 
 ## Licence
 

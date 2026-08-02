@@ -36,8 +36,10 @@ ENV APP_VERSION=${VERSION}
 
 EXPOSE 8000
 
-# No secrets, no network egress, no configuration required. If this container
-# ever needs an API key, something has gone wrong upstream of here.
+# No secrets and no network egress with an empty environment, which is how this
+# image is meant to be run. Sign-in and score history are opt-in and add an OIDC
+# client secret and a writable volume -- see the README. If this container ever
+# needs an API key to serve a quiz, something has gone wrong upstream of here.
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
     CMD python -c "import urllib.request;urllib.request.urlopen('http://127.0.0.1:8000/healthz').read()"
 

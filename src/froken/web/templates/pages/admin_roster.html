@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}{{ t("admin.heading") }} · {{ t("site.name") }}{% endblock %}
+
+{% block content %}
+  <h1>{{ t("admin.heading") }}</h1>
+  <p class="intro">{{ t("admin.intro") }}</p>
+
+  {# The same caveat the pupil sees on their own result. An adult reading a
+     table of percentages is more likely to mistake it for an assessment, not
+     less. #}
+  <p class="note">{{ t("admin.not_a_verdict") }}</p>
+
+  {% if users %}
+    <table class="roster">
+      <thead>
+        <tr>
+          <th scope="col">{{ t("admin.column.pupil") }}</th>
+          <th scope="col">{{ t("admin.column.attempts") }}</th>
+          <th scope="col">{{ t("admin.column.average") }}</th>
+          <th scope="col">{{ t("admin.column.latest") }}</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for entry in users %}
+          <tr>
+            <th scope="row">
+              <a href="/{{ locale }}/admin/elev/{{ entry.sub | urlencode }}">{{ entry.name }}</a>
+            </th>
+            <td>{{ entry.attempts }}</td>
+            <td>{{ t("admin.share", percentage=entry.percentage, correct=entry.correct, total=entry.total) }}</td>
+            <td>{{ entry.latest_at | day }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+    <p class="empty">{{ t("admin.no_attempts") }}</p>
+  {% endif %}
+{% endblock %}

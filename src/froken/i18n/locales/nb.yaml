@@ -106,3 +106,38 @@ result:
   practice_heading: Dette kan du øve mer på
   try_again: Prøv igjen
   back_to_subject: Tilbake til faget
+
+auth:
+  # Innlogging er valgfritt. Teksten skal aldri antyde at man må logge inn for
+  # å ta en quiz -- det må man ikke.
+  account: Konto
+  sign_in: Logg inn
+  sign_out: Logg ut
+  signed_in_as: "Logget inn som {name}"
+  failed: >-
+    Innloggingen gikk ikke gjennom. Du kan fortsatt ta alle quizene uten å
+    logge inn.
+  recorded_note: >-
+    Du er logget inn, så resultatet blir lagret og kan ses av en voksen med
+    tilgang.
+
+admin:
+  link: Resultater
+  heading: Resultater
+  intro: >-
+    Elever som har vært innlogget og fullført minst én quiz.
+  # Samme forbehold som eleven selv får se. En voksen som leser en tabell med
+  # prosenter er mer utsatt for å lese den som en vurdering, ikke mindre.
+  not_a_verdict: >-
+    Dette er øving, ikke vurdering. Tallene sier hvordan det gikk med akkurat
+    disse spørsmålene, ikke om eleven har nådd kompetansemålene.
+  share: "{percentage} % ({correct} av {total})"
+  no_attempts: Ingen har fullført en quiz mens de var innlogget ennå.
+  back: Tilbake til oversikten
+  grade: "{grade}. klasse"
+  goals_heading: Kompetansemål i denne quizen
+  column:
+    pupil: Elev
+    attempts: Quizer
+    average: Snitt
+    latest: Sist
