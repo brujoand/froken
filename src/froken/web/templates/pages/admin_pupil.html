@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block title %}{{ pupil_name }} · {{ t("admin.heading") }}{% endblock %}
+
+{% block content %}
+  <p class="breadcrumb"><a href="/{{ locale }}/admin">{{ t("admin.back") }}</a></p>
+
+  <h1>{{ pupil_name }}</h1>
+  <p class="note">{{ t("admin.not_a_verdict") }}</p>
+
+  {% for entry in entries %}
+    <article class="attempt">
+      <h2>
+        {{ entry.subject_title }} ·
+        {{ t("admin.grade", grade=entry.attempt.grade) }}
+      </h2>
+      <p class="score">
+        {{ t("admin.share", percentage=entry.attempt.percentage, correct=entry.attempt.correct, total=entry.attempt.total) }}
+        <span class="when">{{ entry.attempt.finished_at | day }}</span>
+      </p>
+
+      {# Per goal, because "62%" tells an adult no more than it tells a child.
+         The goal text is Udir's, so it is quoted and attributed like everywhere
+         else on the site. #}
+      <details class="goals">
+        <summary>{{ t("admin.goals_heading") }}</summary>
+        <p class="verbatim-note">{{ t("curriculum.verbatim_note") }}</p>
+        <ul class="curriculum goal-list">
+          {% for goal in entry.goals %}
+            <li class="goal {{ 'weak' if not goal.tally.all_correct else '' }}">
+              {% if goal.source_url %}
+                <blockquote cite="{{ goal.source_url }}">{{ goal.text }}</blockquote>
+              {% else %}
+                {# The curriculum was revised out from under this attempt. The
+                   code is all we can honestly show. #}
+                <p class="orphaned-goal">{{ goal.text }}</p>
+              {% endif %}
+              <span class="tally">{{ goal.tally.correct }}/{{ goal.tally.total }}</span>
+            </li>
+          {% endfor %}
+        </ul>
+      </details>
+    </article>
+  {% endfor %}
+{% endblock %}

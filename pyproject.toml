@@ -18,6 +18,12 @@ dependencies = [
   "pyyaml>=6.0",
   # HTML form posts from the quiz; FastAPI requires it for Form(...).
   "python-multipart>=0.0.20",
+  # Signs the login cookie. The only reason Frøken has a secret at all.
+  "itsdangerous>=2.2",
+  # The OIDC handshake: discovery and the token exchange. Used only when
+  # sign-in is configured -- an unconfigured app still makes no outbound
+  # request, which is a property the drift check and the tests both rely on.
+  "httpx[http2]>=0.28",
 ]
 
 [project.scripts]
@@ -45,8 +51,8 @@ generate = [
   "anthropic>=0.40",
   "ruamel.yaml>=0.18",
 ]
-# tools/ingest.py talks to Udir; the app never does, so httpx is not a runtime
-# dependency.
+# The ingest talks to Udir. httpx is a runtime dependency now that sign-in
+# exists, so this group only pins the version the ingest was tested against.
 ingest = [
   "httpx[http2]>=0.28",
 ]
@@ -62,8 +68,10 @@ select = ["E", "F", "W", "I", "UP", "B", "C4", "SIM", "S"]
 ignore = ["E501", "B008", "SIM108"]
 
 [tool.ruff.lint.per-file-ignores]
-# S101 (assert): pytest.
-"tests/**" = ["S101"]
+# S101 (assert): pytest. S105/S106 (hardcoded password): the auth tests are
+# mostly made of deliberately fake secrets and tokens, which is the point of
+# them -- a real one would be the bug.
+"tests/**" = ["S101", "S105", "S106"]
 
 [tool.ruff.format]
 quote-style = "double"

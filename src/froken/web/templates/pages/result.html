@@ -12,6 +12,12 @@
      on the result page, not only in the footer, is the honest placement. #}
   <p class="note">{{ t("result.not_a_verdict") }}</p>
 
+  {# Said on the page where it becomes true, not only in a privacy note nobody
+     reads. A child should be told their score was kept and who can read it. #}
+  {% if history_enabled and session.attributed %}
+    <p class="note">{{ t("auth.recorded_note") }}</p>
+  {% endif %}
+
   {# A score means less if you do not know it covered only part of the trinn. #}
   {% if not coverage.complete %}
     <p class="note">
