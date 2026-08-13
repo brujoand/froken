@@ -38,6 +38,8 @@ repos:
     rev: v0.11.0.1
     hooks:
       - id: shellcheck
+        # -x follows the sourced lib.sh; SC1091 ignores what it cannot resolve.
+        args: [--external-sources, -e, SC1091]
 
   - repo: https://github.com/scop/pre-commit-shfmt
     rev: v3.12.0-1
