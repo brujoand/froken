@@ -223,11 +223,7 @@ async def result(request: Request, locale: str, run_id: str) -> HTMLResponse:
     # The gap list is the actionable half, and it only reads as actionable with
     # the goal text rather than a KM code. Goals are looked up across every rung
     # the run touched, not just the frontier.
-    goals = {
-        goal.code: goal
-        for rung in run.ladder.rungs
-        for goal in rung.goal_set.goals
-    }
+    goals = {goal.code: goal for rung in run.ladder.rungs for goal in rung.goal_set.goals}
     tally = run.tally()
     gap_codes = [code for code in run.gaps() if code in goals]
 

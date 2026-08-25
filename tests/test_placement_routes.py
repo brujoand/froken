@@ -9,6 +9,7 @@ in each of the three end states rather than rounding them all to a number.
 from __future__ import annotations
 
 import re
+from datetime import UTC, datetime
 
 import pytest
 from fastapi.testclient import TestClient
@@ -42,8 +43,7 @@ def start(client: TestClient, subject: str = SUBJECT, grade: str = "") -> str:
 
 def item_for(client: TestClient, run_id: str):
     """The question currently in front of the pupil, as an object."""
-    run = client.app.state.sessions.get(run_id, __import__("datetime").datetime.now(
-        __import__("datetime").UTC))
+    run = client.app.state.sessions.get(run_id, datetime.now(UTC))
     assert isinstance(run, PlacementRun)
     return run, run.current()
 
