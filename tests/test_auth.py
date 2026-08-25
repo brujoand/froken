@@ -1,6 +1,6 @@
 """Sign-in: token handling, cookies, and the redirect dance.
 
-The id_token's signature is deliberately not verified (see `froken.auth.oidc`),
+The id_token's signature is deliberately not verified (see `pensum.auth.oidc`),
 which puts the whole weight of the flow's integrity on three things: the state
 parameter, the nonce, and the audience check. Those get the hardest tests here.
 """
@@ -13,9 +13,9 @@ import json
 import pytest
 from fastapi.testclient import TestClient
 
-from froken.auth.cookies import FLOW_COOKIE, LOGIN_COOKIE, CookieCodec, LoginFlow
-from froken.auth.models import User
-from froken.auth.oidc import (
+from pensum.auth.cookies import FLOW_COOKIE, LOGIN_COOKIE, CookieCodec, LoginFlow
+from pensum.auth.models import User
+from pensum.auth.oidc import (
     OidcClient,
     OidcError,
     Provider,
@@ -25,13 +25,13 @@ from froken.auth.oidc import (
     user_from_claims,
     verify_claims,
 )
-from froken.catalogue.loader import Catalogue
-from froken.config import Settings
-from froken.web.app import create_app
-from froken.web.deps import safe_next
+from pensum.catalogue.loader import Catalogue
+from pensum.config import Settings
+from pensum.web.app import create_app
+from pensum.web.deps import safe_next
 
 ISSUER = "https://id.example.com"
-CLIENT_ID = "froken"
+CLIENT_ID = "pensum"
 
 PROVIDER = Provider(
     issuer=ISSUER,
@@ -63,8 +63,8 @@ def auth_settings(**overrides: object) -> Settings:
         "oidc_issuer": ISSUER,
         "oidc_client_id": CLIENT_ID,
         "oidc_client_secret": "s3cret",
-        "admin_group": "froken-admins",
-        "base_url": "https://froken.example.com",
+        "admin_group": "pensum-admins",
+        "base_url": "https://pensum.example.com",
         "session_secret": "test-secret",
     }
     return Settings(**(defaults | overrides))
@@ -75,9 +75,9 @@ def auth_settings(**overrides: object) -> Settings:
 
 def test_decode_claims_reads_an_unpadded_payload() -> None:
     """JWTs strip base64 padding; Python's decoder insists on it."""
-    claims = decode_claims(id_token(name="Åse", groups=["froken-admins"]))
+    claims = decode_claims(id_token(name="Åse", groups=["pensum-admins"]))
     assert claims["name"] == "Åse"
-    assert claims["groups"] == ["froken-admins"]
+    assert claims["groups"] == ["pensum-admins"]
 
 
 @pytest.mark.parametrize("token", ["", "a.b", "not.a.jwt"])
@@ -155,7 +155,7 @@ def test_pkce_challenge_is_the_unpadded_s256_of_the_verifier() -> None:
 
 def test_a_login_cookie_round_trips() -> None:
     codec = CookieCodec("secret")
-    user = User(sub="u-1", name="Ola", groups=("froken-admins",))
+    user = User(sub="u-1", name="Ola", groups=("pensum-admins",))
     assert codec.load_login(codec.dump_login(user)) == user
 
 
@@ -204,7 +204,7 @@ def client(monkeypatch: pytest.MonkeyPatch) -> TestClient:
     monkeypatch.setattr(OidcClient, "provider", provider)
     return TestClient(
         create_app(Catalogue.load(), settings=auth_settings()),
-        base_url="https://froken.example.com",
+        base_url="https://pensum.example.com",
     )
 
 
@@ -217,7 +217,7 @@ def test_login_redirects_to_the_provider_with_pkce_and_state(client: TestClient)
     assert "code_challenge_method=S256" in location
     assert f"client_id={CLIENT_ID}" in location
     # The redirect URI must be the configured origin, not the test client's.
-    assert "redirect_uri=https%3A%2F%2Ffroken.example.com%2Fauth%2Fcallback" in location
+    assert "redirect_uri=https%3A%2F%2Fpensum.example.com%2Fauth%2Fcallback" in location
     assert FLOW_COOKIE in response.cookies
 
 
@@ -301,14 +301,14 @@ def test_groups_are_fetched_from_userinfo_when_the_token_omits_them(
 
     async def groups(self: OidcClient, provider: Provider, token: str) -> tuple[str, ...]:
         assert token == "at"
-        return ("froken-admins",)
+        return ("pensum-admins",)
 
     monkeypatch.setattr(OidcClient, "exchange", exchange)
     monkeypatch.setattr(OidcClient, "groups_from_userinfo", groups)
 
     client.get(f"/auth/callback?code=c&state={flow.state}", follow_redirects=False)
     user = CookieCodec("test-secret").load_login(client.cookies[LOGIN_COOKIE])
-    assert user is not None and user.groups == ("froken-admins",)
+    assert user is not None and user.groups == ("pensum-admins",)
 
 
 def test_logout_clears_the_login_cookie(client: TestClient) -> None:

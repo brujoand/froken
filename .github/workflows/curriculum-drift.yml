@@ -33,7 +33,7 @@ jobs:
         id: drift
         run: |
           set +e
-          uv run froken-ingest --check-drift > drift.txt 2>&1
+          uv run pensum-ingest --check-drift > drift.txt 2>&1
           echo "status=$?" >> "$GITHUB_OUTPUT"
           cat drift.txt
 
@@ -65,7 +65,7 @@ jobs:
               '',
               'A superseded curriculum renumbers every competence goal, so quiz',
               'items referencing the old codes will need re-authoring. Re-ingest',
-              'with `froken-ingest --as-of <date the new plans take effect>` and',
+              'with `pensum-ingest --as-of <date the new plans take effect>` and',
               'review the resulting data diff.',
             ].join('\n');
 

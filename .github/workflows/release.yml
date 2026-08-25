@@ -89,7 +89,7 @@ jobs:
             # quiet no-op, it is a silent one. No release means no image, which
             # means the change can never reach a cluster pinned to a version.
             if git diff --name-only HEAD~1 HEAD \
-                 | grep -qE '^(src/froken/|data/|Dockerfile|pyproject\.toml|uv\.lock)'; then
+                 | grep -qE '^(src/pensum/|data/|Dockerfile|pyproject\.toml|uv\.lock)'; then
               echo "::error::This commit changes the app but produced no release, so no image was built and the change can never deploy. Use a commit type semantic-release recognises (feat/fix/perf/revert), or a BREAKING CHANGE footer."
               exit 1
             fi
@@ -117,7 +117,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/brujoand/froken
+          images: ghcr.io/brujoand/pensum
           # No `latest`: a deployment should name the version it wants, and a
           # moving tag makes that impossible to do honestly. metadata-action
           # adds `latest` alongside any semver tag unless told not to, so this

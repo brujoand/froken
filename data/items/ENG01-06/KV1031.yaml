@@ -472,7 +472,7 @@ not_assessable:
   - goal: KM13354
     reason: >-
       Asks the pupil to listen to and understand words and expressions in
-      adapted texts. Frøken serves text only, so there is nothing to listen to;
+      adapted texts. Pensum serves text only, so there is nothing to listen to;
       rendering the audio as written English would turn a listening goal into a
       reading one.
 

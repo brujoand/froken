@@ -17,9 +17,9 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT / "src"))
 
-from froken.catalogue.loader import Catalogue  # noqa: E402
-from froken.items.loader import ItemBank  # noqa: E402
-from froken.items.schema import ItemSet, QuizItem  # noqa: E402
+from pensum.catalogue.loader import Catalogue  # noqa: E402
+from pensum.items.loader import ItemBank  # noqa: E402
+from pensum.items.schema import ItemSet, QuizItem  # noqa: E402
 
 # A prompt longer than this is likely testing reading rather than the skill,
 # especially in the early years.

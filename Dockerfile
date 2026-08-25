@@ -25,8 +25,8 @@ RUN uv sync --frozen --no-dev
 
 # Non-root, and a fixed uid so a read-only root filesystem or a restrictive
 # PodSecurityContext has something predictable to point at.
-RUN useradd --uid 65532 --create-home --shell /usr/sbin/nologin froken \
-    && chown -R froken:froken /app
+RUN useradd --uid 65532 --create-home --shell /usr/sbin/nologin pensum \
+    && chown -R pensum:pensum /app
 USER 65532
 
 # The same version the image is TAGGED with, so the tag in the registry and the
@@ -46,4 +46,4 @@ HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
 # The venv binary directly, not `uv run`: uv would re-check the lockfile at
 # container start, which is a resolution step -- and potentially a network call
 # -- on a path that should do nothing but exec the server.
-CMD ["/app/.venv/bin/uvicorn", "froken.web.app:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["/app/.venv/bin/uvicorn", "pensum.web.app:app", "--host", "0.0.0.0", "--port", "8000"]

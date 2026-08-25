@@ -12,9 +12,9 @@ import re
 import pytest
 from fastapi.testclient import TestClient
 
-from froken.catalogue.loader import Catalogue
-from froken.i18n import UI_LOCALES, catalog
-from froken.web.app import create_app
+from pensum.catalogue.loader import Catalogue
+from pensum.i18n import UI_LOCALES, catalog
+from pensum.web.app import create_app
 
 QUIZZABLE = ["MAT01-06", "NOR01-08", "ENG01-06", "NAT01-05", "SAF01-05", "RLE01-04"]
 

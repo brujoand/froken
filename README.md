@@ -1,4 +1,4 @@
-# Frøken
+# Pensum
 
 What pupils in Norwegian *grunnskole* are expected to master by the end of each
 *klasse*, and quizzes to check whether they do.
@@ -8,19 +8,19 @@ Built on **LK20**, the national curriculum, taken directly from
 shown here is the official wording, in the *målform* Udir published it in, and
 links back to its source record.
 
-> **Frøken is an unofficial study aid.** It is not an assessment instrument, not
+> **Pensum is an unofficial study aid.** It is not an assessment instrument, not
 > a substitute for a teacher's judgement, and not affiliated with or endorsed by
 > Utdanningsdirektoratet. "Passing 2. klasse" here is a friendly proxy, not a
 > verdict — see [Honest limits](#honest-limits).
 
 ## Norsk
 
-Frøken viser hva elever i norsk grunnskole skal mestre etter hvert hovedtrinn, og
+Pensum viser hva elever i norsk grunnskole skal mestre etter hvert hovedtrinn, og
 gir quizer for å øve. Innholdet bygger på LK20-kompetansemålene fra
 Utdanningsdirektoratet, hentet direkte fra det åpne Grep-APIet. Bokmål er
 hovedspråket i grensesnittet; engelsk er også tilgjengelig.
 
-Frøken er et uoffisielt hjelpemiddel, ikke et vurderingsverktøy, og er ikke
+Pensum er et uoffisielt hjelpemiddel, ikke et vurderingsverktøy, og er ikke
 tilknyttet Utdanningsdirektoratet.
 
 ## How the curriculum is modelled
@@ -34,7 +34,7 @@ Subject (læreplan)        MAT01-06, one revision of one subject
 ```
 
 **LK20 defines checkpoints, not years.** Most subjects set goals after 2., 4.,
-7. and 10. trinn; matematikk uniquely defines every trinn. Frøken invents no
+7. and 10. trinn; matematikk uniquely defines every trinn. Pensum invents no
 per-year split — it uses Udir's own `benyttes-paa-aarstrinn`, which states which
 school years each checkpoint covers. So a pupil in 1. klasse sees the 2. trinn
 goals labelled as what they are working *towards*, and a 2nd-grader sees the same
@@ -49,7 +49,7 @@ a rewrite.
 ## Running it
 
 ```bash
-docker run -p 8000:8000 ghcr.io/brujoand/froken:1.0.0
+docker run -p 8000:8000 ghcr.io/brujoand/pensum:1.0.0
 ```
 
 No credentials needed — the image is public, like the repo. It carries the
@@ -62,7 +62,7 @@ There is deliberately **no `latest` tag**. A deployment should name the version
 it wants; a moving tag makes that impossible to do honestly. Published tags are
 `{major}.{minor}.{patch}`, `{major}.{minor}`, `{major}` and the full commit sha.
 Releases are cut from Conventional Commits — see
-[releases](https://github.com/brujoand/froken/releases) for what each version
+[releases](https://github.com/brujoand/pensum/releases) for what each version
 changed.
 
 The running app reports its version at `/healthz`. An image that says `dev` was
@@ -70,7 +70,7 @@ built outside the release pipeline.
 
 ## Accounts and score history
 
-**Off unless you turn it on.** Run the image as above and Frøken has no accounts,
+**Off unless you turn it on.** Run the image as above and Pensum has no accounts,
 writes nothing to disk, and forgets every quiz the moment the tab closes. Point
 it at an OIDC provider and two things become possible: a pupil can sign in, and
 an adult in a nominated group can see how the signed-in pupils have done.
@@ -97,28 +97,28 @@ database path. Sign-in without a database is still a site that forgets.
 
 | Variable | What it does |
 |---|---|
-| `FROKEN_OIDC_ISSUER` | Provider base URL, e.g. `https://id.example.com`. Discovery is read from `/.well-known/openid-configuration`. |
-| `FROKEN_OIDC_CLIENT_ID` | The client you registered for Frøken. |
-| `FROKEN_OIDC_CLIENT_SECRET` | Its secret. |
-| `FROKEN_BASE_URL` | Frøken's own public origin, e.g. `https://froken.example.com`. Required behind a TLS-terminating proxy — the redirect URI is built from it. |
-| `FROKEN_ADMIN_GROUP` | Group whose members may read other people's scores. Default `froken-admins`. |
-| `FROKEN_DATABASE_PATH` | SQLite file for finished attempts, e.g. `/data/froken.db`. Unset means nothing is recorded. |
-| `FROKEN_SESSION_SECRET` | Signs the login cookie. Generated per process when unset, so a restart signs everyone out. |
+| `PENSUM_OIDC_ISSUER` | Provider base URL, e.g. `https://id.example.com`. Discovery is read from `/.well-known/openid-configuration`. |
+| `PENSUM_OIDC_CLIENT_ID` | The client you registered for Pensum. |
+| `PENSUM_OIDC_CLIENT_SECRET` | Its secret. |
+| `PENSUM_BASE_URL` | Pensum's own public origin, e.g. `https://pensum.example.com`. Required behind a TLS-terminating proxy — the redirect URI is built from it. |
+| `PENSUM_ADMIN_GROUP` | Group whose members may read other people's scores. Default `pensum-admins`. |
+| `PENSUM_DATABASE_PATH` | SQLite file for finished attempts, e.g. `/data/pensum.db`. Unset means nothing is recorded. |
+| `PENSUM_SESSION_SECRET` | Signs the login cookie. Generated per process when unset, so a restart signs everyone out. |
 
 Sign-in needs all three OIDC values; any fewer and the feature stays off rather
 than half-on.
 
 ```bash
 docker run -p 8000:8000 \
-  -e FROKEN_OIDC_ISSUER=https://id.example.com \
-  -e FROKEN_OIDC_CLIENT_ID=froken \
-  -e FROKEN_OIDC_CLIENT_SECRET=... \
-  -e FROKEN_BASE_URL=https://froken.example.com \
-  -e FROKEN_ADMIN_GROUP=froken-admins \
-  -e FROKEN_DATABASE_PATH=/data/froken.db \
-  -e FROKEN_SESSION_SECRET=... \
-  -v froken-data:/data \
-  ghcr.io/brujoand/froken:1.0.0
+  -e PENSUM_OIDC_ISSUER=https://id.example.com \
+  -e PENSUM_OIDC_CLIENT_ID=pensum \
+  -e PENSUM_OIDC_CLIENT_SECRET=... \
+  -e PENSUM_BASE_URL=https://pensum.example.com \
+  -e PENSUM_ADMIN_GROUP=pensum-admins \
+  -e PENSUM_DATABASE_PATH=/data/pensum.db \
+  -e PENSUM_SESSION_SECRET=... \
+  -v pensum-data:/data \
+  ghcr.io/brujoand/pensum:1.0.0
 ```
 
 The container runs as uid 65532, so the mounted volume has to be writable by it.
@@ -128,18 +128,18 @@ Without the volume the history is real but lasts until the container is replaced
 
 Register a confidential client with:
 
-- redirect URI `https://froken.example.com/auth/callback` — one, exactly
+- redirect URI `https://pensum.example.com/auth/callback` — one, exactly
 - scopes `openid profile email groups`
-- PKCE (S256) — Frøken always sends a challenge
+- PKCE (S256) — Pensum always sends a challenge
 
-Then make a group matching `FROKEN_ADMIN_GROUP` and put the adults in it.
+Then make a group matching `PENSUM_ADMIN_GROUP` and put the adults in it.
 Membership is read from the `groups` claim, so granting or revoking admin is done
-in the provider and never needs Frøken redeployed. It takes effect when the
+in the provider and never needs Pensum redeployed. It takes effect when the
 person's session next refreshes, not instantly — the group list is read from the
 signed login cookie rather than from the provider on every page load.
 
 Any OIDC provider emitting a `groups` claim works; pocket-id is what it is
-developed against. For providers that expose groups only from `/userinfo`, Frøken
+developed against. For providers that expose groups only from `/userinfo`, Pensum
 falls back to asking there once, at sign-in.
 
 ### What an admin sees
@@ -179,8 +179,8 @@ committed data gives no sign of this by itself: it stays valid-looking
 indefinitely. So noticing is automated.
 
 ```bash
-uv run froken-ingest --check-drift      # what has changed upstream? (read-only)
-uv run froken-ingest --as-of 2026-08-01 # re-vendor; writes data/curriculum/
+uv run pensum-ingest --check-drift      # what has changed upstream? (read-only)
+uv run pensum-ingest --as-of 2026-08-01 # re-vendor; writes data/curriculum/
 ```
 
 `--check-drift` reads only Udir's index endpoint, so it is cheap enough to run
@@ -208,7 +208,7 @@ and re-verified against the official source.
 
 - **Not every competence goal can be tested in writing.** Many are framed as
   *utforske*, *samtale om*, *delta i* — things a pupil does, not things a quiz
-  can check. Frøken marks those as not assessable and shows them without
+  can check. Pensum marks those as not assessable and shows them without
   quizzing them, rather than inventing a question that misrepresents the goal.
   Coverage is therefore uneven by design.
 - **Quiz questions are drafted with an LLM and reviewed by hand.** Questions are
@@ -216,7 +216,7 @@ and re-verified against the official source.
   build serves only reviewed items. The curriculum text itself is never
   generated — it is quoted verbatim from Udir.
 - **No accounts and no analytics unless a deployment adds them.** Out of the
-  box Frøken stores nothing about who is using it: quiz progress lives in memory
+  box Pensum stores nothing about who is using it: quiz progress lives in memory
   for the length of a session and is gone afterwards, and there is no third-party
   script on any page in any configuration. A deployment can enable sign-in and
   keep a score history — see [Accounts and score
@@ -239,7 +239,7 @@ source to be credited:
 > Contains data under [NLOD](https://data.norge.no/nlod/en), made available on
 > [data.udir.no](https://data.udir.no).
 
-Two conditions of that licence shape how Frøken is built, not just how it is
+Two conditions of that licence shape how Pensum is built, not just how it is
 credited:
 
 - **The data must not be presented in a misleading or distorted manner.** So
@@ -247,5 +247,5 @@ credited:
   is always visually distinct from quiz questions — which are ours, not Udir's.
   Each goal links to its official source record so any claim we make about the
   curriculum can be checked against it.
-- **Udir's logo may not be used** without a separate agreement. Frøken does not
+- **Udir's logo may not be used** without a separate agreement. Pensum does not
   use it, and displays nothing implying official endorsement.

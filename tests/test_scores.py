@@ -10,7 +10,7 @@ from __future__ import annotations
 from datetime import UTC, datetime
 from pathlib import Path
 
-from froken.scores.store import Attempt, AttemptStore, GoalTally, attempt_key
+from pensum.scores.store import Attempt, AttemptStore, GoalTally, attempt_key
 
 NOW = datetime(2026, 7, 19, 10, 0, tzinfo=UTC)
 
@@ -38,7 +38,7 @@ def attempt(
 
 
 def store(tmp_path: Path) -> AttemptStore:
-    return AttemptStore(tmp_path / "nested" / "froken.db")
+    return AttemptStore(tmp_path / "nested" / "pensum.db")
 
 
 def test_the_database_is_created_along_with_its_directory(tmp_path: Path) -> None:
@@ -124,7 +124,7 @@ def test_an_empty_store_has_no_users(tmp_path: Path) -> None:
 
 def test_attempts_survive_reopening_the_database(tmp_path: Path) -> None:
     """The entire point of a file: a restart must not take the history with it."""
-    path = tmp_path / "froken.db"
+    path = tmp_path / "pensum.db"
     AttemptStore(path).record(attempt())
 
     assert len(AttemptStore(path).attempts_for("u-1")) == 1

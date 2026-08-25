@@ -116,7 +116,7 @@ wheels = [
 ]
 
 [[package]]
-name = "froken"
+name = "pensum"
 version = "0.0.0"
 source = { editable = "." }
 dependencies = [

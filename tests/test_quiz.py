@@ -7,9 +7,9 @@ from datetime import UTC, datetime, timedelta
 import pytest
 from pydantic import ValidationError
 
-from froken.items.schema import AuthoredText, Choice, ItemSet, QuizItem
-from froken.quiz.scoring import PASS_THRESHOLD, score, select
-from froken.quiz.session import SESSION_TTL, SessionStore
+from pensum.items.schema import AuthoredText, Choice, ItemSet, QuizItem
+from pensum.quiz.scoring import PASS_THRESHOLD, score, select
+from pensum.quiz.session import SESSION_TTL, SessionStore
 
 NOW = datetime(2026, 7, 19, 10, 0, tzinfo=UTC)
 

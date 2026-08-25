@@ -10,9 +10,9 @@ import json
 
 import pytest
 
-from froken.catalogue.loader import DEFAULT_DATA_DIR, Catalogue
-from froken.domain.grades import checkpoint_for
-from froken.domain.models import BOKMAAL, NYNORSK
+from pensum.catalogue.loader import DEFAULT_DATA_DIR, Catalogue
+from pensum.domain.grades import checkpoint_for
+from pensum.domain.models import BOKMAAL, NYNORSK
 
 # The subjects quiz content is authored for. Ingest covers every grunnskole
 # subject; these six are the ones the app promises to test.

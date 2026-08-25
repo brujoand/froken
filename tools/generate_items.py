@@ -29,9 +29,9 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT / "src"))
 
-from froken.catalogue.loader import Catalogue  # noqa: E402
-from froken.domain.models import BOKMAAL  # noqa: E402
-from froken.items.schema import ItemSet, NotAssessable, QuizItem  # noqa: E402
+from pensum.catalogue.loader import Catalogue  # noqa: E402
+from pensum.domain.models import BOKMAAL  # noqa: E402
+from pensum.items.schema import ItemSet, NotAssessable, QuizItem  # noqa: E402
 
 PROMPT_PATH = Path(__file__).parent / "prompts" / "item_generation.md"
 ITEMS_DIR = REPO_ROOT / "data" / "items"
@@ -258,7 +258,7 @@ def main(argv: list[str] | None = None) -> int:
     )
 
     print(f"\nWrote {len(all_items)} unreviewed item(s) to {destination.relative_to(REPO_ROOT)}")
-    print("Review them, set `reviewed: true`, then run: uv run python -m froken.items.validate")
+    print("Review them, set `reviewed: true`, then run: uv run python -m pensum.items.validate")
     return 0
 
 

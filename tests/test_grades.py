@@ -9,8 +9,8 @@ from __future__ import annotations
 
 import pytest
 
-from froken.domain.grades import checkpoint_for, grade_range, subjects_for_grade
-from froken.domain.models import GoalSet, LocalisedText, Subject
+from pensum.domain.grades import checkpoint_for, grade_range, subjects_for_grade
+from pensum.domain.models import GoalSet, LocalisedText, Subject
 
 
 def goal_set(code: str, after: int, applies: tuple[int, ...]) -> GoalSet:

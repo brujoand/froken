@@ -1,4 +1,4 @@
-# Toolchain for froken. Unlike the agent CLI, nothing here has to run on the CI
+# Toolchain for pensum. Unlike the agent CLI, nothing here has to run on the CI
 # runner's system python, so this pins the current stable Python rather than
 # matching an image.
 [tools]

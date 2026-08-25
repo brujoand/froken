@@ -11,11 +11,11 @@ import re
 import pytest
 from fastapi.testclient import TestClient
 
-from froken.catalogue.loader import Catalogue
-from froken.items.loader import ItemBank
-from froken.items.validate import validate
-from froken.web.app import create_app
-from froken.web.routes import CORE_SUBJECTS
+from pensum.catalogue.loader import Catalogue
+from pensum.items.loader import ItemBank
+from pensum.items.validate import validate
+from pensum.web.app import create_app
+from pensum.web.routes import CORE_SUBJECTS
 
 
 @pytest.fixture(scope="module")
@@ -168,7 +168,7 @@ def test_quiz_questions_are_marked_as_ours(client: TestClient) -> None:
     start = client.post("/nb/klasse/2/MAT01-06/quiz", follow_redirects=False)
     session_id = start.headers["location"].rsplit("/", 1)[-1]
     body = text_of(client.get(f"/nb/quiz/{session_id}").text)
-    assert "laget av Frøken" in body
+    assert "laget av Pensum" in body
 
 
 def test_a_wrong_answer_shows_what_was_given_and_what_was_right(client: TestClient) -> None:

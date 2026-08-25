@@ -10,8 +10,8 @@ from __future__ import annotations
 
 from datetime import date
 
-from froken.domain.models import BOKMAAL, ENGLISH, NYNORSK
-from froken.ingest.normalise import goal_from, goal_set_from, localised, subject_from
+from pensum.domain.models import BOKMAAL, ENGLISH, NYNORSK
+from pensum.ingest.normalise import goal_from, goal_set_from, localised, subject_from
 
 
 def test_localised_reads_every_maalform() -> None:

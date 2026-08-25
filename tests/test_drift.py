@@ -9,7 +9,7 @@ from __future__ import annotations
 
 from datetime import date
 
-from froken.ingest.drift import compare
+from pensum.ingest.drift import compare
 
 TODAY = date(2026, 7, 19)
 

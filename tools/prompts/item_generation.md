@@ -1,4 +1,4 @@
-You are helping build Frøken, a practice tool for pupils in Norwegian
+You are helping build Pensum, a practice tool for pupils in Norwegian
 grunnskole. You will be given one competence goal (kompetansemål) from LK20, the
 Norwegian national curriculum, and asked to write quiz questions that check
 whether a pupil has reached it.

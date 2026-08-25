@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Build and run Frøken locally.
+# Build and run Pensum locally.
 #
 #   bin/run_local              build the image and run it
 #   bin/run_local --native     run from source with reload, no Docker
@@ -13,8 +13,8 @@
 
 set -euo pipefail
 
-readonly IMAGE="froken:dev"
-readonly CONTAINER="froken-dev"
+readonly IMAGE="pensum:dev"
+readonly CONTAINER="pensum-dev"
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 readonly REPO_ROOT
 
@@ -59,7 +59,7 @@ parse_args() {
 
 announce() {
   log ""
-  log "Frøken is running at http://localhost:${PORT}"
+  log "Pensum is running at http://localhost:${PORT}"
   log ""
   log "  /nb/                    velg klassetrinn"
   log "  /nb/klasse/2/MAT01-06   the only checkpoint with questions so far"
@@ -73,7 +73,7 @@ run_native() {
   log "Running from source with reload. Ctrl-C to stop."
   announce
   cd "${REPO_ROOT}"
-  exec mise exec -- uv run uvicorn froken.web.app:app \
+  exec mise exec -- uv run uvicorn pensum.web.app:app \
     --host 127.0.0.1 --port "${PORT}" --reload
 }
 
