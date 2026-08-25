@@ -13,6 +13,7 @@ from fastapi.responses import HTMLResponse, RedirectResponse
 from pensum import __version__
 from pensum.catalogue.loader import Catalogue
 from pensum.domain.grades import FIRST_GRADE, LAST_GRADE, checkpoint_for, subjects_for_grade
+from pensum.domain.ladder import Ladder
 from pensum.domain.models import NYNORSK
 from pensum.i18n import DEFAULT_LOCALE, curriculum_language
 from pensum.items.loader import ItemBank
@@ -39,6 +40,18 @@ def _items(request: Request) -> ItemBank:
     return request.app.state.items
 
 
+# A nivåtest needs somewhere to move between. One rung is not a ladder, so the
+# entry point is offered per subject rather than assumed for all of them --
+# derived from the data, like `has_quiz`, never declared.
+MIN_RUNGS_FOR_PLACEMENT = 2
+
+
+def _placeable(request: Request, subject) -> bool:
+    bank = _items(request)
+    servable = {gs.code for gs in subject.goal_sets if bank.has_quiz(gs.code)}
+    return len(Ladder.build(subject, servable)) >= MIN_RUNGS_FOR_PLACEMENT
+
+
 @router.get("/healthz", include_in_schema=False)
 async def healthz() -> dict[str, str]:
     # The version comes back too, so what is deployed can be checked without
@@ -59,7 +72,17 @@ async def home(request: Request, locale: str) -> HTMLResponse:
     return templates.TemplateResponse(
         request,
         "pages/home.html",
-        context(request, locale, grades=range(FIRST_GRADE, LAST_GRADE + 1)),
+        context(
+            request,
+            locale,
+            grades=range(FIRST_GRADE, LAST_GRADE + 1),
+            placement_subjects=[
+                subject
+                for code in CORE_SUBJECTS
+                if (subject := _catalogue(request).subject(code)) is not None
+                and _placeable(request, subject)
+            ],
+        ),
     )
 
 
@@ -127,5 +150,6 @@ async def subject_page(
             has_quiz=_items(request).has_quiz(checkpoint.goal_set.code),
             question_count=len(_items(request).for_goal_set(checkpoint.goal_set.code)),
             coverage=_items(request).coverage(checkpoint.goal_set),
+            has_placement=_placeable(request, subject),
         ),
     )

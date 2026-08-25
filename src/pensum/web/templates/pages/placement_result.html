@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block title %}{{ t("placement_result.heading") }} · {{ subject.display_title.get(lang) }}{% endblock %}
+
+{% macro checkpoint(rung, one_year, span) -%}
+  {%- if rung.spans_one_year -%}
+    {{ t(one_year, year=rung.after_year) }}
+  {%- else -%}
+    {{ t(span, first=rung.applies_to_years[0], last=rung.applies_to_years[-1]) }}
+  {%- endif -%}
+{%- endmacro %}
+
+{% block content %}
+  <h1>{{ t("placement_result.heading") }}</h1>
+
+  {# The three end states mean genuinely different things, and collapsing any of
+     them into "your level is N" would say something the run did not find.
+     Matematikk rungs resolve to one school year; every other subject's span
+     several, so the wording follows the rung rather than assuming. #}
+  {% if outcome.ceiling %}
+    <p class="score">{{ checkpoint(outcome.ceiling, "placement_result.ceiling", "placement_result.ceiling_span") }}</p>
+  {% else %}
+    <p class="score">{{ t("placement_result.nothing_yet") }}</p>
+  {% endif %}
+
+  {% if outcome.topped_out %}
+    <p class="verdict">{{ t("placement_result.topped_out") }}</p>
+  {% elif outcome.frontier %}
+    <p class="verdict">{{ checkpoint(outcome.frontier, "placement_result.frontier", "placement_result.frontier_span") }}</p>
+  {% endif %}
+
+  {% if not outcome.conclusive and outcome.ceiling %}
+    <p class="note">{{ t("placement_result.inconclusive") }}</p>
+  {% endif %}
+
+  <p class="note">{{ t("placement_result.not_a_verdict") }}</p>
+
+  {% if history_enabled and run.attributed %}
+    <p class="note">{{ t("auth.recorded_note") }}</p>
+  {% endif %}
+
+  {# A ceiling read without this overstates itself badly in norsk, where the
+     quiz reaches about a third of each checkpoint. #}
+  {% if coverage and not coverage.complete %}
+    <p class="note">
+      {{ t("placement_result.coverage_note", tested=coverage.tested, total=coverage.total) }}
+    </p>
+  {% endif %}
+
+  <h2>{{ t("placement_result.gaps_heading") }}</h2>
+  {% if gaps %}
+    <p class="lede">{{ t("placement_result.gaps_intro") }}</p>
+    {% if thin_evidence %}
+      <p class="note">{{ t("placement_result.thin_evidence") }}</p>
+    {% endif %}
+    <p class="verbatim-note">{{ t("curriculum.verbatim_note") }}</p>
+    <ul class="curriculum goal-list">
+      {% for goal in gaps %}
+        <li class="goal">
+          <blockquote cite="{{ goal.source_url }}">{{ goal.text.get(lang) }}</blockquote>
+          <span class="tally">{{ t("placement_result.answered", correct=tally[goal.code][0], total=tally[goal.code][1]) }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>{{ t("placement_result.no_gaps") }}</p>
+  {% endif %}
+
+  <p class="actions">
+    <a class="button" href="/{{ locale }}/nivatest/{{ subject.code }}">{{ t("placement_result.retake") }}</a>
+    {% if outcome.frontier %}
+      <a class="button" href="/{{ locale }}/klasse/{{ outcome.frontier.after_year }}/{{ subject.code }}">{{ t("placement_result.see_curriculum") }}</a>
+    {% endif %}
+  </p>
+{% endblock %}

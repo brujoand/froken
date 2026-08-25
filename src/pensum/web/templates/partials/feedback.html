@@ -17,11 +17,11 @@
   <p class="explanation">{{ item.explanation.get(locale) }}</p>
 </div>
 
-{% if session.finished %}
-  <a class="button" href="/{{ locale }}/quiz/{{ session.id }}/result">{{ t("quiz.see_result") }}</a>
+{% if finished %}
+  <a class="button" href="{{ result_url }}">{{ t("quiz.see_result") }}</a>
 {% else %}
   <button class="button"
-          hx-get="/{{ locale }}/quiz/{{ session.id }}/question"
+          hx-get="{{ question_url }}"
           hx-target="#quiz-slot"
           hx-swap="innerHTML">{{ t("quiz.next") }}</button>
 {% endif %}

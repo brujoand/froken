@@ -141,3 +141,59 @@ admin:
     attempts: Quizer
     average: Snitt
     latest: Sist
+
+placement:
+  # The nivåtest. Framed throughout as finding where you are, never as a verdict
+  # on what you are worth -- the ceiling is the strongest claim Pensum makes
+  # about a child, so the wording carries most of the honesty.
+  cta: Finn nivået ditt
+  cta_note: Vi starter lett og justerer underveis.
+  heading: Hvilket nivå er du på i {subject}?
+  intro: >-
+    Du får noen spørsmål om gangen. Klarer du dem, blir de vanskeligere. Bommer
+    du, blir de lettere. Slik finner vi hva du får til nå.
+  grade_question: Hvilket trinn går du på?
+  grade_help: >-
+    Vi bruker det bare til å velge hvor vi starter. Du kan havne både over og
+    under.
+  grade_unknown: Jeg vet ikke
+  start: Start nivåtesten
+  # No total: an adaptive test has not decided how long it is, and a progress
+  # bar out of an invented number would be a lie that moves.
+  progress: "Spørsmål {number}"
+  length_note: >-
+    Testen er ferdig når vi vet nok. Det tar som regel 10–25 spørsmål.
+  too_few_rungs: Dette faget har for få trinn til en nivåtest.
+
+placement_result:
+  heading: Slik ligger du an
+  # The three end states, which mean different things and must not be blurred.
+  ceiling: Du har god kontroll på det vi kan teste etter {year}. trinn.
+  ceiling_span: Du har god kontroll på det vi kan teste for {first}.–{last}. trinn.
+  frontier: Nå jobber du med {year}. trinn.
+  frontier_span: Nå jobber du med {first}.–{last}. trinn.
+  topped_out: >-
+    Du klarte det høyeste trinnet vi har spørsmål til i dette faget. Da har ikke
+    testen mer å måle med.
+  nothing_yet: >-
+    Vi fant ikke et trinn å måle fra denne gangen. Det betyr ikke at du ikke kan
+    noe — bare at spørsmålene her ikke traff. Prøv gjerne igjen.
+  inconclusive: >-
+    Testen ble ferdig før vi rakk å finne nivået sikkert. Det som står nedenfor
+    stemmer, men det er ikke hele bildet.
+  not_a_verdict: >-
+    Dette er en øving, ikke en vurdering. Testen sier hvordan det gikk med disse
+    spørsmålene i dag, ikke hva du er god for.
+  coverage_note: >-
+    Quizen for dette trinnet dekker {tested} av {total} kompetansemål. Mange mål
+    handler om å samtale, utforske eller lage noe, og kan ikke testes skriftlig.
+  thin_evidence: >-
+    Hvert mål her er testet med ett eller to spørsmål. Det er nok til å vise hva
+    du kan se nærmere på, men ikke nok til å si at du ikke får det til.
+  gaps_heading: Dette er verdt å øve på
+  gaps_intro: >-
+    Målene nedenfor er de du bommet på underveis.
+  no_gaps: Du svarte riktig på alt du fikk.
+  answered: "{correct} av {total} riktig"
+  retake: Ta testen på nytt
+  see_curriculum: Se hele trinnet

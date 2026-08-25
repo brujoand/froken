@@ -206,4 +206,6 @@ class PlacementRun:
 
     def gaps(self) -> tuple[str, ...]:
         """Goals the pupil did not get every question right on."""
-        return tuple(goal for goal, (correct, total) in sorted(self.tally().items()) if correct < total)
+        return tuple(
+            goal for goal, (correct, total) in sorted(self.tally().items()) if correct < total
+        )

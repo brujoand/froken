@@ -30,6 +30,7 @@ from pensum.quiz.session import SessionStore
 from pensum.scores.store import AttemptStore
 from pensum.web.admin_routes import router as admin_router
 from pensum.web.auth_routes import router as auth_router
+from pensum.web.placement_routes import router as placement_router
 from pensum.web.quiz_routes import router as quiz_router
 from pensum.web.routes import router
 
@@ -79,6 +80,7 @@ def create_app(
     app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
     app.include_router(router)
     app.include_router(quiz_router)
+    app.include_router(placement_router)
     app.include_router(auth_router)
     app.include_router(admin_router)
     return app

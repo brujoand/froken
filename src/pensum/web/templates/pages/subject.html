@@ -41,6 +41,16 @@
       <form method="post" action="/{{ locale }}/klasse/{{ grade }}/{{ subject.code }}/quiz">
         <button class="button" type="submit">{{ t("quiz.start") }}</button>
       </form>
+
+      {# The other question, offered where a pupil is already thinking about
+         this subject: this page tests whether they are ready for *this* trinn,
+         the nivåtest finds which trinn they are ready for. #}
+      {% if has_placement %}
+        <p class="placement-cta">
+          <a href="/{{ locale }}/nivatest/{{ subject.code }}">{{ t("placement.cta") }}</a>
+          <span class="field-help">{{ t("placement.cta_note") }}</span>
+        </p>
+      {% endif %}
     {% else %}
       {# No items authored for this checkpoint yet. Saying so beats a button
          that leads nowhere. #}

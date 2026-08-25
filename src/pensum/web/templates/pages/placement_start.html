@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}{{ t("placement.cta") }} · {{ subject.display_title.get(lang) }}{% endblock %}
+
+{% block content %}
+  <h1>{{ t("placement.heading", subject=subject.display_title.get(lang)) }}</h1>
+  <p class="lede">{{ t("placement.intro") }}</p>
+
+  <form class="placement-start" method="post" action="/{{ locale }}/nivatest/{{ subject.code }}">
+    <fieldset>
+      <legend>{{ t("placement.grade_question") }}</legend>
+      {# The klasse only chooses where the climb starts. Saying so next to the
+         control matters: a child who picks wrong should not think they have
+         been mis-sorted, and one who picks high should not think they have
+         claimed anything. #}
+      <p class="field-help">{{ t("placement.grade_help") }}</p>
+      <select name="grade" id="grade">
+        <option value="">{{ t("placement.grade_unknown") }}</option>
+        {% for grade in grades %}
+          <option value="{{ grade }}">{{ t("home.grade", grade=grade) }}</option>
+        {% endfor %}
+      </select>
+    </fieldset>
+
+    <button class="button" type="submit">{{ t("placement.start") }}</button>
+  </form>
+
+  <p class="note">{{ t("placement.length_note") }}</p>
+{% endblock %}
