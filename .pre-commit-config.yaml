@@ -70,7 +70,7 @@ repos:
         name: Validate the committed curriculum catalogue
         entry: uv run pytest tests/test_catalogue_data.py -q
         language: system
-        files: ^(data/curriculum/|src/froken/(domain|catalogue)/)
+        files: ^(data/curriculum/|src/pensum/(domain|catalogue)/)
         pass_filenames: false
 
       # A new UI string added to bokmål but not English degrades silently at
@@ -78,9 +78,9 @@ repos:
       # files that bug, so it gets a deterministic check.
       - id: i18n-key-parity
         name: Check UI locale files have identical key sets
-        entry: uv run python -m froken.i18n.check
+        entry: uv run python -m pensum.i18n.check
         language: system
-        files: ^src/froken/i18n/
+        files: ^src/pensum/i18n/
         pass_filenames: false
 
       # An item can be perfectly well-formed and still reference a competence
@@ -89,7 +89,7 @@ repos:
       # never gets selected), so it is made loud here.
       - id: validate-items
         name: Validate quiz items against the curriculum catalogue
-        entry: uv run python -m froken.items.validate
+        entry: uv run python -m pensum.items.validate
         language: system
-        files: ^(data/(items|curriculum)/|src/froken/items/)
+        files: ^(data/(items|curriculum)/|src/pensum/items/)
         pass_filenames: false

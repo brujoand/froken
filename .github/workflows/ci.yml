@@ -59,16 +59,16 @@ jobs:
           context: .
           push: false
           load: true
-          tags: froken:ci
+          tags: pensum:ci
           cache-from: type=gha
           cache-to: type=gha,mode=max
       - name: The container must serve with no configuration at all
         run: |
-          docker run -d --name froken -p 8000:8000 froken:ci
+          docker run -d --name pensum -p 8000:8000 pensum:ci
           for i in $(seq 1 30); do
             curl -sf http://localhost:8000/healthz && break
             sleep 1
           done
           curl -sf http://localhost:8000/nb/ > /dev/null
           curl -sf http://localhost:8000/nb/klasse/2/MAT01-06 > /dev/null
-          docker rm -f froken
+          docker rm -f pensum

@@ -7,10 +7,10 @@ a score imply full coverage.
 
 from __future__ import annotations
 
-from froken.catalogue.loader import Catalogue
-from froken.domain.models import Goal, GoalSet, LocalisedText
-from froken.items.coverage import coverage
-from froken.items.loader import ItemBank
+from pensum.catalogue.loader import Catalogue
+from pensum.domain.models import Goal, GoalSet, LocalisedText
+from pensum.items.coverage import coverage
+from pensum.items.loader import ItemBank
 
 
 def goal(code: str) -> Goal:

@@ -1,0 +1,143 @@
+# Bokmål is the source locale. Add a string here first, then to en.yaml --
+# the i18n-key-parity check fails the build if the two drift apart.
+---
+site:
+  name: Pensum
+  tagline: Hva skal du kunne i norsk skole?
+  description: >-
+    Kompetansemålene fra læreplanen, og quizer for å øve på dem.
+
+nav:
+  home: Forsiden
+  language: Språk
+  about: Om Pensum
+
+home:
+  heading: Hvilket trinn går du på?
+  intro: >-
+    Velg klassetrinn for å se hva du skal kunne, og prøv deg på en quiz.
+  grade: "{grade}. klasse"
+
+grade:
+  heading: "{grade}. klasse"
+  subjects_heading: Fag
+  goal_count: "{count} kompetansemål"
+  no_subjects: Vi har ikke noe innhold for dette trinnet ennå.
+
+subject:
+  # The distinction the whole page turns on: a pupil in their checkpoint year is
+  # being told what they should already master, everyone else what they are
+  # working towards.
+  mastery_now: Dette skal du kunne etter {year}. trinn
+  working_towards: Dette jobber du mot fram til {year}. trinn
+  working_towards_note: >-
+    Du går i {grade}. klasse, og målene nedenfor gjelder fram til slutten av
+    {year}. trinn. Du trenger altså ikke kunne alt ennå.
+  goals_heading: Kompetansemål
+  source_link: Se målet hos Udir
+  quiz_cta: Ta quizen
+  quiz_unavailable: Quiz kommer snart for dette faget.
+
+coverage:
+  # Honest about reach: a quiz cannot test every kompetansemål, and the count
+  # says how many it does. Kept subject-neutral -- norsk leaves out writing and
+  # speaking, matematikk leaves out programming, so the note names the LK20 verbs
+  # that recur rather than any one skill.
+  summary: Quizen dekker {tested} av {total} kompetansemål på dette trinnet.
+  all: Quizen dekker alle kompetansemålene på dette trinnet.
+  note: >-
+    Noen kompetansemål kan ikke testes i en quiz — for eksempel å utforske,
+    samtale om eller lage noe selv. De er merket nedenfor.
+  in_quiz: I quizen
+  not_in_quiz: Ikke i quizen
+  result_note: >-
+    Quizen dekket {tested} av {total} kompetansemål på dette trinnet. Noen mål
+    kan ikke testes i en quiz.
+
+curriculum:
+  # Shown wherever official text appears, so Udir's words are never mistaken for
+  # ours. This is an NLOD condition, not decoration.
+  verbatim_note: >-
+    Teksten nedenfor er gjengitt ordrett fra læreplanen.
+  attribution: >-
+    Inneholder data under NLOD, tilgjengeliggjort på data.udir.no.
+  nynorsk_notice: >-
+    Dette faget er fastsatt på nynorsk, og vises derfor på nynorsk.
+
+disclaimer:
+  short: Pensum er et uoffisielt hjelpemiddel, ikke et vurderingsverktøy.
+  long: >-
+    Pensum er laget for å øve, ikke for å vurdere. Å klare en quiz her betyr
+    ikke at du består et trinn, og å bomme betyr ikke at du ikke gjør det.
+    Pensum er ikke tilknyttet Utdanningsdirektoratet.
+
+footer:
+  source: Kilde
+  licence: Lisens
+  code: Kildekode
+
+quiz:
+  start: Ta quizen
+  intro: "{count} spørsmål fra dette trinnet. Du får svaret forklart underveis."
+  progress: Spørsmål {number} av {total}
+  check: Sjekk svaret
+  next: Neste spørsmål
+  see_result: Se resultatet
+  your_answer: Du svarte
+  correct_answer: Riktig svar
+  correct: Riktig!
+  incorrect: Ikke helt.
+  numeric_placeholder: Skriv et tall
+  text_placeholder: Skriv svaret
+  # Ours, not Udir's -- and the page must never blur that line.
+  authored_note: >-
+    Spørsmålene er laget av Pensum, ikke hentet fra læreplanen.
+
+result:
+  heading: Slik gikk det
+  score: Du fikk {correct} av {total} riktig.
+  passed: Flott jobba! Du har god kontroll på dette trinnet.
+  not_passed: God innsats! Her er det litt igjen å øve på.
+  # Deliberately not "du bestod / strøk". Pensum cannot decide that.
+  not_a_verdict: >-
+    Dette er en øving, ikke en vurdering. Resultatet sier bare hvordan det gikk
+    med disse spørsmålene i dag.
+  strong_heading: Dette får du til
+  practice_heading: Dette kan du øve mer på
+  try_again: Prøv igjen
+  back_to_subject: Tilbake til faget
+
+auth:
+  # Innlogging er valgfritt. Teksten skal aldri antyde at man må logge inn for
+  # å ta en quiz -- det må man ikke.
+  account: Konto
+  sign_in: Logg inn
+  sign_out: Logg ut
+  signed_in_as: "Logget inn som {name}"
+  failed: >-
+    Innloggingen gikk ikke gjennom. Du kan fortsatt ta alle quizene uten å
+    logge inn.
+  recorded_note: >-
+    Du er logget inn, så resultatet blir lagret og kan ses av en voksen med
+    tilgang.
+
+admin:
+  link: Resultater
+  heading: Resultater
+  intro: >-
+    Elever som har vært innlogget og fullført minst én quiz.
+  # Samme forbehold som eleven selv får se. En voksen som leser en tabell med
+  # prosenter er mer utsatt for å lese den som en vurdering, ikke mindre.
+  not_a_verdict: >-
+    Dette er øving, ikke vurdering. Tallene sier hvordan det gikk med akkurat
+    disse spørsmålene, ikke om eleven har nådd kompetansemålene.
+  share: "{percentage} % ({correct} av {total})"
+  no_attempts: Ingen har fullført en quiz mens de var innlogget ennå.
+  back: Tilbake til oversikten
+  grade: "{grade}. klasse"
+  goals_heading: Kompetansemål i denne quizen
+  column:
+    pupil: Elev
+    attempts: Quizer
+    average: Snitt
+    latest: Sist

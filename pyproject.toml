@@ -1,5 +1,5 @@
 [project]
-name = "froken"
+name = "pensum"
 description = "What Norwegian pupils should master by each grade checkpoint, and quizzes to test it"
 readme = "README.md"
 requires-python = ">=3.13"
@@ -18,7 +18,7 @@ dependencies = [
   "pyyaml>=6.0",
   # HTML form posts from the quiz; FastAPI requires it for Form(...).
   "python-multipart>=0.0.20",
-  # Signs the login cookie. The only reason Frøken has a secret at all.
+  # Signs the login cookie. The only reason Pensum has a secret at all.
   "itsdangerous>=2.2",
   # The OIDC handshake: discovery and the token exchange. Used only when
   # sign-in is configured -- an unconfigured app still makes no outbound
@@ -27,7 +27,7 @@ dependencies = [
 ]
 
 [project.scripts]
-froken-ingest = "froken.ingest.cli:main"
+pensum-ingest = "pensum.ingest.cli:main"
 
 [build-system]
 requires = ["hatchling"]
@@ -35,7 +35,7 @@ build-backend = "hatchling.build"
 
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/froken"]
+packages = ["src/pensum"]
 
 [dependency-groups]
 dev = [

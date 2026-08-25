@@ -14,16 +14,16 @@ import pytest
 from fastapi import FastAPI
 from fastapi.testclient import TestClient
 
-from froken.auth.cookies import LOGIN_COOKIE, CookieCodec
-from froken.auth.models import User
-from froken.catalogue.loader import Catalogue
-from froken.config import Settings
-from froken.items.schema import QuizItem
-from froken.web.app import create_app
+from pensum.auth.cookies import LOGIN_COOKIE, CookieCodec
+from pensum.auth.models import User
+from pensum.catalogue.loader import Catalogue
+from pensum.config import Settings
+from pensum.items.schema import QuizItem
+from pensum.web.app import create_app
 
-ORIGIN = "https://froken.example.com"
+ORIGIN = "https://pensum.example.com"
 SECRET = "test-secret"
-ADMIN = User(sub="u-admin", name="Voksen", groups=("froken-admins",))
+ADMIN = User(sub="u-admin", name="Voksen", groups=("pensum-admins",))
 PUPIL = User(sub="u-1", name="Ola", groups=("pupils",))
 
 # One checkpoint with reviewed items committed, so the walk-through below is
@@ -34,12 +34,12 @@ QUIZ_PATH = "/nb/klasse/2/MAT01-06"
 def settings_with(tmp_path: Path, **overrides: object) -> Settings:
     defaults: dict[str, object] = {
         "oidc_issuer": "https://id.example.com",
-        "oidc_client_id": "froken",
+        "oidc_client_id": "pensum",
         "oidc_client_secret": "s3cret",
-        "admin_group": "froken-admins",
+        "admin_group": "pensum-admins",
         "base_url": ORIGIN,
         "session_secret": SECRET,
-        "database_path": tmp_path / "froken.db",
+        "database_path": tmp_path / "pensum.db",
     }
     return Settings(**(defaults | overrides))
 
@@ -51,7 +51,7 @@ def build(settings: Settings) -> tuple[FastAPI, TestClient]:
 
 def sign_in(client: TestClient, user: User) -> None:
     client.cookies.set(
-        LOGIN_COOKIE, CookieCodec(SECRET).dump_login(user), domain="froken.example.com"
+        LOGIN_COOKIE, CookieCodec(SECRET).dump_login(user), domain="pensum.example.com"
     )
 
 
@@ -201,7 +201,7 @@ def test_a_forged_admin_cookie_is_not_signed_in(tmp_path: Path) -> None:
     client.cookies.set(
         LOGIN_COOKIE,
         CookieCodec("a-different-secret").dump_login(ADMIN),
-        domain="froken.example.com",
+        domain="pensum.example.com",
     )
 
     assert client.get("/nb/admin").status_code == 401
@@ -273,7 +273,7 @@ def test_the_roster_renders_in_english_too(populated: tuple[FastAPI, TestClient]
 
 
 def test_the_header_offers_sign_in_only_when_it_is_configured(tmp_path: Path) -> None:
-    """An unconfigured Frøken shows no trace of accounts, because it has none."""
+    """An unconfigured Pensum shows no trace of accounts, because it has none."""
     _, plain = build(Settings())
     assert "/auth/login" not in plain.get("/nb/").text
 

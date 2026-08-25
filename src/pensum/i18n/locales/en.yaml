@@ -1,0 +1,130 @@
+# Mirrors nb.yaml key for key. The i18n-key-parity check enforces it.
+---
+site:
+  name: Pensum
+  tagline: What should you know in Norwegian school?
+  description: >-
+    Competence goals from the national curriculum, and quizzes to practise them.
+
+nav:
+  home: Home
+  language: Language
+  about: About Pensum
+
+home:
+  heading: Which year are you in?
+  intro: >-
+    Pick a year group to see what you should know, and try a quiz.
+  grade: "Year {grade}"
+
+grade:
+  heading: "Year {grade}"
+  subjects_heading: Subjects
+  goal_count: "{count} competence goals"
+  no_subjects: We have no content for this year group yet.
+
+subject:
+  mastery_now: What you should know by the end of year {year}
+  working_towards: What you are working towards by year {year}
+  working_towards_note: >-
+    You are in year {grade}, and the goals below apply through to the end of
+    year {year}. You are not expected to know all of it yet.
+  goals_heading: Competence goals
+  source_link: View this goal at Udir
+  quiz_cta: Take the quiz
+  quiz_unavailable: A quiz for this subject is coming soon.
+
+coverage:
+  summary: The quiz covers {tested} of {total} competence goals for this checkpoint.
+  all: The quiz covers every competence goal for this checkpoint.
+  note: >-
+    Some competence goals can't be tested in a quiz — for example exploring,
+    discussing or making something yourself. They are marked below.
+  in_quiz: In the quiz
+  not_in_quiz: Not in the quiz
+  result_note: >-
+    The quiz covered {tested} of {total} competence goals for this checkpoint.
+    Some goals can't be tested in a quiz.
+
+curriculum:
+  verbatim_note: >-
+    The text below is reproduced verbatim from the national curriculum.
+  attribution: >-
+    Contains data under NLOD, made available on data.udir.no.
+  nynorsk_notice: >-
+    This subject is established in nynorsk, and is shown in nynorsk.
+
+disclaimer:
+  short: Pensum is an unofficial study aid, not an assessment tool.
+  long: >-
+    Pensum is built for practice, not assessment. Passing a quiz here does not
+    mean you pass a year group, and getting answers wrong does not mean you
+    fail one. Pensum is not affiliated with Utdanningsdirektoratet.
+
+footer:
+  source: Source
+  licence: Licence
+  code: Source code
+
+quiz:
+  start: Take the quiz
+  intro: "{count} questions from this checkpoint. Each answer is explained as you go."
+  progress: Question {number} of {total}
+  check: Check answer
+  next: Next question
+  see_result: See the result
+  your_answer: You answered
+  correct_answer: Correct answer
+  correct: Correct!
+  incorrect: Not quite.
+  numeric_placeholder: Type a number
+  text_placeholder: Type your answer
+  authored_note: >-
+    These questions were written by Pensum; they are not taken from the
+    curriculum.
+
+result:
+  heading: How it went
+  score: You got {correct} out of {total} right.
+  passed: Well done! You have a good grip on this checkpoint.
+  not_passed: Good effort! There is a bit more to practise here.
+  not_a_verdict: >-
+    This is practice, not assessment. The result only says how these questions
+    went today.
+  strong_heading: You have got this
+  practice_heading: Worth practising more
+  try_again: Try again
+  back_to_subject: Back to the subject
+
+auth:
+  # Signing in is optional. No string here may imply a quiz needs an account,
+  # because none of them do.
+  account: Account
+  sign_in: Sign in
+  sign_out: Sign out
+  signed_in_as: "Signed in as {name}"
+  failed: >-
+    Signing in did not go through. You can still take every quiz without
+    signing in.
+  recorded_note: >-
+    You are signed in, so this result is saved and can be seen by an adult with
+    access.
+
+admin:
+  link: Results
+  heading: Results
+  intro: >-
+    Pupils who were signed in and have finished at least one quiz.
+  not_a_verdict: >-
+    This is practice, not assessment. The numbers say how these particular
+    questions went, not whether a pupil has met the competence goals.
+  share: "{percentage}% ({correct} of {total})"
+  no_attempts: Nobody has finished a quiz while signed in yet.
+  back: Back to the list
+  grade: "Year {grade}"
+  goals_heading: Competence goals in this quiz
+  column:
+    pupil: Pupil
+    attempts: Quizzes
+    average: Average
+    latest: Last

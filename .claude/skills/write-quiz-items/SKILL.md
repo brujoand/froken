@@ -1,6 +1,6 @@
 ---
 name: write-quiz-items
-description: Author Frøken quiz items for one LK20 competence goal set (kompetansemålsett), producing a validated YAML file under data/items/. Use when asked to write, draft or extend quiz questions for a subject and checkpoint — e.g. "write items for NAT01-05 KV81", "add questions for norsk 4. trinn", "fill in the missing goal sets".
+description: Author Pensum quiz items for one LK20 competence goal set (kompetansemålsett), producing a validated YAML file under data/items/. Use when asked to write, draft or extend quiz questions for a subject and checkpoint — e.g. "write items for NAT01-05 KV81", "add questions for norsk 4. trinn", "fill in the missing goal sets".
 ---
 
 # Writing quiz items
@@ -17,7 +17,7 @@ Read the goals you are writing for. Never work from the goal codes alone:
 
 ```bash
 uv run python -c "
-from froken.catalogue.loader import Catalogue
+from pensum.catalogue.loader import Catalogue
 gs = Catalogue.load().subject('MAT01-06').goal_set('KV1021')
 print(gs.code, 'after year', gs.after_year, '| klasse', gs.applies_to_years)
 for g in gs.goals:
@@ -191,7 +191,7 @@ and "I wrote it but validation failed" is not done.
 ## Finishing
 
 ```bash
-uv run python -m froken.items.validate    # must print nothing and exit 0
+uv run python -m pensum.items.validate    # must print nothing and exit 0
 uv run pytest -q
 ```
 
@@ -202,7 +202,7 @@ do not work around it.
 To see your items in the running app before they are reviewed:
 
 ```bash
-FROKEN_INCLUDE_UNREVIEWED=1 bin/run_local --native
+PENSUM_INCLUDE_UNREVIEWED=1 bin/run_local --native
 ```
 
 ## Report back
