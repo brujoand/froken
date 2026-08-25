@@ -36,7 +36,7 @@ does not pick items, hold a session, or know about the web layer.
 from __future__ import annotations
 
 from dataclasses import dataclass
-from enum import Enum
+from enum import StrEnum
 
 from pensum.domain.ladder import Ladder, Rung
 
@@ -62,7 +62,7 @@ MAX_ITEMS = 25
 DEEPEN_SIZE = 5
 
 
-class Verdict(str, Enum):
+class Verdict(StrEnum):
     """How one block at one rung went."""
 
     MASTERED = "mastered"
