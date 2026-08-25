@@ -13,14 +13,27 @@ from fastapi import APIRouter, Form, HTTPException, Request
 from fastapi.responses import HTMLResponse, RedirectResponse
 
 from pensum.domain.grades import checkpoint_for
+from pensum.i18n import translate
 from pensum.items.loader import ItemBank
 from pensum.quiz.scoring import Result, score, select
 from pensum.quiz.session import QuizSession, SessionStore
 from pensum.scores.store import Attempt, GoalTally, attempt_key
 from pensum.web.deps import current_user, get_store
-from pensum.web.rendering import context, templates, validate_locale
+from pensum.web.rendering import context, flow, templates, validate_locale
 
 router = APIRouter()
+
+
+def _flow(request: Request, locale: str, session: QuizSession) -> dict[str, object]:
+    """A trinntest knows its own length, so it says so."""
+    number = min(session.answered + 1, session.total)
+    return flow(
+        locale,
+        "quiz",
+        session.id,
+        progress=translate(locale, "quiz.progress", number=number, total=session.total),
+        finished=session.finished,
+    )
 
 
 def _bank(request: Request) -> ItemBank:
@@ -106,7 +119,14 @@ async def quiz_page(request: Request, locale: str, session_id: str) -> HTMLRespo
     return templates.TemplateResponse(
         request,
         "pages/quiz.html",
-        context(request, locale, session=session, subject=subject, item=session.current()),
+        context(
+            request,
+            locale,
+            session=session,
+            subject=subject,
+            item=session.current(),
+            **_flow(request, locale, session),
+        ),
     )
 
 
@@ -135,6 +155,7 @@ async def answer(
             item=item,
             given=response,
             correct=item.is_correct(response),
+            **_flow(request, locale, session),
         ),
     )
 
@@ -147,7 +168,13 @@ async def next_question(request: Request, locale: str, session_id: str) -> HTMLR
     return templates.TemplateResponse(
         request,
         "partials/question.html",
-        context(request, locale, session=session, item=session.current()),
+        context(
+            request,
+            locale,
+            session=session,
+            item=session.current(),
+            **_flow(request, locale, session),
+        ),
     )
 
 

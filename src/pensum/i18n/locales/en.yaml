@@ -128,3 +128,53 @@ admin:
     attempts: Quizzes
     average: Average
     latest: Last
+
+placement:
+  cta: Find your level
+  cta_note: We start easy and adjust as we go.
+  heading: What level are you at in {subject}?
+  intro: >-
+    You get a few questions at a time. Get them right and they get harder; miss
+    them and they get easier. That is how we find what you can do now.
+  grade_question: Which year are you in?
+  grade_help: >-
+    We only use it to choose where to start. You can end up above it or below it.
+  grade_unknown: I do not know
+  start: Start the level test
+  progress: "Question {number}"
+  length_note: >-
+    The test ends when we know enough. That is usually 10-25 questions.
+  too_few_rungs: This subject has too few checkpoints for a level test.
+
+placement_result:
+  heading: Where you are
+  ceiling: You have a good grip on what we can test after year {year}.
+  ceiling_span: You have a good grip on what we can test for years {first}-{last}.
+  frontier: You are working on year {year} now.
+  frontier_span: You are working on years {first}-{last} now.
+  topped_out: >-
+    You cleared the highest checkpoint we have questions for in this subject, so
+    the test has nothing further to measure with.
+  nothing_yet: >-
+    We did not find a checkpoint to measure from this time. That does not mean
+    you know nothing -- only that these questions did not land. Do try again.
+  inconclusive: >-
+    The test ended before we could pin the level down. What is below is true, but
+    it is not the whole picture.
+  not_a_verdict: >-
+    This is practice, not assessment. The test says how these questions went
+    today, not what you are capable of.
+  coverage_note: >-
+    The quiz for this checkpoint covers {tested} of {total} competence goals.
+    Many goals are about discussing, exploring or making something, and cannot be
+    tested in writing.
+  thin_evidence: >-
+    Each goal here was tested with one or two questions. That is enough to show
+    what is worth another look, but not enough to say you cannot do it.
+  gaps_heading: Worth practising
+  gaps_intro: >-
+    These are the goals you missed along the way.
+  no_gaps: You answered everything you were asked correctly.
+  answered: "{correct} of {total} correct"
+  retake: Take the test again
+  see_curriculum: See the whole checkpoint

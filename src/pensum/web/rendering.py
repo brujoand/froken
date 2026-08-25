@@ -65,3 +65,23 @@ def context(request: Request, locale: str, **extra: object) -> dict[str, object]
         "is_admin": user is not None and user.in_group(settings.admin_group),
         **extra,
     }
+
+
+def flow(
+    locale: str, prefix: str, session_id: str, *, progress: str, finished: bool
+) -> dict[str, object]:
+    """Where a question loop posts, and what it says about its own length.
+
+    The trinntest and the nivåtest share `partials/question.html` and
+    `partials/feedback.html` -- the markup for the three item kinds is the half
+    that must not drift between them -- and differ only in these. Building them
+    here rather than in the templates keeps the difference in one readable place.
+    """
+    base = f"/{locale}/{prefix}/{session_id}"
+    return {
+        "answer_url": f"{base}/answer",
+        "question_url": f"{base}/question",
+        "result_url": f"{base}/result",
+        "progress": progress,
+        "finished": finished,
+    }

@@ -6,6 +6,9 @@
     <p class="lede">{{ t("home.intro") }}</p>
   </section>
 
+  {# Two ways in, because there are two questions. "What should a 5th-grader
+     know?" is answered by browsing; "what level am I actually at?" is not, and
+     was previously not answerable at all. #}
   <section aria-labelledby="grades-heading">
     <h2 id="grades-heading">{{ t("home.heading") }}</h2>
     <ul class="grade-grid">
@@ -15,6 +18,18 @@
             <span class="grade-number">{{ grade }}</span>
             <span class="grade-label">{{ t("home.grade", grade=grade) }}</span>
           </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section aria-labelledby="placement-heading">
+    <h2 id="placement-heading">{{ t("placement.cta") }}</h2>
+    <p class="lede">{{ t("placement.cta_note") }}</p>
+    <ul class="subject-list">
+      {% for subject in placement_subjects %}
+        <li>
+          <a href="/{{ locale }}/nivatest/{{ subject.code }}">{{ subject.display_title.get(lang) }}</a>
         </li>
       {% endfor %}
     </ul>

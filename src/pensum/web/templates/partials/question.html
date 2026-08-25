@@ -1,10 +1,15 @@
-{# One question. Swapped in by HTMX; also renders standalone. #}
+{# One question. Swapped in by HTMX; also renders standalone.
+
+   Shared by the trinntest and the nivåtest. The two differ in where they post
+   and in whether a total is knowable, so those arrive as `answer_url`,
+   `result_url` and `progress` rather than being built here -- the form markup
+   for the three item kinds is the part that must not drift between them. #}
 {% if item %}
   <form class="question"
-        hx-post="/{{ locale }}/quiz/{{ session.id }}/answer"
+        hx-post="{{ answer_url }}"
         hx-target="#quiz-slot"
         hx-swap="innerHTML">
-    <p class="progress">{{ t("quiz.progress", number=session.answered + 1, total=session.total) }}</p>
+    <p class="progress">{{ progress }}</p>
     <input type="hidden" name="item_id" value="{{ item.id }}" />
 
     {# Authored by us, never quoted from the curriculum -- said plainly, and
@@ -33,6 +38,6 @@
     <button class="button" type="submit">{{ t("quiz.check") }}</button>
   </form>
 {% else %}
-  <p class="progress">{{ t("quiz.progress", number=session.total, total=session.total) }}</p>
-  <a class="button" href="/{{ locale }}/quiz/{{ session.id }}/result">{{ t("quiz.see_result") }}</a>
+  <p class="progress">{{ progress }}</p>
+  <a class="button" href="{{ result_url }}">{{ t("quiz.see_result") }}</a>
 {% endif %}

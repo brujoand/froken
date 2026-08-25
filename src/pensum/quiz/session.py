@@ -15,6 +15,7 @@ from __future__ import annotations
 import secrets
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
+from typing import Protocol, runtime_checkable
 
 from pensum.auth.models import User
 from pensum.items.schema import QuizItem
@@ -81,6 +82,24 @@ class QuizSession:
         return now - self.created_at > SESSION_TTL
 
 
+@runtime_checkable
+class Expiring(Protocol):
+    """What the store needs of a session, and nothing more.
+
+    A nivåtest session is a different shape from a trinntest one -- it draws its
+    questions a block at a time instead of holding a fixed list -- but the part
+    that must not be implemented twice is the expiry sweep, since that is what
+    keeps abandoned attempts from accumulating. So the store is defined against
+    this instead of against a concrete class, and `pensum.quiz.run` can put its
+    own session type in without either module importing the other.
+    """
+
+    @property
+    def id(self) -> str: ...
+
+    def expired(self, now: datetime) -> bool: ...
+
+
 class SessionStore:
     """In-memory session storage, swept lazily.
 
@@ -89,7 +108,7 @@ class SessionStore:
     """
 
     def __init__(self) -> None:
-        self._sessions: dict[str, QuizSession] = {}
+        self._sessions: dict[str, Expiring] = {}
 
     def create(
         self,
@@ -116,7 +135,18 @@ class SessionStore:
         self._sessions[session.id] = session
         return session
 
-    def get(self, session_id: str, now: datetime) -> QuizSession | None:
+    def put(self, session: Expiring, now: datetime) -> Expiring:
+        """Store a session built elsewhere, sweeping first.
+
+        The trinntest flow has `create` because the store knows how to build
+        that session. A nivåtest session needs a ladder and a way to draw items,
+        neither of which belongs here.
+        """
+        self._sweep(now)
+        self._sessions[session.id] = session
+        return session
+
+    def get(self, session_id: str, now: datetime) -> Expiring | None:
         session = self._sessions.get(session_id)
         if session is None:
             return None
