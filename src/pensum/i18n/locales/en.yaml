@@ -183,6 +183,53 @@ reading:
     children who all read well, and a number here says nothing about who is a
     good reader.
 
+rights:
+  # Linked from the footer of every page. A contact address nobody can find is
+  # not a contact address.
+  link: Rights
+  heading: Rights and takedowns
+  intro: >-
+    Pensum shows three kinds of content, and they have three different owners.
+    This page says who owns what, and where to write if we have got it wrong.
+
+  what_heading: Who owns what
+  curriculum_title: "Curriculum text:"
+  curriculum_body: >-
+    The competence goals are Utdanningsdirektoratet's, reproduced verbatim from
+    their open Grep API. They are redistributed under
+  authored_title: "Quiz questions and reading passages:"
+  authored_body: >-
+    These were written for Pensum. None of them is taken from a book, song
+    lyric, subtitle or other work. They are committed as readable text, so
+    anyone can see exactly what they are.
+  code_title: "The code:"
+  code_body: The source is open under the MIT licence.
+
+  report_heading: Reporting content
+  report_intro: >-
+    If you believe something here is yours and should not have been published,
+    we want to know. Write to
+  report_what: What it concerns — which passage, which question, which page.
+  report_where: A link to the page where you saw it.
+  report_who: Who you are, and your relationship to the work.
+  report_why: Why you believe it is yours.
+  report_response: >-
+    We take the content down while we look into it, and we reply. No forms and
+    no lawyer are needed to start.
+  # Said outright rather than implied: "DMCA" is the name people search for,
+  # not a claim about which country's law applies.
+  jurisdiction: >-
+    "DMCA" is the name most people know this process by. Pensum is a Norwegian
+    project and a request here is handled under Norwegian law — but you do not
+    need to know what the process is called in order to write to us.
+
+  audio_heading: Audio recordings
+  audio_body: >-
+    When you read aloud, the recording is processed in memory while you wait
+    for the result, and is then gone. It is not stored, not shared and not
+    linked to you. There is therefore no recording to request access to or
+    deletion of.
+
 auth:
   # Signing in is optional. No string here may imply a quiz needs an account,
   # because none of them do.

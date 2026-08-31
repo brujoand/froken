@@ -1,53 +1,60 @@
 # Reading aloud, engelsk etter 7. trinn (ENG01-06 / KV1032).
 #
-# Non-fiction and narrative at a length that tests whether fluency holds up past
-# the first paragraph. Written for Pensum.
+# Deadpan how-to and tall tale, at a length that tests whether fluency holds up
+# past the first paragraph. The joke depends on the flat delivery, so these
+# reward being read properly rather than raced through. Written for Pensum.
 ---
 subject: ENG01-06
 goal_set: KV1032
 
 texts:
-  - id: eng-kv1032-the-longest-day
+  - id: eng-kv1032-train-your-goldfish
     goal: KM13362
     language: en
-    title: The Longest Day
+    title: How to Train Your Goldfish
     difficulty: 1
     source: pensum
     reviewed: false
     body: |
-      North of the Arctic Circle, the sun does not set for weeks at a time. It
-      circles the sky instead, dipping towards the horizon around midnight and
-      then climbing again without ever going out.
-      Visitors find this harder than they expect. The body takes its cues from
-      light, and when the light never leaves, sleep becomes something you have
-      to decide on rather than something that happens to you. Most houses have
-      heavy curtains for exactly this reason.
-      The other half of the bargain arrives in December. For several weeks the
-      sun stays below the horizon altogether, and the day is a long blue
-      twilight with a few hours of something close to dawn in the middle of it.
-      People who live there will tell you that the dark is not the difficult
-      part. The difficult part is the week the light comes back, when everyone
-      is suddenly wide awake at two in the morning and nobody can quite explain
-      why.
+      Begin with realistic expectations. Your goldfish will not fetch, roll
+      over, or come when called, and any book that tells you otherwise is
+      trying to sell you something.
+      Start with the basics. Stand near the tank. Do this every day for a week.
+      Your goldfish is learning that you are a large, warm shape that arrives
+      before food, which is roughly the level of respect you should be aiming
+      for.
+      Once that is established, try the circle. Move your finger slowly around
+      the outside of the glass. Some fish will follow it. Most will not. If
+      yours does, tell people. If yours does not, tell people it does, because
+      nobody is going to sit in your kitchen for an hour to check.
+      Never punish a goldfish. Apart from being cruel, it is pointless: by the
+      time you have finished being cross, your fish has moved on emotionally
+      and you have not.
+      Finally, be patient. Training a goldfish takes months, and at the end of
+      it you will have a goldfish. This is the part most people are not ready
+      for.
 
-  - id: eng-kv1032-the-map-that-was-wrong
+  - id: eng-kv1032-school-bus-space
     goal: KM13362
     language: en
-    title: The Map That Was Wrong
+    title: The Day the School Bus Went to Space
     difficulty: 2
     source: pensum
     reviewed: false
     body: |
-      For nearly two hundred years, an island appeared on maps of the South
-      Pacific. Sailors reported it, cartographers drew it, and later maps
-      copied the earlier ones, as maps generally do.
-      The trouble was that nobody could find it again. Ships passed through the
-      position and reported open water. Still the island stayed on the charts,
-      because removing something from a map requires someone to take
-      responsibility for the gap, and copying is easier than checking.
-      It was finally deleted when a research vessel sailed directly over the
-      spot and measured more than a kilometre of water beneath the hull.
-      The story is often told as a joke about careless mapmakers. It is really
-      a story about how information survives: not because it keeps being
-      verified, but because it keeps being copied by people who assume somebody
-      else did the verifying.
+      Nobody noticed at first, because the bus is always a bit late and the
+      windows are always a bit dirty.
+      It was Kasper in the back row who said something, and what he said was
+      that the sky had gone the wrong colour. The driver told him to sit down.
+      Then the driver looked up, and did not say anything else for a while.
+      We went past the moon at about the time we normally go past the shop.
+      Somebody asked if we still had to do the geography test. The teacher said
+      yes, and everyone groaned, which felt reassuring under the
+      circumstances.
+      The bus turned round somewhere near Mars, because the driver said he was
+      not insured for that, and we were back at school by half past ten.
+      We were marked as late. The office said space is not an approved reason
+      for absence, and that a note from a parent is required, not a note from a
+      bus driver.
+      Kasper is still trying to get his geography test regraded. He argues that
+      he has now seen more of the solar system than the person who wrote it.

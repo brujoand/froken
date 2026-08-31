@@ -65,6 +65,16 @@ class Settings:
     # serving a school. Ignored entirely when no models are configured.
     speech_live: bool = True
 
+    # --- Rights and takedowns -----------------------------------------------
+    # Where a rights holder writes if they believe something here is theirs.
+    # Everything Pensum serves is either Udir's under NLOD or written for
+    # Pensum, so this address should never receive anything -- which is exactly
+    # why it has to be published: a contact that only matters when we are wrong
+    # is worthless if it appears only after we are.
+    #
+    # Configurable so a fork gets its own inbox rather than ours.
+    dmca_email: str = "dmca@brujordet.no"
+
     # --- Sign-in (pocket-id, or any OIDC provider) --------------------------
     oidc_issuer: str | None = None
     oidc_client_id: str | None = None
@@ -122,6 +132,7 @@ class Settings:
             include_unreviewed_items=_flag("PENSUM_INCLUDE_UNREVIEWED"),
             speech_model_dir=Path(speech_models) if speech_models else None,
             speech_live=_flag("PENSUM_SPEECH_LIVE", default=True),
+            dmca_email=_text("PENSUM_DMCA_EMAIL") or "dmca@brujordet.no",
             # Trailing slashes matter: the issuer is concatenated with the
             # discovery path, and `aud`/`iss` comparisons are exact.
             oidc_issuer=issuer.rstrip("/") if issuer else None,

@@ -1,55 +1,63 @@
 # Reading aloud, engelsk etter 10. trinn (ENG01-06 / KV1033).
 #
-# Adult sentence structure and abstract vocabulary, at the level the goal set
-# expects a pupil to read and pass on the content of. Written for Pensum.
+# Adult sentence structure and a formal register used for a completely absurd
+# purpose, which is where the difficulty lives: a pupil who reads these with the
+# right flatness has understood the joke, and reading them flatly is harder than
+# reading them fast. Written for Pensum.
 ---
 subject: ENG01-06
 goal_set: KV1033
 
 texts:
-  - id: eng-kv1033-the-cost-of-attention
+  - id: eng-kv1033-pencil-terms
     goal: KM13377
     language: en
-    title: The Cost of Attention
+    title: Terms and Conditions for Borrowing My Pencil
     difficulty: 1
     source: pensum
     reviewed: false
     body: |
-      Anything given away for free is paid for somewhere, and in the case of
-      most of what we read on a screen, the payment is attention. That is not a
-      metaphor. Attention is finite, it can be measured, and there is an
-      industry whose entire business is buying and selling it in bulk.
-      What makes this awkward is that the product being optimised is not the
-      article, the video or the conversation. It is the length of time you stay.
-      A system rewarded for holding attention will, given enough iterations,
-      discover that outrage holds it better than agreement and that certainty
-      holds it better than doubt. No one has to intend this for it to happen;
-      it is simply what the measurement selects for.
-      The usual response is to blame the people who keep scrolling, which is
-      both easy and beside the point. A more useful question is what a system
-      would look like if it were rewarded for something else entirely: for
-      whether you were glad, an hour later, that you had spent the time.
+      By accepting this pencil, you agree to the following terms. These terms
+      may be updated at any time, and you will not be told when.
+      The pencil remains my property throughout the loan period. The loan
+      period ends at the end of this lesson, or at the moment I ask for it
+      back, whichever is sooner and more inconvenient for you.
+      You may write with the pencil. You may not chew the pencil, lend the
+      pencil onwards to a third party, or use the pencil to conduct any
+      activity involving your ear. This has come up before.
+      Reasonable wear is accepted. Reasonable wear does not include the
+      complete removal of the rubber, which happened last time and which we
+      have both agreed not to discuss further.
+      In the event that the pencil is lost, you agree to replace it with a
+      pencil of equal or greater quality. A pencil you found on the floor is
+      not of equal quality, regardless of how similar it looks, and I will
+      know.
+      Continued use of the pencil constitutes acceptance of these terms. If you
+      do not agree to them, you may return the pencil now and write with your
+      finger, which is what you were doing before I got involved.
 
-  - id: eng-kv1033-a-borrowed-word
+  - id: eng-kv1033-monster-interview
     goal: KM13377
     language: en
-    title: A Borrowed Word
+    title: An Interview with the Monster Under the Bed
     difficulty: 2
     source: pensum
     reviewed: false
     body: |
-      English has never been shy about taking words from other languages, and
-      Norwegian is among the languages it has taken from. The everyday verbs
-      that arrived with Norse settlers a thousand years ago are so thoroughly
-      naturalised that no one hears them as foreign: take, give, get, want,
-      call, knife, sky, egg, window.
-      Borrowing on this scale is unusual. Languages more often take nouns for
-      things they did not previously have, which is why words for food, music
-      and technology travel so easily. Basic verbs and pronouns are supposed to
-      be resistant, which tells us something about how close the contact must
-      have been.
-      Traffic now runs mainly the other way. Norwegian teenagers use English
-      words their grandparents did not have, and language councils publish
-      alternatives that are sometimes adopted and more often quietly ignored.
-      Whether this represents loss or ordinary change is a question people
-      answer largely according to what they already believed about the matter.
+      He asked me not to use his real name, which is fair enough, and to
+      mention that he has been doing this for thirty-one years.
+      The first thing he wants people to understand is that it is a job. He
+      does not choose the houses. He is assigned them, the same way a postman
+      is assigned a route, and he says the paperwork is worse than anyone
+      imagines.
+      The second thing is that the growling is misunderstood. It is not a
+      threat, he says; it is closer to clearing your throat before you speak,
+      and he has been trying to get the guidance updated for years.
+      I asked him about the children. He went quiet for a moment. He said the
+      difficult part is not frightening them, which is easy and which he is
+      good at, but that they grow out of it. One year you are the most
+      important thing in the room, and the next the bed is gone and there is a
+      desk there, and nobody has told you anything.
+      He asked whether I still checked under mine. I said no.
+      He said that was fine, and that he had not expected me to, and then he
+      asked, quite carefully, whether I would mind checking tonight anyway.

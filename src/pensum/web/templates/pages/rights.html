@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block title %}{{ t("rights.heading") }}{% endblock %}
+
+{% block content %}
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="/{{ locale }}/">{{ t("nav.home") }}</a>
+  </nav>
+
+  <h1>{{ t("rights.heading") }}</h1>
+  <p>{{ t("rights.intro") }}</p>
+
+  <section>
+    <h2>{{ t("rights.what_heading") }}</h2>
+    {# Three different things with three different owners, and conflating them
+       is how a takedown request ends up aimed at the wrong one. #}
+    <ul class="rights-list">
+      <li>
+        <strong>{{ t("rights.curriculum_title") }}</strong>
+        {{ t("rights.curriculum_body") }}
+        <a href="https://data.norge.no/nlod/no">NLOD</a>.
+      </li>
+      <li>
+        <strong>{{ t("rights.authored_title") }}</strong>
+        {{ t("rights.authored_body") }}
+      </li>
+      <li>
+        <strong>{{ t("rights.code_title") }}</strong>
+        {{ t("rights.code_body") }}
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>{{ t("rights.report_heading") }}</h2>
+    <p>{{ t("rights.report_intro") }}</p>
+    <p class="rights-contact">
+      <a href="mailto:{{ dmca_email }}">{{ dmca_email }}</a>
+    </p>
+    <ol>
+      <li>{{ t("rights.report_what") }}</li>
+      <li>{{ t("rights.report_where") }}</li>
+      <li>{{ t("rights.report_who") }}</li>
+      <li>{{ t("rights.report_why") }}</li>
+    </ol>
+    <p>{{ t("rights.report_response") }}</p>
+    {# Said plainly rather than left to be inferred: "DMCA" is the name people
+       search for, not a claim about which law applies to a Norwegian project. #}
+    <p class="note">{{ t("rights.jurisdiction") }}</p>
+  </section>
+
+  <section>
+    <h2>{{ t("rights.audio_heading") }}</h2>
+    <p>{{ t("rights.audio_body") }}</p>
+  </section>
+{% endblock %}

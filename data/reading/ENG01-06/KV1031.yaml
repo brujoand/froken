@@ -2,42 +2,44 @@
 #
 # Longer sentences, and a few words a pupil has to work out from context — the
 # goal itself asks for both familiar and unfamiliar word forms. Written for
-# Pensum.
+# Pensum, and written to be read out loud with a straight face.
 ---
 subject: ENG01-06
 goal_set: KV1031
 
 texts:
-  - id: eng-kv1031-the-lost-mitten
+  - id: eng-kv1031-sock-monster
     goal: KM13347
     language: en
-    title: The Lost Mitten
+    title: The Sock Monster
     difficulty: 1
     source: pensum
     reviewed: false
     body: |
-      On Monday I lost one of my mittens. It was the blue one with the white
-      star on it.
-      I looked in my bag. I looked under my desk. I even looked in the box of
-      lost things by the door, but it was not there.
-      On Friday my teacher held up a blue mitten and asked whose it was. I put
-      my hand up so fast that my chair fell over.
-      The mitten had been in the schoolyard all week, hanging on the fence,
-      where somebody had put it so I would find it.
+      There is a monster under my bed, and all it eats is socks.
+      It never takes a pair. It only ever takes one, which I think is the
+      rudest part of the whole thing.
+      I have tried leaving it a whole clean pair as a gift. In the morning
+      there was one sock left, and a small note that said: no thank you, I
+      only like the lonely ones.
+      My mother says the socks are in the washing machine. I have looked in
+      the washing machine. There is nothing in there but water and lies.
 
-  - id: eng-kv1031-the-night-bus
+  - id: eng-kv1031-grandpa-robot
     goal: KM13347
     language: en
-    title: The Night Bus
+    title: Grandpa's Terrible Robot
     difficulty: 2
     source: pensum
     reviewed: false
     body: |
-      The last bus leaves the town at half past ten. It is almost always empty.
-      The driver knows the road so well that he could probably drive it with
-      his eyes closed, though of course he does not.
-      In winter the windows turn white with frost, and you have to rub a small
-      hole with your sleeve if you want to see anything at all.
-      My grandmother took that bus home from work for thirty years. She says
-      the best part was the last hill, when the lights of the houses came into
-      view all at once, and she knew that supper was waiting.
+      My grandpa built a robot in his garage. It took him two years, and it can
+      do one thing.
+      It can pass the salt.
+      It cannot pass the pepper. We asked. Grandpa says that would be a
+      completely different machine.
+      The robot is the size of a fridge and it makes a sound like a tractor
+      falling down some stairs, but if you sit at the table and say "salt,
+      please", it will hand you the salt in under nine seconds.
+      Grandma says it was a waste of two years. Grandpa says she has not passed
+      the salt once since it was finished, so who is really winning here.

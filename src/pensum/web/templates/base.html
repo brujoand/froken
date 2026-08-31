@@ -63,7 +63,10 @@
       <p class="attribution">
         {{ t("curriculum.attribution") }}
         <a href="https://data.udir.no">data.udir.no</a> ·
-        <a href="https://data.norge.no/nlod/no">NLOD</a>
+        <a href="https://data.norge.no/nlod/no">NLOD</a> ·
+        {# On every page, not only on the one that quotes something. A takedown
+           contact nobody can find is not a contact. #}
+        <a href="/{{ locale }}/rettigheter">{{ t("rights.link") }}</a>
       </p>
     </footer>
 
