@@ -40,6 +40,25 @@ MIN_WORDS_READ = 10
 # later in the passage cannot yank the cursor forwards.
 LOOKAHEAD = 40
 
+# Two ways for a difference to count as pronunciation rather than as the wrong
+# word. Almost all of it in Norwegian is the ending -- boka/boken, trappa/
+# trappen, sitter/sitte -- so the main rule is a shared beginning: same stem,
+# different tail. The ratio is the second path, for the rarer case of a vowel
+# going astray in the middle of a long word.
+MIN_SHARED_PREFIX = 3
+PREFIX_SHARE = 0.6
+MAX_LENGTH_DIFFERENCE = 3
+CLOSE_ENOUGH = 0.85
+
+# Below this length, only an exact match counts. Short words are where a real
+# substitution lives -- "og" for "om", "hus" for "his" -- and a ratio test on
+# three letters cannot tell that from an accent.
+FUZZY_MIN_LENGTH = 4
+
+# A recogniser that hallucinates can return far more words than the passage has.
+# Aligning against all of them is quadratic work for no gain.
+MAX_HEARD_MULTIPLE = 4
+
 # Where a reading sits relative to the band for its checkpoint. Deliberately not
 # an enum of grades: these are positions, and none of them is a pass or a fail.
 Verdict = str
@@ -76,6 +95,11 @@ class ReadWord:
     # When it was heard, for the replay. None for a word that was not heard, and
     # for every word when the recogniser reported no timings.
     at: float | None = None
+    # Counted as read, but not word-for-word what the recogniser wrote down.
+    # Pronunciation, dialect, or the recogniser guessing an ending. Tracked so
+    # the page can be honest that the match was approximate without treating it
+    # as a mistake.
+    close: bool = False
 
 
 @dataclass(frozen=True)
@@ -105,8 +129,18 @@ class Fluency:
 
     @property
     def misread(self) -> tuple[str, ...]:
-        """The words that were reached but not heard correctly."""
+        """The words that were reached and were not the word on the page.
+
+        A near-miss is not in here. Saying "trappen" for "trappa" is
+        pronunciation; the exercise is checking that the passage was read, and
+        at what pace, not that every vowel matched a recogniser's expectation.
+        """
         return tuple(w.text for w in self.words if w.reached and not w.correct)
+
+    @property
+    def close_count(self) -> int:
+        """Words counted as read on a near match rather than an exact one."""
+        return sum(1 for w in self.words if w.close)
 
     @property
     def timed(self) -> bool:
@@ -119,21 +153,83 @@ def heard_from_text(transcript: str) -> tuple[HeardWord, ...]:
     return tuple(HeardWord(text=word) for word in words(transcript))
 
 
-def _matched_pairs(reference: list[str], spoken: Sequence[HeardWord]) -> dict[int, int]:
-    """Map each matched reference index to the spoken index that matched it.
+def close_enough(printed: str, said: str) -> bool:
+    """Whether a difference is pronunciation rather than a different word.
 
-    Alignment is a plain longest-common-subsequence over case-folded words, so a
-    repeated word, a self-correction or a stumble costs one word rather than
-    derailing everything after it. That is deliberate: children re-read a word
-    they trip on constantly, and a scorer that punishes it would report a fluent
-    reader as a failing one.
+    This is the line the whole score turns on. A reading exercise is checking
+    that the pupil read *this text*, at what pace -- not that they said every
+    word the way a recogniser from somewhere else expects. Norwegian gives
+    endless legitimate variation (boka/boken, trappa/trappen, dialect vowels),
+    and a recogniser trained on adult speech invents more of it. Counting all of
+    that as errors would mark down exactly the children who are reading fine.
+
+    So near-misses of the same word pass, and genuinely different words do not.
     """
-    heard = [word.text for word in spoken]
+    if printed == said:
+        return True
+    shortest = min(len(printed), len(said))
+    if shortest < FUZZY_MIN_LENGTH or abs(len(printed) - len(said)) > MAX_LENGTH_DIFFERENCE:
+        return False
+
+    shared = 0
+    for left, right in zip(printed, said, strict=False):
+        if left != right:
+            break
+        shared += 1
+    if shared >= MIN_SHARED_PREFIX and shared >= PREFIX_SHARE * shortest:
+        return True
+
+    # No shared stem, so this is only pronunciation if the two words are very
+    # nearly the same throughout. "hest" and "høst" are not; "sjokolade" and
+    # "sjokelade" are.
+    return SequenceMatcher(None, printed, said).ratio() >= CLOSE_ENOUGH
+
+
+def _align(reference: list[str], heard: list[str]) -> tuple[dict[int, int], set[int]]:
+    """Longest common subsequence under `close_enough`, and which pairs were exact.
+
+    A plain `SequenceMatcher` cannot do this: it needs hashable equality, and
+    "near enough" is not an equivalence relation. The passage is a few hundred
+    words, so the textbook quadratic table is entirely affordable and much
+    easier to reason about than anything cleverer.
+
+    Being a subsequence match is what makes a stumble cheap: a repeated word or
+    a self-correction costs one word rather than derailing everything after it.
+    Children re-read a word they trip on constantly, and a scorer that punished
+    it would report a fluent reader as a failing one.
+    """
+    heard = heard[: max(len(reference) * MAX_HEARD_MULTIPLE, LOOKAHEAD)]
+    rows, columns = len(reference), len(heard)
+    if not rows or not columns:
+        return {}, set()
+
+    table = [[0] * (columns + 1) for _ in range(rows + 1)]
+    for i in range(rows - 1, -1, -1):
+        for j in range(columns - 1, -1, -1):
+            if close_enough(reference[i], heard[j]):
+                table[i][j] = table[i + 1][j + 1] + 1
+            else:
+                table[i][j] = max(table[i + 1][j], table[i][j + 1])
+
     pairs: dict[int, int] = {}
-    for block in SequenceMatcher(None, reference, heard, autojunk=False).get_matching_blocks():
-        for offset in range(block.size):
-            pairs[block.a + offset] = block.b + offset
-    return pairs
+    exact: set[int] = set()
+    i = j = 0
+    while i < rows and j < columns:
+        if close_enough(reference[i], heard[j]):
+            pairs[i] = j
+            if reference[i] == heard[j]:
+                exact.add(i)
+            i += 1
+            j += 1
+        elif table[i + 1][j] >= table[i][j + 1]:
+            i += 1
+        else:
+            j += 1
+    return pairs, exact
+
+
+def _matched_pairs(reference: list[str], spoken: Sequence[HeardWord]) -> dict[int, int]:
+    return _align(reference, [word.text for word in spoken])[0]
 
 
 def measure(text: ReadingText, spoken: Sequence[HeardWord] | str, seconds: float) -> Fluency:
@@ -147,7 +243,7 @@ def measure(text: ReadingText, spoken: Sequence[HeardWord] | str, seconds: float
 
     reference = text.word_list
     total = len(reference)
-    pairs = _matched_pairs(reference, spoken)
+    pairs, exact = _align(reference, [word.text for word in spoken])
 
     # Where they stopped: one past the last word actually heard. Everything
     # after it is unread, not wrong -- a child who runs out of time on a long
@@ -160,6 +256,7 @@ def measure(text: ReadingText, spoken: Sequence[HeardWord] | str, seconds: float
             correct=index in pairs,
             reached=index < attempted,
             at=spoken[pairs[index]].at if index in pairs else None,
+            close=index in pairs and index not in exact,
         )
         for index, word in enumerate(reference)
     )

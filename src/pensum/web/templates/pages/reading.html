@@ -28,6 +28,10 @@
     id="reading"
     data-checked="{{ 'true' if checked else 'false' }}"
     data-live="{{ 'true' if live else 'false' }}"
+    data-device="{{ 'true' if device_allowed else 'false' }}"
+    data-speech-locale="{{ speech_locale }}"
+    data-label-device-local="{{ t('reading.device_local') }}"
+    data-label-device-cloud="{{ t('reading.device_cloud') }}"
     data-text-id="{{ text.id }}"
     data-words="{{ text.word_count }}"
     data-base-url="/{{ locale }}/klasse/{{ grade }}/{{ subject.code }}/lesing/{{ text.id }}"
@@ -74,6 +78,18 @@
         </button>
         <span class="reading-meta">{{ t("reading.word_count", count=text.word_count) }}</span>
       </div>
+
+      {# Which recogniser is about to listen, in words, before it does. Filled
+         in by the page, because only the browser can tell an on-device
+         recogniser from one that posts a child's voice to its vendor. The
+         opt-in below appears only in the second case, and starts unchecked. #}
+      <p class="reading-engine" id="reading-engine" hidden></p>
+      <p class="reading-consent" id="reading-consent" hidden>
+        <label>
+          <input type="checkbox" id="reading-consent-box" />
+          <span id="reading-consent-text"></span>
+        </label>
+      </p>
 
       <div id="reading-result" aria-live="polite"></div>
     </div>

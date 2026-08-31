@@ -181,10 +181,27 @@ reading:
   previous_best: "Rekorden din på denne teksten er {best}."
   streak: "{days} dager på rad."
 
+  # Sies før mikrofonen slås på. Hvilken gjenkjenner som lytter, er ikke en
+  # detalj: den ene sender ingenting noe sted, den andre sender stemmen til
+  # nettleserleverandøren.
+  device_local: >-
+    Enheten din kjenner igjen lesingen selv. Lyden forlater ikke telefonen eller
+    maskinen din, og Pensum får bare teksten.
+  device_cloud: >-
+    Bruk nettleserens egen talegjenkjenning. På denne nettleseren kan stemmen
+    din bli sendt til den som har laget nettleseren, ikke bare til Pensum. Du
+    velger selv.
+
+  # Uttale teller ikke. Å lese feil ord gjør det.
+  close_matches: >-
+    {count} ord ble godkjent selv om maskinen hørte dem litt annerledes. Uttale
+    og dialekt teller ikke som feil.
+
   misread_heading: Ord som ikke ble hørt
   misread_note: >-
-    Maskinen hører ikke alltid riktig, særlig ikke barnestemmer og dialekt. Står
-    et ord her, kan det like gjerne være maskinen som tok feil som deg.
+    Her står bare ord maskinen mente var et annet ord — ikke ord du uttalte litt
+    annerledes. Maskinen hører likevel dårlig på barnestemmer og dialekt, så
+    står et ord her, kan det fortsatt være maskinen som tok feil.
   not_a_verdict: >-
     Dette er en øving, ikke en vurdering. Lesefart varierer mye mellom barn som
     alle leser godt, og et tall her sier ingenting om hvem som er en god leser.
