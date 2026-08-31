@@ -10,6 +10,10 @@
   --accent: #1f5c8b;
   --accent-soft: #eaf1f7;
   --quote: #f3f1ec;
+  /* For the reading exercise only, and deliberately not red: a word the
+     recogniser did not catch is a remark, not a mark. */
+  --warn: #a8632a;
+  --warn-soft: #f6ede4;
   --radius: 10px;
   --measure: 38rem;
 }
@@ -675,16 +679,26 @@ a {
     color 160ms ease-out;
 }
 
+/* Background and colour only. Weight, size, spacing and borders all change how
+   much room a word takes, and a word that changes width as it lights up shoves
+   the rest of the line -- so the text moves under the reader exactly when they
+   are trying to follow it. */
 .reading-text .w.lit {
   background: var(--accent-soft);
   color: var(--accent);
-  font-weight: 600;
 }
 
-/* Reached but not heard. Underlined rather than reddened: the recogniser is
-   wrong often enough that this must read as "not picked up", not as an error. */
+/* Reached, but not what was heard. Underlined rather than reddened: the
+   recogniser is wrong often enough that this must read as "not picked up", not
+   as an error -- and it is shown while reading, not only in the replay, because
+   a child cannot correct something they are not told about until the end.
+
+   Underline and background only, for the same reason .lit changes neither
+   weight nor spacing: this must not move the line it sits on. */
 .reading-text .w.missed {
-  text-decoration: underline dotted;
+  background: var(--warn-soft);
+  text-decoration: underline dotted var(--warn);
+  text-decoration-thickness: 2px;
   text-underline-offset: 0.25em;
 }
 

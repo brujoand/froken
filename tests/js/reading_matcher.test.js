@@ -55,6 +55,7 @@ for (const name of [
 
 let cursor = 0;
 let consumed = 0;
+let status = [];
 let reference = [];
 function lightTo() {}
 
@@ -92,6 +93,7 @@ const PASSAGE = (
 function reset() {
   cursor = 0;
   consumed = 0;
+  status = [];
   reference = PASSAGE;
 }
 
@@ -142,21 +144,50 @@ check(
 /* --- the lookahead rule itself ------------------------------------------ */
 
 /* A short common word must not reach across the passage to a later copy of
- * itself. "og" appears at 13 and again at 30; from a cursor of 0 neither is
- * within NEAR, so it must move nothing. */
+ * itself. "og" appears well beyond NEAR, so hearing it at the start must not
+ * jump the highlight there -- it counts as one word of progress, wrongly read,
+ * and nothing more. */
 reset();
 hear(["og"]);
-check(`a common short word reaches no further than ${NEAR}`, cursor, 0);
+check(`a common short word reaches no further than ${NEAR}`, cursor, 1);
+check("...and is recorded as misread rather than as a jump", status[0], "misread");
 
 /* A distinctive one may, because hearing it really is evidence of position. */
 reset();
 hear(["stovsuger"]);
 check(`a distinctive word reaches up to ${FAR}`, cursor, PASSAGE.indexOf("stovsuger") + 1);
 
-/* ...but not past the far limit. "avisa" sits beyond it. */
+/* ...but not past the far limit. A word sitting beyond it moves progress by
+ * one, like any word the passage does not account for here. */
 reset();
-hear(["avisa"]);
-check(`nothing reaches past ${FAR}`, cursor, PASSAGE.indexOf("avisa") < FAR ? PASSAGE.indexOf("avisa") + 1 : 0);
+const beyond = PASSAGE.findIndex((w, i) => i >= FAR && w.length >= DISTINCTIVE);
+hear([PASSAGE[beyond]]);
+check(`nothing reaches past ${FAR}`, cursor, 1);
+
+/* --- progress and correctness are two questions -------------------------- */
+
+/* The reported failure: the highlight fell behind and never caught up, because
+ * a word the recogniser got wrong stopped the cursor dead. Progress must track
+ * how much was said, whether or not it was said correctly. */
+reset();
+hear(["blablabla", "blablabla", "blablabla", "blablabla", "blablabla"]);
+check("progress keeps up even when nothing is recognised", cursor, 5);
+check("...and every one of them is marked misread", status.slice(0, 5).join(), "misread,misread,misread,misread,misread");
+
+/* One bad word in the middle must not cost the words after it. */
+reset();
+const withOneWrong = PASSAGE.slice(0, 5);
+withOneWrong[2] = "blablabla";
+hear(withOneWrong);
+check("a misheard word does not stall the rest", cursor, 5);
+check("...the bad one is marked misread", status[2], "misread");
+check("...and the one after it is not", status[3], "read");
+
+/* Skipping ahead marks what was passed, rather than silently lighting it. */
+reset();
+hear([PASSAGE[0], PASSAGE[7]]);
+check("a skipped-to word marks what was stepped over", status[3], "misread");
+check("...and the word actually read is not", status[7], "read");
 
 /* --- what counts as the same word --------------------------------------- */
 
