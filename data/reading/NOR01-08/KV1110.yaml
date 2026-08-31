@@ -15,7 +15,8 @@ texts:
     title: Klagebrev fra en drage
     difficulty: 1
     source: pensum
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-08-31'
     body: |
       Til kommunen. Jeg viser til vedtak av 14. mars om reguleringen av
       fjellsiden ovenfor bygda, og ønsker med dette å påklage det i sin helhet.
@@ -41,7 +42,8 @@ texts:
     title: Bruksanvisning for å være usynlig
     difficulty: 2
     source: pensum
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-08-31'
     body: |
       Les hele bruksanvisningen før du tar produktet i bruk. Produsenten
       fraskriver seg ethvert ansvar for skader som oppstår fordi brukeren ble

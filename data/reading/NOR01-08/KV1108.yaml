@@ -14,7 +14,8 @@ texts:
     title: Elgen i svømmehallen
     difficulty: 1
     source: pensum
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-08-31'
     body: |
       På tirsdag kom det en elg inn i svømmehallen. Ingen vet helt hvordan den
       kom seg forbi resepsjonen, men vakten sier at den så veldig bestemt ut,
@@ -35,7 +36,8 @@ texts:
     title: Dagen rektor sa ja til alt
     difficulty: 2
     source: pensum
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-08-31'
     body: |
       En fredag i mars bestemte rektor seg for å si ja til alt. Hun hadde lest
       i en bok at man skulle prøve nye ting, og så gjorde hun det.

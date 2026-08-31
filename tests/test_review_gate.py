@@ -8,6 +8,12 @@ be readable in place before anyone can judge whether it is fit.
 The assertions that matter here are the negative ones. Every other test in this
 suite fails loudly when something stops working; these fail loudly when
 something starts working for the wrong person.
+
+The draft is a fixture, deliberately, and not a passage from `data/reading/`.
+Reviewing content is the normal end of its life, so a gate test anchored to
+committed drafts breaks on the day someone does the reviewing -- which is the
+one day you least want a red suite and the least useful thing for it to be
+telling you.
 """
 
 from __future__ import annotations
@@ -22,6 +28,7 @@ from pensum.catalogue.loader import Catalogue
 from pensum.config import Settings
 from pensum.items.loader import ItemBank
 from pensum.reading.library import ReadingLibrary
+from pensum.reading.schema import ReadingSet, ReadingText
 from pensum.web.app import create_app
 
 ORIGIN = "https://pensum.example.com"
@@ -30,11 +37,45 @@ SECRET = "test-secret"
 ADMIN = User(sub="u-admin", name="Voksen", groups=("pensum-admins",))
 PUPIL = User(sub="u-1", name="Ola", groups=("pupils",))
 
-# Norsk after 2. trinn. Every reading passage committed is unreviewed, which
-# makes this the sharpest fixture available: a pupil must see no reading at all
-# here, and an administrator must see the drafts.
-READING_PATH = "/nb/klasse/2/NOR01-08/lesing"
-SUBJECT_PATH = "/nb/klasse/2/NOR01-08"
+# Norsk after 2. trinn, a real checkpoint, so the subject page renders the way
+# it really does. What is fake is only the passage hanging off it.
+SUBJECT = "NOR01-08"
+GOAL_SET = "KV1107"
+GOAL = "KM14140"
+READING_PATH = f"/nb/klasse/2/{SUBJECT}/lesing"
+SUBJECT_PATH = f"/nb/klasse/2/{SUBJECT}"
+
+DRAFT_ID = "utkast-stovsugerkatten"
+DRAFT_TITLE = "Katten som trodde den var en støvsuger"
+
+
+def draft() -> ReadingSet:
+    """One checkpoint whose only passage is unreviewed.
+
+    Only, because the sharpest form of the negative assertion is that the
+    listing 404s outright: a pupil is not shown a thinned-out page, they are
+    shown no page.
+    """
+    return ReadingSet(
+        subject=SUBJECT,
+        goal_set=GOAL_SET,
+        texts=[
+            ReadingText(
+                id=DRAFT_ID,
+                goal=GOAL,
+                language="nb",
+                title=DRAFT_TITLE,
+                body=(
+                    "Katten min tror at den er en støvsuger.\n"
+                    "Den går rundt i stua og suger opp alt den finner.\n"
+                    "I går spiste den en sokk, en blyant og halve avisa.\n"
+                ),
+                difficulty=1,
+                source="pensum",
+                reviewed=False,
+            )
+        ],
+    )
 
 
 def settings_with(**overrides: object) -> Settings:
@@ -50,11 +91,14 @@ def settings_with(**overrides: object) -> Settings:
 
 
 def build(settings: Settings | None = None) -> tuple[FastAPI, TestClient]:
+    # Real norms, because the bands are not what is under test here and a
+    # passage with no band renders differently.
+    library = ReadingLibrary([draft()], ReadingLibrary.load().norms)
     app = create_app(
         Catalogue.load(),
         ItemBank.load(),
         settings=settings if settings is not None else settings_with(),
-        reading=ReadingLibrary.load(),
+        reading=library,
     )
     return app, TestClient(app, base_url=ORIGIN)
 
@@ -96,15 +140,11 @@ def test_an_unconfigured_instance_has_no_administrators() -> None:
 
 def test_a_draft_is_never_reachable_by_guessing_its_url() -> None:
     """The listing is hidden from a pupil; so is the passage behind it."""
-    library = ReadingLibrary.load(include_unreviewed=True)
-    passage = library.for_goal_set("KV1107")[0]
     _, client = build()
     sign_in(client, PUPIL)
 
-    assert client.get(f"{READING_PATH}/{passage.id}").status_code == 404
-    assert (
-        client.post(f"{READING_PATH}/{passage.id}/tid", data={"seconds": "30"}).status_code == 404
-    )
+    assert client.get(f"{READING_PATH}/{DRAFT_ID}").status_code == 404
+    assert client.post(f"{READING_PATH}/{DRAFT_ID}/tid", data={"seconds": "30"}).status_code == 404
 
 
 # --- the positive case -----------------------------------------------------
@@ -117,20 +157,18 @@ def test_an_administrator_sees_the_drafts_and_that_they_are_drafts() -> None:
     listing = client.get(READING_PATH)
 
     assert listing.status_code == 200
-    assert "Sokken som rømte" in listing.text
+    assert DRAFT_TITLE in listing.text
     # Marked, not silently mixed in: an unmarked draft would be judged as if it
     # had already passed review.
     assert "Utkast" in listing.text
 
 
 def test_an_administrator_can_read_a_draft_passage_through() -> None:
-    library = ReadingLibrary.load(include_unreviewed=True)
-    passage = library.for_goal_set("KV1107")[0]
     _, client = build()
     sign_in(client, ADMIN)
 
-    page = client.get(f"{READING_PATH}/{passage.id}")
-    scored = client.post(f"{READING_PATH}/{passage.id}/tid", data={"seconds": "45"})
+    page = client.get(f"{READING_PATH}/{DRAFT_ID}")
+    scored = client.post(f"{READING_PATH}/{DRAFT_ID}/tid", data={"seconds": "45"})
 
     assert page.status_code == 200
     assert scored.status_code == 200
@@ -167,3 +205,21 @@ def test_reviewed_content_is_visible_to_everyone(user: User | None) -> None:
         sign_in(client, user)
 
     assert "Ta quizen" in client.get("/nb/klasse/2/MAT01-06").text
+
+
+def test_the_committed_passages_reach_a_pupil() -> None:
+    """The other half, against the real `data/reading/`.
+
+    Every test above runs on a fixture, which would keep passing if the whole
+    committed library were withheld. This one fails if it were: an anonymous
+    child asks for norsk after 2. trinn and gets a passage to read.
+    """
+    app = create_app(
+        Catalogue.load(), ItemBank.load(), settings=settings_with(), reading=ReadingLibrary.load()
+    )
+    client = TestClient(app, base_url=ORIGIN)
+
+    listing = client.get(READING_PATH)
+
+    assert listing.status_code == 200
+    assert "Utkast" not in listing.text

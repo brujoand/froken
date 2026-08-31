@@ -15,7 +15,8 @@ texts:
     title: Kua som ble ordfører
     difficulty: 1
     source: pensum
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-08-31'
     body: |
       Ingen hadde egentlig tenkt at kua skulle vinne valget. Hun sto på lista
       som en spøk, langt nede, mellom en pensjonert bussjåfør og en mann som
@@ -39,7 +40,8 @@ texts:
     title: Verdens dårligste superhelt
     difficulty: 2
     source: pensum
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-08-31'
     body: |
       Kaptein Kanskje har én superkraft, og det er å vite hva klokka er. Alltid.
       Nøyaktig. Uten å se.

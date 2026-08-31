@@ -16,7 +16,8 @@ texts:
     title: Sokken som rømte
     difficulty: 1
     source: pensum
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-08-31'
     body: |
       Jeg har mistet en sokk igjen.
       Det er den femte denne uka.
@@ -34,7 +35,8 @@ texts:
     title: Bestemor går på ski i stua
     difficulty: 2
     source: pensum
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-08-31'
     body: |
       Bestemor har tatt på seg ski.
       Hun har ikke gått ut. Hun står i stua.
