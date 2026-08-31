@@ -443,14 +443,38 @@
     return 1 - previous[columns] / Math.max(rows, columns, 1);
   }
 
-  /* Reading "trappen" for "trappa" is pronunciation, not the wrong word. Reading
-   * "hest" for "hus" is. Short words are held to an exact match, because that is
-   * where a real substitution hides. */
+  /* The same rule as fluency.close_enough server-side, and for the same reason:
+   * Norwegian offers endless legitimate variation in endings (boka/boken,
+   * trappa/trappen), and counting it as errors marks down exactly the children
+   * who are reading fine. A flat similarity threshold cannot express this --
+   * "trappa" and "trappen" score 0.71 here, below any threshold that still
+   * rejects real substitutions -- so a shared stem is what carries it. */
+  var MIN_SHARED_PREFIX = 3;
+  var PREFIX_SHARE = 0.6;
+  var MAX_LENGTH_DIFFERENCE = 3;
+  var CLOSE_ENOUGH = 0.85;
+  /* Short words are held to an exact match: that is where a real substitution
+   * hides, and there is not enough word left to tell the two apart. */
+  var FUZZY_MIN_LENGTH = 4;
+
+  /* Reading "trappen" for "trappa" is pronunciation, not the wrong word.
+   * Reading "hest" for "hus" is. The accepted cost of the stem rule is that
+   * "store" and "storm" pass as the same word; the server makes the same trade
+   * deliberately, and the two must agree or the highlight contradicts the
+   * score. */
   function closeEnough(printed, said) {
     if (printed === said) return true;
-    if (Math.abs(printed.length - said.length) > 2) return false;
-    if (Math.min(printed.length, said.length) < 4) return false;
-    return similarity(printed, said) >= 0.8;
+    var shortest = Math.min(printed.length, said.length);
+    if (shortest < FUZZY_MIN_LENGTH) return false;
+    if (Math.abs(printed.length - said.length) > MAX_LENGTH_DIFFERENCE) return false;
+
+    var shared = 0;
+    while (shared < shortest && printed.charAt(shared) === said.charAt(shared)) shared++;
+    if (shared >= MIN_SHARED_PREFIX && shared >= PREFIX_SHARE * shortest) return true;
+
+    /* No shared stem, so this is only pronunciation if the two are very nearly
+     * the same throughout. */
+    return similarity(printed, said) >= CLOSE_ENOUGH;
   }
 
   /* An ordinary skip: the child ran two words together, or the recogniser
