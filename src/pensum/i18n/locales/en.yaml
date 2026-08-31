@@ -174,10 +174,26 @@ reading:
   previous_best: "Your best on this passage is {best}."
   streak: "{days} days in a row."
 
+  # Said before the microphone is switched on. Which recogniser is listening is
+  # not a detail: one sends nothing anywhere, the other sends the voice to the
+  # browser's maker.
+  device_local: >-
+    Your device recognises the reading itself. The audio does not leave your
+    phone or computer, and Pensum only ever sees the text.
+  device_cloud: >-
+    Use your browser's own speech recognition. On this browser your voice may be
+    sent to whoever made the browser, not only to Pensum. Your choice.
+
+  # Pronunciation does not count. Reading the wrong word does.
+  close_matches: >-
+    {count} words were accepted even though the machine heard them a little
+    differently. Pronunciation and dialect do not count as mistakes.
+
   misread_heading: Words that were not heard
   misread_note: >-
-    The machine mishears people, children and accents most of all. A word listed
-    here may be the machine's mistake rather than yours.
+    Only words the machine thought were a different word appear here — not words
+    you pronounced a little differently. It still mishears children and accents
+    more than anyone else, so a word here may be its mistake rather than yours.
   not_a_verdict: >-
     This is practice, not assessment. Reading speed varies enormously between
     children who all read well, and a number here says nothing about who is a

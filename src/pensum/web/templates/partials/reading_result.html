@@ -60,6 +60,11 @@
         {{ t("reading.accuracy", percentage=(fluency.accuracy * 100) | round | int,
               correct=fluency.correct, attempted=fluency.attempted) }}
       </p>
+      {% if fluency.close_count %}
+        {# Said next to the accuracy, so a pupil can see that their dialect was
+           not what cost them the percentage. #}
+        <p class="note">{{ t("reading.close_matches", count=fluency.close_count) }}</p>
+      {% endif %}
       {% if not fluency.finished %}
         {# Stopping early is ordinary, and is not a mistake. The count says how
            far they got so the pace is read against that and not the whole text. #}

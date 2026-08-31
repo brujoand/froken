@@ -65,6 +65,14 @@ class Settings:
     # serving a school. Ignored entirely when no models are configured.
     speech_live: bool = True
 
+    # Whether the page may offer the browser's own speech recogniser. On when
+    # available, because on a phone it is usually better at children than the
+    # server models are and -- where the browser can do it on-device -- more
+    # private than posting the audio here. The page refuses to use a cloud
+    # recogniser without an explicit opt-in; this switch turns the whole offer
+    # off for a deployment that would rather not have the conversation.
+    device_speech: bool = True
+
     # --- Rights and takedowns -----------------------------------------------
     # Where a rights holder writes if they believe something here is theirs.
     # Everything Pensum serves is either Udir's under NLOD or written for
@@ -132,6 +140,7 @@ class Settings:
             include_unreviewed_items=_flag("PENSUM_INCLUDE_UNREVIEWED"),
             speech_model_dir=Path(speech_models) if speech_models else None,
             speech_live=_flag("PENSUM_SPEECH_LIVE", default=True),
+            device_speech=_flag("PENSUM_DEVICE_SPEECH", default=True),
             dmca_email=_text("PENSUM_DMCA_EMAIL") or "dmca@brujordet.no",
             # Trailing slashes matter: the issuer is concatenated with the
             # discovery path, and `aud`/`iss` comparisons are exact.

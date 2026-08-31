@@ -20,12 +20,14 @@ from pensum.config import Settings
 from pensum.items.loader import ItemBank
 from pensum.reading import rewards
 from pensum.reading.audio import MAX_BYTES, SAMPLE_RATE, AudioError, decode
+from pensum.reading.device import MAX_WORDS as MAX_DEVICE_WORDS
 from pensum.reading.fluency import (
     ABOVE,
     BELOW,
     WITHIN,
     HeardWord,
     advance,
+    close_enough,
     even_replay,
     heard_from_text,
     measure,
@@ -833,3 +835,181 @@ def test_no_passage_claims_a_source_we_may_not_reproduce(library: ReadingLibrary
     for reading_set in library.reading_sets:
         for passage in reading_set.texts:
             assert passage.source == "pensum", passage.id
+
+
+# --- Pronunciation versus the wrong word -----------------------------------
+
+
+def test_a_different_ending_is_pronunciation_not_a_mistake() -> None:
+    """boka/boken, trappa/trappen. Norwegian gives endless legitimate variation,
+    and counting it as errors marks down the children who are reading fine."""
+    assert close_enough("trappa", "trappen")
+    assert close_enough("boka", "boken")
+    assert close_enough("sitter", "sitte")
+
+
+def test_a_different_word_is_a_mistake() -> None:
+    assert not close_enough("hus", "hest")
+    assert not close_enough("katt", "hund")
+    # Short words are held to an exact match: that is where a real substitution
+    # hides, and three letters carry no signal for a ratio test.
+    assert not close_enough("og", "om")
+    assert not close_enough("hus", "his")
+
+
+def test_mispronouncing_a_word_does_not_cost_accuracy() -> None:
+    passage = text()
+    said = PASSAGE.replace("trappa", "trappen").replace("sitter", "sitte")
+
+    fluency = measure(passage, said, seconds=30.0)
+
+    assert fluency.accuracy == 1.0
+    assert fluency.misread == ()
+    # Tracked, so the page can say the dialect was not what cost the percentage.
+    assert fluency.close_count == 2
+
+
+def test_reading_the_wrong_word_still_counts_against_you() -> None:
+    passage = text()
+
+    fluency = measure(passage, PASSAGE.replace("katt", "hund"), seconds=30.0)
+
+    assert "katt" in fluency.misread
+    assert fluency.accuracy < 1.0
+
+
+def test_a_hallucinating_recogniser_cannot_make_the_alignment_crawl() -> None:
+    """Whisper invents fluent text over silence. Aligning against all of it is
+    quadratic work for no gain."""
+    passage = text()
+
+    fluency = measure(passage, " ".join(["blah"] * 20_000), seconds=60.0)
+
+    assert fluency.correct == 0
+
+
+# --- The device's own recogniser -------------------------------------------
+
+
+def test_a_device_reading_is_scored_without_any_model_on_the_server(
+    timed_client: TestClient, library
+) -> None:
+    """The whole point: the published image ships no models, and a phone that
+    recognises speech itself still gets a checked reading."""
+    passage = first_text(library, "KV1107")
+    words = [
+        {"t": word, "at": round(index * 0.4, 2)} for index, word in enumerate(passage.word_list)
+    ]
+
+    response = timed_client.post(
+        f"/nb/klasse/2/NOR01-08/lesing/{passage.id}/enhet",
+        json={"seconds": 30.0, "words": words},
+    )
+
+    assert response.status_code == 200
+    assert "100 %" in response.text
+    # Word times came with the transcript, so the replay is the real thing.
+    assert 'id="reading-timeline"' in response.text
+
+
+def test_a_device_reading_with_no_timings_still_scores(timed_client: TestClient, library) -> None:
+    passage = first_text(library, "KV1107")
+    words = [{"t": word} for word in passage.word_list]
+
+    response = timed_client.post(
+        f"/nb/klasse/2/NOR01-08/lesing/{passage.id}/enhet",
+        json={"seconds": 45.0, "words": words},
+    )
+
+    assert response.status_code == 200
+
+
+@pytest.mark.parametrize("seconds", [0, -3, 100_000])
+def test_a_device_reading_with_an_implausible_clock_is_refused(
+    timed_client: TestClient, library, seconds: float
+) -> None:
+    passage = first_text(library, "KV1107")
+
+    response = timed_client.post(
+        f"/nb/klasse/2/NOR01-08/lesing/{passage.id}/enhet",
+        json={"seconds": seconds, "words": [{"t": "det"}]},
+    )
+
+    assert response.status_code in (400, 422)
+
+
+def test_a_device_transcript_cannot_be_unbounded(timed_client: TestClient, library) -> None:
+    passage = first_text(library, "KV1107")
+
+    response = timed_client.post(
+        f"/nb/klasse/2/NOR01-08/lesing/{passage.id}/enhet",
+        json={"seconds": 30.0, "words": [{"t": "det"}] * (MAX_DEVICE_WORDS + 1)},
+    )
+
+    assert response.status_code == 422
+
+
+def test_a_deployment_can_turn_the_device_recogniser_off(catalogue: Catalogue, library) -> None:
+    passage = first_text(library, "KV1107")
+    client = TestClient(
+        create_app(
+            catalogue,
+            ItemBank.load(),
+            settings=Settings(session_secret="test", device_speech=False),
+            reading=ReadingLibrary.load(include_unreviewed=True),
+        )
+    )
+
+    page = client.get(f"/nb/klasse/2/NOR01-08/lesing/{passage.id}")
+    posted = client.post(
+        f"/nb/klasse/2/NOR01-08/lesing/{passage.id}/enhet",
+        json={"seconds": 30.0, "words": [{"t": "det"}]},
+    )
+
+    assert 'data-device="false"' in page.text
+    assert posted.status_code == 503
+
+
+def test_the_page_carries_the_language_tag_the_browser_needs(
+    timed_client: TestClient, library
+) -> None:
+    norsk = first_text(library, "KV1107")
+    engelsk = first_text(library, "KV1030")
+
+    assert (
+        'data-speech-locale="nb-NO"'
+        in timed_client.get(f"/nb/klasse/2/NOR01-08/lesing/{norsk.id}").text
+    )
+    assert (
+        'data-speech-locale="en-GB"'
+        in timed_client.get(f"/nb/klasse/2/ENG01-06/lesing/{engelsk.id}").text
+    )
+
+
+def test_the_page_offers_device_recognition_by_default(timed_client: TestClient, library) -> None:
+    """Even on the published image, which has no models: the recognising happens
+    in the browser."""
+    passage = first_text(library, "KV1107")
+
+    page = timed_client.get(f"/nb/klasse/2/NOR01-08/lesing/{passage.id}")
+
+    assert 'data-device="true"' in page.text
+    # And the page must carry both statements, because only the browser knows
+    # which one applies.
+    assert "forlater ikke telefonen" in page.text
+    assert "kan stemmen din bli sendt" in page.text
+
+
+def test_the_prefix_rule_has_a_known_cost() -> None:
+    """Recorded rather than hidden: two different words that share a stem are
+    accepted as one. "store" and "storm" are the clearest case.
+
+    The trade is deliberate. Norwegian inflection is almost entirely in the
+    ending, so a rule that reads the beginning catches nearly all legitimate
+    variation; the price is that a genuine substitution with the same stem slips
+    through. Given a recogniser that mishears children constantly, wrongly
+    forgiving is the better direction to be wrong in.
+    """
+    assert close_enough("store", "storm")
+    # But it is a stem rule, not a "first letter" rule.
+    assert not close_enough("stor", "smør")

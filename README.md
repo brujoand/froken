@@ -185,6 +185,50 @@ band without a cited source impossible to load, and the result page renders the
 source's caveat next to the number every time. Reading speed varies enormously
 between children who all read perfectly well, and the wording says so.
 
+### What counts as reading it wrong
+
+**Speed is the headline number, and pronunciation is not scored.** Reading
+*trappen* for *trappa*, or *boken* for *boka*, is not a reading error — it is
+Norwegian, and a recogniser trained on adult speech invents more variation of
+the same kind. Alignment therefore treats two words as the same when they share
+a stem and differ in the ending, or when they are near-identical throughout.
+Reading *hest* for *hus* still counts, and short words are held to an exact
+match because that is where a real substitution hides.
+
+The words that were merely pronounced differently are counted and reported
+separately, so a pupil can see that their dialect is not what cost them the
+percentage.
+
+There is a known cost, recorded in a test rather than hidden: two different
+words that share a stem — *store* and *storm* — are accepted as one. Given a
+recogniser that mishears children constantly, being wrong in the forgiving
+direction is the right way round.
+
+### Three recognisers, and the page says which one is listening
+
+| | Where the audio goes | Needs |
+|---|---|---|
+| **The device's own** | nowhere, on browsers that recognise locally | nothing |
+| **Pensum's** | to this server, in memory | models mounted, `WITH_SPEECH=1` |
+| **None** | nothing is recorded | nothing |
+
+The browser's `SpeechRecognition` is two products wearing one API: on-device
+recognition, where the audio never leaves the handset, and cloud recognition,
+where the browser vendor receives a child reading aloud. Pensum cannot tell
+which from the server, so the page decides — it uses the first without asking,
+because it is strictly more private than posting the audio here, and offers the
+second only behind an unticked box that names whose servers are involved.
+
+This is what makes a checked reading possible on the published image, which
+ships no models at all: on an iPhone, or a recent Chrome with a local model,
+the recognising happens on the device and only the transcript reaches Pensum.
+A transcript is also, unavoidably, whatever the page chose to send — a pupil
+with developer tools open can claim a flawless reading. That is accepted rather
+than defended against; the server path exists for anyone who wants the stricter
+answer.
+
+`PENSUM_DEVICE_SPEECH=0` removes the offer entirely.
+
 ### Owning the screen
 
 Starting a reading takes over the page. The header, the breadcrumb, the notes
@@ -231,8 +275,9 @@ Four rewards, and they are not equally defensible:
 |---|---|---|
 | Passage shown, screen taken over | yes | yes |
 | Reading timed | yes | yes |
-| Audio recorded | **no** | in memory, for the length of the reading |
-| Words light up live | no | yes |
+| Checked, if the device recognises speech | yes | yes |
+| Audio recorded by Pensum | **no** | in memory, for the length of the reading |
+| Words light up live | on-device only | yes |
 | Read against the text | no | yes — accuracy, and which words were not heard |
 | Replay | even pace, labelled as such | the real times each word was read |
 | Stars | no | yes |

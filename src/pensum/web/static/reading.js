@@ -37,6 +37,29 @@
   var postUrl = root.dataset.postUrl;
   var totalWords = parseInt(root.dataset.words, 10) || wordSpans.length;
 
+  var deviceAllowed = root.dataset.device === "true";
+  var speechLocale = root.dataset.speechLocale || "nb-NO";
+  var Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  var engineElement = document.getElementById("reading-engine");
+  var consentElement = document.getElementById("reading-consent");
+  var consentBox = document.getElementById("reading-consent-box");
+  var consentText = document.getElementById("reading-consent-text");
+
+  /* "device" | "server" | "timed". Decided once at load, and again if the pupil
+   * ticks the consent box. */
+  var engine = "timed";
+  /* Set only when the browser has said it can recognise speech without the
+   * audio leaving the machine. */
+  var localRecognition = false;
+  var recogniser = null;
+  var heardWords = [];
+  var cursor = 0;
+  /* The passage as plain lowercase words, in the same order the server numbered
+   * them. Read off the spans so the two cannot drift apart. */
+  var reference = wordSpans.map(function (span) {
+    return span.textContent.toLowerCase();
+  });
+
   var running = false;
   var startedAt = 0;
   var ticker = null;
@@ -383,6 +406,180 @@
     if (!document.fullscreenElement && !running) leaveFocus();
   });
 
+  /* --- the device's own recogniser --------------------------------------- */
+
+  /* The same tokeniser the passage went through on the server, near enough: the
+   * two only have to agree about what counts as a word. */
+  function tokenize(text) {
+    var matches = String(text).toLowerCase().match(/\p{L}+(?:['’-]\p{L}+)*/gu);
+    return matches || [];
+  }
+
+  /* A rough stand-in for the server's similarity test. It does not have to
+   * agree exactly: this only moves the live highlight, and the score is
+   * recomputed server-side from the transcript when the reading ends. */
+  function similarity(a, b) {
+    var rows = a.length;
+    var columns = b.length;
+    var previous = [];
+    var i;
+    var j;
+    for (j = 0; j <= columns; j++) previous[j] = j;
+    for (i = 1; i <= rows; i++) {
+      var current = [i];
+      for (j = 1; j <= columns; j++) {
+        var cost = a.charAt(i - 1) === b.charAt(j - 1) ? 0 : 1;
+        current[j] = Math.min(current[j - 1] + 1, previous[j] + 1, previous[j - 1] + cost);
+      }
+      previous = current;
+    }
+    return 1 - previous[columns] / Math.max(rows, columns, 1);
+  }
+
+  /* Reading "trappen" for "trappa" is pronunciation, not the wrong word. Reading
+   * "hest" for "hus" is. Short words are held to an exact match, because that is
+   * where a real substitution hides. */
+  function closeEnough(printed, said) {
+    if (printed === said) return true;
+    if (Math.abs(printed.length - said.length) > 2) return false;
+    if (Math.min(printed.length, said.length) < 4) return false;
+    return similarity(printed, said) >= 0.8;
+  }
+
+  /* Forward-only, and only ever looking a little way ahead: a common word must
+   * not be able to teleport the highlight to the end of the passage. */
+  function advanceCursor(tokens) {
+    var start = Math.max(0, tokens.length - 6);
+    for (var n = start; n < tokens.length; n++) {
+      var limit = Math.min(reference.length, cursor + 40);
+      for (var i = cursor; i < limit; i++) {
+        if (closeEnough(reference[i], tokens[n])) {
+          cursor = i + 1;
+          break;
+        }
+      }
+    }
+    lightTo(cursor);
+  }
+
+  function collect(event) {
+    var text = "";
+    for (var i = 0; i < event.results.length; i++) text += event.results[i][0].transcript + " ";
+    var tokens = tokenize(text);
+    var at = Math.round((performance.now() - startedAt)) / 1000;
+
+    /* Interim results are rewritten as the recogniser changes its mind, so a
+     * word keeps the time it was first seen and has its text updated in place.
+     * These times are "when the page first heard it", not "when it was said" --
+     * good enough to replay, and labelled as approximate nowhere because the
+     * difference is a fraction of a second. */
+    for (var n = 0; n < tokens.length; n++) {
+      if (n < heardWords.length) heardWords[n].t = tokens[n];
+      else heardWords.push({ t: tokens[n], at: at });
+    }
+    heardWords.length = tokens.length;
+    advanceCursor(tokens);
+  }
+
+  function startRecognition() {
+    recogniser = new Recognition();
+    recogniser.lang = speechLocale;
+    recogniser.continuous = true;
+    recogniser.interimResults = true;
+    /* Only set when the browser said it can honour it. Setting it blindly
+     * throws on the browsers that have never heard of it. */
+    if (engine === "device" && localRecognition) {
+      try {
+        recogniser.processLocally = true;
+      } catch (error) {
+        /* Nothing to do: the probe already told us it was available. */
+      }
+    }
+    recogniser.onresult = collect;
+    recogniser.onend = function () {
+      /* Recognisers stop on their own after a pause. A child thinking about a
+       * long word is a pause. */
+      if (running) {
+        try {
+          recogniser.start();
+        } catch (error) {
+          /* Already restarting. */
+        }
+      }
+    };
+    recogniser.onerror = function () {};
+    try {
+      recogniser.start();
+    } catch (error) {
+      say(root.dataset.labelFailed);
+    }
+  }
+
+  function stopRecognition() {
+    if (!recogniser) return;
+    var used = recogniser;
+    recogniser = null;
+    used.onend = null;
+    try {
+      used.stop();
+    } catch (error) {
+      /* Already stopped. */
+    }
+  }
+
+  /* Can this browser recognise speech without sending the audio anywhere? Only
+   * some can answer, and only "available" is a yes -- a model that merely could
+   * be downloaded is not one that is going to run locally today. */
+  function probeLocal() {
+    if (!Recognition || typeof Recognition.available !== "function") {
+      return Promise.resolve(false);
+    }
+    try {
+      return Promise.resolve(
+        Recognition.available({ langs: [speechLocale], processLocally: true })
+      )
+        .then(function (state) {
+          return state === "available";
+        })
+        .catch(function () {
+          return false;
+        });
+    } catch (error) {
+      return Promise.resolve(false);
+    }
+  }
+
+  function announce(element, message) {
+    element.textContent = message;
+    element.hidden = false;
+  }
+
+  /* Which recogniser will listen, decided once and said out loud before the
+   * microphone is touched. On-device recognition is used without asking --
+   * it is strictly more private than posting the audio to Pensum, which is
+   * what the server path does. Anything else is opt-in and names whose
+   * servers are involved. */
+  function chooseEngine() {
+    if (!deviceAllowed || !Recognition) {
+      engine = checked ? "server" : "timed";
+      return Promise.resolve();
+    }
+    return probeLocal().then(function (isLocal) {
+      localRecognition = isLocal;
+      if (isLocal) {
+        engine = "device";
+        announce(engineElement, root.dataset.labelDeviceLocal);
+        return;
+      }
+      engine = checked ? "server" : "timed";
+      consentText.textContent = root.dataset.labelDeviceCloud;
+      consentElement.hidden = false;
+      consentBox.addEventListener("change", function () {
+        engine = consentBox.checked ? "device" : checked ? "server" : "timed";
+      });
+    });
+  }
+
   /* --- the reading itself ----------------------------------------------- */
 
   function begin() {
@@ -417,8 +614,19 @@
     clearWords();
     output.innerHTML = "";
     enterFocus();
+    heardWords = [];
+    cursor = 0;
 
-    if (!checked) {
+    if (engine === "device") {
+      /* No getUserMedia here: the recogniser asks for the microphone itself,
+       * and on the browsers that can do this locally the audio never reaches
+       * this script at all. */
+      begin();
+      startRecognition();
+      return;
+    }
+
+    if (engine !== "server") {
       begin();
       return;
     }
@@ -434,6 +642,7 @@
          * say what changed rather than refusing to start. */
         checked = false;
         live = false;
+        engine = "timed";
         postUrl = baseUrl + "/tid";
         say(root.dataset.labelDenied);
         begin();
@@ -446,6 +655,18 @@
     clearInterval(ticker);
     leaveFocus();
     var seconds = (performance.now() - startedAt) / 1000;
+
+    if (engine === "device") {
+      stopRecognition();
+      /* A transcript, not audio. Nothing was recorded here and there is nothing
+       * to discard. */
+      post(
+        baseUrl + "/enhet",
+        JSON.stringify({ seconds: Number(seconds.toFixed(2)), words: heardWords }),
+        { "Content-Type": "application/json" }
+      );
+      return;
+    }
 
     if (!capture) {
       var form = new URLSearchParams();
@@ -492,4 +713,6 @@
   document.addEventListener("keydown", function (event) {
     if (event.key === "Escape" && running) stop();
   });
+
+  chooseEngine();
 })();

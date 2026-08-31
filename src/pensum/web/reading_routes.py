@@ -29,6 +29,7 @@ from fastapi.responses import HTMLResponse
 from pensum.domain.grades import checkpoint_for
 from pensum.reading import rewards
 from pensum.reading.audio import MAX_BYTES, SAMPLE_RATE, SAMPLE_WIDTH, AudioError, decode
+from pensum.reading.device import SPEECH_LOCALE, DeviceReading
 from pensum.reading.fluency import advance, even_replay, measure, replay, time_only, verdict
 from pensum.reading.library import ReadingLibrary
 from pensum.reading.schema import ReadingText
@@ -143,6 +144,7 @@ async def reading_page(
     text = _text_or_404(request, checkpoint.goal_set.code, text_id)
 
     checked = _can_check(request, text.language)
+    settings = get_settings(request)
     return templates.TemplateResponse(
         request,
         "pages/reading.html",
@@ -153,6 +155,11 @@ async def reading_page(
             subject=subject,
             checkpoint=checkpoint,
             text=text,
+            # Whether the page may offer the browser's own recogniser at all.
+            # Whether it then does is decided in the browser, which is the only
+            # place that can tell an on-device recogniser from a cloud one.
+            device_allowed=settings.device_speech,
+            speech_locale=SPEECH_LOCALE.get(text.language, "nb-NO"),
             # Whether this deployment can check the reading, not merely time it.
             # Drives which endpoint the page posts to, and which promises the
             # page is allowed to make.
@@ -339,6 +346,40 @@ async def finish_stream(
     heard = transcriber.transcribe(audio, text.language)
     fluency = measure(text, heard.words, heard.seconds or fallback)
 
+    return _result(
+        request, locale, subject=subject, checkpoint=checkpoint, text=text, fluency=fluency
+    )
+
+
+@router.post(
+    "/{locale}/klasse/{grade}/{subject_code}/lesing/{text_id}/enhet",
+    response_class=HTMLResponse,
+)
+async def submit_device_reading(
+    request: Request,
+    locale: str,
+    grade: int,
+    subject_code: str,
+    text_id: str,
+    reading: DeviceReading,
+) -> HTMLResponse:
+    """Score a reading the pupil's own device recognised.
+
+    Available whether or not this deployment has speech models: the recognising
+    happened in the browser, and all that arrives here is a transcript. That is
+    what makes a checked reading possible on the published image, which ships no
+    models at all.
+
+    No audio is involved at any point, so there is nothing here to discard.
+    """
+    validate_locale(locale)
+    subject, checkpoint = _checkpoint(request, subject_code, grade)
+    text = _text_or_404(request, checkpoint.goal_set.code, text_id)
+
+    if not get_settings(request).device_speech:
+        raise HTTPException(status_code=503, detail="device speech is not enabled")
+
+    fluency = measure(text, reading.heard(), _seconds(reading.seconds))
     return _result(
         request, locale, subject=subject, checkpoint=checkpoint, text=text, fluency=fluency
     )
