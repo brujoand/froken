@@ -609,3 +609,120 @@ a {
   font-size: 0.9rem;
   margin: 0 0 0.5rem;
 }
+
+/* --- Reading aloud ------------------------------------------------------- */
+
+.button--secondary {
+  color: var(--accent);
+  background: var(--accent-soft);
+  border: 1px solid var(--accent);
+}
+
+.reading-list {
+  list-style: none;
+  padding: 0;
+}
+
+.reading-list li {
+  border-bottom: 1px solid var(--line);
+  padding: 0.6rem 0;
+}
+
+/* The passage a child reads aloud, and the one place on the site where type
+   size is a correctness concern rather than a taste one: losing your place mid
+   line is what makes a fluent reader look disfluent. Hence the larger size, the
+   open leading and the short measure. */
+.reading-text {
+  font-size: 1.25rem;
+  line-height: 1.9;
+  max-width: 32em;
+  margin: 1rem 0;
+  padding: 1.2rem 1.4rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.reading-text p {
+  margin: 0 0 1rem;
+}
+
+.reading-text p:last-child {
+  margin-bottom: 0;
+}
+
+.reading-meta {
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+
+.reading-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.reading-clock {
+  font-family: ui-monospace, monospace;
+  font-size: 1.4rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-soft);
+}
+
+.reading-result {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+  padding: 1rem 1.2rem;
+  margin-top: 1rem;
+}
+
+.reading-figure {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin: 0.5rem 0;
+}
+
+.reading-wpm {
+  font-size: 2.4rem;
+  line-height: 1;
+  color: var(--accent);
+}
+
+.reading-unit {
+  color: var(--ink-soft);
+}
+
+/* Deliberately undifferentiated by colour. A band is not a grade, and painting
+   "below" red would say the opposite of every sentence next to it. */
+.reading-band {
+  margin: 0.6rem 0;
+}
+
+.note--source {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.word-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  list-style: none;
+  padding: 0;
+}
+
+.word-list li {
+  padding: 0.15rem 0.5rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+}
+
+.not-a-verdict {
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+  margin-bottom: 0;
+}

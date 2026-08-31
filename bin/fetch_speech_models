@@ -1,0 +1,87 @@
+#!/usr/bin/env bash
+#
+# Fetch the speech models the reading exercise needs.
+#
+#   bin/fetch_speech_models              fetch both languages into data/speech
+#   bin/fetch_speech_models --dir PATH   fetch somewhere else
+#
+# The models are not in the repository: they are hundreds of megabytes of binary
+# and they are not ours to redistribute. Pensum works without them -- a reading
+# is then timed rather than checked -- so this is an optional step, run once by
+# whoever wants readings checked.
+#
+# This is the only part of Pensum that downloads anything. Once the models are
+# on disk, transcription is entirely local: the running container never contacts
+# a speech service, and the audio never leaves it.
+#
+# Point PENSUM_SPEECH_MODEL_DIR at the resulting directory to switch the feature
+# on.
+
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+readonly REPO_ROOT
+
+# Norwegian: the National Library's Whisper fine-tune, which is markedly better
+# on Norwegian than stock Whisper of the same size, and ships CTranslate2
+# weights in a ct2/ subdirectory. English: the stock Whisper conversion.
+readonly NB_REPO="NbAiLab/nb-whisper-small"
+readonly NB_SUBDIR="ct2"
+readonly EN_REPO="Systran/faster-whisper-small"
+
+target="${REPO_ROOT}/data/speech"
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --dir)
+      target="$2"
+      shift 2
+      ;;
+    -h | --help)
+      sed -n '2,20p' "${BASH_SOURCE[0]}" | sed 's/^#\s\?//'
+      exit 0
+      ;;
+    *)
+      echo "unknown argument: $1" >&2
+      exit 2
+      ;;
+  esac
+done
+
+mkdir -p "${target}"
+
+echo "Fetching speech models into ${target}"
+echo "This downloads roughly 1 GB and is needed once."
+
+cd "${REPO_ROOT}"
+uv run --extra speech python - "${target}" "${NB_REPO}" "${NB_SUBDIR}" "${EN_REPO}" <<'PY'
+import shutil
+import sys
+from pathlib import Path
+
+from huggingface_hub import snapshot_download
+
+target, nb_repo, nb_subdir, en_repo = sys.argv[1:5]
+target = Path(target)
+
+
+def place(repo: str, subdir: str | None, destination: Path) -> None:
+    """Download a CTranslate2 model and put it where Pensum expects it."""
+    patterns = [f"{subdir}/*"] if subdir else ["*.json", "*.txt", "model.bin"]
+    snapshot = Path(snapshot_download(repo_id=repo, allow_patterns=patterns))
+    source = snapshot / subdir if subdir else snapshot
+
+    destination.mkdir(parents=True, exist_ok=True)
+    for path in source.iterdir():
+        if path.is_file():
+            shutil.copy2(path, destination / path.name)
+    print(f"  {repo} -> {destination}")
+
+
+place(nb_repo, nb_subdir, target / "nb")
+place(en_repo, None, target / "en")
+PY
+
+echo
+echo "Done. Switch the feature on with:"
+echo "  PENSUM_SPEECH_MODEL_DIR=${target}"

@@ -48,6 +48,16 @@ class Settings:
     # a child.
     include_unreviewed_items: bool = False
 
+    # --- Reading fluency ----------------------------------------------------
+    # Where the CTranslate2 Whisper models live -- either one model per
+    # language in "nb"/"en" subdirectories, or a single multilingual model at
+    # this path. Unset -- the default, and what the published image ships with
+    # -- means the reading page still shows the passage and times the reading,
+    # but nothing is transcribed and no accuracy is reported. The models are
+    # hundreds of megabytes and are not ours to redistribute, so they are
+    # fetched rather than committed: see bin/fetch_speech_models.
+    speech_model_dir: Path | None = None
+
     # --- Sign-in (pocket-id, or any OIDC provider) --------------------------
     oidc_issuer: str | None = None
     oidc_client_id: str | None = None
@@ -76,6 +86,16 @@ class Settings:
     database_path: Path | None = None
 
     @property
+    def speech_enabled(self) -> bool:
+        """Whether a recording can be checked, as opposed to merely timed.
+
+        Only says a directory was configured and exists; whether vosk is
+        importable and a model actually loads is settled in
+        `pensum.reading.transcribe.load_transcriber`, which degrades to None.
+        """
+        return self.speech_model_dir is not None and self.speech_model_dir.is_dir()
+
+    @property
     def auth_enabled(self) -> bool:
         """Sign-in needs all three halves of an OIDC client to work at all."""
         return bool(self.oidc_issuer and self.oidc_client_id and self.oidc_client_secret)
@@ -88,10 +108,12 @@ class Settings:
     @classmethod
     def from_env(cls) -> Settings:
         database = _text("PENSUM_DATABASE_PATH")
+        speech_models = _text("PENSUM_SPEECH_MODEL_DIR")
         issuer = _text("PENSUM_OIDC_ISSUER")
         base_url = _text("PENSUM_BASE_URL")
         return cls(
             include_unreviewed_items=_flag("PENSUM_INCLUDE_UNREVIEWED"),
+            speech_model_dir=Path(speech_models) if speech_models else None,
             # Trailing slashes matter: the issuer is concatenated with the
             # discovery path, and `aud`/`iss` comparisons are exact.
             oidc_issuer=issuer.rstrip("/") if issuer else None,

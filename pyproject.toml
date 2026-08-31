@@ -26,6 +26,17 @@ dependencies = [
   "httpx[http2]>=0.28",
 ]
 
+# Speech-to-text for the reading exercise. An extra, not a dependency: a
+# deployment that does not want readings checked -- or does not want several
+# hundred megabytes of CTranslate2 and a Whisper model in its image -- gets a
+# working application without it, and `pensum.reading.transcribe` degrades to
+# timing-only. Runs entirely offline against a local model directory; nothing
+# here ever contacts a speech API.
+[project.optional-dependencies]
+speech = [
+  "faster-whisper>=1.1",
+]
+
 [project.scripts]
 pensum-ingest = "pensum.ingest.cli:main"
 

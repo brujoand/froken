@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}{{ t("reading.heading") }} · {{ subject.display_title.get(lang) }}{% endblock %}
+
+{% block content %}
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="/{{ locale }}/">{{ t("nav.home") }}</a> ›
+    <a href="/{{ locale }}/klasse/{{ grade }}">{{ t("grade.heading", grade=grade) }}</a> ›
+    <a href="/{{ locale }}/klasse/{{ grade }}/{{ subject.code }}">{{ subject.display_title.get(lang) }}</a>
+  </nav>
+
+  <h1>{{ t("reading.heading") }}</h1>
+  <p>{{ t("reading.intro") }}</p>
+
+  {# The pace band is shown before the pupil starts, not sprung on them
+     afterwards, and it is shown as a range because that is what it is. #}
+  {% if band %}
+    <p class="note">
+      {{ t("reading.band", low=band.low, high=band.high, year=checkpoint.goal_set.after_year) }}
+    </p>
+  {% endif %}
+
+  <ul class="reading-list">
+    {% for text in texts %}
+      <li>
+        <a href="/{{ locale }}/klasse/{{ grade }}/{{ subject.code }}/lesing/{{ text.id }}">
+          {{ text.title }}
+        </a>
+        <span class="count">{{ t("reading.word_count", count=text.word_count) }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+
+  {# Same line the quiz draws: these passages are ours, and no part of them is
+     curriculum text. #}
+  <p class="note">{{ t("reading.authored_note") }}</p>
+{% endblock %}

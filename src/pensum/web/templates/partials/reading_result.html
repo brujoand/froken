@@ -1,0 +1,72 @@
+{# The outcome of one reading. Rendered into the reading page, never on its own.
+
+   Two shapes arrive here: `fluency` when the reading was listened to, `timing`
+   when it was only clocked. They are separate variables on purpose -- a timed
+   reading has no accuracy, and there must be no way for this template to print
+   one for it. #}
+
+<div class="reading-result">
+  <h2>{{ t("reading.result_heading") }}</h2>
+
+  {% set measured = (fluency.wcpm if checked else timing.wpm) %}
+
+  {% if measured is none %}
+    {# Too short, or too little heard, to divide by. Saying so beats printing a
+       number that is an artefact of the arithmetic. #}
+    <p class="reading-unmeasured">{{ t("reading.too_short") }}</p>
+  {% else %}
+    <p class="reading-figure">
+      <strong class="reading-wpm">{{ measured }}</strong>
+      <span class="reading-unit">{{ t("reading.wpm_checked") if checked else t("reading.wpm_timed") }}</span>
+    </p>
+
+    {% if checked %}
+      <p>
+        {{ t("reading.accuracy", percentage=(fluency.accuracy * 100) | round | int,
+              correct=fluency.correct, attempted=fluency.attempted) }}
+      </p>
+      {% if not fluency.finished %}
+        {# Stopping early is ordinary, and is not a mistake. The count says how
+           far they got so the pace is read against that and not the whole text. #}
+        <p class="note">{{ t("reading.stopped_early", read=fluency.attempted, total=fluency.total) }}</p>
+      {% endif %}
+    {% else %}
+      <p class="note">{{ t("reading.timed_only") }}</p>
+    {% endif %}
+
+    {% if band %}
+      <p class="reading-band reading-band--{{ verdict | default('unmeasured') }}">
+        {% if not checked %}
+          {{ t("reading.band_timed", low=band.low, high=band.high) }}
+        {% elif verdict == "within" %}
+          {{ t("reading.band_within", low=band.low, high=band.high) }}
+        {% elif verdict == "above" %}
+          {{ t("reading.band_above", low=band.low, high=band.high) }}
+        {% else %}
+          {{ t("reading.band_below", low=band.low, high=band.high) }}
+        {% endif %}
+      </p>
+      {# The caveat travels with the number, always. A band with no provenance
+         reads as a national standard, and there is no national standard. #}
+      {% if source %}
+        <p class="note note--source">{{ source.caveat }}</p>
+      {% endif %}
+    {% endif %}
+  {% endif %}
+
+  {% if checked and fluency.misread %}
+    <section class="reading-misread">
+      <h3>{{ t("reading.misread_heading") }}</h3>
+      {# Words, not a verdict. A recogniser mishears children constantly, and
+         the wording has to leave room for the machine being the one at fault. #}
+      <p class="note">{{ t("reading.misread_note") }}</p>
+      <ul class="word-list" lang="{{ text.language }}">
+        {% for word in fluency.misread[:20] %}
+          <li>{{ word }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+
+  <p class="not-a-verdict">{{ t("reading.not_a_verdict") }}</p>
+</div>

@@ -66,5 +66,9 @@
         <a href="https://data.norge.no/nlod/no">NLOD</a>
       </p>
     </footer>
+
+    {# Pages that need their own script say so here. Nothing on the site depends
+       on one: every page renders and works server-side first. #}
+    {% block scripts %}{% endblock %}
   </body>
 </html>

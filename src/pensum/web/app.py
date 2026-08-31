@@ -4,10 +4,11 @@ The catalogue loads once at startup and is then immutable. There is no database
 behind the curriculum: the whole dataset is a few megabytes of vendored JSON, and
 keeping it in memory means a page load touches no network and no disk.
 
-Two optional subsystems attach here, both off unless configured: sign-in against
-an OIDC provider, and a SQLite file of finished attempts. With neither set --
+Three optional subsystems attach here, all off unless configured: sign-in
+against an OIDC provider, a SQLite file of finished attempts, and the speech
+models that turn a reading from timed into checked. With none of them set --
 which is what `docker run` with no environment gives you -- this is the app that
-stores nothing about anybody.
+stores nothing about anybody and makes no outbound request.
 """
 
 from __future__ import annotations
@@ -27,10 +28,13 @@ from pensum.config import Settings
 from pensum.config import settings as env_settings
 from pensum.items.loader import ItemBank
 from pensum.quiz.session import SessionStore
+from pensum.reading.library import ReadingLibrary
+from pensum.reading.transcribe import Transcriber, load_transcriber
 from pensum.scores.store import AttemptStore
 from pensum.web.admin_routes import router as admin_router
 from pensum.web.auth_routes import router as auth_router
 from pensum.web.quiz_routes import router as quiz_router
+from pensum.web.reading_routes import router as reading_router
 from pensum.web.routes import router
 
 STATIC_DIR = Path(__file__).parent / "static"
@@ -39,7 +43,9 @@ STATIC_DIR = Path(__file__).parent / "static"
 @asynccontextmanager
 async def lifespan(app: FastAPI) -> AsyncIterator[None]:
     app.state.catalogue = Catalogue.load()
-    app.state.items = ItemBank.load(include_unreviewed=app.state.settings.include_unreviewed_items)
+    unreviewed = app.state.settings.include_unreviewed_items
+    app.state.items = ItemBank.load(include_unreviewed=unreviewed)
+    app.state.reading = ReadingLibrary.load(include_unreviewed=unreviewed)
     yield
 
 
@@ -47,8 +53,10 @@ def create_app(
     catalogue: Catalogue | None = None,
     items: ItemBank | None = None,
     settings: Settings | None = None,
+    reading: ReadingLibrary | None = None,
+    transcriber: Transcriber | None = None,
 ) -> FastAPI:
-    """Build the app. Pass `catalogue`/`items`/`settings` to substitute in tests."""
+    """Build the app. Pass the collaborators to substitute them in tests."""
     active = settings if settings is not None else env_settings
 
     app = FastAPI(
@@ -64,6 +72,16 @@ def create_app(
     if catalogue is not None:
         app.state.catalogue = catalogue
         app.state.items = items if items is not None else ItemBank.load()
+        app.state.reading = reading if reading is not None else ReadingLibrary.load()
+    elif reading is not None:
+        app.state.reading = reading
+
+    # Loaded here rather than in the lifespan so a test can inject a fake
+    # without a model on disk. None -- no models configured -- is the default
+    # and is an ordinary state: readings are then timed but not checked.
+    app.state.transcriber = (
+        transcriber if transcriber is not None else load_transcriber(active.speech_model_dir)
+    )
 
     # Quiz sessions live here rather than in a store: an unfinished quiz is not
     # a result, so a restart losing in-flight quizzes is the accepted cost.
@@ -79,6 +97,7 @@ def create_app(
     app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
     app.include_router(router)
     app.include_router(quiz_router)
+    app.include_router(reading_router)
     app.include_router(auth_router)
     app.include_router(admin_router)
     return app

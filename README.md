@@ -153,6 +153,69 @@ The pages are read-only. There is nothing there to re-grade or delete a child's
 record with — for that, the database is one SQLite file and `sqlite3` is a better
 tool than a web form anyone can misclick.
 
+## Reading aloud
+
+Norsk and engelsk carry a second exercise: a passage to read out loud. Pensum
+times the reading and, when the deployment has speech models, checks it against
+the printed text and reports **correct words per minute** — words heard in the
+order they were printed, divided by the time spent reading. Plain words per
+minute rewards reading fast by skipping, which is the opposite of the point.
+
+The passage is chosen per checkpoint and is ours, like the quiz questions: LK20
+is quoted verbatim elsewhere, and nothing a pupil reads here is curriculum text.
+
+### What a pupil is told
+
+A band, never a threshold — for example *30–60 correct words a minute after 2.
+trinn* — followed by the caveat that comes with it. **LK20 sets no words-per-
+minute figure and Udir publishes no national norm for reading speed**, so every
+band in `data/reading/norms.yaml` is Pensum's own guideline. The schema makes a
+band without a cited source impossible to load, and the result page renders the
+source's caveat next to the number every time. Reading speed varies enormously
+between children who all read perfectly well, and the wording says so.
+
+### Two modes, and only one of them needs configuration
+
+| | Default image | With speech models |
+|---|---|---|
+| Passage shown | yes | yes |
+| Reading timed | yes | yes |
+| Audio recorded | **no** | in memory, for the length of the request |
+| Read against the text | no | yes — accuracy, and which words were not heard |
+
+The default is the left column. There is no microphone prompt, no recording and
+no upload; the page times the reading and says outright that nobody checked it.
+
+Turning on the right column takes a model directory:
+
+```bash
+bin/fetch_speech_models                       # ~1 GB, once
+PENSUM_SPEECH_MODEL_DIR=/models docker run \
+  -e PENSUM_SPEECH_MODEL_DIR=/models \
+  -v "$PWD/data/speech:/models:ro" \
+  -p 8000:8000 ghcr.io/brujoand/pensum:1.0.0
+```
+
+The image needs speech support compiled in for this to do anything — build it
+with `--build-arg WITH_SPEECH=1`, which adds the `speech` extra. The published
+image is built without it.
+
+### Where the audio goes
+
+Nowhere. A recording is captured in the page, posted to Pensum's own origin,
+decoded in memory, transcribed by a model on local disk and dropped when the
+response is sent. It is never written to disk, never sent to a speech API,
+never attached to a pupil — signed in or not — and never kept. Transcription is
+`faster-whisper` running in-process, so a container with models mounted still
+makes no outbound request.
+
+The browser's own `SpeechRecognition` API would have been free and would have
+shipped a child's voice to a third-party service. That is why it is not used.
+
+**Vosk is not used either, for a duller reason: it publishes no Norwegian
+model.** Some three dozen languages, Swedish the only Nordic one. It could have
+served engelsk and nothing else.
+
 ## Development
 
 ```bash
@@ -215,14 +278,22 @@ and re-verified against the official source.
   committed as readable YAML so every one of them is reviewable, and the released
   build serves only reviewed items. The curriculum text itself is never
   generated — it is quoted verbatim from Udir.
+- **A reading speed is a guideline, and a rough one.** No words-per-minute
+  figure appears anywhere in LK20, and Udir publishes no national norm for
+  reading speed, so the bands in `data/reading/norms.yaml` are Pensum's own and
+  are shown with that stated. A speech recogniser also mishears children,
+  dialects and second-language speakers more than it mishears anyone else, so a
+  word listed as "not heard" may be the machine's mistake rather than the
+  pupil's — which the result page says as well.
 - **No accounts and no analytics unless a deployment adds them.** Out of the
   box Pensum stores nothing about who is using it: quiz progress lives in memory
   for the length of a session and is gone afterwards, and there is no third-party
   script on any page in any configuration. A deployment can enable sign-in and
   keep a score history — see [Accounts and score
   history](#accounts-and-score-history) for exactly what that stores and what it
-  still refuses to. If you run the published image with no environment set, none
-  of it applies to you.
+  still refuses to. Reading aloud is the one feature that handles audio, and it
+  keeps none of it: see [Where the audio goes](#where-the-audio-goes). If you
+  run the published image with no environment set, none of it applies to you.
 
 ## Licence
 

@@ -1,0 +1,38 @@
+# Reading aloud, engelsk etter 2. trinn (ENG01-06 / KV1030).
+#
+# English is a foreign language here, and after 2. trinn a pupil has met only a
+# small stock of words. These passages stay inside it: short sentences, high
+# repetition, nothing that has to be decoded from scratch. Written for Pensum.
+---
+subject: ENG01-06
+goal_set: KV1030
+
+texts:
+  - id: eng-kv1030-my-dog
+    goal: KM13336
+    language: en
+    title: My Dog
+    difficulty: 1
+    source: pensum
+    reviewed: false
+    body: |
+      I have a dog. My dog is big and brown.
+      He likes to run. He likes to eat.
+      He can sit and he can jump.
+      We go to the park every day.
+      My dog is my best friend.
+
+  - id: eng-kv1030-the-red-ball
+    goal: KM13336
+    language: en
+    title: The Red Ball
+    difficulty: 2
+    source: pensum
+    reviewed: false
+    body: |
+      Here is a red ball. The ball is under the bed.
+      I can see it, but I cannot reach it.
+      My sister has long arms. She gets the ball for me.
+      Now we play in the garden.
+      She throws the ball and I run after it.
+      The sun is warm and the grass is green.
