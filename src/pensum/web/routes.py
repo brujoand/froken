@@ -16,6 +16,7 @@ from pensum.domain.grades import FIRST_GRADE, LAST_GRADE, checkpoint_for, subjec
 from pensum.domain.models import NYNORSK
 from pensum.i18n import DEFAULT_LOCALE, curriculum_language
 from pensum.items.loader import ItemBank
+from pensum.reading.library import ReadingLibrary
 from pensum.web.rendering import context, templates, validate_locale
 
 router = APIRouter()
@@ -37,6 +38,10 @@ def _catalogue(request: Request) -> Catalogue:
 
 def _items(request: Request) -> ItemBank:
     return request.app.state.items
+
+
+def _reading(request: Request) -> ReadingLibrary:
+    return request.app.state.reading
 
 
 @router.get("/healthz", include_in_schema=False)
@@ -125,6 +130,11 @@ async def subject_page(
             checkpoint=checkpoint,
             shows_nynorsk=shows_nynorsk,
             has_quiz=_items(request).has_quiz(checkpoint.goal_set.code),
+            # Derived the same way the quiz is: a subject offers reading aloud
+            # exactly when reviewed passages exist for that checkpoint. Norsk and
+            # engelsk have them; the other subjects simply have none, which needs
+            # no list of which subjects are "reading subjects".
+            has_reading=_reading(request).has_reading(checkpoint.goal_set.code),
             question_count=len(_items(request).for_goal_set(checkpoint.goal_set.code)),
             coverage=_items(request).coverage(checkpoint.goal_set),
         ),

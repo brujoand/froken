@@ -33,6 +33,7 @@ subject:
   source_link: View this goal at Udir
   quiz_cta: Take the quiz
   quiz_unavailable: A quiz for this subject is coming soon.
+  reading_cta: Read aloud
 
 coverage:
   summary: The quiz covers {tested} of {total} competence goals for this checkpoint.
@@ -95,6 +96,92 @@ result:
   practice_heading: Worth practising more
   try_again: Try again
   back_to_subject: Back to the subject
+
+reading:
+  heading: Read aloud
+  intro: >-
+    Pick a passage, read it out loud, and see how fast and how accurately you
+    read it.
+  # Always a band, never a threshold. The wording has to hold up for a child
+  # who falls outside it and reads perfectly well.
+  band: >-
+    After year {year}, many pupils read between {low} and {high} correct words a
+    minute. That is a common range, not a requirement.
+  word_count: "{count} words"
+  authored_note: >-
+    These passages were written by Pensum. They are not curriculum text.
+
+  # Said before the microphone is switched on, not afterwards.
+  privacy_checked: >-
+    The recording is processed in this server's memory while you wait for the
+    result, and is then gone. It is not stored, not sent anywhere else, and not
+    linked to you.
+  privacy_timed: >-
+    No audio is recorded here. Pensum only times you, and takes your word for it
+    that you read the whole passage.
+
+  start: Start reading
+  stop: Done
+  working: Working …
+  mic_denied: >-
+    Pensum could not reach the microphone. We will time you instead, without
+    checking the reading.
+  failed: Something went wrong. Try again.
+  noscript: >-
+    Without JavaScript, Pensum cannot time you. The passage can still be read
+    aloud — that is the exercise itself.
+
+  result_heading: How that went
+  wpm_checked: correct words a minute
+  wpm_timed: words a minute
+  too_short: >-
+    That reading was too short to measure. Try again, and read a little more of
+    the passage.
+  accuracy: "{percentage}% correct — {correct} of the {attempted} words you reached."
+  stopped_early: You reached word {read} of {total}. The pace is measured against what you read.
+  timed_only: >-
+    This is just the clock divided by the number of words in the passage. Nobody
+    checked how you read it.
+
+  band_within: That is inside the usual range for this year ({low}–{high}).
+  band_above: That is faster than the usual range for this year ({low}–{high}).
+  band_below: >-
+    That is slower than the usual range for this year ({low}–{high}). Speed
+    comes with reading — there is nothing wrong with taking your time.
+  band_timed: The usual range for this year is {low}–{high} words a minute.
+
+  # Gamification. The wording carries the weight here: a badge that reads as a
+  # mark would contradict every other sentence on the page.
+  progress: How far you have read
+  badge_finished: Whole passage read
+  badge_band: Reached the range for this year
+  stars_label: "{stars} of {max} stars"
+  stars_caveat: >-
+    The stars come from how many words the machine recognised. It hears
+    children, accents and second-language speakers poorly, so few stars often
+    means the machine got it wrong — not that you read badly.
+  replay: Watch it again
+  replay_real: The words light up at the moments you actually read them.
+  replay_even: >-
+    Nobody listened, so the words light up at an even pace. That is not how you
+    read it.
+  again: Read it again
+
+  # Worked out in your browser and never sent to the server. Pensum does not
+  # know you have read this passage before.
+  first_time: First time reading this one. Now you have something to beat.
+  new_best: "New best — {delta} words a minute faster than before."
+  previous_best: "Your best on this passage is {best}."
+  streak: "{days} days in a row."
+
+  misread_heading: Words that were not heard
+  misread_note: >-
+    The machine mishears people, children and accents most of all. A word listed
+    here may be the machine's mistake rather than yours.
+  not_a_verdict: >-
+    This is practice, not assessment. Reading speed varies enormously between
+    children who all read well, and a number here says nothing about who is a
+    good reader.
 
 auth:
   # Signing in is optional. No string here may imply a quiz needs an account,

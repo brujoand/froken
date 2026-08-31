@@ -95,3 +95,13 @@ repos:
         language: system
         files: ^(data/(items|curriculum)/|src/pensum/items/)
         pass_filenames: false
+
+      # The same failure mode for reading passages, plus one of its own: a
+      # checkpoint with passages but no speed band would show a pupil a pace
+      # with nothing to read it against.
+      - id: validate-reading
+        name: Validate reading passages and speed bands
+        entry: uv run python -m pensum.reading.validate
+        language: system
+        files: ^(data/(reading|curriculum)/|src/pensum/reading/)
+        pass_filenames: false

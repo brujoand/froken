@@ -1,0 +1,133 @@
+{# The outcome of one reading. Rendered into the reading page, never on its own.
+
+   Two shapes arrive here: `fluency` when the reading was listened to, `timing`
+   when it was only clocked. They are separate variables on purpose -- a timed
+   reading has no accuracy, and there must be no way for this template to print
+   one for it. #}
+
+<div class="reading-result"
+     id="reading-result-card"
+     data-text-id="{{ text.id }}"
+     data-wpm="{{ (fluency.wcpm if checked else timing.wpm) or '' }}"
+     data-checked="{{ 'true' if checked else 'false' }}"
+     data-label-first="{{ t('reading.first_time') }}"
+     data-label-best="{{ t('reading.new_best') }}"
+     data-label-previous-best="{{ t('reading.previous_best') }}"
+     data-label-streak="{{ t('reading.streak') }}"
+     data-label-replay="{{ t('reading.replay') }}">
+
+  <h2>{{ t("reading.result_heading") }}</h2>
+
+  {% set measured = (fluency.wcpm if checked else timing.wpm) %}
+
+  {% if measured is none %}
+    {# Too short, or too little heard, to divide by. Saying so beats printing a
+       number that is an artefact of the arithmetic. #}
+    <p class="reading-unmeasured">{{ t("reading.too_short") }}</p>
+  {% else %}
+    {% if rewards.any_earned %}
+      <ul class="badges">
+        {% if rewards.finished %}
+          {# The one badge that cannot mislead: a slow reader who reaches the
+             last word earns exactly what a fast one earns. #}
+          <li class="badge badge--finished">{{ t("reading.badge_finished") }}</li>
+        {% endif %}
+        {% if rewards.band_hit %}
+          <li class="badge badge--band">{{ t("reading.badge_band") }}</li>
+        {% endif %}
+      </ul>
+    {% endif %}
+
+    {% if rewards.stars is not none %}
+      <p class="stars" aria-label="{{ t('reading.stars_label', stars=rewards.stars, max=3) }}">
+        {% for n in range(3) %}
+          <span class="star {{ 'star--on' if n < rewards.stars else 'star--off' }}" aria-hidden="true">★</span>
+        {% endfor %}
+      </p>
+    {% endif %}
+
+    <p class="reading-figure">
+      <strong class="reading-wpm">{{ measured }}</strong>
+      <span class="reading-unit">{{ t("reading.wpm_checked") if checked else t("reading.wpm_timed") }}</span>
+    </p>
+
+    {# Filled in by the page from what this browser remembers. The server never
+       learns that a pupil read the same passage twice. #}
+    <p class="reading-personal" id="reading-personal" hidden></p>
+
+    {% if checked %}
+      <p>
+        {{ t("reading.accuracy", percentage=(fluency.accuracy * 100) | round | int,
+              correct=fluency.correct, attempted=fluency.attempted) }}
+      </p>
+      {% if not fluency.finished %}
+        {# Stopping early is ordinary, and is not a mistake. The count says how
+           far they got so the pace is read against that and not the whole text. #}
+        <p class="note">{{ t("reading.stopped_early", read=fluency.attempted, total=fluency.total) }}</p>
+      {% endif %}
+    {% else %}
+      <p class="note">{{ t("reading.timed_only") }}</p>
+    {% endif %}
+
+    {% if band %}
+      <p class="reading-band reading-band--{{ verdict | default('unmeasured') }}">
+        {% if not checked %}
+          {{ t("reading.band_timed", low=band.low, high=band.high) }}
+        {% elif verdict == "within" %}
+          {{ t("reading.band_within", low=band.low, high=band.high) }}
+        {% elif verdict == "above" %}
+          {{ t("reading.band_above", low=band.low, high=band.high) }}
+        {% else %}
+          {{ t("reading.band_below", low=band.low, high=band.high) }}
+        {% endif %}
+      </p>
+      {# The caveat travels with the number, always. A band with no provenance
+         reads as a national standard, and there is no national standard. #}
+      {% if source %}
+        <p class="note note--source">{{ source.caveat }}</p>
+      {% endif %}
+    {% endif %}
+  {% endif %}
+
+  {% if replay %}
+    <div class="reading-replay">
+      <button class="button button--secondary" type="button" id="reading-replay">
+        {{ t("reading.replay") }}
+      </button>
+      <span class="note note--source">
+        {{ t("reading.replay_real") if replay_is_real else t("reading.replay_even") }}
+      </span>
+    </div>
+    {# Times in seconds from the start of the reading, one entry per word the
+       pupil reached. Read by the page to light the passage back up. #}
+    <script type="application/json" id="reading-timeline">{{ replay | tojson }}</script>
+  {% endif %}
+
+  {% if checked and fluency.misread %}
+    <section class="reading-misread">
+      <h3>{{ t("reading.misread_heading") }}</h3>
+      {# Words, not a verdict. A recogniser mishears children constantly, and
+         the wording has to leave room for the machine being the one at fault. #}
+      <p class="note">{{ t("reading.misread_note") }}</p>
+      <ul class="word-list" lang="{{ text.language }}">
+        {% for word in fluency.misread[:20] %}
+          <li>{{ word }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+
+  <div class="reading-again">
+    <button class="button" type="button" id="reading-again">{{ t("reading.again") }}</button>
+  </div>
+
+  {% if rewards.stars is not none %}
+    {# Directly under the stars' consequences rather than in a footnote: the
+       recogniser mishears children, dialects and second-language speakers most,
+       so the stars are least reliable for exactly the pupils they would
+       discourage. #}
+    <p class="note note--source">{{ t("reading.stars_caveat") }}</p>
+  {% endif %}
+
+  <p class="not-a-verdict">{{ t("reading.not_a_verdict") }}</p>
+</div>

@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+
+{% block title %}{{ text.title }} · {{ t("reading.heading") }}{% endblock %}
+
+{% block content %}
+  {# The breadcrumb, the heading and the notes all belong to the page before the
+     reading starts. Once it does, the script hides everything outside
+     .reading-stage: a child reading aloud should see the passage and nothing
+     competing with it. #}
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="/{{ locale }}/">{{ t("nav.home") }}</a> ›
+    <a href="/{{ locale }}/klasse/{{ grade }}">{{ t("grade.heading", grade=grade) }}</a> ›
+    <a href="/{{ locale }}/klasse/{{ grade }}/{{ subject.code }}">{{ subject.display_title.get(lang) }}</a> ›
+    <a href="/{{ locale }}/klasse/{{ grade }}/{{ subject.code }}/lesing">{{ t("reading.heading") }}</a>
+  </nav>
+
+  <h1>{{ text.title }}</h1>
+
+  {# What actually happens to the recording, said before it is made rather than
+     in a policy page nobody opens. Both wordings are true of their own mode:
+     with no speech model there is no recording at all. #}
+  <p class="note note--privacy">
+    {{ t("reading.privacy_checked") if checked else t("reading.privacy_timed") }}
+  </p>
+
+  <section
+    class="reading"
+    id="reading"
+    data-checked="{{ 'true' if checked else 'false' }}"
+    data-live="{{ 'true' if live else 'false' }}"
+    data-text-id="{{ text.id }}"
+    data-words="{{ text.word_count }}"
+    data-base-url="/{{ locale }}/klasse/{{ grade }}/{{ subject.code }}/lesing/{{ text.id }}"
+    data-post-url="/{{ locale }}/klasse/{{ grade }}/{{ subject.code }}/lesing/{{ text.id }}/{{ 'opptak' if checked else 'tid' }}"
+    data-label-start="{{ t('reading.start') }}"
+    data-label-stop="{{ t('reading.stop') }}"
+    data-label-working="{{ t('reading.working') }}"
+    data-label-denied="{{ t('reading.mic_denied') }}"
+    data-label-failed="{{ t('reading.failed') }}"
+  >
+    <div class="reading-stage" id="reading-stage">
+      {# The heads-up display: how far through the passage, and how long so far.
+         Fixed to the top of the stage so it never moves the text -- reflowing a
+         passage under a child mid-sentence is the one thing this screen must
+         never do. #}
+      <div class="reading-hud">
+        <div class="reading-progress" role="progressbar" aria-valuemin="0"
+             aria-valuemax="{{ text.word_count }}" aria-valuenow="0"
+             aria-label="{{ t('reading.progress') }}" id="reading-progress">
+          <span class="reading-progress-bar" id="reading-bar"></span>
+        </div>
+        <span class="reading-clock" id="reading-clock" role="timer" aria-live="off">0:00</span>
+      </div>
+
+      {# The passage is the page. Larger type, generous line height and a limited
+         measure, because a child reading aloud loses their place in a wall of
+         text far more easily than one reading silently.
+
+         Every word is its own span so it can be lit as it is read. The numbering
+         is `ReadingText.paragraphs`, which is derived from the same tokeniser
+         the scorer uses -- the page and the score always mean the same word 43.
+
+         Rendered without newlines inside the paragraph: a line break between
+         spans would be printed as a space the passage does not have. #}
+      <article class="reading-text" id="reading-passage" lang="{{ text.language }}">
+        {% for paragraph in text.paragraphs %}
+          <p>{% for token in paragraph %}{% if token.index is none %}{{ token.text }}{% else %}<span class="w" data-i="{{ token.index }}">{{ token.text }}</span>{% endif %}{% endfor %}</p>
+        {% endfor %}
+      </article>
+
+      <div class="reading-controls">
+        <button class="button button--big" type="button" id="reading-toggle">
+          {{ t("reading.start") }}
+        </button>
+        <span class="reading-meta">{{ t("reading.word_count", count=text.word_count) }}</span>
+      </div>
+
+      <div id="reading-result" aria-live="polite"></div>
+    </div>
+
+    {# Without JavaScript there is no clock, no microphone and no highlighting,
+       so the passage is simply a passage to read aloud. That is a smaller loss
+       than it looks: reading it is the exercise, and the measurement is the
+       extra. #}
+    <noscript>
+      <p class="note">{{ t("reading.noscript") }}</p>
+    </noscript>
+  </section>
+
+  <p class="note">{{ t("reading.authored_note") }}</p>
+{% endblock %}
+
+{% block scripts %}
+  <script src="/static/reading.js" defer></script>
+{% endblock %}

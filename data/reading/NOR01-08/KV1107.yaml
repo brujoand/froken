@@ -1,0 +1,44 @@
+# Høytlesing, norsk etter 2. trinn (NOR01-08 / KV1107).
+#
+# Tekstene er skrevet for Pensum. De er korte, har korte setninger og bruker
+# ord en sjuåring har møtt før — en høytlesingstekst skal måle flyt, ikke
+# ordforråd. Ingenting her er hentet fra læreplanen.
+---
+subject: NOR01-08
+goal_set: KV1107
+
+texts:
+  - id: nor-kv1107-katten
+    goal: KM14140
+    language: nb
+    title: Katten på trappa
+    difficulty: 1
+    source: pensum
+    reviewed: false
+    body: |
+      Det sitter en katt på trappa vår.
+      Den er svart, med hvite poter.
+      Katten ser på meg. Jeg ser på katten.
+      Så reiser den seg og går bort til døra.
+      Mamma sier at katten bor hos naboen.
+      Men jeg tror den liker seg best hos oss.
+      Hver morgen sitter den der og venter.
+      Kanskje den venter på meg.
+
+  - id: nor-kv1107-bussen
+    goal: KM14140
+    language: nb
+    title: Bussen som kom for sent
+    difficulty: 2
+    source: pensum
+    reviewed: false
+    body: |
+      Vi skulle på tur med skolen.
+      Alle sto ved porten og ventet på bussen.
+      Men bussen kom ikke.
+      Læreren så på klokka og sukket.
+      Da begynte det å regne.
+      Vi sprang inn igjen og ventet i gangen.
+      Til slutt kom bussen, helt gul og våt av regn.
+      Sjåføren smilte og sa unnskyld.
+      Vi satte oss ned, og turen kunne begynne.

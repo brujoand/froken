@@ -1,0 +1,53 @@
+# Høytlesing, norsk etter 7. trinn (NOR01-08 / KV1109).
+#
+# Sakprosa og skjønnlitteratur, med lengre perioder og noen fagord — på dette
+# trinnet skal eleven holde flyten gjennom en tekst som ikke er skrevet for å
+# være lett. Skrevet for Pensum.
+---
+subject: NOR01-08
+goal_set: KV1109
+
+texts:
+  - id: nor-kv1109-istid
+    goal: KM14176
+    language: nb
+    title: Landet under isen
+    difficulty: 1
+    source: pensum
+    reviewed: false
+    body: |
+      For tjue tusen år siden lå Norge under is. Ikke snø som smelter om våren,
+      men en sammenhengende bre som flere steder var over to kilometer tykk.
+      Vekten av all denne isen presset landet nedover, slik en madrass gir etter
+      når noen legger seg på den.
+      Da isen omsider smeltet, begynte landet å reise seg igjen. Det gjør det
+      fremdeles. Langs kysten finnes strandlinjer som i dag ligger høyt oppe i
+      lia, med skjell og runde steiner i sanden, langt fra nærmeste bølge.
+      Hastigheten er beskjeden, noen få millimeter i året, men over tid blir det
+      merkbart. Brygger som ble bygget for hundre år siden, ligger flere steder
+      grunnere enn de gjorde da de var nye.
+      Landet vårt er altså ikke ferdig ennå. Det holder fortsatt på å komme seg
+      etter en vinter som varte i titusenvis av år.
+
+  - id: nor-kv1109-brevet
+    goal: KM14176
+    language: nb
+    title: Brevet i skuffen
+    difficulty: 2
+    source: pensum
+    reviewed: false
+    body: |
+      Da vi ryddet loftet etter oldemor, fant vi en skuff som var vanskelig å
+      åpne. Den satt fast, og da den endelig ga etter, lå det bare ett brev i
+      den, uten frimerke og uten adresse.
+      Skriften var tett og skråstilt, av den typen ingen skriver lenger.
+      Blekket hadde bleknet til brunt i kantene, men det gikk fint an å lese.
+      Brevet var skrevet en oktoberkveld i 1943 og handlet mest om helt vanlige
+      ting: at poteten var tatt opp, at søsteren hadde vondt i ryggen, at det
+      var lite kaffe å få tak i.
+      Først på siste side sto det en setning som gjorde at ingen av oss sa noe
+      på en stund. Hun skrev at hun ikke visste om han kom til å lese dette,
+      men at hun ville skrive det ned likevel, i tilfelle.
+      Vi vet fortsatt ikke hvem han var, eller hvorfor brevet aldri ble sendt.
+      Det ligger nå i en mappe hos onkelen min, sammen med et fotografi ingen
+      klarer å sette navn på.

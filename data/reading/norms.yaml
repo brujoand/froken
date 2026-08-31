@@ -1,0 +1,81 @@
+# Speed expectations for reading aloud, in correct words per minute.
+#
+# READ THIS BEFORE CHANGING A NUMBER HERE.
+#
+# LK20 contains no words-per-minute figure. It asks that a pupil read "med flyt
+# og forståelse" and leaves the pace unquantified, and Udir publishes no
+# national norm for oral reading speed. Every band below is therefore Pensum's
+# own guideline, not an official standard, and the UI must never present it as
+# one -- which is why `source` is mandatory and every source carries a caveat
+# that is rendered next to the band.
+#
+# The bands are wide on purpose. Reading speed varies enormously between
+# children who all read perfectly well, and a narrow band would manufacture a
+# problem out of ordinary variation.
+---
+sources:
+  - id: pensum-veiledende-nb
+    title: Pensums veiledende bånd for norsk
+    caveat: >-
+      Dette er Pensums eget veiledende bånd, ikke en offisiell norm.
+      Læreplanen i norsk sier at eleven skal lese med flyt, men oppgir ingen
+      hastighet, og Utdanningsdirektoratet har ingen offisiell norm for
+      lesehastighet. Båndet er rundet av og satt bredt, og sier bare hva som er
+      vanlig — ikke hva som kreves.
+
+  - id: pensum-veiledende-en
+    title: Pensums veiledende bånd for engelsk
+    caveat: >-
+      Dette er Pensums eget veiledende bånd, ikke en offisiell norm. Det er
+      satt lavere enn tilsvarende bånd for elever som har engelsk som
+      førstespråk — for eksempel Hasbrouck og Tindals mye brukte amerikanske
+      leseflytnormer — fordi engelsk i norsk grunnskole er et fremmedspråk og
+      leses langsommere enn morsmålet. Tallene er Pensums avrunding, ikke
+      hentet fra noen av disse kildene.
+
+bands:
+  # Norsk. 2. trinn is barely past sounding words out; 10. trinn approaches the
+  # pace of an adult reading aloud, which is slower than silent reading.
+  - subject: NOR01-08
+    after_year: 2
+    low: 30
+    high: 60
+    source: pensum-veiledende-nb
+  - subject: NOR01-08
+    after_year: 4
+    low: 70
+    high: 110
+    source: pensum-veiledende-nb
+  - subject: NOR01-08
+    after_year: 7
+    low: 110
+    high: 150
+    source: pensum-veiledende-nb
+  - subject: NOR01-08
+    after_year: 10
+    low: 140
+    high: 180
+    source: pensum-veiledende-nb
+
+  # Engelsk, read as a foreign language throughout. Deliberately below the
+  # norsk band at every checkpoint.
+  - subject: ENG01-06
+    after_year: 2
+    low: 20
+    high: 40
+    source: pensum-veiledende-en
+  - subject: ENG01-06
+    after_year: 4
+    low: 40
+    high: 70
+    source: pensum-veiledende-en
+  - subject: ENG01-06
+    after_year: 7
+    low: 70
+    high: 110
+    source: pensum-veiledende-en
+  - subject: ENG01-06
+    after_year: 10
+    low: 100
+    high: 140
+    source: pensum-veiledende-en

@@ -14,14 +14,31 @@ ENV UV_COMPILE_BYTECODE=1 \
 
 WORKDIR /app
 
+# Speech-to-text for the reading exercise. Off by default: it adds CTranslate2
+# and its dependencies to the image, and it is useless without a model
+# directory, which is a mount rather than a layer -- the models are hundreds of
+# megabytes and are not ours to redistribute. See bin/fetch_speech_models.
+#
+#   docker build --build-arg WITH_SPEECH=1 .
+ARG WITH_SPEECH=0
+
 # Dependencies before source, so a code change does not re-resolve them.
 COPY pyproject.toml uv.lock README.md LICENSE ./
-RUN uv sync --frozen --no-dev --no-install-project
+RUN if [ "${WITH_SPEECH}" = "1" ]; then \
+      uv sync --frozen --no-dev --no-install-project --extra speech; \
+    else \
+      uv sync --frozen --no-dev --no-install-project; \
+    fi
 
 COPY src/ ./src/
 COPY data/curriculum/ ./data/curriculum/
 COPY data/items/ ./data/items/
-RUN uv sync --frozen --no-dev
+COPY data/reading/ ./data/reading/
+RUN if [ "${WITH_SPEECH}" = "1" ]; then \
+      uv sync --frozen --no-dev --extra speech; \
+    else \
+      uv sync --frozen --no-dev; \
+    fi
 
 # Non-root, and a fixed uid so a read-only root filesystem or a restrictive
 # PodSecurityContext has something predictable to point at.
@@ -37,9 +54,11 @@ ENV APP_VERSION=${VERSION}
 EXPOSE 8000
 
 # No secrets and no network egress with an empty environment, which is how this
-# image is meant to be run. Sign-in and score history are opt-in and add an OIDC
-# client secret and a writable volume -- see the README. If this container ever
-# needs an API key to serve a quiz, something has gone wrong upstream of here.
+# image is meant to be run. Sign-in, score history and speech checking are all
+# opt-in: they add an OIDC client secret, a writable volume and a read-only
+# model mount respectively -- see the README. Speech checking runs against a
+# local model and makes no outbound request either. If this container ever needs
+# an API key to serve a quiz, something has gone wrong upstream of here.
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
     CMD python -c "import urllib.request;urllib.request.urlopen('http://127.0.0.1:8000/healthz').read()"
 

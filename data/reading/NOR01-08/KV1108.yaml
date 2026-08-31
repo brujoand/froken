@@ -1,0 +1,47 @@
+# Høytlesing, norsk etter 4. trinn (NOR01-08 / KV1108).
+#
+# Lengre setninger enn på 2. trinn, og noen leddsetninger — teksten skal gi
+# eleven noe å holde flyten gjennom. Skrevet for Pensum.
+---
+subject: NOR01-08
+goal_set: KV1108
+
+texts:
+  - id: nor-kv1108-fyrlykta
+    goal: KM14164
+    language: nb
+    title: Lyset ytterst på odden
+    difficulty: 1
+    source: pensum
+    reviewed: false
+    body: |
+      Ytterst på odden står det en liten fyrlykt. Den er ikke høyere enn et
+      hus, men lyset fra den når langt ut over sjøen.
+      Før i tiden bodde det folk der ute. De måtte passe på at lampa aldri
+      slokna, for båtene som kom inn i mørket, hadde bare dette ene lyset å
+      styre etter.
+      I dag går lykta av seg selv. Ingen bor der lenger, og døra er låst.
+      Men om høsten, når det blåser fra vest og bølgene slår over svaberget,
+      blinker lyset like trofast som det alltid har gjort.
+      Bestefar sier at han kan se det fra kjøkkenvinduet hjemme, hvis natta er
+      klar nok.
+
+  - id: nor-kv1108-sykkelen
+    goal: KM14164
+    language: nb
+    title: Sykkelen i kjelleren
+    difficulty: 2
+    source: pensum
+    reviewed: false
+    body: |
+      Det sto en sykkel i kjelleren som ingen hadde brukt på flere år. Dekkene
+      var flate, kjedet var rustent, og setet hadde fått en sprekk.
+      En lørdag bestemte jeg meg for å gjøre noe med den. Jeg pumpet dekkene,
+      vasket rammen med en fille og smurte kjedet til det gikk rundt uten å
+      hakke.
+      Det tok hele formiddagen. Hendene mine ble svarte, og jeg måtte spørre om
+      hjelp til å stramme bremsene.
+      Men da jeg trillet den ut i gården og satte meg opp, rullet den lett og
+      stille nedover bakken.
+      Det er rart å tenke på at den hadde stått der hele tiden og bare ventet
+      på at noen skulle bry seg om den.

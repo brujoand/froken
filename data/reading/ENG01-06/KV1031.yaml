@@ -1,0 +1,43 @@
+# Reading aloud, engelsk etter 4. trinn (ENG01-06 / KV1031).
+#
+# Longer sentences, and a few words a pupil has to work out from context — the
+# goal itself asks for both familiar and unfamiliar word forms. Written for
+# Pensum.
+---
+subject: ENG01-06
+goal_set: KV1031
+
+texts:
+  - id: eng-kv1031-the-lost-mitten
+    goal: KM13347
+    language: en
+    title: The Lost Mitten
+    difficulty: 1
+    source: pensum
+    reviewed: false
+    body: |
+      On Monday I lost one of my mittens. It was the blue one with the white
+      star on it.
+      I looked in my bag. I looked under my desk. I even looked in the box of
+      lost things by the door, but it was not there.
+      On Friday my teacher held up a blue mitten and asked whose it was. I put
+      my hand up so fast that my chair fell over.
+      The mitten had been in the schoolyard all week, hanging on the fence,
+      where somebody had put it so I would find it.
+
+  - id: eng-kv1031-the-night-bus
+    goal: KM13347
+    language: en
+    title: The Night Bus
+    difficulty: 2
+    source: pensum
+    reviewed: false
+    body: |
+      The last bus leaves the town at half past ten. It is almost always empty.
+      The driver knows the road so well that he could probably drive it with
+      his eyes closed, though of course he does not.
+      In winter the windows turn white with frost, and you have to rub a small
+      hole with your sleeve if you want to see anything at all.
+      My grandmother took that bus home from work for thirty years. She says
+      the best part was the last hill, when the lights of the houses came into
+      view all at once, and she knew that supper was waiting.

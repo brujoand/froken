@@ -37,6 +37,7 @@ subject:
   source_link: Se målet hos Udir
   quiz_cta: Ta quizen
   quiz_unavailable: Quiz kommer snart for dette faget.
+  reading_cta: Les høyt
 
 coverage:
   # Honest about reach: a quiz cannot test every kompetansemål, and the count
@@ -106,6 +107,87 @@ result:
   practice_heading: Dette kan du øve mer på
   try_again: Prøv igjen
   back_to_subject: Tilbake til faget
+
+reading:
+  heading: Les høyt
+  intro: >-
+    Velg en tekst, les den høyt, og se hvor fort og hvor nøyaktig du leser.
+  # Alltid et bånd, aldri en grense. Formuleringen skal tåle at et barn som
+  # ligger utenfor båndet leser helt fint.
+  band: >-
+    Etter {year}. trinn leser mange mellom {low} og {high} riktige ord i
+    minuttet. Det er et vanlig område, ikke et krav.
+  word_count: "{count} ord"
+  authored_note: >-
+    Tekstene er skrevet av Pensum, ikke hentet fra læreplanen.
+
+  # Sies før mikrofonen slås på, ikke etterpå.
+  privacy_checked: >-
+    Opptaket blir behandlet i minnet på denne serveren mens du får svaret, og
+    blir så borte. Det lagres ikke, sendes ikke videre, og knyttes ikke til deg.
+  privacy_timed: >-
+    Her tas det ikke opp lyd. Pensum tar bare tiden, og stoler på at du leser
+    hele teksten.
+
+  start: Start lesingen
+  stop: Ferdig
+  working: Regner ut …
+  mic_denied: >-
+    Pensum fikk ikke tilgang til mikrofonen. Vi tar tiden i stedet, uten å
+    sjekke opplesningen.
+  failed: Noe gikk galt. Prøv en gang til.
+  noscript: >-
+    Uten JavaScript tar ikke Pensum tiden. Teksten kan fortsatt leses høyt — det
+    er selve øvingen.
+
+  result_heading: Slik leste du
+  wpm_checked: riktige ord i minuttet
+  wpm_timed: ord i minuttet
+  too_short: >-
+    Lesingen ble for kort til å måle. Prøv igjen, og les litt mer av teksten.
+  accuracy: "{percentage} % riktig — {correct} av {attempted} ord du kom til."
+  stopped_early: Du kom til ord {read} av {total}. Farten er regnet ut av det du rakk.
+  timed_only: >-
+    Dette er bare tiden delt på antall ord i teksten. Ingen har sjekket hvordan
+    du leste.
+
+  band_within: Det er midt i det vanlige området for dette trinnet ({low}–{high}).
+  band_above: Det er raskere enn det vanlige området for dette trinnet ({low}–{high}).
+  band_below: >-
+    Det er langsommere enn det vanlige området for dette trinnet ({low}–{high}).
+    Fart kommer med lesing — det er ingenting i veien med å bruke tid.
+  band_timed: Vanlig område for dette trinnet er {low}–{high} ord i minuttet.
+
+  # Gamification. The wording carries the weight here: a badge that reads as a
+  # mark would contradict every other sentence on the page.
+  progress: Hvor langt du har lest
+  badge_finished: Hele teksten lest
+  badge_band: I mål for trinnet
+  stars_label: "{stars} av {max} stjerner"
+  stars_caveat: >-
+    Stjernene kommer fra hvor mange ord maskinen kjente igjen. Den hører dårlig
+    på barn, dialekt og andrespråk, så få stjerner betyr ofte at maskinen tok
+    feil — ikke at du leste dårlig.
+  replay: Se lesingen om igjen
+  replay_real: Ordene lyser opp når du faktisk leste dem.
+  replay_even: >-
+    Ingen lyttet, så ordene lyser opp i jevnt tempo. Det er ikke slik du leste.
+  again: Les en gang til
+
+  # Regnes ut i nettleseren din og sendes aldri til serveren. Pensum vet ikke at
+  # du har lest den samme teksten før.
+  first_time: Første gang du leser denne. Nå har du noe å slå.
+  new_best: "Ny rekord — {delta} ord i minuttet raskere enn før."
+  previous_best: "Rekorden din på denne teksten er {best}."
+  streak: "{days} dager på rad."
+
+  misread_heading: Ord som ikke ble hørt
+  misread_note: >-
+    Maskinen hører ikke alltid riktig, særlig ikke barnestemmer og dialekt. Står
+    et ord her, kan det like gjerne være maskinen som tok feil som deg.
+  not_a_verdict: >-
+    Dette er en øving, ikke en vurdering. Lesefart varierer mye mellom barn som
+    alle leser godt, og et tall her sier ingenting om hvem som er en god leser.
 
 auth:
   # Innlogging er valgfritt. Teksten skal aldri antyde at man må logge inn for

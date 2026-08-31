@@ -1,0 +1,53 @@
+# Reading aloud, engelsk etter 7. trinn (ENG01-06 / KV1032).
+#
+# Non-fiction and narrative at a length that tests whether fluency holds up past
+# the first paragraph. Written for Pensum.
+---
+subject: ENG01-06
+goal_set: KV1032
+
+texts:
+  - id: eng-kv1032-the-longest-day
+    goal: KM13362
+    language: en
+    title: The Longest Day
+    difficulty: 1
+    source: pensum
+    reviewed: false
+    body: |
+      North of the Arctic Circle, the sun does not set for weeks at a time. It
+      circles the sky instead, dipping towards the horizon around midnight and
+      then climbing again without ever going out.
+      Visitors find this harder than they expect. The body takes its cues from
+      light, and when the light never leaves, sleep becomes something you have
+      to decide on rather than something that happens to you. Most houses have
+      heavy curtains for exactly this reason.
+      The other half of the bargain arrives in December. For several weeks the
+      sun stays below the horizon altogether, and the day is a long blue
+      twilight with a few hours of something close to dawn in the middle of it.
+      People who live there will tell you that the dark is not the difficult
+      part. The difficult part is the week the light comes back, when everyone
+      is suddenly wide awake at two in the morning and nobody can quite explain
+      why.
+
+  - id: eng-kv1032-the-map-that-was-wrong
+    goal: KM13362
+    language: en
+    title: The Map That Was Wrong
+    difficulty: 2
+    source: pensum
+    reviewed: false
+    body: |
+      For nearly two hundred years, an island appeared on maps of the South
+      Pacific. Sailors reported it, cartographers drew it, and later maps
+      copied the earlier ones, as maps generally do.
+      The trouble was that nobody could find it again. Ships passed through the
+      position and reported open water. Still the island stayed on the charts,
+      because removing something from a map requires someone to take
+      responsibility for the gap, and copying is easier than checking.
+      It was finally deleted when a research vessel sailed directly over the
+      spot and measured more than a kilometre of water beneath the hull.
+      The story is often told as a joke about careless mapmakers. It is really
+      a story about how information survives: not because it keeps being
+      verified, but because it keeps being copied by people who assume somebody
+      else did the verifying.
