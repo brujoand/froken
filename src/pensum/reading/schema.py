@@ -40,6 +40,20 @@ def words(text: str) -> list[str]:
     return [match.group(0).casefold() for match in _WORD.finditer(text)]
 
 
+class Token(BaseModel):
+    """A run of the passage as it is printed.
+
+    `index` is the word's position in `word_list` -- the number the scorer and
+    the replay both use -- or None for the punctuation and spacing between
+    words, which is printed but never scored.
+    """
+
+    model_config = ConfigDict(frozen=True)
+
+    text: str
+    index: int | None = None
+
+
 class ReadingText(BaseModel):
     """One passage a pupil reads aloud."""
 
@@ -73,6 +87,31 @@ class ReadingText(BaseModel):
     def lines(self) -> list[str]:
         """The passage split for display, one paragraph per entry."""
         return [line.strip() for line in self.body.strip().split("\n") if line.strip()]
+
+    @property
+    def paragraphs(self) -> list[list[Token]]:
+        """The passage as tokens, numbered so a word can be lit up individually.
+
+        The word numbering must agree exactly with `word_list`, because that is
+        what the scorer aligns against and what the replay indexes into. Doing
+        the split once, here, is what keeps the page and the score talking about
+        the same word 43.
+        """
+        numbered: list[list[Token]] = []
+        index = 0
+        for line in self.lines:
+            tokens: list[Token] = []
+            at = 0
+            for match in _WORD.finditer(line):
+                if match.start() > at:
+                    tokens.append(Token(text=line[at : match.start()], index=None))
+                tokens.append(Token(text=match.group(0), index=index))
+                index += 1
+                at = match.end()
+            if at < len(line):
+                tokens.append(Token(text=line[at:], index=None))
+            numbered.append(tokens)
+        return numbered
 
     @model_validator(mode="after")
     def _check_long_enough(self) -> ReadingText:

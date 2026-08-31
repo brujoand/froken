@@ -23,6 +23,9 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Protocol
 
+from pensum.reading.fluency import HeardWord
+from pensum.reading.schema import words
+
 # UI/text language -> the language code Whisper knows it by. Whisper has both
 # `no` and `nn`, so a nynorsk passage is transcribed as nynorsk rather than
 # being quietly treated as bokmål.
@@ -43,14 +46,23 @@ COMPUTE_TYPE = "int8"
 
 @dataclass(frozen=True)
 class Transcription:
-    """What was heard, and over how long."""
+    """What was heard, when each word was heard, and over how long.
 
-    text: str
+    The per-word times are what let the passage replay afterwards with the words
+    lighting up as they were actually read. They are relative to the first word,
+    not to the file, for the same reason `seconds` is.
+    """
+
+    words: tuple[HeardWord, ...]
     # The span from the first word to the last, when the recogniser reports word
     # timings. That is what should be divided by, not the length of the file:
     # the seconds a child spends reaching for the stop button are not reading
     # time.
     seconds: float
+
+    @property
+    def text(self) -> str:
+        return " ".join(word.text for word in self.words)
 
 
 class Transcriber(Protocol):
@@ -133,20 +145,35 @@ class WhisperTranscriber:
             beam_size=BEAM_SIZE,
         )
 
-        heard: list[str] = []
+        # Whisper hands back its own idea of a word -- "trappa." with the full
+        # stop attached, or occasionally two words at once. Normalising each one
+        # through the same tokeniser the passage went through is what keeps the
+        # two sides of the alignment comparable; a token inherits the time of
+        # the whisper word it came out of.
+        heard: list[HeardWord] = []
         starts: list[float] = []
         ends: list[float] = []
         for segment in segments:
-            heard.append(segment.text)
             for word in segment.words or ():
-                starts.append(float(word.start))
-                ends.append(float(word.end))
+                start, end = float(word.start), float(word.end)
+                starts.append(start)
+                ends.append(end)
+                heard.extend(HeardWord(text=token, at=start) for token in words(word.word))
+            if not (segment.words or ()):
+                # Word timings are requested but not guaranteed. Losing the
+                # replay is acceptable; losing the transcript is not.
+                heard.extend(HeardWord(text=token) for token in words(segment.text))
 
         if starts:
-            seconds = max(ends) - min(starts)
+            origin = min(starts)
+            seconds = max(ends) - origin
+            heard = [
+                HeardWord(text=w.text, at=None if w.at is None else round(w.at - origin, 3))
+                for w in heard
+            ]
         else:
             seconds = len(pcm) / (SAMPLE_RATE * SAMPLE_WIDTH)
-        return Transcription(text=" ".join(part.strip() for part in heard), seconds=seconds)
+        return Transcription(words=tuple(heard), seconds=seconds)
 
 
 def load_transcriber(model_dir: Path | None) -> Transcriber | None:

@@ -29,6 +29,7 @@ from pensum.config import settings as env_settings
 from pensum.items.loader import ItemBank
 from pensum.quiz.session import SessionStore
 from pensum.reading.library import ReadingLibrary
+from pensum.reading.streams import StreamStore
 from pensum.reading.transcribe import Transcriber, load_transcriber
 from pensum.scores.store import AttemptStore
 from pensum.web.admin_routes import router as admin_router
@@ -86,6 +87,10 @@ def create_app(
     # Quiz sessions live here rather than in a store: an unfinished quiz is not
     # a result, so a restart losing in-flight quizzes is the accepted cost.
     app.state.sessions = SessionStore()
+
+    # Readings in progress, held only while they are in progress. Same trade as
+    # quiz sessions: a restart loses an in-flight reading, which is not a result.
+    app.state.streams = StreamStore()
 
     app.state.cookies = CookieCodec(active.session_secret)
     # Constructed eagerly so half-configured sign-in fails at startup rather

@@ -150,6 +150,30 @@ reading:
     comes with reading — there is nothing wrong with taking your time.
   band_timed: The usual range for this year is {low}–{high} words a minute.
 
+  # Gamification. The wording carries the weight here: a badge that reads as a
+  # mark would contradict every other sentence on the page.
+  progress: How far you have read
+  badge_finished: Whole passage read
+  badge_band: Reached the range for this year
+  stars_label: "{stars} of {max} stars"
+  stars_caveat: >-
+    The stars come from how many words the machine recognised. It hears
+    children, accents and second-language speakers poorly, so few stars often
+    means the machine got it wrong — not that you read badly.
+  replay: Watch it again
+  replay_real: The words light up at the moments you actually read them.
+  replay_even: >-
+    Nobody listened, so the words light up at an even pace. That is not how you
+    read it.
+  again: Read it again
+
+  # Worked out in your browser and never sent to the server. Pensum does not
+  # know you have read this passage before.
+  first_time: First time reading this one. Now you have something to beat.
+  new_best: "New best — {delta} words a minute faster than before."
+  previous_best: "Your best on this passage is {best}."
+  streak: "{days} days in a row."
+
   misread_heading: Words that were not heard
   misread_note: >-
     The machine mishears people, children and accents most of all. A word listed

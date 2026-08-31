@@ -158,6 +158,29 @@ reading:
     Fart kommer med lesing — det er ingenting i veien med å bruke tid.
   band_timed: Vanlig område for dette trinnet er {low}–{high} ord i minuttet.
 
+  # Gamification. The wording carries the weight here: a badge that reads as a
+  # mark would contradict every other sentence on the page.
+  progress: Hvor langt du har lest
+  badge_finished: Hele teksten lest
+  badge_band: I mål for trinnet
+  stars_label: "{stars} av {max} stjerner"
+  stars_caveat: >-
+    Stjernene kommer fra hvor mange ord maskinen kjente igjen. Den hører dårlig
+    på barn, dialekt og andrespråk, så få stjerner betyr ofte at maskinen tok
+    feil — ikke at du leste dårlig.
+  replay: Se lesingen om igjen
+  replay_real: Ordene lyser opp når du faktisk leste dem.
+  replay_even: >-
+    Ingen lyttet, så ordene lyser opp i jevnt tempo. Det er ikke slik du leste.
+  again: Les en gang til
+
+  # Regnes ut i nettleseren din og sendes aldri til serveren. Pensum vet ikke at
+  # du har lest den samme teksten før.
+  first_time: Første gang du leser denne. Nå har du noe å slå.
+  new_best: "Ny rekord — {delta} ord i minuttet raskere enn før."
+  previous_best: "Rekorden din på denne teksten er {best}."
+  streak: "{days} dager på rad."
+
   misread_heading: Ord som ikke ble hørt
   misread_note: >-
     Maskinen hører ikke alltid riktig, særlig ikke barnestemmer og dialekt. Står

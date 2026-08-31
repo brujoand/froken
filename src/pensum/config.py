@@ -58,6 +58,13 @@ class Settings:
     # fetched rather than committed: see bin/fetch_speech_models.
     speech_model_dir: Path | None = None
 
+    # Whether to light words up while the pupil is still reading. Costs real
+    # CPU: a window of recent audio is transcribed every couple of seconds, on
+    # top of the single pass at the end that produces the score. Worth it on a
+    # machine serving a household, and the first thing to turn off on one
+    # serving a school. Ignored entirely when no models are configured.
+    speech_live: bool = True
+
     # --- Sign-in (pocket-id, or any OIDC provider) --------------------------
     oidc_issuer: str | None = None
     oidc_client_id: str | None = None
@@ -114,6 +121,7 @@ class Settings:
         return cls(
             include_unreviewed_items=_flag("PENSUM_INCLUDE_UNREVIEWED"),
             speech_model_dir=Path(speech_models) if speech_models else None,
+            speech_live=_flag("PENSUM_SPEECH_LIVE", default=True),
             # Trailing slashes matter: the issuer is concatenated with the
             # discovery path, and `aud`/`iss` comparisons are exact.
             oidc_issuer=issuer.rstrip("/") if issuer else None,

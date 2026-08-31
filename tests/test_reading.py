@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import io
 import wave
+from datetime import UTC, datetime, timedelta
 
 import pytest
 from fastapi.testclient import TestClient
@@ -17,10 +18,24 @@ from fastapi.testclient import TestClient
 from pensum.catalogue.loader import Catalogue
 from pensum.config import Settings
 from pensum.items.loader import ItemBank
-from pensum.reading.audio import SAMPLE_RATE, AudioError, decode
-from pensum.reading.fluency import ABOVE, BELOW, WITHIN, measure, time_only, verdict
+from pensum.reading import rewards
+from pensum.reading.audio import MAX_BYTES, SAMPLE_RATE, AudioError, decode
+from pensum.reading.fluency import (
+    ABOVE,
+    BELOW,
+    WITHIN,
+    HeardWord,
+    advance,
+    even_replay,
+    heard_from_text,
+    measure,
+    replay,
+    time_only,
+    verdict,
+)
 from pensum.reading.library import ReadingLibrary
 from pensum.reading.schema import ReadingText, words
+from pensum.reading.streams import MAX_STREAMS, STREAM_TTL, StreamLimit, StreamStore
 from pensum.reading.transcribe import WHISPER_LANGUAGE, Transcription, load_transcriber
 from pensum.reading.validate import validate
 from pensum.web.app import create_app
@@ -55,21 +70,34 @@ def wav(seconds: float = 1.0, rate: int = SAMPLE_RATE, channels: int = 1, width:
 
 
 class FakeTranscriber:
-    """Stands in for Vosk. The models are not in the repository, and a test that
-    depended on one would be a test nobody could run."""
+    """Stands in for Whisper. The models are not in the repository, and a test
+    that depended on one would be a test nobody could run."""
 
     def __init__(
-        self, heard: str, seconds: float = 30.0, languages: tuple[str, ...] = ("nb", "en")
+        self,
+        heard: str,
+        seconds: float = 30.0,
+        languages: tuple[str, ...] = ("nb", "en"),
+        *,
+        timed: bool = True,
     ):
-        self.heard = heard
+        spoken = heard_from_text(heard)
+        step = seconds / max(len(spoken), 1)
+        self.words = (
+            tuple(HeardWord(text=w.text, at=round(i * step, 3)) for i, w in enumerate(spoken))
+            if timed
+            else spoken
+        )
         self.seconds = seconds
         self.languages = languages
+        self.calls = 0
 
     def supports(self, language: str) -> bool:
         return language in self.languages
 
     def transcribe(self, pcm: bytes, language: str) -> Transcription:
-        return Transcription(text=self.heard, seconds=self.seconds)
+        self.calls += 1
+        return Transcription(words=self.words, seconds=self.seconds)
 
 
 # --- Scoring ---------------------------------------------------------------
@@ -446,3 +474,298 @@ def test_every_passage_language_maps_to_a_whisper_language() -> None:
     """Including nynorsk, which Whisper knows as its own language rather than as
     a dialect of the bokmål one."""
     assert WHISPER_LANGUAGE == {"nb": "no", "nn": "nn", "en": "en"}
+
+
+# --- Lighting the words up -------------------------------------------------
+
+
+def test_the_printed_tokens_are_numbered_the_way_the_scorer_counts() -> None:
+    """The page lights word 43; the scorer marks word 43. If these two ever
+    disagree, every highlight on the screen is off by the difference."""
+    passage = text()
+
+    printed = [token for paragraph in passage.paragraphs for token in paragraph]
+    numbered = [token for token in printed if token.index is not None]
+
+    assert [token.index for token in numbered] == list(range(passage.word_count))
+    assert [token.text.casefold() for token in numbered] == passage.word_list
+    # Punctuation and spacing survive, or the passage is printed as a word list.
+    assert "".join(token.text for token in printed[: len(printed)]).strip().startswith("Det")
+
+
+def test_the_live_cursor_moves_forward_with_what_was_just_heard() -> None:
+    passage = text()
+    first = advance(passage, 0, "det sitter en katt")
+
+    assert first == 4
+
+
+def test_the_live_cursor_never_moves_backwards() -> None:
+    """A highlight that jumps back mid-sentence is worse than one that lags."""
+    passage = text()
+    cursor = advance(passage, 0, "det sitter en katt på trappa vår")
+
+    assert advance(passage, cursor, "noe helt annet") == cursor
+
+
+def test_a_common_word_cannot_teleport_the_cursor_to_the_end() -> None:
+    """ "på" appears twice in the passage. Matching only the next stretch is what
+    keeps the second occurrence from dragging the highlight forward."""
+    passage = text()
+
+    assert advance(passage, 0, "på") <= 6
+
+
+def test_the_replay_uses_the_times_the_words_were_actually_heard() -> None:
+    passage = text()
+    spoken = tuple(
+        HeardWord(text=word, at=index * 0.5) for index, word in enumerate(passage.word_list)
+    )
+
+    timeline = replay(measure(passage, spoken, seconds=12.0))
+
+    assert [entry["i"] for entry in timeline] == list(range(passage.word_count))
+    assert timeline[0]["at"] == 0.0
+    assert timeline[2]["at"] == 1.0
+    assert all(entry["ok"] for entry in timeline)
+
+
+def test_a_word_that_was_not_heard_still_gets_a_time_so_the_replay_runs_on() -> None:
+    passage = text()
+    timeline = replay(measure(passage, PASSAGE.replace("svart, ", ""), seconds=30.0))
+
+    missed = [entry for entry in timeline if not entry["ok"]]
+    assert missed
+    # No timings from a bare transcript, so the whole thing is evenly paced --
+    # and every reached word is still in the timeline.
+    assert [entry["i"] for entry in timeline] == sorted(entry["i"] for entry in timeline)
+
+
+def test_a_reading_nobody_listened_to_replays_at_an_even_pace() -> None:
+    passage = text()
+    timeline = even_replay(passage, seconds=30.0)
+
+    assert len(timeline) == passage.word_count
+    gaps = {round(timeline[i + 1]["at"] - timeline[i]["at"], 3) for i in range(len(timeline) - 1)}
+    assert len(gaps) == 1
+
+
+# --- Badges ----------------------------------------------------------------
+
+
+def test_finishing_is_rewarded_regardless_of_pace() -> None:
+    """The one badge that cannot mislead: a slow reader who reaches the last
+    word earns exactly what a fast one earns."""
+    slow = rewards.earned(measure(text(), PASSAGE, seconds=120.0), BELOW)
+    fast = rewards.earned(measure(text(), PASSAGE, seconds=8.0), ABOVE)
+
+    assert slow.finished and fast.finished
+
+
+def test_the_band_badge_is_for_reaching_the_band_not_for_landing_in_it() -> None:
+    """Rewarding only the middle would turn a guideline range into a target with
+    a penalty on both sides."""
+    fluency = measure(text(), PASSAGE, seconds=10.0)
+
+    assert rewards.earned(fluency, WITHIN).band_hit
+    assert rewards.earned(fluency, ABOVE).band_hit
+    assert not rewards.earned(fluency, BELOW).band_hit
+
+
+def test_a_reading_nobody_listened_to_earns_no_stars() -> None:
+    """There is no accuracy, and inventing one from the clock would hand out
+    three stars for reading fast and none for reading carefully."""
+    assert rewards.earned_timed(finished=True, band_hit=True).stars is None
+
+
+def test_stars_are_forgiving_because_the_recogniser_is_not() -> None:
+    assert rewards.stars_for(1.0) == 3
+    assert rewards.stars_for(0.90) == 3
+    assert rewards.stars_for(0.80) == 2
+    assert rewards.stars_for(0.60) == 1
+    assert rewards.stars_for(0.20) == 0
+    assert rewards.stars_for(None) is None
+
+
+# --- Streaming a reading ---------------------------------------------------
+
+
+def wpm_in(html: str) -> str:
+    return html.split('data-wpm="')[1].split('"')[0]
+
+
+def pcm(seconds: float = 2.0) -> bytes:
+    return b"\x00" * (int(SAMPLE_RATE * seconds) * 2)
+
+
+def test_a_streamed_reading_lights_words_up_then_scores_the_whole_thing(
+    catalogue: Catalogue, library
+) -> None:
+    passage = first_text(library, "KV1107")
+    transcriber = FakeTranscriber(passage.body)
+    client = app_for(catalogue, transcriber)
+    base = f"/nb/klasse/2/NOR01-08/lesing/{passage.id}"
+
+    opened = client.post(f"{base}/strom")
+    assert opened.status_code == 200
+    stream_id = opened.json()["stream"]
+
+    pushed = client.post(
+        f"{base}/strom/{stream_id}",
+        content=pcm(),
+        headers={"Content-Type": "application/octet-stream"},
+    )
+    assert pushed.status_code == 200
+    assert pushed.json()["cursor"] > 0
+
+    finished = client.post(f"{base}/strom/{stream_id}/ferdig")
+    assert finished.status_code == 200
+    assert "100 %" in finished.text
+
+    # The audio is dropped the moment the reading is scored, not on a timer.
+    assert client.post(f"{base}/strom/{stream_id}/ferdig").status_code == 404
+
+
+def test_the_live_cursor_never_feeds_the_score(catalogue: Catalogue, library) -> None:
+    """The live passes see eight-second windows with no idea what came before.
+    The score comes from one pass over the whole recording, and a live pass that
+    misheard must not be able to change it."""
+    passage = first_text(library, "KV1107")
+    client = app_for(catalogue, FakeTranscriber(passage.body))
+    base = f"/nb/klasse/2/NOR01-08/lesing/{passage.id}"
+
+    stream_id = client.post(f"{base}/strom").json()["stream"]
+    for _ in range(3):
+        client.post(
+            f"{base}/strom/{stream_id}",
+            content=pcm(),
+            headers={"Content-Type": "application/octet-stream"},
+        )
+
+    streamed = client.post(f"{base}/strom/{stream_id}/ferdig")
+    one_shot = client.post(
+        f"{base}/opptak", content=wav(seconds=30), headers={"Content-Type": "audio/wav"}
+    )
+
+    assert 'data-wpm="' in streamed.text
+    assert wpm_in(streamed.text) == wpm_in(one_shot.text)
+
+
+def test_a_stream_for_another_passage_is_not_accepted(catalogue: Catalogue, library) -> None:
+    """The stream id is the only thing standing between one reading's audio and
+    another request."""
+    first = first_text(library, "KV1107")
+    other = library.for_goal_set("KV1107")[1]
+    client = app_for(catalogue, FakeTranscriber(first.body))
+
+    stream_id = client.post(f"/nb/klasse/2/NOR01-08/lesing/{first.id}/strom").json()["stream"]
+    response = client.post(
+        f"/nb/klasse/2/NOR01-08/lesing/{other.id}/strom/{stream_id}",
+        content=pcm(),
+        headers={"Content-Type": "application/octet-stream"},
+    )
+
+    assert response.status_code == 404
+
+
+def test_a_chunk_that_is_not_16_bit_pcm_is_refused(catalogue: Catalogue, library) -> None:
+    passage = first_text(library, "KV1107")
+    client = app_for(catalogue, FakeTranscriber(passage.body))
+    base = f"/nb/klasse/2/NOR01-08/lesing/{passage.id}"
+
+    stream_id = client.post(f"{base}/strom").json()["stream"]
+    response = client.post(
+        f"{base}/strom/{stream_id}",
+        content=b"\x00" * 33,
+        headers={"Content-Type": "application/octet-stream"},
+    )
+
+    assert response.status_code == 400
+
+
+def test_a_build_with_no_model_cannot_open_a_stream(timed_client: TestClient, library) -> None:
+    passage = first_text(library, "KV1107")
+
+    assert timed_client.post(f"/nb/klasse/2/NOR01-08/lesing/{passage.id}/strom").status_code == 503
+
+
+def test_streams_expire_and_are_pruned() -> None:
+    store = StreamStore()
+    now = datetime(2026, 8, 31, 12, 0, tzinfo=UTC)
+    stream = store.create(goal_set="KV1107", text_id="t1", language="nb", now=now)
+
+    assert store.get(stream.id, now) is stream
+    assert store.get(stream.id, now + STREAM_TTL + timedelta(seconds=1)) is None
+    assert len(store) == 0
+
+
+def test_a_stream_refuses_to_grow_without_limit() -> None:
+    store = StreamStore()
+    stream = store.create(
+        goal_set="KV1107", text_id="t1", language="nb", now=datetime(2026, 8, 31, tzinfo=UTC)
+    )
+
+    with pytest.raises(StreamLimit):
+        stream.append(b"\x00" * (MAX_BYTES + 2))
+
+
+def test_too_many_readings_at_once_is_refused_rather_than_swallowing_memory() -> None:
+    """Every in-flight reading holds its audio in memory, so this is a memory
+    ceiling rather than a rate limit."""
+    store = StreamStore()
+    now = datetime(2026, 8, 31, tzinfo=UTC)
+    for _ in range(MAX_STREAMS):
+        store.create(goal_set="KV1107", text_id="t1", language="nb", now=now)
+
+    with pytest.raises(StreamLimit):
+        store.create(goal_set="KV1107", text_id="t1", language="nb", now=now)
+
+
+# --- The screen ------------------------------------------------------------
+
+
+def test_the_passage_is_rendered_one_span_per_word(timed_client: TestClient, library) -> None:
+    passage = first_text(library, "KV1107")
+
+    response = timed_client.get(f"/nb/klasse/2/NOR01-08/lesing/{passage.id}")
+
+    assert response.text.count('class="w" data-i=') == passage.word_count
+
+
+def test_live_highlighting_is_off_when_the_deployment_turns_it_off(
+    catalogue: Catalogue, library
+) -> None:
+    """It costs a transcription every couple of seconds on top of the one that
+    produces the score, which is the first thing to turn off under load."""
+    passage = first_text(library, "KV1107")
+    client = TestClient(
+        create_app(
+            catalogue,
+            ItemBank.load(),
+            settings=Settings(session_secret="test", speech_live=False),
+            reading=ReadingLibrary.load(include_unreviewed=True),
+            transcriber=FakeTranscriber(passage.body),
+        )
+    )
+
+    response = client.get(f"/nb/klasse/2/NOR01-08/lesing/{passage.id}")
+
+    assert 'data-live="false"' in response.text
+    # Still checked, just not live.
+    assert 'data-checked="true"' in response.text
+
+
+def test_the_result_carries_the_replay_and_the_caveats(catalogue: Catalogue, library) -> None:
+    passage = first_text(library, "KV1107")
+    client = app_for(catalogue, FakeTranscriber(passage.body))
+
+    response = client.post(
+        f"/nb/klasse/2/NOR01-08/lesing/{passage.id}/opptak",
+        content=wav(seconds=30),
+        headers={"Content-Type": "audio/wav"},
+    )
+
+    assert 'id="reading-timeline"' in response.text
+    # Stars never appear without the sentence explaining what they are worth.
+    assert "stars" in response.text
+    assert "hører dårlig" in response.text

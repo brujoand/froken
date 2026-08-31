@@ -174,14 +174,57 @@ band without a cited source impossible to load, and the result page renders the
 source's caveat next to the number every time. Reading speed varies enormously
 between children who all read perfectly well, and the wording says so.
 
+### Owning the screen
+
+Starting a reading takes over the page. The header, the breadcrumb, the notes
+and the footer go; the passage grows to fill the screen with a progress bar and
+a clock above it, and the browser is asked for fullscreen on top. `Escape` ends
+the reading. None of it is required — with JavaScript off the passage is simply
+a passage to read aloud, which is the exercise anyway.
+
+**Words light up as they are read.** While the reading is going, audio is sent
+to Pensum in two-second slices; each one is transcribed and matched against the
+next stretch of the passage, and the highlight moves forward to wherever the
+words were recognised. It runs a beat behind and it only ever moves forward — a
+highlight that jumps backwards mid-sentence is worse than one that lags. **The
+live pass never touches the score.** It sees eight-second windows with no idea
+what came before; the result comes from one pass over the whole recording when
+the reading ends.
+
+**Then it plays back.** Whisper reports when each word was heard, so the passage
+lights up again at the times the pupil actually read it, with unrecognised words
+marked as they pass. A reading nobody listened to replays at an even pace and
+the page says that is what it is doing, rather than implying a recording it
+never made.
+
+### What it celebrates
+
+Four rewards, and they are not equally defensible:
+
+- **Finishing the passage.** The one badge that cannot mislead: a slow reader
+  who reaches the last word earns exactly what a fast one earns.
+- **Reaching the band.** Awarded for reaching *or passing* the range for the
+  trinn, never for landing inside it — rewarding only the middle would turn a
+  guideline into a target with a penalty on both sides.
+- **Stars, from accuracy.** Thresholds are deliberately forgiving, and the
+  sentence explaining that the recogniser mishears children, dialects and
+  second-language speakers is rendered directly underneath rather than in a
+  footnote. A reading nobody listened to shows no stars at all.
+- **Personal bests and a daily streak.** Computed in the pupil's own browser
+  from `localStorage` and never sent anywhere, so Pensum still does not know
+  that anyone read the same passage twice.
+
 ### Two modes, and only one of them needs configuration
 
 | | Default image | With speech models |
 |---|---|---|
-| Passage shown | yes | yes |
+| Passage shown, screen taken over | yes | yes |
 | Reading timed | yes | yes |
-| Audio recorded | **no** | in memory, for the length of the request |
+| Audio recorded | **no** | in memory, for the length of the reading |
+| Words light up live | no | yes |
 | Read against the text | no | yes — accuracy, and which words were not heard |
+| Replay | even pace, labelled as such | the real times each word was read |
+| Stars | no | yes |
 
 The default is the left column. There is no microphone prompt, no recording and
 no upload; the page times the reading and says outright that nobody checked it.
@@ -200,11 +243,18 @@ The image needs speech support compiled in for this to do anything — build it
 with `--build-arg WITH_SPEECH=1`, which adds the `speech` extra. The published
 image is built without it.
 
+`PENSUM_SPEECH_LIVE=0` keeps the checking and drops the live highlight. That is
+the dial to reach for first under load: lighting words up costs a transcription
+every two seconds per pupil reading, on top of the single pass that produces the
+score. In-flight readings hold their audio in memory, so concurrency is capped
+(32 at once) rather than allowed to grow.
+
 ### Where the audio goes
 
-Nowhere. A recording is captured in the page, posted to Pensum's own origin,
-decoded in memory, transcribed by a model on local disk and dropped when the
-response is sent. It is never written to disk, never sent to a speech API,
+Nowhere. A recording is captured in the page, posted to Pensum's own origin in
+slices, held in memory only while the reading is in progress, transcribed by a
+model on local disk, and dropped the moment the reading is scored — not on a
+timer. It is never written to disk, never sent to a speech API,
 never attached to a pupil — signed in or not — and never kept. Transcription is
 `faster-whisper` running in-process, so a container with models mounted still
 makes no outbound request.
@@ -285,6 +335,14 @@ and re-verified against the official source.
   dialects and second-language speakers more than it mishears anyone else, so a
   word listed as "not heard" may be the machine's mistake rather than the
   pupil's — which the result page says as well.
+- **The reading screen is gamified, and two of its rewards are in tension with
+  everything above.** Stars come from a recogniser that is least accurate for
+  the pupils they would most discourage, and rewarding a words-per-minute band
+  makes a target of a range the norms file explicitly says is not one. They are
+  built the least harmful way we could — forgiving thresholds, the caveat next
+  to the stars, credit for reaching the band rather than for landing inside it,
+  no stars at all when nothing was listened to — but the tension is real and is
+  recorded here rather than smoothed over.
 - **No accounts and no analytics unless a deployment adds them.** Out of the
   box Pensum stores nothing about who is using it: quiz progress lives in memory
   for the length of a session and is gone afterwards, and there is no third-party

@@ -618,6 +618,11 @@ a {
   border: 1px solid var(--accent);
 }
 
+.button--big {
+  font-size: 1.15rem;
+  padding: 0.8rem 2rem;
+}
+
 .reading-list {
   list-style: none;
   padding: 0;
@@ -633,10 +638,10 @@ a {
    line is what makes a fluent reader look disfluent. Hence the larger size, the
    open leading and the short measure. */
 .reading-text {
-  font-size: 1.25rem;
-  line-height: 1.9;
+  font-size: 1.35rem;
+  line-height: 2;
   max-width: 32em;
-  margin: 1rem 0;
+  margin: 1rem auto;
   padding: 1.2rem 1.4rem;
   background: var(--card);
   border: 1px solid var(--line);
@@ -651,24 +656,110 @@ a {
   margin-bottom: 0;
 }
 
-.reading-meta {
-  color: var(--ink-soft);
-  font-size: 0.9rem;
+/* A word, before it has been read. Unlit is the resting state, so the passage
+   must be perfectly readable in it -- dimming the text a child is about to read
+   would be a cruel way to decorate a screen. */
+.reading-text .w {
+  border-radius: 4px;
+  padding: 0 0.06em;
+  transition:
+    background-color 160ms ease-out,
+    color 160ms ease-out;
+}
+
+.reading-text .w.lit {
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Reached but not heard. Underlined rather than reddened: the recogniser is
+   wrong often enough that this must read as "not picked up", not as an error. */
+.reading-text .w.missed {
+  text-decoration: underline dotted;
+  text-underline-offset: 0.25em;
+}
+
+.reading-hud {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 auto 0.5rem;
+  max-width: 32em;
+}
+
+.reading-progress {
+  flex: 1;
+  height: 8px;
+  background: var(--accent-soft);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.reading-progress-bar {
+  display: block;
+  width: 0;
+  height: 100%;
+  background: var(--accent);
+  transition: width 220ms ease-out;
 }
 
 .reading-controls {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
   margin: 1rem 0;
 }
 
 .reading-clock {
   font-family: ui-monospace, monospace;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-variant-numeric: tabular-nums;
   color: var(--ink-soft);
 }
+
+.reading-meta {
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+
+/* Focus mode: while a child is reading, the passage is the only thing on the
+   screen. Applied to the body so the site header, footer and every note around
+   the passage go at once -- a nav bar in the corner is exactly the sort of
+   thing that pulls a seven-year-old's eyes off the line they are on. */
+body.reading-focus .site-header,
+body.reading-focus .site-footer,
+body.reading-focus .breadcrumb,
+body.reading-focus h1,
+body.reading-focus .note {
+  display: none;
+}
+
+body.reading-focus main {
+  max-width: none;
+  padding: 0;
+}
+
+body.reading-focus .reading-stage {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: auto;
+  padding: 2rem 1.5rem;
+  background: var(--paper);
+}
+
+body.reading-focus .reading-text {
+  font-size: clamp(1.4rem, 3.4vw, 2.2rem);
+  border: 0;
+  background: none;
+}
+
+/* --- The result ---------------------------------------------------------- */
 
 .reading-result {
   border: 1px solid var(--line);
@@ -686,13 +777,64 @@ a {
 }
 
 .reading-wpm {
-  font-size: 2.4rem;
+  font-size: 2.6rem;
   line-height: 1;
   color: var(--accent);
 }
 
 .reading-unit {
   color: var(--ink-soft);
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.8rem;
+}
+
+.badge {
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.stars {
+  font-size: 2rem;
+  letter-spacing: 0.15em;
+  margin: 0.2rem 0;
+}
+
+.star--on {
+  color: #e0a63a;
+}
+
+/* Kept visible rather than removed, so three stars looks like three out of
+   three and not like an unexplained row of one. */
+.star--off {
+  color: var(--line);
+}
+
+.reading-personal {
+  font-weight: 600;
+  margin: 0.3rem 0 0.8rem;
+}
+
+.reading-replay {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+
+.reading-again {
+  margin-top: 1rem;
 }
 
 /* Deliberately undifferentiated by colour. A band is not a grade, and painting
@@ -725,4 +867,13 @@ a {
   color: var(--ink-soft);
   font-size: 0.85rem;
   margin-bottom: 0;
+}
+
+/* A child on a school laptop with reduced motion set still gets the highlight;
+   what goes is the animation between states. */
+@media (prefers-reduced-motion: reduce) {
+  .reading-text .w,
+  .reading-progress-bar {
+    transition: none;
+  }
 }
