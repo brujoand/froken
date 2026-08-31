@@ -123,6 +123,13 @@ reading:
   start: Start reading
   stop: Done
   working: Working …
+  speech_blocked: >-
+    The browser refused to recognise speech. On iPhone and iPad, dictation has
+    to be switched on under Settings, General, Keyboard. We will time you
+    instead, without checking the reading.
+  speech_unsupported: >-
+    The browser does not recognise this language. We will time you instead,
+    without checking the reading.
   mic_denied: >-
     Pensum could not reach the microphone. We will time you instead, without
     checking the reading.

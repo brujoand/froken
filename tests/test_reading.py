@@ -1013,3 +1013,22 @@ def test_the_prefix_rule_has_a_known_cost() -> None:
     assert close_enough("store", "storm")
     # But it is a stem rule, not a "first letter" rule.
     assert not close_enough("stor", "smør")
+
+
+def test_the_page_carries_what_to_say_when_the_recogniser_refuses(
+    timed_client: TestClient, library
+) -> None:
+    """A refusal has to arrive as words, not as nothing happening.
+
+    The recogniser reports `not-allowed` both for a denied permission prompt and
+    for a device with dictation switched off, and the page cannot tell those
+    apart -- so the one message has to cover the remedy for both.
+    """
+    passage = first_text(library, "KV1107")
+
+    page = timed_client.get(f"/nb/klasse/2/NOR01-08/lesing/{passage.id}")
+
+    assert "data-label-speech-blocked=" in page.text
+    assert "data-label-speech-unsupported=" in page.text
+    # Naming the setting, because a child cannot be expected to guess it.
+    assert "diktering" in page.text

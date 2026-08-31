@@ -481,7 +481,36 @@
     advanceCursor(tokens);
   }
 
+  /* The reading carries on as a timed one. Called when checking becomes
+   * impossible -- microphone refused, recogniser refused -- and never to hide
+   * a failure: every caller passes something to say. */
+  function fallbackToTimed(message) {
+    checked = false;
+    live = false;
+    engine = "timed";
+    postUrl = baseUrl + "/tid";
+    say(message);
+  }
+
+  /* Which recogniser failures end the attempt, and what to say about each.
+   * Anything absent here is treated as passing weather: `no-speech` is a child
+   * pausing to think, `aborted` is the recogniser being stopped on purpose. */
+  function fatalMessage(code) {
+    if (code === "not-allowed" || code === "service-not-allowed") {
+      /* Two different refusals with one remedy the child cannot guess at. On
+       * iOS this is what a device with dictation switched off reports, and it
+       * is indistinguishable from a denied permission prompt from in here. */
+      return root.dataset.labelSpeechBlocked;
+    }
+    if (code === "audio-capture") return root.dataset.labelDenied;
+    if (code === "language-not-supported") return root.dataset.labelSpeechUnsupported;
+    if (code === "network") return root.dataset.labelFailed;
+    return null;
+  }
+
   function startRecognition() {
+    var stopped = false;
+
     recogniser = new Recognition();
     recogniser.lang = speechLocale;
     recogniser.continuous = true;
@@ -498,8 +527,9 @@
     recogniser.onresult = collect;
     recogniser.onend = function () {
       /* Recognisers stop on their own after a pause. A child thinking about a
-       * long word is a pause. */
-      if (running) {
+       * long word is a pause. A refusal is not: restarting through one spins
+       * as fast as the browser will answer, for as long as the child reads. */
+      if (running && !stopped) {
         try {
           recogniser.start();
         } catch (error) {
@@ -507,11 +537,18 @@
         }
       }
     };
-    recogniser.onerror = function () {};
+    recogniser.onerror = function (event) {
+      var message = fatalMessage(event && event.error);
+      if (!message) return;
+      stopped = true;
+      stopRecognition();
+      fallbackToTimed(message);
+    };
     try {
       recogniser.start();
     } catch (error) {
-      say(root.dataset.labelFailed);
+      stopped = true;
+      fallbackToTimed(root.dataset.labelFailed);
     }
   }
 
@@ -640,11 +677,7 @@
       function () {
         /* Denied, or no microphone. The exercise still works as a timed one, so
          * say what changed rather than refusing to start. */
-        checked = false;
-        live = false;
-        engine = "timed";
-        postUrl = baseUrl + "/tid";
-        say(root.dataset.labelDenied);
+        fallbackToTimed(root.dataset.labelDenied);
         begin();
       }
     );
