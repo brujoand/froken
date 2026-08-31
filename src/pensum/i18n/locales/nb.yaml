@@ -252,6 +252,14 @@ rights:
     er det borte. Det lagres ikke, deles ikke, og knyttes ikke til deg. Det
     finnes derfor ingen opptak å be om innsyn i eller sletting av.
 
+review:
+  # Vises bare for den som har lov til å se utkast. En elev får aldri servert et
+  # uleste spørsmål i det hele tatt.
+  draft: Utkast — ikke gjennomgått
+  draft_note: >-
+    Du ser også innhold ingen har lest gjennom ennå, fordi du er logget inn som
+    administrator. Elever ser bare det som er merket som gjennomgått.
+
 auth:
   # Innlogging er valgfritt. Teksten skal aldri antyde at man må logge inn for
   # å ta en quiz -- det må man ikke.

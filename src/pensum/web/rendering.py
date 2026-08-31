@@ -14,7 +14,7 @@ from fastapi import HTTPException, Request
 from fastapi.templating import Jinja2Templates
 
 from pensum.i18n import SUPPORTED_LOCALES, curriculum_language, translate
-from pensum.web.deps import current_user, get_settings
+from pensum.web.deps import current_user, get_settings, sees_unreviewed
 
 TEMPLATES_DIR = Path(__file__).parent / "templates"
 
@@ -66,5 +66,11 @@ def context(request: Request, locale: str, **extra: object) -> dict[str, object]
         "history_enabled": settings.history_enabled,
         "user": user,
         "is_admin": user is not None and user.in_group(settings.admin_group),
+        # Whether this reader is being shown content no human has signed off.
+        # In the context rather than passed per page, because every template
+        # that can render a draft has to be able to label it -- an unmarked
+        # draft is worse than a hidden one, since the reader cannot tell that
+        # what they are judging is the thing awaiting judgement.
+        "drafts_visible": sees_unreviewed(request),
         **extra,
     }

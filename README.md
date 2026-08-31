@@ -153,6 +153,31 @@ The pages are read-only. There is nothing there to re-grade or delete a child's
 record with — for that, the database is one SQLite file and `sqlite3` is a better
 tool than a web form anyone can misclick.
 
+## Reviewing drafts
+
+Quiz items and reading passages are committed unreviewed and withheld until a
+human marks them `reviewed: true`. Two things can lift that, and they are
+different in kind:
+
+- **`PENSUM_INCLUDE_UNREVIEWED=1`** shows drafts to *everyone*. It is for a
+  maintainer running the app locally, and must never be set on an instance
+  children use.
+- **Being signed in as an administrator** shows drafts to that person only,
+  wherever they are. A draft has to be readable in its own quiz, or its own
+  reading page, before anyone can judge whether it is fit — reading YAML is not
+  the same as seeing the question a child would get.
+
+Drafts an administrator sees are labelled as drafts, on the question and in the
+reading list, and the subject page says why it looks different from the one a
+pupil sees. An unmarked draft would be judged as if it had already passed.
+
+The gate fails closed at every layer: the loaders default to reviewed-only, so a
+caller that forgets to ask gets the safe answer. **Note the prerequisite** —
+administrator status comes from Pensum's own sign-in, so an instance that
+authenticates at a proxy and forwards no identity has no administrators as far
+as Pensum is concerned, and nobody sees drafts. See [Accounts and score
+history](#accounts-and-score-history).
+
 ## Reading aloud
 
 Norsk and engelsk carry a second exercise: a passage to read out loud. Pensum

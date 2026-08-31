@@ -246,6 +246,15 @@ rights:
     linked to you. There is therefore no recording to request access to or
     deletion of.
 
+review:
+  # Only ever shown to someone allowed to see drafts. A pupil is never served an
+  # unreviewed question at all.
+  draft: Draft — not reviewed
+  draft_note: >-
+    You are also seeing content nobody has read through yet, because you are
+    signed in as an administrator. Pupils only see what has been marked as
+    reviewed.
+
 auth:
   # Signing in is optional. No string here may imply a quiz needs an account,
   # because none of them do.
