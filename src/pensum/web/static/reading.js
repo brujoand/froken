@@ -70,6 +70,9 @@
    *
    * Indexed like `reference`. Absent means undecided. */
   var status = [];
+  /* Heard words in a row that matched nothing. The signal that the cursor has
+   * lost the reader rather than the reader having lost the passage. */
+  var misses = 0;
   /* The passage as plain lowercase words, in the same order the server numbered
    * them. Read off the spans so the two cannot drift apart. */
   var reference = wordSpans.map(function (span) {
@@ -510,6 +513,70 @@
    * highlight, which is the right trade: the score is recomputed server-side
    * from the final transcript, and a highlight that lags is better than one
    * that runs away. */
+  /* How many heard words in a row must fail before the cursor is presumed lost
+   * rather than merely reading a hard sentence. Low enough that a child does
+   * not read a whole line into the void; high enough that one mishearing does
+   * not move anything. */
+  var RESYNC_AFTER = 4;
+  /* Heard words that must agree, consecutively, for a position to be believed.
+   * One word matching somewhere is a coincidence -- that is exactly what the
+   * lookahead limits exist to prevent. Three in a row is not. */
+  var RESYNC_RUN = 3;
+  /* How far back and forward to look. Back, because over-advancing is the way
+   * this actually goes wrong: the recogniser emits a filler word, or splits one
+   * word into two, and the cursor is a word ahead for the rest of the passage. */
+  var RESYNC_BACK = 12;
+  var RESYNC_FORWARD = 25;
+
+  function runMatchesAt(tokens, from, at) {
+    for (var k = 0; k < RESYNC_RUN; k++) {
+      if (at + k >= reference.length) return false;
+      if (!closeEnough(reference[at + k], tokens[from + k])) return false;
+    }
+    return true;
+  }
+
+  /* Where does the last run of heard words really sit? Nearest candidate wins:
+   * the cursor being a word or two out is overwhelmingly more likely than the
+   * child having jumped half the passage.
+   *
+   * This is allowed to move the highlight BACKWARDS, which the cursor was
+   * written never to do -- a highlight that jumps back mid-sentence was judged
+   * worse than one that lags. That judgement was wrong in one case, and it is
+   * the case being fixed here: once the cursor is ahead of the reader, every
+   * word afterwards is compared against the wrong word and marked wrong, and
+   * nothing forward-only can ever recover. One visible correction beats a
+   * passage that is confidently wrong from the third line on. */
+  function resync(tokens, n) {
+    if (n + 1 < RESYNC_RUN) return false;
+    var from = n - RESYNC_RUN + 1;
+    var low = Math.max(0, cursor - RESYNC_BACK);
+    var high = Math.min(reference.length - RESYNC_RUN, cursor + RESYNC_FORWARD);
+
+    for (var distance = 0; distance <= RESYNC_BACK + RESYNC_FORWARD; distance++) {
+      var candidates = distance === 0 ? [cursor] : [cursor - distance, cursor + distance];
+      for (var c = 0; c < candidates.length; c++) {
+        var at = candidates[c];
+        if (at < low || at > high) continue;
+        if (!runMatchesAt(tokens, from, at)) continue;
+
+        if (at >= cursor) {
+          /* Genuinely skipped: the reader is past these and none was heard. */
+          for (var j = cursor; j < at; j++) status[j] = "misread";
+        } else {
+          /* The cursor was ahead of the reader, so everything it marked from
+           * here on was judged against the wrong word. Withdraw it rather than
+           * leave a verdict we now know was not about these words. */
+          for (var k = at; k < cursor; k++) status[k] = undefined;
+        }
+        for (var m = 0; m < RESYNC_RUN; m++) status[at + m] = "read";
+        cursor = at + RESYNC_RUN;
+        return true;
+      }
+    }
+    return false;
+  }
+
   function advanceCursor(tokens) {
     if (consumed > tokens.length) consumed = tokens.length;
     for (var n = consumed; n < tokens.length; n++) {
@@ -529,6 +596,17 @@
         for (var j = cursor; j < found; j++) status[j] = "misread";
         status[found] = "read";
         cursor = found + 1;
+        misses = 0;
+        continue;
+      }
+
+      /* Several in a row have failed. Either the child is reading badly, or the
+       * cursor is no longer pointing at what they are reading -- and those look
+       * identical one word at a time. Ask where the last few words actually sit
+       * before marking another one wrong. */
+      misses++;
+      if (misses >= RESYNC_AFTER && resync(tokens, n)) {
+        misses = 0;
         continue;
       }
 
@@ -740,6 +818,7 @@
     cursor = 0;
     consumed = 0;
     status = [];
+    misses = 0;
 
     if (engine === "device") {
       /* No getUserMedia here: the recogniser asks for the microphone itself,

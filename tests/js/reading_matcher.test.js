@@ -56,6 +56,7 @@ for (const name of [
 let cursor = 0;
 let consumed = 0;
 let status = [];
+let misses = 0;
 let reference = [];
 function lightTo() {}
 
@@ -67,6 +68,8 @@ for (const [name, value] of Object.entries(constants)) {
 
 eval(grabFunction("similarity"));
 eval(grabFunction("closeEnough"));
+eval(grabFunction("runMatchesAt"));
+eval(grabFunction("resync"));
 eval(grabFunction("advanceCursor"));
 
 /* --- the harness -------------------------------------------------------- */
@@ -94,6 +97,7 @@ function reset() {
   cursor = 0;
   consumed = 0;
   status = [];
+  misses = 0;
   reference = PASSAGE;
 }
 
@@ -203,6 +207,58 @@ check(
  * surprise. The server makes the same trade in fluency.close_enough. */
 check("the stem rule's known cost: store/storm", closeEnough("store", "storm"), true);
 check("a shared stem carries a changed ending", closeEnough("boka", "boken"), true);
+
+
+/* --- losing the reader, and finding them again --------------------------- */
+
+/* The reported failure, and the reason resync exists. The recogniser emits one
+ * word that is not in the passage -- a filler, a cough, one word heard as two --
+ * and the cursor is one ahead for ever after. Every word the child then reads is
+ * compared against the word after the one they are saying, so all of it is
+ * marked wrong. With resync disabled this passage scores 3 read and 44 misread. */
+function tally() {
+  let read = 0;
+  let misread = 0;
+  for (let i = 0; i < PASSAGE.length; i++) {
+    if (status[i] === "read") read++;
+    else if (status[i] === "misread") misread++;
+  }
+  return { read, misread };
+}
+
+function heardWithInsertionAt(position, word) {
+  const heard = [];
+  PASSAGE.forEach((w, i) => {
+    heard.push(w);
+    if (i === position) heard.push(word);
+  });
+  return heard;
+}
+
+reset();
+hear(heardWithInsertionAt(1, "eh"));
+check("a spurious word does not cost the rest of the passage", tally().misread, 0);
+check("...and the whole passage still reads as read", tally().read, PASSAGE.length);
+
+/* Late in the passage as well as early: recovery must not depend on there being
+ * plenty of text left to recover across. */
+reset();
+hear(heardWithInsertionAt(PASSAGE.length - 8, "eh"));
+check("...including when it happens near the end", tally().misread, 0);
+
+/* A clean reading must be untouched by any of this. */
+reset();
+hear(PASSAGE.slice());
+check("a clean reading is still entirely correct", tally().read, PASSAGE.length);
+
+/* One genuinely wrong word is not a lost cursor, and must not move anything.
+ * Resync waking up on every mishearing would drag the highlight around on
+ * exactly the readings that need it to stay still. */
+reset();
+const oneWrong = PASSAGE.slice();
+oneWrong[10] = "blablabla";
+hear(oneWrong);
+check("one wrong word costs exactly one word", tally().misread, 1);
 
 console.log(failures === 0 ? "\nall checks passed" : `\n${failures} check(s) failed`);
 process.exit(failures === 0 ? 0 : 1);
