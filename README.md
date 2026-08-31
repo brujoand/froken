@@ -340,6 +340,32 @@ bin/run_local --no-build   # reuse the image you already built
 bin/run_local --port 9000
 ```
 
+### Keeping dependencies current
+
+Renovate opens the update PRs, configured in `.renovaterc.json5`. Nothing
+automerges — every bump is assigned to a human — and releases sit for a week
+before they are offered, so a bad publish upstream has time to be yanked.
+
+Three groupings exist because three things are pinned in more than one place
+and silently break when they drift apart:
+
+- **uv** — `mise.toml` is what a developer and CI run; the Dockerfile copies the
+  same version out of the official image. Merged apart, the image gets built by
+  a uv the tests never saw.
+- **Shell tooling** — `mise.toml` installs shellcheck and shfmt for
+  `bin/run_local`; `.pre-commit-config.yaml` pins its own copies. When they
+  disagree, pre-commit passes locally and fails in CI.
+- **Python** — pinned in `mise.toml`, floored in `pyproject.toml`, set by the
+  base image. Patch releases move all three together; a new minor is disabled,
+  because that is a decision about what the project supports rather than an
+  update.
+
+One consequence is worth knowing before it surprises you: a **runtime**
+dependency bump lands as `fix(deps)`, which semantic-release reads as a patch
+and turns into a tagged release and a published image. That is intended — a
+patched dependency should reach the image without a hand-written commit. Dev and
+CI dependencies land as `chore(deps)` and publish nothing.
+
 ### Keeping the curriculum current
 
 Udir revises curricula on their own schedule, and a revision **renumbers every
