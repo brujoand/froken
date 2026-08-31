@@ -14,6 +14,30 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  # Merges here are squashes, so the pull request title becomes the commit
+  # subject on main and therefore decides whether a release is cut. Checking it
+  # now is the whole point: the post-merge backstop in release.yml can only
+  # report that main is already stranded, which is too late to be a gate.
+  releasable:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - name: A change to the app must be able to release
+        env:
+          # Via the environment, never interpolated into the script: a pull
+          # request title is written by whoever opened it.
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_BODY: ${{ github.event.pull_request.body }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          set -euo pipefail
+          git diff --name-only "${BASE_SHA}...HEAD" > /tmp/changed-paths
+          printf '%s\n\n%s\n' "${PR_TITLE}" "${PR_BODY}" > /tmp/commit-message
+          ./bin/release_required /tmp/changed-paths /tmp/commit-message
+
   lint:
     runs-on: ubuntu-latest
     steps:
