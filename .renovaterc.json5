@@ -1,0 +1,148 @@
+{
+  $schema: 'https://docs.renovatebot.com/renovate-schema.json',
+  // What keeps this repo's pins current.
+  //
+  // Pensum had no Renovate config, so nothing here was ever offered an update:
+  // not the base image, not the actions, not the pre-commit revs, not the
+  // toolchain in mise.toml. Every one of those is pinned exactly so that it
+  // moves deliberately, which only works if something proposes the moves.
+  //
+  // Deliberately NOT extending the shared presets the control repo uses. Those
+  // live in a private repository, and this repo is public: a public config that
+  // resolves through a private repo names it to everyone who reads the file,
+  // and fails to resolve for anyone who forks. Self-contained is not a
+  // preference here, it is a requirement.
+  extends: [
+    'config:recommended',
+    // Actions get SHA-pinned with a trailing version comment. The first PR from
+    // this will rewrite every `uses:` in .github/workflows, which is the point:
+    // a moving tag is a supply-chain hole in a workflow that builds and pushes
+    // an image.
+    'helpers:pinGitHubActionDigests',
+    ':dependencyDashboard',
+    ':semanticCommits',
+    ':timezone(Europe/Oslo)',
+  ],
+  dependencyDashboardTitle: 'Renovate Dashboard 🤖',
+
+  // Assignee == "needs a human". Nothing here automerges. Pensum is used by
+  // children and ships as a public image; a dependency landing without anyone
+  // reading it is not a trade worth making for a repo that sees a handful of
+  // updates a month.
+  assignees: ['brujoand'],
+
+  // The App commits through the platform API, so GitHub attributes them to
+  // `selfhosted-renovate[bot]` and overrides RENOVATE_GIT_AUTHOR. Unlisted,
+  // isBranchModified() sees author != gitAuthor and flags every Renovate branch
+  // as hand-edited. Publishing the identity in a public repo costs nothing: it
+  // is already the author of every commit the bot pushes here.
+  gitIgnoredAuthors: [
+    '223080057+selfhosted-renovate[bot]@users.noreply.github.com',
+  ],
+
+  // Let a release sit a week before it is offered. `timestamp-optional` keeps
+  // that soak where a timestamp exists and proceeds where one does not, which
+  // is what stops sources that publish none (docker/OCI) from staying pending
+  // forever under the Renovate 42+ default.
+  minimumReleaseAge: '7 days',
+  minimumReleaseAgeBehaviour: 'timestamp-optional',
+  // Hold the PR until the soak passes rather than opening it immediately: a
+  // branch created early cannot be rebased while `internalChecksFilter` is
+  // strict, so any merge touching the same line leaves it conflicted and frozen
+  // for the rest of the week. Soaking updates stay visible on the dashboard.
+  prCreation: 'not-pending',
+
+  suppressNotifications: [
+    'prEditedNotification',
+    'prIgnoreNotification',
+    'prCreatedNotification',
+    'prUpdatedNotification',
+  ],
+
+  enabledManagers: [
+    'dockerfile',
+    'github-actions',
+    'pep621',
+    'pre-commit',
+    'mise',
+  ],
+
+  // uv.lock is not decoration: the image builds with `uv sync --frozen`, so a
+  // pyproject bump whose lock was not regenerated fails the build rather than
+  // producing a stale image. Renovate's pep621 manager updates the lock file
+  // alongside the manifest; this keeps it refreshed on its own as well, so the
+  // transitive tree does not quietly rot between direct-dependency bumps.
+  lockFileMaintenance: {
+    enabled: true,
+    schedule: ['before 6am on monday'],
+  },
+
+  packageRules: [
+    {
+      description: [
+        'Actions are SHA-pinned with a trailing version comment. They move',
+        'together and each one alone is a PR nobody learns anything from.',
+      ],
+      matchManagers: ['github-actions'],
+      groupName: 'github actions',
+    },
+    {
+      description: [
+        'uv is pinned twice on purpose: mise.toml is what a developer and CI',
+        'run, and the Dockerfile copies the same version out of the official',
+        'image by digest. Ungrouped they arrive as two PRs, one gets merged',
+        'alone, and the image is then built by a uv the tests never saw.',
+      ],
+      matchPackageNames: ['uv', 'ghcr.io/astral-sh/uv'],
+      groupName: 'uv (pinned in mise.toml and the Dockerfile)',
+    },
+    {
+      description: [
+        'Same again for the shell tooling: mise.toml installs shellcheck and',
+        'shfmt for bin/run_local, and .pre-commit-config.yaml pins its own',
+        'copies. When those two disagree, pre-commit passes locally and fails in',
+        'CI, or the other way round, which is the least useful failure there is.',
+      ],
+      matchPackageNames: [
+        'shellcheck',
+        'shfmt',
+        'luizm/asdf-shfmt',
+        'shellcheck-py/shellcheck-py',
+        'scop/pre-commit-shfmt',
+      ],
+      groupName: 'shell tooling (mise + pre-commit)',
+    },
+    {
+      description: [
+        'Python is pinned in mise.toml, floored in pyproject.toml and set by the',
+        'base image, and the three must agree. Patch releases are ordinary; a',
+        'new minor is a decision about what the project supports, taken by hand.',
+      ],
+      matchPackageNames: ['python', 'docker.io/library/python'],
+      matchUpdateTypes: ['major', 'minor'],
+      enabled: false,
+    },
+    {
+      description: [
+        'Python patch releases move the toolchain and the base image together,',
+        'for the same reason uv does.',
+      ],
+      matchPackageNames: ['python', 'docker.io/library/python'],
+      matchUpdateTypes: ['patch'],
+      groupName: 'python patch (mise + base image)',
+    },
+    {
+      description: [
+        'A runtime dependency bump lands as fix(deps), which semantic-release',
+        'reads as a patch and turns into a tagged release and a published image.',
+        'That is intended -- a patched dependency should reach the image without',
+        'a hand-written commit -- and it is stated here because the first time it',
+        'happens it looks like a bug.',
+        'Dev and CI dependencies land as chore(deps) and publish nothing.',
+      ],
+      matchManagers: ['pep621'],
+      matchDepTypes: ['dev', 'optional'],
+      semanticCommitType: 'chore',
+    },
+  ],
+}
