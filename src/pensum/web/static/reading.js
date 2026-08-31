@@ -54,6 +54,13 @@
   var recogniser = null;
   var heardWords = [];
   var cursor = 0;
+  /* How many heard words the cursor has already been moved by. The recogniser
+   * re-sends the whole transcript on every interim result, and the cursor only
+   * ever moves forward, so re-reading a word it has already consumed can only
+   * push the highlight further ahead -- again on the next result, and the next.
+   * That is a ratchet, and it is what marches the highlight down the page while
+   * the child is still on the first line. */
+  var consumed = 0;
   /* The passage as plain lowercase words, in the same order the server numbered
    * them. Read off the spans so the two cannot drift apart. */
   var reference = wordSpans.map(function (span) {
@@ -446,12 +453,32 @@
     return similarity(printed, said) >= 0.8;
   }
 
+  /* An ordinary skip: the child ran two words together, or the recogniser
+   * dropped one. Any word may pull the cursor this far. */
+  var NEAR = 3;
+  /* As far as a distinctive word may pull it. Hearing "svommehallen" really is
+   * good evidence of where the child is; hearing "og" is not evidence of
+   * anything, and at a flat lookahead it is what teleports the highlight. */
+  var FAR = 25;
+  /* Characters. Below this a word is too common to be trusted at a distance --
+   * every passage is full of "og", "at", "den", "the", "and". */
+  var DISTINCTIVE = 5;
+
   /* Forward-only, and only ever looking a little way ahead: a common word must
-   * not be able to teleport the highlight to the end of the passage. */
+   * not be able to teleport the highlight to the end of the passage.
+   *
+   * Only words the cursor has not already been moved by are considered. The
+   * transcript arrives whole and rewritten every time, so consuming it whole
+   * every time ratchets the highlight forward on words the child said once.
+   * A word whose text is later revised keeps its original effect on the
+   * highlight, which is the right trade: the score is recomputed server-side
+   * from the final transcript, and a highlight that lags is better than one
+   * that runs away. */
   function advanceCursor(tokens) {
-    var start = Math.max(0, tokens.length - 6);
-    for (var n = start; n < tokens.length; n++) {
-      var limit = Math.min(reference.length, cursor + 40);
+    if (consumed > tokens.length) consumed = tokens.length;
+    for (var n = consumed; n < tokens.length; n++) {
+      var reach = tokens[n].length >= DISTINCTIVE ? FAR : NEAR;
+      var limit = Math.min(reference.length, cursor + reach);
       for (var i = cursor; i < limit; i++) {
         if (closeEnough(reference[i], tokens[n])) {
           cursor = i + 1;
@@ -459,6 +486,7 @@
         }
       }
     }
+    consumed = tokens.length;
     lightTo(cursor);
   }
 
@@ -653,6 +681,7 @@
     enterFocus();
     heardWords = [];
     cursor = 0;
+    consumed = 0;
 
     if (engine === "device") {
       /* No getUserMedia here: the recogniser asks for the microphone itself,
