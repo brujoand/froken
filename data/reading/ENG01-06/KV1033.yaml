@@ -15,7 +15,8 @@ texts:
     title: Terms and Conditions for Borrowing My Pencil
     difficulty: 1
     source: pensum
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-08-31'
     body: |
       By accepting this pencil, you agree to the following terms. These terms
       may be updated at any time, and you will not be told when.
@@ -42,7 +43,8 @@ texts:
     title: An Interview with the Monster Under the Bed
     difficulty: 2
     source: pensum
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-08-31'
     body: |
       He asked me not to use his real name, which is fair enough, and to
       mention that he has been doing this for thirty-one years.

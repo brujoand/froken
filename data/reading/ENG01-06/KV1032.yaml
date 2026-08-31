@@ -14,7 +14,8 @@ texts:
     title: How to Train Your Goldfish
     difficulty: 1
     source: pensum
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-08-31'
     body: |
       Begin with realistic expectations. Your goldfish will not fetch, roll
       over, or come when called, and any book that tells you otherwise is
@@ -40,7 +41,8 @@ texts:
     title: The Day the School Bus Went to Space
     difficulty: 2
     source: pensum
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-08-31'
     body: |
       Nobody noticed at first, because the bus is always a bit late and the
       windows are always a bit dirty.

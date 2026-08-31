@@ -14,7 +14,8 @@ texts:
     title: The Sock Monster
     difficulty: 1
     source: pensum
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-08-31'
     body: |
       There is a monster under my bed, and all it eats is socks.
       It never takes a pair. It only ever takes one, which I think is the
@@ -31,7 +32,8 @@ texts:
     title: Grandpa's Terrible Robot
     difficulty: 2
     source: pensum
-    reviewed: false
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-08-31'
     body: |
       My grandpa built a robot in his garage. It took him two years, and it can
       do one thing.
