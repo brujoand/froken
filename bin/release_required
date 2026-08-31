@@ -1,0 +1,60 @@
+#!/usr/bin/env bash
+#
+# Decide whether a change strands itself: it touches the app, but its commit
+# message is not one semantic-release will cut a version from.
+#
+# No release means no image, and no image means the change can never reach a
+# cluster pinned to a version. It sits on main looking merged and deploys
+# nowhere. The only repair is another commit, which is cheap on a pull request
+# and annoying once main has already moved.
+#
+# Usage: release_required <changed-paths-file> <commit-message-file>
+#
+# Exits 0 when the change is fine to land, 1 with an explanation when it is not.
+# Both call sites -- the pull request check and the post-merge backstop -- share
+# this file so the rule cannot drift between them.
+
+set -euo pipefail
+
+paths_file="${1:?usage: release_required <changed-paths-file> <commit-message-file>}"
+message_file="${2:?usage: release_required <changed-paths-file> <commit-message-file>}"
+
+# What counts as "the app": anything baked into the image or served from it.
+# Workflows, README and the like change nothing a running container does, so a
+# chore: touching only those is exactly right and must stay silent.
+APP_PATHS='^(src/pensum/|data/|Dockerfile|pyproject\.toml|uv\.lock)'
+
+# The types semantic-release is configured to release from. `revert` is a
+# release rule in .releaserc, not a default, so this list tracks that file.
+RELEASING_TYPES='feat, fix, perf, revert'
+
+if ! grep -qE "${APP_PATHS}" "${paths_file}"; then
+  echo "no app files changed; any commit type is fine"
+  exit 0
+fi
+
+subject="$(head -n 1 "${message_file}")"
+
+if [[ ${subject} =~ ^(feat|fix|perf|revert)(\(.+\))?!?: ]]; then
+  echo "releasable: ${subject}"
+  exit 0
+fi
+
+# A breaking change releases whatever its type, so honour the footer too.
+if grep -qE '^BREAKING[ -]CHANGE:' "${message_file}"; then
+  echo "releasable via BREAKING CHANGE footer: ${subject}"
+  exit 0
+fi
+
+cat >&2 <<EOF
+This change touches the app but its commit type produces no release, so no
+image would be built and it could never deploy.
+
+  subject: ${subject}
+  app files changed:
+$(grep -E "${APP_PATHS}" "${paths_file}" | sed 's/^/    /')
+
+Use a type semantic-release recognises (${RELEASING_TYPES}), or add a
+BREAKING CHANGE footer.
+EOF
+exit 1

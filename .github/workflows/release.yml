@@ -88,9 +88,14 @@ jobs:
             # ...but if the app changed and no release came out, that is not a
             # quiet no-op, it is a silent one. No release means no image, which
             # means the change can never reach a cluster pinned to a version.
-            if git diff --name-only HEAD~1 HEAD \
-                 | grep -qE '^(src/pensum/|data/|Dockerfile|pyproject\.toml|uv\.lock)'; then
-              echo "::error::This commit changes the app but produced no release, so no image was built and the change can never deploy. Use a commit type semantic-release recognises (feat/fix/perf/revert), or a BREAKING CHANGE footer."
+            #
+            # A backstop, not the gate. CI runs the same check on the pull
+            # request, where it can still be acted on; by the time this fires
+            # the commit is already on main and needs a second one to repair.
+            git diff --name-only HEAD~1 HEAD > /tmp/changed-paths
+            git log -1 --pretty=%B HEAD > /tmp/commit-message
+            if ! ./bin/release_required /tmp/changed-paths /tmp/commit-message; then
+              echo "::error::A change to the app produced no release, so no image was built and it cannot deploy. See the message above."
               exit 1
             fi
           fi
