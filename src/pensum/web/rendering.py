@@ -13,6 +13,7 @@ from pathlib import Path
 from fastapi import HTTPException, Request
 from fastapi.templating import Jinja2Templates
 
+from pensum import __version__
 from pensum.i18n import SUPPORTED_LOCALES, curriculum_language, translate
 from pensum.web.deps import current_user, get_settings, sees_unreviewed
 
@@ -72,5 +73,11 @@ def context(request: Request, locale: str, **extra: object) -> dict[str, object]
         # draft is worse than a hidden one, since the reader cannot tell that
         # what they are judging is the thing awaiting judgement.
         "drafts_visible": sees_unreviewed(request),
+        # Which build this is, on every page. /healthz reports it too, but that
+        # is behind whatever fronts the deployment and is JSON besides -- so in
+        # practice there was no way to tell a running instance from a stale one
+        # by looking at it. "dev" means the image was built outside the release
+        # pipeline.
+        "version": __version__,
         **extra,
     }

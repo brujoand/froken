@@ -272,6 +272,14 @@ a {
   margin: 0 0 0.4rem;
 }
 
+/* Quieter than the licence text above it: it is there to be found when asked
+   for, not to be read on the way past. */
+.site-footer .version {
+  margin-top: 0.6rem;
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+
 /* Quiz --------------------------------------------------------------------
    Questions are ours; curriculum text is Udir's. The two must never look
    alike, so nothing in here reuses the .curriculum blockquote treatment. */

@@ -147,3 +147,30 @@ def test_no_translation_key_leaks_into_rendered_html(client: TestClient) -> None
             body = text_of(client.get(path).text)
             leaked = [key for key in keys if key in body]
             assert not leaked, f"{path} leaked {leaked}"
+
+
+def test_every_page_says_which_build_it_is(client: TestClient) -> None:
+    """There was no way to tell a running instance from a stale one by looking
+    at it: /healthz reports the version, but it sits behind whatever fronts the
+    deployment and answers in JSON. So the footer carries it.
+
+    "dev" is the honest answer outside the release pipeline, and it is what the
+    test suite sees -- asserting the label rather than a number keeps this from
+    needing an edit at every release.
+    """
+    from pensum import __version__
+
+    body = client.get("/nb/").text
+
+    assert f"Pensum {__version__}" in body
+
+
+def test_the_health_endpoint_agrees_with_the_page(client: TestClient) -> None:
+    """Two ways of asking, one answer. They drift the moment one is computed
+    somewhere the other is not."""
+    from pensum import __version__
+
+    reported = client.get("/healthz").json()
+
+    assert reported["version"] == __version__
+    assert f"Pensum {reported['version']}" in client.get("/nb/").text

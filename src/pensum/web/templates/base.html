@@ -68,6 +68,9 @@
            contact nobody can find is not a contact. #}
         <a href="/{{ locale }}/rettigheter">{{ t("rights.link") }}</a>
       </p>
+      {# Named and numbered, so "is this the new one?" is answered by looking at
+         the page rather than by trusting that a deploy went through. #}
+      <p class="version">Pensum {{ version }}</p>
     </footer>
 
     {# Pages that need their own script say so here. Nothing on the site depends
