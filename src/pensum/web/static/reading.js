@@ -61,6 +61,15 @@
    * That is a ratchet, and it is what marches the highlight down the page while
    * the child is still on the first line. */
   var consumed = 0;
+  /* Correctness, per word, kept apart from progress on purpose. Progress is
+   * "how far has the reader got", and it must keep up with speech or the
+   * highlight is useless. Whether each word came out right is a slower and
+   * less certain question -- the recogniser revises, and mishears. Deciding
+   * both with one number is what made the highlight stall: a word the
+   * recogniser got wrong stopped the cursor, and everything after it lagged.
+   *
+   * Indexed like `reference`. Absent means undecided. */
+  var status = [];
   /* The passage as plain lowercase words, in the same order the server numbered
    * them. Read off the spans so the two cannot drift apart. */
   var reference = wordSpans.map(function (span) {
@@ -100,7 +109,10 @@
    * cursor that arrives late or twice cannot make the highlight flicker. */
   function lightTo(cursor) {
     for (var i = 0; i < wordSpans.length; i++) {
-      wordSpans[i].classList.toggle("lit", i < cursor);
+      var passed = i < cursor;
+      var wrong = status[i] === "misread";
+      wordSpans[i].classList.toggle("lit", passed && !wrong);
+      wordSpans[i].classList.toggle("missed", passed && wrong);
     }
     if (bar) bar.style.width = Math.min(100, (cursor / totalWords) * 100) + "%";
     if (progress) progress.setAttribute("aria-valuenow", String(cursor));
@@ -503,11 +515,32 @@
     for (var n = consumed; n < tokens.length; n++) {
       var reach = tokens[n].length >= DISTINCTIVE ? FAR : NEAR;
       var limit = Math.min(reference.length, cursor + reach);
+      var found = -1;
       for (var i = cursor; i < limit; i++) {
         if (closeEnough(reference[i], tokens[n])) {
-          cursor = i + 1;
+          found = i;
           break;
         }
+      }
+
+      if (found >= 0) {
+        /* Stepped over: the reader is demonstrably past these, and none of them
+         * was heard. */
+        for (var j = cursor; j < found; j++) status[j] = "misread";
+        status[found] = "read";
+        cursor = found + 1;
+        continue;
+      }
+
+      /* Nothing here matches what was just heard -- a different word was read,
+       * or the recogniser misheard this one. Either way the reader has moved on
+       * by a word, so the highlight does too. This is the half that keeps
+       * progress up with speech: waiting for a match before moving is what left
+       * it behind, and it can never run away, because one heard word is worth
+       * exactly one position. */
+      if (cursor < reference.length) {
+        status[cursor] = "misread";
+        cursor++;
       }
     }
     consumed = tokens.length;
@@ -706,6 +739,7 @@
     heardWords = [];
     cursor = 0;
     consumed = 0;
+    status = [];
 
     if (engine === "device") {
       /* No getUserMedia here: the recogniser asks for the microphone itself,
