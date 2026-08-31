@@ -161,8 +161,19 @@ the printed text and reports **correct words per minute** — words heard in the
 order they were printed, divided by the time spent reading. Plain words per
 minute rewards reading fast by skipping, which is the opposite of the point.
 
-The passage is chosen per checkpoint and is ours, like the quiz questions: LK20
-is quoted verbatim elsewhere, and nothing a pupil reads here is curriculum text.
+The passages are chosen per checkpoint and are ours, like the quiz questions:
+LK20 is quoted verbatim elsewhere, and nothing a pupil reads aloud here is
+curriculum text — or anybody else's text. Every one of them was written for
+Pensum. No lyrics, no subtitles, no excerpts.
+
+**They are deliberately silly.** A sock that runs away to an island, a moose
+that swims better than your dad, a formal complaint from a dragon to the
+council, terms and conditions for borrowing a pencil. That is not decoration: a
+pupil who wants to know how the passage ends reads it to the end, and reading it
+to the end is the exercise. The 10. trinn passages get their difficulty from
+adult sentence structure and a deadpan register rather than from dry subject
+matter — reading bureaucratic prose with a straight face is harder than reading
+it fast.
 
 ### What a pupil is told
 
@@ -354,6 +365,31 @@ and re-verified against the official source.
   run the published image with no environment set, none of it applies to you.
 
 ## Licence
+
+Every page links to **[Rights and takedowns](#rights-and-takedowns)** in its
+footer, at `/{locale}/rettigheter`. It names the three owners below and gives an
+address to write to; `PENSUM_DMCA_EMAIL` overrides that address so a fork gets
+its own inbox.
+
+### Rights and takedowns
+
+Three kinds of content, three owners:
+
+- **Curriculum text** is Udir's, reproduced verbatim under NLOD.
+- **Quiz questions and reading passages** were written for Pensum. None is
+  taken from a book, lyric, subtitle or other work, and all of them are
+  committed as readable text so anyone can check that claim rather than take it.
+- **The code** is MIT.
+
+If you believe something here is yours, write to the address on that page with
+what it is, where you saw it, who you are and why. The content comes down while
+it is looked at. "DMCA" is the name most people know the process by; Pensum is a
+Norwegian project and a request is handled under Norwegian law, but nobody needs
+to know that to send an email.
+
+Reading audio is not covered by any of this, because none of it is kept: a
+recording is processed in memory while the pupil waits and is gone with the
+response, so there is nothing to request access to or deletion of.
 
 The code is MIT — see [LICENSE](LICENSE).
 

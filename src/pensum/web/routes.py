@@ -68,6 +68,19 @@ async def home(request: Request, locale: str) -> HTMLResponse:
     )
 
 
+@router.get("/{locale}/rettigheter", response_class=HTMLResponse)
+async def rights_page(request: Request, locale: str) -> HTMLResponse:
+    """Who owns what here, and where to write if we have got it wrong.
+
+    Linked from the footer of every page. Everything Pensum serves is either
+    Udir's under NLOD or written for Pensum, so the address on this page should
+    never receive anything -- which is the reason to publish it rather than a
+    reason not to.
+    """
+    validate_locale(locale)
+    return templates.TemplateResponse(request, "pages/rights.html", context(request, locale))
+
+
 @router.get("/{locale}/klasse/{grade}", response_class=HTMLResponse)
 async def grade_page(request: Request, locale: str, grade: int) -> HTMLResponse:
     validate_locale(locale)

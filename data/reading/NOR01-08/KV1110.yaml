@@ -1,58 +1,63 @@
 # Høytlesing, norsk etter 10. trinn (NOR01-08 / KV1110).
 #
-# Voksen setningsbygning, abstrakte begreper og innskutte setninger. En elev som
-# holder flyten gjennom disse, leser høyt omtrent som en voksen gjør. Skrevet
-# for Pensum.
+# Voksen setningsbygning, byråkratisk register og innskutte setninger. En elev
+# som holder flyten gjennom disse, leser høyt omtrent som en voksen gjør — og
+# vitsen ligger nettopp i den tørre tonen, så teksten må leses ordentlig for å
+# være morsom. Skrevet for Pensum.
 ---
 subject: NOR01-08
 goal_set: KV1110
 
 texts:
-  - id: nor-kv1110-allmenningen
+  - id: nor-kv1110-klagebrev
     goal: KM14193
     language: nb
-    title: Det ingen eier
+    title: Klagebrev fra en drage
     difficulty: 1
     source: pensum
     reviewed: false
     body: |
-      Et gammelt spørsmål i samfunnsfaget lyder omtrent slik: hva skjer med noe
-      som tilhører alle, og som ingen har et særskilt ansvar for? Den klassiske
-      illustrasjonen er en felles beitemark. For hver enkelt bonde lønner det
-      seg å slippe ut én ku til, siden gevinsten er hans alene, mens slitasjen
-      fordeles på alle. Følger alle den samme logikken, blir marken beitet ned,
-      og til slutt taper alle sammen.
-      Innvendingen mot fortellingen er at den beskriver en allmenning uten
-      regler, og at slike sjelden har eksistert. Der folk faktisk har delt en
-      ressurs over lang tid, har de som regel også laget seg ordninger for
-      hvem som kan bruke hva, når, og hva som skjer med den som bryter
-      avtalen. Det er ikke eierskapet i seg selv som avgjør utfallet, men om
-      det finnes en felles forståelse som blir håndhevet.
-      Poenget er ikke bare historisk. Fiskebestander, grunnvann og ren luft er
-      alle ressurser der den enkeltes regnestykke og fellesskapets regnestykke
-      peker i hver sin retning, og der spørsmålet om hvem som skal håndheve hva,
-      fortsatt er ubesvart.
+      Til kommunen. Jeg viser til vedtak av 14. mars om reguleringen av
+      fjellsiden ovenfor bygda, og ønsker med dette å påklage det i sin helhet.
+      Innledningsvis vil jeg presisere at jeg har holdt til i denne hulen i noe
+      i overkant av ni hundre år. Det er min oppfatning at dette utgjør en
+      hevdvunnen rett, og jeg registrerer at kommunen i saksfremlegget omtaler
+      meg som «forhold av midlertidig karakter».
+      Videre bemerkes det at planen forutsetter sprengning. Jeg har ingen
+      innvendinger mot sprengning i seg selv, som jeg driver med daglig, men
+      det bør være åpenbart for enhver at to parter som sprenger i samme
+      fjellside samtidig, ikke er en hensiktsmessig løsning for noen.
+      Når det gjelder påstanden om at jeg skal ha fortært to sauer i juni, vil
+      jeg understreke at dette gjaldt én sau, at den var syk, og at jeg forsøkte
+      å kontakte eieren først. Eieren la på.
+      Avslutningsvis vil jeg minne om at jeg i førti år har varmet
+      svømmehallen vederlagsfritt. Jeg ber om at dette tas i betraktning.
+      Jeg imøteser deres svar innen fristen, og gjør oppmerksom på at jeg leser
+      all post umiddelbart, ettersom jeg brenner den etterpå.
 
-  - id: nor-kv1110-oversettelsen
+  - id: nor-kv1110-usynlig
     goal: KM14193
     language: nb
-    title: Det som forsvinner i oversettelsen
+    title: Bruksanvisning for å være usynlig
     difficulty: 2
     source: pensum
     reviewed: false
     body: |
-      Enhver oversettelse er et valg, og valget er sjelden mellom rett og galt.
-      En oversetter som holder seg tett til originalens ordstilling, risikerer
-      å levere setninger som er formelt korrekte, men som ingen ville sagt på
-      norsk. En som skriver seg fri, får en tekst som leser lett, men som
-      kanskje har mistet nettopp det som gjorde originalen verdt å oversette.
-      Vanskeligst blir det når forfatteren har lagt inn en dobbelthet som ikke
-      finnes i målspråket. Et ord som på engelsk bærer to betydninger samtidig,
-      må gjerne deles i to på norsk, og da må oversetteren bestemme seg for
-      hvilken av dem leseren skal få se. Fotnoter hjelper lite; en vits som må
-      forklares, er allerede ødelagt.
-      Derfor sier man iblant at en oversettelse har en holdbarhetsdato som
-      originalen ikke har. Kildeteksten står der den står, mens språket den er
-      overført til, flytter seg. Hver generasjon leser den forrige
-      generasjonens oversettelse og synes den er litt stiv — og setter seg,
-      før eller siden, til å gjøre arbeidet en gang til.
+      Les hele bruksanvisningen før du tar produktet i bruk. Produsenten
+      fraskriver seg ethvert ansvar for skader som oppstår fordi brukeren ble
+      utålmodig på side én.
+      Usynlighet aktiveres ved å holde pusten og mene det. Å mene det er den
+      vanskelige delen, og de fleste feilene brukere melder inn, skyldes at de
+      egentlig ikke gjorde det. Delvis usynlighet, altså en usynlig person med
+      fullt synlige ører, er den vanligste konsekvensen av halvhjertethet.
+      Vær oppmerksom på at klær ikke omfattes. Dette er en velkjent begrensning
+      ved teknologien, og produsenten anser den for å være brukerens problem.
+      Vi anbefaler planlegging.
+      Usynlighet oppheves automatisk ved nys, ved latter, og ved å bli tiltalt
+      ved fullt navn av en person med myndighet over deg. Sistnevnte kan ikke
+      slås av, og er lagt inn med hensikt.
+      Produktet egner seg ikke til bruk i trafikken, i svømmehaller, eller til å
+      overvære samtaler du senere må late som du ikke har hørt. Erfaring viser
+      at brukere som ignorerer dette punktet, gjennomgående angrer innen en uke.
+      Ved feil, kontakt oss. Vi er ikke vanskelige å finne. Vi er bare veldig
+      vanskelige å se.

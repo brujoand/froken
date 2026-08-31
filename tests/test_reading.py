@@ -313,7 +313,7 @@ def test_the_index_lists_the_passages_for_the_checkpoint(timed_client: TestClien
     response = timed_client.get("/nb/klasse/2/NOR01-08/lesing")
 
     assert response.status_code == 200
-    assert "Katten på trappa" in response.text
+    assert "Sokken som rømte" in response.text
 
 
 def test_a_subject_with_no_passages_has_no_reading_page(timed_client: TestClient) -> None:
@@ -326,7 +326,7 @@ def test_the_reading_page_shows_the_passage(timed_client: TestClient, library) -
     response = timed_client.get(f"/nb/klasse/2/NOR01-08/lesing/{passage.id}")
 
     assert response.status_code == 200
-    assert "trappa" in response.text
+    assert "sokk" in response.text
     # No model configured, so the page must post to the timing endpoint and
     # promise nothing about a recording.
     assert "/tid" in response.text
@@ -769,3 +769,67 @@ def test_the_result_carries_the_replay_and_the_caveats(catalogue: Catalogue, lib
     # Stars never appear without the sentence explaining what they are worth.
     assert "stars" in response.text
     assert "hører dårlig" in response.text
+
+
+# --- Rights and takedowns --------------------------------------------------
+
+
+def test_every_page_carries_the_takedown_contact(timed_client: TestClient) -> None:
+    """A contact address nobody can find is not a contact address."""
+    for path in ("/nb/", "/nb/klasse/2", "/nb/klasse/2/NOR01-08"):
+        assert "/nb/rettigheter" in timed_client.get(path).text, path
+
+
+def test_the_rights_page_names_the_contact_and_who_owns_what(
+    timed_client: TestClient,
+) -> None:
+    response = timed_client.get("/nb/rettigheter")
+
+    assert response.status_code == 200
+    assert "dmca@brujordet.no" in response.text
+    # The three owners, kept apart: conflating them is how a takedown request
+    # ends up aimed at the wrong one.
+    assert "NLOD" in response.text
+    assert "MIT" in response.text
+
+
+def test_the_rights_page_exists_in_english_too(timed_client: TestClient) -> None:
+    response = timed_client.get("/en/rettigheter")
+
+    assert response.status_code == 200
+    assert "Rights and takedowns" in response.text
+
+
+def test_an_unknown_locale_has_no_rights_page(timed_client: TestClient) -> None:
+    assert timed_client.get("/de/rettigheter").status_code == 404
+
+
+def test_the_takedown_address_is_configurable(catalogue: Catalogue) -> None:
+    """So a fork gets its own inbox rather than ours."""
+    client = TestClient(
+        create_app(
+            catalogue,
+            ItemBank.load(),
+            settings=Settings(session_secret="test", dmca_email="rights@example.com"),
+        )
+    )
+
+    response = client.get("/nb/rettigheter")
+
+    assert "rights@example.com" in response.text
+    assert "dmca@brujordet.no" not in response.text
+
+
+def test_the_reading_index_links_to_the_rights_page(timed_client: TestClient) -> None:
+    """Next to the claim that the passages are ours, not only in the footer."""
+    response = timed_client.get("/nb/klasse/2/NOR01-08/lesing")
+
+    assert response.text.count("/nb/rettigheter") >= 2
+
+
+def test_no_passage_claims_a_source_we_may_not_reproduce(library: ReadingLibrary) -> None:
+    """Every passage is written for Pensum. A passage sourced from anywhere else
+    would need a licence recorded here, and none is."""
+    for reading_set in library.reading_sets:
+        for passage in reading_set.texts:
+            assert passage.source == "pensum", passage.id

@@ -60,6 +60,9 @@ def context(request: Request, locale: str, **extra: object) -> dict[str, object]
         "t": lambda key, **kwargs: translate(locale, key, **kwargs),
         "locales": SUPPORTED_LOCALES,
         "auth_enabled": settings.auth_enabled,
+        # The footer carries the takedown contact on every page, so it is part
+        # of the base context rather than something one page remembers to pass.
+        "dmca_email": settings.dmca_email,
         "history_enabled": settings.history_enabled,
         "user": user,
         "is_admin": user is not None and user.in_group(settings.admin_group),

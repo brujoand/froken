@@ -189,6 +189,52 @@ reading:
     Dette er en øving, ikke en vurdering. Lesefart varierer mye mellom barn som
     alle leser godt, og et tall her sier ingenting om hvem som er en god leser.
 
+rights:
+  # Lenkes fra bunnteksten på alle sider. En kontaktadresse ingen finner, er
+  # ingen kontaktadresse.
+  link: Rettigheter
+  heading: Rettigheter og henvendelser
+  intro: >-
+    Pensum viser tre slags innhold, og de har tre ulike eiere. Her står det hvem
+    som eier hva, og hvor du skriver hvis du mener vi har tatt feil.
+
+  what_heading: Hva som er hvem sitt
+  curriculum_title: "Læreplantekst:"
+  curriculum_body: >-
+    Kompetansemålene er Utdanningsdirektoratets, gjengitt ordrett og hentet fra
+    det åpne Grep-APIet. De videreformidles under
+  authored_title: "Quizspørsmål og lesetekster:"
+  authored_body: >-
+    Disse er skrevet for Pensum. Ingen av dem er hentet fra bøker, sangtekster,
+    undertekster eller andre verk. De ligger i klartekst i kodelageret, slik at
+    hvem som helst kan se hva de er.
+  code_title: "Koden:"
+  code_body: Kildekoden er åpen under MIT-lisensen.
+
+  report_heading: Melde fra om innhold
+  report_intro: >-
+    Mener du at noe her er ditt og ikke skulle vært publisert, vil vi vite det.
+    Skriv til
+  report_what: Hva det gjelder — hvilken tekst, hvilket spørsmål, hvilken side.
+  report_where: Lenke til siden der du så det.
+  report_who: Hvem du er, og hvilket forhold du har til verket.
+  report_why: Hvorfor du mener det er ditt.
+  report_response: >-
+    Vi tar innholdet ned mens vi ser på saken, og svarer deg. Vi krever ingen
+    skjemaer og ingen advokat for å komme i gang.
+  # Sies rett ut i stedet for å antydes: DMCA er navnet folk søker etter, ikke
+  # en påstand om hvilket lands rett som gjelder.
+  jurisdiction: >-
+    «DMCA» er navnet de fleste kjenner denne prosessen under. Pensum er et
+    norsk prosjekt, og en henvendelse hit behandles etter norsk rett — men du
+    trenger ikke vite hva prosessen heter for å skrive til oss.
+
+  audio_heading: Lydopptak
+  audio_body: >-
+    Leser du høyt, blir opptaket behandlet i minnet mens du får svaret, og så
+    er det borte. Det lagres ikke, deles ikke, og knyttes ikke til deg. Det
+    finnes derfor ingen opptak å be om innsyn i eller sletting av.
+
 auth:
   # Innlogging er valgfritt. Teksten skal aldri antyde at man må logge inn for
   # å ta en quiz -- det må man ikke.

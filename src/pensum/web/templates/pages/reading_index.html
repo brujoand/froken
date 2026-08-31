@@ -32,6 +32,10 @@
   </ul>
 
   {# Same line the quiz draws: these passages are ours, and no part of them is
-     curriculum text. #}
-  <p class="note">{{ t("reading.authored_note") }}</p>
+     curriculum text. The rights page is one click away from the claim rather
+     than only from the footer. #}
+  <p class="note">
+    {{ t("reading.authored_note") }}
+    <a href="/{{ locale }}/rettigheter">{{ t("rights.link") }}</a>
+  </p>
 {% endblock %}

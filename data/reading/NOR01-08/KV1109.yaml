@@ -1,53 +1,59 @@
 # Høytlesing, norsk etter 7. trinn (NOR01-08 / KV1109).
 #
-# Sakprosa og skjønnlitteratur, med lengre perioder og noen fagord — på dette
-# trinnet skal eleven holde flyten gjennom en tekst som ikke er skrevet for å
-# være lett. Skrevet for Pensum.
+# Lengre perioder, innskutte setninger og en og annen fagaktig vending — på
+# dette trinnet skal eleven holde flyten gjennom en tekst som ikke er skrevet
+# for å være lett. At den er tullete gjør den ikke enklere å lese høyt; det gjør
+# bare at eleven vil lese den ferdig. Skrevet for Pensum.
 ---
 subject: NOR01-08
 goal_set: KV1109
 
 texts:
-  - id: nor-kv1109-istid
+  - id: nor-kv1109-ordfoereren
     goal: KM14176
     language: nb
-    title: Landet under isen
+    title: Kua som ble ordfører
     difficulty: 1
     source: pensum
     reviewed: false
     body: |
-      For tjue tusen år siden lå Norge under is. Ikke snø som smelter om våren,
-      men en sammenhengende bre som flere steder var over to kilometer tykk.
-      Vekten av all denne isen presset landet nedover, slik en madrass gir etter
-      når noen legger seg på den.
-      Da isen omsider smeltet, begynte landet å reise seg igjen. Det gjør det
-      fremdeles. Langs kysten finnes strandlinjer som i dag ligger høyt oppe i
-      lia, med skjell og runde steiner i sanden, langt fra nærmeste bølge.
-      Hastigheten er beskjeden, noen få millimeter i året, men over tid blir det
-      merkbart. Brygger som ble bygget for hundre år siden, ligger flere steder
-      grunnere enn de gjorde da de var nye.
-      Landet vårt er altså ikke ferdig ennå. Det holder fortsatt på å komme seg
-      etter en vinter som varte i titusenvis av år.
+      Ingen hadde egentlig tenkt at kua skulle vinne valget. Hun sto på lista
+      som en spøk, langt nede, mellom en pensjonert bussjåfør og en mann som
+      ville forby vind.
+      Men kua lovte ingenting hun ikke kunne holde, og det viste seg å være en
+      uvanlig strategi. Mens de andre kandidatene lovte bru, tunnel og
+      badeland, sto hun helt stille på torget og tygget. Folk syntes det virket
+      ærlig.
+      Som ordfører har hun innført tre regler. Møter skal ikke vare lenger enn
+      en time, for da blir alle sultne. Alle saker skal forklares slik at et
+      barn på ni forstår dem, ellers er de ikke ferdig utredet. Og ingen får
+      snakke to ganger før alle har snakket én gang.
+      Kommunen går uventet godt. Riktignok har rådhuset måttet bygge om
+      inngangspartiet, og protokollene blir av og til spist, men innbyggerne
+      sier at de aldri har forstått lokalpolitikken bedre.
+      Nabokommunen vurderer nå en sau.
 
-  - id: nor-kv1109-brevet
+  - id: nor-kv1109-superhelten
     goal: KM14176
     language: nb
-    title: Brevet i skuffen
+    title: Verdens dårligste superhelt
     difficulty: 2
     source: pensum
     reviewed: false
     body: |
-      Da vi ryddet loftet etter oldemor, fant vi en skuff som var vanskelig å
-      åpne. Den satt fast, og da den endelig ga etter, lå det bare ett brev i
-      den, uten frimerke og uten adresse.
-      Skriften var tett og skråstilt, av den typen ingen skriver lenger.
-      Blekket hadde bleknet til brunt i kantene, men det gikk fint an å lese.
-      Brevet var skrevet en oktoberkveld i 1943 og handlet mest om helt vanlige
-      ting: at poteten var tatt opp, at søsteren hadde vondt i ryggen, at det
-      var lite kaffe å få tak i.
-      Først på siste side sto det en setning som gjorde at ingen av oss sa noe
-      på en stund. Hun skrev at hun ikke visste om han kom til å lese dette,
-      men at hun ville skrive det ned likevel, i tilfelle.
-      Vi vet fortsatt ikke hvem han var, eller hvorfor brevet aldri ble sendt.
-      Det ligger nå i en mappe hos onkelen min, sammen med et fotografi ingen
-      klarer å sette navn på.
+      Kaptein Kanskje har én superkraft, og det er å vite hva klokka er. Alltid.
+      Nøyaktig. Uten å se.
+      Han oppdaget den da han var tolv, og brukte flere år på å overbevise seg
+      selv om at det måtte finnes en måte å redde verden på med den. Det gjør
+      det ikke. Han har prøvd.
+      Likevel har han drakt, og han har logo, og han står på taket når det
+      regner, slik man skal. Når noen ringer nødnummeret og spør etter en helt,
+      kommer han, og så sier han hva klokka er, veldig presist, mens huset
+      brenner bak ham.
+      Én gang var det faktisk nyttig. En bombe skulle gå av tolv minutter over
+      ni, og alle andre klokker i bygningen var stoppet. Han sier at det var den
+      beste dagen i livet hans, og at han tenker på den omtrent annenhver time,
+      noe han også vet nøyaktig når er.
+      Han har søkt om å bli med i superheltforbundet fire ganger. De svarer
+      alltid at de skal komme tilbake til ham.
+      Han vet nøyaktig hvor lenge de har brukt.
