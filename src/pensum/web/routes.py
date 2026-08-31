@@ -17,6 +17,7 @@ from pensum.domain.models import NYNORSK
 from pensum.i18n import DEFAULT_LOCALE, curriculum_language
 from pensum.items.loader import ItemBank
 from pensum.reading.library import ReadingLibrary
+from pensum.web.deps import sees_unreviewed
 from pensum.web.rendering import context, templates, validate_locale
 
 router = APIRouter()
@@ -88,6 +89,7 @@ async def grade_page(request: Request, locale: str, grade: int) -> HTMLResponse:
         raise HTTPException(status_code=404, detail="grade outside grunnskole")
 
     catalogue = _catalogue(request)
+    drafts = sees_unreviewed(request)
     subjects = [s for s in subjects_for_grade(catalogue.subjects, grade) if s.code in CORE_SUBJECTS]
 
     entries = []
@@ -100,7 +102,7 @@ async def grade_page(request: Request, locale: str, grade: int) -> HTMLResponse:
                 "goal_count": len(checkpoint.goal_set.goals),
                 # Derived, never declared: a subject offers a quiz exactly when
                 # reviewed items exist for that checkpoint.
-                "has_quiz": _items(request).has_quiz(checkpoint.goal_set.code),
+                "has_quiz": _items(request).has_quiz(checkpoint.goal_set.code, unreviewed=drafts),
             }
         )
 
@@ -127,6 +129,7 @@ async def subject_page(
     # A handful of curricula are established in nynorsk with no bokmål
     # translation. Showing them unlabelled would read as a typo rather than as
     # the official wording it is.
+    drafts = sees_unreviewed(request)
     language = curriculum_language(locale)
     shows_nynorsk = language != NYNORSK and all(
         not goal.text.has(language) and goal.text.has(NYNORSK) for goal in checkpoint.goal_set.goals
@@ -142,13 +145,15 @@ async def subject_page(
             subject=subject,
             checkpoint=checkpoint,
             shows_nynorsk=shows_nynorsk,
-            has_quiz=_items(request).has_quiz(checkpoint.goal_set.code),
+            has_quiz=_items(request).has_quiz(checkpoint.goal_set.code, unreviewed=drafts),
             # Derived the same way the quiz is: a subject offers reading aloud
             # exactly when reviewed passages exist for that checkpoint. Norsk and
             # engelsk have them; the other subjects simply have none, which needs
             # no list of which subjects are "reading subjects".
-            has_reading=_reading(request).has_reading(checkpoint.goal_set.code),
-            question_count=len(_items(request).for_goal_set(checkpoint.goal_set.code)),
-            coverage=_items(request).coverage(checkpoint.goal_set),
+            has_reading=_reading(request).has_reading(checkpoint.goal_set.code, unreviewed=drafts),
+            question_count=len(
+                _items(request).for_goal_set(checkpoint.goal_set.code, unreviewed=drafts)
+            ),
+            coverage=_items(request).coverage(checkpoint.goal_set, unreviewed=drafts),
         ),
     )

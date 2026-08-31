@@ -35,7 +35,7 @@ from pensum.reading.library import ReadingLibrary
 from pensum.reading.schema import ReadingText
 from pensum.reading.streams import ReadingStream, StreamLimit, StreamStore
 from pensum.reading.transcribe import Transcriber
-from pensum.web.deps import get_settings
+from pensum.web.deps import get_settings, sees_unreviewed
 from pensum.web.rendering import context, templates, validate_locale
 
 router = APIRouter()
@@ -73,7 +73,7 @@ def _checkpoint(request: Request, subject_code: str, grade: int):
 
 
 def _text_or_404(request: Request, goal_set: str, text_id: str) -> ReadingText:
-    text = _library(request).text(goal_set, text_id)
+    text = _library(request).text(goal_set, text_id, unreviewed=sees_unreviewed(request))
     if text is None:
         raise HTTPException(status_code=404, detail="unknown reading text")
     return text
@@ -116,7 +116,9 @@ async def reading_index(
     validate_locale(locale)
     subject, checkpoint = _checkpoint(request, subject_code, grade)
 
-    texts = _library(request).for_goal_set(checkpoint.goal_set.code)
+    texts = _library(request).for_goal_set(
+        checkpoint.goal_set.code, unreviewed=sees_unreviewed(request)
+    )
     if not texts:
         raise HTTPException(status_code=404, detail="no reading texts for this checkpoint")
 

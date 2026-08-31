@@ -59,6 +59,34 @@ def require_admin(request: Request) -> User:
     return user
 
 
+def is_admin(request: Request) -> bool:
+    """Whether this request comes from someone in the configured admin group."""
+    settings = get_settings(request)
+    user = current_user(request)
+    return user is not None and user.in_group(settings.admin_group)
+
+
+def sees_unreviewed(request: Request) -> bool:
+    """Whether this request may be shown content no human has read yet.
+
+    Two ways to qualify, and they are different in kind. The deployment-wide
+    `PENSUM_INCLUDE_UNREVIEWED` says "this instance is for reviewing drafts" --
+    it is for a maintainer running the app locally, and the manifest comments
+    are emphatic that it must never be set on the instance children use.
+
+    Being an administrator is the per-request one: a draft has to be readable in
+    place before anyone can decide whether it is fit to mark reviewed, and
+    signing in is the only way to establish who is asking.
+
+    Note what this depends on. `current_user` is None whenever sign-in is not
+    configured, so an instance that authenticates at a proxy and forwards no
+    identity has no administrators as far as Pensum is concerned, and this
+    returns False for everyone. That is the correct failure direction, but it
+    does mean the feature is inert until Pensum has its own OIDC client.
+    """
+    return get_settings(request).include_unreviewed_items or is_admin(request)
+
+
 def base_url(request: Request) -> str:
     """Pensum's own public origin.
 

@@ -17,7 +17,7 @@ from pensum.items.loader import ItemBank
 from pensum.quiz.scoring import Result, score, select
 from pensum.quiz.session import QuizSession, SessionStore
 from pensum.scores.store import Attempt, GoalTally, attempt_key
-from pensum.web.deps import current_user, get_store
+from pensum.web.deps import current_user, get_store, sees_unreviewed
 from pensum.web.rendering import context, templates, validate_locale
 
 router = APIRouter()
@@ -82,7 +82,11 @@ async def start_quiz(
     if checkpoint is None:
         raise HTTPException(status_code=404, detail="no goals for this grade")
 
-    items = select(_bank(request).for_goal_set(checkpoint.goal_set.code))
+    # An administrator gets the drafts too, because reading a question in the
+    # quiz it belongs to is the only way to judge it.
+    items = select(
+        _bank(request).for_goal_set(checkpoint.goal_set.code, unreviewed=sees_unreviewed(request))
+    )
     if not items:
         raise HTTPException(status_code=404, detail="no quiz available for this checkpoint")
 
@@ -177,6 +181,6 @@ async def result(request: Request, locale: str, session_id: str) -> HTMLResponse
             goals=goals,
             # So a score reads against what the quiz actually reached, not the
             # whole checkpoint.
-            coverage=_bank(request).coverage(goal_set),
+            coverage=_bank(request).coverage(goal_set, unreviewed=sees_unreviewed(request)),
         ),
     )

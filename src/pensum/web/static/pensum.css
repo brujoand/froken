@@ -877,3 +877,23 @@ body.reading-focus .reading-text {
     transition: none;
   }
 }
+
+/* A draft, shown only to someone allowed to see one. Deliberately loud: the
+   whole point of showing it is that somebody is deciding whether it is fit to
+   put in front of a child, and an unmarked draft would be judged as if it had
+   already passed. */
+.badge--draft {
+  background: #fdf1d6;
+  color: #7a5310;
+}
+
+@media (prefers-color-scheme: dark) {
+  .badge--draft {
+    background: #3a2f16;
+    color: #e8c877;
+  }
+}
+
+.note--draft {
+  border-left: 3px solid #c9962e;
+}

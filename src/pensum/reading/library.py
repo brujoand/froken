@@ -58,17 +58,28 @@ class ReadingLibrary:
     def reading_sets(self) -> list[ReadingSet]:
         return list(self._sets.values())
 
-    def for_goal_set(self, code: str) -> list[ReadingText]:
+    def for_goal_set(self, code: str, *, unreviewed: bool = False) -> list[ReadingText]:
+        """Servable passages for a goal set.
+
+        Same contract as `ItemBank.for_goal_set`: withheld by default, widened
+        by the deployment-wide switch or by a request that has established it
+        may see drafts. False at every layer, so a forgotten argument fails
+        closed.
+        """
         reading_set = self._sets.get(code)
         if reading_set is None:
             return []
-        return [t for t in reading_set.texts if self._include_unreviewed or t.reviewed]
+        widened = self._include_unreviewed or unreviewed
+        return [t for t in reading_set.texts if widened or t.reviewed]
 
-    def has_reading(self, code: str) -> bool:
-        return bool(self.for_goal_set(code))
+    def has_reading(self, code: str, *, unreviewed: bool = False) -> bool:
+        return bool(self.for_goal_set(code, unreviewed=unreviewed))
 
-    def text(self, goal_set: str, text_id: str) -> ReadingText | None:
-        return next((t for t in self.for_goal_set(goal_set) if t.id == text_id), None)
+    def text(self, goal_set: str, text_id: str, *, unreviewed: bool = False) -> ReadingText | None:
+        return next(
+            (t for t in self.for_goal_set(goal_set, unreviewed=unreviewed) if t.id == text_id),
+            None,
+        )
 
     def band(self, subject: str, after_year: int) -> ReadingNorm | None:
         return self._norms.band(subject, after_year)

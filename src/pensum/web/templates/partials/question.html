@@ -7,6 +7,13 @@
     <p class="progress">{{ t("quiz.progress", number=session.answered + 1, total=session.total) }}</p>
     <input type="hidden" name="item_id" value="{{ item.id }}" />
 
+    {# Only ever rendered for someone allowed to see drafts; a pupil is never
+       served an unreviewed item at all. Marked rather than silently mixed in,
+       so a reviewer knows which question they are being asked to judge. #}
+    {% if drafts_visible and not item.reviewed %}
+      <p class="badge badge--draft">{{ t("review.draft") }}</p>
+    {% endif %}
+
     {# Authored by us, never quoted from the curriculum -- said plainly, and
        styled apart from the .curriculum blockquotes for the same reason. #}
     <h2 class="prompt">{{ item.prompt.get(locale) }}</h2>

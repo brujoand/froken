@@ -26,6 +26,13 @@
 
   {# The quiz sits above the goal list. A checkpoint can carry twenty-odd goals,
      and with the list first the button was pushed off the screen on a phone. #}
+  {% if drafts_visible %}
+    {# Says why this page looks different from the one a pupil sees. Without it
+       an administrator cannot tell whether a quiz is live or whether they are
+       the only person who can see it. #}
+    <p class="note note--draft">{{ t("review.draft_note") }}</p>
+  {% endif %}
+
   <section class="quiz-cta">
     {% if has_quiz %}
       <p>{{ t("quiz.intro", count=question_count) }}</p>

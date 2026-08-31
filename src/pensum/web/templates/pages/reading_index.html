@@ -27,6 +27,9 @@
           {{ text.title }}
         </a>
         <span class="count">{{ t("reading.word_count", count=text.word_count) }}</span>
+        {% if drafts_visible and not text.reviewed %}
+          <span class="badge badge--draft">{{ t("review.draft") }}</span>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>
