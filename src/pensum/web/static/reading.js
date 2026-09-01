@@ -44,6 +44,10 @@
   var consentElement = document.getElementById("reading-consent");
   var consentBox = document.getElementById("reading-consent-box");
   var consentText = document.getElementById("reading-consent-text");
+  var timedBox = document.getElementById("reading-timed-box");
+  /* Whether the privacy opt-in has anything to say on this browser. It only
+   * appears where recognition would leave the device. */
+  var consentApplies = false;
 
   /* "device" | "server" | "timed". Decided once at load, and again if the pupil
    * ticks the consent box. */
@@ -100,6 +104,28 @@
 
   /* Light every word up to `cursor`, and nothing after it. Idempotent, so a
    * cursor that arrives late or twice cannot make the highlight flicker. */
+  /* Keep the word being read on screen. In focus mode the passage is taller
+   * than the display, and nothing was scrolling it -- so a child could see the
+   * text before starting and then read the rest of it off the bottom of the
+   * screen.
+   *
+   * A band rather than a line: scrolling to centre every single word would slide
+   * the passage continuously under someone trying to follow it. It moves only
+   * when the current word has left the comfortable middle. */
+  function keepInView(index) {
+    if (!running || !stage) return;
+    var span = wordSpans[Math.min(index, wordSpans.length - 1)];
+    if (!span) return;
+
+    var frame = stage.getBoundingClientRect();
+    var box = span.getBoundingClientRect();
+    var high = frame.top + frame.height * 0.25;
+    var low = frame.top + frame.height * 0.7;
+    if (box.top >= high && box.bottom <= low) return;
+
+    stage.scrollTop += box.top - (frame.top + frame.height * 0.35);
+  }
+
   function lightTo(cursor) {
     for (var i = 0; i < wordSpans.length; i++) {
       var passed = i < cursor;
@@ -109,6 +135,7 @@
     }
     if (bar) bar.style.width = Math.min(100, (cursor / totalWords) * 100) + "%";
     if (progress) progress.setAttribute("aria-valuenow", String(cursor));
+    keepInView(cursor);
   }
 
   function clearWords() {
@@ -755,24 +782,42 @@
    * it is strictly more private than posting the audio to Pensum, which is
    * what the server path does. Anything else is opt-in and names whose
    * servers are involved. */
-  function chooseEngine() {
-    if (!deviceAllowed || !Recognition) {
+  /* Who listens, decided from what the browser can do and what the reader has
+   * asked for -- recomputed whenever either changes, so there is one answer and
+   * one place it comes from. */
+  function settleEngine() {
+    if (timedBox && timedBox.checked) {
+      engine = "timed";
+    } else if (deviceAllowed && Recognition && (localRecognition || consentBox.checked)) {
+      engine = "device";
+    } else {
       engine = checked ? "server" : "timed";
+    }
+
+    /* Both notices are about recognition, so neither has anything to say to a
+     * reader who has asked not to be recognised. */
+    var declined = Boolean(timedBox && timedBox.checked);
+    consentElement.hidden = !consentApplies || declined;
+    engineElement.hidden = declined || !engineElement.textContent;
+  }
+
+  function chooseEngine() {
+    if (timedBox) timedBox.addEventListener("change", settleEngine);
+
+    if (!deviceAllowed || !Recognition) {
+      settleEngine();
       return Promise.resolve();
     }
     return probeLocal().then(function (isLocal) {
       localRecognition = isLocal;
       if (isLocal) {
-        engine = "device";
         announce(engineElement, root.dataset.labelDeviceLocal);
-        return;
+      } else {
+        consentApplies = true;
+        consentText.textContent = root.dataset.labelDeviceCloud;
+        consentBox.addEventListener("change", settleEngine);
       }
-      engine = checked ? "server" : "timed";
-      consentText.textContent = root.dataset.labelDeviceCloud;
-      consentElement.hidden = false;
-      consentBox.addEventListener("change", function () {
-        engine = consentBox.checked ? "device" : checked ? "server" : "timed";
-      });
+      settleEngine();
     });
   }
 
