@@ -61,6 +61,11 @@
              aria-valuemax="{{ text.word_count }}" aria-valuenow="0"
              aria-label="{{ t('reading.progress') }}" id="reading-progress"></div>
         <span class="reading-clock" id="reading-clock" role="timer" aria-live="off">0:00</span>
+        {# Lit by a run of words read correctly, one after another. In the HUD
+           rather than in the passage because the HUD is a fixed strip: flames
+           appearing between the words would move the words. #}
+        <span class="reading-heat" id="reading-heat" aria-live="off"
+              aria-label="{{ t('reading.heat') }}"></span>
       </div>
 
       {# The passage is the page. Larger type, generous line height and a limited
@@ -82,7 +87,7 @@
 
       <article class="reading-text" id="reading-passage" lang="{{ text.language }}">
         {% for paragraph in text.paragraphs %}
-          <p>{% for token in paragraph %}{% if token.index is none %}{{ token.text }}{% else %}<span class="w" data-i="{{ token.index }}">{{ token.text }}</span>{% endif %}{% endfor %}</p>
+          <p>{% for token in paragraph %}{% if token.index is none %}<span class="gap">{{ token.text }}</span>{% else %}<span class="w" data-i="{{ token.index }}">{{ token.text }}</span>{% endif %}{% endfor %}</p>
         {% endfor %}
       </article>
 

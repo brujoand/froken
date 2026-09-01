@@ -35,6 +35,14 @@ const constants = {};
 for (const [, name, value] of src.matchAll(/var\s+([A-Z][A-Z_]+)\s*=\s*(-?[\d.]+)\s*;/g)) {
   constants[name] = Number(value);
 }
+/* Numeric arrays too -- the heat thresholds are one, and a harness carrying its
+ * own copy of them would go on passing after someone retuned the real ones. */
+const arrays = {};
+for (const [, name, body] of src.matchAll(/var\s+([A-Z][A-Z_]+)\s*=\s*\[([\d,\s]+)\]\s*;/g)) {
+  arrays[name] = body.split(",").map((n) => Number(n.trim()));
+}
+if (!arrays.HEAT_LEVELS) throw new Error("reading.js no longer defines numeric HEAT_LEVELS");
+const HEAT_LEVELS = arrays.HEAT_LEVELS;
 
 for (const name of [
   "MIN_ANCHOR",
@@ -51,6 +59,7 @@ for (const name of [
 }
 
 let cursor = 0;
+let streak = 0;
 let status = [];
 let reference = [];
 let comparisons = {};
@@ -66,6 +75,7 @@ eval(grabFunction("similarity"));
 eval(grabFunction("closeEnough"));
 eval(grabFunction("same"));
 eval(grabFunction("align"));
+eval(grabFunction("heatFor"));
 eval(grabFunction("advanceCursor"));
 
 /* --- the harness -------------------------------------------------------- */
@@ -226,6 +236,36 @@ hear(PASSAGE.slice(0, 10).concat(["mmm", "mmm", "mmm", "mmm", "mmm"]));
 check("the highlight keeps moving past the last confirmed word", cursor, 15);
 check("...and still asserts nothing about the words it passed", tally().misread, 0);
 check("...while the ten it did confirm stay confirmed", tally().read, 10);
+
+/* --- how warm the line gets ------------------------------------------- */
+
+/* A run of correct words, and nothing else. Not a score, not shown as one --
+ * it decides the colour of the line and how many flames sit in the HUD. */
+
+function runOf(correct, thenWrong) {
+  status = [];
+  for (let i = 0; i < correct; i++) status[i] = "read";
+  if (thenWrong) status[correct] = "misread";
+  return heatFor(correct + (thenWrong ? 1 : 0));
+}
+
+check("a short run is not yet warm", runOf(HEAT_LEVELS[0] - 1, false), 0);
+check("the first threshold lights one flame", runOf(HEAT_LEVELS[0], false), 1);
+check("the second lights two", runOf(HEAT_LEVELS[1], false), 2);
+check("the third lights three", runOf(HEAT_LEVELS[2], false), 3);
+
+/* One wrong word ends the run rather than reducing it: the line cooling the
+ * moment it goes wrong is the honest answer to "how is it going right now",
+ * and it warms again exactly as fast as it cooled. */
+check("a wrong word puts it out", runOf(HEAT_LEVELS[2], true), 0);
+
+/* And the run is the one ending where the reader is, not the best one in the
+ * passage -- a child who read fifty words then stumbled is not still on fire. */
+status = [];
+for (let i = 0; i < HEAT_LEVELS[2]; i++) status[i] = "read";
+status[HEAT_LEVELS[2]] = "misread";
+for (let i = HEAT_LEVELS[2] + 1; i < HEAT_LEVELS[2] + 4; i++) status[i] = "read";
+check("only the current run counts", heatFor(HEAT_LEVELS[2] + 4), 0);
 
 /* --- what counts as the same word --------------------------------------- */
 

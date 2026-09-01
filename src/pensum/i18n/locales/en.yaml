@@ -130,6 +130,7 @@ reading:
   speech_unsupported: >-
     The browser does not recognise this language. We will time you instead,
     without checking the reading.
+  heat: How many words in a row you have read correctly
   mic_denied: >-
     Pensum could not reach the microphone. We will time you instead, without
     checking the reading.
