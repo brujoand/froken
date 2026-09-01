@@ -45,63 +45,87 @@
     data-label-failed="{{ t('reading.failed') }}"
   >
     <div class="reading-stage" id="reading-stage">
-      {# The heads-up display: how long so far, and nothing else.
+      {# One header row: how long so far, how hot the reading is, and the button
+         that stops it.
 
-         How far through the passage is drawn under the words themselves -- a
-         line beneath what has been read. A bar somewhere else on the screen
-         asks a reader to look away from the text to learn something the text
-         can say in place, and looking away is the thing this screen exists to
-         stop.
+         In focus mode this row is the grid's first track and the passage is the
+         second, so it simply does not scroll. It used to be two separate sticky
+         elements inside the scrolling stage, each with a hand-written `top` that
+         had to add up to the other's rendered height -- which is not a thing a
+         stylesheet can know, so they overlapped.
 
-         The progressbar stays for anything not reading with its eyes, where a
-         line under a word is nothing at all. Hidden visually, counted the
-         same. #}
-      <div class="reading-hud">
-        <div class="reading-progress visually-hidden" role="progressbar" aria-valuemin="0"
-             aria-valuemax="{{ text.word_count }}" aria-valuenow="0"
-             aria-label="{{ t('reading.progress') }}" id="reading-progress"></div>
-        <span class="reading-clock" id="reading-clock" role="timer" aria-live="off">0:00</span>
-        {# Lit by a run of words read correctly, one after another. In the HUD
-           rather than in the passage because the HUD is a fixed strip: flames
-           appearing between the words would move the words. #}
-        <span class="reading-heat" id="reading-heat" aria-live="off"
-              aria-label="{{ t('reading.heat') }}"></span>
+         How far through the passage is drawn under the words themselves. A bar
+         somewhere else on the screen asks a reader to look away from the text to
+         learn something the text can say in place, and looking away is the thing
+         this screen exists to stop. The progressbar stays for anything not
+         reading with its eyes, where a line under a word is nothing at all:
+         hidden visually, counted the same. #}
+      <div class="reading-top">
+        <div class="reading-hud">
+          <div class="reading-progress visually-hidden" role="progressbar" aria-valuemin="0"
+               aria-valuemax="{{ text.word_count }}" aria-valuenow="0"
+               aria-label="{{ t('reading.progress') }}" id="reading-progress"></div>
+          <span class="reading-clock" id="reading-clock" role="timer" aria-live="off">0:00</span>
+          {# Lit by a run of words read correctly, one after another. Here rather
+             than in the passage because this row is a fixed height: flames
+             appearing between the words would move the words. #}
+          <span class="reading-heat" id="reading-heat" aria-live="off"
+                aria-label="{{ t('reading.heat') }}"></span>
+        </div>
+
+        <div class="reading-controls">
+          <button class="button button--big" type="button" id="reading-toggle">
+            {{ t("reading.start") }}
+          </button>
+          <span class="reading-meta">{{ t("reading.word_count", count=text.word_count) }}</span>
+        </div>
       </div>
 
-      {# The passage is the page. Larger type, generous line height and a limited
-         measure, because a child reading aloud loses their place in a wall of
-         text far more easily than one reading silently.
+      {# The only thing that scrolls, and the reason it is its own element: the
+         stage used to scroll as a whole with the header stuck inside it, so
+         every scroll offset had to account for the header's height and none of
+         them did.
 
-         Every word is its own span so it can be lit as it is read. The numbering
-         is `ReadingText.paragraphs`, which is derived from the same tokeniser
-         the scorer uses -- the page and the score always mean the same word 43.
+         Positioned, so a word's offsetTop is measured against this box and is
+         therefore in the same units as this box's scrollTop. That is what lets
+         the follow-along aim at a line instead of measuring against the viewport
+         while the viewport is still moving. #}
+      <div class="reading-scroller" id="reading-scroller">
+        {# The passage is the page. Larger type, open leading and a limited
+           measure, because a child reading aloud loses their place in a wall of
+           text far more easily than one reading silently.
 
-         Rendered without newlines inside the paragraph: a line break between
-         spans would be printed as a space the passage does not have. #}
-      <div class="reading-controls">
-        <button class="button button--big" type="button" id="reading-toggle">
-          {{ t("reading.start") }}
-        </button>
-        <span class="reading-meta">{{ t("reading.word_count", count=text.word_count) }}</span>
+           Every word is its own span so it can be lit as it is read, and the
+           spaces between them are spans too so the line under the reading is one
+           line rather than a dash per word. The numbering is
+           `ReadingText.paragraphs`, derived from the same tokeniser the scorer
+           uses -- the page and the score always mean the same word 43.
+
+           Rendered without newlines inside the paragraph: a line break between
+           spans would be printed as a space the passage does not have. #}
+        <article class="reading-text" id="reading-passage" lang="{{ text.language }}">
+          {% for paragraph in text.paragraphs %}
+            <p>{% for token in paragraph %}{% if token.index is none %}<span class="gap">{{ token.text }}</span>{% else %}<span class="w" data-i="{{ token.index }}">{{ token.text }}</span>{% endif %}{% endfor %}</p>
+          {% endfor %}
+        </article>
       </div>
 
-      <article class="reading-text" id="reading-passage" lang="{{ text.language }}">
-        {% for paragraph in text.paragraphs %}
-          <p>{% for token in paragraph %}{% if token.index is none %}<span class="gap">{{ token.text }}</span>{% else %}<span class="w" data-i="{{ token.index }}">{{ token.text }}</span>{% endif %}{% endfor %}</p>
-        {% endfor %}
-      </article>
+      {# Anything the page has to say back. Its own row at the bottom of the
+         grid, which collapses to nothing while it is empty -- an error must
+         still be able to appear over a passage being read. #}
+      <div class="reading-aside">
+        {# Which recogniser is listening, in words, before it does. Filled in by
+           the page, because only the browser can tell an on-device recogniser
+           from one that posts a child's voice to its vendor.
 
-      {# Which recogniser is listening, in words, before it does. Filled in by
-         the page, because only the browser can tell an on-device recogniser
-         from one that posts a child's voice to its vendor.
+           A statement, not a choice. Checking the reading is the exercise, so
+           there is nothing here to switch off -- but which of those two is
+           happening is not something to leave unsaid either, and it differs by
+           device rather than by anything the reader did. #}
+        <p class="reading-engine" id="reading-engine" hidden></p>
 
-         A statement, not a choice. Checking the reading is the exercise, so
-         there is nothing here to switch off -- but which of those two is
-         happening is not something to leave unsaid either, and it differs by
-         device rather than by anything the reader did. #}
-      <p class="reading-engine" id="reading-engine" hidden></p>
-
-      <div id="reading-result" aria-live="polite"></div>
+        <div id="reading-result" aria-live="polite"></div>
+      </div>
     </div>
 
     {# Without JavaScript there is no clock, no microphone and no highlighting,

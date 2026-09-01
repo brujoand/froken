@@ -18,9 +18,17 @@
   --fire-1: #c46a1d;
   --fire-2: #d9531e;
   --fire-3: #e03a10;
+  /* What the line brightens to as it sparkles. Lighter than any of the
+     three so the pulse reads as a glint rather than as a fourth step. */
+  --spark: #ffd08a;
   --warn-soft: #f6ede4;
   --radius: 10px;
   --measure: 38rem;
+  /* One measure for the whole reading exercise, in rem rather than em. Every
+     part of that screen has to line up with the passage, and em resolves
+     against each part's own font-size -- which is how the clock ended up half
+     the width of the text it was meant to sit above. */
+  --reading-measure: 34rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -656,8 +664,11 @@ a {
    open leading and the short measure. */
 .reading-text {
   font-size: 1.35rem;
-  line-height: 2;
-  max-width: 32em;
+  /* Open, but not a blank line between every line of text. At the focus-mode
+     type size a line-height of 2 puts 4.4rem of box around 2.2rem of words,
+     which reads as holes in the passage rather than as leading. */
+  line-height: 1.75;
+  max-width: var(--reading-measure);
   margin: 1rem auto;
   padding: 1.2rem 1.4rem;
   background: var(--card);
@@ -716,20 +727,44 @@ a {
 /* Warmer the longer the reading keeps going right. Colour only: nothing here
    changes how much room a word takes, because the passage must not move under
    someone who is reading it. */
-.reading-stage[data-heat="1"] .reading-text .w.lit,
-.reading-stage[data-heat="1"] .reading-text .gap.lit {
-  text-decoration-color: var(--fire-1);
+.reading-stage[data-heat="1"] {
+  --flame: var(--fire-1);
 }
 
-.reading-stage[data-heat="2"] .reading-text .w.lit,
-.reading-stage[data-heat="2"] .reading-text .gap.lit {
-  text-decoration-color: var(--fire-2);
+.reading-stage[data-heat="2"] {
+  --flame: var(--fire-2);
+}
+
+.reading-stage[data-heat="3"] {
+  --flame: var(--fire-3);
+}
+
+/* Alight: the line takes the colour of the run and starts to glint. The pulse
+   is written once and reads `--flame`, so each step brightens from its own
+   colour rather than needing three near-identical keyframes.
+
+   Each word starts its own animation when it lights up, so the glints run a
+   little behind one another along the line instead of the whole passage
+   flashing at once -- which is the difference between a sparkle and an alarm. */
+.reading-stage:not([data-heat="0"]) .reading-text .w.lit,
+.reading-stage:not([data-heat="0"]) .reading-text .gap.lit {
+  text-decoration-color: var(--flame);
+  animation: reading-spark 1.9s ease-in-out infinite;
 }
 
 .reading-stage[data-heat="3"] .reading-text .w.lit,
 .reading-stage[data-heat="3"] .reading-text .gap.lit {
-  text-decoration-color: var(--fire-3);
   text-decoration-thickness: 4px;
+}
+
+@keyframes reading-spark {
+  0%,
+  100% {
+    text-decoration-color: var(--flame);
+  }
+  50% {
+    text-decoration-color: var(--spark);
+  }
 }
 
 /* In the HUD, which is a fixed strip: flames appearing between the words would
@@ -769,7 +804,12 @@ a {
   align-items: center;
   gap: 1rem;
   margin: 0 auto 0.5rem;
-  max-width: 32em;
+  max-width: var(--reading-measure);
+}
+
+/* Nothing of its own to say in normal flow; a grid track in focus mode. */
+.reading-top > * {
+  margin-inline: auto;
 }
 
 /* Kept in the document, taken off the screen. Progress is drawn under the words
@@ -793,32 +833,23 @@ a {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  margin: 1rem 0;
+  margin: 1rem auto;
+  max-width: var(--reading-measure);
 }
 
-/* The HUD and the button stay put while the passage scrolls under them. The
-   HUD was a plain flow element, so it scrolled away with the text -- which is
-   why the progress bar disappeared the moment a reading actually started, the
-   one time it has anything to say. */
-body.reading-focus .reading-hud,
-body.reading-focus .reading-controls {
-  position: sticky;
-  z-index: 1;
-  margin-top: 0;
+/* The header stays put because it is a grid track that is not the scrolling
+   one -- not because it is sticky. Both halves of it used to be sticky inside
+   the scrolling stage, each with a `top` hand-set to what the other's rendered
+   height was guessed to be, which is not something a stylesheet can know. They
+   overlapped, and the gap left where the guess was wrong is most of what read
+   as empty space around the passage. */
+body.reading-focus .reading-top {
+  padding: 0.75rem 1.5rem 0.5rem;
   background: var(--paper);
 }
 
-body.reading-focus .reading-hud {
-  top: 0;
-  padding-top: 0.25rem;
-  padding-bottom: 0.5rem;
-}
-
 body.reading-focus .reading-controls {
-  /* Below the HUD, not over it: both are sticky, so the second has to be
-     offset by the height of the first or they overlap. */
-  top: 2rem;
-  padding: 0.25rem 0 0.75rem;
+  margin: 0.5rem auto 0;
 }
 
 
@@ -852,25 +883,55 @@ body.reading-focus main {
   padding: 0;
 }
 
-/* Top-aligned, not centred. A centred flex column clips its own overflow at the
-   top -- the first lines of a long passage become unreachable, scroll or not --
-   and a passage that is being read through wants to start at the beginning
-   anyway. The script scrolls it to follow the reader from there. */
+/* Three rows: the header, the passage, and whatever the page has to say back.
+   The stage itself does not scroll -- `1fr` with a `minmax(0, ...)` floor so the
+   passage row takes the space that is left and its overflow becomes a scrollbar
+   on the row rather than on the screen.
+
+   It used to be one scrolling flex column holding everything, which is what
+   made the follow-along have to reason about the header's height, the stage's
+   padding and the passage's position all at once. It got all three wrong. */
 body.reading-focus .reading-stage {
+  /* Wider here than in the page, and still one number for the header and the
+     passage both. The measure is in rem so that those two line up at all -- em
+     would resolve against each one's own font-size -- but that means it does
+     not grow with the focus-mode type on its own, and 34rem of 1.9rem text is a
+     column about six words wide. */
+  --reading-measure: 46rem;
   position: fixed;
   inset: 0;
   z-index: 10;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  overflow-y: auto;
-  padding: 2rem 1.5rem;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  overflow: hidden;
   background: var(--paper);
 }
 
+/* The one scrolling box, and the one the script measures against.
+   `position: relative` makes it the offsetParent of every word, so a word's
+   offsetTop is in the same coordinates as this box's scrollTop -- which is what
+   the follow-along needs and did not have. */
+body.reading-focus .reading-scroller {
+  position: relative;
+  overflow-y: auto;
+  /* Enough room above the first line and below the last that either can sit in
+     the middle of the screen. Without it the follow-along can centre every line
+     except the ones at the ends, which is exactly where a reader starts and
+     finishes. */
+  padding: 42vh 1.5rem;
+  scrollbar-width: none;
+}
+
+body.reading-focus .reading-scroller::-webkit-scrollbar {
+  display: none;
+}
+
 body.reading-focus .reading-text {
-  font-size: clamp(1.4rem, 3.4vw, 2.2rem);
+  font-size: clamp(1.3rem, 2.9vw, 1.9rem);
+  line-height: 1.65;
   border: 0;
+  padding: 0;
+  margin: 0 auto;
   background: none;
 }
 
@@ -993,8 +1054,11 @@ body.reading-focus .reading-text {
 
   /* The flames stay; the flickering goes. What they mean is carried by the
      colour of the line and by how many of them there are, so nothing is lost
-     by holding them still. */
-  .reading-stage[data-heat="3"] .reading-heat {
+     by holding them still. The same goes for the glint along the line: the line
+     is still the colour of the run, it just holds that colour. */
+  .reading-stage[data-heat="3"] .reading-heat,
+  .reading-stage:not([data-heat="0"]) .reading-text .w.lit,
+  .reading-stage:not([data-heat="0"]) .reading-text .gap.lit {
     animation: none;
   }
 }
