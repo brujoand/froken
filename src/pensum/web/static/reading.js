@@ -25,7 +25,6 @@
   var stage = document.getElementById("reading-stage");
   var toggle = document.getElementById("reading-toggle");
   var clock = document.getElementById("reading-clock");
-  var bar = document.getElementById("reading-bar");
   var progress = document.getElementById("reading-progress");
   var output = document.getElementById("reading-result");
   var passage = document.getElementById("reading-passage");
@@ -54,6 +53,12 @@
   /* Where the follow-along last put the passage, so an update that would not
    * move it does not touch scrollTop at all. */
   var lastScroll = -1;
+  /* The furthest word the reader has reached, which is what the passage is
+   * scrolled to follow. The cursor itself is a pure function of the transcript
+   * and moves back a word whenever the recogniser revises -- correct for the
+   * highlight, and the cause of the stutter when the passage chased it across
+   * a line boundary and back again. Scrolling only ever goes forward. */
+  var furthest = 0;
   /* Correctness, per word, kept apart from progress on purpose. Progress is
    * "how far has the reader got", and it must keep up with speech or the
    * highlight is useless. Whether each word came out right is a slower and
@@ -110,7 +115,8 @@
    * when the current word has left the comfortable middle. */
   function keepInView(index) {
     if (!running || !stage) return;
-    var span = wordSpans[Math.min(index, wordSpans.length - 1)];
+    if (index > furthest) furthest = index;
+    var span = wordSpans[Math.min(furthest, wordSpans.length - 1)];
     if (!span) return;
 
     var frame = stage.getBoundingClientRect();
@@ -138,7 +144,6 @@
       wordSpans[i].classList.toggle("lit", passed && !wrong);
       wordSpans[i].classList.toggle("missed", passed && wrong);
     }
-    if (bar) bar.style.width = Math.min(100, (cursor / totalWords) * 100) + "%";
     if (progress) progress.setAttribute("aria-valuenow", String(cursor));
     keepInView(cursor);
   }
@@ -147,7 +152,6 @@
     for (var i = 0; i < wordSpans.length; i++) {
       wordSpans[i].classList.remove("lit", "missed", "current");
     }
-    if (bar) bar.style.width = "0%";
   }
 
   /* --- audio ------------------------------------------------------------ */
@@ -378,7 +382,6 @@
           var span = wordSpans[entry.i];
           if (!span) return;
           span.classList.add(entry.ok ? "lit" : "missed");
-          if (bar) bar.style.width = Math.min(100, ((entry.i + 1) / totalWords) * 100) + "%";
         }, entry.at * 1000)
       );
     });
@@ -847,6 +850,7 @@
     heardWords = [];
     cursor = 0;
     lastScroll = -1;
+    furthest = 0;
     status = [];
     anchorWord = 0;
     anchorHeard = 0;

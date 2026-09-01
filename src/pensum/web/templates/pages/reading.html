@@ -45,16 +45,21 @@
     data-label-failed="{{ t('reading.failed') }}"
   >
     <div class="reading-stage" id="reading-stage">
-      {# The heads-up display: how far through the passage, and how long so far.
-         Fixed to the top of the stage so it never moves the text -- reflowing a
-         passage under a child mid-sentence is the one thing this screen must
-         never do. #}
+      {# The heads-up display: how long so far, and nothing else.
+
+         How far through the passage is drawn under the words themselves -- a
+         line beneath what has been read. A bar somewhere else on the screen
+         asks a reader to look away from the text to learn something the text
+         can say in place, and looking away is the thing this screen exists to
+         stop.
+
+         The progressbar stays for anything not reading with its eyes, where a
+         line under a word is nothing at all. Hidden visually, counted the
+         same. #}
       <div class="reading-hud">
-        <div class="reading-progress" role="progressbar" aria-valuemin="0"
+        <div class="reading-progress visually-hidden" role="progressbar" aria-valuemin="0"
              aria-valuemax="{{ text.word_count }}" aria-valuenow="0"
-             aria-label="{{ t('reading.progress') }}" id="reading-progress">
-          <span class="reading-progress-bar" id="reading-bar"></span>
-        </div>
+             aria-label="{{ t('reading.progress') }}" id="reading-progress"></div>
         <span class="reading-clock" id="reading-clock" role="timer" aria-live="off">0:00</span>
       </div>
 
