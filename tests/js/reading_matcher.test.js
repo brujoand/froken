@@ -67,6 +67,39 @@ let anchorWord = 0;
 let anchorHeard = 0;
 function lightTo() {}
 
+/* The follow-along's world. A scroller is a box with a height, a scrollable
+ * height and a scrollTop, and a word is an offsetTop and a height -- which is
+ * the whole of what centreOn() reads, so a plain object is not a simplified
+ * stand-in for one, it is one. */
+let running = true;
+let furthest = 0;
+let scrollTarget = 0;
+let scrollNow = 0;
+let scrollFrame = 0;
+let scroller = null;
+let wordSpans = [];
+
+/* Frames are driven by hand rather than by a clock: the point of the glide is
+ * how many frames it takes, and a test that waited for real ones could not say. */
+let pending = null;
+function requestAnimationFrame(fn) {
+  pending = fn;
+  return 1;
+}
+function cancelAnimationFrame() {
+  pending = null;
+}
+function runFrames(limit) {
+  let frames = 0;
+  while (pending && frames < limit) {
+    const fn = pending;
+    pending = null;
+    fn();
+    frames++;
+  }
+  return frames;
+}
+
 for (const [name, value] of Object.entries(constants)) {
   eval(`var ${name} = ${value};`);
 }
@@ -77,6 +110,9 @@ eval(grabFunction("same"));
 eval(grabFunction("align"));
 eval(grabFunction("heatFor"));
 eval(grabFunction("advanceCursor"));
+eval(grabFunction("centreOn"));
+eval(grabFunction("glide"));
+eval(grabFunction("keepInView"));
 
 /* --- the harness -------------------------------------------------------- */
 
@@ -281,6 +317,131 @@ check(
  * surprise. The server makes the same trade in fluency.close_enough. */
 check("the stem rule's known cost: store/storm", closeEnough("store", "storm"), true);
 check("a shared stem carries a changed ending", closeEnough("boka", "boken"), true);
+
+/* --- following the reader down the page ---------------------------------- */
+
+/* A screen 800 tall, a passage of 60 lines 40 apart, ten words to a line, and
+ * the top padding that lets the first line reach the middle. */
+const LINE = 40;
+const PER_LINE = 10;
+const PAD = 300;
+const VIEW = 800;
+
+function layOutPassage() {
+  scroller = {
+    clientHeight: VIEW,
+    scrollHeight: PAD * 2 + 60 * LINE,
+    scrollTop: 0,
+  };
+  wordSpans = [];
+  for (let i = 0; i < 60 * PER_LINE; i++) {
+    wordSpans.push({
+      offsetTop: PAD + Math.floor(i / PER_LINE) * LINE,
+      offsetHeight: LINE,
+    });
+  }
+  running = true;
+  furthest = 0;
+  scrollTarget = 0;
+  scrollNow = 0;
+  scrollFrame = 0;
+  pending = null;
+}
+
+layOutPassage();
+
+/* The reason the passage used to lurch. The old rule left it alone while the
+ * word stayed inside a band and then moved it far enough to put the word back
+ * at the band's other edge -- so nothing, nothing, nothing, most of a screen.
+ * Aiming at the middle of the screen every time makes every move one line. */
+const line20 = centreOn(20 * PER_LINE);
+const line21 = centreOn(21 * PER_LINE);
+check("moving to the next line moves the passage one line", line21 - line20, LINE);
+
+check("every word on a line has the same target", centreOn(20 * PER_LINE + 7), line20);
+check(
+  "so a line is read without the passage moving at all",
+  centreOn(20 * PER_LINE + 9) - centreOn(20 * PER_LINE),
+  0
+);
+
+/* The line the reader is on ends up in the middle of the screen, not a third of
+ * the way down it, and not wherever a band's edge happens to fall. */
+const middleOfScreen = wordSpans[30 * PER_LINE].offsetTop + LINE / 2 - centreOn(30 * PER_LINE);
+check("the line being read sits in the middle of the screen", middleOfScreen, VIEW / 2);
+
+/* Both ends. Without the clamp the first line asks the passage to scroll above
+ * its own top, which browsers refuse, so the follow-along would think it had
+ * moved and the passage would not have. */
+check("the first line cannot scroll off the top", centreOn(0), 0);
+check(
+  "the last line cannot scroll past the bottom",
+  centreOn(wordSpans.length - 1),
+  scroller.scrollHeight - scroller.clientHeight
+);
+
+/* The glide itself: it has to arrive, and it has to take more than one frame
+ * getting there. One frame is the old behaviour under a new name. */
+layOutPassage();
+keepInView(21 * PER_LINE);
+
+/* The whole point, stated as the thing that must not happen: one frame must not
+ * be enough. Counting frames is not enough to say that -- a straight assignment
+ * still burns a second frame noticing it has arrived -- so this asks where the
+ * passage actually is after the first one. */
+runFrames(1);
+const afterOne = scroller.scrollTop;
+check("one frame does not get the whole way there", afterOne < scrollTarget - 1, true);
+check("but it does move", afterOne > 0, true);
+check(
+  `and it covers about ${GLIDE} of the distance`,
+  Math.round((afterOne / scrollTarget) * 100) / 100,
+  GLIDE
+);
+
+const frames = 1 + runFrames(600);
+check("the glide arrives", Math.round(scroller.scrollTop), Math.round(scrollTarget));
+check("but settles rather than running forever", frames < 100, true);
+
+/* Never past the target and never backwards: an overshoot would show as the
+ * line the reader is on sliding up out of the middle and coming back. */
+layOutPassage();
+keepInView(30 * PER_LINE);
+let overshot = false;
+let backwards = false;
+let previous = -1;
+while (pending) {
+  const fn = pending;
+  pending = null;
+  fn();
+  if (scroller.scrollTop > scrollTarget + 0.5) overshot = true;
+  if (scroller.scrollTop < previous) backwards = true;
+  previous = scroller.scrollTop;
+}
+check("the glide never overshoots", overshot, false);
+check("and never doubles back", backwards, false);
+
+/* The recogniser revises, so the cursor moves back a word all the time. The
+ * passage must not follow it back up the page. */
+layOutPassage();
+keepInView(30 * PER_LINE);
+runFrames(600);
+const settled = scrollTarget;
+keepInView(10 * PER_LINE);
+check("a cursor that moves back does not scroll the passage back", scrollTarget, settled);
+
+/* A target that has not changed must not restart the loop -- that is what makes
+ * this cheap enough to call on every recogniser update. */
+layOutPassage();
+keepInView(21 * PER_LINE);
+runFrames(600);
+check("an update that changes nothing starts no frame", (keepInView(21 * PER_LINE), pending), null);
+
+/* Nothing happens once the reading has stopped. */
+layOutPassage();
+running = false;
+keepInView(30 * PER_LINE);
+check("a stopped reading does not scroll", scrollTarget, 0);
 
 console.log(failures === 0 ? "\nall checks passed" : `\n${failures} check(s) failed`);
 process.exit(failures === 0 ? 0 : 1);

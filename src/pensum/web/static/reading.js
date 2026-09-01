@@ -18,11 +18,17 @@
    * more alive and heats the machine faster. */
   var CHUNK_MS = 2000;
   var STORE_KEY = "pensum.reading.v1";
+  /* How much of the remaining distance the passage closes each frame. At 60Hz
+   * 0.14 settles a line in about a fifth of a second: fast enough that the
+   * reader is never waiting for the text to arrive, slow enough to be a
+   * movement they can follow rather than a cut. */
+  var GLIDE = 0.14;
 
   var root = document.getElementById("reading");
   if (!root) return;
 
   var stage = document.getElementById("reading-stage");
+  var scroller = document.getElementById("reading-scroller");
   var toggle = document.getElementById("reading-toggle");
   var clock = document.getElementById("reading-clock");
   var progress = document.getElementById("reading-progress");
@@ -76,9 +82,14 @@
   var recogniser = null;
   var heardWords = [];
   var cursor = 0;
-  /* Where the follow-along last put the passage, so an update that would not
-   * move it does not touch scrollTop at all. */
-  var lastScroll = -1;
+  /* Where the passage is being scrolled to, and where it has got to. The
+   * follow-along only ever sets the first; a frame loop walks the second
+   * towards it. Keeping them apart is what makes the movement continuous:
+   * assigning scrollTop directly, as this did, moves the passage the whole
+   * distance within one frame however far that is. */
+  var scrollTarget = 0;
+  var scrollNow = 0;
+  var scrollFrame = 0;
   /* The furthest word the reader has reached, which is what the passage is
    * scrolled to follow. The cursor itself is a pure function of the transcript
    * and moves back a word whenever the recogniser revises -- correct for the
@@ -131,36 +142,70 @@
 
   /* Light every word up to `cursor`, and nothing after it. Idempotent, so a
    * cursor that arrives late or twice cannot make the highlight flicker. */
-  /* Keep the word being read on screen. In focus mode the passage is taller
-   * than the display, and nothing was scrolling it -- so a child could see the
-   * text before starting and then read the rest of it off the bottom of the
-   * screen.
+  /* Where the passage would have to be scrolled to for `index` to sit in the
+   * middle of the screen.
    *
-   * A band rather than a line: scrolling to centre every single word would slide
-   * the passage continuously under someone trying to follow it. It moves only
-   * when the current word has left the comfortable middle. */
+   * Measured with offsetTop, not getBoundingClientRect. A client rect is
+   * relative to the viewport, so it changes as the passage scrolls -- which
+   * means reading one while the glide is running computes a target from a
+   * position the glide is in the middle of leaving, and the passage chases
+   * itself. offsetTop is relative to the scroller, which is `position:
+   * relative` for exactly this reason, so it is a fixed property of the word
+   * and is already in the units scrollTop is measured in.
+   *
+   * Every word on a line shares an offsetTop, so aiming at a word aims at its
+   * line: the target holds still while a whole line is read and then steps once,
+   * which is what gives the movement its rhythm. */
+  function centreOn(index) {
+    var span = wordSpans[Math.min(index, wordSpans.length - 1)];
+    if (!span) return scrollTarget;
+    var middle = span.offsetTop + span.offsetHeight / 2;
+    var most = Math.max(0, scroller.scrollHeight - scroller.clientHeight);
+    return Math.max(0, Math.min(middle - scroller.clientHeight / 2, most));
+  }
+
+  /* One frame of the glide: close a fixed fraction of whatever distance is
+   * left. That makes it fast when the passage is far behind -- a skipped line,
+   * a recogniser catching up in a burst -- and slow as it arrives, without
+   * either case needing its own rule.
+   *
+   * Not scrollTo({behavior: "smooth"}): that starts an animation of its own,
+   * and the next word to be read interrupts and restarts it. Interrupting a
+   * fresh target here just changes where this loop is walking to. */
+  function glide() {
+    var left = scrollTarget - scrollNow;
+    if (Math.abs(left) < 0.5) {
+      scrollNow = scrollTarget;
+      scroller.scrollTop = scrollNow;
+      scrollFrame = 0;
+      return;
+    }
+    scrollNow += left * GLIDE;
+    scroller.scrollTop = scrollNow;
+    scrollFrame = requestAnimationFrame(glide);
+  }
+
+  /* Keep the line being read in the middle of the screen. In focus mode the
+   * passage is taller than the display, and a child who cannot see the line
+   * they are on is reading from memory.
+   *
+   * The middle rather than a band near the top: a band means the passage sits
+   * still until the reader crosses its edge and then jumps far enough to put
+   * them back at the other side of it, which is a whole screen of movement
+   * arriving at an unpredictable moment. Aiming at the middle every time makes
+   * each move one line high, and the glide spreads that over a few frames. */
   function keepInView(index) {
-    if (!running || !stage) return;
+    if (!running || !scroller) return;
     if (index > furthest) furthest = index;
-    var span = wordSpans[Math.min(furthest, wordSpans.length - 1)];
-    if (!span) return;
+    var want = centreOn(furthest);
+    if (want === scrollTarget) return;
+    scrollTarget = want;
+    if (!scrollFrame) scrollFrame = requestAnimationFrame(glide);
+  }
 
-    var frame = stage.getBoundingClientRect();
-    var box = span.getBoundingClientRect();
-    var high = frame.top + frame.height * 0.3;
-    var low = frame.top + frame.height * 0.72;
-    if (box.top >= high && box.bottom <= low) return;
-
-    /* Every word on a line shares a top, so moving to a fixed offset lands the
-     * scroll on line boundaries: the passage steps one line at a time instead
-     * of creeping a few pixels on every update. Instantly, too -- smooth
-     * scrolling starts an animation that the next update interrupts, which is
-     * what made it stutter. */
-    var target = stage.scrollTop + (box.top - (frame.top + frame.height * 0.3));
-    var rounded = Math.max(0, Math.round(target));
-    if (rounded === lastScroll) return;
-    lastScroll = rounded;
-    stage.scrollTop = rounded;
+  function stopGliding() {
+    if (scrollFrame) cancelAnimationFrame(scrollFrame);
+    scrollFrame = 0;
   }
 
   /* How many words in a row, ending where the reader is now, came out right.
@@ -498,6 +543,10 @@
   }
 
   function leaveFocus() {
+    /* The scroller stops existing as a scroller the moment the class goes, so
+     * a frame still walking towards a target would be writing scrollTop on a
+     * box that no longer scrolls. */
+    stopGliding();
     document.body.classList.remove("reading-focus");
     if (document.fullscreenElement && document.exitFullscreen) {
       document.exitFullscreen().catch(function () {});
@@ -906,7 +955,10 @@
     enterFocus();
     heardWords = [];
     cursor = 0;
-    lastScroll = -1;
+    stopGliding();
+    scrollTarget = 0;
+    scrollNow = 0;
+    if (scroller) scroller.scrollTop = 0;
     furthest = 0;
     status = [];
     anchorWord = 0;

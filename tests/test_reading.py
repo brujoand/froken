@@ -1100,6 +1100,36 @@ def test_the_gaps_between_words_can_carry_the_line(timed_client: TestClient, lib
     assert article.count('data-i="') == passage.word_count
 
 
+def test_only_the_passage_scrolls(timed_client: TestClient, library) -> None:
+    """The passage is inside the scroller and the header is outside it.
+
+    They used to be one scrolling box with the header stuck to its top by two
+    hand-written offsets, so every scroll position the follow-along computed had
+    to account for the header's rendered height -- which a stylesheet cannot
+    know and the script did not measure. Splitting them means the scroller's
+    scrollTop and a word's offsetTop are in the same coordinates, which is the
+    whole of what following a reader down a page needs.
+    """
+    passage = first_text(library, "KV1107")
+
+    body = timed_client.get(f"/nb/klasse/2/NOR01-08/lesing/{passage.id}").text
+    scroller = body[body.index('id="reading-scroller"') : body.index("</article>")]
+
+    assert 'id="reading-passage"' in scroller
+    assert 'class="reading-hud"' not in scroller
+    assert 'class="reading-controls"' not in scroller
+
+
+def test_the_button_is_above_the_passage(timed_client: TestClient, library) -> None:
+    """A child who has to scroll past the text to find the button that stops the
+    clock is being timed while they look for it."""
+    passage = first_text(library, "KV1107")
+
+    body = timed_client.get(f"/nb/klasse/2/NOR01-08/lesing/{passage.id}").text
+
+    assert body.index('id="reading-toggle"') < body.index('id="reading-passage"')
+
+
 def test_the_heat_indicator_is_in_the_hud_not_the_passage(
     timed_client: TestClient, library
 ) -> None:
