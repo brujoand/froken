@@ -130,9 +130,6 @@ reading:
   speech_unsupported: >-
     The browser does not recognise this language. We will time you instead,
     without checking the reading.
-  timed_choice: >-
-    Just time me. No microphone, no checking of the words — you read the whole
-    passage aloud, and Pensum takes your word for it.
   mic_denied: >-
     Pensum could not reach the microphone. We will time you instead, without
     checking the reading.

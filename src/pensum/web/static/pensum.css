@@ -736,29 +736,32 @@ a {
   margin: 1rem 0;
 }
 
+/* The HUD and the button stay put while the passage scrolls under them. The
+   HUD was a plain flow element, so it scrolled away with the text -- which is
+   why the progress bar disappeared the moment a reading actually started, the
+   one time it has anything to say. */
+body.reading-focus .reading-hud,
 body.reading-focus .reading-controls {
   position: sticky;
-  top: 0;
   z-index: 1;
   margin-top: 0;
-  padding: 0.5rem 0;
   background: var(--paper);
 }
 
-.reading-timed,
-.reading-consent {
-  max-width: 32em;
-  margin: 0.5rem auto;
-  font-size: 0.9rem;
-  color: var(--ink-soft);
+body.reading-focus .reading-hud {
+  top: 0;
+  padding-top: 0.25rem;
+  padding-bottom: 0.5rem;
 }
 
-.reading-timed label,
-.reading-consent label {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.5rem;
+body.reading-focus .reading-controls {
+  /* Below the HUD, not over it: both are sticky, so the second has to be
+     offset by the height of the first or they overlap. */
+  top: 2rem;
+  padding: 0.25rem 0 0.75rem;
 }
+
+
 
 .reading-clock {
   font-family: ui-monospace, monospace;
@@ -801,7 +804,6 @@ body.reading-focus .reading-stage {
   flex-direction: column;
   justify-content: flex-start;
   overflow-y: auto;
-  scroll-behavior: smooth;
   padding: 2rem 1.5rem;
   background: var(--paper);
 }
@@ -925,10 +927,6 @@ body.reading-focus .reading-text {
 /* A child on a school laptop with reduced motion set still gets the highlight;
    what goes is the animation between states. */
 @media (prefers-reduced-motion: reduce) {
-  /* Following the reader still happens; it just arrives rather than travels. */
-  body.reading-focus .reading-stage {
-    scroll-behavior: auto;
-  }
 
   .reading-text .w,
   .reading-progress-bar {

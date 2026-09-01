@@ -41,13 +41,6 @@
   var speechLocale = root.dataset.speechLocale || "nb-NO";
   var Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
   var engineElement = document.getElementById("reading-engine");
-  var consentElement = document.getElementById("reading-consent");
-  var consentBox = document.getElementById("reading-consent-box");
-  var consentText = document.getElementById("reading-consent-text");
-  var timedBox = document.getElementById("reading-timed-box");
-  /* Whether the privacy opt-in has anything to say on this browser. It only
-   * appears where recognition would leave the device. */
-  var consentApplies = false;
 
   /* "device" | "server" | "timed". Decided once at load, and again if the pupil
    * ticks the consent box. */
@@ -58,6 +51,9 @@
   var recogniser = null;
   var heardWords = [];
   var cursor = 0;
+  /* Where the follow-along last put the passage, so an update that would not
+   * move it does not touch scrollTop at all. */
+  var lastScroll = -1;
   /* Correctness, per word, kept apart from progress on purpose. Progress is
    * "how far has the reader got", and it must keep up with speech or the
    * highlight is useless. Whether each word came out right is a slower and
@@ -119,11 +115,20 @@
 
     var frame = stage.getBoundingClientRect();
     var box = span.getBoundingClientRect();
-    var high = frame.top + frame.height * 0.25;
-    var low = frame.top + frame.height * 0.7;
+    var high = frame.top + frame.height * 0.3;
+    var low = frame.top + frame.height * 0.72;
     if (box.top >= high && box.bottom <= low) return;
 
-    stage.scrollTop += box.top - (frame.top + frame.height * 0.35);
+    /* Every word on a line shares a top, so moving to a fixed offset lands the
+     * scroll on line boundaries: the passage steps one line at a time instead
+     * of creeping a few pixels on every update. Instantly, too -- smooth
+     * scrolling starts an animation that the next update interrupts, which is
+     * what made it stutter. */
+    var target = stage.scrollTop + (box.top - (frame.top + frame.height * 0.3));
+    var rounded = Math.max(0, Math.round(target));
+    if (rounded === lastScroll) return;
+    lastScroll = rounded;
+    stage.scrollTop = rounded;
   }
 
   function lightTo(cursor) {
@@ -782,42 +787,26 @@
    * it is strictly more private than posting the audio to Pensum, which is
    * what the server path does. Anything else is opt-in and names whose
    * servers are involved. */
-  /* Who listens, decided from what the browser can do and what the reader has
-   * asked for -- recomputed whenever either changes, so there is one answer and
-   * one place it comes from. */
-  function settleEngine() {
-    if (timedBox && timedBox.checked) {
-      engine = "timed";
-    } else if (deviceAllowed && Recognition && (localRecognition || consentBox.checked)) {
-      engine = "device";
-    } else {
-      engine = checked ? "server" : "timed";
-    }
-
-    /* Both notices are about recognition, so neither has anything to say to a
-     * reader who has asked not to be recognised. */
-    var declined = Boolean(timedBox && timedBox.checked);
-    consentElement.hidden = !consentApplies || declined;
-    engineElement.hidden = declined || !engineElement.textContent;
-  }
-
+  /* Who listens. Decided by what the browser can do, and nothing else: the
+   * reading is checked whenever it can be checked, so there is no switch here
+   * and nothing for a reader to get wrong. `timed` is what is left when a
+   * browser has no recogniser at all -- a limit, not a preference.
+   *
+   * What the reader is told still differs, because on some devices the audio
+   * never leaves the machine and on others it goes to whoever made the
+   * browser. That is a real difference and it is stated. */
   function chooseEngine() {
-    if (timedBox) timedBox.addEventListener("change", settleEngine);
-
     if (!deviceAllowed || !Recognition) {
-      settleEngine();
+      engine = checked ? "server" : "timed";
       return Promise.resolve();
     }
     return probeLocal().then(function (isLocal) {
       localRecognition = isLocal;
-      if (isLocal) {
-        announce(engineElement, root.dataset.labelDeviceLocal);
-      } else {
-        consentApplies = true;
-        consentText.textContent = root.dataset.labelDeviceCloud;
-        consentBox.addEventListener("change", settleEngine);
-      }
-      settleEngine();
+      engine = "device";
+      announce(
+        engineElement,
+        isLocal ? root.dataset.labelDeviceLocal : root.dataset.labelDeviceCloud
+      );
     });
   }
 
@@ -857,6 +846,7 @@
     enterFocus();
     heardWords = [];
     cursor = 0;
+    lastScroll = -1;
     status = [];
     anchorWord = 0;
     anchorHeard = 0;

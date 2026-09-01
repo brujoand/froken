@@ -139,9 +139,6 @@ reading:
   speech_unsupported: >-
     Nettleseren kjenner ikke igjen dette språket. Vi tar tiden i stedet, uten
     å sjekke opplesningen.
-  timed_choice: >-
-    Bare ta tiden. Ingen mikrofon, ingen sjekk av ordene — du leser hele
-    teksten høyt, og Pensum stoler på deg.
   mic_denied: >-
     Pensum fikk ikke tilgang til mikrofonen. Vi tar tiden i stedet, uten å
     sjekke opplesningen.
