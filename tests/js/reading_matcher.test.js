@@ -30,20 +30,17 @@ function grabFunction(name) {
 }
 
 /* The constants matter as much as the code: a harness carrying its own copy
- * would go on passing after someone widened the lookahead in the real file.
- * So every SHOUTING_CASE number in reading.js is pulled in by name and brought
- * into scope for the scraped functions to close over. The ones this file names
- * are then asserted to exist -- a scraper that silently finds nothing is worse
- * than no scraper. */
+ * would go on passing after someone changed one in the file that ships. */
 const constants = {};
 for (const [, name, value] of src.matchAll(/var\s+([A-Z][A-Z_]+)\s*=\s*(-?[\d.]+)\s*;/g)) {
   constants[name] = Number(value);
 }
 
 for (const name of [
-  "NEAR",
-  "FAR",
-  "DISTINCTIVE",
+  "MIN_ANCHOR",
+  "WINDOW_WORDS",
+  "WINDOW_HEARD",
+  "SETTLED",
   "FUZZY_MIN_LENGTH",
   "MIN_SHARED_PREFIX",
   "MAX_LENGTH_DIFFERENCE",
@@ -54,22 +51,21 @@ for (const name of [
 }
 
 let cursor = 0;
-let consumed = 0;
 let status = [];
-let misses = 0;
 let reference = [];
+let comparisons = {};
+let anchorWord = 0;
+let anchorHeard = 0;
 function lightTo() {}
 
-/* Declares NEAR, FAR and the rest at this scope, which is what the scraped
- * functions below close over -- and what the messages here read back. */
 for (const [name, value] of Object.entries(constants)) {
   eval(`var ${name} = ${value};`);
 }
 
 eval(grabFunction("similarity"));
 eval(grabFunction("closeEnough"));
-eval(grabFunction("runMatchesAt"));
-eval(grabFunction("resync"));
+eval(grabFunction("same"));
+eval(grabFunction("align"));
 eval(grabFunction("advanceCursor"));
 
 /* --- the harness -------------------------------------------------------- */
@@ -86,7 +82,7 @@ function check(what, got, want) {
 }
 
 /* Written for the test, and deliberately full of the short common words that
- * are what made the old lookahead misbehave. */
+ * are what a coincidence match latches onto. */
 const PASSAGE = (
   "katten min tror at den er en stovsuger den gar rundt i stua og suger opp " +
   "alt den finner i gar spiste den en sokk en blyant og halve avisa mamma " +
@@ -95,9 +91,10 @@ const PASSAGE = (
 
 function reset() {
   cursor = 0;
-  consumed = 0;
   status = [];
-  misses = 0;
+  comparisons = {};
+  anchorWord = 0;
+  anchorHeard = 0;
   reference = PASSAGE;
 }
 
@@ -106,92 +103,129 @@ function hear(words, times) {
   for (let n = 0; n < (times || 1); n++) advanceCursor(words.slice());
 }
 
-/* --- the bug this file exists for --------------------------------------- */
+function tally() {
+  let read = 0;
+  let misread = 0;
+  for (let i = 0; i < PASSAGE.length; i++) {
+    if (status[i] === "read") read++;
+    else if (status[i] === "misread") misread++;
+  }
+  return { read, misread };
+}
 
-/* The recogniser revises constantly, and the cursor only moves forward. Before
- * the fix, re-reading already-consumed words ratcheted the highlight down the
- * page: six words read reached word 53 of 57. */
+/* --- what the alignment is for ------------------------------------------ */
+
+/* The two cases incremental matching could not tell apart, and the reason it
+ * is gone. One word at a time they look identical: a word that does not match.
+ * Aligned whole they are different shapes, and neither costs anything after
+ * itself. */
+
+reset();
+const skipped = PASSAGE.filter((_, i) => i !== 12);
+hear(skipped);
+check("a skipped word costs exactly one word", tally().misread, 1);
+check("...and the rest of the passage is unharmed", tally().read, PASSAGE.length - 1);
+
+reset();
+const stumbled = [];
+PASSAGE.forEach((w, i) => {
+  /* A child stuck on one word, saying something else five times before moving
+   * on. The passage word itself is never said correctly. */
+  if (i === 12) for (let k = 0; k < 5; k++) stumbled.push("blablabla");
+  else stumbled.push(w);
+});
+hear(stumbled);
+check("one word read wrong five times costs exactly one word", tally().misread, 1);
+check("...and the rest of the passage is unharmed", tally().read, PASSAGE.length - 1);
+
+/* A repeated word -- a child re-reading one they tripped on -- costs nothing,
+ * because a subsequence match simply skips the extra copies. */
+reset();
+const repeated = [];
+PASSAGE.forEach((w, i) => {
+  repeated.push(w);
+  if (i === 12) repeated.push(w, w);
+});
+hear(repeated);
+check("re-reading a word costs nothing at all", tally().misread, 0);
+
+/* --- being out of step is no longer a state ----------------------------- */
+
+function heardWithInsertionAt(position, word) {
+  const heard = [];
+  PASSAGE.forEach((w, i) => {
+    heard.push(w);
+    if (i === position) heard.push(word);
+  });
+  return heard;
+}
+
+reset();
+hear(heardWithInsertionAt(1, "eh"));
+check("a spurious word early does not cost the passage", tally().misread, 0);
+check("...and the whole passage still reads as read", tally().read, PASSAGE.length);
+
+reset();
+hear(heardWithInsertionAt(PASSAGE.length - 8, "eh"));
+check("...nor does one near the end", tally().misread, 0);
+
+/* --- the transcript arrives whole, over and over ------------------------ */
+
+/* The recogniser re-sends everything on every interim result. Alignment is a
+ * function of the transcript, so hearing the same thing again cannot move
+ * anything -- the ratchet that used to march the highlight down the page is
+ * not expressible any more. */
 reset();
 hear(PASSAGE.slice(0, 6), 12);
 check("six words read, twelve interim results", cursor, 6);
 
-/* The same, sustained. Silence is not progress. */
 reset();
 hear(PASSAGE.slice(0, 3), 200);
 check("three words, two hundred interim results", cursor, 3);
 
-/* --- and the failure the fix could have introduced ---------------------- */
+/* --- a clean reading, and a sloppy one ---------------------------------- */
 
-function readThrough(transform) {
-  reset();
-  for (let n = 1; n <= PASSAGE.length; n++) {
-    const said = PASSAGE.slice(0, n);
-    hear(transform ? transform(said) : said, 3);
-  }
-  return cursor;
-}
+reset();
+hear(PASSAGE.slice());
+check("a whole passage read through", cursor, PASSAGE.length);
+check("...with every word correct", tally().read, PASSAGE.length);
 
-check("a whole passage read through", readThrough(), PASSAGE.length);
-check(
-  "a child who drops every ninth word",
-  readThrough((said) => said.filter((_, i) => i % 9 !== 4)),
-  PASSAGE.length
-);
-check(
-  "a recogniser that inflects endings differently",
-  readThrough((said) =>
-    said.map((w) => (w === "katten" ? "katta" : w === "stua" ? "stuen" : w))
-  ),
-  PASSAGE.length
-);
+reset();
+hear(PASSAGE.filter((_, i) => i % 9 !== 4));
+check("a child who drops every ninth word still reaches the end", cursor, PASSAGE.length);
 
-/* --- the lookahead rule itself ------------------------------------------ */
+reset();
+hear(PASSAGE.map((w) => (w === "katten" ? "katta" : w === "stua" ? "stuen" : w)));
+check("endings the recogniser inflects differently are not errors", tally().misread, 0);
 
-/* A short common word must not reach across the passage to a later copy of
- * itself. "og" appears well beyond NEAR, so hearing it at the start must not
- * jump the highlight there -- it counts as one word of progress, wrongly read,
- * and nothing more. */
+/* --- coincidence must not place the highlight --------------------------- */
+
+/* "og" appears twice, well into the passage. Hearing it once at the start is
+ * not evidence of anything, and believing it would teleport the highlight
+ * there -- which is the bug the old lookahead limits existed to prevent, and
+ * which aligning whole would reopen without MIN_ANCHOR. */
 reset();
 hear(["og"]);
-check(`a common short word reaches no further than ${NEAR}`, cursor, 1);
-check("...and is recorded as misread rather than as a jump", status[0], "misread");
+check(`one matching word is below MIN_ANCHOR (${MIN_ANCHOR})`, cursor, 1);
+check("...and asserts nothing about any word", tally().read + tally().misread, 0);
 
-/* A distinctive one may, because hearing it really is evidence of position. */
-reset();
-hear(["stovsuger"]);
-check(`a distinctive word reaches up to ${FAR}`, cursor, PASSAGE.indexOf("stovsuger") + 1);
-
-/* ...but not past the far limit. A word sitting beyond it moves progress by
- * one, like any word the passage does not account for here. */
-reset();
-const beyond = PASSAGE.findIndex((w, i) => i >= FAR && w.length >= DISTINCTIVE);
-hear([PASSAGE[beyond]]);
-check(`nothing reaches past ${FAR}`, cursor, 1);
-
-/* --- progress and correctness are two questions -------------------------- */
-
-/* The reported failure: the highlight fell behind and never caught up, because
- * a word the recogniser got wrong stopped the cursor dead. Progress must track
- * how much was said, whether or not it was said correctly. */
+/* Progress still keeps up when the recogniser produces nothing usable: the
+ * reader has said five words, wherever they are. */
 reset();
 hear(["blablabla", "blablabla", "blablabla", "blablabla", "blablabla"]);
-check("progress keeps up even when nothing is recognised", cursor, 5);
-check("...and every one of them is marked misread", status.slice(0, 5).join(), "misread,misread,misread,misread,misread");
+check("progress keeps up when nothing is recognised", cursor, 5);
+check("...but no word is called wrong on no evidence", tally().misread, 0);
 
-/* One bad word in the middle must not cost the words after it. */
+/* The same, but after the reader has been placed. Speech recognition is not
+ * instant, so the transcript is always a little behind the voice -- and the
+ * words it has not caught up with yet are still words that were said. Stopping
+ * the highlight at the last confirmed match is what makes it lag visibly and
+ * never recover. */
 reset();
-const withOneWrong = PASSAGE.slice(0, 5);
-withOneWrong[2] = "blablabla";
-hear(withOneWrong);
-check("a misheard word does not stall the rest", cursor, 5);
-check("...the bad one is marked misread", status[2], "misread");
-check("...and the one after it is not", status[3], "read");
-
-/* Skipping ahead marks what was passed, rather than silently lighting it. */
-reset();
-hear([PASSAGE[0], PASSAGE[7]]);
-check("a skipped-to word marks what was stepped over", status[3], "misread");
-check("...and the word actually read is not", status[7], "read");
+hear(PASSAGE.slice(0, 10).concat(["mmm", "mmm", "mmm", "mmm", "mmm"]));
+check("the highlight keeps moving past the last confirmed word", cursor, 15);
+check("...and still asserts nothing about the words it passed", tally().misread, 0);
+check("...while the ten it did confirm stay confirmed", tally().read, 10);
 
 /* --- what counts as the same word --------------------------------------- */
 
@@ -207,58 +241,6 @@ check(
  * surprise. The server makes the same trade in fluency.close_enough. */
 check("the stem rule's known cost: store/storm", closeEnough("store", "storm"), true);
 check("a shared stem carries a changed ending", closeEnough("boka", "boken"), true);
-
-
-/* --- losing the reader, and finding them again --------------------------- */
-
-/* The reported failure, and the reason resync exists. The recogniser emits one
- * word that is not in the passage -- a filler, a cough, one word heard as two --
- * and the cursor is one ahead for ever after. Every word the child then reads is
- * compared against the word after the one they are saying, so all of it is
- * marked wrong. With resync disabled this passage scores 3 read and 44 misread. */
-function tally() {
-  let read = 0;
-  let misread = 0;
-  for (let i = 0; i < PASSAGE.length; i++) {
-    if (status[i] === "read") read++;
-    else if (status[i] === "misread") misread++;
-  }
-  return { read, misread };
-}
-
-function heardWithInsertionAt(position, word) {
-  const heard = [];
-  PASSAGE.forEach((w, i) => {
-    heard.push(w);
-    if (i === position) heard.push(word);
-  });
-  return heard;
-}
-
-reset();
-hear(heardWithInsertionAt(1, "eh"));
-check("a spurious word does not cost the rest of the passage", tally().misread, 0);
-check("...and the whole passage still reads as read", tally().read, PASSAGE.length);
-
-/* Late in the passage as well as early: recovery must not depend on there being
- * plenty of text left to recover across. */
-reset();
-hear(heardWithInsertionAt(PASSAGE.length - 8, "eh"));
-check("...including when it happens near the end", tally().misread, 0);
-
-/* A clean reading must be untouched by any of this. */
-reset();
-hear(PASSAGE.slice());
-check("a clean reading is still entirely correct", tally().read, PASSAGE.length);
-
-/* One genuinely wrong word is not a lost cursor, and must not move anything.
- * Resync waking up on every mishearing would drag the highlight around on
- * exactly the readings that need it to stay still. */
-reset();
-const oneWrong = PASSAGE.slice();
-oneWrong[10] = "blablabla";
-hear(oneWrong);
-check("one wrong word costs exactly one word", tally().misread, 1);
 
 console.log(failures === 0 ? "\nall checks passed" : `\n${failures} check(s) failed`);
 process.exit(failures === 0 ? 0 : 1);

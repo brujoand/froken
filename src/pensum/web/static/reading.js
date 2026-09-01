@@ -54,13 +54,6 @@
   var recogniser = null;
   var heardWords = [];
   var cursor = 0;
-  /* How many heard words the cursor has already been moved by. The recogniser
-   * re-sends the whole transcript on every interim result, and the cursor only
-   * ever moves forward, so re-reading a word it has already consumed can only
-   * push the highlight further ahead -- again on the next result, and the next.
-   * That is a ratchet, and it is what marches the highlight down the page while
-   * the child is still on the first line. */
-  var consumed = 0;
   /* Correctness, per word, kept apart from progress on purpose. Progress is
    * "how far has the reader got", and it must keep up with speech or the
    * highlight is useless. Whether each word came out right is a slower and
@@ -70,9 +63,6 @@
    *
    * Indexed like `reference`. Absent means undecided. */
   var status = [];
-  /* Heard words in a row that matched nothing. The signal that the cursor has
-   * lost the reader rather than the reader having lost the passage. */
-  var misses = 0;
   /* The passage as plain lowercase words, in the same order the server numbered
    * them. Read off the spans so the two cannot drift apart. */
   var reference = wordSpans.map(function (span) {
@@ -492,136 +482,142 @@
     return similarity(printed, said) >= CLOSE_ENOUGH;
   }
 
-  /* An ordinary skip: the child ran two words together, or the recogniser
-   * dropped one. Any word may pull the cursor this far. */
-  var NEAR = 3;
-  /* As far as a distinctive word may pull it. Hearing "svommehallen" really is
-   * good evidence of where the child is; hearing "og" is not evidence of
-   * anything, and at a flat lookahead it is what teleports the highlight. */
-  var FAR = 25;
-  /* Characters. Below this a word is too common to be trusted at a distance --
-   * every passage is full of "og", "at", "den", "the", "and". */
-  var DISTINCTIVE = 5;
+  /* Passage words and transcript words considered at once. The table below is
+   * quadratic, and it is rebuilt on every interim result -- several times a
+   * second, on a school iPad. Aligning a whole 250-word passage against a whole
+   * transcript measured 55ms a go on a developer machine, which is jank on the
+   * one screen that has taken over the display. A window costs a twentieth of
+   * that and gives up nothing that matters: a reader is somewhere specific, and
+   * the far end of the passage is not evidence about where. */
+  var WINDOW_WORDS = 80;
+  var WINDOW_HEARD = 160;
+  /* How much of the recent alignment stays open to revision. Everything before
+   * it is settled and never reconsidered, which is what keeps the window from
+   * growing as the reading goes on. Being able to revise the last twenty words
+   * is what tells a skipped word from one read wrong five times; being able to
+   * revise the first twenty is worth nothing. */
+  var SETTLED = 20;
 
-  /* Forward-only, and only ever looking a little way ahead: a common word must
-   * not be able to teleport the highlight to the end of the passage.
-   *
-   * Only words the cursor has not already been moved by are considered. The
-   * transcript arrives whole and rewritten every time, so consuming it whole
-   * every time ratchets the highlight forward on words the child said once.
-   * A word whose text is later revised keeps its original effect on the
-   * highlight, which is the right trade: the score is recomputed server-side
-   * from the final transcript, and a highlight that lags is better than one
-   * that runs away. */
-  /* How many heard words in a row must fail before the cursor is presumed lost
-   * rather than merely reading a hard sentence. Low enough that a child does
-   * not read a whole line into the void; high enough that one mishearing does
-   * not move anything. */
-  var RESYNC_AFTER = 4;
-  /* Heard words that must agree, consecutively, for a position to be believed.
-   * One word matching somewhere is a coincidence -- that is exactly what the
-   * lookahead limits exist to prevent. Three in a row is not. */
-  var RESYNC_RUN = 3;
-  /* How far back and forward to look. Back, because over-advancing is the way
-   * this actually goes wrong: the recogniser emits a filler word, or splits one
-   * word into two, and the cursor is a word ahead for the rest of the passage. */
-  var RESYNC_BACK = 12;
-  var RESYNC_FORWARD = 25;
+  /* The oldest passage word and transcript word still open to revision. They
+   * advance together, so the two always mean the same point in the reading. */
+  var anchorWord = 0;
+  var anchorHeard = 0;
 
-  function runMatchesAt(tokens, from, at) {
-    for (var k = 0; k < RESYNC_RUN; k++) {
-      if (at + k >= reference.length) return false;
-      if (!closeEnough(reference[at + k], tokens[from + k])) return false;
+  /* closeEnough runs once per cell of the table, so the same pair of words is
+   * compared many times over a reading. Comparing them once is what makes
+   * rebuilding the alignment on every update affordable. */
+  var comparisons = {};
+
+  function same(printed, said) {
+    var key = printed + "\u0000" + said;
+    var known = comparisons[key];
+    if (known === undefined) {
+      known = closeEnough(printed, said);
+      comparisons[key] = known;
     }
-    return true;
+    return known;
   }
 
-  /* Where does the last run of heard words really sit? Nearest candidate wins:
-   * the cursor being a word or two out is overwhelmingly more likely than the
-   * child having jumped half the passage.
+  /* Longest common subsequence of a stretch of the passage and a stretch of the
+   * transcript, under `same`. Returns [passageIndex, heardIndex] pairs, both
+   * absolute.
    *
-   * This is allowed to move the highlight BACKWARDS, which the cursor was
-   * written never to do -- a highlight that jumps back mid-sentence was judged
-   * worse than one that lags. That judgement was wrong in one case, and it is
-   * the case being fixed here: once the cursor is ahead of the reader, every
-   * word afterwards is compared against the wrong word and marked wrong, and
-   * nothing forward-only can ever recover. One visible correction beats a
-   * passage that is confidently wrong from the third line on. */
-  function resync(tokens, n) {
-    if (n + 1 < RESYNC_RUN) return false;
-    var from = n - RESYNC_RUN + 1;
-    var low = Math.max(0, cursor - RESYNC_BACK);
-    var high = Math.min(reference.length - RESYNC_RUN, cursor + RESYNC_FORWARD);
+   * This replaces matching each heard word as it arrives. Incremental matching
+   * decides once, in order, and cannot revise -- so it had no way to tell a
+   * word that was skipped from a word that was read wrong five times running,
+   * and no way to notice that a decision it made ten words ago was what put
+   * everything since out of step. Both are ordinary things a child does, and
+   * both used to derail the rest of the passage.
+   *
+   * Aligned together they are just two shapes in one table: a skipped word is a
+   * passage word with nothing opposite it, a word read wrong five times is five
+   * transcript words with nothing opposite them, and a word read twice is one
+   * of them ignored. None of them costs anything after itself.
+   *
+   * The server scores the finished reading with this same algorithm
+   * (fluency._align). Two different answers to "did they read that word" is
+   * what makes a highlight contradict the result the child is shown. */
+  function align(tokens, wordFrom, wordTo, heardFrom, heardTo) {
+    var rows = wordTo - wordFrom;
+    var columns = heardTo - heardFrom;
+    if (rows <= 0 || columns <= 0) return [];
 
-    for (var distance = 0; distance <= RESYNC_BACK + RESYNC_FORWARD; distance++) {
-      var candidates = distance === 0 ? [cursor] : [cursor - distance, cursor + distance];
-      for (var c = 0; c < candidates.length; c++) {
-        var at = candidates[c];
-        if (at < low || at > high) continue;
-        if (!runMatchesAt(tokens, from, at)) continue;
-
-        if (at >= cursor) {
-          /* Genuinely skipped: the reader is past these and none was heard. */
-          for (var j = cursor; j < at; j++) status[j] = "misread";
-        } else {
-          /* The cursor was ahead of the reader, so everything it marked from
-           * here on was judged against the wrong word. Withdraw it rather than
-           * leave a verdict we now know was not about these words. */
-          for (var k = at; k < cursor; k++) status[k] = undefined;
-        }
-        for (var m = 0; m < RESYNC_RUN; m++) status[at + m] = "read";
-        cursor = at + RESYNC_RUN;
-        return true;
+    var width = columns + 1;
+    var table = new Int32Array((rows + 1) * width);
+    for (var i = rows - 1; i >= 0; i--) {
+      for (var j = columns - 1; j >= 0; j--) {
+        table[i * width + j] = same(reference[wordFrom + i], tokens[heardFrom + j])
+          ? table[(i + 1) * width + j + 1] + 1
+          : Math.max(table[(i + 1) * width + j], table[i * width + j + 1]);
       }
     }
-    return false;
+
+    var pairs = [];
+    var r = 0;
+    var h = 0;
+    while (r < rows && h < columns) {
+      if (same(reference[wordFrom + r], tokens[heardFrom + h])) {
+        pairs.push([wordFrom + r, heardFrom + h]);
+        r++;
+        h++;
+      } else if (table[(r + 1) * width + h] >= table[r * width + h + 1]) {
+        r++;
+      } else {
+        h++;
+      }
+    }
+    return pairs;
   }
+
+  /* Matched words needed before the alignment is believed about *where* the
+   * reader is. One word matching is a coincidence -- every passage contains
+   * "og", "the", "den" -- and believing a single match would let one heard word
+   * place the highlight anywhere in the window. */
+  var MIN_ANCHOR = 2;
 
   function advanceCursor(tokens) {
-    if (consumed > tokens.length) consumed = tokens.length;
-    for (var n = consumed; n < tokens.length; n++) {
-      var reach = tokens[n].length >= DISTINCTIVE ? FAR : NEAR;
-      var limit = Math.min(reference.length, cursor + reach);
-      var found = -1;
-      for (var i = cursor; i < limit; i++) {
-        if (closeEnough(reference[i], tokens[n])) {
-          found = i;
-          break;
-        }
-      }
+    var wordTo = Math.min(reference.length, anchorWord + WINDOW_WORDS);
+    var heardFrom = anchorHeard;
+    /* A transcript that grows without ever matching -- a recogniser stuck in a
+     * loop, a microphone left on in a noisy room. Drop the oldest rather than
+     * let the table grow without limit. */
+    if (tokens.length - heardFrom > WINDOW_HEARD) heardFrom = tokens.length - WINDOW_HEARD;
 
-      if (found >= 0) {
-        /* Stepped over: the reader is demonstrably past these, and none of them
-         * was heard. */
-        for (var j = cursor; j < found; j++) status[j] = "misread";
-        status[found] = "read";
-        cursor = found + 1;
-        misses = 0;
-        continue;
-      }
+    var pairs = align(tokens, anchorWord, wordTo, heardFrom, tokens.length);
 
-      /* Several in a row have failed. Either the child is reading badly, or the
-       * cursor is no longer pointing at what they are reading -- and those look
-       * identical one word at a time. Ask where the last few words actually sit
-       * before marking another one wrong. */
-      misses++;
-      if (misses >= RESYNC_AFTER && resync(tokens, n)) {
-        misses = 0;
-        continue;
-      }
-
-      /* Nothing here matches what was just heard -- a different word was read,
-       * or the recogniser misheard this one. Either way the reader has moved on
-       * by a word, so the highlight does too. This is the half that keeps
-       * progress up with speech: waiting for a match before moving is what left
-       * it behind, and it can never run away, because one heard word is worth
-       * exactly one position. */
-      if (cursor < reference.length) {
-        status[cursor] = "misread";
-        cursor++;
-      }
+    if (pairs.length < MIN_ANCHOR) {
+      /* Nothing placed. Everything heard since the anchor is worth a word of
+       * progress and no verdict at all: calling words wrong on this evidence
+       * would be asserting something we do not know. */
+      cursor = Math.min(reference.length, anchorWord + (tokens.length - heardFrom));
+      lightTo(cursor);
+      return;
     }
-    consumed = tokens.length;
+
+    var lastWord = pairs[pairs.length - 1][0];
+    var lastHeard = pairs[pairs.length - 1][1];
+
+    for (var p = 0; p < pairs.length; p++) status[pairs[p][0]] = "read";
+
+    /* Everything up to the last word we are sure of, that we are not sure of,
+     * was passed without being heard. Beyond it we genuinely do not know. */
+    for (var i = anchorWord; i < lastWord; i++) {
+      if (status[i] !== "read") status[i] = "misread";
+    }
+
+    /* Words heard after the last one we could place are worth one position
+     * each. This is what keeps the highlight moving while the reader is
+     * somewhere the recogniser has not caught up with. */
+    cursor = Math.min(reference.length, lastWord + 1 + (tokens.length - 1 - lastHeard));
+
+    /* Settle everything except the tail, so the next table starts from here
+     * rather than from the beginning of the passage. */
+    if (pairs.length > SETTLED) {
+      var settled = pairs[pairs.length - SETTLED];
+      anchorWord = settled[0];
+      anchorHeard = settled[1];
+    }
+
     lightTo(cursor);
   }
 
@@ -816,9 +812,10 @@
     enterFocus();
     heardWords = [];
     cursor = 0;
-    consumed = 0;
     status = [];
-    misses = 0;
+    anchorWord = 0;
+    anchorHeard = 0;
+    comparisons = {};
 
     if (engine === "device") {
       /* No getUserMedia here: the recogniser asks for the microphone itself,
