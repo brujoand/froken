@@ -35,6 +35,32 @@
   var baseUrl = root.dataset.baseUrl;
   var postUrl = root.dataset.postUrl;
   var totalWords = parseInt(root.dataset.words, 10) || wordSpans.length;
+  var heatElement = document.getElementById("reading-heat");
+
+  /* The spaces and punctuation between the words, each paired with the word it
+   * follows. They are lit along with that word so the line under the reading is
+   * one line: underlining only the words leaves it broken at every gap, which
+   * reads as a row of dashes rather than as how far someone has got. */
+  var gapSpans = (function () {
+    if (!passage) return [];
+    var all = Array.prototype.slice.call(passage.querySelectorAll(".w, .gap"));
+    var paired = [];
+    var after = -1;
+    for (var i = 0; i < all.length; i++) {
+      if (all[i].className === "gap") paired.push({ node: all[i], after: after });
+      else after = parseInt(all[i].dataset.i, 10);
+    }
+    return paired;
+  })();
+
+  /* Words read correctly in a row. Not a score and never shown as one -- it
+   * drives how warm the line looks, and nothing else. */
+  var streak = 0;
+  /* Consecutive correct words each level of heat asks for. Reaching the first
+   * should be ordinary for a child reading a passage meant for them; the last
+   * should take most of one. */
+  var HEAT_LEVELS = [12, 30, 60];
+  var FLAMES = ["", "\uD83D\uDD25", "\uD83D\uDD25\uD83D\uDD25", "\uD83D\uDD25\uD83D\uDD25\uD83D\uDD25"];
 
   var deviceAllowed = root.dataset.device === "true";
   var speechLocale = root.dataset.speechLocale || "nb-NO";
@@ -137,6 +163,22 @@
     stage.scrollTop = rounded;
   }
 
+  /* How many words in a row, ending where the reader is now, came out right.
+   * A misread word ends the run rather than reducing it: the line cooling as
+   * soon as it goes wrong is the honest reading of "how is it going right
+   * now", and it warms again as quickly as it cooled. */
+  function heatFor(cursor) {
+    var run = 0;
+    for (var i = cursor - 1; i >= 0 && status[i] === "read"; i--) run++;
+    streak = run;
+
+    var level = 0;
+    for (var n = 0; n < HEAT_LEVELS.length; n++) {
+      if (run >= HEAT_LEVELS[n]) level = n + 1;
+    }
+    return level;
+  }
+
   function lightTo(cursor) {
     for (var i = 0; i < wordSpans.length; i++) {
       var passed = i < cursor;
@@ -144,6 +186,17 @@
       wordSpans[i].classList.toggle("lit", passed && !wrong);
       wordSpans[i].classList.toggle("missed", passed && wrong);
     }
+
+    /* A gap follows a word, so it is lit once that word has been passed. The
+     * line then runs through the spaces and stops one space past the last word
+     * read, which is where the reader is. */
+    for (var g = 0; g < gapSpans.length; g++) {
+      gapSpans[g].node.classList.toggle("lit", gapSpans[g].after >= 0 && gapSpans[g].after < cursor);
+    }
+
+    var level = heatFor(cursor);
+    if (stage) stage.dataset.heat = String(level);
+    if (heatElement) heatElement.textContent = FLAMES[level];
     if (progress) progress.setAttribute("aria-valuenow", String(cursor));
     keepInView(cursor);
   }
@@ -152,6 +205,10 @@
     for (var i = 0; i < wordSpans.length; i++) {
       wordSpans[i].classList.remove("lit", "missed", "current");
     }
+    for (var g = 0; g < gapSpans.length; g++) gapSpans[g].node.classList.remove("lit");
+    streak = 0;
+    if (stage) stage.dataset.heat = "0";
+    if (heatElement) heatElement.textContent = "";
   }
 
   /* --- audio ------------------------------------------------------------ */

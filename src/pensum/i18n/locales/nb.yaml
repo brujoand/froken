@@ -139,6 +139,7 @@ reading:
   speech_unsupported: >-
     Nettleseren kjenner ikke igjen dette språket. Vi tar tiden i stedet, uten
     å sjekke opplesningen.
+  heat: Hvor mange ord du har lest riktig på rad
   mic_denied: >-
     Pensum fikk ikke tilgang til mikrofonen. Vi tar tiden i stedet, uten å
     sjekke opplesningen.

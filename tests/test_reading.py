@@ -1080,3 +1080,37 @@ def test_progress_is_drawn_under_the_words_not_in_a_bar(timed_client: TestClient
     assert 'id="reading-bar"' not in body
     assert 'role="progressbar"' in body
     assert "visually-hidden" in body
+
+
+def test_the_gaps_between_words_can_carry_the_line(timed_client: TestClient, library) -> None:
+    """Underlining only the words leaves a break at every space, which reads as
+    a row of dashes rather than as one line showing how far someone has got. The
+    spaces and punctuation are spans too, so they can be lit with the word they
+    follow.
+
+    Word numbering is untouched: only `.w` spans carry `data-i`, and the scorer
+    and the page have to agree about which word is which.
+    """
+    passage = first_text(library, "KV1107")
+
+    body = timed_client.get(f"/nb/klasse/2/NOR01-08/lesing/{passage.id}").text
+    article = body[body.index('id="reading-passage"') : body.index("</article>")]
+
+    assert '<span class="gap">' in article
+    assert article.count('data-i="') == passage.word_count
+
+
+def test_the_heat_indicator_is_in_the_hud_not_the_passage(
+    timed_client: TestClient, library
+) -> None:
+    """Flames appearing between the words would move the words, which is the one
+    thing this screen must never do to someone reading."""
+    passage = first_text(library, "KV1107")
+
+    body = timed_client.get(f"/nb/klasse/2/NOR01-08/lesing/{passage.id}").text
+    hud = body[body.index('class="reading-hud"') : body.index('class="reading-controls"')]
+
+    assert 'id="reading-heat"' in hud
+    # Empty until a run earns it, so it takes up no room and announces nothing
+    # on a reading that never gets one.
+    assert 'id="reading-heat"' not in body[body.index("</article>") :]

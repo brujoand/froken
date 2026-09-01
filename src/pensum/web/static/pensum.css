@@ -13,6 +13,11 @@
   /* For the reading exercise only, and deliberately not red: a word the
      recogniser did not catch is a remark, not a mark. */
   --warn: #a8632a;
+  /* Warmer the longer a reading goes right. Three steps rather than a gradient
+     so the change is something a child notices happening. */
+  --fire-1: #c46a1d;
+  --fire-2: #d9531e;
+  --fire-3: #e03a10;
   --warn-soft: #f6ede4;
   --radius: 10px;
   --measure: 38rem;
@@ -689,12 +694,60 @@ a {
    Read words carry a solid line and misread ones a dotted line, so the two are
    told apart without colour -- which matters on a projector, on a bad screen,
    and to a child who does not see red and green as different. */
-.reading-text .w.lit {
+.reading-text .w.lit,
+.reading-text .gap.lit {
   background: var(--accent-soft);
-  color: var(--accent);
   text-decoration: underline solid var(--accent);
   text-decoration-thickness: 3px;
   text-underline-offset: 0.22em;
+}
+
+.reading-text .w.lit {
+  color: var(--accent);
+}
+
+/* The spaces and punctuation between words carry the line too. Underlining only
+   the words leaves a gap at every space, which reads as a row of dashes rather
+   than as one line showing how far someone has got. */
+.reading-text .gap {
+  white-space: pre-wrap;
+}
+
+/* Warmer the longer the reading keeps going right. Colour only: nothing here
+   changes how much room a word takes, because the passage must not move under
+   someone who is reading it. */
+.reading-stage[data-heat="1"] .reading-text .w.lit,
+.reading-stage[data-heat="1"] .reading-text .gap.lit {
+  text-decoration-color: var(--fire-1);
+}
+
+.reading-stage[data-heat="2"] .reading-text .w.lit,
+.reading-stage[data-heat="2"] .reading-text .gap.lit {
+  text-decoration-color: var(--fire-2);
+}
+
+.reading-stage[data-heat="3"] .reading-text .w.lit,
+.reading-stage[data-heat="3"] .reading-text .gap.lit {
+  text-decoration-color: var(--fire-3);
+  text-decoration-thickness: 4px;
+}
+
+/* In the HUD, which is a fixed strip: flames appearing between the words would
+   move the words. Empty until there is a run worth marking, so it takes up no
+   room and announces nothing on a reading that never gets one. */
+.reading-heat {
+  font-size: 1.1rem;
+  line-height: 1;
+  letter-spacing: -0.1em;
+}
+
+.reading-stage[data-heat="3"] .reading-heat {
+  animation: reading-flicker 900ms ease-in-out infinite;
+}
+
+@keyframes reading-flicker {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.55; }
 }
 
 /* Reached, but not what was heard. Underlined rather than reddened: the
@@ -936,6 +989,13 @@ body.reading-focus .reading-text {
 @media (prefers-reduced-motion: reduce) {
   .reading-text .w {
     transition: none;
+  }
+
+  /* The flames stay; the flickering goes. What they mean is carried by the
+     colour of the line and by how many of them there are, so nothing is lost
+     by holding them still. */
+  .reading-stage[data-heat="3"] .reading-heat {
+    animation: none;
   }
 }
 
