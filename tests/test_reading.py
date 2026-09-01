@@ -1045,17 +1045,20 @@ def test_the_start_button_comes_before_the_passage(timed_client: TestClient, lib
     assert body.index('id="reading-toggle"') < body.index('id="reading-passage"')
 
 
-def test_reading_without_recognition_is_always_offered(timed_client: TestClient, library) -> None:
-    """Reading aloud to a clock is the exercise; having the words checked is an
-    extra. Declining it must not require declining a privacy notice, and must
-    not depend on what the browser happens to support -- so the option is in the
-    page unconditionally, not revealed by script."""
+def test_checking_the_reading_is_not_optional(timed_client: TestClient, library) -> None:
+    """There is no switch, and there was one for a day.
+
+    Checking the reading is the exercise, so an off position is a way to get a
+    result that looks like the others and measures something else. What stays is
+    the statement of which recogniser is listening -- that differs by device
+    rather than by anything the reader chose, and a statement is not a control.
+    """
     passage = first_text(library, "KV1107")
 
     body = timed_client.get(f"/nb/klasse/2/NOR01-08/lesing/{passage.id}").text
 
-    assert 'id="reading-timed-box"' in body
-    assert "Bare ta tiden" in body
-    # The privacy opt-in, by contrast, starts hidden: only the browser knows
-    # whether it applies.
-    assert 'id="reading-consent" hidden' in body
+    assert "reading-timed-box" not in body
+    assert "reading-consent-box" not in body
+    assert 'type="checkbox"' not in body
+    # The notice itself is still there, filled in by the browser.
+    assert 'id="reading-engine"' in body

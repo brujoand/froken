@@ -81,28 +81,15 @@
         {% endfor %}
       </article>
 
-      {# Which recogniser is about to listen, in words, before it does. Filled
-         in by the page, because only the browser can tell an on-device
-         recogniser from one that posts a child's voice to its vendor. The
-         opt-in below appears only in the second case, and starts unchecked. #}
-      <p class="reading-engine" id="reading-engine" hidden></p>
-      <p class="reading-consent" id="reading-consent" hidden>
-        <label>
-          <input type="checkbox" id="reading-consent-box" />
-          <span id="reading-consent-text"></span>
-        </label>
-      </p>
+      {# Which recogniser is listening, in words, before it does. Filled in by
+         the page, because only the browser can tell an on-device recogniser
+         from one that posts a child's voice to its vendor.
 
-      {# Always offered, whatever this browser can do. Reading aloud to a clock
-         is the whole exercise; having the words checked is an extra a child --
-         or the adult next to them -- may simply not want, and it should not
-         take declining a privacy notice to get out of it. #}
-      <p class="reading-timed">
-        <label>
-          <input type="checkbox" id="reading-timed-box" />
-          <span>{{ t("reading.timed_choice") }}</span>
-        </label>
-      </p>
+         A statement, not a choice. Checking the reading is the exercise, so
+         there is nothing here to switch off -- but which of those two is
+         happening is not something to leave unsaid either, and it differs by
+         device rather than by anything the reader did. #}
+      <p class="reading-engine" id="reading-engine" hidden></p>
 
       <div id="reading-result" aria-live="polite"></div>
     </div>
