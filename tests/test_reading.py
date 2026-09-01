@@ -1032,3 +1032,30 @@ def test_the_page_carries_what_to_say_when_the_recogniser_refuses(
     assert "data-label-speech-unsupported=" in page.text
     # Naming the setting, because a child cannot be expected to guess it.
     assert "diktering" in page.text
+
+
+def test_the_start_button_comes_before_the_passage(timed_client: TestClient, library) -> None:
+    """A child reading aloud should not have to scroll past the text to find the
+    button that stops the clock. Source order is what decides that, so it is
+    what is asserted."""
+    passage = first_text(library, "KV1107")
+
+    body = timed_client.get(f"/nb/klasse/2/NOR01-08/lesing/{passage.id}").text
+
+    assert body.index('id="reading-toggle"') < body.index('id="reading-passage"')
+
+
+def test_reading_without_recognition_is_always_offered(timed_client: TestClient, library) -> None:
+    """Reading aloud to a clock is the exercise; having the words checked is an
+    extra. Declining it must not require declining a privacy notice, and must
+    not depend on what the browser happens to support -- so the option is in the
+    page unconditionally, not revealed by script."""
+    passage = first_text(library, "KV1107")
+
+    body = timed_client.get(f"/nb/klasse/2/NOR01-08/lesing/{passage.id}").text
+
+    assert 'id="reading-timed-box"' in body
+    assert "Bare ta tiden" in body
+    # The privacy opt-in, by contrast, starts hidden: only the browser knows
+    # whether it applies.
+    assert 'id="reading-consent" hidden' in body

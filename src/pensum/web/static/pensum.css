@@ -726,12 +726,38 @@ a {
   transition: width 220ms ease-out;
 }
 
+/* Above the passage, and stuck there in focus mode: the button that stops the
+   clock must not be somewhere a child has to scroll past the text to find. */
 .reading-controls {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1rem;
   margin: 1rem 0;
+}
+
+body.reading-focus .reading-controls {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  margin-top: 0;
+  padding: 0.5rem 0;
+  background: var(--paper);
+}
+
+.reading-timed,
+.reading-consent {
+  max-width: 32em;
+  margin: 0.5rem auto;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+.reading-timed label,
+.reading-consent label {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
 }
 
 .reading-clock {
@@ -763,14 +789,19 @@ body.reading-focus main {
   padding: 0;
 }
 
+/* Top-aligned, not centred. A centred flex column clips its own overflow at the
+   top -- the first lines of a long passage become unreachable, scroll or not --
+   and a passage that is being read through wants to start at the beginning
+   anyway. The script scrolls it to follow the reader from there. */
 body.reading-focus .reading-stage {
   position: fixed;
   inset: 0;
   z-index: 10;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   overflow-y: auto;
+  scroll-behavior: smooth;
   padding: 2rem 1.5rem;
   background: var(--paper);
 }
@@ -894,6 +925,11 @@ body.reading-focus .reading-text {
 /* A child on a school laptop with reduced motion set still gets the highlight;
    what goes is the animation between states. */
 @media (prefers-reduced-motion: reduce) {
+  /* Following the reader still happens; it just arrives rather than travels. */
+  body.reading-focus .reading-stage {
+    scroll-behavior: auto;
+  }
+
   .reading-text .w,
   .reading-progress-bar {
     transition: none;

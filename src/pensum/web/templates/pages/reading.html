@@ -68,18 +68,18 @@
 
          Rendered without newlines inside the paragraph: a line break between
          spans would be printed as a space the passage does not have. #}
-      <article class="reading-text" id="reading-passage" lang="{{ text.language }}">
-        {% for paragraph in text.paragraphs %}
-          <p>{% for token in paragraph %}{% if token.index is none %}{{ token.text }}{% else %}<span class="w" data-i="{{ token.index }}">{{ token.text }}</span>{% endif %}{% endfor %}</p>
-        {% endfor %}
-      </article>
-
       <div class="reading-controls">
         <button class="button button--big" type="button" id="reading-toggle">
           {{ t("reading.start") }}
         </button>
         <span class="reading-meta">{{ t("reading.word_count", count=text.word_count) }}</span>
       </div>
+
+      <article class="reading-text" id="reading-passage" lang="{{ text.language }}">
+        {% for paragraph in text.paragraphs %}
+          <p>{% for token in paragraph %}{% if token.index is none %}{{ token.text }}{% else %}<span class="w" data-i="{{ token.index }}">{{ token.text }}</span>{% endif %}{% endfor %}</p>
+        {% endfor %}
+      </article>
 
       {# Which recogniser is about to listen, in words, before it does. Filled
          in by the page, because only the browser can tell an on-device
@@ -90,6 +90,17 @@
         <label>
           <input type="checkbox" id="reading-consent-box" />
           <span id="reading-consent-text"></span>
+        </label>
+      </p>
+
+      {# Always offered, whatever this browser can do. Reading aloud to a clock
+         is the whole exercise; having the words checked is an extra a child --
+         or the adult next to them -- may simply not want, and it should not
+         take declining a privacy notice to get out of it. #}
+      <p class="reading-timed">
+        <label>
+          <input type="checkbox" id="reading-timed-box" />
+          <span>{{ t("reading.timed_choice") }}</span>
         </label>
       </p>
 
