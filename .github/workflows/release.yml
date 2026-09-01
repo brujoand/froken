@@ -118,11 +118,35 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      # metadata-action fills org.opencontainers.image.description from the
+      # GitHub repository description, which is a field nothing in this repo
+      # controls and which still carried the project's old name for a week
+      # after the rename. pyproject.toml already states what this is, is
+      # reviewed like any other file, and cannot drift from a release without
+      # somebody editing it -- so it is the source, and the label follows it.
+      - name: Read the project description
+        id: describe
+        run: |
+          set -euo pipefail
+          python3 - >> "$GITHUB_OUTPUT" <<'PY'
+          import tomllib
+
+          with open("pyproject.toml", "rb") as handle:
+              described = tomllib.load(handle)["project"]["description"]
+          # Single line by construction; a newline here would silently truncate
+          # the step output and label the image with half a sentence.
+          assert "\n" not in described, "the project description must be one line"
+          print(f"description={described}")
+          PY
+
       - name: Docker meta
         id: meta
         uses: docker/metadata-action@v5
         with:
           images: ghcr.io/brujoand/pensum
+          # Overrides the repository-description default above.
+          labels: |
+            org.opencontainers.image.description=${{ steps.describe.outputs.description }}
           # No `latest`: a deployment should name the version it wants, and a
           # moving tag makes that impossible to do honestly. metadata-action
           # adds `latest` alongside any semver tag unless told not to, so this
