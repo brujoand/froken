@@ -1062,3 +1062,21 @@ def test_checking_the_reading_is_not_optional(timed_client: TestClient, library)
     assert 'type="checkbox"' not in body
     # The notice itself is still there, filled in by the browser.
     assert 'id="reading-engine"' in body
+
+
+def test_progress_is_drawn_under_the_words_not_in_a_bar(timed_client: TestClient, library) -> None:
+    """A bar elsewhere on the screen asks a reader to look away from the text to
+    learn something the text can say in place, and looking away is what this
+    screen exists to prevent. The line under the read words says it instead.
+
+    The progressbar element stays, hidden: a line under a word is nothing at all
+    to someone not reading with their eyes, and dropping the visual bar must not
+    quietly drop them too.
+    """
+    passage = first_text(library, "KV1107")
+
+    body = timed_client.get(f"/nb/klasse/2/NOR01-08/lesing/{passage.id}").text
+
+    assert 'id="reading-bar"' not in body
+    assert 'role="progressbar"' in body
+    assert "visually-hidden" in body

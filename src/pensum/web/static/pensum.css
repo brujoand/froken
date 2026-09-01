@@ -679,13 +679,22 @@ a {
     color 160ms ease-out;
 }
 
-/* Background and colour only. Weight, size, spacing and borders all change how
-   much room a word takes, and a word that changes width as it lights up shoves
-   the rest of the line -- so the text moves under the reader exactly when they
-   are trying to follow it. */
+/* Background, colour and an underline. Never weight, size, spacing or borders:
+   those change how much room a word takes, and a word that changes width as it
+   lights up shoves the rest of the line -- so the text moves under the reader
+   exactly when they are trying to follow it. text-decoration is drawn over the
+   line box and changes no metrics, which is why the progress line can live here
+   rather than in a bar somewhere else on the screen.
+
+   Read words carry a solid line and misread ones a dotted line, so the two are
+   told apart without colour -- which matters on a projector, on a bad screen,
+   and to a child who does not see red and green as different. */
 .reading-text .w.lit {
   background: var(--accent-soft);
   color: var(--accent);
+  text-decoration: underline solid var(--accent);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 0.22em;
 }
 
 /* Reached, but not what was heard. Underlined rather than reddened: the
@@ -710,20 +719,18 @@ a {
   max-width: 32em;
 }
 
-.reading-progress {
-  flex: 1;
-  height: 8px;
-  background: var(--accent-soft);
-  border-radius: 999px;
+/* Kept in the document, taken off the screen. Progress is drawn under the words
+   now, which is nothing at all to a reader who is not looking at them. */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
   overflow: hidden;
-}
-
-.reading-progress-bar {
-  display: block;
-  width: 0;
-  height: 100%;
-  background: var(--accent);
-  transition: width 220ms ease-out;
+  clip-path: inset(50%);
+  white-space: nowrap;
 }
 
 /* Above the passage, and stuck there in focus mode: the button that stops the
@@ -927,9 +934,7 @@ body.reading-focus .reading-text {
 /* A child on a school laptop with reduced motion set still gets the highlight;
    what goes is the animation between states. */
 @media (prefers-reduced-motion: reduce) {
-
-  .reading-text .w,
-  .reading-progress-bar {
+  .reading-text .w {
     transition: none;
   }
 }
