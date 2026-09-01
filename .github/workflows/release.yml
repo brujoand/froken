@@ -158,6 +158,7 @@ jobs:
             VERSION=${{ needs.version.outputs.version }}
 
       - name: Build and push (retry)
+        id: buildpush_retry
         if: steps.buildpush.outcome == 'failure'
         uses: docker/build-push-action@v6
         with:
@@ -167,3 +168,75 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           build-args: |
             VERSION=${{ needs.version.outputs.version }}
+
+      # Ask the deployment repo to pin what was just published, so the deploy PR
+      # opens now instead of whenever something next polls the registry. This
+      # image is public, so Renovate would find it within the hour regardless --
+      # this turns "some time today" into "now", it is not the only path.
+      #
+      # Two earlier designs failed and both are why this goes OUTBOUND. GitHub's
+      # own `registry_package` webhook once delivered two releases ~40 minutes
+      # late and in the WRONG ORDER, pinning a deployment backwards. Posting
+      # straight at a receiver fixed ordering but could not connect: the
+      # firewall admitted that endpoint only from GitHub's `hooks` egress
+      # ranges, while a release job runs from the `actions` ranges -- disjoint
+      # sets, so every POST was dropped. Reaching api.github.com needs no
+      # inbound path at all, and ordering holds because the dispatch happens
+      # after the push it reports.
+      #
+      # Both the token and the REPOSITORY NAME come from secrets, and the repo
+      # name is a secret specifically because this repository is public. The
+      # other repos wired this way are private and name their target inline;
+      # doing that here would publish the existence and name of a private repo
+      # to anyone reading this file, which is not undoable once indexed. Secrets
+      # are also masked in logs, which repository variables are not -- and the
+      # logs of a public repo are public too.
+      #
+      # The digest travels as an input rather than being looked up at the other
+      # end, so the pin can never name a different build from the one this job
+      # pushed.
+      - name: Dispatch the deploy bump
+        env:
+          # A fine-grained PAT scoped `actions: write` on the deployment repo
+          # and nothing else: enough to start one workflow there, not enough to
+          # write a file, push a branch, or read a secret.
+          GH_TOKEN: ${{ secrets.RELEASE_BUMP_TOKEN }}
+          DEPLOY_REPO: ${{ secrets.RELEASE_BUMP_REPO }}
+          APP: ${{ github.event.repository.name }}
+          TAG: ${{ needs.version.outputs.version }}
+          # Whichever push attempt actually landed. A skipped step has no
+          # outputs, so `||` picks the retry only when the first produced
+          # nothing.
+          DIGEST: ${{ steps.buildpush.outputs.digest || steps.buildpush_retry.outputs.digest }}
+        run: |
+          set -euo pipefail
+
+          # Not configured is not a failure. The image is published and Renovate
+          # will pick it up; saying so is more useful than a red release.
+          if [ -z "${GH_TOKEN}" ] || [ -z "${DEPLOY_REPO}" ]; then
+            echo "::warning::RELEASE_BUMP_TOKEN or RELEASE_BUMP_REPO is unset, so nothing was told to deploy ${TAG}. Renovate will still find it within the hour, or pin it now with 'lab bump ${APP} ${TAG} --digest ${DIGEST}'."
+            exit 0
+          fi
+          if [ -z "${DIGEST}" ]; then
+            echo "::error::neither push step produced a digest, so there is nothing to pin."
+            exit 1
+          fi
+
+          # Retried by hand: `gh workflow run` has no retry of its own, and a
+          # dropped dispatch means a published image that nothing deploys.
+          for attempt in 1 2 3 4 5; do
+            if gh workflow run release-bump.yml \
+              --repo "${DEPLOY_REPO}" \
+              --ref main \
+              -f "app=${APP}" \
+              -f "tag=${TAG}" \
+              -f "digest=${DIGEST}"; then
+              echo "asked the deployment repo to pin ${APP} ${TAG} (${DIGEST})"
+              exit 0
+            fi
+            echo "::warning::dispatch attempt ${attempt} failed"
+            sleep 5
+          done
+
+          echo "::error::could not dispatch the deploy bump after 5 attempts. The image is published but unpinned; pin it with 'lab bump ${APP} ${TAG} --digest ${DIGEST}'."
+          exit 1
