@@ -1,11 +1,24 @@
 ---
 name: Release
 
+# Deliberately NOT `push: [main]`. CI triggers on that push, and a release
+# triggered on the same event runs beside CI rather than after it -- so a commit
+# whose container had already been shown not to start was tagged, built, pushed
+# and dispatched to the deployment repo while CI was still going red about it.
+# That is not hypothetical: it is v1.12.0.
+#
+# `workflow_run` fires when CI *finishes*, and carries its conclusion. So the
+# question this workflow asks first is no longer "did something land on main"
+# but "did something land on main that works".
 on:
-  push:
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
     branches: [main]
   # A release can fail for reasons unrelated to the commit -- a registry flake,
-  # a rate limit. Re-running beats pushing an empty commit to retrigger.
+  # a rate limit. Re-running beats pushing an empty commit to retrigger, and it
+  # is the one path that does not consult CI: a human asking for it has already
+  # decided.
   workflow_dispatch:
 
 concurrency:
@@ -21,7 +34,44 @@ permissions:
 # CLI for it. The repo is public and the image is meant to be pullable without
 # credentials, so this is not optional -- and it cannot be undone once done.
 
+# The commit CI actually tested. Every checkout below pins it rather than taking
+# whatever main happens to be, so the thing that is tagged, built and deployed is
+# the thing that passed -- even if another push landed in between.
+env:
+  VERIFIED_SHA: ${{ github.event.workflow_run.head_sha || github.sha }}
+
 jobs:
+  # Said out loud rather than left as a workflow run full of skipped jobs.
+  # "Nothing was released" and "nothing needed releasing" look identical in the
+  # Actions list, and they are very different facts about main.
+  blocked:
+    if: >-
+      github.event_name == 'workflow_run' &&
+      github.event.workflow_run.conclusion != 'success'
+    runs-on: ubuntu-latest
+    steps:
+      # A warning rather than a failure: CI has already gone red about this
+      # commit, and a second red run reports the same fact twice while making
+      # the release history look like the thing that is broken.
+      #
+      # 'cancelled' lands here too and is usually routine: CI cancels a run in
+      # progress when a second push arrives, and that newer push carries this
+      # change into its own release. Which is why the wording names the
+      # conclusion instead of asserting that something is wrong.
+      - name: Say why nothing shipped
+        run: |
+          set -euo pipefail
+          conclusion='${{ github.event.workflow_run.conclusion }}'
+          sha='${{ github.event.workflow_run.head_sha }}'
+          echo "::warning::CI concluded '${conclusion}' for ${sha}, so no release was cut and no image was published. Fix main, or re-run this workflow by hand if you are certain."
+          {
+            echo "## No release"
+            echo
+            echo "CI concluded \`${conclusion}\` for \`${sha}\`."
+            echo
+            echo "Nothing was tagged, built or deployed."
+          } >> "$GITHUB_STEP_SUMMARY"
+
   # semantic-release reads the conventional commits since the last tag and
   # decides the version. It is the only thing that does: the image is tagged
   # with whatever it picks, so a release and its image can never disagree.
@@ -31,6 +81,11 @@ jobs:
   # be an exception to it. The tag and the GitHub release are the record; the
   # repo is not rewritten to describe its own version.
   version:
+    # The gate. A manual dispatch is exempt; everything else waits for a verdict
+    # and only proceeds on a good one.
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -43,6 +98,7 @@ jobs:
       - uses: actions/checkout@v5
         with:
           fetch-depth: 0
+          ref: ${{ env.VERIFIED_SHA }}
 
       - uses: actions/setup-node@v4
         with:
@@ -109,7 +165,12 @@ jobs:
       contents: read
       packages: write
     steps:
+      # The same commit `version` released, not the tip of main: a push that
+      # landed while this was running must not end up inside an image labelled
+      # with the older version.
       - uses: actions/checkout@v5
+        with:
+          ref: ${{ env.VERIFIED_SHA }}
 
       - name: Log in to GHCR
         uses: docker/login-action@v3
@@ -226,7 +287,10 @@ jobs:
           # write a file, push a branch, or read a secret.
           GH_TOKEN: ${{ secrets.RELEASE_BUMP_TOKEN }}
           DEPLOY_REPO: ${{ secrets.RELEASE_BUMP_REPO }}
-          APP: ${{ github.event.repository.name }}
+          # Derived from the environment rather than the event payload, which
+          # differs in shape between a push, a workflow_run and a dispatch --
+          # an empty app name here would pin nothing, quietly.
+          REPOSITORY: ${{ github.repository }}
           TAG: ${{ needs.version.outputs.version }}
           # Whichever push attempt actually landed. A skipped step has no
           # outputs, so `||` picks the retry only when the first produced
@@ -234,6 +298,7 @@ jobs:
           DIGEST: ${{ steps.buildpush.outputs.digest || steps.buildpush_retry.outputs.digest }}
         run: |
           set -euo pipefail
+          APP="${REPOSITORY##*/}"
 
           # Not configured is not a failure. The image is published and Renovate
           # will pick it up; saying so is more useful than a red release.
