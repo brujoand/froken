@@ -31,6 +31,24 @@
   var MAX_POINTS = 500;
   var MAX_STROKES = 8;
 
+  /* How far a point is pulled towards the guide, as a share of the gap, and it
+   * only happens inside TOLERANCE.
+   *
+   * A fingertip wobbles by a few units even when a child is following the line
+   * carefully, and the wobble is what makes a correct tracing look like a bad
+   * one. Pulling ink that is already on the line the rest of the way tidies
+   * that, and cannot flatter a tracing that is off the line: outside the
+   * tolerance nothing moves at all, so a scribble stays a scribble and scores
+   * like one. */
+  var SNAP_PULL = 0.55;
+
+  /* A tap has no length, and several letters are mostly tap: the dot on an `i`,
+   * the dot on a `j`. Without this, the only way to make one was to wiggle a
+   * finger on the spot, which is not how anybody writes a dot. A tap becomes a
+   * mark this many units long, centred where the finger landed -- about the
+   * size of the dot in the letterforms. */
+  var TAP_MARK = 4;
+
   /* Sparks per second while the finger is on the line, and how long one lives.
    * Enough to feel like something is happening, few enough that a cheap tablet
    * keeps up. */
@@ -113,6 +131,53 @@
     return best;
   }
 
+  /* The nearest sampled guide point across every stroke of a letter, and how
+   * far away it is. Pure, and the whole of the tidying: everything above it is
+   * about when to apply it, which is only ever "when already close".
+   */
+  function nearestPoint(point, guides) {
+    var best = null;
+    var gap = Infinity;
+    for (var g = 0; g < guides.length; g++) {
+      for (var i = 0; i < guides[g].length; i++) {
+        var d = distance(point, guides[g][i]);
+        if (d < gap) {
+          gap = d;
+          best = guides[g][i];
+        }
+      }
+    }
+    return { at: best, gap: gap };
+  }
+
+  /* Ink, tidied. Inside the tolerance a point is drawn towards the line it was
+   * already following; outside it, the point is returned untouched.
+   *
+   * The tidied point is what gets posted as well as what gets drawn, and that
+   * is deliberate: it moves only points the server was going to count as on the
+   * line anyway, so the mark barely changes, and the alternative -- showing a
+   * clean letter and marking a wobbly one -- would print a number that does not
+   * match the letter on the screen. */
+  function snapped(point, guides, tolerance, pull) {
+    var near = nearestPoint(point, guides);
+    if (!near.at || near.gap > tolerance || near.gap === 0) return point;
+    return [
+      point[0] + (near.at[0] - point[0]) * pull,
+      point[1] + (near.at[1] - point[1]) * pull,
+    ];
+  }
+
+  /* A tap, as something that can be drawn and marked. Two points rather than
+   * one, because a single point is a movement of zero length: the server's
+   * smallest stroke is two points, and one point would post as an empty
+   * gesture and be thrown away -- which is exactly the bug this fixes. */
+  function tapMark(point, size) {
+    return [
+      [point[0], point[1] - size / 2],
+      [point[0], point[1] + size / 2],
+    ];
+  }
+
   /* The share of a guide stroke that has ink within tolerance of it. The meter
    * is the mean of this over the letter's strokes -- an approximation of
    * coverage, which is the largest part of the server's mark. */
@@ -141,6 +206,10 @@
 
   function guidePathsOf(card) {
     return Array.prototype.slice.call(card.querySelectorAll(".writing-guide path"));
+  }
+
+  function guidesOf(card) {
+    return guidePathsOf(card).map(guidePoints);
   }
 
   /* --- the page ---------------------------------------------------------- */
@@ -243,6 +312,9 @@
 
     var point = pointIn(svg, event);
     if (!point) return;
+    /* Tidied from the first point, so a stroke does not start with a kink that
+     * the rest of it has been straightened out of. */
+    point = snapped(point, guidesOf(card), TOLERANCE, SNAP_PULL);
     drawing = { index: at, points: [point], element: inkPath([point]) };
     inkLayer(card).appendChild(drawing.element);
     hide(hint);
@@ -254,6 +326,8 @@
     var card = cards[drawing.index];
     var point = pointIn(svgOf(card), event);
     if (!point) return;
+
+    point = snapped(point, guidesOf(card), TOLERANCE, SNAP_PULL);
 
     var points = drawing.points;
     var last = points[points.length - 1];
@@ -282,12 +356,13 @@
   function onUp() {
     if (!drawing) return;
     var index = drawing.index;
-    /* A tap is not a stroke. Two points is what the server's smallest stroke
-     * needs, and a single point would post as an empty movement. */
-    if (drawing.points.length >= 2) traced[index].push(drawing.points);
-    else if (drawing.element.parentNode) {
-      drawing.element.parentNode.removeChild(drawing.element);
-    }
+    /* A tap is a dot, not a discarded stroke. It used to be thrown away for
+     * having only one point, which meant the dot on an `i` could only be made
+     * by wiggling a finger on the spot -- so the letters that are mostly dot
+     * were the hardest ones on the screen. */
+    var stroke =
+      drawing.points.length >= 2 ? drawing.points : tapMark(drawing.points[0], TAP_MARK);
+    traced[index].push(stroke);
     drawing = null;
     /* The letter the stroke belongs to, which is not necessarily the one on
      * screen by the time the finger comes up. */

@@ -439,6 +439,33 @@ def test_a_stroke_of_one_point_is_refused() -> None:
         InkStroke(points=((1.0, 1.0),))
 
 
+def test_a_tapped_dot_marks_as_a_written_dot() -> None:
+    """The dot on an `i` is a 4-unit stroke, and a tap has no length.
+
+    The page turns a tap into a mark that size rather than throwing it away, and
+    this is the marking end of that: what it sends has to score like a dot, or
+    the fix would only move the problem from "the dot never registers" to "the
+    dot never counts". The old behaviour -- the tap discarded, the stem alone --
+    is the second half of the assertion.
+    """
+    dotted = Glyph(char="i", strokes=("M 50 60 L 50 110", "M 50 38 L 50 42"))
+    stem = tuple((50.0, 60.0 + step * 3) for step in range(17))
+    tap = ((50.0, 38.0), (50.0, 42.0))
+
+    with_dot = Attempt(
+        seconds=4.0,
+        glyphs=(TracedGlyph(index=0, strokes=(InkStroke(points=stem), InkStroke(points=tap))),),
+    )
+    without = Attempt(
+        seconds=4.0,
+        glyphs=(TracedGlyph(index=0, strokes=(InkStroke(points=stem),)),),
+    )
+
+    letters = alphabet(dotted)
+    assert mark(prompt(text="i"), letters, with_dot).score > 0.95
+    assert mark(prompt(text="i"), letters, without).score < 0.6
+
+
 def test_points_far_outside_the_box_are_clamped_rather_than_refused() -> None:
     """Overshooting is information, not an attack: it is what "outside the lines"
     means. Only the absurd is cut off."""
