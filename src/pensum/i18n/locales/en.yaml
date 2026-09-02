@@ -35,6 +35,7 @@ subject:
   quiz_unavailable: A quiz for this subject is coming soon.
   reading_cta: Read aloud
   writing_cta: Write the letters
+  listening_cta: Listen and spell
 
 coverage:
   summary: The quiz covers {tested} of {total} competence goals for this checkpoint.
@@ -351,3 +352,45 @@ writing:
   not_a_verdict: >-
     This is practice, not assessment. Handwriting is learned with a pencil and a
     grown-up beside you; this is a way to practise the shapes in between.
+
+listening:
+  heading: Hear the word
+  intro: >-
+    The computer reads a word aloud. You choose or type how it is spelled.
+  # Said before the first word is spoken, not in a privacy page. There is no
+  # microphone on this page.
+  privacy: >-
+    Your browser reads the words aloud. Nothing is recorded, nothing is sent,
+    and your answers are gone once you have the result.
+  authored_note: >-
+    The words come from Pensum's own reading passages, and the wrong spellings
+    are built from the mistakes children actually make.
+
+  position: Word {at} of {total}
+  say_again: Say it again
+  pick_label: Choose the word you heard
+  write_label: Type the word you heard
+  next: Next word
+  finish: Done
+  working: Marking …
+  failed: Something went wrong. Try once more.
+  # Shown when the browser has no voice for the language. There is no exercise
+  # left at that point -- guessing between two spellings unheard is a coin toss.
+  no_voice: >-
+    This browser has no voice for this language, so the words cannot be read
+    aloud. Try another browser, or add a voice in your device settings.
+  noscript: >-
+    This exercise needs JavaScript, because the browser is what reads the words
+    aloud.
+
+  result_heading: How you spelled them
+  score: "{right} of {total} right"
+  right: right
+  not_answered: not answered
+  you_wrote: "you wrote {given}"
+  again: Try again
+  badge_finished: Every word answered
+  stars_label: "{stars} of {max} stars"
+  not_a_verdict: >-
+    This is practice, not assessment. Spelling is learned over years, and a word
+    you miss here is a word you can practise.

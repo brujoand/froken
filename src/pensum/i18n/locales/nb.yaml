@@ -39,6 +39,7 @@ subject:
   quiz_unavailable: Quiz kommer snart for dette faget.
   reading_cta: Les høyt
   writing_cta: Skriv bokstavene
+  listening_cta: Hør og skriv
 
 coverage:
   # Honest about reach: a quiz cannot test every kompetansemål, and the count
@@ -357,3 +358,46 @@ writing:
   not_a_verdict: >-
     Dette er øving, ikke vurdering. Håndskrift læres med blyant og en voksen ved
     siden av; dette er en måte å øve på formen mellom øktene.
+
+listening:
+  heading: Hør ordet
+  intro: >-
+    Datamaskinen leser et ord høyt. Du velger eller skriver hvordan det staves.
+  # Sagt før det første ordet blir lest, ikke i en personvernerklæring. Det
+  # finnes ingen mikrofon på denne siden.
+  privacy: >-
+    Nettleseren din leser ordene høyt. Ingenting blir tatt opp, ingenting blir
+    sendt, og svarene dine forsvinner når du har fått resultatet.
+  authored_note: >-
+    Ordene er hentet fra lesetekstene i Pensum, og de gale alternativene er laget
+    av vanlige skrivefeil.
+
+  position: Ord {at} av {total}
+  say_again: Si det igjen
+  pick_label: Velg ordet du hørte
+  write_label: Skriv ordet du hørte
+  next: Neste ord
+  finish: Ferdig
+  working: Retter …
+  failed: Noe gikk galt. Prøv en gang til.
+  # Vises når nettleseren ikke har noen stemme for språket. Da er det ingen
+  # øving igjen -- å gjette mellom to skrivemåter uten å høre ordet er myntkast.
+  no_voice: >-
+    Denne nettleseren har ingen stemme for dette språket, så ordene kan ikke
+    leses høyt. Prøv en annen nettleser, eller legg til en stemme i
+    innstillingene på maskinen.
+  noscript: >-
+    Denne øvingen trenger JavaScript, fordi det er nettleseren som leser ordene
+    høyt.
+
+  result_heading: Slik skrev du
+  score: "{right} av {total} riktig"
+  right: riktig
+  not_answered: ikke svart
+  you_wrote: "du skrev {given}"
+  again: Prøv igjen
+  badge_finished: Alle ordene besvart
+  stars_label: "{stars} av {max} stjerner"
+  not_a_verdict: >-
+    Dette er øving, ikke vurdering. Rettskriving læres over år, og et ord du
+    bommer på her er et ord du kan øve på.

@@ -1339,3 +1339,148 @@ body.reading-focus .reading-text {
     transition: none;
   }
 }
+
+/* --- Listening ----------------------------------------------------------- */
+
+.listening {
+  margin: 1.5rem 0;
+}
+
+.listening-position {
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  margin: 0 0 1rem;
+}
+
+.listening-questions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Centred, and with room around it. There is one question on the screen at a
+   time and nothing else to look at, so the layout can afford to put it where
+   the eye already is. */
+.listening-question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.5rem 0;
+}
+
+/* The biggest thing on the page, because it is the thing a child reaches for
+   again and again: the whole exercise is hearing the word once more. */
+.listening-say {
+  min-width: 12rem;
+}
+
+.listening-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+/* Wide enough to be a target rather than a word, and the two are the same width
+   whatever they spell -- otherwise the longer spelling is the one that looks
+   like the answer, and a child learns to pick the bigger button. */
+.listening-option {
+  flex: 0 1 11rem;
+  font-size: 1.35rem;
+  padding: 1rem 0.75rem;
+  text-align: center;
+  word-break: break-word;
+}
+
+.listening-write {
+  display: block;
+  width: 100%;
+  max-width: 18rem;
+}
+
+/* Spaced out and large. This is a spelling exercise typed on glass, and the
+   letter-spacing is what makes a typed word readable back to the child who
+   typed it. */
+.listening-input {
+  width: 100%;
+  font-size: 1.5rem;
+  letter-spacing: 0.08em;
+  text-align: center;
+  padding: 0.7rem 0.5rem;
+  border: 2px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+  color: var(--ink);
+}
+
+.listening-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.listening-aside {
+  margin-top: 1rem;
+}
+
+/* Where "no voice for this language" lands, which is the one message on this
+   page that means the exercise cannot happen at all. */
+.listening-hint {
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius);
+  background: var(--warn-soft);
+  color: var(--warn);
+}
+
+.listening-score {
+  font-size: 1.1rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.listening-marks {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem;
+}
+
+.listening-mark {
+  border-bottom: 1px solid var(--line);
+  padding: 0.55rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.75rem;
+}
+
+.listening-mark-word {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.listening-mark-note {
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+
+/* A missed word is marked by colour *and* by a rule down its side, so the two
+   kinds of row are told apart without colour -- the same reason the reading
+   passage underlines rather than only tinting. */
+.listening-mark--wrong {
+  border-left: 4px solid var(--warn);
+  padding-left: 0.75rem;
+}
+
+.listening-mark--wrong .listening-mark-word {
+  color: var(--warn);
+}
+
+.listening-mark--wrong .listening-mark-note {
+  color: var(--warn);
+}
+
+/* No voice, no exercise: the questions stay hidden and the page is the message
+   above them. */
+.listening--mute .listening-position {
+  display: none;
+}

@@ -1,0 +1,49 @@
+{# The outcome of one round. Rendered into the listening page, never on its own.
+
+   The right answers are shown as well as the wrong ones. A dictation marked
+   only where it failed is a list of the child's mistakes, which is the least
+   useful way to print eight words they mostly spelled correctly. #}
+
+<div class="listening-result" id="listening-result-card">
+  <h2>{{ t("listening.result_heading") }}</h2>
+
+  {% if result.finished %}
+    <ul class="badges">
+      {# The badge that cannot mislead, as on the writing screen: every word was
+         attempted. Getting them wrong does not take it away. #}
+      <li class="badge badge--finished">{{ t("listening.badge_finished") }}</li>
+    </ul>
+  {% endif %}
+
+  <p class="stars" aria-label="{{ t('listening.stars_label', stars=result.stars, max=max_stars) }}">
+    {% for n in range(max_stars) %}
+      <span class="star {{ 'star--on' if n < result.stars else 'star--off' }}" aria-hidden="true">★</span>
+    {% endfor %}
+  </p>
+
+  <p class="listening-score">{{ t("listening.score", right=result.right, total=result.total) }}</p>
+
+  <ol class="listening-marks" lang="{{ round.language }}">
+    {% for mark in result.marks %}
+      <li class="listening-mark {{ 'listening-mark--wrong' if not mark.correct }}">
+        <span class="listening-mark-word">{{ mark.question.word }}</span>
+        {% if mark.correct %}
+          <span class="listening-mark-note">{{ t("listening.right") }}</span>
+        {% elif not mark.answered %}
+          <span class="listening-mark-note">{{ t("listening.not_answered") }}</span>
+        {% else %}
+          {# What they wrote, next to what was said. The pair is the lesson: the
+             letter that differs is the thing to look at, and it is invisible
+             unless both spellings are on the screen together. #}
+          <span class="listening-mark-note">{{ t("listening.you_wrote", given=mark.given) }}</span>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ol>
+
+  <div class="listening-again">
+    <button class="button" type="button" id="listening-again">{{ t("listening.again") }}</button>
+  </div>
+
+  <p class="not-a-verdict">{{ t("listening.not_a_verdict") }}</p>
+</div>

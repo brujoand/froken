@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block title %}{{ t("listening.heading") }} · {{ subject.display_title.get(lang) }}{% endblock %}
+
+{% block content %}
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="/{{ locale }}/">{{ t("nav.home") }}</a> ›
+    <a href="/{{ locale }}/klasse/{{ grade }}">{{ t("grade.heading", grade=grade) }}</a> ›
+    <a href="/{{ locale }}/klasse/{{ grade }}/{{ subject.code }}">{{ subject.display_title.get(lang) }}</a>
+  </nav>
+
+  <h1>{{ t("listening.heading") }}</h1>
+
+  {# Said before anything is heard: the words are spoken by the browser, and no
+     recording is made, sent or kept. There is no microphone on this page. #}
+  <p class="note note--privacy">{{ t("listening.privacy") }}</p>
+
+  <section
+    class="listening"
+    id="listening"
+    data-mode="{{ round.mode }}"
+    data-language="{{ round.language }}"
+    data-post-url="/{{ locale }}/klasse/{{ grade }}/{{ subject.code }}/lytting/svar"
+    data-label-position="{{ t('listening.position', at='%1', total='%2') }}"
+    data-label-finish="{{ t('listening.finish') }}"
+    data-label-working="{{ t('listening.working') }}"
+    data-label-failed="{{ t('listening.failed') }}"
+    data-label-novoice="{{ t('listening.no_voice') }}"
+  >
+    <div class="listening-top">
+      <p class="listening-position" id="listening-position" aria-live="polite">
+        {{ t("listening.position", at=1, total=round.questions | length) }}
+      </p>
+    </div>
+
+    {# Every question is in the page, and the script shows one at a time. The
+       word itself lives in a data attribute rather than in text, because the
+       browser has to be handed the word in order to say it -- see the module
+       docstring in `listening_routes.py` for why that is accepted. #}
+    <ol class="listening-questions" id="listening-questions">
+      {% for question in round.questions %}
+        <li class="listening-question" data-index="{{ loop.index0 }}" data-word="{{ question.word }}">
+          <button class="button button--big listening-say" type="button">
+            {{ t("listening.say_again") }}
+          </button>
+
+          {% if round.mode == "pick" %}
+            <div class="listening-options" role="group"
+                 aria-label="{{ t('listening.pick_label') }}">
+              {% for option in question.options %}
+                <button class="button button--secondary listening-option" type="button"
+                        lang="{{ round.language }}"
+                        data-value="{{ option }}">{{ option }}</button>
+              {% endfor %}
+            </div>
+          {% else %}
+            <label class="listening-write">
+              <span class="visually-hidden">{{ t("listening.write_label") }}</span>
+              {# No autocomplete, no spellcheck, no autocorrect: every one of
+                 them would answer the question the child was asked. #}
+              <input type="text" inputmode="text" autocomplete="off"
+                     autocapitalize="off" autocorrect="off" spellcheck="false"
+                     lang="{{ round.language }}"
+                     class="listening-input" />
+            </label>
+            <button class="button listening-submit" type="button">
+              {{ t("listening.next") }}
+            </button>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ol>
+
+    <div class="listening-aside">
+      <p class="listening-hint" id="listening-hint" hidden></p>
+      <div id="listening-result" aria-live="polite"></div>
+    </div>
+
+    <noscript>
+      {# Nothing to fall back to. The exercise is a spoken word, the speaking is
+         done by the browser, and without a script there is no word. Saying that
+         beats a page of buttons that do nothing. #}
+      <p class="note">{{ t("listening.noscript") }}</p>
+    </noscript>
+  </section>
+
+  <p class="note">{{ t("listening.authored_note") }}</p>
+{% endblock %}
+
+{% block scripts %}
+  <script src="/static/listening.js" defer></script>
+{% endblock %}
