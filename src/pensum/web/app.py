@@ -27,6 +27,7 @@ from pensum.catalogue.loader import Catalogue
 from pensum.config import Settings
 from pensum.config import settings as env_settings
 from pensum.items.loader import ItemBank
+from pensum.listening.library import ListeningLibrary
 from pensum.quiz.session import SessionStore
 from pensum.reading.library import ReadingLibrary
 from pensum.reading.streams import StreamStore
@@ -34,6 +35,7 @@ from pensum.reading.transcribe import Transcriber, load_transcriber
 from pensum.scores.store import AttemptStore
 from pensum.web.admin_routes import router as admin_router
 from pensum.web.auth_routes import router as auth_router
+from pensum.web.listening_routes import router as listening_router
 from pensum.web.quiz_routes import router as quiz_router
 from pensum.web.reading_routes import router as reading_router
 from pensum.web.routes import router
@@ -50,6 +52,10 @@ async def lifespan(app: FastAPI) -> AsyncIterator[None]:
     app.state.items = ItemBank.load(include_unreviewed=unreviewed)
     app.state.reading = ReadingLibrary.load(include_unreviewed=unreviewed)
     app.state.writing = WritingLibrary.load(include_unreviewed=unreviewed)
+    # Derived from the two above rather than loaded: the listening exercise has
+    # no content of its own. Building it here keeps the first request off the
+    # cost of reading every passage and every item back out again.
+    app.state.listening = ListeningLibrary.of(app.state.items, app.state.reading)
     yield
 
 
@@ -79,6 +85,7 @@ def create_app(
         app.state.items = items if items is not None else ItemBank.load()
         app.state.reading = reading if reading is not None else ReadingLibrary.load()
         app.state.writing = writing if writing is not None else WritingLibrary.load()
+        app.state.listening = ListeningLibrary.of(app.state.items, app.state.reading)
     else:
         if reading is not None:
             app.state.reading = reading
@@ -112,6 +119,7 @@ def create_app(
     app.include_router(quiz_router)
     app.include_router(reading_router)
     app.include_router(writing_router)
+    app.include_router(listening_router)
     app.include_router(auth_router)
     app.include_router(admin_router)
     return app

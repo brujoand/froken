@@ -68,6 +68,20 @@
     </section>
   {% endif %}
 
+  {% if has_listening %}
+    {# Hearing a word and spelling it is a third exercise again, and the only
+       one that needs a speaking voice. Whether this browser has one for the
+       right language is not knowable here, so the link is always shown and the
+       page says so when it cannot speak. #}
+    <section class="listening-cta">
+      <p>{{ t("listening.intro") }}</p>
+      <a class="button button--secondary"
+         href="/{{ locale }}/klasse/{{ grade }}/{{ subject.code }}/lytting">
+        {{ t("subject.listening_cta") }}
+      </a>
+    </section>
+  {% endif %}
+
   {% if has_reading %}
     {# Reading aloud is a separate exercise, not a quiz question, and gets its
        own entry point so the two are never confused on the result page. #}

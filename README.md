@@ -426,6 +426,102 @@ empty box.
 stroke order and direction marked. A letterform is reviewed by looking at it,
 and a path string is not something anyone can review by reading it.
 
+## Listening and spelling
+
+A fourth exercise: a word is read aloud, and the pupil either picks the right
+spelling or types it. Norsk and engelsk have it, because they are the subjects
+with passages to draw words from.
+
+**Which of the two depends on the checkpoint, not on the pupil.** Up to and
+including 2. trinn it is a choice between two spellings, because recognising a
+spelling comes a long way before producing one. From 3. trinn it is a box and no
+letters to copy from — dictation. A nine-year-old still working towards the 2.
+trinn goals gets the 2. trinn exercise, which is the rule the rest of Pensum
+follows and for the same reason: the goal set is the thing being practised.
+
+**The browser says the word.** `speechSynthesis`, so no audio is fetched, none
+is generated on the server, and there is no microphone anywhere on the page. A
+local voice is preferred over a cloud one where the browser offers both, because
+a cloud voice sends the word to the browser vendor — an outbound request Pensum
+otherwise never makes.
+
+If the browser has no voice for the passage's language, **the exercise refuses to
+run and says so**. An English voice reading *kjøleskap* does not say a Norwegian
+word badly; it says a different word, and the child is then marked on spelling
+something they were never told. Guessing between two spellings with nothing
+spoken is a coin toss dressed up as a lesson.
+
+### Nothing is authored twice
+
+There is no `data/listening/`. The words come from the reading passages already
+written for that checkpoint — so they are already at its level and already
+reviewed — and the wrong spellings are generated.
+
+That is the interesting half. A distractor has to be the word the child might
+actually have written:
+
+* **A real word, where the lexicon has one.** `bok`/`bak`, `hus`/`hos`,
+  `bruk`/`bråk`. The best kind: both spellings are correct Norwegian, so the
+  only way through is to have heard which one was said. About **44%** of
+  askable Norwegian words and **38%** of English ones have one.
+* **A plausible misspelling for the rest.** *kjøleskapp*, with the doubled
+  consonant. Not a word, and precisely the non-word the pupil was at risk of
+  writing.
+
+`confusable.py` holds the mistakes, as a short table a teacher can read and
+disagree with rather than a phonetic algorithm: kj/skj/sj, silent h and d,
+o/å, o/u, e/æ, y/i, voiced against voiceless, and consonant doubling — which in
+Norwegian is the commonest spelling error there is.
+
+**What a table cannot know is where in a word a change is possible.** Left alone
+it produces *ffølge*, *sdrategi* and *haldvannet*, none of which any child has
+written and all of which are spotted without listening — so they make the
+exercise easier rather than harder. Two things stop that. Doubling is restricted
+to where it means something, between a vowel and either a vowel or the end of
+the word; and every invented spelling is checked against the shapes of the
+language, measured from the language itself. The lexicon counts which letter
+pairs its own words start with, contain and end with, and refuses anything
+outside that.
+
+### Where the lexicon comes from
+
+Pensum's own text, and nothing else: every reading passage and both language
+halves of every quiz item, which comes to about **4799** Norwegian words
+and **3818** English ones. No word list is vendored and none is fetched.
+
+That is a choice with one advantage and one cost. The advantage is that it is
+unambiguously ours — a word list is somebody's work and carries somebody's
+licence, and this repository is public and ships an image. The cost is density:
+a full dictionary would find a real neighbour for nearly every word, where this
+finds one for about two in five. `listening/lexicon.py` is the only module that
+would have to change if a properly licensed list were ever vendored; it answers
+*is this a word* and *does this look like one*, and nothing above it cares how.
+
+Nynorsk has no authored text of its own yet and falls back to the bokmål pool —
+wrong in detail, right in effect, where an empty lexicon would silently turn
+every distractor into an invention.
+
+### Where the answers go
+
+Nowhere, as with reading and writing. The answers are posted once, marked in
+memory, and gone with the response.
+
+The round is **rebuilt on the server** rather than posted back — it is derived
+deterministically from the checkpoint, so rebuilding it is cheap, and it means
+the questions being marked are the ones the server set rather than the ones the
+request claims it was asked.
+
+The words themselves are in the page, because the browser is what says them and
+it cannot say a word it has not been given. So a pupil with the developer tools
+open can read the answer to a dictation. That is accepted rather than worked
+around, for the same reason as everywhere else here: nothing is stored, nothing
+is graded, and the alternative — synthesising audio on the server — would mean
+shipping a voice per language and would still be beaten by turning the volume up.
+
+Without JavaScript there is no exercise and the page says so. Unlike the writing
+screen, there is nothing to fall back to: the word is the exercise, and the
+browser is what speaks it.
+
 ## Development
 
 ```bash
@@ -535,6 +631,19 @@ and re-verified against the official source.
   the right strokes, in roughly the right places, in roughly the right order; it
   cannot tell whether a child can write. Handwriting is learned with a pencil and
   an adult beside you, and the result page says so under every score.
+- **A generated wrong spelling is not a curriculum, and the lexicon is small.**
+  The listening exercise builds its distractors from a short table of the
+  mistakes Norwegian and English children make, checked against Pensum's own
+  vocabulary of a few thousand words. Where that vocabulary has no real
+  near-word — about three cases in five — the distractor is an invented
+  misspelling, which is a good wrong answer rather than a great one. And the
+  words are whatever the reading passages happen to contain, so the exercise
+  practises spelling patterns without covering them: it is not a spelling
+  syllabus and does not claim to be one.
+- **Whether the word can be heard at all depends on the device.** The voice is
+  the browser's own. A machine with no Norwegian voice installed gets no
+  Norwegian exercise, and Pensum says so rather than reading the word in
+  whatever voice it has.
 - **No accounts and no analytics unless a deployment adds them.** Out of the
   box Pensum stores nothing about who is using it: quiz progress lives in memory
   for the length of a session and is gone afterwards, and there is no third-party

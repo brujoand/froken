@@ -161,6 +161,14 @@ async def subject_page(
             # appears wherever prompts exist and the page itself says what it
             # needs.
             has_writing=_writing(request).has_writing(checkpoint.goal_set.code, unreviewed=drafts),
+            # And once more for listening, which has no content of its own: it
+            # exists wherever the reading passages yield enough words worth
+            # confusing, so asking is the only way to find out.
+            has_listening=request.app.state.listening.has_listening(
+                checkpoint.goal_set.code,
+                checkpoint.goal_set.after_year,
+                unreviewed=drafts,
+            ),
             question_count=len(
                 _items(request).for_goal_set(checkpoint.goal_set.code, unreviewed=drafts)
             ),
