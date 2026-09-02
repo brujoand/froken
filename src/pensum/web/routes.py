@@ -19,6 +19,7 @@ from pensum.items.loader import ItemBank
 from pensum.reading.library import ReadingLibrary
 from pensum.web.deps import sees_unreviewed
 from pensum.web.rendering import context, templates, validate_locale
+from pensum.writing.library import WritingLibrary
 
 router = APIRouter()
 
@@ -43,6 +44,10 @@ def _items(request: Request) -> ItemBank:
 
 def _reading(request: Request) -> ReadingLibrary:
     return request.app.state.reading
+
+
+def _writing(request: Request) -> WritingLibrary:
+    return request.app.state.writing
 
 
 @router.get("/healthz", include_in_schema=False)
@@ -151,6 +156,11 @@ async def subject_page(
             # engelsk have them; the other subjects simply have none, which needs
             # no list of which subjects are "reading subjects".
             has_reading=_reading(request).has_reading(checkpoint.goal_set.code, unreviewed=drafts),
+            # And the same again for handwriting. Whether the device can
+            # actually be written on is decided in the browser, so the link
+            # appears wherever prompts exist and the page itself says what it
+            # needs.
+            has_writing=_writing(request).has_writing(checkpoint.goal_set.code, unreviewed=drafts),
             question_count=len(
                 _items(request).for_goal_set(checkpoint.goal_set.code, unreviewed=drafts)
             ),

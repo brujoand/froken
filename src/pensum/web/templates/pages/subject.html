@@ -55,6 +55,19 @@
     {% endif %}
   </section>
 
+  {% if has_writing %}
+    {# Handwriting is its own exercise again, and the one that needs a
+       touchscreen. The link is shown regardless of the device: the server
+       cannot tell what is holding it, and the page itself says what it wants. #}
+    <section class="writing-cta">
+      <p>{{ t("writing.intro") }}</p>
+      <a class="button button--secondary"
+         href="/{{ locale }}/klasse/{{ grade }}/{{ subject.code }}/skriving">
+        {{ t("subject.writing_cta") }}
+      </a>
+    </section>
+  {% endif %}
+
   {% if has_reading %}
     {# Reading aloud is a separate exercise, not a quiz question, and gets its
        own entry point so the two are never confused on the result page. #}

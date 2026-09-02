@@ -155,20 +155,21 @@ tool than a web form anyone can misclick.
 
 ## Reviewing drafts
 
-Quiz items and reading passages are committed unreviewed and withheld until a
-human marks them `reviewed: true`. Two things can lift that, and they are
+Quiz items, reading passages and writing prompts are committed unreviewed and
+withheld until a human marks them `reviewed: true`. Two things can lift that, and they are
 different in kind:
 
 - **`PENSUM_INCLUDE_UNREVIEWED=1`** shows drafts to *everyone*. It is for a
   maintainer running the app locally, and must never be set on an instance
   children use.
 - **Being signed in as an administrator** shows drafts to that person only,
-  wherever they are. A draft has to be readable in its own quiz, or its own
-  reading page, before anyone can judge whether it is fit — reading YAML is not
-  the same as seeing the question a child would get.
+  wherever they are. A draft has to be readable in its own quiz, its own
+  reading page or its own tracing page before anyone can judge whether it is fit
+  — reading YAML is not the same as seeing the question a child would get, and a
+  path string is not the same as seeing the letter.
 
 Drafts an administrator sees are labelled as drafts, on the question and in the
-reading list, and the subject page says why it looks different from the one a
+reading and writing lists, and the subject page says why it looks different from the one a
 pupil sees. An unmarked draft would be judged as if it had already passed.
 
 The gate fails closed at every layer: the loaders default to reviewed-only, so a
@@ -347,6 +348,84 @@ shipped a child's voice to a third-party service. That is why it is not used.
 model.** Some three dozen languages, Swedish the only Nordic one. It could have
 served engelsk and nothing else.
 
+## Writing by hand
+
+A third exercise, and the one that wants a touchscreen: trace a letter with a
+finger and watch it fill in. Norsk carries the letters, small and capital;
+matematikk carries the digits. A first-grader gets one letter at a time — that
+is what 1. og 2. trinn is actually doing — and the same machinery takes a whole
+word, which is what 3. og 4. trinn will get.
+
+**A letter here is a movement, not a picture.** `data/writing/alphabet.yaml`
+holds every glyph as an ordered list of strokes, each an SVG path with a
+direction, drawn on a 100×140 grid whose ascender, x-height, baseline and
+descender are named in the file. The page rules the paper from those four
+numbers, prints a numbered dot where each stroke begins, and can animate any
+stroke on request. Where a letter starts and which way it runs is half of what a
+six-year-old is learning, and none of it survives being stored as a shape.
+
+The forms are print letters — formskrift, not løkkeskrift — because that is what
+Norwegian schools teach first and it is the one a finger on glass can produce.
+They are ours: **LK20 says a pupil should write "med funksjonell håndskrift" and
+names no letterform at all**, so a school teaching a different `a` is not being
+contradicted by this file.
+
+### What is scored
+
+Four measures per stroke, and each one exists because the others can be fooled:
+
+| | catches |
+|---|---|
+| **Coverage** | a letter half written |
+| **Neatness** | ink that wandered off the line |
+| **Flow** | a scribble — which covers every point of the guide and never leaves it, so coverage and neatness both call it perfect |
+| **Direction** | an `o` drawn the wrong way round: the right shape, the wrong movement |
+
+Plus **economy**, a multiplier comparing ink drawn against line to draw. Going
+round an `o` twice to be sure costs nothing; drawing five times the letter is
+not writing it.
+
+**Stroke order is scored softly, on purpose.** Writing the crossbar of a `t`
+before the stem costs ten percent and can never fail the letter. That is a
+judgement about six-year-olds rather than about handwriting: a tool that rejects
+a recognisable letter because the strokes came in the wrong order teaches a
+child that they cannot write. The result page names the fault instead — *you
+went the other way round*, *one stroke is missing* — because that is something
+they can do differently next time, where 71% is not.
+
+The tolerance is a fingertip: about a tenth of a letter's width, which is what a
+finger actually covers on a phone. The page uses the same figure to decide where
+to throw sparks, and a test asserts the two numbers have not drifted apart — a
+page kinder than the server would sparkle its way to a disappointing result.
+
+### Where the tracing goes
+
+Nowhere. The points are posted to Pensum's own origin once, when the pupil is
+done, marked in memory, and gone with the response. Nothing is written to disk
+and nothing is attached to a pupil, signed in or not — the same contract the
+reading exercise makes about audio. There is no live endpoint: the browser
+already knows where the finger went, so the meter and the sparks are drawn
+locally and the server hears about it once.
+
+Like a device reading, everything posted is the page's word. A pupil with the
+developer tools open can claim a flawless `Æ` they never drew, and nothing here
+can tell. That is accepted rather than defended against, for the same reason as
+everywhere else in Pensum: no score is stored, the result is shown to the child
+who produced it, and a practice tool that treats its user as an adversary is a
+worse practice tool.
+
+### Without JavaScript, it is a worksheet
+
+Every letter of a prompt is rendered server-side, ruled and numbered. With
+JavaScript the page shows one at a time and lets a finger draw on it; without,
+they all stay on the screen — which prints, and can be traced with a pencil.
+That is a worse exercise than the traced one and a much better outcome than an
+empty box.
+
+`tools/render_alphabet.py` prints the alphabet as ASCII or as an SVG sheet, with
+stroke order and direction marked. A letterform is reviewed by looking at it,
+and a path string is not something anyone can review by reading it.
+
 ## Development
 
 ```bash
@@ -450,6 +529,12 @@ and re-verified against the official source.
   to the stars, credit for reaching the band rather than for landing inside it,
   no stars at all when nothing was listened to — but the tension is real and is
   recorded here rather than smoothed over.
+- **A traced letter is not handwriting.** The writing exercise measures where a
+  fingertip went on glass, which is a blunter instrument than a pencil and a
+  different motion from holding one. It can tell that a letter was formed from
+  the right strokes, in roughly the right places, in roughly the right order; it
+  cannot tell whether a child can write. Handwriting is learned with a pencil and
+  an adult beside you, and the result page says so under every score.
 - **No accounts and no analytics unless a deployment adds them.** Out of the
   box Pensum stores nothing about who is using it: quiz progress lives in memory
   for the length of a session and is gone afterwards, and there is no third-party
@@ -457,8 +542,9 @@ and re-verified against the official source.
   keep a score history — see [Accounts and score
   history](#accounts-and-score-history) for exactly what that stores and what it
   still refuses to. Reading aloud is the one feature that handles audio, and it
-  keeps none of it: see [Where the audio goes](#where-the-audio-goes). If you
-  run the published image with no environment set, none of it applies to you.
+  keeps none of it: see [Where the audio goes](#where-the-audio-goes), and the
+  writing exercise keeps no tracing either. If you run the published image with
+  no environment set, none of it applies to you.
 
 ## Licence
 

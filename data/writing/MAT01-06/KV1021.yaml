@@ -1,0 +1,35 @@
+# Å skrive tallsymboler, matematikk etter 2. trinn (MAT01-06 / KV1021).
+#
+# KM13241 handler om å bruke tallsymboler til å representere tall og mengder.
+# Å forme symbolet er ikke hele det målet, men det er den delen en sjuåring
+# øver på med fingeren — og et 5 som starter nederst blir sjelden et 5.
+#
+# Tallene er delt i to, fordi ti symboler på rad er for mange i én økt.
+# Rekkefølgen er tallrekka, ikke vanskelighetsgrad: her betyr rekkefølgen noe
+# annet enn i alfabetet.
+---
+subject: MAT01-06
+goal_set: KV1021
+
+prompts:
+  - id: mat-kv1021-tall-0-4
+    goal: KM13241
+    language: nb
+    title: Tallene 0 til 4
+    kind: digits
+    text: '01234'
+    difficulty: 1
+    source: pensum
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-09-02'
+
+  - id: mat-kv1021-tall-5-9
+    goal: KM13241
+    language: nb
+    title: Tallene 5 til 9
+    kind: digits
+    text: '56789'
+    difficulty: 2
+    source: pensum
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-09-02'

@@ -34,6 +34,7 @@ subject:
   quiz_cta: Take the quiz
   quiz_unavailable: A quiz for this subject is coming soon.
   reading_cta: Read aloud
+  writing_cta: Write the letters
 
 coverage:
   summary: The quiz covers {tested} of {total} competence goals for this checkpoint.
@@ -295,3 +296,58 @@ admin:
     attempts: Quizzes
     average: Average
     latest: Last
+
+writing:
+  heading: Write with your finger
+  intro: >-
+    Pick a group of letters and write them with your finger. The dot shows where
+    to start, and the number shows the order.
+  # Said before a set is chosen, not after one has been opened and found wanting.
+  touch_note: >-
+    This exercise is made for a tablet or a phone. A mouse can drive it, but
+    then you are practising with the mouse rather than practising handwriting.
+  mouse_note: >-
+    This machine has no touchscreen. You can draw with the mouse, but that is
+    not the same as writing.
+  character_count: "{count} characters"
+  authored_note: >-
+    The letterforms were made for Pensum, not taken from the curriculum.
+
+  # Said before a finger touches the screen, not in a privacy policy.
+  privacy: >-
+    Pensum sees where your finger went while it works out the answer, and forgets
+    it afterwards. Nothing is stored, and nothing is attached to you.
+
+  meter: How much of the letter you have written
+  position: Letter {at} of {total}
+  trace_label: "Write the letter {char}"
+  show_me: Show me
+  clear: Start this one again
+  next: Next letter
+  finish: Done
+  working: Working …
+  failed: Something went wrong. Try again.
+  noscript: >-
+    Without JavaScript you cannot write on the screen here. The letters stay on
+    the page with their lines and starting dots, so the sheet can be printed and
+    used with a pencil.
+
+  result_heading: How you wrote
+  # The wording names the fault rather than quietly deducting for it. A
+  # seven-year-old can do something different next time with "you went the other
+  # way round"; 71% is nothing to act on.
+  not_written: not written
+  missed_strokes: "{count} stroke(s) missing"
+  backwards: "{count} stroke(s) went the other way"
+  out_of_order: the strokes came in a different order
+  stopped_early: You wrote {written} of {total} letters.
+  again: Try the whole group again
+  badge_finished: Every letter written
+  badge_even: Steady all the way through
+  stars_label: "{stars} of {max} stars"
+  score_caveat: >-
+    The percentage says how closely a finger followed a line on a screen. A
+    finger is wider than a pencil, so the number is blunter than it looks.
+  not_a_verdict: >-
+    This is practice, not assessment. Handwriting is learned with a pencil and a
+    grown-up beside you; this is a way to practise the shapes in between.

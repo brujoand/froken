@@ -1,0 +1,295 @@
+# Letterforms: how each letter, and each digit, is drawn.
+#
+# One glyph per entry, one *stroke* per path. A stroke is a movement rather than
+# a shape -- where it starts and which way it runs is half of what a first-grader
+# is learning -- so the order of the list is the order the strokes are written,
+# and the direction of each path is the direction the pen goes.
+#
+# The forms are print letters (formskrift), not løkkeskrift: that is what
+# Norwegian schools teach first, and it is the one a finger on glass can
+# actually produce. They are drawn on a 100 by 140 grid whose four writing lines
+# are named under `metrics` below, so the page can rule the paper from the same
+# numbers the letters were built on.
+#
+# Nothing here comes from the curriculum. LK20 says a pupil should write "med
+# funksjonell håndskrift" and names no letterform at all; these are ours, and a
+# school that teaches a different `a` is not being contradicted by this file.
+#
+# Check a change with `tools/render_alphabet.py`, which prints every glyph as
+# ASCII with its stroke order marked. A letterform is reviewed by looking at it.
+---
+metrics:
+  width: 100
+  height: 140
+  ascender: 10
+  x_height: 60
+  baseline: 110
+  descender: 135
+
+glyphs:
+  # --- små bokstaver ---
+  - char: 'a'
+    strokes:
+      - 'M 50 60 C 36.2 60 25 71.2 25 85 C 25 98.8 36.2 110 50 110 C 63.8 110 75 98.8 75 85 C 75 71.2 63.8 60 50 60'
+      - 'M 75 60 L 75 110'
+  - char: 'b'
+    strokes:
+      - 'M 25 10 L 25 110'
+      - 'M 25 85 C 25 71.2 36.2 60 50 60 C 63.8 60 75 71.2 75 85 C 75 98.8 63.8 110 50 110 C 36.2 110 25 98.8 25 85'
+  - char: 'c'
+    strokes:
+      - 'M 67.7 67.3 C 57.9 57.6 42.1 57.6 32.3 67.3 C 22.6 77.1 22.6 92.9 32.3 102.7 C 42.1 112.4 57.9 112.4 67.7 102.7'
+  - char: 'd'
+    strokes:
+      - 'M 50 60 C 36.2 60 25 71.2 25 85 C 25 98.8 36.2 110 50 110 C 63.8 110 75 98.8 75 85 C 75 71.2 63.8 60 50 60'
+      - 'M 75 10 L 75 110'
+  - char: 'e'
+    strokes:
+      - 'M 28 85 L 75 85 C 75 73.7 67.4 63.8 56.5 60.9 C 45.5 57.9 34 62.7 28.3 72.5 C 22.7 82.3 24.3 94.7 32.3 102.7 C 40.3 110.7 52.7 112.3 62.5 106.7'
+  - char: 'f'
+    strokes:
+      - 'M 70 24 C 58 8 42 16 42 34 L 42 110'
+      - 'M 24 62 L 62 62'
+  - char: 'g'
+    strokes:
+      - 'M 50 60 C 36.2 60 25 71.2 25 85 C 25 98.8 36.2 110 50 110 C 63.8 110 75 98.8 75 85 C 75 71.2 63.8 60 50 60'
+      - 'M 75 60 L 75 122 C 75 133 64 137 52 132'
+  - char: 'h'
+    strokes:
+      - 'M 25 10 L 25 110'
+      - 'M 25 76 C 28 64 39 60 50 60 C 64 60 75 68 75 82 L 75 110'
+  - char: 'i'
+    strokes:
+      - 'M 50 60 L 50 110'
+      - 'M 50 38 L 50 43'
+  - char: 'j'
+    strokes:
+      - 'M 55 60 L 55 122 C 55 133 44 137 33 131'
+      - 'M 55 38 L 55 43'
+  - char: 'k'
+    strokes:
+      - 'M 25 10 L 25 110'
+      - 'M 72 62 L 25 92'
+      - 'M 42 82 L 74 110'
+  - char: 'l'
+    strokes:
+      - 'M 50 10 L 50 110'
+  - char: 'm'
+    strokes:
+      - 'M 22 60 L 22 110'
+      - 'M 22 74 C 24 63 32 60 40 60 C 49 60 55 67 55 79 L 55 110'
+      - 'M 55 74 C 57 63 65 60 73 60 C 82 60 88 67 88 79 L 88 110'
+  - char: 'n'
+    strokes:
+      - 'M 28 60 L 28 110'
+      - 'M 28 76 C 30 64 40 60 50 60 C 63 60 72 68 72 82 L 72 110'
+  - char: 'o'
+    strokes:
+      - 'M 50 60 C 36.2 60 25 71.2 25 85 C 25 98.8 36.2 110 50 110 C 63.8 110 75 98.8 75 85 C 75 71.2 63.8 60 50 60'
+  - char: 'p'
+    strokes:
+      - 'M 25 60 L 25 135'
+      - 'M 25 85 C 25 71.2 36.2 60 50 60 C 63.8 60 75 71.2 75 85 C 75 98.8 63.8 110 50 110 C 36.2 110 25 98.8 25 85'
+  - char: 'q'
+    strokes:
+      - 'M 50 60 C 36.2 60 25 71.2 25 85 C 25 98.8 36.2 110 50 110 C 63.8 110 75 98.8 75 85 C 75 71.2 63.8 60 50 60'
+      - 'M 75 60 L 75 135'
+  - char: 'r'
+    strokes:
+      - 'M 30 60 L 30 110'
+      - 'M 30 76 C 33 65 44 60 58 61'
+  - char: 's'
+    strokes:
+      - 'M 70 68 C 62 59 40 57 34 66 C 28 76 44 82 52 86 C 64 91 74 96 68 105 C 60 114 38 112 30 103'
+  - char: 't'
+    strokes:
+      - 'M 48 24 L 48 100 C 48 109 56 112 64 108'
+      - 'M 30 60 L 66 60'
+  - char: 'u'
+    strokes:
+      - 'M 28 60 L 28 94 C 28 106 38 111 49 111 C 61 111 70 104 70 92 L 70 60'
+      - 'M 70 60 L 70 110'
+  - char: 'v'
+    strokes:
+      - 'M 26 60 L 50 110 L 74 60'
+  - char: 'w'
+    strokes:
+      - 'M 20 60 L 35 110 L 50 68 L 65 110 L 80 60'
+  - char: 'x'
+    strokes:
+      - 'M 26 60 L 74 110'
+      - 'M 74 60 L 26 110'
+  - char: 'y'
+    strokes:
+      - 'M 26 60 L 50 108'
+      - 'M 74 60 L 42 130 C 39 137 31 137 26 132'
+  - char: 'z'
+    strokes:
+      - 'M 26 62 L 74 62 L 26 108 L 74 108'
+  - char: 'æ'
+    strokes:
+      - 'M 34 60 C 25.2 60 18 71.2 18 85 C 18 98.8 25.2 110 34 110 C 42.8 110 50 98.8 50 85 C 50 71.2 42.8 60 34 60'
+      - 'M 50 60 L 50 110'
+      - 'M 54 85 L 88 85 C 88 73.7 83.1 63.8 76.1 60.9 C 69.1 57.9 61.8 62.7 58.1 72.5 C 54.5 82.3 55.6 94.7 60.7 102.7 C 65.8 110.7 73.7 112.3 80 106.7'
+  - char: 'ø'
+    strokes:
+      - 'M 50 60 C 36.2 60 25 71.2 25 85 C 25 98.8 36.2 110 50 110 C 63.8 110 75 98.8 75 85 C 75 71.2 63.8 60 50 60'
+      - 'M 22 116 L 78 54'
+  - char: 'å'
+    strokes:
+      - 'M 50 60 C 36.2 60 25 71.2 25 85 C 25 98.8 36.2 110 50 110 C 63.8 110 75 98.8 75 85 C 75 71.2 63.8 60 50 60'
+      - 'M 75 60 L 75 110'
+      - 'M 50 27 C 43.9 27 39 31.9 39 38 C 39 44.1 43.9 49 50 49 C 56.1 49 61 44.1 61 38 C 61 31.9 56.1 27 50 27'
+
+  # --- store bokstaver ---
+  - char: 'A'
+    strokes:
+      - 'M 22 110 L 50 12'
+      - 'M 50 12 L 78 110'
+      - 'M 33 78 L 67 78'
+  - char: 'B'
+    strokes:
+      - 'M 28 10 L 28 110'
+      - 'M 28 10 L 58 10 C 74 10 74 58 58 58 L 28 58'
+      - 'M 28 58 L 62 58 C 80 58 80 110 62 110 L 28 110'
+  - char: 'C'
+    strokes:
+      - 'M 69.3 21.7 C 57.1 4.7 39.1 6.4 28.2 25.7 C 17.3 45 17.3 75 28.2 94.3 C 39.1 113.6 57.1 115.3 69.3 98.3'
+  - char: 'D'
+    strokes:
+      - 'M 28 10 L 28 110'
+      - 'M 28 10 L 55 10 C 82 10 82 110 55 110 L 28 110'
+  - char: 'E'
+    strokes:
+      - 'M 30 10 L 30 110'
+      - 'M 30 10 L 74 10'
+      - 'M 30 60 L 66 60'
+      - 'M 30 110 L 74 110'
+  - char: 'F'
+    strokes:
+      - 'M 30 10 L 30 110'
+      - 'M 30 10 L 74 10'
+      - 'M 30 58 L 66 58'
+  - char: 'G'
+    strokes:
+      - 'M 69.3 21.7 C 59.4 7.9 45.4 6.1 34.4 17.3 C 23.4 28.4 17.9 49.9 20.7 70.8 C 23.5 91.7 34 107.4 46.7 109.7 C 59.5 112 71.8 100.5 77.2 81.1 L 80 60'
+      - 'M 80 60 L 60 60'
+  - char: 'H'
+    strokes:
+      - 'M 28 10 L 28 110'
+      - 'M 72 10 L 72 110'
+      - 'M 28 60 L 72 60'
+  - char: 'I'
+    strokes:
+      - 'M 50 10 L 50 110'
+  - char: 'J'
+    strokes:
+      - 'M 62 10 L 62 92 C 62 106 50 112 39 108 C 33 106 29 101 28 96'
+  - char: 'K'
+    strokes:
+      - 'M 28 10 L 28 110'
+      - 'M 74 10 L 28 62'
+      - 'M 45 48 L 76 110'
+  - char: 'L'
+    strokes:
+      - 'M 30 10 L 30 110'
+      - 'M 30 110 L 72 110'
+  - char: 'M'
+    strokes:
+      - 'M 24 110 L 24 10 L 50 72 L 76 10 L 76 110'
+  - char: 'N'
+    strokes:
+      - 'M 26 110 L 26 10 L 74 110 L 74 10'
+  - char: 'O'
+    strokes:
+      - 'M 50 10 C 33.4 10 20 32.4 20 60 C 20 87.6 33.4 110 50 110 C 66.6 110 80 87.6 80 60 C 80 32.4 66.6 10 50 10'
+  - char: 'P'
+    strokes:
+      - 'M 28 10 L 28 110'
+      - 'M 28 10 L 58 10 C 78 10 78 62 58 62 L 28 62'
+  - char: 'Q'
+    strokes:
+      - 'M 50 10 C 33.4 10 20 32.4 20 60 C 20 87.6 33.4 110 50 110 C 66.6 110 80 87.6 80 60 C 80 32.4 66.6 10 50 10'
+      - 'M 62 88 L 84 118'
+  - char: 'R'
+    strokes:
+      - 'M 28 10 L 28 110'
+      - 'M 28 10 L 58 10 C 78 10 78 62 58 62 L 28 62'
+      - 'M 50 62 L 76 110'
+  - char: 'S'
+    strokes:
+      - 'M 74 26 C 66 12 36 10 30 24 C 24 39 44 48 54 54 C 68 62 80 70 74 88 C 66 118 34 118 26 90'
+  - char: 'T'
+    strokes:
+      - 'M 26 10 L 74 10'
+      - 'M 50 10 L 50 110'
+  - char: 'U'
+    strokes:
+      - 'M 28 10 L 28 82 C 28 100 38 110 50 110 C 63 110 72 100 72 82 L 72 10'
+  - char: 'V'
+    strokes:
+      - 'M 26 10 L 50 110 L 74 10'
+  - char: 'W'
+    strokes:
+      - 'M 18 10 L 33 110 L 50 40 L 67 110 L 82 10'
+  - char: 'X'
+    strokes:
+      - 'M 26 10 L 74 110'
+      - 'M 74 10 L 26 110'
+  - char: 'Y'
+    strokes:
+      - 'M 26 10 L 50 62 L 50 110'
+      - 'M 74 10 L 50 62'
+  - char: 'Z'
+    strokes:
+      - 'M 26 10 L 74 10 L 26 110 L 74 110'
+  - char: 'Æ'
+    strokes:
+      - 'M 58 10 L 28 110'
+      - 'M 86 10 L 58 10 L 58 110 L 86 110'
+      - 'M 44 60 L 80 60'
+  - char: 'Ø'
+    strokes:
+      - 'M 50 10 C 33.4 10 20 32.4 20 60 C 20 87.6 33.4 110 50 110 C 66.6 110 80 87.6 80 60 C 80 32.4 66.6 10 50 10'
+      - 'M 22 116 L 78 4'
+  - char: 'Å'
+    strokes:
+      - 'M 22 110 L 50 30'
+      - 'M 50 30 L 78 110'
+      - 'M 33 84 L 67 84'
+      - 'M 50 5 C 43.9 5 39 9.9 39 16 C 39 22.1 43.9 27 50 27 C 56.1 27 61 22.1 61 16 C 61 9.9 56.1 5 50 5'
+
+  # --- tall ---
+  - char: '0'
+    strokes:
+      - 'M 50 10 C 34.5 10 22 32.4 22 60 C 22 87.6 34.5 110 50 110 C 65.5 110 78 87.6 78 60 C 78 32.4 65.5 10 50 10'
+  - char: '1'
+    strokes:
+      - 'M 34 30 L 50 14 L 50 110'
+  - char: '2'
+    strokes:
+      - 'M 26 30 C 30 12 62 8 72 26 C 80 42 58 58 26 110 L 78 110'
+  - char: '3'
+    strokes:
+      - 'M 26 26 C 34 10 66 8 74 24 C 80 38 62 52 46 54 C 66 52 82 62 80 82 C 78 112 40 124 26 98'
+  - char: '4'
+    strokes:
+      - 'M 64 12 L 20 82 L 82 82'
+      - 'M 64 12 L 64 110'
+  - char: '5'
+    strokes:
+      - 'M 34 12 L 30 52 C 46 44 74 48 76 74 C 78 100 50 124 28 102'
+      - 'M 34 12 L 74 12'
+  - char: '6'
+    strokes:
+      - 'M 68 20 C 56 8 34 16 30 44 C 26 68 26 90 34 100 C 46 114 70 110 74 90 C 78 70 60 58 44 62 C 36 64 31 70 30 78'
+  - char: '7'
+    strokes:
+      - 'M 24 14 L 78 14 L 44 110'
+      - 'M 40 62 L 66 62'
+  - char: '8'
+    strokes:
+      - 'M 60 16 C 42 8 32 26 46 44 C 60 62 78 74 74 92 C 70 118 34 118 28 92 C 24 74 42 60 56 44 C 70 28 74 22 60 16'
+  - char: '9'
+    strokes:
+      - 'M 72 62 C 68 76 52 82 40 74 C 26 66 26 40 40 28 C 56 14 74 24 74 48 C 74 74 68 96 60 104 C 52 112 40 112 32 104'

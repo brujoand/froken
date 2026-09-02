@@ -1,0 +1,170 @@
+# Håndskrift, norsk etter 2. trinn (NOR01-08 / KV1107).
+#
+# Bokstavene er delt i grupper etter hvordan de formes, ikke etter alfabetet.
+# Det er slik de læres: i, l og t er den samme bevegelsen tre ganger, og en elev
+# som har fått til o har også fått til halve a. Alfabetisk rekkefølge ville
+# blandet en enkel bokstav med en vanskelig i hver eneste gruppe.
+#
+# Små bokstaver hører til KM14147 (skrive tekster for hånd), store bokstaver til
+# KM14144 (bruke store og små bokstaver). Ingenting her er hentet fra læreplanen
+# — den sier ingenting om hvordan en a skal se ut.
+---
+subject: NOR01-08
+goal_set: KV1107
+
+prompts:
+  # --- små bokstaver ---
+  - id: nor-kv1107-sma-streker
+    goal: KM14147
+    language: nb
+    title: Streker og prikker
+    kind: letters
+    text: iltj
+    difficulty: 1
+    source: pensum
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-09-02'
+
+  - id: nor-kv1107-sma-runde
+    goal: KM14147
+    language: nb
+    title: Runde bokstaver
+    kind: letters
+    text: oacd
+    difficulty: 1
+    source: pensum
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-09-02'
+
+  - id: nor-kv1107-sma-buer
+    goal: KM14147
+    language: nb
+    title: Buer
+    kind: letters
+    text: nmrh
+    difficulty: 2
+    source: pensum
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-09-02'
+
+  - id: nor-kv1107-sma-ned-og-opp
+    goal: KM14147
+    language: nb
+    title: Ned og opp igjen
+    kind: letters
+    text: uvwy
+    difficulty: 2
+    source: pensum
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-09-02'
+
+  - id: nor-kv1107-sma-hale
+    goal: KM14147
+    language: nb
+    title: Bokstaver med hale
+    kind: letters
+    text: gpqb
+    difficulty: 2
+    source: pensum
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-09-02'
+
+  - id: nor-kv1107-sma-skra
+    goal: KM14147
+    language: nb
+    title: Skrå streker og kryss
+    kind: letters
+    text: kxzs
+    difficulty: 3
+    source: pensum
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-09-02'
+
+  - id: nor-kv1107-sma-resten
+    goal: KM14147
+    language: nb
+    title: Og til slutt disse
+    kind: letters
+    text: efæøå
+    difficulty: 3
+    source: pensum
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-09-02'
+
+  # --- store bokstaver ---
+  - id: nor-kv1107-store-streker
+    goal: KM14144
+    language: nb
+    title: Store bokstaver med rette streker
+    kind: letters
+    text: ILTE
+    difficulty: 1
+    source: pensum
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-09-02'
+
+  - id: nor-kv1107-store-streker-og-skra
+    goal: KM14144
+    language: nb
+    title: Store bokstaver med knekk
+    kind: letters
+    text: FHKN
+    difficulty: 2
+    source: pensum
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-09-02'
+
+  - id: nor-kv1107-store-runde
+    goal: KM14144
+    language: nb
+    title: Store runde bokstaver
+    kind: letters
+    text: OCGQ
+    difficulty: 2
+    source: pensum
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-09-02'
+
+  - id: nor-kv1107-store-buer
+    goal: KM14144
+    language: nb
+    title: Store bokstaver med mage
+    kind: letters
+    text: BDPR
+    difficulty: 2
+    source: pensum
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-09-02'
+
+  - id: nor-kv1107-store-skra
+    goal: KM14144
+    language: nb
+    title: Store bokstaver på skrå
+    kind: letters
+    text: AVWX
+    difficulty: 2
+    source: pensum
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-09-02'
+
+  - id: nor-kv1107-store-blandet
+    goal: KM14144
+    language: nb
+    title: Litt av hvert
+    kind: letters
+    text: MSUY
+    difficulty: 3
+    source: pensum
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-09-02'
+
+  - id: nor-kv1107-store-resten
+    goal: KM14144
+    language: nb
+    title: De siste store
+    kind: letters
+    text: ZJÆØÅ
+    difficulty: 3
+    source: pensum
+    reviewed: true
+    reviewed_by: 'maintainer-reviewed 2026-09-02'

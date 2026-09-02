@@ -1082,3 +1082,260 @@ body.reading-focus .reading-text {
 .note--draft {
   border-left: 3px solid #c9962e;
 }
+
+/* Writing ----------------------------------------------------------------- */
+
+.writing-list {
+  list-style: none;
+  padding: 0;
+}
+
+.writing-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+/* The letters of the set, at a size that can be read across a room. A child
+   choosing an exercise picks it by the letters, not by its title. */
+.writing-preview {
+  font-size: 1.4rem;
+  letter-spacing: 0.12em;
+  color: var(--ink-soft);
+}
+
+.note--touch {
+  border-left: 3px solid var(--accent);
+  padding-left: 0.75rem;
+}
+
+/* The stage. One letter fills the screen: a finger is a blunt instrument, and a
+   letter drawn small is a letter traced by the width of a fingertip. */
+.writing {
+  margin: 1.5rem 0;
+}
+
+.writing-top {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.writing-meter {
+  flex: 1;
+  height: 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--card);
+  overflow: hidden;
+}
+
+.writing-meter-fill {
+  display: block;
+  height: 100%;
+  width: 0;
+  background: var(--accent);
+  transition: width 120ms linear;
+}
+
+/* Full is a colour change rather than a badge: it says "that is the letter" at
+   a glance, without adding a second thing to read. */
+.writing-meter--full .writing-meter-fill {
+  background: var(--fire-1);
+}
+
+.writing-position {
+  margin: 0;
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+
+.writing-card {
+  margin: 0 0 1.25rem;
+  text-align: center;
+}
+
+/* With JavaScript the page shows one letter at a time. Without it every letter
+   stays on the page, ruled and numbered, which is a worksheet -- so the hiding
+   is done by a class the script adds, never by the stylesheet alone. */
+.writing--live .writing-card {
+  display: none;
+}
+
+.writing--live .writing-card--active {
+  display: block;
+}
+
+.writing-glyph {
+  display: block;
+  width: 100%;
+  max-width: 22rem;
+  margin: 0 auto;
+  aspect-ratio: 100 / 140;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  /* The browser must not treat a tracing as a scroll or a pinch. Without this a
+     finger on the letter drags the page instead of drawing. */
+  touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.writing-card figcaption {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  color: var(--ink-soft);
+}
+
+.writing-rules line {
+  stroke: var(--line);
+  stroke-width: 0.6;
+}
+
+.writing-rule--baseline {
+  stroke: var(--accent);
+  stroke-width: 1;
+}
+
+/* Dashed, so the guide reads as something to follow rather than as something
+   already written. */
+.writing-guide path {
+  fill: none;
+  stroke: var(--ink-soft);
+  stroke-width: 7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 3 9;
+  opacity: 0.55;
+}
+
+.writing-starts circle {
+  fill: var(--accent);
+}
+
+.writing-starts text {
+  fill: #fff;
+  font-size: 8px;
+  font-weight: 700;
+  text-anchor: middle;
+}
+
+.writing-ink path {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.writing-spark {
+  fill: var(--spark);
+  /* Without these the scale below is measured from the SVG's own origin, so a
+     spark flies away from the top-left corner instead of growing where the
+     finger is. */
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: writing-spark 700ms ease-out forwards;
+}
+
+@keyframes writing-spark {
+  from {
+    opacity: 1;
+    transform: scale(0.6);
+  }
+  to {
+    opacity: 0;
+    transform: scale(2.2);
+  }
+}
+
+/* The demonstration: the stroke drawn once, in the direction it is written. */
+.writing-demo {
+  fill: none;
+  stroke: var(--fire-1);
+  stroke-width: 8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.writing-card--hinting .writing-starts circle {
+  fill: var(--fire-2);
+}
+
+.writing-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.writing-aside {
+  margin-top: 1rem;
+}
+
+.writing-hint {
+  color: var(--warn);
+}
+
+/* The result ------------------------------------------------------------- */
+
+.writing-marks {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.writing-mark {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+  padding: 0.5rem 0.75rem;
+  min-width: 5rem;
+  text-align: center;
+}
+
+.writing-mark-char {
+  display: block;
+  font-size: 1.8rem;
+  line-height: 1.1;
+}
+
+.writing-mark-score {
+  display: block;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-soft);
+}
+
+/* Named faults, small and under the letter they belong to. They are the only
+   actionable thing on the result page, and they are advice rather than a
+   deduction. */
+.writing-mark-note {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--warn);
+}
+
+.writing-mark--unattempted {
+  opacity: 0.65;
+}
+
+.badge--even {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  /* No sparks are created at all in this mode -- the script checks first -- so
+     this only holds the meter still. */
+  .writing-meter-fill {
+    transition: none;
+  }
+}

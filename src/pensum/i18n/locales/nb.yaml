@@ -38,6 +38,7 @@ subject:
   quiz_cta: Ta quizen
   quiz_unavailable: Quiz kommer snart for dette faget.
   reading_cta: Les høyt
+  writing_cta: Skriv bokstavene
 
 coverage:
   # Honest about reach: a quiz cannot test every kompetansemål, and the count
@@ -302,3 +303,57 @@ admin:
     attempts: Quizer
     average: Snitt
     latest: Sist
+
+writing:
+  heading: Skriv med fingeren
+  intro: >-
+    Velg en bokstavgruppe, og skriv bokstavene med fingeren. Prikken viser hvor
+    du skal begynne, og tallet viser rekkefølgen.
+  # Sagt før eleven velger, ikke etter at de har åpnet noe som ikke virker.
+  touch_note: >-
+    Denne øvingen er laget for nettbrett og mobil. Den virker med mus også, men
+    da øver du på musa og ikke på håndskriften.
+  mouse_note: >-
+    Denne maskinen har ingen berøringsskjerm. Du kan tegne med musa, men det er
+    noe annet enn å skrive.
+  character_count: "{count} tegn"
+  authored_note: >-
+    Bokstavformene er laget for Pensum, ikke hentet fra læreplanen.
+
+  # Sies før fingeren treffer skjermen, ikke i en personvernerklæring.
+  privacy: >-
+    Pensum ser hvor fingeren din gikk mens du får svaret, og glemmer det etterpå.
+    Ingenting lagres, og ingenting knyttes til deg.
+
+  meter: Hvor mye av bokstaven du har skrevet
+  position: Bokstav {at} av {total}
+  trace_label: "Skriv bokstaven {char}"
+  show_me: Vis meg
+  clear: Prøv igjen
+  next: Neste bokstav
+  finish: Ferdig
+  working: Regner ut …
+  failed: Noe gikk galt. Prøv en gang til.
+  noscript: >-
+    Uten JavaScript kan du ikke skrive på skjermen her. Bokstavene står igjen
+    med linjer og startprikker, så arket kan skrives ut og brukes med blyant.
+
+  result_heading: Slik skrev du
+  # Formuleringene navngir feilen i stedet for å trekke fra i det stille. En
+  # sjuåring kan gjøre noe annet neste gang med «du gikk motsatt vei»; 71 % er
+  # ingenting å gjøre med.
+  not_written: ikke skrevet
+  missed_strokes: "{count} strek mangler"
+  backwards: "{count} strek gikk motsatt vei"
+  out_of_order: strekene kom i en annen rekkefølge
+  stopped_early: Du skrev {written} av {total} bokstaver.
+  again: Prøv hele gruppen igjen
+  badge_finished: Alle bokstavene skrevet
+  badge_even: Jevnt gjennom hele
+  stars_label: "{stars} av {max} stjerner"
+  score_caveat: >-
+    Prosenten sier hvor nær fingeren fulgte linjen på en skjerm. En finger er
+    bredere enn en blyant, og tallet er derfor grovere enn det ser ut.
+  not_a_verdict: >-
+    Dette er øving, ikke vurdering. Håndskrift læres med blyant og en voksen ved
+    siden av; dette er en måte å øve på formen mellom øktene.
