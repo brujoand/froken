@@ -1,0 +1,131 @@
+{% extends "base.html" %}
+
+{% block title %}{{ prompt.title }} · {{ t("writing.heading") }}{% endblock %}
+
+{% block content %}
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="/{{ locale }}/">{{ t("nav.home") }}</a> ›
+    <a href="/{{ locale }}/klasse/{{ grade }}">{{ t("grade.heading", grade=grade) }}</a> ›
+    <a href="/{{ locale }}/klasse/{{ grade }}/{{ subject.code }}">{{ subject.display_title.get(lang) }}</a> ›
+    <a href="/{{ locale }}/klasse/{{ grade }}/{{ subject.code }}/skriving">{{ t("writing.heading") }}</a>
+  </nav>
+
+  <h1>{{ prompt.title }}</h1>
+
+  {# Before a finger touches the screen, and not in a policy page: the points are
+     marked and thrown away. Nothing about a tracing is written down anywhere,
+     signed in or not. #}
+  <p class="note note--privacy">{{ t("writing.privacy") }}</p>
+
+  <section
+    class="writing"
+    id="writing"
+    data-prompt-id="{{ prompt.id }}"
+    data-post-url="/{{ locale }}/klasse/{{ grade }}/{{ subject.code }}/skriving/{{ prompt.id }}/spor"
+    data-count="{{ glyphs | length }}"
+    data-view-width="{{ metrics.width }}"
+    data-view-height="{{ metrics.height }}"
+    data-label-position="{{ t('writing.position', at='%1', total='%2') }}"
+    data-label-next="{{ t('writing.next') }}"
+    data-label-finish="{{ t('writing.finish') }}"
+    data-label-working="{{ t('writing.working') }}"
+    data-label-failed="{{ t('writing.failed') }}"
+    data-label-mouse="{{ t('writing.mouse_note') }}"
+  >
+    <div class="writing-top">
+      {# How well it is going so far, drawn as it happens. Approximate by
+         construction -- the page measures the ink against the guide with the
+         same idea as the server but not the same arithmetic, and the number that
+         counts is the one that comes back from the server at the end. That split
+         is the same one the reading page makes between its live highlight and
+         its score. #}
+      <div class="writing-meter" id="writing-meter" role="progressbar"
+           aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"
+           aria-label="{{ t('writing.meter') }}">
+        <span class="writing-meter-fill" id="writing-meter-fill"></span>
+      </div>
+      <p class="writing-position" id="writing-position" aria-live="polite">
+        {{ t("writing.position", at=1, total=glyphs | length) }}
+      </p>
+    </div>
+
+    {# Every letter is rendered, and the page shows one at a time. With no
+       JavaScript they all stay on the screen at once, ruled and numbered, which
+       is a worksheet -- a worse exercise than the traced one, and a much better
+       outcome than a blank box. #}
+    <div class="writing-sheet" id="writing-sheet">
+      {% for glyph in glyphs %}
+        <figure class="writing-card" data-index="{{ loop.index0 }}" data-char="{{ glyph.char }}">
+          <svg class="writing-glyph"
+               viewBox="0 0 {{ metrics.width }} {{ metrics.height }}"
+               role="img"
+               aria-label="{{ t('writing.trace_label', char=glyph.char) }}">
+            {# The paper first: the four lines a letter is written between. #}
+            <g class="writing-rules" aria-hidden="true">
+              <line x1="0" y1="{{ metrics.ascender }}" x2="{{ metrics.width }}" y2="{{ metrics.ascender }}" />
+              <line x1="0" y1="{{ metrics.x_height }}" x2="{{ metrics.width }}" y2="{{ metrics.x_height }}" />
+              <line class="writing-rule--baseline" x1="0" y1="{{ metrics.baseline }}" x2="{{ metrics.width }}" y2="{{ metrics.baseline }}" />
+              <line x1="0" y1="{{ metrics.descender }}" x2="{{ metrics.width }}" y2="{{ metrics.descender }}" />
+            </g>
+
+            {# The letter to trace. Dashed, so it reads as something to follow
+               rather than as something already written. #}
+            <g class="writing-guide" aria-hidden="true">
+              {% for stroke in glyph.strokes %}
+                <path d="{{ stroke.d }}" data-stroke="{{ loop.index0 }}" />
+              {% endfor %}
+            </g>
+
+            {# Where each stroke begins, numbered in the order they are written.
+               This is the part a child actually needs: the shape is obvious and
+               the starting point is not.
+
+               The dot sits exactly where the stroke starts, and the number may
+               be moved aside. Two strokes often do begin in the same place -- a
+               `B` starts its bowl where its stem starts -- and two numbers
+               printed on top of each other are unreadable, while two dots in
+               the same place are simply true. #}
+            <g class="writing-starts" aria-hidden="true">
+              {% for stroke in glyph.strokes %}
+                <circle cx="{{ stroke.x }}" cy="{{ stroke.y }}" r="7" />
+                <text x="{{ stroke.label_x }}" y="{{ stroke.label_y }}" dy="3.5">{{ loop.index }}</text>
+              {% endfor %}
+            </g>
+
+            {# Filled in by the page: the ink, and the sparks it throws. #}
+            <g class="writing-ink" aria-hidden="true"></g>
+            <g class="writing-sparks" aria-hidden="true"></g>
+          </svg>
+          <figcaption lang="{{ prompt.language }}">{{ glyph.char }}</figcaption>
+        </figure>
+      {% endfor %}
+    </div>
+
+    <div class="writing-controls">
+      <button class="button button--secondary" type="button" id="writing-show">
+        {{ t("writing.show_me") }}
+      </button>
+      <button class="button button--secondary" type="button" id="writing-clear">
+        {{ t("writing.clear") }}
+      </button>
+      <button class="button button--big" type="button" id="writing-next">
+        {{ t("writing.next") }}
+      </button>
+    </div>
+
+    <div class="writing-aside">
+      <p class="writing-hint" id="writing-hint" hidden></p>
+      <div id="writing-result" aria-live="polite"></div>
+    </div>
+
+    <noscript>
+      <p class="note">{{ t("writing.noscript") }}</p>
+    </noscript>
+  </section>
+
+  <p class="note">{{ t("writing.authored_note") }}</p>
+{% endblock %}
+
+{% block scripts %}
+  <script src="/static/writing.js" defer></script>
+{% endblock %}

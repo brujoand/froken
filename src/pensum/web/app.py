@@ -37,6 +37,8 @@ from pensum.web.auth_routes import router as auth_router
 from pensum.web.quiz_routes import router as quiz_router
 from pensum.web.reading_routes import router as reading_router
 from pensum.web.routes import router
+from pensum.web.writing_routes import router as writing_router
+from pensum.writing.library import WritingLibrary
 
 STATIC_DIR = Path(__file__).parent / "static"
 
@@ -47,6 +49,7 @@ async def lifespan(app: FastAPI) -> AsyncIterator[None]:
     unreviewed = app.state.settings.include_unreviewed_items
     app.state.items = ItemBank.load(include_unreviewed=unreviewed)
     app.state.reading = ReadingLibrary.load(include_unreviewed=unreviewed)
+    app.state.writing = WritingLibrary.load(include_unreviewed=unreviewed)
     yield
 
 
@@ -55,6 +58,7 @@ def create_app(
     items: ItemBank | None = None,
     settings: Settings | None = None,
     reading: ReadingLibrary | None = None,
+    writing: WritingLibrary | None = None,
     transcriber: Transcriber | None = None,
 ) -> FastAPI:
     """Build the app. Pass the collaborators to substitute them in tests."""
@@ -74,8 +78,12 @@ def create_app(
         app.state.catalogue = catalogue
         app.state.items = items if items is not None else ItemBank.load()
         app.state.reading = reading if reading is not None else ReadingLibrary.load()
-    elif reading is not None:
-        app.state.reading = reading
+        app.state.writing = writing if writing is not None else WritingLibrary.load()
+    else:
+        if reading is not None:
+            app.state.reading = reading
+        if writing is not None:
+            app.state.writing = writing
 
     # Loaded here rather than in the lifespan so a test can inject a fake
     # without a model on disk. None -- no models configured -- is the default
@@ -103,6 +111,7 @@ def create_app(
     app.include_router(router)
     app.include_router(quiz_router)
     app.include_router(reading_router)
+    app.include_router(writing_router)
     app.include_router(auth_router)
     app.include_router(admin_router)
     return app

@@ -30,6 +30,8 @@ from pensum.items.loader import ItemBank
 from pensum.reading.library import ReadingLibrary
 from pensum.reading.schema import ReadingSet, ReadingText
 from pensum.web.app import create_app
+from pensum.writing.library import WritingLibrary, load_alphabet
+from pensum.writing.schema import WritingPrompt, WritingSet
 
 ORIGIN = "https://pensum.example.com"
 SECRET = "test-secret"
@@ -43,10 +45,13 @@ SUBJECT = "NOR01-08"
 GOAL_SET = "KV1107"
 GOAL = "KM14140"
 READING_PATH = f"/nb/klasse/2/{SUBJECT}/lesing"
+WRITING_PATH = f"/nb/klasse/2/{SUBJECT}/skriving"
 SUBJECT_PATH = f"/nb/klasse/2/{SUBJECT}"
 
 DRAFT_ID = "utkast-stovsugerkatten"
 DRAFT_TITLE = "Katten som trodde den var en støvsuger"
+WRITING_DRAFT_ID = "utkast-bokstaver"
+WRITING_DRAFT_TITLE = "Bokstaver ingen har sett på ennå"
 
 
 def draft() -> ReadingSet:
@@ -78,6 +83,28 @@ def draft() -> ReadingSet:
     )
 
 
+def writing_draft() -> WritingSet:
+    """The same shape again for handwriting: one checkpoint, one unreviewed
+    prompt, so the listing 404s outright rather than thinning out."""
+    return WritingSet(
+        subject=SUBJECT,
+        goal_set=GOAL_SET,
+        prompts=[
+            WritingPrompt(
+                id=WRITING_DRAFT_ID,
+                goal="KM14147",
+                language="nb",
+                title=WRITING_DRAFT_TITLE,
+                kind="letters",
+                text="il",
+                difficulty=1,
+                source="pensum",
+                reviewed=False,
+            )
+        ],
+    )
+
+
 def settings_with(**overrides: object) -> Settings:
     defaults: dict[str, object] = {
         "oidc_issuer": "https://id.example.com",
@@ -94,11 +121,15 @@ def build(settings: Settings | None = None) -> tuple[FastAPI, TestClient]:
     # Real norms, because the bands are not what is under test here and a
     # passage with no band renders differently.
     library = ReadingLibrary([draft()], ReadingLibrary.load().norms)
+    # Real letterforms, because the alphabet is not what is under test and a
+    # prompt whose characters cannot be drawn is withheld for a different reason.
+    writing = WritingLibrary([writing_draft()], load_alphabet())
     app = create_app(
         Catalogue.load(),
         ItemBank.load(),
         settings=settings if settings is not None else settings_with(),
         reading=library,
+        writing=writing,
     )
     return app, TestClient(app, base_url=ORIGIN)
 
@@ -147,6 +178,26 @@ def test_a_draft_is_never_reachable_by_guessing_its_url() -> None:
     assert client.post(f"{READING_PATH}/{DRAFT_ID}/tid", data={"seconds": "30"}).status_code == 404
 
 
+def test_an_anonymous_pupil_sees_no_unreviewed_writing() -> None:
+    _, client = build()
+
+    assert client.get(WRITING_PATH).status_code == 404
+    assert "/skriving" not in client.get(SUBJECT_PATH).text
+
+
+def test_a_writing_draft_is_never_reachable_by_guessing_its_url() -> None:
+    """Including the endpoint that marks one: a draft that could not be listed
+    but could be scored would still be a draft put in front of a child."""
+    _, client = build()
+    sign_in(client, PUPIL)
+
+    assert client.get(f"{WRITING_PATH}/{WRITING_DRAFT_ID}").status_code == 404
+    marked = client.post(
+        f"{WRITING_PATH}/{WRITING_DRAFT_ID}/spor", json={"seconds": 5.0, "glyphs": []}
+    )
+    assert marked.status_code == 404
+
+
 # --- the positive case -----------------------------------------------------
 
 
@@ -172,6 +223,17 @@ def test_an_administrator_can_read_a_draft_passage_through() -> None:
 
     assert page.status_code == 200
     assert scored.status_code == 200
+
+
+def test_an_administrator_sees_the_writing_drafts_and_that_they_are_drafts() -> None:
+    _, client = build()
+    sign_in(client, ADMIN)
+
+    listing = client.get(WRITING_PATH)
+
+    assert listing.status_code == 200
+    assert WRITING_DRAFT_TITLE in listing.text
+    assert "Utkast" in listing.text
 
 
 def test_the_subject_page_tells_an_administrator_why_it_looks_different() -> None:

@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}{{ t("writing.heading") }} · {{ subject.display_title.get(lang) }}{% endblock %}
+
+{% block content %}
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="/{{ locale }}/">{{ t("nav.home") }}</a> ›
+    <a href="/{{ locale }}/klasse/{{ grade }}">{{ t("grade.heading", grade=grade) }}</a> ›
+    <a href="/{{ locale }}/klasse/{{ grade }}/{{ subject.code }}">{{ subject.display_title.get(lang) }}</a>
+  </nav>
+
+  <h1>{{ t("writing.heading") }}</h1>
+  <p>{{ t("writing.intro") }}</p>
+
+  {# Said before a child picks a set rather than after they have opened one and
+     found it does not work: this exercise wants a finger on glass. A trackpad
+     can drive it, and driving it with a trackpad is not handwriting. #}
+  <p class="note note--touch">{{ t("writing.touch_note") }}</p>
+
+  <ul class="writing-list">
+    {% for prompt in prompts %}
+      <li>
+        <a href="/{{ locale }}/klasse/{{ grade }}/{{ subject.code }}/skriving/{{ prompt.id }}">
+          {{ prompt.title }}
+        </a>
+        {# The characters themselves, so a set can be chosen by looking at it.
+           A six-year-old picking an exercise reads the letters, not the title. #}
+        <span class="writing-preview" lang="{{ prompt.language }}" aria-hidden="true">{{ prompt.text }}</span>
+        <span class="count">{{ t("writing.character_count", count=prompt.characters | length) }}</span>
+        {% if drafts_visible and not prompt.reviewed %}
+          <span class="badge badge--draft">{{ t("review.draft") }}</span>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
+  {# The same line the quiz and the reading list draw: the letterforms are ours,
+     and no part of them is curriculum text. #}
+  <p class="note">
+    {{ t("writing.authored_note") }}
+    <a href="/{{ locale }}/rettigheter">{{ t("rights.link") }}</a>
+  </p>
+{% endblock %}

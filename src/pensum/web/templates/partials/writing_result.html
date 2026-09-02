@@ -1,0 +1,72 @@
+{# The outcome of one prompt. Rendered into the writing page, never on its own.
+
+   Everything here is derived from where the finger went. There is no second
+   source: no model, no recording, and nothing remembered from last time. #}
+
+<div class="writing-result" id="writing-result-card">
+  <h2>{{ t("writing.result_heading") }}</h2>
+
+  {% if rewards.any_earned %}
+    <ul class="badges">
+      {% if rewards.finished %}
+        {# The badge that cannot mislead: every letter was written. A wobbly
+           finger earns exactly what a steady one earns. #}
+        <li class="badge badge--finished">{{ t("writing.badge_finished") }}</li>
+      {% endif %}
+      {% if rewards.even %}
+        <li class="badge badge--even">{{ t("writing.badge_even") }}</li>
+      {% endif %}
+    </ul>
+  {% endif %}
+
+  <p class="stars" aria-label="{{ t('writing.stars_label', stars=rewards.stars, max=max_stars) }}">
+    {% for n in range(max_stars) %}
+      <span class="star {{ 'star--on' if n < rewards.stars else 'star--off' }}" aria-hidden="true">★</span>
+    {% endfor %}
+  </p>
+
+  {# Per letter, because the average hides the one that went wrong -- and the one
+     that went wrong is the only actionable thing on this page. #}
+  <ol class="writing-marks" lang="{{ prompt.language }}">
+    {% for glyph in mark.glyphs %}
+      <li class="writing-mark {{ 'writing-mark--unattempted' if not glyph.attempted }}">
+        <span class="writing-mark-char">{{ glyph.char }}</span>
+        {% if not glyph.attempted %}
+          <span class="writing-mark-note">{{ t("writing.not_written") }}</span>
+        {% else %}
+          <span class="writing-mark-score">{{ (glyph.score * 100) | round | int }}%</span>
+          {# Named faults rather than a lower number. "You went the other way
+             round" is something a child can do differently next time; 71% is
+             not. #}
+          {% if glyph.missed %}
+            <span class="writing-mark-note">{{ t("writing.missed_strokes", count=glyph.missed) }}</span>
+          {% endif %}
+          {% if glyph.backwards %}
+            <span class="writing-mark-note">{{ t("writing.backwards", count=glyph.backwards) }}</span>
+          {% endif %}
+          {% if not glyph.in_order %}
+            {# Costs almost nothing in the score, and is worth saying anyway:
+               stroke order is the part of handwriting nobody can see afterwards. #}
+            <span class="writing-mark-note">{{ t("writing.out_of_order") }}</span>
+          {% endif %}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ol>
+
+  {% if not mark.finished %}
+    <p class="note">{{ t("writing.stopped_early", written=mark.attempted, total=mark.glyphs | length) }}</p>
+  {% endif %}
+
+  <div class="writing-again">
+    <button class="button" type="button" id="writing-again">{{ t("writing.again") }}</button>
+  </div>
+
+  {# Directly under the number, for the same reason the reading page puts its
+     caveat under the stars: a fingertip on glass is a blunt instrument, and a
+     percentage printed without that context reads as a judgement of the child
+     rather than of the tracing. #}
+  <p class="note note--source">{{ t("writing.score_caveat") }}</p>
+
+  <p class="not-a-verdict">{{ t("writing.not_a_verdict") }}</p>
+</div>

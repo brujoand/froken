@@ -105,3 +105,13 @@ repos:
         language: system
         files: ^(data/(reading|curriculum)/|src/pensum/reading/)
         pass_filenames: false
+
+      # And again for handwriting, plus one more of its own: a prompt asking for
+      # a character the alphabet cannot draw is dropped by the library, so the
+      # exercise quietly loses a letter rather than failing.
+      - id: validate-writing
+        name: Validate writing prompts and letterforms
+        entry: uv run python -m pensum.writing.validate
+        language: system
+        files: ^(data/(writing|curriculum)/|src/pensum/writing/)
+        pass_filenames: false
