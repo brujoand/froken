@@ -41,23 +41,28 @@ const constants = {};
 for (const [, name, value] of src.matchAll(/var\s+([A-Z][A-Z_]+)\s*=\s*(-?[\d.]+)\s*;/g)) {
   constants[name] = Number(value);
 }
-for (const name of ["TOLERANCE", "MIN_STEP", "MAX_POINTS", "MAX_STROKES"]) {
+for (const name of ["TOLERANCE", "MIN_STEP", "MAX_POINTS", "MAX_STROKES", "SNAP_PULL", "TAP_MARK"]) {
   if (!(name in constants)) throw new Error(`writing.js no longer defines ${name}`);
 }
 const TOLERANCE = constants.TOLERANCE;
+const SNAP_PULL = constants.SNAP_PULL;
+const TAP_MARK = constants.TAP_MARK;
 
 const loaded = new Function(
   [
     "var TOLERANCE = " + TOLERANCE + ";",
     grabFunction("distance"),
     grabFunction("nearest"),
+    grabFunction("nearestPoint"),
+    grabFunction("snapped"),
+    grabFunction("tapMark"),
     grabFunction("covered"),
     grabFunction("pathData"),
-    "return { distance: distance, nearest: nearest, covered: covered, pathData: pathData };",
+    "return { distance, nearest, nearestPoint, snapped, tapMark, covered, pathData };",
   ].join("\n")
 )();
 
-const { distance, nearest, covered, pathData } = loaded;
+const { distance, nearest, nearestPoint, snapped, tapMark, covered, pathData } = loaded;
 
 /* --- a tiny harness ------------------------------------------------------ */
 
@@ -137,6 +142,53 @@ near(
   0,
   0.0001
 );
+
+/* --- tidying the ink ----------------------------------------------------- */
+
+/* The promise the snapping makes is narrow, and both halves of it matter: ink
+ * that is already on the line is pulled onto it, and ink that is not is left
+ * exactly where the finger put it. Without the second half, "auto-perfecting"
+ * would quietly turn a scribble into a letter and score it as one. */
+{
+  const guides = [stem(20, 120)];
+
+  const wobble = snapped([53, 70], guides, TOLERANCE, SNAP_PULL);
+  check("ink beside the line is pulled towards it", distance(wobble, [50, 70]) < 3);
+  check("ink beside the line is not teleported onto it", distance(wobble, [50, 70]) > 0);
+
+  const astray = snapped([90, 70], guides, TOLERANCE, SNAP_PULL);
+  check("ink well off the line is left alone", astray[0] === 90 && astray[1] === 70);
+
+  const already = snapped([50, 70], guides, TOLERANCE, SNAP_PULL);
+  check("ink on the line stays on the line", nearest(already, guides[0]) < 0.001);
+
+  near("the nearest guide point is the one below the ink", nearestPoint([53, 70], guides).gap, 3, 1.01);
+  check("no guides means nothing to snap to", nearestPoint([53, 70], []).at === null);
+}
+
+/* --- a tap is a dot ------------------------------------------------------- */
+
+/* The dot on an `i` is a 4-unit stroke in the letterforms, and a tap has no
+ * length at all. Before this, a tap was discarded for having one point, so the
+ * only way to dot an `i` was to wiggle -- and the letter scored half marks for
+ * a dot that was never accepted. */
+{
+  const dot = tapMark([50, 40], TAP_MARK);
+  check("a tap becomes two points", dot.length === 2);
+  check("a tap keeps its place", dot[0][0] === 50 && dot[1][0] === 50);
+  near("a tap is as long as the dot it draws", distance(dot[0], dot[1]), TAP_MARK, 0.0001);
+  /* Downwards, which is the direction the `i` and `j` dots are authored in.
+   * Backwards would cost the stroke a quarter of its mark for a gesture that
+   * has no direction at all. */
+  check("a tap runs downwards", dot[0][1] < dot[1][1]);
+
+  const guide = [
+    [50, 38],
+    [50, 40],
+    [50, 42],
+  ];
+  near("a tapped dot covers the dot", covered(guide, [dot]), 1, 0.0001);
+}
 
 /* --- what gets drawn ----------------------------------------------------- */
 
