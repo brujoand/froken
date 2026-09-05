@@ -32,6 +32,42 @@ Every question needs:
     listed under `accept`. There is no model grading answers at runtime; an
     answer not on the list is marked wrong.
 
+## Drawing the question
+
+A question may carry a `figure`: a picture rendered above the answers. Most
+questions do not need one and should not have one — a figure that adds nothing
+is clutter on a page a seven-year-old is reading. Add one when the prompt
+describes something a pupil is meant to *see*, and the seeing is not the skill
+being tested.
+
+Five kinds:
+
+- `shape` — a named plane figure. Sides, corners, right angles and a triangle's
+  height can be labelled the way a textbook labels them.
+- `counters` — dots to count, optionally split into equal groups, optionally
+  part filled in.
+- `array` — a rectangle of unit squares. Area before the formula, and
+  multiplication as a rectangle.
+- `fraction` — one to four wholes, as bars or circles, cut into equal parts with
+  some of them shaded.
+- `number_line` — a ruled line, with marks on it and jumps drawn above it.
+
+Two rules decide whether a figure belongs, and they matter more than which kind
+you pick:
+
+1. **A figure may show what the prompt already says. It may not show anything
+   the prompt withholds.** *A chocolate bar in 8 pieces, 3 eaten* can be drawn
+   as 8 pieces with 3 shaded, because the sentence already said so. *Which of
+   these two triangles has the longer side* must not be drawn, because the
+   drawing is then the answer.
+2. **The `alt` text says what is drawn, including anything a sighted reader
+   would have to count.** A reader who cannot see the picture must still be able
+   to answer the question. Never write alt text that withholds the thing the
+   figure exists to show.
+
+If a figure would break either rule, leave it out. A question with no picture is
+always acceptable.
+
 ## Refusing is a valid answer, and often the right one
 
 Many competence goals describe things a pupil **does** rather than knows —

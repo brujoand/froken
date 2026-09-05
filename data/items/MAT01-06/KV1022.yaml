@@ -358,6 +358,15 @@ items:
         hver. Hvor mange ruter dekker rektangelet?
       en: A rectangle is covered by equal squares. There are 3 rows with 4
         squares in each. How many squares cover the rectangle?
+    figure:
+      kind: array
+      rows: 3
+      columns: 4
+      row_label: "3"
+      column_label: "4"
+      alt:
+        nb: Et rektangel dekket av like ruter, 3 rader med 4 ruter i hver.
+        en: A rectangle covered by equal squares, 3 rows of 4.
     answer: 12
     explanation:
       nb: Arealet er hvor mange ruter som dekker figuren. 3 rader med 4 ruter er

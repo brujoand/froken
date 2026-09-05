@@ -59,6 +59,11 @@ def smells(item: QuizItem, after_year: int) -> list[str]:
     if item.explanation.nb.strip() == item.prompt.nb.strip():
         found.append("explanation restates the prompt")
 
+    if item.figure is not None and not item.figure.alt.nb.strip():
+        # Whitespace passes the schema's minimum length, and a figure with no
+        # alt text is a question a screen reader cannot answer.
+        found.append("figure has blank alt text")
+
     return found
 
 
@@ -79,6 +84,12 @@ def report(item_set: ItemSet, catalogue: Catalogue) -> None:
     for item in item_set.items:
         by_type[item.type] = by_type.get(item.type, 0) + 1
     print(f"  types: {', '.join(f'{k}={v}' for k, v in sorted(by_type.items()))}")
+
+    # Nothing here can judge whether a picture says the same thing as its
+    # prompt, so the only useful output is to say which items have one and where
+    # to go and look at them.
+    if figured := [i.id for i in item_set.items if i.figure is not None]:
+        print(f"  {len(figured)} with a figure: see tools/render_figures.py {item_set.subject}")
 
     for item in item_set.items:
         if problems := smells(item, goal_set.after_year):

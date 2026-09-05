@@ -46,8 +46,14 @@ items:
     type: numeric
     difficulty: 1
     prompt:
-      nb: "Hvor mange er dette? ●●●●●●●"
-      en: "How many is this? ●●●●●●●"
+      nb: "Hvor mange prikker er det?"
+      en: "How many dots are there?"
+    figure:
+      kind: counters
+      count: 7
+      alt:
+        nb: Sju prikker på en rad.
+        en: Seven dots in a row.
     answer: 7
     explanation:
       nb: Det er sju prikker. Tell én om gangen.
@@ -62,6 +68,26 @@ items:
     prompt:
       nb: "Vi teller baklengs: 20, 18, 16, 14 … Hvilket tall kommer nå?"
       en: "Counting backwards: 20, 18, 16, 14 … which number comes next?"
+    figure:
+      kind: number_line
+      start: 10
+      end: 20
+      step: 2
+      jumps:
+        - start: 20
+          end: 18
+          label: "−2"
+        - start: 18
+          end: 16
+          label: "−2"
+        - start: 16
+          end: 14
+          label: "−2"
+      alt:
+        nb: En tallinje fra 10 til 20 med hopp bakover fra 20 til 18, til 16 og
+          til 14.
+        en: A number line from 10 to 20 with jumps backwards from 20 to 18, to 16
+          and to 14.
     answer: 12
     explanation:
       nb: Vi teller to av gangen nedover, så etter 14 kommer 12.
@@ -218,6 +244,12 @@ items:
     prompt:
       nb: Hvor mange hjørner har en trekant?
       en: How many corners does a triangle have?
+    figure:
+      kind: shape
+      shape: triangle
+      alt:
+        nb: En trekant.
+        en: A triangle.
     choices:
       - id: a
         text:

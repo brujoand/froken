@@ -14,6 +14,13 @@
     </dl>
   {% endif %}
 
+  {# The question is gone from the screen by now, swapped out for this. An
+     explanation that says "the shaded part" with nothing shaded next to it is
+     an explanation of something the pupil can no longer see. #}
+  {% with figure = item.figure %}
+    {% if figure %}{% include "partials/figure.html" with context %}{% endif %}
+  {% endwith %}
+
   <p class="explanation">{{ item.explanation.get(locale) }}</p>
 </div>
 

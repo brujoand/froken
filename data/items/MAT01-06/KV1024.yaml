@@ -116,6 +116,15 @@ items:
         brøk har du spist?
       en: A chocolate bar is split into 8 equal pieces. You eat 3 of them. Which
         fraction have you eaten?
+    figure:
+      kind: fraction
+      shape: bar
+      rows:
+        - parts: 8
+          shaded: 3
+      alt:
+        nb: En sjokolade delt i åtte like biter, der tre av dem er spist.
+        en: A chocolate bar in eight equal pieces, three of them eaten.
     choices:
       - id: a
         text:
@@ -145,6 +154,16 @@ items:
     prompt:
       nb: Hvilken brøk er like stor som 2/4?
       en: Which fraction is the same size as 2/4?
+    figure:
+      kind: fraction
+      shape: bar
+      rows:
+        - parts: 4
+          shaded: 2
+          label: "2/4"
+      alt:
+        nb: En strimmel delt i fire like deler, der to er fargelagt.
+        en: A bar split into four equal parts, two of them coloured in.
     choices:
       - id: a
         text:

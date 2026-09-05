@@ -15,6 +15,7 @@ from fastapi.templating import Jinja2Templates
 
 from pensum import __version__
 from pensum.i18n import SUPPORTED_LOCALES, curriculum_language, translate
+from pensum.items.figures import draw as draw_figure
 from pensum.web.deps import current_user, get_settings, sees_unreviewed
 
 TEMPLATES_DIR = Path(__file__).parent / "templates"
@@ -33,6 +34,13 @@ def _day(value: datetime) -> str:
 
 
 templates.env.filters["day"] = _day
+
+# The geometry of a question's figure, resolved for whichever locale the page is
+# in. A global rather than a filter because it takes the locale as well as the
+# figure, and computed here rather than in the route because every page that
+# shows a question -- the question itself, and the feedback that replaces it --
+# needs the same drawing from the same item.
+templates.env.globals["draw_figure"] = draw_figure
 
 
 def validate_locale(locale: str) -> None:

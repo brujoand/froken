@@ -21,27 +21,25 @@ from typing import Literal
 
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
-# Our own text is authored in the two UI locales, unlike curriculum text, which
-# arrives from Udir in every maalform it was published in.
-BOKMAAL = "nb"
-ENGLISH = "en"
+from pensum.items.figures import Figure
+from pensum.items.text import BOKMAAL, ENGLISH, AuthoredText
+
+# Re-exported: `AuthoredText` reads as part of the item schema even though it
+# lives next door so that figures can use it without an import cycle.
+__all__ = [
+    "BOKMAAL",
+    "ENGLISH",
+    "AuthoredText",
+    "Choice",
+    "ItemSet",
+    "NotAssessable",
+    "QuizItem",
+]
 
 ItemKind = Literal["multiple_choice", "numeric", "short_text"]
 
 MIN_CHOICES = 3
 MAX_DIFFICULTY = 3
-
-
-class AuthoredText(BaseModel):
-    """A string we wrote, in both UI locales. Bokmål is required."""
-
-    model_config = ConfigDict(frozen=True)
-
-    nb: str = Field(min_length=1)
-    en: str = Field(min_length=1)
-
-    def get(self, locale: str) -> str:
-        return self.en if locale == ENGLISH else self.nb
 
 
 class Choice(BaseModel):
@@ -65,6 +63,12 @@ class QuizItem(BaseModel):
     difficulty: int = Field(ge=1, le=MAX_DIFFICULTY)
     prompt: AuthoredText
     explanation: AuthoredText
+
+    # A picture of what the prompt describes, where the prompt describes
+    # something you are supposed to see. Optional by construction: most
+    # questions do not need one, and a figure that adds nothing is clutter on a
+    # page a seven-year-old is reading.
+    figure: Figure | None = None
 
     choices: tuple[Choice, ...] = ()
     answer: float | None = None

@@ -212,6 +212,17 @@ items:
         sidelengden?
       en: A square has sides of 4 cm. What happens to the area if you double the
         side length?
+    figure:
+      kind: shape
+      shape: square
+      sides:
+        - "4 cm"
+        - ""
+        - ""
+        - ""
+      alt:
+        nb: Et kvadrat med sider på 4 cm.
+        en: A square with 4 cm sides.
     choices:
       - id: a
         text:
@@ -243,6 +254,19 @@ items:
         grunnlinja være som før. Hvor mange ganger så stort blir arealet?
       en: The area of a triangle is b × h ÷ 2. You triple the height and leave the
         base unchanged. How many times as big does the area get?
+    figure:
+      kind: shape
+      shape: triangle
+      height: h
+      sides:
+        - ""
+        - g
+        - ""
+      alt:
+        nb: En trekant med grunnlinja g og høyden h tegnet fra toppunktet ned
+          til grunnlinja.
+        en: A triangle with base g and height h drawn from the apex down to the
+          base.
     answer: 3
     explanation:
       nb: Høyden er én faktor i formelen. Ganger du bare den med 3, blir hele
