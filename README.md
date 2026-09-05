@@ -522,6 +522,77 @@ Without JavaScript there is no exercise and the page says so. Unlike the writing
 screen, there is nothing to fall back to: the word is the exercise, and the
 browser is what speaks it.
 
+## Drawing the question
+
+A lot of matematikk is a sentence about an object. *A rectangle is covered by
+equal squares; there are 3 rows of 4* is twenty words a seven-year-old has to
+decode before they can start counting, and a question about the area of a
+triangle asks a ten-year-old to hold a shape in their head that the page could
+simply have shown them. A quiz item can therefore carry a **figure**, drawn
+above its answers.
+
+Five kinds, chosen from what the committed questions actually describe:
+
+| | for | shows |
+|---|---|---|
+| `shape` | geometry | a named plane figure, with sides, vertices, right angles and an altitude labelled as a textbook labels them |
+| `counters` | counting, grouping | dots to count, optionally split into equal groups or partly filled in |
+| `array` | area, multiplication | a rectangle made of unit squares — the one figure drawn to scale, because its cells can be counted |
+| `fraction` | parts of a whole | one to four wholes as bars or as circles, cut into equal parts with some of them shaded |
+| `number_line` | counting on and back, place value | a ruled line with marks, and jumps drawn as directed arcs above it |
+
+**A figure is declared, not drawn.** An item names a kind and its parameters:
+`parts: 4, shaded: 1` is either one quarter or it is a typo somebody can see.
+Nothing in the data is an SVG path or a markup fragment. That is the reverse of
+the decision the alphabet makes, and for the same reason — a letterform *is* its
+path, so it is authored as one, whereas nobody can review `M20,20L180,180`
+against the sentence it is supposed to illustrate.
+
+The geometry is arithmetic in `pensum/items/figures.py`, and the template loops
+over the paths, dots and labels it produces. So the drawing is asserted in tests
+rather than inspected in a browser: that 2/4 shades the same width as 1/2, that
+a square is drawn square, that a jump backwards points left.
+
+```bash
+uv run python tools/render_figures.py > /tmp/figures.html    # every committed figure
+uv run python tools/render_figures.py --gallery > /tmp/g.html  # one of each kind
+```
+
+The first sheet puts each figure under the prompt it belongs to, which is the
+only way to answer the question a reviewer actually has: does the picture say
+the same thing as the words? The second ignores the data and draws every shape
+and option, including the ones no item uses yet — that is the sheet to look at
+after changing the geometry.
+
+### What a figure may and may not give away
+
+**A figure may show what the prompt already says. It may not show anything the
+prompt withholds.** A question that names a chocolate bar in eight pieces can be
+drawn as eight pieces; a question asking which of two triangles has the longer
+side cannot be drawn with one of them visibly longer, because then the picture
+is the answer and the question is gone. This is a judgement per item, and it is
+the thing to check when reviewing one.
+
+**Alt text says what is drawn, including what a sighted reader would have to
+count.** The alternative is a coy description that leaves a screen-reader user
+holding an unanswerable question, which is worse than telling them. Every figure
+carries its alt text in both UI locales, and no figure loads without one.
+
+**No figure carries a colour.** Every stroke and fill comes from the same
+stylesheet variables the rest of the page uses, so dark mode and a high-contrast
+setting reach a figure without it knowing they exist, and no single question can
+opt itself out. A test asserts the rendered markup has no `fill`, no `stroke`
+and no hex colour in it.
+
+**It is plain SVG, rendered server-side, and needs no script.** For several of
+these questions the picture is half of the prompt, and half a prompt that
+appears only when JavaScript does is not a prompt.
+
+**A figure inherits its item's review state**, because it is part of the
+question rather than an illustration beside it. Adding one to a question that
+was already reviewed changes what that question tests, so it wants the reviewer
+back — `tools/render_figures.py` is what to hand them.
+
 ## Development
 
 ```bash

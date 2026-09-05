@@ -1484,3 +1484,81 @@ body.reading-focus .reading-text {
 .listening--mute .listening-position {
   display: none;
 }
+
+/* Question figures. Every colour comes from the same variables the rest of the
+   page uses, so a figure inherits dark mode and high-contrast settings without
+   knowing they exist -- and so no item can author a colour of its own. */
+.figure {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 1rem auto 1.25rem;
+}
+
+.figure-outline {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 2;
+  stroke-linejoin: round;
+}
+
+/* Shaded parts are the accent at low opacity rather than a solid block: the
+   outline underneath has to stay readable, because in a fraction figure the
+   division into parts is as much of the answer as the shading is. */
+.figure-fill {
+  fill: var(--accent);
+  fill-opacity: 0.3;
+  stroke: var(--ink);
+  stroke-width: 2;
+  stroke-linejoin: round;
+}
+
+/* Dashed, and the same idea as the writing guides: a height, a radius or a
+   right-angle mark is something added to the shape to explain it, not part of
+   the shape. */
+.figure-guide {
+  fill: none;
+  stroke: var(--ink-soft);
+  stroke-width: 1.6;
+  stroke-dasharray: 5 4;
+  stroke-linejoin: round;
+}
+
+.figure-axis {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+
+.figure-jump,
+.figure-jump-head {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+/* A counter is a dot, and a dot is a circle: outline means "not yet", fill
+   means "counted". They have to differ by more than colour alone, so the
+   unfilled one keeps the paper showing through. */
+circle.figure-outline {
+  fill: var(--card);
+}
+
+circle.figure-fill {
+  fill: var(--accent);
+  fill-opacity: 1;
+}
+
+circle.figure-mark {
+  fill: var(--ink);
+  stroke: none;
+}
+
+.figure-label {
+  fill: var(--ink);
+  font-family: inherit;
+  font-weight: 600;
+}

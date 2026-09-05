@@ -1,0 +1,35 @@
+{# The picture that goes with a question, drawn server-side from the item's
+   declared figure. No script: this has to be there on a page that never runs
+   any, because it is not decoration -- for several of these questions it is the
+   half of the prompt a child can actually read.
+
+   `role="img"` with the authored alt, and every part of the drawing hidden from
+   assistive tech: a screen reader given the paths would read out a list of
+   coordinates, which is worse than silence. The alt text is the figure, as far
+   as anything that cannot see it is concerned. #}
+{% set drawing = draw_figure(figure, locale) %}
+<svg class="figure"
+     viewBox="0 0 {{ "%.0f"|format(drawing.width) }} {{ "%.0f"|format(drawing.height) }}"
+     style="max-width: {{ "%.0f"|format(drawing.width * 0.11) }}rem"
+     role="img"
+     aria-label="{{ drawing.alt }}">
+  {% for path in drawing.paths %}
+    <path class="figure-{{ path.role }}" d="{{ path.d }}" aria-hidden="true" />
+  {% endfor %}
+  {% for dot in drawing.dots %}
+    <circle class="figure-{{ dot.role }}"
+            cx="{{ "%.2f"|format(dot.cx) }}"
+            cy="{{ "%.2f"|format(dot.cy) }}"
+            r="{{ "%.2f"|format(dot.r) }}"
+            aria-hidden="true" />
+  {% endfor %}
+  {% for label in drawing.labels %}
+    <text class="figure-{{ label.role }}"
+          x="{{ "%.2f"|format(label.x) }}"
+          y="{{ "%.2f"|format(label.y) }}"
+          font-size="{{ "%.1f"|format(label.size) }}"
+          text-anchor="{{ label.anchor }}"
+          dominant-baseline="{{ label.baseline }}"
+          aria-hidden="true">{{ label.text }}</text>
+  {% endfor %}
+</svg>

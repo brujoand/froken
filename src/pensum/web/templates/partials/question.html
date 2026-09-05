@@ -18,6 +18,12 @@
        styled apart from the .curriculum blockquotes for the same reason. #}
     <h2 class="prompt">{{ item.prompt.get(locale) }}</h2>
 
+    {# Under the prompt, above the answers: the picture is part of reading the
+       question, not an illustration of it. #}
+    {% with figure = item.figure %}
+      {% if figure %}{% include "partials/figure.html" with context %}{% endif %}
+    {% endwith %}
+
     {% if item.type == "multiple_choice" %}
       <ul class="choices">
         {% for choice in item.choices %}

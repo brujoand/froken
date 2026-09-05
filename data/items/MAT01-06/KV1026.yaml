@@ -14,6 +14,16 @@ items:
     prompt:
       nb: Hvor mange prosent er det samme som brøken 1/4?
       en: How many percent is the same as the fraction 1/4?
+    figure:
+      kind: fraction
+      shape: bar
+      rows:
+        - parts: 4
+          shaded: 1
+          label: "1/4"
+      alt:
+        nb: En strimmel delt i fire like deler, der én er fargelagt.
+        en: A bar split into four equal parts, one of them coloured in.
     answer: 25
     explanation:
       nb: En hel er 100 prosent. En firedel av 100 er 25, så 1/4 er 25 prosent.

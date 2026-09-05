@@ -43,6 +43,125 @@ ITEMS_PER_GOAL = 3
 # age N+5. Used only to pitch the reading level.
 AGE_OFFSET = 5
 
+_TEXT = {
+    "type": "object",
+    "properties": {"nb": {"type": "string"}, "en": {"type": "string"}},
+    "required": ["nb", "en"],
+}
+
+# The figure kinds, spelled out for the model rather than derived from the
+# pydantic models. Derived would drift less, but it would also hand the model
+# every internal name and default in `pensum.items.figures`; what belongs in a
+# prompt is the subset an author actually chooses between, described in the
+# words a question is written in.
+FIGURE_SCHEMA: dict[str, Any] = {
+    "type": "object",
+    "description": (
+        "An optional picture of what the prompt describes. Omit it unless the "
+        "question is about something a pupil is meant to see."
+    ),
+    "properties": {
+        "kind": {"enum": ["shape", "counters", "array", "fraction", "number_line"]},
+        "alt": {
+            **_TEXT,
+            "description": (
+                "What the picture shows, for a reader who cannot see it. Say "
+                "what is drawn, including anything a sighted reader would have "
+                "to count."
+            ),
+        },
+        "shape": {
+            "type": "string",
+            "description": (
+                "kind=shape: one of triangle, right_triangle, square, rectangle, "
+                "parallelogram, rhombus, trapezoid, pentagon, hexagon, octagon, "
+                "circle. kind=fraction: bar or circle."
+            ),
+        },
+        "sides": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": (
+                "kind=shape: one label per side, clockwise from the top; use an "
+                "empty string for a side that is not labelled. Either as many as "
+                "the shape has sides, or none at all."
+            ),
+        },
+        "vertices": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "kind=shape: one label per corner, same rule as sides.",
+        },
+        "right_angles": {
+            "type": "array",
+            "items": {"type": "integer"},
+            "description": "kind=shape: corner indices to mark with a right-angle square.",
+        },
+        "height": {
+            "type": ["string", "null"],
+            "description": "kind=shape, triangles only: label for a dashed altitude.",
+        },
+        "shaded": {
+            "type": ["integer", "boolean"],
+            "description": (
+                "How much is filled in: a count for counters and arrays, true or false for a shape."
+            ),
+        },
+        "count": {"type": "integer", "description": "kind=counters: how many dots, up to 40."},
+        "groups": {
+            "type": "array",
+            "items": {"type": "integer"},
+            "description": "kind=counters: equal groups drawn one per row; must sum to count.",
+        },
+        "rows": {
+            "description": (
+                "kind=array: how many rows of cells. kind=fraction: a list of "
+                "wholes, each {parts, shaded, label}."
+            ),
+        },
+        "columns": {"type": "integer", "description": "kind=array: how many cells per row."},
+        "row_label": {"type": ["string", "null"]},
+        "column_label": {"type": ["string", "null"]},
+        "start": {"type": "number", "description": "kind=number_line: leftmost value."},
+        "end": {"type": "number", "description": "kind=number_line: rightmost value."},
+        "step": {"type": "number", "description": "kind=number_line: spacing between ticks."},
+        "label_every": {
+            "type": "integer",
+            "description": "kind=number_line: number every Nth tick, to keep it readable.",
+        },
+        "marks": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "at": {"type": "number"},
+                    "label": {"type": ["string", "null"]},
+                    "unknown": {"type": "boolean"},
+                },
+                "required": ["at"],
+            },
+            "description": "kind=number_line: points called out on the line.",
+        },
+        "jumps": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "start": {"type": "number"},
+                    "end": {"type": "number"},
+                    "label": {"type": ["string", "null"]},
+                },
+                "required": ["start", "end"],
+            },
+            "description": (
+                "kind=number_line: arcs above the line, drawn in the direction "
+                "they run. Put start above end for counting backwards."
+            ),
+        },
+    },
+    "required": ["kind", "alt"],
+}
+
 RESULT_SCHEMA: dict[str, Any] = {
     "type": "object",
     "properties": {
@@ -98,6 +217,7 @@ RESULT_SCHEMA: dict[str, Any] = {
                             "en": {"type": "array", "items": {"type": "string"}},
                         },
                     },
+                    "figure": FIGURE_SCHEMA,
                 },
                 "required": ["type", "difficulty", "prompt", "explanation"],
             },
